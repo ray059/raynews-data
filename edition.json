@@ -1,0 +1,28 @@
+{
+  "edition_date": "2026-02-26",
+  "edition_number": 1,
+  "country": "Colombia",
+  "headlines": [
+    {
+      "titleOriginal": "El dólar sube en Colombia",
+      "summary280": "El dólar cerró la jornada con un aumento frente al peso colombiano tras movimientos en los mercados internacionales y expectativas sobre decisiones económicas en Estados Unidos.",
+      "sourceName": "Portafolio",
+      "sourceUrl": "https://www.portafolio.co",
+      "imageUrl": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f"
+    },
+    {
+      "titleOriginal": "Nueva reforma tributaria presentada",
+      "summary280": "El Gobierno presentó una reforma tributaria que propone ajustes en impuestos empresariales y cambios en beneficios fiscales. El proyecto será debatido en el Congreso en las próximas semanas.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com",
+      "imageUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df"
+    },
+    {
+      "titleOriginal": "Avances en inteligencia artificial",
+      "summary280": "Nuevas herramientas de inteligencia artificial están siendo implementadas por empresas tecnológicas para mejorar procesos productivos y servicios digitales en distintos sectores.",
+      "sourceName": "BBC Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo",
+      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+    }
+  ]
+}
