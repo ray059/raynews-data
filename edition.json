@@ -1,5 +1,5 @@
 {
-  "edition_date": "26 Feb 2026",
+  "edition_date": "2026-02-26",
   "edition_number": 1,
   "country": "Internacional",
   "headlines": [
@@ -9,13 +9,6 @@
       "sourceName": "Univision",
       "sourceUrl": "https://www.univision.com/noticias/estados-unidos/cuba-mata-a-estadounidenses-que-viajaban-en-lancha-rapida-por-que-fue-el-ataque",
       "imageUrl": "https://www.univision.com/api/image/og/us/noticias/estados-unidos/cuba-mata-a-estadounidenses-que-viajaban-en-lancha-rapida-por-que-fue-el-ataque"
-    },
-    {
-      "titleOriginal": "Título no encontrado",
-      "summary280": "",
-      "sourceName": "Fuente desconocida",
-      "sourceUrl": "https://www.nytimes.com/es/2026/02/25/espanol/estados-unidos/trump-discurso.html",
-      "imageUrl": ""
     },
     {
       "titleOriginal": "Estados Unidos adelantó que aumentará los aranceles a algunos países en los próximos días",
@@ -39,18 +32,11 @@
       "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/02/25/1507638185-k3eH-U20908146136QMB-1024x512@diario_abc.jpg"
     },
     {
-      "titleOriginal": "El secreto de la eterna juventud mental: científicos revelan el hábito clave para no perder la lucidez | CNN",
+      "titleOriginal": "El secreto de la eterna juventud mental: científicos revelan el hábito clave para no perder la lucidez",
       "summary280": "Las personas con mentes sumamente agudas en sus 80 y 90 años —conocidas como “SuperAgers” o superancianos— producen el doble de neuronas jóvenes que los adultos cognitivamente sanos y 2,5 veces más que las personas con la enfermedad de Alzheimer, según encontró un nuevo estudio.",
       "sourceName": "CNN",
       "sourceUrl": "https://cnnespanol.cnn.com/2026/02/25/ciencia/habito-cientifico-mantener-lucidez-mental-vejez-trax",
       "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/nu-15888-20260225205426234.jpg?c=16x9&q=w_800,c_fill"
-    },
-    {
-      "titleOriginal": "Título no encontrado",
-      "summary280": "",
-      "sourceName": "Fuente desconocida",
-      "sourceUrl": "https://www.reuters.com/world/markets-react-global-trade-tensions-2026-02-25/",
-      "imageUrl": ""
     }
   ]
 }
