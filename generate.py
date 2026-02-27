@@ -50,7 +50,7 @@ def get_next_edition_number():
 # =============================
 
 def generate_summary_with_ai(text):
-    max_attempts = 5
+    max_attempts = 6
     attempt = 0
     last_summary = ""
 
@@ -59,11 +59,13 @@ Resume la siguiente noticia en máximo 280 caracteres.
 
 Reglas obligatorias:
 - Puede usar una o dos oraciones.
-- Máximo 280 caracteres exactos.
+- Máximo 280 caracteres.
 - Debe terminar en punto.
 - No usar comillas.
 - No usar puntos suspensivos.
-- No dejar frases incompletas.
+- No repetir frases.
+- No dejar estructuras abiertas como: "de la.", "por el.", "en la.", etc.
+- No inventar información.
 - Sintetizar únicamente el hecho principal.
 
 Noticia:
@@ -83,35 +85,50 @@ Noticia:
 
             summary = response.choices[0].message.content.strip()
             summary = re.sub(r'\s+', ' ', summary).strip()
+            summary = summary.replace("..", ".")
 
             last_summary = summary
 
-            # Validaciones
-            valid_length = len(summary) <= 280
-            valid_period = summary.endswith(".")
-            valid_not_preposition = not re.search(r'\b(de|del|a|al|con|por|para|sobre|en)\.$', summary)
+            # -----------------------------
+            # VALIDACIONES FUERTES
+            # -----------------------------
 
-            if valid_length and valid_period and valid_not_preposition:
+            if len(summary) > 280:
+                valid = False
+            elif not summary.endswith("."):
+                valid = False
+            elif re.search(r'\b(de|del|a|al|con|por|para|sobre|en|la|el|los|las)\.$', summary):
+                valid = False
+            elif re.search(r'\.$\s*[A-Z][a-z]+$', summary):  # oración cortada
+                valid = False
+            elif summary.count(".") > 2:  # demasiadas frases
+                valid = False
+            elif len(set(summary.split())) < len(summary.split()) * 0.6:  # posible repetición fuerte
+                valid = False
+            else:
+                valid = True
+
+            if valid:
                 return summary
 
-            # Si falla, pedir reescritura más corta
+            # Si falla, pedir versión más breve y mejor cerrada
             prompt = f"""
-El siguiente resumen no cumple las reglas (máximo 280 caracteres o quedó incompleto).
+El siguiente resumen no cumple las reglas o quedó mal cerrado.
 
-Reescríbelo más breve, completamente cerrado y correcto:
+Reescríbelo correctamente, más breve y totalmente cerrado:
 
 {summary}
 """
-
             attempt += 1
 
         except Exception as e:
             print("❌ Error generando resumen IA:", e)
             break
 
-    # 🔒 Fallback seguro
+    # 🔒 Fallback ultra seguro
     fallback = text[:220].rsplit(" ", 1)[0]
-    return fallback.rstrip(" ,;:") + "."
+    fallback = fallback.rstrip(" ,;:") + "."
+    return fallback
 
 
 # =============================
