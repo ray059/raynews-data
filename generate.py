@@ -134,7 +134,7 @@ def extract_article_data(url):
             print("Texto muy corto:", url)
             return None
 
-        summary = generate_summary_with_ai(article_text[:4000])
+        summary = generate_summary_with_ai(article_text[:6000])
 
         return {
             "titleOriginal": title,
