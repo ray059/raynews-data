@@ -17,6 +17,13 @@ else:
     print("✅ OPENAI_API_KEY detectada")
     client = OpenAI(api_key=API_KEY)
 
+# 🔥 CONFIGURACIÓN ESTRATÉGICA MVP
+MAX_NEWS = 7
+
+# Dominios que bloquean scraping o no valen la pena
+BLOCKED_DOMAINS = [
+    "nytimes.com"
+]
 
 # =============================
 # HELPERS
@@ -54,8 +61,7 @@ def generate_summary_with_ai(text):
         print("⚠ No hay cliente OpenAI. Usando fallback.")
         return fallback_summary(text)
 
-    # 🔥 Reducimos el texto enviado (ahorra tokens)
-    text = text[:1500]
+    text = text[:1500]  # 🔥 límite de texto enviado
 
     max_attempts = 3
     attempt = 0
@@ -76,14 +82,13 @@ Noticia:
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.2,
-                max_tokens=180  # 🔥 reducido
+                max_tokens=180
             )
 
             summary = response.choices[0].message.content.strip()
             summary = clean_text(summary)
             summary = summary.replace("..", ".").replace(" .", ".")
 
-            # Validaciones simples y eficientes
             if (
                 len(summary) <= 280
                 and summary.endswith(".")
@@ -117,6 +122,12 @@ def fallback_summary(text):
 def extract_article_data(url):
     try:
         print("🔎 Procesando:", url)
+
+        # 🔥 Bloqueo de dominios inútiles
+        for domain in BLOCKED_DOMAINS:
+            if domain in url:
+                print(f"⛔ Dominio bloqueado ({domain}). Saltando.")
+                return None
 
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers, timeout=20)
@@ -199,7 +210,14 @@ def main():
     headlines = []
 
     for link in links:
+
+        # 🔥 Corte temprano si ya tenemos suficientes noticias
+        if len(headlines) >= MAX_NEWS:
+            print("🎯 Límite de noticias alcanzado. Deteniendo procesamiento.")
+            break
+
         data = extract_article_data(link)
+
         if data:
             headlines.append(data)
 
