@@ -23,8 +23,7 @@ else:
 # =============================
 
 def clean_text(text):
-    text = re.sub(r'\s+', ' ', text)
-    return text.strip()
+    return re.sub(r'\s+', ' ', text).strip()
 
 
 def clean_noise(text):
@@ -46,49 +45,55 @@ def get_next_edition_number():
 
 
 # =============================
-# RESUMEN IA CON LOGS REALES
+# RESUMEN IA OPTIMIZADO
 # =============================
 
 def generate_summary_with_ai(text):
 
     if not client:
-        print("⚠ No hay cliente OpenAI. Usando fallback directo.")
+        print("⚠ No hay cliente OpenAI. Usando fallback.")
         return fallback_summary(text)
+
+    # 🔥 Reducimos el texto enviado (ahorra tokens)
+    text = text[:1500]
 
     max_attempts = 3
     attempt = 0
 
-    base_prompt = f"""
-Resume la siguiente noticia en máximo 280 caracteres.
-Debe terminar en punto y no dejar frases abiertas.
+    prompt = f"""Resume la siguiente noticia en máximo 280 caracteres.
+Debe terminar en punto.
+Explica únicamente el hecho principal sin frases abiertas.
 
 Noticia:
 {text}
 """
 
-    prompt = base_prompt
-
     while attempt < max_attempts:
         try:
             print(f"🔵 Intento {attempt+1} llamando a OpenAI...")
+
             response = client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.2,
-                max_tokens=300
+                max_tokens=180  # 🔥 reducido
             )
 
-            print("✅ Llamada a OpenAI exitosa")
-
             summary = response.choices[0].message.content.strip()
-            summary = re.sub(r'\s+', ' ', summary).strip()
+            summary = clean_text(summary)
             summary = summary.replace("..", ".").replace(" .", ".")
 
-            if len(summary) <= 280 and summary.endswith("."):
+            # Validaciones simples y eficientes
+            if (
+                len(summary) <= 280
+                and summary.endswith(".")
+                and ".." not in summary
+            ):
+                print("✅ Resumen válido generado por IA")
                 return summary
 
             print("⚠ Resumen inválido, reintentando...")
-            prompt = f"Reescribe correctamente este resumen y ciérralo bien:\n\n{summary}"
+            prompt = f"Corrige y acorta este resumen a máximo 280 caracteres y ciérralo correctamente:\n\n{summary}"
             attempt += 1
 
         except Exception as e:
@@ -101,7 +106,7 @@ Noticia:
 
 def fallback_summary(text):
     print("🟡 Generando resumen por fallback (NO IA)")
-    fallback = text[:220].rsplit(" ", 1)[0]
+    fallback = text[:200].rsplit(" ", 1)[0]
     return fallback.rstrip(" ,;:") + "."
 
 
@@ -136,11 +141,7 @@ def extract_article_data(url):
         source = source_tag["content"] if source_tag else "Fuente"
 
         article = soup.find("article")
-
-        if article:
-            paragraphs = article.find_all("p")
-        else:
-            paragraphs = soup.find_all("p")
+        paragraphs = article.find_all("p") if article else soup.find_all("p")
 
         clean_paragraphs = []
 
@@ -149,11 +150,7 @@ def extract_article_data(url):
 
             if len(text_p) < 50:
                 continue
-            if "Publicidad" in text_p:
-                continue
-            if "Suscríbete" in text_p:
-                continue
-            if "©" in text_p:
+            if any(x in text_p for x in ["Publicidad", "Suscríbete", "©"]):
                 continue
 
             clean_paragraphs.append(text_p)
@@ -167,7 +164,7 @@ def extract_article_data(url):
 
         print("✔ Texto extraído:", len(article_text), "caracteres")
 
-        summary = generate_summary_with_ai(article_text[:3000])
+        summary = generate_summary_with_ai(article_text)
 
         return {
             "titleOriginal": title,
