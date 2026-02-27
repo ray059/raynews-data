@@ -52,13 +52,17 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en una oración breve y directa.
+Escribe UNA sola oración clara, completa y bien cerrada que explique el hecho principal de la noticia.
 
-Máximo 220 caracteres.
-No usar comillas.
-No usar puntos suspensivos.
-No repetir frases.
-Sintetizar el hecho principal.
+Reglas:
+- Máximo 240 caracteres.
+- Debe ser una oración completa.
+- Debe tener sujeto y verbo.
+- No puede quedar incompleta.
+- No usar comillas.
+- No usar puntos suspensivos.
+- Debe terminar con punto.
+- No repetir información.
 
 Noticia:
 {text}
@@ -68,30 +72,23 @@ Noticia:
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
-            max_tokens=100
+            max_tokens=110
         )
 
         summary = response.choices[0].message.content.strip()
         summary = re.sub(r'\s+', ' ', summary).strip()
 
-        # 🔥 Cortar estrictamente en el primer punto real
-        if "." in summary:
-            first_part = summary.split(".")[0].strip()
-        else:
-            first_part = summary
+        # 🔒 Validación fuerte de integridad
+        if not summary.endswith("."):
+            summary += "."
 
-        summary = first_part
-
-        # Evitar repeticiones tipo "Inter Miami ... Inter Miami ..."
-        words = summary.split()
-        if len(words) > 6 and words[:4] == words[4:8]:
-            summary = " ".join(words[:4])
-
-        # Límite máximo absoluto
+        # 🔒 Corte limpio SOLO si excede límite absoluto
         if len(summary) > 280:
-            summary = summary[:280].rsplit(" ", 1)[0]
+            summary = summary[:280].rsplit(" ", 1)[0].rstrip(" ,;:") + "."
 
-        summary = summary.rstrip(" ,;:") + "."
+        # 🔒 Evitar frases cortadas tipo "a los."
+        if re.search(r'\b(de|del|a|al|con|por|para|sobre|en)\.$', summary):
+            return generate_summary_with_ai(text[:3000])  # reintento automático
 
         return summary
 
