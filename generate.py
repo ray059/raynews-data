@@ -34,9 +34,10 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en máximo 280 caracteres.
-Debe ser claro, neutral y directo.
-No inventes información.
+Resume la siguiente noticia en máximo 280 caracteres exactos.
+No incluyas puntos suspensivos al final.
+No repitas el titular.
+Sé claro, neutral y directo.
 Texto:
 {text}
 """
