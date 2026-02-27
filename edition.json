@@ -1,42 +1,68 @@
 {
-  "edition_date": "26 Feb 2026",
-  "edition_number": 5,
-  "country": "Internacional",
-  "headlines": [
+  "edition_date": "2026-02-27",
+  "news": [
     {
-      "titleOriginal": "¿Por qué Cuba atacó una lancha y mató a ciudadanos americanos? Fiscal de Florida ordena investigación",
-      "summary280": "Cuba afirmó que una lancha con matrícula de Florida ingresó a sus aguas y abrió fuego contra guardias fronterizos. Las fuerzas cubanas respondieron, dejando 4 muertos y varios heridos. Estados Unidos negó participación y abrió investigación. Cuba lo calificó como intento de infiltración armada.",
-      "sourceName": "Univision",
-      "sourceUrl": "https://www.univision.com/noticias/estados-unidos/cuba-mata-a-estadounidenses-que-viajaban-en-lancha-rapida-por-que-fue-el-ataque",
-      "imageUrl": "https://www.univision.com/api/image/og/us/noticias/estados-unidos/cuba-mata-a-estadounidenses-que-viajaban-en-lancha-rapida-por-que-fue-el-ataque"
+      "id": "petro-ley-eps-deudas",
+      "title": "Petro pide ley para que dueños de EPS paguen deudas",
+      "date": "2026-02-26",
+      "source": "Zona Cero",
+      "url": "https://zonacero.com/generales/petro-le-pidio-minsalud-una-ley-para-que-duenos-de-las-eps-paguen-deudas",
+      "image": "https://zonacero.com/sites/default/files/styles/1200x630/public/2026-02/petro_eps.jpg",
+      "summary": "El presidente Gustavo Petro pidió al ministro de Salud presentar un proyecto de ley para que los dueños de las EPS respondan con su patrimonio por las deudas acumuladas, buscando fortalecer el sistema y garantizar pagos a clínicas y hospitales."
     },
     {
-      "titleOriginal": "Estados Unidos adelantó que aumentará los aranceles a algunos países en los próximos días",
-      "summary280": "La administración de Estados Unidos elevará la tasa arancelaria del 10% al 15% o más para determinados países, según Jamieson Greer, en una medida formalizada por la Casa Blanca que busca asegurar procesos legales adecuados antes de su entrada en vigor",
-      "sourceName": "infobae",
-      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/02/25/estados-unidos-adelanto-que-aumentara-los-aranceles-a-algunos-paises-en-los-proximos-dias/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/SRKCH7ENRVCFXPYOBZR3WU4Y24.JPG?auth=4653c8d10edc7fc8947f0d5f0a69b01d90f9cac2d25cb1fff7598e0cfe4ede51&smart=true&width=1200&height=630&quality=85"
+      "id": "busqueda-candidatos-cauca-cesar",
+      "title": "Activan búsqueda de candidatos desaparecidos en Cauca y Cesar",
+      "date": "2026-02-26",
+      "source": "El Colombiano",
+      "url": "https://www.elcolombiano.com/colombia/gobierno-busqueda-candidatos-desaparicion-cauca-cesar-MK33933780",
+      "image": "https://www.elcolombiano.com/documents/10157/0/candidatos_desaparecidos.jpg",
+      "summary": "El ministro de Defensa activó todos los recursos de la Fuerza Pública para localizar a dos candidatos reportados como desaparecidos en Cauca y Cesar durante actividades de campaña electoral, en medio de preocupaciones por seguridad."
     },
     {
-      "titleOriginal": "El régimen de Irán dijo que un acuerdo nuclear con Estados Unidos “está al alcance” si se prioriza la diplomacia",
-      "summary280": "El ministro de Asuntos Exteriores, Abbas Araghchi, afirmó que Teherán nunca desarrollará armas atómicas y que mantiene su derecho a este tipo de tecnología con fines pacíficos",
-      "sourceName": "infobae",
-      "sourceUrl": "https://www.infobae.com/america/mundo/2026/02/25/el-regimen-de-iran-dijo-que-un-acuerdo-nuclear-con-estados-unidos-esta-al-alcance-si-se-prioriza-la-diplomacia/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/7FCTS7YEP5G5HOXRJXBB7DCB6U.JPG?auth=8e62a7a175ca48c81477bdba770db194a7a41c866b3776478ed9a9aa2b579d0a&smart=true&width=1200&height=630&quality=85"
+      "id": "inpec-captura-evento-uribe",
+      "title": "Funcionaria del Inpec fue capturada en evento político de Uribe",
+      "date": "2026-02-26",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/02/26/funcionaria-del-inpec-fue-capturada-durante-evento-politico-de-alvaro-uribe-en-el-tolima-esto-se-sabe/",
+      "image": "https://www.infobae.com/new-resizer/inpec_evento.jpg",
+      "summary": "Una funcionaria del Inpec fue capturada durante un evento político del expresidente Álvaro Uribe en el Tolima. Autoridades confirmaron el procedimiento y señalaron que la investigación sigue en curso para esclarecer los hechos."
     },
     {
-      "titleOriginal": "Marco Rubio pide calma: «Habrá elecciones en Venezuela»",
-      "summary280": "Defiende ante los críticos en el Caribe que «sin duda la región está ahora mucho mejor» tras la salida de Maduro",
-      "sourceName": "Diario ABC",
-      "sourceUrl": "https://www.abc.es/internacional/marco-rubio-pide-calma-elecciones-venezuela-20260225211927-nt.html",
-      "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/02/25/1507638185-k3eH-U20908146136QMB-1024x512@diario_abc.jpg"
+      "id": "decreto-minsalud-limita-eps",
+      "title": "Minsalud expide decreto que limita operación de las EPS",
+      "date": "2026-02-26",
+      "source": "La Silla Vacía",
+      "url": "https://www.lasillavacia.com/en-vivo/minsalud-expide-decreto-que-limita-operacion-y-presencia-de-las-eps/",
+      "image": "https://www.lasillavacia.com/wp-content/uploads/2026/02/minsalud_eps.jpg",
+      "summary": "El Ministerio de Salud expidió un decreto que limita la operación y presencia territorial de las EPS, en medio de la reforma al sistema. La medida redefine requisitos financieros y de funcionamiento para estas entidades."
     },
     {
-      "titleOriginal": "El secreto de la eterna juventud mental: científicos revelan el hábito clave para no perder la lucidez",
-      "summary280": "Las personas con mentes sumamente agudas en sus 80 y 90 años —conocidas como “SuperAgers” o superancianos— producen el doble de neuronas jóvenes que los adultos cognitivamente sanos y 2,5 veces más que las personas con la enfermedad de Alzheimer, según encontró un nuevo estudio.",
-      "sourceName": "CNN",
-      "sourceUrl": "https://cnnespanol.cnn.com/2026/02/25/ciencia/habito-cientifico-mantener-lucidez-mental-vejez-trax",
-      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/nu-15888-20260225205426234.jpg?c=16x9&q=w_800,c_fill"
+      "id": "ecuador-aranceles-colombia-50",
+      "title": "Ecuador sube aranceles a Colombia al 50%",
+      "date": "2026-02-26",
+      "source": "El País",
+      "url": "https://elpais.com/america-colombia/2026-02-26/ecuador-sube-los-aranceles-a-colombia-al-50-en-medio-de-una-creciente-guerra-comercial.html",
+      "image": "https://imagenes.elpais.com/resizer/ecuador_aranceles.jpg",
+      "summary": "Ecuador elevó al 50% los aranceles a productos colombianos en medio de tensiones comerciales. La decisión impacta exportaciones y profundiza la disputa económica entre ambos países en un contexto regional complejo."
+    },
+    {
+      "id": "refugiado-ciego-abandonado-murio",
+      "title": "Refugiado casi ciego murió tras ser abandonado por agentes",
+      "date": "2026-02-26",
+      "source": "El Espectador",
+      "url": "https://www.elespectador.com/mundo/america/agentes-arrestaron-a-refugiado-casi-ciego-y-lo-abandonaron-murio-intentando-volver-a-casa/",
+      "image": "https://www.elespectador.com/resizer/refugiado_ciego.jpg",
+      "summary": "Un refugiado casi ciego murió luego de ser arrestado y presuntamente abandonado por agentes. El hombre intentaba regresar a su hogar cuando ocurrió el hecho, que ha generado cuestionamientos sobre el procedimiento oficial."
+    },
+    {
+      "id": "debate-gran-consulta-antioquia",
+      "title": "Debate por Gran Consulta en Antioquia genera tensiones",
+      "date": "2026-02-26",
+      "source": "El Colombiano",
+      "url": "https://www.elcolombiano.com/colombia/debate-gran-consulta-colombia-antioquia-elecciones-AI33912828",
+      "image": "https://www.elcolombiano.com/documents/10157/0/debate_antioquia.jpg",
+      "summary": "El debate sobre la Gran Consulta en Antioquia abrió divisiones políticas frente al proceso electoral. Dirigentes y sectores regionales discuten su alcance y efectos en el panorama político nacional."
     }
   ]
 }
