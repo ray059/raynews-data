@@ -12,10 +12,10 @@ API_KEY = os.getenv("OPENAI_API_KEY")
 
 if not API_KEY:
     print("❌ OPENAI_API_KEY no encontrada")
+    client = None
 else:
     print("✅ OPENAI_API_KEY detectada")
-
-client = OpenAI(api_key=API_KEY)
+    client = OpenAI(api_key=API_KEY)
 
 
 # =============================
@@ -46,27 +46,21 @@ def get_next_edition_number():
 
 
 # =============================
-# RESUMEN IA (VERSIÓN BLINDADA)
+# RESUMEN IA CON LOGS REALES
 # =============================
 
 def generate_summary_with_ai(text):
 
-    max_attempts = 6
+    if not client:
+        print("⚠ No hay cliente OpenAI. Usando fallback directo.")
+        return fallback_summary(text)
+
+    max_attempts = 3
     attempt = 0
 
     base_prompt = f"""
 Resume la siguiente noticia en máximo 280 caracteres.
-
-Reglas obligatorias:
-- Puede usar una o dos oraciones.
-- Máximo 280 caracteres.
-- Debe terminar en punto.
-- No usar comillas.
-- No usar puntos suspensivos.
-- No repetir frases.
-- No dejar estructuras abiertas como: "de la.", "por el.", "en la.", etc.
-- No inventar información.
-- Sintetizar únicamente el hecho principal.
+Debe terminar en punto y no dejar frases abiertas.
 
 Noticia:
 {text}
@@ -76,6 +70,7 @@ Noticia:
 
     while attempt < max_attempts:
         try:
+            print(f"🔵 Intento {attempt+1} llamando a OpenAI...")
             response = client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
@@ -83,81 +78,35 @@ Noticia:
                 max_tokens=300
             )
 
+            print("✅ Llamada a OpenAI exitosa")
+
             summary = response.choices[0].message.content.strip()
-
-            # Limpieza fuerte
             summary = re.sub(r'\s+', ' ', summary).strip()
-            summary = summary.replace("..", ".")
-            summary = summary.replace(" .", ".")
-            summary = summary.strip()
+            summary = summary.replace("..", ".").replace(" .", ".")
 
-            # ==========================
-            # VALIDACIONES ULTRA ESTRICTAS
-            # ==========================
-
-            invalid_ending = re.search(
-                r'\b(de|del|a|al|con|por|para|sobre|en|la|el|los|las|lo|una|un|y|que|como|tras|según)\.$',
-                summary,
-                re.IGNORECASE
-            )
-
-            double_period = ".." in summary
-
-            too_many_sentences = summary.count(".") > 2
-
-            short_last_word = len(summary.split()[-1]) <= 2
-
-            repetition = False
-            parts = summary.lower().split(".")
-            if len(parts) >= 2:
-                if parts[0].strip() in parts[-1]:
-                    repetition = True
-
-            valid = True
-
-            if len(summary) > 280:
-                valid = False
-            if not summary.endswith("."):
-                valid = False
-            if invalid_ending:
-                valid = False
-            if double_period:
-                valid = False
-            if too_many_sentences:
-                valid = False
-            if short_last_word:
-                valid = False
-            if repetition:
-                valid = False
-
-            if valid:
+            if len(summary) <= 280 and summary.endswith("."):
                 return summary
 
-            # Si falla → reintento más estricto
-            prompt = f"""
-El siguiente resumen quedó mal cerrado o no cumple las reglas.
-
-Reescríbelo correctamente, más breve y completamente cerrado:
-
-{summary}
-"""
+            print("⚠ Resumen inválido, reintentando...")
+            prompt = f"Reescribe correctamente este resumen y ciérralo bien:\n\n{summary}"
             attempt += 1
 
         except Exception as e:
-            print("❌ Error generando resumen IA:", e)
+            print("🔴 Error en llamada OpenAI:", e)
             break
 
-    # ==========================
-    # FALLBACK ULTRA SEGURO
-    # ==========================
+    print("⚠ Entrando en fallback final")
+    return fallback_summary(text)
 
+
+def fallback_summary(text):
+    print("🟡 Generando resumen por fallback (NO IA)")
     fallback = text[:220].rsplit(" ", 1)[0]
-    fallback = fallback.rstrip(" ,;:") + "."
-    return fallback
+    return fallback.rstrip(" ,;:") + "."
 
 
 # =============================
-# SCRAPING COMPLETO
+# SCRAPING
 # =============================
 
 def extract_article_data(url):
@@ -200,8 +149,6 @@ def extract_article_data(url):
 
             if len(text_p) < 50:
                 continue
-            if "Internet Explorer" in text_p:
-                continue
             if "Publicidad" in text_p:
                 continue
             if "Suscríbete" in text_p:
@@ -214,13 +161,8 @@ def extract_article_data(url):
         article_text = " ".join(clean_paragraphs)
         article_text = clean_noise(article_text)
 
-        if len(article_text) < 300:
-            desc_tag = soup.find("meta", property="og:description")
-            if desc_tag:
-                article_text = clean_noise(desc_tag["content"])
-
         if len(article_text) < 120:
-            print("❌ No se pudo extraer texto útil")
+            print("❌ Texto muy corto")
             return None
 
         print("✔ Texto extraído:", len(article_text), "caracteres")
