@@ -50,6 +50,8 @@ Debe:
 - No repetir el titular
 - No usar puntos suspensivos
 - No cortar frases
+- No copiar frases textuales extensas
+- Reformular la información
 
 Noticia:
 {text}
@@ -58,7 +60,7 @@ Noticia:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
+            temperature=0.4
         )
 
         summary = response.choices[0].message.content.strip()
@@ -68,8 +70,24 @@ Noticia:
 
         # cortar bien si excede 500
         if len(summary) > 500:
-            summary = summary[:500].rsplit(".", 1)[0].strip()
-            if not summary.endswith("."):
+            temp = summary[:500]
+        
+            # Buscar último cierre de frase
+            last_period = max(
+                temp.rfind("."),
+                temp.rfind("?"),
+                temp.rfind("!")
+            )
+        
+            # Si encontramos un cierre razonable
+            if last_period > 350:  # evitar cortar demasiado temprano
+                summary = temp[:last_period + 1].strip()
+            else:
+                # cortar por última palabra completa
+                summary = temp.rsplit(" ", 1)[0].strip()
+        
+            # asegurar que termine correctamente
+            if not summary.endswith((".", "?", "!")):
                 summary += "."
 
         print("✔ Resumen generado:", len(summary), "caracteres")
