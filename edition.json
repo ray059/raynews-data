@@ -1,9 +1,16 @@
 {
   "edition_date": "27 Feb 2026",
-  "edition_number": 16,
-  "generated_at": "2026-02-27T19:04:44.653076",
+  "edition_number": 17,
+  "generated_at": "2026-02-27T19:09:21.811364",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "EEUU ofrece USD10 millones por hermanos de cartel de Sinaloa",
+      "summary280": "Ambos están acusados de narcotráfico en California desde 2014 y en 2023 fueron sancionados por el Departamento del Tesoro. Estados Unidos anunció este jueves dos recompensas de cinco millones de dólares para lograr la captura de los hermanos René y.",
+      "sourceName": "dw.com",
+      "sourceUrl": "https://www.dw.com/es/estados-unidos-ofrece-10-millones-de-d%C3%B3lares-por-hermanos-arzate-garc%C3%ADa-del-cartel-de-sinaloa/a-76143479",
+      "imageUrl": "https://static.dw.com/image/72602879_6.jpg"
+    },
     {
       "titleOriginal": "¡Aumenta la polémica! Filtran desde el interior del Benfica lo que le dijo Prestianni a Vinicius",
       "summary280": "El futbolista argentino protagonizó un supuesto acto de racismo contra el brasileño en el Benfica vs Real Madrid por la Champions.",
@@ -139,7 +146,7 @@
     },
     {
       "titleOriginal": "MinSalud expide decreto que limita operación y presencia de las EPS",
-      "summary280": "El Ministerio de Salud expidió el decreto 0182, con el que modifica cuántas EPS podrán funcionar en departamentos y municipios según la población y el número de afiliados. Si hay afiliados a una EPS que no tenga permitido operar en un territorio,.",
+      "summary280": "El Ministerio de Salud expidió el decreto 0182, con el que modifica cuántas EPS podrán funcionar en departamentos y municipios según la población y el número de afiliados. Si hay afiliados a una EPS que no tenga permitido operar en un territorio.",
       "sourceName": "La Silla Vacía",
       "sourceUrl": "https://www.lasillavacia.com/en-vivo/minsalud-expide-decreto-que-limita-operacion-y-presencia-de-las-eps/",
       "imageUrl": "https://www.lasillavacia.com/wp-content/uploads/2025/05/minsaludguillermojaramillo.jpg"
