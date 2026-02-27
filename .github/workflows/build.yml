@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 openai
 
       - name: Run script
         run: python generate.py
