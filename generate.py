@@ -46,13 +46,13 @@ def get_next_edition_number():
 
 
 # =============================
-# RESUMEN IA (VERSIÓN ESTABLE)
+# RESUMEN IA (VERSIÓN BLINDADA)
 # =============================
 
 def generate_summary_with_ai(text):
+
     max_attempts = 6
     attempt = 0
-    last_summary = ""
 
     base_prompt = f"""
 Resume la siguiente noticia en máximo 280 caracteres.
@@ -84,38 +84,60 @@ Noticia:
             )
 
             summary = response.choices[0].message.content.strip()
+
+            # Limpieza fuerte
             summary = re.sub(r'\s+', ' ', summary).strip()
             summary = summary.replace("..", ".")
+            summary = summary.replace(" .", ".")
+            summary = summary.strip()
 
-            last_summary = summary
+            # ==========================
+            # VALIDACIONES ULTRA ESTRICTAS
+            # ==========================
 
-            # -----------------------------
-            # VALIDACIONES FUERTES
-            # -----------------------------
+            invalid_ending = re.search(
+                r'\b(de|del|a|al|con|por|para|sobre|en|la|el|los|las|lo|una|un|y|que|como|tras|según)\.$',
+                summary,
+                re.IGNORECASE
+            )
+
+            double_period = ".." in summary
+
+            too_many_sentences = summary.count(".") > 2
+
+            short_last_word = len(summary.split()[-1]) <= 2
+
+            repetition = False
+            parts = summary.lower().split(".")
+            if len(parts) >= 2:
+                if parts[0].strip() in parts[-1]:
+                    repetition = True
+
+            valid = True
 
             if len(summary) > 280:
                 valid = False
-            elif not summary.endswith("."):
+            if not summary.endswith("."):
                 valid = False
-            elif re.search(r'\b(de|del|a|al|con|por|para|sobre|en|la|el|los|las)\.$', summary):
+            if invalid_ending:
                 valid = False
-            elif re.search(r'\.$\s*[A-Z][a-z]+$', summary):  # oración cortada
+            if double_period:
                 valid = False
-            elif summary.count(".") > 2:  # demasiadas frases
+            if too_many_sentences:
                 valid = False
-            elif len(set(summary.split())) < len(summary.split()) * 0.6:  # posible repetición fuerte
+            if short_last_word:
                 valid = False
-            else:
-                valid = True
+            if repetition:
+                valid = False
 
             if valid:
                 return summary
 
-            # Si falla, pedir versión más breve y mejor cerrada
+            # Si falla → reintento más estricto
             prompt = f"""
-El siguiente resumen no cumple las reglas o quedó mal cerrado.
+El siguiente resumen quedó mal cerrado o no cumple las reglas.
 
-Reescríbelo correctamente, más breve y totalmente cerrado:
+Reescríbelo correctamente, más breve y completamente cerrado:
 
 {summary}
 """
@@ -125,7 +147,10 @@ Reescríbelo correctamente, más breve y totalmente cerrado:
             print("❌ Error generando resumen IA:", e)
             break
 
-    # 🔒 Fallback ultra seguro
+    # ==========================
+    # FALLBACK ULTRA SEGURO
+    # ==========================
+
     fallback = text[:220].rsplit(" ", 1)[0]
     fallback = fallback.rstrip(" ,;:") + "."
     return fallback
@@ -189,7 +214,6 @@ def extract_article_data(url):
         article_text = " ".join(clean_paragraphs)
         article_text = clean_noise(article_text)
 
-        # Fallback a og:description si es muy corto
         if len(article_text) < 300:
             desc_tag = soup.find("meta", property="og:description")
             if desc_tag:
