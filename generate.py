@@ -6,10 +6,6 @@ import re
 import os
 from openai import OpenAI
 
-# =============================
-# CONFIG / DEBUG
-# =============================
-
 print("===== INICIO GENERATE.PY =====")
 
 API_KEY = os.getenv("OPENAI_API_KEY")
@@ -21,12 +17,14 @@ else:
 
 client = OpenAI(api_key=API_KEY)
 
+
 # =============================
 # Helpers
 # =============================
 
 def clean_text(text):
-    return re.sub(r'\s+', ' ', text).strip()
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
 
 def get_next_edition_number():
@@ -35,8 +33,7 @@ def get_next_edition_number():
             with open("edition.json", "r", encoding="utf-8") as f:
                 data = json.load(f)
                 return data.get("edition_number", 0) + 1
-        except Exception as e:
-            print("Error leyendo edition.json:", e)
+        except:
             return 1
     return 1
 
@@ -44,16 +41,15 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en un máximo de 500 caracteres.
+Resume la siguiente noticia en máximo 500 caracteres.
 
 Debe:
-- Ser un resumen global completo
-- Incluir los datos más importantes
+- Incluir el hecho principal
+- Incluir datos clave
+- Ser neutral
 - No repetir el titular
 - No usar puntos suspensivos
 - No cortar frases
-- No exceder 500 caracteres
-- Ser claro, directo y neutral
 
 Noticia:
 {text}
@@ -67,10 +63,10 @@ Noticia:
 
         summary = response.choices[0].message.content.strip()
 
-        # Eliminar puntos suspensivos si aparecen
+        # eliminar ...
         summary = re.sub(r'\.\.\.$', '', summary).strip()
 
-        # Si supera 500, recortar sin romper frase
+        # cortar bien si excede 500
         if len(summary) > 500:
             summary = summary[:500].rsplit(".", 1)[0].strip()
             if not summary.endswith("."):
@@ -80,46 +76,66 @@ Noticia:
         return summary
 
     except Exception as e:
-        print("❌ Error generando resumen IA:", e)
+        print("❌ Error generando resumen:", e)
         return text[:500]
 
 
 # =============================
-# SCRAPING (OG ONLY)
+# SCRAPING COMPLETO
 # =============================
 
 def extract_article_data(url):
     try:
-        print("🔎 Procesando URL:", url)
+        print("🔎 Procesando:", url)
 
         headers = {"User-Agent": "Mozilla/5.0"}
-
-        response = requests.get(url, headers=headers, timeout=15)
-        print("Status code:", response.status_code)
+        response = requests.get(url, headers=headers, timeout=20)
 
         if response.status_code != 200:
-            print("❌ Error HTTP:", url)
+            print("❌ HTTP error:", response.status_code)
             return None
+
+        response.encoding = response.apparent_encoding
 
         soup = BeautifulSoup(response.text, "html.parser")
 
+        # OG DATA
         title_tag = soup.find("meta", property="og:title")
-        desc_tag = soup.find("meta", property="og:description")
         image_tag = soup.find("meta", property="og:image")
         source_tag = soup.find("meta", property="og:site_name")
 
-        if not title_tag or not desc_tag:
-            print("❌ Faltan og:title o og:description")
+        if not title_tag:
+            print("❌ Sin og:title")
             return None
 
-        title = title_tag["content"].split("|")[0].strip()
-        description = desc_tag["content"].strip()
-        image = image_tag["content"].strip() if image_tag else ""
-        source = source_tag["content"].strip() if source_tag else "Fuente"
+        title = clean_text(title_tag["content"].split("|")[0])
+        image = image_tag["content"] if image_tag else ""
+        source = source_tag["content"] if source_tag else "Fuente"
 
-        print("✔ OG tags encontrados")
+        # EXTRAER TEXTO REAL DEL ARTÍCULO
+        article = soup.find("article")
 
-        summary = generate_summary_with_ai(description)
+        if article:
+            paragraphs = article.find_all("p")
+        else:
+            paragraphs = soup.find_all("p")
+
+        article_text = " ".join(p.get_text() for p in paragraphs)
+        article_text = clean_text(article_text)
+
+        if len(article_text) < 300:
+            print("⚠ Texto muy corto, usando og:description como fallback")
+            desc_tag = soup.find("meta", property="og:description")
+            if desc_tag:
+                article_text = clean_text(desc_tag["content"])
+
+        if len(article_text) < 100:
+            print("❌ No se pudo extraer texto útil")
+            return None
+
+        print("✔ Texto extraído:", len(article_text), "caracteres")
+
+        summary = generate_summary_with_ai(article_text[:5000])
 
         return {
             "titleOriginal": title,
@@ -130,7 +146,7 @@ def extract_article_data(url):
         }
 
     except Exception as e:
-        print("❌ Error procesando URL:", url, e)
+        print("❌ Error procesando:", url, e)
         return None
 
 
@@ -147,10 +163,9 @@ def main():
     with open("links.txt", "r", encoding="utf-8") as f:
         raw_links = f.read()
 
-    # Extraer solo URLs válidas con regex
     links = re.findall(r'https?://[^\s;]+', raw_links)
 
-    print("Links detectados:", links)
+    print("Total links detectados:", len(links))
 
     headlines = []
 
