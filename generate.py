@@ -85,19 +85,26 @@ def extract_article_data(url):
         response = requests.get(url, headers=headers, timeout=15)
         response.encoding = response.apparent_encoding
 
-        if response.status_code != 200:
-            print("Error status:", response.status_code, url)
-            return None
-
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        title_tag = soup.find("meta", property="og:title")
-        image_tag = soup.find("meta", property="og:image")
-        source_tag = soup.find("meta", property="og:site_name")
-
-        if not title_tag or not image_tag:
-            print("Sin og tags:", url)
-            return None
+        print("Total párrafos limpios:", len(clean_paragraphs))
+        print("Longitud article_text:", len(article_text))
+        
+        if len(article_text) < 120:
+            print("Texto corto, usando descripción OG:", url)
+            desc_tag = soup.find("meta", property="og:description")
+            if desc_tag:
+                article_text = desc_tag["content"]
+            else:
+                return None
+        
+                soup = BeautifulSoup(response.text, "html.parser")
+        
+                title_tag = soup.find("meta", property="og:title")
+                image_tag = soup.find("meta", property="og:image")
+                source_tag = soup.find("meta", property="og:site_name")
+        
+                if not title_tag or not image_tag:
+                    print("Sin og tags:", url)
+                    return None
 
         title = title_tag["content"].split("|")[0].strip()
         image = image_tag["content"].strip()
