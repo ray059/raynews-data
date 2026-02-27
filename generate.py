@@ -72,7 +72,7 @@ Noticia:
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
-            max_tokens=110
+            max_tokens=300
         )
 
         summary = response.choices[0].message.content.strip()
