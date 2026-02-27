@@ -82,8 +82,7 @@ def get_next_edition_number():
 def extract_article_data(url):
     try:
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-            "Accept-Language": "es-ES,es;q=0.9"
+            "User-Agent": "Mozilla/5.0",
         }
 
         response = requests.get(url, headers=headers, timeout=15)
@@ -95,52 +94,21 @@ def extract_article_data(url):
 
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # TÍTULO
         title_tag = soup.find("meta", property="og:title")
-        if not title_tag:
-            title_tag = soup.find("title")
+        desc_tag = soup.find("meta", property="og:description")
+        image_tag = soup.find("meta", property="og:image")
+        source_tag = soup.find("meta", property="og:site_name")
 
-        if not title_tag:
-            print("Sin título:", url)
+        if not title_tag or not desc_tag:
+            print("Faltan og tags:", url)
             return None
 
-        title = title_tag.get("content") if title_tag.has_attr("content") else title_tag.text
-        title = title.split("|")[0].strip()
-
-        # IMAGEN (YA NO ES OBLIGATORIA)
-        image_tag = soup.find("meta", property="og:image")
+        title = title_tag["content"].split("|")[0].strip()
+        description = desc_tag["content"].strip()
         image = image_tag["content"].strip() if image_tag else ""
-
-        # FUENTE
-        source_tag = soup.find("meta", property="og:site_name")
         source = source_tag["content"].strip() if source_tag else "Fuente"
 
-        # TEXTO
-        article_tag = soup.find("article")
-
-        if article_tag:
-            paragraphs = article_tag.find_all("p")
-        else:
-            paragraphs = soup.find_all("p")
-
-        texts = []
-        for p in paragraphs:
-            t = clean_text(p.get_text())
-            if len(t) > 60:
-                texts.append(t)
-
-        article_text = " ".join(texts)
-
-        # 🔥 SI QUEDA CORTO, USAR OG DESCRIPTION
-        if len(article_text) < 150:
-            desc_tag = soup.find("meta", property="og:description")
-            if desc_tag:
-                article_text = desc_tag["content"]
-            else:
-                print("Texto insuficiente:", url)
-                return None
-
-        summary = generate_summary_with_ai(article_text[:6000])
+        summary = generate_summary_with_ai(description)
 
         return {
             "titleOriginal": title,
