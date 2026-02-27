@@ -50,57 +50,68 @@ def get_next_edition_number():
 # =============================
 
 def generate_summary_with_ai(text):
-    try:
-        prompt = f"""
-Resume la siguiente noticia en un máximo de 280 caracteres.
+    max_attempts = 5
+    attempt = 0
+    last_summary = ""
+
+    base_prompt = f"""
+Resume la siguiente noticia en máximo 280 caracteres.
 
 Reglas obligatorias:
-- Puede usar una o dos oraciones cortas.
-- Máximo 280 caracteres.
+- Puede usar una o dos oraciones.
+- Máximo 280 caracteres exactos.
+- Debe terminar en punto.
 - No usar comillas.
 - No usar puntos suspensivos.
 - No dejar frases incompletas.
-- Terminar siempre con punto final.
 - Sintetizar únicamente el hecho principal.
 
 Noticia:
 {text}
 """
 
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2,
-            max_tokens=300
-        )
+    prompt = base_prompt
 
-        summary = response.choices[0].message.content.strip()
-        summary = re.sub(r'\s+', ' ', summary).strip()
+    while attempt < max_attempts:
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2,
+                max_tokens=300
+            )
 
-        # Asegurar punto final
-        if not summary.endswith("."):
-            summary += "."
+            summary = response.choices[0].message.content.strip()
+            summary = re.sub(r'\s+', ' ', summary).strip()
 
-        # Si excede 280 caracteres
-        if len(summary) > 280:
-            trimmed = summary[:280]
-            last_period = trimmed.rfind(".")
+            last_summary = summary
 
-            if last_period != -1 and last_period > 80:
-                summary = trimmed[:last_period + 1]
-            else:
-                summary = trimmed.rsplit(" ", 1)[0].rstrip(" ,;:") + "."
+            # Validaciones
+            valid_length = len(summary) <= 280
+            valid_period = summary.endswith(".")
+            valid_not_preposition = not re.search(r'\b(de|del|a|al|con|por|para|sobre|en)\.$', summary)
 
-        # Blindaje anti preposición colgada
-        if re.search(r'\b(de|del|a|al|con|por|para|sobre|en)\.$', summary):
-            summary = summary.rsplit(" ", 1)[0] + "."
+            if valid_length and valid_period and valid_not_preposition:
+                return summary
 
-        return summary
+            # Si falla, pedir reescritura más corta
+            prompt = f"""
+El siguiente resumen no cumple las reglas (máximo 280 caracteres o quedó incompleto).
 
-    except Exception as e:
-        print("❌ Error generando resumen IA:", e)
-        fallback = text[:220].rsplit(" ", 1)[0]
-        return fallback.rstrip(" ,;:") + "."
+Reescríbelo más breve, completamente cerrado y correcto:
+
+{summary}
+"""
+
+            attempt += 1
+
+        except Exception as e:
+            print("❌ Error generando resumen IA:", e)
+            break
+
+    # 🔒 Fallback seguro
+    fallback = text[:220].rsplit(" ", 1)[0]
+    return fallback.rstrip(" ,;:") + "."
 
 
 # =============================
