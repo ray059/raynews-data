@@ -53,16 +53,16 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en máximo 2 oraciones claras y sintéticas.
+Resume la siguiente noticia en UNA sola oración clara y sintética.
 
-Reglas estrictas:
-- Máximo 420 caracteres.
-- Máximo 2 oraciones.
-- Debe sintetizar, no reformular el primer párrafo.
-- No copiar frases textuales largas.
+Reglas obligatorias:
+- Máximo 280 caracteres.
+- Una sola oración.
+- No usar comillas.
 - No usar puntos suspensivos.
-- Debe terminar correctamente con punto final.
 - No dejar frases incompletas.
+- Debe terminar con punto final.
+- Debe sintetizar el hecho principal.
 
 Noticia:
 {text}
@@ -71,39 +71,29 @@ Noticia:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.4,
-            max_tokens=350
+            temperature=0.3,
+            max_tokens=120
         )
 
         summary = response.choices[0].message.content.strip()
 
+        # limpieza
         summary = re.sub(r'\s+', ' ', summary).strip()
-        summary = re.sub(r'\.\.\.+', '.', summary)
-
-        # Si se pasó del límite → cortar por oración completa
-        if len(summary) > 420:
-            sentences = re.split(r'(?<=[.!?])\s+', summary)
-            final_text = ""
-            for sentence in sentences:
-                if len(final_text) + len(sentence) <= 420:
-                    final_text += (" " + sentence if final_text else sentence)
-                else:
-                    break
-            summary = final_text.strip()
-
-        # Normalizar punto final
         summary = re.sub(r'\.+$', '.', summary)
 
-        if not summary.endswith((".", "?", "!")):
-            summary += "."
+        # blindaje final
+        if len(summary) > 280:
+            summary = summary[:280].rsplit(" ", 1)[0]
+            summary = re.sub(r'\.+$', '.', summary)
+            if not summary.endswith("."):
+                summary += "."
 
         return summary
 
     except Exception as e:
         print("❌ Error generando resumen IA:", e)
-        fallback = text[:300]
-        sentences = re.split(r'(?<=[.!?])\s+', fallback)
-        return sentences[0].strip() + "."
+        fallback = text[:250].rsplit(" ", 1)[0]
+        return fallback + "."
 
 
 # =============================
