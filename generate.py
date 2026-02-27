@@ -53,7 +53,25 @@ def extract_article_data(url):
         source = source_tag["content"].strip() if source_tag else "Fuente"
 
         paragraphs = soup.find_all("p")
-        article_text = " ".join([p.get_text() for p in paragraphs])
+        
+        clean_paragraphs = []
+        
+        for p in paragraphs:
+            text = p.get_text().strip()
+            text = re.sub(r'\s+', ' ', text)
+        
+            if len(text) < 80:
+                continue
+        
+            if re.search(r'(Audio generado|Publicidad|Suscríbete|Lee también)', text, re.IGNORECASE):
+                continue
+        
+            if re.search(r'\d y \d', text):
+                continue
+        
+            clean_paragraphs.append(text)
+        
+        article_text = " ".join(clean_paragraphs[:15])
         article_text = clean_text(article_text)
 
         if len(article_text) < 300:
