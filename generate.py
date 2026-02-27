@@ -53,15 +53,16 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en máximo 3 oraciones claras y sintéticas.
+Resume la siguiente noticia en máximo 2 oraciones claras y sintéticas.
 
-Reglas:
-- Máximo 450 caracteres.
-- Máximo 3 oraciones.
-- No copiar párrafos textuales.
-- No dejar frases incompletas.
+Reglas estrictas:
+- Máximo 420 caracteres.
+- Máximo 2 oraciones.
+- Debe sintetizar, no reformular el primer párrafo.
+- No copiar frases textuales largas.
 - No usar puntos suspensivos.
-- Debe terminar con punto final.
+- Debe terminar correctamente con punto final.
+- No dejar frases incompletas.
 
 Noticia:
 {text}
@@ -71,28 +72,28 @@ Noticia:
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.4,
-            max_tokens=200
+            max_tokens=350
         )
 
         summary = response.choices[0].message.content.strip()
+
         summary = re.sub(r'\s+', ' ', summary).strip()
         summary = re.sub(r'\.\.\.+', '.', summary)
 
-        # 🔥 CORTE INTELIGENTE POR ORACIÓN
-        if len(summary) > 450:
-            # separar en oraciones
+        # Si se pasó del límite → cortar por oración completa
+        if len(summary) > 420:
             sentences = re.split(r'(?<=[.!?])\s+', summary)
             final_text = ""
-
             for sentence in sentences:
-                if len(final_text) + len(sentence) <= 450:
+                if len(final_text) + len(sentence) <= 420:
                     final_text += (" " + sentence if final_text else sentence)
                 else:
                     break
-
             summary = final_text.strip()
 
-        # asegurar punto final
+        # Normalizar punto final
+        summary = re.sub(r'\.+$', '.', summary)
+
         if not summary.endswith((".", "?", "!")):
             summary += "."
 
@@ -100,7 +101,7 @@ Noticia:
 
     except Exception as e:
         print("❌ Error generando resumen IA:", e)
-        fallback = text[:350]
+        fallback = text[:300]
         sentences = re.split(r'(?<=[.!?])\s+', fallback)
         return sentences[0].strip() + "."
 
