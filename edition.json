@@ -1,40 +1,47 @@
 {
   "edition_date": "27 Feb 2026",
-  "edition_number": 21,
-  "generated_at": "2026-02-27T19:43:12.949412",
+  "edition_number": 22,
+  "generated_at": "2026-02-27T19:50:04.186991",
   "country": "Internacional",
   "headlines": [
     {
+      "titleOriginal": "Kim Jong Un promete fortalecer su programa nuclear y observa un desfile militar con su hija",
+      "summary280": "El líder norcoreano Kim Jong Un prometió el miércoles fortalecer el programa de armas nucleares de su país, antes de presidir un desfile militar nocturno, acompañado por su hija. Unos 14.000 soldados marcharon por la.",
+      "sourceName": "CNN",
+      "sourceUrl": "https://cnnespanol.cnn.com/2026/02/26/mundo/corea-del-norte-kim-desfile-nuclear-trax",
+      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/kim-jpg.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
       "titleOriginal": "¡Hay tiro! Richard Ledezma desmiente a Javier Aguirre sobre su decisión de jugar para la Selección Mexicana",
-      "summary280": "Javier Aguirre aún no define su lista final rumbo al Mundial 2026 con la Selección Mexicana, y esa incertidumbre abre una ventana de esperanza para varios futbolistas de Chivas que buscan colarse de.",
+      "summary280": "Javier Aguirre aún no define su lista final rumbo al Mundial 2026 con la Selección Mexicana, y esa incertidumbre abre una ventana de esperanza para varios futbolistas de Chivas que buscan colarse de último momento..",
       "sourceName": "Rebaño Pasión",
       "sourceUrl": "https://chivaspasion.bolavip.com/noticias/richard-ledezma-desmiente-a-javier-aguirre-sobre-su-compromiso-de-jugar-para-la-seleccion-mexicana",
       "imageUrl": "https://media.bolavip.com/wp-content/uploads/sites/11/2026/02/26131906/Imago-1753757-e1772133640516-1200x740.webp"
     },
     {
       "titleOriginal": "\"Sería una injusticia\": Una de las máximas leyendas del América exige el llamado de la Hormiga al Mundial",
-      "summary280": "Armando González está registrando un año futbolístico magnífico con Chivas al presumir una alta cuota goleadora, por lo que se ha ganado sus llamados a Selección Mexicana, en donde ha comenzado a.",
+      "summary280": "Armando González está registrando un año futbolístico magnífico con Chivas al presumir una alta cuota goleadora, por lo que se ha ganado sus llamados a Selección Mexicana, en donde ha comenzado a dejar gratas.",
       "sourceName": "Rebaño Pasión",
       "sourceUrl": "https://chivaspasion.bolavip.com/noticias/seria-una-injusticia-una-de-las-maximas-leyendas-del-america-exige-a-armando-gonzalez-con-mexico-en-el-mundial",
       "imageUrl": "https://media.bolavip.com/wp-content/uploads/sites/11/2026/02/25213143/ERFE-1200x740.webp"
     },
     {
       "titleOriginal": "Samsung presenta los nuevos Galaxy Buds4 Series, auriculares inalámbricos con un sonido excepcional",
-      "summary280": "SAN FRANCISCO, US – 25 de febrero de 2026 – Samsung Electronics Co., Ltd. ha presentado sus nuevos Galaxy Buds4 Pro y Galaxy Buds4, redefiniendo lo que unos auriculares premium pueden ofrecer tanto.",
+      "summary280": "SAN FRANCISCO, US – 25 de febrero de 2026 – Samsung Electronics Co., Ltd. ha presentado sus nuevos Galaxy Buds4 Pro y Galaxy Buds4, redefiniendo lo que unos auriculares premium pueden ofrecer tanto en audio hi-fi.",
       "sourceName": "Fuente",
       "sourceUrl": "https://news.samsung.com/es/samsung-presenta-los-nuevos-galaxy-buds4-series-auriculares-inalambricos-con-un-sonido-excepcional",
       "imageUrl": "https://img.global.news.samsung.com/es/wp-content/uploads/2026/02/25_Galaxy-Buds4-Pro_Family_v1-1.jpg"
     },
     {
       "titleOriginal": "Transición en Venezuela: renunciaron dos de los principales operadores judiciales del chavismo tras casi una década en el poder",
-      "summary280": "El fiscal general de Venezuela, Tarek William Saab, y el defensor del pueblo, Alfredo Ruiz, presentaron este miércoles sus renuncias ante la Asamblea Nacional dominada por el chavismo, poniendo fin a.",
+      "summary280": "El fiscal general de Venezuela, Tarek William Saab, y el defensor del pueblo, Alfredo Ruiz, presentaron este miércoles sus renuncias ante la Asamblea Nacional dominada por el chavismo, poniendo fin a casi una década al.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/venezuela/2026/02/25/transicion-en-venezuela-renunciaron-dos-de-los-principales-operadores-judiciales-del-chavismo-tras-casi-una-decada-en-el-poder/",
       "imageUrl": "https://www.infobae.com/resizer/v2/ML2CTDBJ45HNLLP5JQYVBBKFXI.JPG?auth=28e01ad45b42a468b9fc85edb7f5f58d8122b7d16959121ca0d1f88e154ae88a&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "EEUU ofrece USD10 millones por hermanos de cartel de Sinaloa",
-      "summary280": "Ambos están acusados de narcotráfico en California desde 2014 y en 2023 fueron sancionados por el Departamento del Tesoro. Estados Unidos anunció este jueves dos recompensas de cinco millones de.",
+      "summary280": "Ambos están acusados de narcotráfico en California desde 2014 y en 2023 fueron sancionados por el Departamento del Tesoro. Estados Unidos anunció este jueves dos recompensas de cinco millones de dólares para lograr la.",
       "sourceName": "dw.com",
       "sourceUrl": "https://www.dw.com/es/estados-unidos-ofrece-10-millones-de-d%C3%B3lares-por-hermanos-arzate-garc%C3%ADa-del-cartel-de-sinaloa/a-76143479",
       "imageUrl": "https://static.dw.com/image/72602879_6.jpg"
@@ -48,28 +55,28 @@
     },
     {
       "titleOriginal": "Chile: Senadores y Diputados citaron a sesiones especiales por el polémico cable submarino con el régimen chino",
-      "summary280": "El próximo martes 3 de marzo será un día agitado para el Canciller, Alberto van Klaveren, y el ministro de Transporte y Telecomunicaciones, Juan Carlos Muñoz, quienes deberán asistir por la mañana y.",
+      "summary280": "El próximo martes 3 de marzo será un día agitado para el Canciller, Alberto van Klaveren, y el ministro de Transporte y Telecomunicaciones, Juan Carlos Muñoz, quienes deberán asistir por la mañana y la tarde a sendas.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/america/america-latina/2026/02/26/chile-senadores-y-diputados-citaron-a-sesiones-especiales-por-el-polemico-cable-submarino-con-el-regimen-chino/",
       "imageUrl": "https://www.infobae.com/resizer/v2/CNHHQ2FPC5ACBNYXAU6EVCIKIA.jpg?auth=3e9ea1353b756931fa2e004de55107b9f25ef493ba0c674d03759df8de5fbf34&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "Ocho años después del crimen de la concejala brasileña Marielle Franco, la Corte Suprema condenó a los autores intelectuales",
-      "summary280": "Después de ocho años y tras condenas que superan los 70 años de prisión, el Supremo Tribunal Federal de Brasil cerró el proceso por el homicidio de la activista Marielle Franco, concejala en Río de.",
+      "summary280": "Después de ocho años y tras condenas que superan los 70 años de prisión, el Supremo Tribunal Federal de Brasil cerró el proceso por el homicidio de la activista Marielle Franco, concejala en Río de Janeiro por el.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/america/america-latina/2026/02/26/ocho-anos-despues-del-crimen-de-la-concejala-brasilena-marielle-franco-la-corte-suprema-condeno-a-los-autores-intelectuales/",
       "imageUrl": "https://www.infobae.com/resizer/v2/BIXOI6Q3EXWOK4GD74DSM727NI.jpg?auth=c16c92f18359464ae874db2c49d9ffa87277f531249b249b8d315465cd1411ca&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "Marco Rubio anticipó una nueva fase en Venezuela y afirmó que el país deberá celebrar “elecciones democráticas, libres y justas”",
-      "summary280": "El secretario de Estado de Estados Unidos, Marco Rubio, afirmó que Venezuela deberá celebrar elecciones libres y democráticas como condición indispensable para avanzar a una nueva fase tras la.",
+      "summary280": "El secretario de Estado de Estados Unidos, Marco Rubio, afirmó que Venezuela deberá celebrar elecciones libres y democráticas como condición indispensable para avanzar a una nueva fase tras la captura del narcodictador.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/02/26/marco-rubio-anticipo-una-nueva-fase-en-venezuela-y-afirmo-que-el-pais-debera-celebrar-elecciones-democraticas-libres-y-justas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/QJR5567ZGBGOZNHBFYIQ2V3JQU.JPG?auth=640e7db976682934d1e0650e7edd311ecc8857d8f0036de3310d2b5be4416344&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "¡Insólito! Inter Miami e Independiente del Valle juegan del mismo color",
-      "summary280": "Inter Miami e Independiente del Valle disputaron un amistoso histórico en Puerto Rico, pero hubo un hecho insólito, ambos salieron del mismo color al campo. Inter Miami e Independiente del Valle.",
+      "summary280": "Inter Miami e Independiente del Valle disputaron un amistoso histórico en Puerto Rico, pero hubo un hecho insólito, ambos salieron del mismo color al campo. Inter Miami e Independiente del Valle disputaron un partido.",
       "sourceName": "Diario AS",
       "sourceUrl": "https://as.com/us/futbol/insolito-inter-miami-e-independiente-del-valle-juegan-del-mismo-color-f202602-n/",
       "imageUrl": "https://img.asmedia.epimg.net/resizer/v2/3LZ7RT6ZZFOQ3OUCN4FICYEMHY.jpg?auth=c9d241aa2cc1c30f039af9358c125f55f28ca75944270eae92c43ddb8bccab88&width=1472&height=828&smart=true"
@@ -83,77 +90,77 @@
     },
     {
       "titleOriginal": "Ecuador escala su guerra comercial con Colombia al subir aranceles del 30 % al 50 %",
-      "summary280": "La guerra comercial que mantienen Colombia y Ecuador escaló a un nuevo nivel, después de que el Gobierno del presidente ecuatoriano anunciara que ha roto de manera unilateral el diálogo con el.",
+      "summary280": "La guerra comercial que mantienen Colombia y Ecuador escaló a un nuevo nivel, después de que el Gobierno del presidente ecuatoriano anunciara que ha roto de manera unilateral el diálogo con el Ejecutivo del presidente.",
       "sourceName": "Fuente",
       "sourceUrl": "https://rpp.pe/mundo/latinoamerica/ecuador-escala-su-guerra-comercial-con-colombia-al-subir-aranceles-del-30-al-50-noticia-1677716",
       "imageUrl": "https://f.rpp-noticias.io/2026/02/27/324432_1842992.jpg?width=860&quality=80"
     },
     {
       "titleOriginal": "Los Chapitos habrían entregado ubicación de El Mencho para su captura, refiere hipótesis de especialista en seguridad",
-      "summary280": "La localización y muerte de Rubén “Nemesio” Oseguera Cervantes, conocido como “El Mencho”, marcó un giro en la dinámica del crimen organizado y aún siguen incógnitas de cómo se logró la hazaña de la.",
+      "summary280": "La localización y muerte de Rubén “Nemesio” Oseguera Cervantes, conocido como “El Mencho”, marcó un giro en la dinámica del crimen organizado y aún siguen incógnitas de cómo se logró la hazaña de la captura del líder.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/02/26/los-chapitos-habrian-entregado-ubicacion-de-el-mencho-para-su-captura-refiere-especialista/",
       "imageUrl": "https://www.infobae.com/resizer/v2/SNP363LWHBGEHPDYUGUP6MLDJI.jpg?auth=1e67e65bf96ab87f8939925cba3ccb1ad41b08db4c7e33d8ca26b0415ebf4772&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "Los participantes del Clásico Mundial de Béisbol en cada club de MLB",
-      "summary280": "A continuación, presentamos una lista de jugadores en cada organización de Major League Baseball que integra un roster en alguna selección participante en el Clásico Mundial de Béisbol del 2026. Los.",
+      "summary280": "A continuación, presentamos una lista de jugadores en cada organización de Major League Baseball que integra un roster en alguna selección participante en el Clásico Mundial de Béisbol del 2026. Los serpentineros.",
       "sourceName": "MLB.com",
       "sourceUrl": "https://www.mlb.com/es/news/los-participantes-del-clasico-mundial-de-beisbol-en-cada-club-de-mlb",
       "imageUrl": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/rodbk6zum69evqaikms1.jpg"
     },
     {
       "titleOriginal": "El jefe militar de Estados Unidos en Medio Oriente informó a Trump sobre las opciones respecto a Irán",
-      "summary280": "El presidente de Estados Unidos, Donald Trump, recibió un informe este jueves por parte del Almirante Brad Cooper, máximo responsable del Mando Central de Estados Unidos (CENTCOM), sobre las posibles.",
+      "summary280": "El presidente de Estados Unidos, Donald Trump, recibió un informe este jueves por parte del Almirante Brad Cooper, máximo responsable del Mando Central de Estados Unidos (CENTCOM), sobre las posibles acciones militares.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/02/27/el-jefe-militar-de-estados-unidos-en-medio-oriente-informa-a-trump-sobre-las-opciones-respecto-a-iran/",
       "imageUrl": "https://www.infobae.com/resizer/v2/ZZZCLZDQ6ZDQZM36YNC47ZRZXE.JPG?auth=99567d1ebfa9b9a3156b22bc580c76a4ccbffd76165c4736bc3b53baccef4d94&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "El régimen de Venezuela afirmó que excarceló a 217 presos políticos tras la aprobación de la ley de amnistía",
-      "summary280": "En la primera semana de vigencia de la Ley de Amnistía, 217 personas fueron liberadas de prisión en Venezuela, según informó este jueves Jorge Arreaza, quien encabeza la comisión parlamentaria a.",
+      "summary280": "En la primera semana de vigencia de la Ley de Amnistía, 217 personas fueron liberadas de prisión en Venezuela, según informó este jueves Jorge Arreaza, quien encabeza la comisión parlamentaria a cargo de la aplicación.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/venezuela/2026/02/27/el-regimen-de-venezuela-afirmo-que-excarcelo-a-217-presos-politicos-tras-la-aprobacion-de-la-ley-de-amnistia/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EEFQWGTMO5D4XOKQPJHYHS7FRQ.JPG?auth=2ff3a8024125750d8b22d2e8e068756e2ac575420bc2ca5df884ff278044ab88&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "México vs Islandia: goles y resumen del partido amistoso HOY",
-      "summary280": "El Tricolor goleó a los islandeses en Querétaro dando una alegría a la gente tras los hechos del fin de semana. La Selección Mexicana está recuperando confianza en este 2026. El equipo de Javier.",
+      "summary280": "El Tricolor goleó a los islandeses en Querétaro dando una alegría a la gente tras los hechos del fin de semana. La Selección Mexicana está recuperando confianza en este 2026. El equipo de Javier Aguirre goleó a Islandia.",
       "sourceName": "Mediotiempo",
       "sourceUrl": "https://www.mediotiempo.com/futbol/amistosos/mexico-vs-islandia-goles-resumen-partido-amistoso-mundial-2026",
       "imageUrl": "https://cdn2.mediotiempo.com/uploads/media/2026/02/25/armando-gonzalez-marco-asistio-islandia.jpg"
     },
     {
       "titleOriginal": "Así quedaron los cruces de octavos de final de la Champions League: el Real Madrid enfrentará al Manchester City",
-      "summary280": "Los cruces de los octavos de final de la Champions League quedaron definidos este viernes tras un sorteo en el que participaron los 16 equipos que sobreviven en el considerado como torneo de clubes.",
+      "summary280": "Los cruces de los octavos de final de la Champions League quedaron definidos este viernes tras un sorteo en el que participaron los 16 equipos que sobreviven en el considerado como torneo de clubes más importante del.",
       "sourceName": "NTN24",
       "sourceUrl": "https://www.ntn24.com/noticias-deportes/asi-quedaron-los-cruces-de-octavos-de-final-de-la-champions-league-el-real-madrid-enfrentara-al-manchester-city-608976",
       "imageUrl": "https://intn24.lalr.co/cms/2026/02/27064731/Cuadro-de-la-Champions-League-2025-2026-EFE.jpg?w=1280"
     },
     {
       "titleOriginal": "Un estadounidense, entre los cuatro muertos en la lancha interceptada por Cuba",
-      "summary280": "El Departamento de Estado confirma que uno de los seis heridos es también ciudadano Dos personas de nacionalidad estadounidense figuraban entre los diez tripulantes de la lancha procedente de Florida.",
+      "summary280": "El Departamento de Estado confirma que uno de los seis heridos es también ciudadano Dos personas de nacionalidad estadounidense figuraban entre los diez tripulantes de la lancha procedente de Florida capturada por el.",
       "sourceName": "El País US",
       "sourceUrl": "https://elpais.com/us/2026-02-27/un-estadounidense-entre-los-cuatro-muertos-en-la-lancha-interceptada-por-cuba.html",
       "imageUrl": "https://imagenes.elpais.com/resizer/v2/F4ISWXIAWBIGJCOTTHY42PQBPY.jpg?auth=fbc68df6e2c43fe853850ca854d7d06b0f9cecb5dd9b81986a83259598e7ece8&width=1200"
     },
     {
       "titleOriginal": "Casa Blanca reduce la opción de arancel global del 15% de Trump",
-      "summary280": "La administración de Estados Unidos mantiene temporalmente la tasa del 10 % Representantes del Gobierno de Donald Trump rebajaron este miércoles la posibilidad de que el arancel global del 15 % entre.",
+      "summary280": "La administración de Estados Unidos mantiene temporalmente la tasa del 10 % Representantes del Gobierno de Donald Trump rebajaron este miércoles la posibilidad de que el arancel global del 15 % entre en vigor de manera.",
       "sourceName": "Diario Libre",
       "sourceUrl": "https://www.diariolibre.com/usa/actualidad/2026/02/25/casa-blanca-reduce-opcion-de-arancel-global-15-/3449340",
       "imageUrl": "https://resources.diariolibre.com/images/2026/02/26/casa-blanca-reduce-opcion-de-arancel-global-15--726346e8.jpg"
     },
     {
       "titleOriginal": "Administración Federal de Aviación cierra por segunda vez el espacio aéreo en Texas: ¿Qué fue lo que pasó?",
-      "summary280": "La Administración Federal de Aviación (FAA) prohibió ese jueves 26 de febrero 2026, los vuelos en un área alrededor de Fort Hancock, Texas. De acuerdo con AP, el ejército estadounidense utilizó un.",
+      "summary280": "La Administración Federal de Aviación (FAA) prohibió ese jueves 26 de febrero 2026, los vuelos en un área alrededor de Fort Hancock, Texas. De acuerdo con AP, el ejército estadounidense utilizó un láser este día para.",
       "sourceName": "Univision",
       "sourceUrl": "https://www.univision.com/noticias/estados-unidos/administracion-federal-de-aviacion-cierra-espacio-aereo-en-texas-que-fue-lo-que-paso",
       "imageUrl": "https://www.univision.com/api/image/og/us/noticias/estados-unidos/administracion-federal-de-aviacion-cierra-espacio-aereo-en-texas-que-fue-lo-que-paso"
     },
     {
       "titleOriginal": "Petro le pidió a Minsalud una ley para que dueños de las EPS paguen deudas",
-      "summary280": "Hizo un llamado para una movilización que defienda la Reforma a la Salud. Durante el 'Encuentro Nacional de Salud', en Bogotá, el Presidente Gustavo Petro le pidió al Ministro de Salud, Guillermo.",
+      "summary280": "Hizo un llamado para una movilización que defienda la Reforma a la Salud. Durante el 'Encuentro Nacional de Salud', en Bogotá, el Presidente Gustavo Petro le pidió al Ministro de Salud, Guillermo Alfonso Jaramillo, que.",
       "sourceName": "ZONA CERO",
       "sourceUrl": "https://zonacero.com/generales/petro-le-pidio-minsalud-una-ley-para-que-duenos-de-las-eps-paguen-deudas",
       "imageUrl": "http://zonacero.com/sites/default/files/styles/1280_x_530_noticia_interna/public/2026-02/Presidente%20Petro_0.jpg?h=1e6843f2&itok=k12RRIUP"
@@ -167,28 +174,28 @@
     },
     {
       "titleOriginal": "Dragoneante armada del Inpec fue capturada durante evento político de Álvaro Uribe en el Tolima: esto se sabe",
-      "summary280": "El 26 de febrero había gran expectativa en el norte del Tolima, más específicamente en Honda y Mariquita, por la visita del expresidente Álvaro Uribe Vélez en varios eventos de campaña por su.",
+      "summary280": "El 26 de febrero había gran expectativa en el norte del Tolima, más específicamente en Honda y Mariquita, por la visita del expresidente Álvaro Uribe Vélez en varios eventos de campaña por su aspiración de ser senador.",
       "sourceName": "infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/02/26/funcionaria-del-inpec-fue-capturada-durante-evento-politico-de-alvaro-uribe-en-el-tolima-esto-se-sabe/",
       "imageUrl": "https://www.infobae.com/resizer/v2/E3RLCMQHOJEVPAAFOY6HFGJWM4.png?auth=feeb5bd8ed4aebea576b0f47fa623b3d07b2df038db65106b72da14342f06164&smart=true&width=1200&height=630&quality=85"
     },
     {
       "titleOriginal": "MinSalud expide decreto que limita operación y presencia de las EPS",
-      "summary280": "El Ministerio de Salud expidió el decreto 0182, con el que modifica cuántas EPS podrán funcionar en departamentos y municipios según la población y el número de afiliados. Si hay afiliados a una EPS.",
+      "summary280": "El Ministerio de Salud expidió el decreto 0182, con el que modifica cuántas EPS podrán funcionar en departamentos y municipios según la población y el número de afiliados. Si hay afiliados a una EPS que no tenga.",
       "sourceName": "La Silla Vacía",
       "sourceUrl": "https://www.lasillavacia.com/en-vivo/minsalud-expide-decreto-que-limita-operacion-y-presencia-de-las-eps/",
       "imageUrl": "https://www.lasillavacia.com/wp-content/uploads/2025/05/minsaludguillermojaramillo.jpg"
     },
     {
       "titleOriginal": "Ecuador sube los aranceles a Colombia al 50% en medio de una creciente guerra comercial",
-      "summary280": "El Gobierno de Daniel Noboa responde al anuncio del Ejecutivo de Gustavo Petro de igualar el gravamen en un 30% Ecuador ha dado un nuevo golpe sorpresivo al comercio bilateral con Colombia. El.",
+      "summary280": "El Gobierno de Daniel Noboa responde al anuncio del Ejecutivo de Gustavo Petro de igualar el gravamen en un 30% Ecuador ha dado un nuevo golpe sorpresivo al comercio bilateral con Colombia. El Gobierno de Daniel Noboa.",
       "sourceName": "El País América Colombia",
       "sourceUrl": "https://elpais.com/america-colombia/2026-02-26/ecuador-sube-los-aranceles-a-colombia-al-50-en-medio-de-una-creciente-guerra-comercial.html",
       "imageUrl": "https://imagenes.elpais.com/resizer/v2/2P4FD4MIBRIEZEMJNMGQI7NU4Y.jpg?auth=66f54692882570a95b49356fc372acec9d1816fb3d4f0b7c5a3b46fdf1f10ca1&width=1200"
     },
     {
       "titleOriginal": "Agentes arrestaron a refugiado casi ciego y lo abandonaron; murió intentando volver a casa",
-      "summary280": "Nurul Amin Shah Alam, un refugiado de Myanmar de 56 años que padecía una ceguera casi total y no hablaba inglés, fue hallado sin vida en una calle de Buffalo, Nueva York, el pasado martes por la.",
+      "summary280": "Nurul Amin Shah Alam, un refugiado de Myanmar de 56 años que padecía una ceguera casi total y no hablaba inglés, fue hallado sin vida en una calle de Buffalo, Nueva York, el pasado martes por la noche. El hombre había.",
       "sourceName": "ELESPECTADOR.COM",
       "sourceUrl": "https://www.elespectador.com/mundo/america/agentes-arrestaron-a-refugiado-casi-ciego-y-lo-abandonaron-murio-intentando-volver-a-casa/",
       "imageUrl": "https://www.elespectador.com/resizer/v2/FTE3XD3LWZDKZJIK7LC3IOHCTA.jpg?auth=f63c192cb91632bb042fd79983ec957a2019e4a4197eb3c1c58bc570b1f63a9c&width=657&smart=true&quality=60"
@@ -202,14 +209,14 @@
     },
     {
       "titleOriginal": "Pakistán bombardea Kabul y declara guerra abierta a Afganistán",
-      "summary280": "Los ataques paquistaníes han provocado la muerte de 133 talibanes y han dejado más de 200 heridos, informó un portavoz de Pakistán. El Gobierno de Pakistán aseguró haber bombardeado Kabul, la capital.",
+      "summary280": "Los ataques paquistaníes han provocado la muerte de 133 talibanes y han dejado más de 200 heridos, informó un portavoz de Pakistán. El Gobierno de Pakistán aseguró haber bombardeado Kabul, la capital afgana, en la.",
       "sourceName": "El Universo",
       "sourceUrl": "https://www.eluniverso.com/noticias/internacional/pakistan-bombardea-kabul-y-declara-guerra-abierta-a-afganistan-nota/",
       "imageUrl": "https://www.eluniverso.com/resizer/v2/CU4VM5DMA5BUPKJ5FPMPX6A3WE.jpg?auth=dc4295070d4b86e8a677470c376c30b16e8306a749a9160a06bb291b99eeb67f&width=1005&height=670&quality=75&smart=true"
     },
     {
       "titleOriginal": "Irán entrega a EE.UU. propuesta de acuerdo nuclear",
-      "summary280": "Irán y Estados Unidos inician una nueva ronda de negociaciones indirectas sobre el programa nuclear iraní, la tercera este año, con una propuesta detallada transmitida por la parte iraní a los.",
+      "summary280": "Irán y Estados Unidos inician una nueva ronda de negociaciones indirectas sobre el programa nuclear iraní, la tercera este año, con una propuesta detallada transmitida por la parte iraní a los estadounidenses. Irán y.",
       "sourceName": "dw.com",
       "sourceUrl": "https://www.dw.com/es/ir%C3%A1n-entrega-a-eeuu-una-propuesta-de-acuerdo-nuclear/a-76130791",
       "imageUrl": "https://static.dw.com/image/76133327_6.jpg"
