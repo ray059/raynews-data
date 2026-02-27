@@ -27,6 +27,8 @@ jobs:
           pip install requests beautifulsoup4 openai
 
       - name: Run script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate.py
 
       - name: Commit and push edition.json
