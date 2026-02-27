@@ -1,9 +1,16 @@
 {
   "edition_date": "27 Feb 2026",
-  "edition_number": 25,
-  "generated_at": "2026-02-27T20:27:05.248721",
+  "edition_number": 26,
+  "generated_at": "2026-02-27T20:45:44.680614",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Estados Unidos amenazó con aislar a un banco suizo por relación comercial con Irán y Rusia",
+      "summary280": "El Departamento del Tesoro de Estados Unidos propuso el jueves una regulación federal que, de concretarse, cortaría por completo el acceso de MBaer Merchant Bank AG al sistema financiero estadounidense. Según la Red de.",
+      "sourceName": "infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/02/26/estados-unidos-amenazo-con-aislar-a-un-banco-suizo-por-relacion-comercial-con-iran-y-rusia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/2G6W7N36HRDOXPP4VQV7TMQDYE.JPG?auth=a1ead8e436fc4146bcaa70e45a91f8e059c3730382b22ca29ebd053c4a1b895a&smart=true&width=1200&height=630&quality=85"
+    },
     {
       "titleOriginal": "En medio de la tensión con Estados Unidos por Groenlandia, Dinamarca llamó a elecciones anticipadas",
       "summary280": "La primera ministra danesa Mette Frederiksen anunció este jueves la convocatoria de elecciones generales anticipadas para el 24 de marzo en Dinamarca, en un contexto marcado por el reciente enfrentamiento diplomático.",
@@ -34,7 +41,7 @@
     },
     {
       "titleOriginal": "Samsung presenta los nuevos Galaxy Buds4 Series, auriculares inalámbricos con un sonido excepcional",
-      "summary280": "SAN FRANCISCO, US – 25 de febrero de 2026 – Samsung Electronics Co., Ltd. ha presentado sus nuevos Galaxy Buds4 Pro y Galaxy Buds4, redefiniendo lo que unos auriculares premium pueden ofrecer tanto en audio hi-fi.",
+      "summary280": "Los vídeos de Samsung Newsroom dejarán de ser compatibles con Internet Explorer. Por favor, pruebe con un navegador diferente. SAN FRANCISCO, US – 25 de febrero de 2026 – Samsung Electronics Co., Ltd. ha presentado sus.",
       "sourceName": "Fuente",
       "sourceUrl": "https://news.samsung.com/es/samsung-presenta-los-nuevos-galaxy-buds4-series-auriculares-inalambricos-con-un-sonido-excepcional",
       "imageUrl": "https://img.global.news.samsung.com/es/wp-content/uploads/2026/02/25_Galaxy-Buds4-Pro_Family_v1-1.jpg"
@@ -52,13 +59,6 @@
       "sourceName": "dw.com",
       "sourceUrl": "https://www.dw.com/es/estados-unidos-ofrece-10-millones-de-d%C3%B3lares-por-hermanos-arzate-garc%C3%ADa-del-cartel-de-sinaloa/a-76143479",
       "imageUrl": "https://static.dw.com/image/72602879_6.jpg"
-    },
-    {
-      "titleOriginal": "¡Aumenta la polémica! Filtran desde el interior del Benfica lo que le dijo Prestianni a Vinicius",
-      "summary280": "El futbolista argentino protagonizó un supuesto acto de racismo contra el brasileño en el Benfica vs Real Madrid por la Champions.",
-      "sourceName": "www.diez.hn",
-      "sourceUrl": "https://www.diez.hn/fotogalerias/aumenta-polemica-giro-inesperado-prestianni-todo-que-ocurrio-con-vinicius-JH29483497",
-      "imageUrl": "https://www.diez.hn/binrepository/1200x900/1c0/1200d630/none/3014757/HVLM/prestianni-vini_13652315_20260226154922.jpg"
     },
     {
       "titleOriginal": "Chile: Senadores y Diputados citaron a sesiones especiales por el polémico cable submarino con el régimen chino",
@@ -87,13 +87,6 @@
       "sourceName": "Diario AS",
       "sourceUrl": "https://as.com/us/futbol/insolito-inter-miami-e-independiente-del-valle-juegan-del-mismo-color-f202602-n/",
       "imageUrl": "https://img.asmedia.epimg.net/resizer/v2/3LZ7RT6ZZFOQ3OUCN4FICYEMHY.jpg?auth=c9d241aa2cc1c30f039af9358c125f55f28ca75944270eae92c43ddb8bccab88&width=1472&height=828&smart=true"
-    },
-    {
-      "titleOriginal": "Netflix se retira de la compra de Warner Bros. y deja a Paramount como principal interesada",
-      "summary280": "La plataforma decidió no igualar la última oferta presentada por Paramount Skydance al considerar que el acuerdo “ya no es financieramente.",
-      "sourceName": "El Comercio Perú",
-      "sourceUrl": "https://elcomercio.pe/luces/cine/netflix-se-retira-de-la-compra-de-warner-bros-y-deja-a-paramount-como-principal-interesada-ultimas-noticia/",
-      "imageUrl": "https://elcomercio.pe/resizer/v2/ZUOSJ3NLRNHRPHC5BG26HA6TGI.webp?auth=9d1b0629a7218e81df954070967e91f7b330fae0ed8f04c58b034249fa7cd848&width=980&height=528&quality=75&smart=true"
     },
     {
       "titleOriginal": "Ecuador escala su guerra comercial con Colombia al subir aranceles del 30 % al 50 %",
@@ -171,13 +164,6 @@
       "sourceName": "ZONA CERO",
       "sourceUrl": "https://zonacero.com/generales/petro-le-pidio-minsalud-una-ley-para-que-duenos-de-las-eps-paguen-deudas",
       "imageUrl": "http://zonacero.com/sites/default/files/styles/1280_x_530_noticia_interna/public/2026-02/Presidente%20Petro_0.jpg?h=1e6843f2&itok=k12RRIUP"
-    },
-    {
-      "titleOriginal": "MinDefensa Pedro Sánchez ordena búsqueda urgente de candidatos desaparecidos en Cauca y Cesar",
-      "summary280": "El ministro de Defensa, Pedro Sánchez, anunció la activación inmediata de “toda la capacidad y determinación” de la Fuerza Pública para encontrar a.",
-      "sourceName": "El Colombiano",
-      "sourceUrl": "https://www.elcolombiano.com/colombia/gobierno-busqueda-candidatos-desaparicion-cauca-cesar-MK33933780",
-      "imageUrl": "https://estaticos.elcolombiano.com/binrepository/1200x1280/0c113/1200d675/none/11101/KOOK/pedro-sanchez-2_50027547_20260226153328.jpg"
     }
   ]
 }
