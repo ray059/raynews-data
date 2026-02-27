@@ -130,12 +130,35 @@ def extract_article_data(url):
 
         article = soup.find("article")
 
+        # Extraer texto principal mejor filtrado
+        article = soup.find("article")
+        
         if article:
             paragraphs = article.find_all("p")
         else:
             paragraphs = soup.find_all("p")
-
-        article_text = " ".join(p.get_text() for p in paragraphs)
+        
+        clean_paragraphs = []
+        
+        for p in paragraphs:
+            text_p = clean_text(p.get_text())
+        
+            # 🔥 filtros anti-basura
+            if len(text_p) < 50:
+                continue
+            if "Internet Explorer" in text_p:
+                continue
+            if "Publicidad" in text_p:
+                continue
+            if "Suscríbete" in text_p:
+                continue
+            if "©" in text_p:
+                continue
+        
+            clean_paragraphs.append(text_p)
+        
+        article_text = " ".join(clean_paragraphs)
+        article_text = clean_noise(article_text)
         article_text = clean_noise(article_text)
 
         # Fallback si el texto es muy corto
@@ -150,7 +173,7 @@ def extract_article_data(url):
 
         print("✔ Texto extraído:", len(article_text), "caracteres")
 
-        summary = generate_summary_with_ai(article_text[:5000])
+        summary = generate_summary_with_ai(article_text[:3000])
 
         return {
             "titleOriginal": title,
