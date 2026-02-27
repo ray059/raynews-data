@@ -31,33 +31,48 @@ def get_next_edition_number():
     return 1
 
 
-def generate_summary_with_ai(text):
-    try:
-        prompt = f"""
-Resume la siguiente noticia en máximo 280 caracteres exactos.
-No incluyas puntos suspensivos al final.
-No repitas el titular.
-Sé claro, neutral y directo.
-Texto:
-{text}
-"""
-
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
-        )
-
-        summary = response.choices[0].message.content.strip()
-
-        if len(summary) > 280:
-            summary = summary[:277].rsplit(" ", 1)[0] + "..."
-
-        return summary
-
-    except Exception as e:
-        print("Error generando resumen IA:", e)
-        return text[:277] + "..."
+    def generate_summary_with_ai(text):
+        try:
+            prompt = f"""
+    Lee COMPLETAMENTE la siguiente noticia.
+    
+    Genera un resumen global que incluya:
+    - El hecho principal
+    - Los datos clave
+    - El contexto relevante
+    
+    Debe:
+    - Tener máximo 280 caracteres
+    - No repetir el titular
+    - No usar puntos suspensivos
+    - No cortar frases
+    - Ser neutral y claro
+    - Ser un resumen integral, no solo del primer párrafo
+    
+    Noticia:
+    {text}
+    """
+    
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2
+            )
+    
+            summary = response.choices[0].message.content.strip()
+    
+            # Limpiar puntos suspensivos finales
+            summary = re.sub(r'\.\.\.$', '', summary).strip()
+    
+            # Forzar límite sin agregar "..."
+            if len(summary) > 280:
+                summary = summary[:280].rsplit(" ", 1)[0]
+    
+            return summary
+    
+        except Exception as e:
+            print("Error generando resumen IA:", e)
+            return text[:280]
 
 
 # =============================
