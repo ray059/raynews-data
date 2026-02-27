@@ -28,7 +28,6 @@ def clean_text(text):
 
 
 def clean_noise(text):
-    # Elimina basura común de medios
     text = re.sub(r'Publicidad', '', text, flags=re.IGNORECASE)
     text = re.sub(r'Audio generado.*?0:00\s*/\s*0:00', '', text, flags=re.IGNORECASE)
     text = re.sub(r'por Agencia EFE', '', text, flags=re.IGNORECASE)
@@ -47,13 +46,13 @@ def get_next_edition_number():
 
 
 # =============================
-# RESUMEN IA (VERSIÓN DEFINITIVA)
+# RESUMEN IA (BLINDAJE TOTAL)
 # =============================
 
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en UNA sola oración clara y sintética.
+Resume la siguiente noticia en una sola oración clara y sintética.
 
 Reglas obligatorias:
 - Máximo 280 caracteres.
@@ -61,8 +60,8 @@ Reglas obligatorias:
 - No usar comillas.
 - No usar puntos suspensivos.
 - No dejar frases incompletas.
-- Debe terminar con punto final.
-- Debe sintetizar el hecho principal.
+- Terminar con punto final.
+- Sintetizar el hecho principal.
 
 Noticia:
 {text}
@@ -71,29 +70,34 @@ Noticia:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.3,
+            temperature=0.2,
             max_tokens=120
         )
 
         summary = response.choices[0].message.content.strip()
 
-        # limpieza
+        # Limpieza básica
         summary = re.sub(r'\s+', ' ', summary).strip()
-        summary = re.sub(r'\.+$', '.', summary)
 
-        # blindaje final
+        # 🔥 QUEDARSE SOLO CON LA PRIMERA ORACIÓN COMPLETA
+        sentences = re.split(r'(?<=[.!?])\s', summary)
+        summary = sentences[0].strip()
+
+        # Si no terminó en punto, forzarlo limpio
+        if not summary.endswith((".", "?", "!")):
+            summary = summary.rstrip(" ,;:") + "."
+
+        # Límite final de seguridad
         if len(summary) > 280:
             summary = summary[:280].rsplit(" ", 1)[0]
-            summary = re.sub(r'\.+$', '.', summary)
-            if not summary.endswith("."):
-                summary += "."
+            summary = summary.rstrip(" ,;:") + "."
 
         return summary
 
     except Exception as e:
         print("❌ Error generando resumen IA:", e)
         fallback = text[:250].rsplit(" ", 1)[0]
-        return fallback + "."
+        return fallback.rstrip(" ,;:") + "."
 
 
 # =============================
@@ -126,7 +130,6 @@ def extract_article_data(url):
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
-        # Extraer texto principal
         article = soup.find("article")
 
         if article:
@@ -137,7 +140,7 @@ def extract_article_data(url):
         article_text = " ".join(p.get_text() for p in paragraphs)
         article_text = clean_noise(article_text)
 
-        # Fallback a og:description si falla
+        # Fallback si el texto es muy corto
         if len(article_text) < 300:
             desc_tag = soup.find("meta", property="og:description")
             if desc_tag:
