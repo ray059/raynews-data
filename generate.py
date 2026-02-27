@@ -19,12 +19,20 @@ client = OpenAI(api_key=API_KEY)
 
 
 # =============================
-# Helpers
+# HELPERS
 # =============================
 
 def clean_text(text):
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
+
+
+def clean_noise(text):
+    # Elimina basura común de medios
+    text = re.sub(r'Publicidad', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'Audio generado.*?0:00\s*/\s*0:00', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'por Agencia EFE', '', text, flags=re.IGNORECASE)
+    return clean_text(text)
 
 
 def get_next_edition_number():
@@ -38,18 +46,22 @@ def get_next_edition_number():
     return 1
 
 
+# =============================
+# RESUMEN IA (VERSIÓN DEFINITIVA)
+# =============================
+
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en un máximo estricto de 500 caracteres.
+Resume la siguiente noticia en máximo 3 oraciones.
 
-Reglas obligatorias:
-- No exceder 500 caracteres.
+Reglas estrictas:
+- Máximo 420 caracteres.
+- Resumen sintético real (no reformulación extensa).
+- No copiar frases textuales largas.
 - No dejar frases incompletas.
 - No cortar palabras.
 - No usar puntos suspensivos.
-- No copiar párrafos textuales largos.
-- Redactar un resumen claro, neutral y profesional.
 - Terminar siempre con punto final.
 
 Noticia:
@@ -60,33 +72,28 @@ Noticia:
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.4,
-            max_tokens=220  # 🔥 límite real para evitar textos largos
+            max_tokens=180
         )
 
         summary = response.choices[0].message.content.strip()
-
-        # Limpieza básica
-        summary = re.sub(r'\s+', ' ', summary).strip()
+        summary = clean_text(summary)
         summary = re.sub(r'\.\.\.+', '.', summary)
 
-        # 🔥 Blindaje final absoluto
-        if len(summary) > 500:
-            trimmed = summary[:500]
+        # Blindaje final absoluto
+        if len(summary) > 420:
+            summary = summary[:420].rsplit(" ", 1)[0].strip()
 
-            # cortar por última palabra completa
-            trimmed = trimmed.rsplit(" ", 1)[0].strip()
+        # Eliminar conectores pobres al final
+        summary = re.sub(r'\b(de|del|con|para|por|que|y|en|a)$', '', summary).strip()
 
-            # asegurar cierre correcto
-            if not trimmed.endswith((".", "?", "!")):
-                trimmed += "."
-
-            summary = trimmed
+        if not summary.endswith((".", "?", "!")):
+            summary += "."
 
         return summary
 
     except Exception as e:
         print("❌ Error generando resumen IA:", e)
-        fallback = text[:500].rsplit(" ", 1)[0].strip()
+        fallback = text[:380].rsplit(" ", 1)[0].strip()
         if not fallback.endswith("."):
             fallback += "."
         return fallback
@@ -108,10 +115,8 @@ def extract_article_data(url):
             return None
 
         response.encoding = response.apparent_encoding
-
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # OG DATA
         title_tag = soup.find("meta", property="og:title")
         image_tag = soup.find("meta", property="og:image")
         source_tag = soup.find("meta", property="og:site_name")
@@ -124,7 +129,7 @@ def extract_article_data(url):
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
-        # EXTRAER TEXTO REAL DEL ARTÍCULO
+        # Extraer texto principal
         article = soup.find("article")
 
         if article:
@@ -133,15 +138,15 @@ def extract_article_data(url):
             paragraphs = soup.find_all("p")
 
         article_text = " ".join(p.get_text() for p in paragraphs)
-        article_text = clean_text(article_text)
+        article_text = clean_noise(article_text)
 
+        # Fallback a og:description si falla
         if len(article_text) < 300:
-            print("⚠ Texto muy corto, usando og:description como fallback")
             desc_tag = soup.find("meta", property="og:description")
             if desc_tag:
-                article_text = clean_text(desc_tag["content"])
+                article_text = clean_noise(desc_tag["content"])
 
-        if len(article_text) < 100:
+        if len(article_text) < 120:
             print("❌ No se pudo extraer texto útil")
             return None
 
