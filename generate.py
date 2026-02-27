@@ -46,23 +46,22 @@ def get_next_edition_number():
 
 
 # =============================
-# RESUMEN IA (BLINDAJE TOTAL)
+# RESUMEN IA (VERSIÓN ESTABLE)
 # =============================
 
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Escribe UNA sola oración clara, completa y bien cerrada que explique el hecho principal de la noticia.
+Resume la siguiente noticia en un máximo de 280 caracteres.
 
-Reglas:
-- Máximo 240 caracteres.
-- Debe ser una oración completa.
-- Debe tener sujeto y verbo.
-- No puede quedar incompleta.
+Reglas obligatorias:
+- Puede usar una o dos oraciones cortas.
+- Máximo 280 caracteres.
 - No usar comillas.
 - No usar puntos suspensivos.
-- Debe terminar con punto.
-- No repetir información.
+- No dejar frases incompletas.
+- Terminar siempre con punto final.
+- Sintetizar únicamente el hecho principal.
 
 Noticia:
 {text}
@@ -78,23 +77,29 @@ Noticia:
         summary = response.choices[0].message.content.strip()
         summary = re.sub(r'\s+', ' ', summary).strip()
 
-        # 🔒 Validación fuerte de integridad
+        # Asegurar punto final
         if not summary.endswith("."):
             summary += "."
 
-        # 🔒 Corte limpio SOLO si excede límite absoluto
+        # Si excede 280 caracteres
         if len(summary) > 280:
-            summary = summary[:280].rsplit(" ", 1)[0].rstrip(" ,;:") + "."
+            trimmed = summary[:280]
+            last_period = trimmed.rfind(".")
 
-        # 🔒 Evitar frases cortadas tipo "a los."
+            if last_period != -1 and last_period > 80:
+                summary = trimmed[:last_period + 1]
+            else:
+                summary = trimmed.rsplit(" ", 1)[0].rstrip(" ,;:") + "."
+
+        # Blindaje anti preposición colgada
         if re.search(r'\b(de|del|a|al|con|por|para|sobre|en)\.$', summary):
-            return generate_summary_with_ai(text[:3000])  # reintento automático
+            summary = summary.rsplit(" ", 1)[0] + "."
 
         return summary
 
     except Exception as e:
         print("❌ Error generando resumen IA:", e)
-        fallback = text[:200].rsplit(" ", 1)[0]
+        fallback = text[:220].rsplit(" ", 1)[0]
         return fallback.rstrip(" ,;:") + "."
 
 
@@ -130,20 +135,16 @@ def extract_article_data(url):
 
         article = soup.find("article")
 
-        # Extraer texto principal mejor filtrado
-        article = soup.find("article")
-        
         if article:
             paragraphs = article.find_all("p")
         else:
             paragraphs = soup.find_all("p")
-        
+
         clean_paragraphs = []
-        
+
         for p in paragraphs:
             text_p = clean_text(p.get_text())
-        
-            # 🔥 filtros anti-basura
+
             if len(text_p) < 50:
                 continue
             if "Internet Explorer" in text_p:
@@ -154,14 +155,13 @@ def extract_article_data(url):
                 continue
             if "©" in text_p:
                 continue
-        
+
             clean_paragraphs.append(text_p)
-        
+
         article_text = " ".join(clean_paragraphs)
         article_text = clean_noise(article_text)
-        article_text = clean_noise(article_text)
 
-        # Fallback si el texto es muy corto
+        # Fallback a og:description si es muy corto
         if len(article_text) < 300:
             desc_tag = soup.find("meta", property="og:description")
             if desc_tag:
