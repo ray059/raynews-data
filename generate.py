@@ -44,11 +44,16 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en máximo 280 caracteres.
-Debe ser un resumen global.
-No repitas el titular.
-No uses puntos suspensivos.
-Sé claro y neutral.
+Resume la siguiente noticia en un máximo de 500 caracteres.
+
+Debe:
+- Ser un resumen global completo
+- Incluir los datos más importantes
+- No repetir el titular
+- No usar puntos suspensivos
+- No cortar frases
+- No exceder 500 caracteres
+- Ser claro, directo y neutral
 
 Noticia:
 {text}
@@ -62,17 +67,21 @@ Noticia:
 
         summary = response.choices[0].message.content.strip()
 
+        # Eliminar puntos suspensivos si aparecen
         summary = re.sub(r'\.\.\.$', '', summary).strip()
 
-        if len(summary) > 280:
-            summary = summary[:280].rsplit(" ", 1)[0]
+        # Si supera 500, recortar sin romper frase
+        if len(summary) > 500:
+            summary = summary[:500].rsplit(".", 1)[0].strip()
+            if not summary.endswith("."):
+                summary += "."
 
-        print("✔ Resumen generado correctamente")
+        print("✔ Resumen generado:", len(summary), "caracteres")
         return summary
 
     except Exception as e:
         print("❌ Error generando resumen IA:", e)
-        return text[:280]
+        return text[:500]
 
 
 # =============================
