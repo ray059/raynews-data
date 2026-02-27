@@ -52,16 +52,13 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en una sola oración clara y sintética.
+Resume la siguiente noticia en una oración breve y directa.
 
-Reglas obligatorias:
-- Máximo 280 caracteres.
-- Una sola oración.
-- No usar comillas.
-- No usar puntos suspensivos.
-- No dejar frases incompletas.
-- Terminar con punto final.
-- Sintetizar el hecho principal.
+Máximo 220 caracteres.
+No usar comillas.
+No usar puntos suspensivos.
+No repetir frases.
+Sintetizar el hecho principal.
 
 Noticia:
 {text}
@@ -71,32 +68,36 @@ Noticia:
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
-            max_tokens=120
+            max_tokens=100
         )
 
         summary = response.choices[0].message.content.strip()
-
-        # Limpieza básica
         summary = re.sub(r'\s+', ' ', summary).strip()
 
-        # 🔥 QUEDARSE SOLO CON LA PRIMERA ORACIÓN COMPLETA
-        sentences = re.split(r'(?<=[.!?])\s', summary)
-        summary = sentences[0].strip()
+        # 🔥 Cortar estrictamente en el primer punto real
+        if "." in summary:
+            first_part = summary.split(".")[0].strip()
+        else:
+            first_part = summary
 
-        # Si no terminó en punto, forzarlo limpio
-        if not summary.endswith((".", "?", "!")):
-            summary = summary.rstrip(" ,;:") + "."
+        summary = first_part
 
-        # Límite final de seguridad
+        # Evitar repeticiones tipo "Inter Miami ... Inter Miami ..."
+        words = summary.split()
+        if len(words) > 6 and words[:4] == words[4:8]:
+            summary = " ".join(words[:4])
+
+        # Límite máximo absoluto
         if len(summary) > 280:
             summary = summary[:280].rsplit(" ", 1)[0]
-            summary = summary.rstrip(" ,;:") + "."
+
+        summary = summary.rstrip(" ,;:") + "."
 
         return summary
 
     except Exception as e:
         print("❌ Error generando resumen IA:", e)
-        fallback = text[:250].rsplit(" ", 1)[0]
+        fallback = text[:200].rsplit(" ", 1)[0]
         return fallback.rstrip(" ,;:") + "."
 
 
