@@ -1,9 +1,16 @@
 {
   "edition_date": "27 Feb 2026",
-  "edition_number": 22,
-  "generated_at": "2026-02-27T19:50:04.186991",
+  "edition_number": 23,
+  "generated_at": "2026-02-27T20:10:22.161601",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "En medio de la tensión con Estados Unidos por Groenlandia, Dinamarca llamó a elecciones anticipadas",
+      "summary280": "La primera ministra danesa Mette Frederiksen anunció este jueves la convocatoria de elecciones generales anticipadas para el 24 de marzo en Dinamarca, en un contexto marcado por el reciente enfrentamiento diplomático.",
+      "sourceName": "infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/02/26/en-medio-de-la-tension-con-estados-unidos-por-groenlandia-dinamarca-llamo-a-elecciones-anticipadas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/DKTCS5PQIZABBPCQXJ7GBTJBJ4.JPG?auth=6e168059b31bb40d403b1df7ef53c7dc35c1018ae47cc5dda282aad3ef004fc8&smart=true&width=1200&height=630&quality=85"
+    },
     {
       "titleOriginal": "Kim Jong Un promete fortalecer su programa nuclear y observa un desfile militar con su hija",
       "summary280": "El líder norcoreano Kim Jong Un prometió el miércoles fortalecer el programa de armas nucleares de su país, antes de presidir un desfile militar nocturno, acompañado por su hija. Unos 14.000 soldados marcharon por la.",
