@@ -4,39 +4,43 @@ import json
 from datetime import datetime
 import re
 import os
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def clean_text(text):
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
-def smart_summary(text, max_chars=280):
-    sentences = re.split(r'(?<=[.!?]) +', text)
-    summary = ""
+def generate_summary_with_ai(text):
+    prompt = f"""
+Resume la siguiente noticia en máximo 280 caracteres.
+Debe ser claro, neutral y directo.
+No inventes información.
+Texto:
+{text}
+"""
 
-    for sentence in sentences:
-        if len(summary) + len(sentence) <= max_chars:
-            summary += sentence + " "
-        else:
-            break
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.3
+    )
 
-    summary = summary.strip()
+    summary = response.choices[0].message.content.strip()
 
-    if len(summary) < 100:
-        summary = text[:max_chars-3].rsplit(" ", 1)[0] + "..."
+    if len(summary) > 280:
+        summary = summary[:277].rsplit(" ", 1)[0] + "..."
 
     return summary
 
 def extract_article_data(url):
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0"
-        }
-
+        headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers, timeout=15)
         response.encoding = response.apparent_encoding
 
         if response.status_code != 200:
-            print(f"❌ Error {response.status_code} en {url}")
             return None
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -53,31 +57,13 @@ def extract_article_data(url):
         source = source_tag["content"].strip() if source_tag else "Fuente"
 
         paragraphs = soup.find_all("p")
-        
-        clean_paragraphs = []
-        
-        for p in paragraphs:
-            text = p.get_text().strip()
-            text = re.sub(r'\s+', ' ', text)
-        
-            if len(text) < 80:
-                continue
-        
-            if re.search(r'(Audio generado|Publicidad|Suscríbete|Lee también)', text, re.IGNORECASE):
-                continue
-        
-            if re.search(r'\d y \d', text):
-                continue
-        
-            clean_paragraphs.append(text)
-        
-        article_text = " ".join(clean_paragraphs[:15])
+        article_text = " ".join([p.get_text() for p in paragraphs])
         article_text = clean_text(article_text)
 
-        if len(article_text) < 300:
+        if len(article_text) < 500:
             return None
 
-        summary = smart_summary(article_text, 280)
+        summary = generate_summary_with_ai(article_text[:4000])
 
         return {
             "titleOriginal": title,
@@ -93,7 +79,6 @@ def extract_article_data(url):
 
 def main():
     if not os.path.exists("links.txt"):
-        print("No existe links.txt")
         return
 
     with open("links.txt", "r") as f:
@@ -104,7 +89,6 @@ def main():
     headlines = []
 
     for link in links:
-        print(f"Procesando {link}")
         data = extract_article_data(link)
         if data:
             headlines.append(data)
