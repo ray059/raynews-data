@@ -5,6 +5,9 @@ on:
     paths:
       - 'links.txt'
 
+permissions:
+  contents: write   # 🔥 ESTO ES LA CLAVE
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,5 +33,5 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           git add edition.json
-          git commit -m "Auto generate edition.json"
+          git commit -m "Auto generate edition.json" || echo "No changes to commit"
           git push
