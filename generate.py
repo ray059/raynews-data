@@ -41,17 +41,16 @@ def get_next_edition_number():
 def generate_summary_with_ai(text):
     try:
         prompt = f"""
-Resume la siguiente noticia en máximo 500 caracteres.
+Resume la siguiente noticia en un máximo estricto de 500 caracteres.
 
-Debe:
-- Incluir el hecho principal
-- Incluir datos clave
-- Ser neutral
-- No repetir el titular
-- No usar puntos suspensivos
-- No cortar frases
-- No copiar frases textuales extensas
-- Reformular la información
+Reglas obligatorias:
+- No exceder 500 caracteres.
+- No dejar frases incompletas.
+- No cortar palabras.
+- No usar puntos suspensivos.
+- No copiar párrafos textuales largos.
+- Redactar un resumen claro, neutral y profesional.
+- Terminar siempre con punto final.
 
 Noticia:
 {text}
@@ -60,42 +59,37 @@ Noticia:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.4
+            temperature=0.4,
+            max_tokens=220  # 🔥 límite real para evitar textos largos
         )
 
         summary = response.choices[0].message.content.strip()
 
-        # eliminar ...
-        summary = re.sub(r'\.\.\.$', '', summary).strip()
+        # Limpieza básica
+        summary = re.sub(r'\s+', ' ', summary).strip()
+        summary = re.sub(r'\.\.\.+', '.', summary)
 
-        # cortar bien si excede 500
+        # 🔥 Blindaje final absoluto
         if len(summary) > 500:
-            temp = summary[:500]
-        
-            # Buscar último cierre de frase
-            last_period = max(
-                temp.rfind("."),
-                temp.rfind("?"),
-                temp.rfind("!")
-            )
-        
-            # Si encontramos un cierre razonable
-            if last_period > 350:  # evitar cortar demasiado temprano
-                summary = temp[:last_period + 1].strip()
-            else:
-                # cortar por última palabra completa
-                summary = temp.rsplit(" ", 1)[0].strip()
-        
-            # asegurar que termine correctamente
-            if not summary.endswith((".", "?", "!")):
-                summary += "."
+            trimmed = summary[:500]
 
-        print("✔ Resumen generado:", len(summary), "caracteres")
+            # cortar por última palabra completa
+            trimmed = trimmed.rsplit(" ", 1)[0].strip()
+
+            # asegurar cierre correcto
+            if not trimmed.endswith((".", "?", "!")):
+                trimmed += "."
+
+            summary = trimmed
+
         return summary
 
     except Exception as e:
-        print("❌ Error generando resumen:", e)
-        return text[:500]
+        print("❌ Error generando resumen IA:", e)
+        fallback = text[:500].rsplit(" ", 1)[0].strip()
+        if not fallback.endswith("."):
+            fallback += "."
+        return fallback
 
 
 # =============================
