@@ -1,68 +1,56 @@
 {
-  "edition_date": "2026-02-27",
-  "news": [
+  "edition_date": "27 Feb 2026",
+  "edition_number": 6,
+  "country": "Colombia",
+  "headlines": [
     {
-      "id": "petro-ley-eps-deudas",
-      "title": "Petro pide ley para que dueños de EPS paguen deudas",
-      "date": "2026-02-26",
-      "source": "Zona Cero",
-      "url": "https://zonacero.com/generales/petro-le-pidio-minsalud-una-ley-para-que-duenos-de-las-eps-paguen-deudas",
-      "image": "https://zonacero.com/sites/default/files/styles/1200x630/public/2026-02/petro_eps.jpg",
-      "summary": "El presidente Gustavo Petro pidió al ministro de Salud presentar un proyecto de ley para que los dueños de las EPS respondan con su patrimonio por las deudas acumuladas, buscando fortalecer el sistema y garantizar pagos a clínicas y hospitales."
+      "titleOriginal": "Petro pide ley para que dueños de EPS paguen deudas",
+      "summary280": "El presidente Gustavo Petro pidió al ministro de Salud presentar un proyecto de ley para que los dueños de las EPS respondan con su patrimonio por las deudas acumuladas, buscando garantizar pagos a hospitales y fortalecer el sistema de salud.",
+      "sourceName": "Zona Cero",
+      "sourceUrl": "https://zonacero.com/generales/petro-le-pidio-minsalud-una-ley-para-que-duenos-de-las-eps-paguen-deudas",
+      "imageUrl": "https://zonacero.com/sites/default/files/styles/1200x630/public/2026-02/petro_eps.jpg"
     },
     {
-      "id": "busqueda-candidatos-cauca-cesar",
-      "title": "Activan búsqueda de candidatos desaparecidos en Cauca y Cesar",
-      "date": "2026-02-26",
-      "source": "El Colombiano",
-      "url": "https://www.elcolombiano.com/colombia/gobierno-busqueda-candidatos-desaparicion-cauca-cesar-MK33933780",
-      "image": "https://www.elcolombiano.com/documents/10157/0/candidatos_desaparecidos.jpg",
-      "summary": "El ministro de Defensa activó todos los recursos de la Fuerza Pública para localizar a dos candidatos reportados como desaparecidos en Cauca y Cesar durante actividades de campaña electoral, en medio de preocupaciones por seguridad."
+      "titleOriginal": "Activan búsqueda de candidatos desaparecidos en Cauca y Cesar",
+      "summary280": "El ministro de Defensa ordenó activar todos los recursos de la Fuerza Pública para localizar a dos candidatos reportados como desaparecidos en Cauca y Cesar durante actividades de campaña electoral.",
+      "sourceName": "El Colombiano",
+      "sourceUrl": "https://www.elcolombiano.com/colombia/gobierno-busqueda-candidatos-desaparicion-cauca-cesar-MK33933780",
+      "imageUrl": "https://www.elcolombiano.com/documents/10157/0/candidatos_desaparecidos.jpg"
     },
     {
-      "id": "inpec-captura-evento-uribe",
-      "title": "Funcionaria del Inpec fue capturada en evento político de Uribe",
-      "date": "2026-02-26",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/colombia/2026/02/26/funcionaria-del-inpec-fue-capturada-durante-evento-politico-de-alvaro-uribe-en-el-tolima-esto-se-sabe/",
-      "image": "https://www.infobae.com/new-resizer/inpec_evento.jpg",
-      "summary": "Una funcionaria del Inpec fue capturada durante un evento político del expresidente Álvaro Uribe en el Tolima. Autoridades confirmaron el procedimiento y señalaron que la investigación sigue en curso para esclarecer los hechos."
+      "titleOriginal": "Funcionaria del Inpec fue capturada en evento político de Uribe",
+      "summary280": "Una funcionaria del Inpec fue capturada durante un evento político del expresidente Álvaro Uribe en el Tolima. Las autoridades confirmaron el procedimiento y señalaron que la investigación continúa.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/02/26/funcionaria-del-inpec-fue-capturada-durante-evento-politico-de-alvaro-uribe-en-el-tolima-esto-se-sabe/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/SRKCH7ENRVCFXPYOBZR3WU4Y24.JPG?width=1200&height=630"
     },
     {
-      "id": "decreto-minsalud-limita-eps",
-      "title": "Minsalud expide decreto que limita operación de las EPS",
-      "date": "2026-02-26",
-      "source": "La Silla Vacía",
-      "url": "https://www.lasillavacia.com/en-vivo/minsalud-expide-decreto-que-limita-operacion-y-presencia-de-las-eps/",
-      "image": "https://www.lasillavacia.com/wp-content/uploads/2026/02/minsalud_eps.jpg",
-      "summary": "El Ministerio de Salud expidió un decreto que limita la operación y presencia territorial de las EPS, en medio de la reforma al sistema. La medida redefine requisitos financieros y de funcionamiento para estas entidades."
+      "titleOriginal": "Minsalud expide decreto que limita operación de las EPS",
+      "summary280": "El Ministerio de Salud expidió un decreto que limita la operación y presencia territorial de las EPS, redefiniendo requisitos financieros y condiciones de funcionamiento en medio de la reforma al sistema.",
+      "sourceName": "La Silla Vacía",
+      "sourceUrl": "https://www.lasillavacia.com/en-vivo/minsalud-expide-decreto-que-limita-operacion-y-presencia-de-las-eps/",
+      "imageUrl": "https://www.lasillavacia.com/wp-content/uploads/2026/02/minsalud_eps.jpg"
     },
     {
-      "id": "ecuador-aranceles-colombia-50",
-      "title": "Ecuador sube aranceles a Colombia al 50%",
-      "date": "2026-02-26",
-      "source": "El País",
-      "url": "https://elpais.com/america-colombia/2026-02-26/ecuador-sube-los-aranceles-a-colombia-al-50-en-medio-de-una-creciente-guerra-comercial.html",
-      "image": "https://imagenes.elpais.com/resizer/ecuador_aranceles.jpg",
-      "summary": "Ecuador elevó al 50% los aranceles a productos colombianos en medio de tensiones comerciales. La decisión impacta exportaciones y profundiza la disputa económica entre ambos países en un contexto regional complejo."
+      "titleOriginal": "Ecuador sube aranceles a Colombia al 50%",
+      "summary280": "Ecuador elevó al 50% los aranceles a productos colombianos en medio de tensiones comerciales entre ambos países. La medida impacta exportaciones y profundiza la disputa económica regional.",
+      "sourceName": "El País",
+      "sourceUrl": "https://elpais.com/america-colombia/2026-02-26/ecuador-sube-los-aranceles-a-colombia-al-50-en-medio-de-una-creciente-guerra-comercial.html",
+      "imageUrl": "https://imagenes.elpais.com/resizer/ecuador_aranceles.jpg"
     },
     {
-      "id": "refugiado-ciego-abandonado-murio",
-      "title": "Refugiado casi ciego murió tras ser abandonado por agentes",
-      "date": "2026-02-26",
-      "source": "El Espectador",
-      "url": "https://www.elespectador.com/mundo/america/agentes-arrestaron-a-refugiado-casi-ciego-y-lo-abandonaron-murio-intentando-volver-a-casa/",
-      "image": "https://www.elespectador.com/resizer/refugiado_ciego.jpg",
-      "summary": "Un refugiado casi ciego murió luego de ser arrestado y presuntamente abandonado por agentes. El hombre intentaba regresar a su hogar cuando ocurrió el hecho, que ha generado cuestionamientos sobre el procedimiento oficial."
+      "titleOriginal": "Refugiado casi ciego murió tras ser abandonado por agentes",
+      "summary280": "Un refugiado casi ciego murió luego de ser arrestado y presuntamente abandonado por agentes mientras intentaba regresar a su hogar. El caso generó cuestionamientos sobre el procedimiento oficial.",
+      "sourceName": "El Espectador",
+      "sourceUrl": "https://www.elespectador.com/mundo/america/agentes-arrestaron-a-refugiado-casi-ciego-y-lo-abandonaron-murio-intentando-volver-a-casa/",
+      "imageUrl": "https://www.elespectador.com/resizer/refugiado_ciego.jpg"
     },
     {
-      "id": "debate-gran-consulta-antioquia",
-      "title": "Debate por Gran Consulta en Antioquia genera tensiones",
-      "date": "2026-02-26",
-      "source": "El Colombiano",
-      "url": "https://www.elcolombiano.com/colombia/debate-gran-consulta-colombia-antioquia-elecciones-AI33912828",
-      "image": "https://www.elcolombiano.com/documents/10157/0/debate_antioquia.jpg",
-      "summary": "El debate sobre la Gran Consulta en Antioquia abrió divisiones políticas frente al proceso electoral. Dirigentes y sectores regionales discuten su alcance y efectos en el panorama político nacional."
+      "titleOriginal": "Debate por Gran Consulta en Antioquia genera tensiones políticas",
+      "summary280": "El debate sobre la Gran Consulta en Antioquia abrió divisiones entre sectores políticos frente al proceso electoral. Dirigentes regionales discuten su alcance e impacto en el panorama nacional.",
+      "sourceName": "El Colombiano",
+      "sourceUrl": "https://www.elcolombiano.com/colombia/debate-gran-consulta-colombia-antioquia-elecciones-AI33912828",
+      "imageUrl": "https://www.elcolombiano.com/documents/10157/0/debate_antioquia.jpg"
     }
   ]
 }
