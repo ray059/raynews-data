@@ -56,11 +56,17 @@ def extract_article_data(url):
         image = image_tag["content"].strip()
         source = source_tag["content"].strip() if source_tag else "Fuente"
 
-        paragraphs = soup.find_all("p")
+        article_tag = soup.find("article")
+        
+        if article_tag:
+            paragraphs = article_tag.find_all("p")
+        else:
+            paragraphs = soup.find_all("p")
+        
         article_text = " ".join([p.get_text() for p in paragraphs])
         article_text = clean_text(article_text)
 
-        if len(article_text) < 500:
+        if len(article_text) < 200:
             return None
 
         summary = generate_summary_with_ai(article_text[:4000])
