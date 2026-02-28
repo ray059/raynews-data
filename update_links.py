@@ -1,17 +1,16 @@
 import requests
 import xml.etree.ElementTree as ET
+import re
 
 RSS_URL = "https://news.google.com/rss?hl=es-419&gl=CO&ceid=CO:es-419"
 MAX_LINKS = 7
 
 
-def resolve_redirect(url):
-    try:
-        response = requests.get(url, allow_redirects=True, timeout=10)
-        return response.url
-    except Exception as e:
-        print("Error resolviendo redirect:", e)
-        return None
+def extract_real_url_from_description(description):
+    match = re.search(r'href="(https?://[^"]+)"', description)
+    if match:
+        return match.group(1)
+    return None
 
 
 def fetch_links():
@@ -25,8 +24,8 @@ def fetch_links():
         if count >= MAX_LINKS:
             break
 
-        link = item.find("link").text
-        real_url = resolve_redirect(link)
+        description = item.find("description").text
+        real_url = extract_real_url_from_description(description)
 
         if real_url:
             links.append(real_url)
@@ -36,7 +35,7 @@ def fetch_links():
 
 
 def main():
-    print("🔎 Obteniendo enlaces desde Google News RSS...")
+    print("🔎 Obteniendo enlaces reales desde Google News RSS...")
 
     links = fetch_links()
 
