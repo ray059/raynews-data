@@ -20,9 +20,7 @@ else:
 MAX_NEWS = 7
 MAX_SUMMARY_LENGTH = 400
 
-BLOCKED_DOMAINS = [
-    "nytimes.com"
-]
+BLOCKED_DOMAINS = ["nytimes.com"]
 
 BLOCKED_PATHS = [
     "/opinion/",
@@ -84,7 +82,64 @@ def fallback_summary(text):
 
 
 # =============================
-# RESUMEN IA NIVEL PRO
+# VALIDACIONES DE CALIDAD
+# =============================
+
+def is_question_title(title):
+    question_words = [
+        "¿",
+        "por qué",
+        "qué",
+        "quién",
+        "quiénes",
+        "cómo",
+        "cuándo",
+        "dónde"
+    ]
+    title_lower = title.lower()
+    return any(word in title_lower for word in question_words)
+
+
+def summary_covers_title(summary, title):
+    title_words = [
+        w for w in re.findall(r'\w+', title.lower())
+        if len(w) > 4
+    ]
+
+    summary_lower = summary.lower()
+
+    matches = 0
+    for word in title_words:
+        if word in summary_lower:
+            matches += 1
+
+    if title_words and (matches / len(title_words)) < 0.3:
+        return False
+
+    return True
+
+
+def is_low_quality(summary):
+    generic_patterns = [
+        "según reportes",
+        "se invita a",
+        "mantente informado",
+        "descargue",
+        "google news",
+        "whatsapp"
+    ]
+
+    if len(summary) < 120:
+        return True
+
+    if any(p in summary.lower() for p in generic_patterns):
+        return True
+
+    return False
+
+
+# =============================
+# RESUMEN IA INTELIGENTE
 # =============================
 
 def generate_summary_with_ai(text, title):
@@ -94,6 +149,18 @@ def generate_summary_with_ai(text, title):
         return fallback_summary(text)
 
     text = text[:3000]
+    question_mode = is_question_title(title)
+
+    if question_mode:
+        focus_instruction = """
+- El titular es una pregunta.
+- La primera oración debe responder explícitamente esa pregunta.
+- No repitas la pregunta.
+"""
+    else:
+        focus_instruction = """
+- Explica qué ocurrió y por qué es relevante.
+"""
 
     prompt = f"""
 El siguiente texto corresponde a una noticia.
@@ -101,21 +168,16 @@ El siguiente texto corresponde a una noticia.
 TITULAR:
 {title}
 
-TAREA EN DOS PASOS:
-
-PASO 1:
-Identifica dentro del texto la información que responde directamente al titular.
-
-PASO 2:
-Con base únicamente en esa información identificada,
-redacta un resumen periodístico claro y neutral.
+{focus_instruction}
 
 REGLAS:
 - Usa solo información explícita en el texto.
 - No inventes datos.
 - No infieras hechos.
-- No incluyas invitaciones a seguir redes, descargar apps o fechas de actualización.
-- Ignora introducciones largas y contexto irrelevante.
+- No copies listados extensos innecesarios.
+- Prioriza impacto y consecuencias.
+- Sintetiza con criterio editorial.
+- Tono neutral.
 - Máximo {MAX_SUMMARY_LENGTH} caracteres.
 - Debe terminar en punto.
 - Devuelve solo el resumen final.
@@ -125,7 +187,7 @@ NOTICIA:
 """
 
     try:
-        print("🔵 Generando resumen enfocado en titular...")
+        print("🔵 Generando resumen inteligente...")
 
         response = client.chat.completions.create(
             model="gpt-4o-mini",
@@ -134,13 +196,32 @@ NOTICIA:
             max_tokens=350
         )
 
-        summary = response.choices[0].message.content.strip()
-        summary = clean_text(summary)
+        summary = clean_text(response.choices[0].message.content.strip())
 
-        return summary
+        # 🔥 VALIDACIÓN AUTOMÁTICA
+        if (
+            len(summary) <= MAX_SUMMARY_LENGTH
+            and summary.endswith(".")
+            and summary_covers_title(summary, title)
+            and not is_low_quality(summary)
+        ):
+            return summary
+
+        print("⚠ No pasó validación. Reintentando con mayor presión...")
+
+        retry_prompt = prompt + "\n\nReescribe con mayor claridad y foco directo en el titular."
+
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": retry_prompt}],
+            temperature=0.05,
+            max_tokens=350
+        )
+
+        return clean_text(response.choices[0].message.content.strip())
 
     except Exception as e:
-        print("🔴 Error en llamada OpenAI:", e)
+        print("🔴 Error en OpenAI:", e)
         return fallback_summary(text)
 
 
@@ -196,10 +277,8 @@ def extract_article_data(url):
                 continue
             clean_paragraphs.append(text_p)
 
-        # 🔥 Tomamos solo primeros 6 bloques relevantes
         limited_paragraphs = clean_paragraphs[:6]
-        article_text = " ".join(limited_paragraphs)
-        article_text = clean_noise(article_text)
+        article_text = clean_noise(" ".join(limited_paragraphs))
 
         if len(article_text) < 150:
             print("❌ Texto muy corto")
@@ -252,9 +331,6 @@ def main():
         if len(headlines) >= MAX_NEWS:
             print("🎯 Se alcanzaron las 7 noticias válidas.")
             break
-
-    if len(headlines) < MAX_NEWS:
-        print(f"⚠ Solo se pudieron obtener {len(headlines)} noticias válidas.")
 
     edition = {
         "edition_date": datetime.now().strftime("%d %b %Y"),
