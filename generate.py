@@ -57,7 +57,7 @@ def clean_noise(text):
         r'Google News.*?\.',
         r'WhatsApp.*?\.',
         r'Canal.*?\.',
-        r'App.*?\.'
+        r'App de EL TIEMPO.*?\.'
     ]
 
     for pattern in patterns:
@@ -77,113 +77,71 @@ def get_next_edition_number():
     return 1
 
 
-def extract_entities(text):
-    """
-    Extrae posibles nombres propios simples (palabras que empiezan en mayúscula).
-    """
-    return set(re.findall(r'\b[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\b', text))
-
-
-def summary_is_valid(summary, article_text):
-    if len(summary) < 120:
-        return False
-
-    if not summary.endswith("."):
-        return False
-
-    generic_phrases = [
-        "según reportes",
-        "ha generado preocupación",
-        "ha generado alerta",
-        "se insta a"
-    ]
-
-    if any(p in summary.lower() for p in generic_phrases):
-        return False
-
-    # 🔥 Validación anti-alucinación básica
-    text_entities = extract_entities(article_text)
-    summary_entities = extract_entities(summary)
-
-    for entity in summary_entities:
-        if entity not in text_entities:
-            # Permitir palabras comunes que no son nombres reales
-            if len(entity) > 3:
-                return False
-
-    return True
+def fallback_summary(text):
+    print("🟡 Generando resumen por fallback (NO IA)")
+    fallback = text[:250].rsplit(" ", 1)[0]
+    return fallback.rstrip(" ,;:") + "."
 
 
 # =============================
-# RESUMEN IA PROFESIONAL
+# RESUMEN IA NIVEL PRO
 # =============================
 
-def generate_summary_with_ai(text):
+def generate_summary_with_ai(text, title):
 
     if not client:
         print("⚠ No hay cliente OpenAI. Usando fallback.")
         return fallback_summary(text)
 
-    text = text[:2500]
+    text = text[:3000]
 
-    max_attempts = 3
-    attempt = 0
-    last_summary = None
+    prompt = f"""
+El siguiente texto corresponde a una noticia.
 
-    while attempt < max_attempts:
+TITULAR:
+{title}
 
-        prompt = f"""
-Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
+TAREA EN DOS PASOS:
 
-Reglas obligatorias:
-- Usa exclusivamente información contenida en el texto.
-- No agregues datos externos.
-- No inventes nombres propios.
+PASO 1:
+Identifica dentro del texto la información que responde directamente al titular.
+
+PASO 2:
+Con base únicamente en esa información identificada,
+redacta un resumen periodístico claro y neutral.
+
+REGLAS:
+- Usa solo información explícita en el texto.
+- No inventes datos.
 - No infieras hechos.
-- Ignora texto promocional.
-- Tono periodístico neutral.
+- No incluyas invitaciones a seguir redes, descargar apps o fechas de actualización.
+- Ignora introducciones largas y contexto irrelevante.
+- Máximo {MAX_SUMMARY_LENGTH} caracteres.
 - Debe terminar en punto.
+- Devuelve solo el resumen final.
 
-Noticia:
+NOTICIA:
 {text}
 """
 
-        try:
-            print(f"🔵 Intento {attempt+1} llamando a OpenAI...")
+    try:
+        print("🔵 Generando resumen enfocado en titular...")
 
-            response = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0,
-                max_tokens=300
-            )
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=350
+        )
 
-            summary = response.choices[0].message.content.strip()
-            summary = clean_text(summary)
-            last_summary = summary
+        summary = response.choices[0].message.content.strip()
+        summary = clean_text(summary)
 
-            if summary_is_valid(summary, text):
-                print("✅ Resumen válido generado por IA")
-                return summary
+        return summary
 
-            print("⚠ Resumen inválido, regenerando...")
-            attempt += 1
-
-        except Exception as e:
-            print("🔴 Error en llamada OpenAI:", e)
-            break
-
-    if last_summary:
-        print("⚠ Usando último resumen generado (validación no perfecta).")
-        return last_summary
-
-    return fallback_summary(text)
-
-
-def fallback_summary(text):
-    print("🟡 Generando resumen por fallback (NO IA)")
-    fallback = text[:250].rsplit(" ", 1)[0]
-    return fallback.rstrip(" ,;:") + "."
+    except Exception as e:
+        print("🔴 Error en llamada OpenAI:", e)
+        return fallback_summary(text)
 
 
 # =============================
@@ -238,16 +196,18 @@ def extract_article_data(url):
                 continue
             clean_paragraphs.append(text_p)
 
-        article_text = " ".join(clean_paragraphs)
+        # 🔥 Tomamos solo primeros 6 bloques relevantes
+        limited_paragraphs = clean_paragraphs[:6]
+        article_text = " ".join(limited_paragraphs)
         article_text = clean_noise(article_text)
 
         if len(article_text) < 150:
             print("❌ Texto muy corto")
             return None
 
-        print("✔ Texto extraído:", len(article_text), "caracteres")
+        print("✔ Texto limpio:", len(article_text), "caracteres")
 
-        summary = generate_summary_with_ai(article_text)
+        summary = generate_summary_with_ai(article_text, title)
 
         return {
             "titleOriginal": title,
