@@ -49,7 +49,15 @@ def clean_noise(text):
         r'Suscríbete.*?',
         r'Redes sociales.*?\.',
         r'Audio generado.*?',
-        r'Por Agencia EFE.*?\.'
+        r'Por Agencia EFE.*?\.',
+        r'Síganos en.*?\.',
+        r'Únase.*?\.',
+        r'Descargue.*?\.',
+        r'Actualizado.*?\.',
+        r'Google News.*?\.',
+        r'WhatsApp.*?\.',
+        r'Canal.*?\.',
+        r'App.*?\.'
     ]
 
     for pattern in patterns:
@@ -69,7 +77,20 @@ def get_next_edition_number():
     return 1
 
 
-def summary_is_incomplete(summary):
+def extract_entities(text):
+    """
+    Extrae posibles nombres propios simples (palabras que empiezan en mayúscula).
+    """
+    return set(re.findall(r'\b[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\b', text))
+
+
+def summary_is_valid(summary, article_text):
+    if len(summary) < 120:
+        return False
+
+    if not summary.endswith("."):
+        return False
+
     generic_phrases = [
         "según reportes",
         "ha generado preocupación",
@@ -78,19 +99,26 @@ def summary_is_incomplete(summary):
     ]
 
     if any(p in summary.lower() for p in generic_phrases):
-        return True
+        return False
 
-    if len(summary) < 120:
-        return True
+    # 🔥 Validación anti-alucinación básica
+    text_entities = extract_entities(article_text)
+    summary_entities = extract_entities(summary)
 
-    return False
+    for entity in summary_entities:
+        if entity not in text_entities:
+            # Permitir palabras comunes que no son nombres reales
+            if len(entity) > 3:
+                return False
+
+    return True
 
 
 # =============================
 # RESUMEN IA PROFESIONAL
 # =============================
 
-def generate_summary_with_ai(text, title):
+def generate_summary_with_ai(text):
 
     if not client:
         print("⚠ No hay cliente OpenAI. Usando fallback.")
@@ -98,7 +126,7 @@ def generate_summary_with_ai(text, title):
 
     text = text[:2500]
 
-    max_attempts = 2
+    max_attempts = 3
     attempt = 0
     last_summary = None
 
@@ -107,13 +135,13 @@ def generate_summary_with_ai(text, title):
         prompt = f"""
 Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
 
-Reglas estrictas:
-- Usa únicamente información explícitamente presente en el texto proporcionado.
+Reglas obligatorias:
+- Usa exclusivamente información contenida en el texto.
 - No agregues datos externos.
+- No inventes nombres propios.
 - No infieras hechos.
-- No inventes cifras, fechas, arrestos, decisiones o consecuencias si no aparecen claramente en el texto.
-- No uses frases vagas.
-- Mantén tono periodístico neutral.
+- Ignora texto promocional.
+- Tono periodístico neutral.
 - Debe terminar en punto.
 
 Noticia:
@@ -126,7 +154,7 @@ Noticia:
             response = client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,
+                temperature=0,
                 max_tokens=300
             )
 
@@ -134,15 +162,11 @@ Noticia:
             summary = clean_text(summary)
             last_summary = summary
 
-            if (
-                len(summary) <= MAX_SUMMARY_LENGTH
-                and summary.endswith(".")
-                and not summary_is_incomplete(summary)
-            ):
+            if summary_is_valid(summary, text):
                 print("✅ Resumen válido generado por IA")
                 return summary
 
-            print("⚠ Resumen insuficiente, reintentando...")
+            print("⚠ Resumen inválido, regenerando...")
             attempt += 1
 
         except Exception as e:
@@ -150,10 +174,9 @@ Noticia:
             break
 
     if last_summary:
-        print("⚠ Validación estricta falló. Usando último resumen IA.")
+        print("⚠ Usando último resumen generado (validación no perfecta).")
         return last_summary
 
-    print("⚠ Fallback por error real.")
     return fallback_summary(text)
 
 
@@ -224,7 +247,7 @@ def extract_article_data(url):
 
         print("✔ Texto extraído:", len(article_text), "caracteres")
 
-        summary = generate_summary_with_ai(article_text, title)
+        summary = generate_summary_with_ai(article_text)
 
         return {
             "titleOriginal": title,
