@@ -1,0 +1,35 @@
+name: Daily News Update
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # 7 AM Colombia (UTC-5)
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 openai
+
+      - name: Update links
+        run: python update_links.py
+
+      - name: Generate edition
+        run: python generate.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add edition.json links.txt
+          git commit -m "Daily edition update" || echo "No changes"
+          git push
