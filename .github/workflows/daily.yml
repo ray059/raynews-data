@@ -22,18 +22,14 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install requests beautifulsoup4 openai playwright
+          pip install requests beautifulsoup4 openai
 
-      - name: Install Playwright Browsers
-        run: |
-          playwright install chromium
-
-      - name: Update links (GNews)
+      - name: Update links (RSS + GNews fallback)
         env:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: python update_links.py
 
-      - name: Generate edition
+      - name: Generate edition (with AI)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate.py
@@ -42,6 +38,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add edition.json links.txt
+          git add edition.json links.txt source_log.json
           git commit -m "Daily edition update" || echo "No changes"
           git push
