@@ -18,6 +18,7 @@ else:
     client = OpenAI(api_key=API_KEY)
 
 MAX_NEWS = 7
+MAX_SUMMARY_LENGTH = 400
 
 BLOCKED_DOMAINS = [
     "nytimes.com"
@@ -68,49 +69,25 @@ def get_next_edition_number():
     return 1
 
 
-# =============================
-# DETECCIÓN DE TITULAR
-# =============================
-
-CLICKBAIT_PATTERNS = [
-    "lista",
-    "quiénes",
-    "quienes",
-    "lo que debe saber",
-    "qué hacer",
-    "que hacer"
-]
-
-def is_clickbait_style(title):
-    title_lower = title.lower()
-    return any(pattern in title_lower for pattern in CLICKBAIT_PATTERNS)
-
-
-def summary_is_incomplete(summary, title):
-    title_lower = title.lower()
-    summary_lower = summary.lower()
-
-    if "lista" in title_lower and "," not in summary:
-        return True
-
+def summary_is_incomplete(summary):
     generic_phrases = [
-        "genera preocupación",
         "según reportes",
+        "ha generado preocupación",
         "ha generado alerta",
         "se insta a"
     ]
 
-    if any(p in summary_lower for p in generic_phrases):
+    if any(p in summary.lower() for p in generic_phrases):
         return True
 
-    if len(summary) < 80:
+    if len(summary) < 120:
         return True
 
     return False
 
 
 # =============================
-# RESUMEN IA INTELIGENTE
+# RESUMEN IA PROFESIONAL
 # =============================
 
 def generate_summary_with_ai(text, title):
@@ -119,7 +96,7 @@ def generate_summary_with_ai(text, title):
         print("⚠ No hay cliente OpenAI. Usando fallback.")
         return fallback_summary(text)
 
-    text = text[:3500] if is_clickbait_style(title) else text[:2000]
+    text = text[:2500]
 
     max_attempts = 2
     attempt = 0
@@ -127,24 +104,17 @@ def generate_summary_with_ai(text, title):
 
     while attempt < max_attempts:
 
-        if attempt == 0:
-            prompt = f"""
-Resume la siguiente noticia en máximo 280 caracteres.
-Debe terminar en punto.
-Responde directamente lo que promete el titular.
-Incluye actores clave (quién), acción (qué) y motivo (por qué).
-Prioriza datos concretos y cifras.
-No uses frases genéricas.
+        prompt = f"""
+Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
 
-Noticia:
-{text}
-"""
-        else:
-            prompt = f"""
-El resumen anterior fue demasiado general.
-Reescribe el resumen enfocándote en datos concretos, cifras y decisiones.
-Máximo 280 caracteres.
-Debe terminar en punto.
+Reglas estrictas:
+- Usa únicamente información explícitamente presente en el texto proporcionado.
+- No agregues datos externos.
+- No infieras hechos.
+- No inventes cifras, fechas, arrestos, decisiones o consecuencias si no aparecen claramente en el texto.
+- No uses frases vagas.
+- Mantén tono periodístico neutral.
+- Debe terminar en punto.
 
 Noticia:
 {text}
@@ -156,8 +126,8 @@ Noticia:
             response = client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.2,
-                max_tokens=200
+                temperature=0.1,
+                max_tokens=300
             )
 
             summary = response.choices[0].message.content.strip()
@@ -165,9 +135,9 @@ Noticia:
             last_summary = summary
 
             if (
-                len(summary) <= 280
+                len(summary) <= MAX_SUMMARY_LENGTH
                 and summary.endswith(".")
-                and not summary_is_incomplete(summary, title)
+                and not summary_is_incomplete(summary)
             ):
                 print("✅ Resumen válido generado por IA")
                 return summary
@@ -189,7 +159,7 @@ Noticia:
 
 def fallback_summary(text):
     print("🟡 Generando resumen por fallback (NO IA)")
-    fallback = text[:200].rsplit(" ", 1)[0]
+    fallback = text[:250].rsplit(" ", 1)[0]
     return fallback.rstrip(" ,;:") + "."
 
 
@@ -229,7 +199,6 @@ def extract_article_data(url):
             return None
 
         title = clean_text(title_tag["content"].split("|")[0])
-
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
@@ -249,7 +218,7 @@ def extract_article_data(url):
         article_text = " ".join(clean_paragraphs)
         article_text = clean_noise(article_text)
 
-        if len(article_text) < 120:
+        if len(article_text) < 150:
             print("❌ Texto muy corto")
             return None
 
@@ -259,7 +228,7 @@ def extract_article_data(url):
 
         return {
             "titleOriginal": title,
-            "summary280": summary,
+            "summary400": summary,
             "sourceName": source,
             "sourceUrl": url,
             "imageUrl": image
