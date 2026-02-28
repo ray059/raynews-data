@@ -1,36 +1,53 @@
-import requests
-import xml.etree.ElementTree as ET
+import asyncio
+from playwright.async_api import async_playwright
 
-# Feed alternativo que devuelve links reales
-RSS_URL = "https://news.google.com/rss/search?q=when:1d&hl=es-419&gl=CO&ceid=CO:es-419"
+GOOGLE_NEWS_URL = "https://news.google.com/home?hl=es-419&gl=CO&ceid=CO:es-419"
 MAX_LINKS = 7
 
 
-def fetch_links():
-    response = requests.get(RSS_URL, timeout=10)
-    root = ET.fromstring(response.content)
-
+async def fetch_links():
     links = []
-    count = 0
 
-    for item in root.findall(".//item"):
-        if count >= MAX_LINKS:
-            break
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
 
-        link = item.find("link").text
+        await page.goto(GOOGLE_NEWS_URL, timeout=60000)
+        await page.wait_for_timeout(5000)
 
-        # Este feed ya trae la URL real
-        if link and not link.startswith("https://news.google.com"):
-            links.append(link)
-            count += 1
+        anchors = await page.query_selector_all("article a")
+
+        for a in anchors:
+            href = await a.get_attribute("href")
+
+            if not href:
+                continue
+
+            if href.startswith("./articles/"):
+                full_url = "https://news.google.com" + href[1:]
+                page2 = await browser.new_page()
+                await page2.goto(full_url, timeout=60000)
+
+                final_url = page2.url
+
+                if "news.google.com" not in final_url:
+                    if final_url not in links:
+                        links.append(final_url)
+
+                await page2.close()
+
+            if len(links) >= MAX_LINKS:
+                break
+
+        await browser.close()
 
     return links
 
 
-def main():
-    print("🔎 Obteniendo enlaces reales desde Google News...")
+async def main():
+    print("🔎 Obteniendo enlaces reales con Playwright...")
 
-    links = fetch_links()
+    links = await fetch_links()
 
     if not links:
         print("❌ No se obtuvieron enlaces")
@@ -46,4 +63,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
