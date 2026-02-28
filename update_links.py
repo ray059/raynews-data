@@ -1,20 +1,59 @@
-import asyncio
-from playwright.async_api import async_playwright
+import requests
+import os
 
-TEST_URL = "https://news.google.com/rss/articles/CBMikwJBVV95cUxQeXRlZUFQSU1xVmVGOWdGalBvQWdoLXhwZTNGbUdnMTJTZ1RmbU9vZGUtR25wZU1BY2ZQb3RWTWZvUk8xSi1ycHVrU3BZV2JNVlpnZS04TnVqaVcyRkxnRlpCV1RHcWhoelRReTItR2liMVQ4M1VIOHFqTG5kaXBkUXdfR05Gbnd2WThjbUltaFMwVXQ5NkhtVnpDQnMwYWc0eUlrUTgtRm0tSDhxQ0dmd2R3UW9YaGpuVk1GT1EyLWNJdjlqdEdJTTdia0YteXV5V1pkVHBiWlQzWlNlamxGdlFVY3RrU2hvZFNXa25vRXJPdGExX0VrRVUzMkdzRU8tRlZTUUk5c2ZacVFfdUttN1huSQ?oc=5"  # pega aquí una real tuya
+GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
+MAX_LINKS = 7
+
+URL = "https://gnews.io/api/v4/top-headlines"
+
+PARAMS = {
+    "lang": "es",
+    "country": "co",
+    "max": MAX_LINKS,
+    "token": GNEWS_API_KEY
+}
+
+def fetch_links():
+    response = requests.get(URL, params=PARAMS)
+
+    if response.status_code != 200:
+        print("❌ Error en GNews:", response.status_code)
+        print(response.text)
+        return []
+
+    data = response.json()
+    articles = data.get("articles", [])
+
+    links = []
+    for article in articles:
+        url = article.get("url")
+        if url:
+            links.append(url)
+
+    return links
 
 
-async def main():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
+def main():
+    print("🔎 Obteniendo enlaces desde GNews...")
 
-        response = await page.goto(TEST_URL, timeout=60000, wait_until="networkidle")
+    if not GNEWS_API_KEY:
+        print("❌ GNEWS_API_KEY no configurada")
+        return
 
-        print("URL después de navegar:")
-        print(page.url)
+    links = fetch_links()
 
-        await browser.close()
+    if not links:
+        print("❌ No se obtuvieron enlaces")
+        return
+
+    content = ";".join(links)
+
+    with open("links.txt", "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print("✅ links.txt actualizado correctamente")
+    print("Total enlaces guardados:", len(links))
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    main()
