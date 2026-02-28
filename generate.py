@@ -66,13 +66,19 @@ def generate_summary_with_ai(text):
     max_attempts = 3
     attempt = 0
 
-    prompt = f"""Resume la siguiente noticia en máximo 280 caracteres.
-Debe terminar en punto.
-Explica únicamente el hecho principal sin frases abiertas.
-
-Noticia:
-{text}
-"""
+    prompt = f"""
+    Resume la siguiente noticia en máximo 280 caracteres.
+    Debe terminar en punto.
+    Explica el hecho principal con información concreta.
+    Incluye actores clave (quién), acción realizada (qué) y motivo (por qué).
+    No uses frases genéricas.
+    No mantengas tono sensacionalista.
+    No repitas el titular.
+    No dejes información incompleta.
+    
+    Noticia:
+    {text}
+    """
 
     while attempt < max_attempts:
         try:
