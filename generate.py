@@ -171,13 +171,14 @@ TITULAR:
 {focus_instruction}
 
 REGLAS:
-- Usa solo información explícita en el texto.
+- Usa únicamente información explícita en el texto.
 - No inventes datos.
-- No infieras hechos.
-- No copies listados extensos innecesarios.
-- Prioriza impacto y consecuencias.
-- Sintetiza con criterio editorial.
-- Tono neutral.
+- No agregues valoración, opinión ni interpretación.
+- No uses expresiones como "momento crucial", "avance significativo", "es relevante porque".
+- Evita adjetivos innecesarios.
+- Prioriza hechos verificables y decisiones concretas.
+- Sintetiza con precisión.
+- Tono informativo directo y sobrio.
 - Máximo {MAX_SUMMARY_LENGTH} caracteres.
 - Debe terminar en punto.
 - Devuelve solo el resumen final.
