@@ -22,7 +22,7 @@ QUERIES = [
     "Colombia AND (salud OR epidemia OR vacunacion)",
     "Colombia AND (justicia OR fiscalia OR investigacion)",
     "Colombia AND (economia OR inflacion OR empleo OR empresas)",
-    "Colombia AND (internacional OR diplomacia OR relaciones)"
+    "internacional OR diplomacia OR relaciones Colombia"
 ]
 
 
