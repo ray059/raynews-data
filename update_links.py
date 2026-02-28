@@ -1,15 +1,30 @@
 import requests
 import xml.etree.ElementTree as ET
+import base64
 import re
 
 RSS_URL = "https://news.google.com/rss?hl=es-419&gl=CO&ceid=CO:es-419"
 MAX_LINKS = 7
 
 
-def extract_real_url_from_description(description):
-    match = re.search(r'href="(https?://[^"]+)"', description)
-    if match:
-        return match.group(1)
+def decode_google_news_url(google_url):
+    try:
+        match = re.search(r'/articles/([^?]+)', google_url)
+        if not match:
+            return None
+
+        encoded_part = match.group(1)
+
+        padded = encoded_part + "=" * (-len(encoded_part) % 4)
+        decoded = base64.urlsafe_b64decode(padded).decode("utf-8", errors="ignore")
+
+        url_match = re.search(r'https?://[^"]+', decoded)
+        if url_match:
+            return url_match.group(0)
+
+    except Exception as e:
+        print("Decode error:", e)
+
     return None
 
 
@@ -24,8 +39,8 @@ def fetch_links():
         if count >= MAX_LINKS:
             break
 
-        description = item.find("description").text
-        real_url = extract_real_url_from_description(description)
+        google_link = item.find("link").text
+        real_url = decode_google_news_url(google_link)
 
         if real_url:
             links.append(real_url)
@@ -35,7 +50,7 @@ def fetch_links():
 
 
 def main():
-    print("🔎 Obteniendo enlaces reales desde Google News RSS...")
+    print("🔎 Obteniendo enlaces reales desde Google News...")
 
     links = fetch_links()
 
@@ -43,7 +58,6 @@ def main():
         print("❌ No se obtuvieron enlaces")
         return
 
-    # 🔥 Separados por punto y coma SIN salto de línea
     content = ";".join(links)
 
     with open("links.txt", "w", encoding="utf-8") as f:
