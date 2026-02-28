@@ -7,7 +7,7 @@ import re
 import os
 from openai import OpenAI
 
-print("===== INICIO GENERATE.PY =====")
+print("===== INICIO GENERATE.PY V2 =====")
 
 API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -52,7 +52,6 @@ def clean_noise(text):
     ]
     for pattern in patterns:
         text = re.sub(pattern, '', text, flags=re.IGNORECASE)
-
     return clean_text(text)
 
 
@@ -73,6 +72,29 @@ def fallback_summary(text):
 
 
 # =====================================================
+# ANTI DUPLICADO TEMÁTICO
+# =====================================================
+
+def extract_keywords(title):
+    words = re.findall(r'\w+', title.lower())
+    return [w for w in words if len(w) > 5]
+
+
+def is_duplicate_topic(new_title, existing_titles):
+    new_keywords = extract_keywords(new_title)
+
+    for old_title in existing_titles:
+        old_keywords = extract_keywords(old_title)
+
+        common = set(new_keywords).intersection(set(old_keywords))
+
+        if len(common) >= 2:
+            return True
+
+    return False
+
+
+# =====================================================
 # VALIDACIONES
 # =====================================================
 
@@ -84,7 +106,7 @@ def is_question_title(title):
 
 
 def summary_covers_title(summary, title):
-    words = [w for w in re.findall(r'\w+', title.lower()) if len(w) > 4]
+    words = extract_keywords(title)
     if not words:
         return True
 
@@ -92,6 +114,12 @@ def summary_covers_title(summary, title):
     matches = sum(1 for w in words if w in summary_lower)
 
     return (matches / len(words)) >= 0.3
+
+
+def too_many_names(summary):
+    words = summary.split()
+    capitalized = [w for w in words if w.istitle()]
+    return len(capitalized) > 12
 
 
 def is_low_quality(summary):
@@ -107,6 +135,7 @@ def is_low_quality(summary):
     return (
         len(summary) < 150
         or any(g in summary.lower() for g in generic)
+        or too_many_names(summary)
     )
 
 
@@ -135,7 +164,6 @@ def extract_with_readability(url):
             print("✅ Extraído con Readability")
             return text
 
-        print("⚠ Readability devolvió poco contenido")
         return None
 
     except Exception as e:
@@ -167,18 +195,18 @@ def extract_with_bs(url):
         text = clean_noise(text)
 
         if len(text) > 200:
-            print("✅ Extraído con BeautifulSoup fallback")
+            print("✅ Extraído con fallback")
             return text
 
         return None
 
     except Exception as e:
-        print("❌ Error en fallback BS:", e)
+        print("❌ Error fallback:", e)
         return None
 
 
 # =====================================================
-# RESUMEN IA (ESTILO RESPUESTA DIRECTA)
+# RESUMEN IA EDITORIAL
 # =====================================================
 
 def generate_summary_with_ai(text, title):
@@ -190,10 +218,10 @@ def generate_summary_with_ai(text, title):
 
     focus = """
 - El titular es pregunta.
-- La primera oración debe responderla explícitamente.
+- La primera oración debe responderla claramente.
 """ if question_mode else """
-- Explica qué ocurrió.
-- Incluye actores clave y hechos concretos.
+- Explica el hecho principal.
+- Prioriza dato más relevante.
 """
 
     prompt = f"""
@@ -205,9 +233,10 @@ TITULAR:
 REGLAS:
 - Usa únicamente información presente en el texto.
 - No inventes datos.
-- No agregues opinión.
 - No agregues contexto externo.
-- Prioriza hechos verificables.
+- No opinión.
+- No lenguaje promocional.
+- No listar más de 5 nombres propios.
 - Máximo {MAX_SUMMARY_LENGTH} caracteres.
 - Debe terminar en punto.
 - Devuelve solo el resumen final.
@@ -232,15 +261,14 @@ NOTICIA:
             and summary_covers_title(summary, title)
             and not is_low_quality(summary)
         ):
-            print("✅ Resumen válido")
             return summary
 
-        print("⚠ Reintentando con mayor precisión...")
+        print("⚠ Reintento editorial...")
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{
                 "role": "user",
-                "content": prompt + "\nReescribe con mayor precisión factual."
+                "content": prompt + "\nReescribe con mayor precisión y menos nombres."
             }],
             temperature=0.02,
             max_tokens=350
@@ -257,27 +285,14 @@ NOTICIA:
 # SCRAPING PRINCIPAL
 # =====================================================
 
-def extract_article_data(url):
+def extract_article_data(url, existing_titles):
     try:
         print("🔎 Procesando:", url)
 
         if any(p in url.lower() for p in BLOCKED_PATHS):
-            print("⛔ Opinión detectada")
             return None
 
         if any(d in url for d in BLOCKED_DOMAINS):
-            print("⛔ Dominio bloqueado")
-            return None
-
-        # 1️⃣ Intento con Readability
-        text = extract_with_readability(url)
-
-        # 2️⃣ Fallback si falla
-        if not text:
-            text = extract_with_bs(url)
-
-        if not text:
-            print("❌ No se pudo extraer contenido")
             return None
 
         response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -291,17 +306,26 @@ def extract_article_data(url):
             return None
 
         title = clean_text(title_tag["content"].split("|")[0])
-        image = image_tag["content"] if image_tag else ""
-        source = source_tag["content"] if source_tag else "Fuente"
+
+        if is_duplicate_topic(title, existing_titles):
+            print("⚠ Tema duplicado detectado, saltando")
+            return None
+
+        text = extract_with_readability(url)
+        if not text:
+            text = extract_with_bs(url)
+
+        if not text:
+            return None
 
         summary = generate_summary_with_ai(text, title)
 
         return {
             "titleOriginal": title,
             "summary280": summary,
-            "sourceName": source,
+            "sourceName": source_tag["content"] if source_tag else "Fuente",
             "sourceUrl": url,
-            "imageUrl": image
+            "imageUrl": image_tag["content"] if image_tag else ""
         }
 
     except Exception as e:
@@ -316,7 +340,6 @@ def extract_article_data(url):
 def main():
 
     if not os.path.exists("links.txt"):
-        print("❌ No existe links.txt")
         return
 
     with open("links.txt", "r", encoding="utf-8") as f:
@@ -328,7 +351,9 @@ def main():
 
     for link in links:
 
-        data = extract_article_data(link)
+        existing_titles = [h["titleOriginal"] for h in headlines]
+
+        data = extract_article_data(link, existing_titles)
 
         if data:
             headlines.append(data)
@@ -348,7 +373,7 @@ def main():
     with open("edition.json", "w", encoding="utf-8") as f:
         json.dump(edition, f, indent=2, ensure_ascii=False)
 
-    print("===== FIN GENERATE.PY =====")
+    print("===== FIN GENERATE.PY V2 =====")
 
 
 if __name__ == "__main__":
