@@ -228,7 +228,7 @@ def extract_article_data(url):
 
         return {
             "titleOriginal": title,
-            "summary400": summary,
+            "summary280": summary,
             "sourceName": source,
             "sourceUrl": url,
             "imageUrl": image
