@@ -1,5 +1,8 @@
 name: Daily News Update
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 12 * * *'  # 7 AM Colombia (UTC-5)
