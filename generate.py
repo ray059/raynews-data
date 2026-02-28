@@ -17,10 +17,8 @@ else:
     print("✅ OPENAI_API_KEY detectada")
     client = OpenAI(api_key=API_KEY)
 
-# 🔥 CONFIGURACIÓN ESTRATÉGICA MVP
 MAX_NEWS = 7
 
-# Dominios que bloquean scraping o no valen la pena
 BLOCKED_DOMAINS = [
     "nytimes.com"
 ]
@@ -34,9 +32,20 @@ def clean_text(text):
 
 
 def clean_noise(text):
-    text = re.sub(r'Publicidad', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'Audio generado.*?0:00\s*/\s*0:00', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'por Agencia EFE', '', text, flags=re.IGNORECASE)
+    patterns = [
+        r'Publicidad.*?',
+        r'Foto:.*?\.',
+        r'Ingrese o regístrese.*?\.',
+        r'©.*?',
+        r'Suscríbete.*?',
+        r'Redes sociales.*?\.',
+        r'Audio generado.*?',
+        r'Por Agencia EFE.*?\.'
+    ]
+
+    for pattern in patterns:
+        text = re.sub(pattern, '', text, flags=re.IGNORECASE)
+
     return clean_text(text)
 
 
@@ -52,33 +61,73 @@ def get_next_edition_number():
 
 
 # =============================
-# RESUMEN IA OPTIMIZADO
+# DETECCIÓN DE TITULAR CLICKBAIT
 # =============================
 
-def generate_summary_with_ai(text):
+CLICKBAIT_PATTERNS = [
+    "lista",
+    "quiénes",
+    "quienes",
+    "lo que debe saber",
+    "esto pasó",
+    "esto fue lo que",
+    "qué hacer",
+    "que hacer",
+    "así fue",
+    "lo que ocurrió",
+    "esto es lo que"
+]
+
+def is_clickbait_style(title):
+    title_lower = title.lower()
+    return any(pattern in title_lower for pattern in CLICKBAIT_PATTERNS)
+
+
+# =============================
+# RESUMEN IA INTELIGENTE
+# =============================
+
+def generate_summary_with_ai(text, title):
 
     if not client:
         print("⚠ No hay cliente OpenAI. Usando fallback.")
         return fallback_summary(text)
 
-    text = text[:1500]  # 🔥 límite de texto enviado
+    text = text[:2000]
 
     max_attempts = 3
     attempt = 0
 
-    prompt = f"""
-    Resume la siguiente noticia en máximo 280 caracteres.
-    Debe terminar en punto.
-    Explica el hecho principal con información concreta.
-    Si el titular promete una lista, especifica los grupos mencionados.
-    Prioriza medidas, decisiones o cifras relevantes.
-    No incluyas descripciones médicas generales si no son el foco.
-    No uses frases vagas como "según reportes" o "ha generado alerta".
-    No repitas el titular.
-    
-    Noticia:
-    {text}
-    """
+    # 🎯 Prompt dinámico
+    if is_clickbait_style(title):
+        prompt = f"""
+Resume la siguiente noticia en máximo 280 caracteres.
+Debe terminar en punto.
+
+Regla principal:
+El resumen debe responder directamente lo que el titular promete.
+Si el titular sugiere una lista o pregunta, responde con información concreta.
+Incluye actores clave (quién), acción (qué hizo) y motivo (por qué).
+Enumera los puntos si aplica.
+No uses frases genéricas.
+No mantengas misterio.
+No repitas el titular.
+
+Noticia:
+{text}
+"""
+    else:
+        prompt = f"""
+Resume la siguiente noticia en máximo 280 caracteres.
+Debe terminar en punto.
+Explica el hecho principal con información concreta.
+Incluye actores clave (quién), acción (qué hizo) y motivo (por qué).
+No uses frases vagas.
+No mantengas tono sensacionalista.
+
+Noticia:
+{text}
+"""
 
     while attempt < max_attempts:
         try:
@@ -88,23 +137,37 @@ def generate_summary_with_ai(text):
                 model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.2,
-                max_tokens=180
+                max_tokens=200
             )
 
             summary = response.choices[0].message.content.strip()
             summary = clean_text(summary)
             summary = summary.replace("..", ".").replace(" .", ".")
 
+            # 🚨 Filtro anti-resumen genérico
+            generic_phrases = [
+                "genera preocupación",
+                "según reportes",
+                "ha generado alerta",
+                "se insta a",
+                "lo que debe saber"
+            ]
+
+            if any(phrase in summary.lower() for phrase in generic_phrases):
+                print("⚠ Resumen genérico detectado, reintentando...")
+                attempt += 1
+                continue
+
             if (
                 len(summary) <= 280
                 and summary.endswith(".")
                 and ".." not in summary
+                and len(summary) > 120
             ):
                 print("✅ Resumen válido generado por IA")
                 return summary
 
             print("⚠ Resumen inválido, reintentando...")
-            prompt = f"Corrige y acorta este resumen a máximo 280 caracteres y ciérralo correctamente:\n\n{summary}"
             attempt += 1
 
         except Exception as e:
@@ -129,7 +192,6 @@ def extract_article_data(url):
     try:
         print("🔎 Procesando:", url)
 
-        # 🔥 Bloqueo de dominios inútiles
         for domain in BLOCKED_DOMAINS:
             if domain in url:
                 print(f"⛔ Dominio bloqueado ({domain}). Saltando.")
@@ -181,7 +243,7 @@ def extract_article_data(url):
 
         print("✔ Texto extraído:", len(article_text), "caracteres")
 
-        summary = generate_summary_with_ai(article_text)
+        summary = generate_summary_with_ai(article_text, title)
 
         return {
             "titleOriginal": title,
@@ -217,7 +279,6 @@ def main():
 
     for link in links:
 
-        # 🔥 Corte temprano si ya tenemos suficientes noticias
         if len(headlines) >= MAX_NEWS:
             print("🎯 Límite de noticias alcanzado. Deteniendo procesamiento.")
             break
