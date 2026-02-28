@@ -61,7 +61,7 @@ def get_next_edition_number():
 
 
 # =============================
-# DETECCIÓN DE TITULAR CLICKBAIT
+# DETECCIÓN DE TITULAR
 # =============================
 
 CLICKBAIT_PATTERNS = [
@@ -69,18 +69,38 @@ CLICKBAIT_PATTERNS = [
     "quiénes",
     "quienes",
     "lo que debe saber",
-    "esto pasó",
-    "esto fue lo que",
     "qué hacer",
-    "que hacer",
-    "así fue",
-    "lo que ocurrió",
-    "esto es lo que"
+    "que hacer"
 ]
 
 def is_clickbait_style(title):
     title_lower = title.lower()
     return any(pattern in title_lower for pattern in CLICKBAIT_PATTERNS)
+
+
+def summary_is_incomplete(summary, title):
+    title_lower = title.lower()
+    summary_lower = summary.lower()
+
+    if "lista" in title_lower:
+        if "," not in summary:
+            return True
+
+    generic_phrases = [
+        "genera preocupación",
+        "según reportes",
+        "ha generado alerta",
+        "se insta a",
+        "lo que debe saber"
+    ]
+
+    if any(p in summary_lower for p in generic_phrases):
+        return True
+
+    if len(summary) < 120:
+        return True
+
+    return False
 
 
 # =============================
@@ -93,43 +113,41 @@ def generate_summary_with_ai(text, title):
         print("⚠ No hay cliente OpenAI. Usando fallback.")
         return fallback_summary(text)
 
-    text = text[:2000]
+    if is_clickbait_style(title):
+        text = text[:3500]
+    else:
+        text = text[:2000]
 
-    max_attempts = 3
+    max_attempts = 2
     attempt = 0
 
-    # 🎯 Prompt dinámico
-    if is_clickbait_style(title):
-        prompt = f"""
+    while attempt < max_attempts:
+
+        if attempt == 0:
+            prompt = f"""
 Resume la siguiente noticia en máximo 280 caracteres.
 Debe terminar en punto.
-
-Regla principal:
-El resumen debe responder directamente lo que el titular promete.
-Si el titular sugiere una lista o pregunta, responde con información concreta.
-Incluye actores clave (quién), acción (qué hizo) y motivo (por qué).
-Enumera los puntos si aplica.
+Responde directamente lo que promete el titular.
+Incluye actores clave (quién), acción (qué) y motivo (por qué).
 No uses frases genéricas.
 No mantengas misterio.
-No repitas el titular.
 
 Noticia:
 {text}
 """
-    else:
-        prompt = f"""
-Resume la siguiente noticia en máximo 280 caracteres.
+        else:
+            prompt = f"""
+El resumen anterior fue demasiado general.
+Reescribe el resumen respondiendo explícitamente lo que promete el titular.
+Si es una lista, enumera los grupos concretos.
+Incluye información específica.
+Máximo 280 caracteres.
 Debe terminar en punto.
-Explica el hecho principal con información concreta.
-Incluye actores clave (quién), acción (qué hizo) y motivo (por qué).
-No uses frases vagas.
-No mantengas tono sensacionalista.
 
 Noticia:
 {text}
 """
 
-    while attempt < max_attempts:
         try:
             print(f"🔵 Intento {attempt+1} llamando a OpenAI...")
 
@@ -142,32 +160,16 @@ Noticia:
 
             summary = response.choices[0].message.content.strip()
             summary = clean_text(summary)
-            summary = summary.replace("..", ".").replace(" .", ".")
-
-            # 🚨 Filtro anti-resumen genérico
-            generic_phrases = [
-                "genera preocupación",
-                "según reportes",
-                "ha generado alerta",
-                "se insta a",
-                "lo que debe saber"
-            ]
-
-            if any(phrase in summary.lower() for phrase in generic_phrases):
-                print("⚠ Resumen genérico detectado, reintentando...")
-                attempt += 1
-                continue
 
             if (
                 len(summary) <= 280
                 and summary.endswith(".")
-                and ".." not in summary
-                and len(summary) > 120
+                and not summary_is_incomplete(summary, title)
             ):
                 print("✅ Resumen válido generado por IA")
                 return summary
 
-            print("⚠ Resumen inválido, reintentando...")
+            print("⚠ Resumen insuficiente, reintentando...")
             attempt += 1
 
         except Exception as e:
@@ -220,18 +222,19 @@ def extract_article_data(url):
         source = source_tag["content"] if source_tag else "Fuente"
 
         article = soup.find("article")
-        paragraphs = article.find_all("p") if article else soup.find_all("p")
+        if article:
+            paragraphs = article.find_all(["p", "li"])
+        else:
+            paragraphs = soup.find_all(["p", "li"])
 
         clean_paragraphs = []
 
         for p in paragraphs:
             text_p = clean_text(p.get_text())
-
-            if len(text_p) < 50:
+            if len(text_p) < 40:
                 continue
             if any(x in text_p for x in ["Publicidad", "Suscríbete", "©"]):
                 continue
-
             clean_paragraphs.append(text_p)
 
         article_text = " ".join(clean_paragraphs)
@@ -278,17 +281,14 @@ def main():
     headlines = []
 
     for link in links:
-
         if len(headlines) >= MAX_NEWS:
-            print("🎯 Límite de noticias alcanzado. Deteniendo procesamiento.")
+            print("🎯 Límite alcanzado.")
             break
 
         data = extract_article_data(link)
 
         if data:
             headlines.append(data)
-
-    print("Total noticias válidas:", len(headlines))
 
     edition = {
         "edition_date": datetime.now().strftime("%d %b %Y"),
