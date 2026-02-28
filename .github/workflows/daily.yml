@@ -20,10 +20,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4 openai
+      - name: Install Python dependencies
+        run: |
+          pip install requests beautifulsoup4 openai playwright
 
-      - name: Update links
+      - name: Install Playwright Browsers
+        run: |
+          playwright install chromium
+
+      - name: Update links (Playwright)
         run: python update_links.py
 
       - name: Generate edition
