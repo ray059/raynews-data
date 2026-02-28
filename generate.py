@@ -27,7 +27,8 @@ BLOCKED_PATHS = [
     "/opinion/",
     "/columnas",
     "/columnas-de-opinion",
-    "/blogs/"
+    "/blogs/",
+    "/editoriales/"
 ]
 
 # =============================
@@ -89,22 +90,22 @@ def summary_is_incomplete(summary, title):
     title_lower = title.lower()
     summary_lower = summary.lower()
 
-    if "lista" in title_lower:
-        if "," not in summary:
-            return True
+    # Si promete lista, debe enumerar algo
+    if "lista" in title_lower and "," not in summary:
+        return True
 
     generic_phrases = [
         "genera preocupación",
         "según reportes",
         "ha generado alerta",
-        "se insta a",
-        "lo que debe saber"
+        "se insta a"
     ]
 
     if any(p in summary_lower for p in generic_phrases):
         return True
 
-    if len(summary) < 120:
+    # 🔥 Ahora más flexible
+    if len(summary) < 80:
         return True
 
     return False
@@ -120,13 +121,11 @@ def generate_summary_with_ai(text, title):
         print("⚠ No hay cliente OpenAI. Usando fallback.")
         return fallback_summary(text)
 
-    if is_clickbait_style(title):
-        text = text[:3500]
-    else:
-        text = text[:2000]
+    text = text[:3500] if is_clickbait_style(title) else text[:2000]
 
     max_attempts = 2
     attempt = 0
+    last_summary = None
 
     while attempt < max_attempts:
 
@@ -137,7 +136,6 @@ Debe terminar en punto.
 Responde directamente lo que promete el titular.
 Incluye actores clave (quién), acción (qué) y motivo (por qué).
 No uses frases genéricas.
-No mantengas misterio.
 
 Noticia:
 {text}
@@ -146,7 +144,6 @@ Noticia:
             prompt = f"""
 El resumen anterior fue demasiado general.
 Reescribe el resumen respondiendo explícitamente lo que promete el titular.
-Si es una lista, enumera los grupos concretos.
 Incluye información específica.
 Máximo 280 caracteres.
 Debe terminar en punto.
@@ -168,6 +165,8 @@ Noticia:
             summary = response.choices[0].message.content.strip()
             summary = clean_text(summary)
 
+            last_summary = summary
+
             if (
                 len(summary) <= 280
                 and summary.endswith(".")
@@ -183,7 +182,12 @@ Noticia:
             print("🔴 Error en llamada OpenAI:", e)
             break
 
-    print("⚠ Entrando en fallback final")
+    # 🔥 NUEVO COMPORTAMIENTO
+    if last_summary:
+        print("⚠ Validación estricta falló. Usando último resumen IA.")
+        return last_summary
+
+    print("⚠ Fallback por error real.")
     return fallback_summary(text)
 
 
@@ -201,9 +205,8 @@ def extract_article_data(url):
     try:
         print("🔎 Procesando:", url)
 
-        # 🔴 Filtrar opinión por URL
         if any(path in url.lower() for path in BLOCKED_PATHS):
-            print("⛔ Artículo de opinión detectado por URL. Saltando.")
+            print("⛔ Artículo de opinión detectado. Saltando.")
             return None
 
         for domain in BLOCKED_DOMAINS:
@@ -231,19 +234,11 @@ def extract_article_data(url):
 
         title = clean_text(title_tag["content"].split("|")[0])
 
-        # 🔴 Filtro adicional por título tipo columna
-        if "opinión" in title.lower() or "columna" in title.lower():
-            print("⛔ Artículo de opinión detectado por título. Saltando.")
-            return None
-
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
         article = soup.find("article")
-        if article:
-            paragraphs = article.find_all(["p", "li"])
-        else:
-            paragraphs = soup.find_all(["p", "li"])
+        paragraphs = article.find_all(["p", "li"]) if article else soup.find_all(["p", "li"])
 
         clean_paragraphs = []
 
