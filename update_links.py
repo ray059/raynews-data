@@ -18,11 +18,11 @@ EXCLUDE_KEYWORDS = [
 
 # 🔥 Consultas temáticas separadas
 QUERIES = [
-    "Colombia política elecciones gobierno",
-    "Colombia salud epidemia vacunación",
-    "Colombia justicia fiscalía investigación",
-    "Colombia economía inflación empleo empresas",
-    "Colombia internacional relaciones diplomáticas"
+    "Colombia AND (politica OR elecciones OR gobierno)",
+    "Colombia AND (salud OR epidemia OR vacunacion)",
+    "Colombia AND (justicia OR fiscalia OR investigacion)",
+    "Colombia AND (economia OR inflacion OR empleo OR empresas)",
+    "Colombia AND (internacional OR diplomacia OR relaciones)"
 ]
 
 
