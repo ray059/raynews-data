@@ -90,7 +90,6 @@ def summary_is_incomplete(summary, title):
     title_lower = title.lower()
     summary_lower = summary.lower()
 
-    # Si promete lista, debe enumerar algo
     if "lista" in title_lower and "," not in summary:
         return True
 
@@ -104,7 +103,6 @@ def summary_is_incomplete(summary, title):
     if any(p in summary_lower for p in generic_phrases):
         return True
 
-    # 🔥 Ahora más flexible
     if len(summary) < 80:
         return True
 
@@ -135,6 +133,7 @@ Resume la siguiente noticia en máximo 280 caracteres.
 Debe terminar en punto.
 Responde directamente lo que promete el titular.
 Incluye actores clave (quién), acción (qué) y motivo (por qué).
+Prioriza datos concretos y cifras.
 No uses frases genéricas.
 
 Noticia:
@@ -143,8 +142,7 @@ Noticia:
         else:
             prompt = f"""
 El resumen anterior fue demasiado general.
-Reescribe el resumen respondiendo explícitamente lo que promete el titular.
-Incluye información específica.
+Reescribe el resumen enfocándote en datos concretos, cifras y decisiones.
 Máximo 280 caracteres.
 Debe terminar en punto.
 
@@ -164,7 +162,6 @@ Noticia:
 
             summary = response.choices[0].message.content.strip()
             summary = clean_text(summary)
-
             last_summary = summary
 
             if (
@@ -182,7 +179,6 @@ Noticia:
             print("🔴 Error en llamada OpenAI:", e)
             break
 
-    # 🔥 NUEVO COMPORTAMIENTO
     if last_summary:
         print("⚠ Validación estricta falló. Usando último resumen IA.")
         return last_summary
@@ -294,14 +290,19 @@ def main():
     headlines = []
 
     for link in links:
-        if len(headlines) >= MAX_NEWS:
-            print("🎯 Límite alcanzado.")
-            break
 
         data = extract_article_data(link)
 
         if data:
             headlines.append(data)
+            print(f"✅ Noticias válidas acumuladas: {len(headlines)}")
+
+        if len(headlines) >= MAX_NEWS:
+            print("🎯 Se alcanzaron las 7 noticias válidas.")
+            break
+
+    if len(headlines) < MAX_NEWS:
+        print(f"⚠ Solo se pudieron obtener {len(headlines)} noticias válidas.")
 
     edition = {
         "edition_date": datetime.now().strftime("%d %b %Y"),
