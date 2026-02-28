@@ -1,33 +1,19 @@
 {
   "edition_date": "28 Feb 2026",
-  "edition_number": 54,
-  "generated_at": "2026-02-28T19:49:44.986544",
+  "edition_number": 55,
+  "generated_at": "2026-02-28T20:23:21.177009",
   "country": "Internacional",
   "headlines": [
     {
       "titleOriginal": "La Gran Consulta por Colombia: sin fisuras y con nueve cartas en juego",
-      "summary280": "La Gran Consulta por Colombia, alianza de la centro-derecha, se presenta como la principal fuerza política para las elecciones del 8 de marzo, con el objetivo de derrotar al petrismo. Abelardo De la Espriella y Sergio Fajardo son candidatos a primera vuelta, mientras que Paloma Valencia, Juan Manuel Galán, y otros líderes también forman parte de la coalición. Enrique Peñalosa destaca la importancia de la seguridad y la inversión privada para el desarrollo del país.",
+      "summary280": "La Gran Consulta por Colombia, la principal alianza de la centro-derecha colombiana, se presenta como la fuerza política más sólida para las elecciones del 8 de marzo, con el objetivo de vencer al petrismo. Abelardo De la Espriella y Sergio Fajardo son candidatos a primera vuelta, mientras que Paloma Valencia, Juan Manuel Galán, Juan Daniel Oviedo, Vicky Dávila, Juan Carlos Pinzón, Enrique Peñalosa, Aníbal Gaviria, Mauricio Cárdenas y David Luna integran la alianza.",
       "sourceName": "ELHERALDO.CO",
       "sourceUrl": "https://www.elheraldo.co/politica/2026/02/28/la-gran-consulta-por-colombia-sin-fisuras-y-con-nueve-cartas-en-juego/",
       "imageUrl": "https://www.elheraldo.co/resizer/v2/7JMFHB5TCBGNDJKKYNBMSUQAVM.jpg?smart=true&auth=2699674d48231f82e48ff1fb09646d11cb916ac78c34d5c36f0dbfc5c5435957&width=1200&height=675"
     },
     {
-      "titleOriginal": "Esta es la lista de personas que deben vacunarse tras detección de casos importados de sarampión en Colombia: lo que debe saber",
-      "summary280": "Se ha emitido una alerta por casos de sarampión en Colombia. Se recomienda vacunar a niños de 1 a 10 años con dos dosis de triple viral, y a la población de 6 a 16 años que no participó en la campaña 2020-2021 con una dosis adicional. También se insta a viajeros de 11 a 59 años sin antecedentes vacunales a recibir una dosis al menos 15 días antes de viajar. Además, se debe verificar el esquema de vacunación del personal de salud y de contactos de casos sospechosos.",
-      "sourceName": "El Tiempo",
-      "sourceUrl": "https://www.eltiempo.com/salud/esta-es-la-lista-de-personas-que-deben-vacunarse-tras-deteccion-de-casos-importados-de-sarampion-en-colombia-lo-que-debe-saber-3536228",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/28/67c1cec979796.r_d.1046-605-0.jpeg"
-    },
-    {
-      "titleOriginal": "Nuevo documento de la justicia de Estados Unidos señala a Cilia Flores de ser la 'estratega de la organización criminal' liderada por Nicolás Maduro",
-      "summary280": "Nicolás Maduro y Cilia Flores fueron arrestados. La noticia fue reportada el 2 de febrero de 2026 a las 23:32 y actualizada a las 23:40.",
-      "sourceName": "El Tiempo",
-      "sourceUrl": "https://www.eltiempo.com/mundo/eeuu-y-canada/nuevo-documento-de-la-justicia-de-estados-unidos-senala-a-cilia-flores-de-ser-la-estratega-de-la-organizacion-criminal-liderada-por-nicolas-maduro-3536229",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/01/06/695dc78498b3c.r_d.26-253-0.png"
-    },
-    {
       "titleOriginal": "Más de 30 casos de fiebre amarilla en Venezuela desde mediados de 2025, según el Gobierno",
-      "summary280": "Desde junio del año pasado, se han confirmado 36 casos de fiebre amarilla en Venezuela, lo que ha generado una alerta sanitaria, según Isabel Iturria. El 75 % de los casos corresponde a personas de 10 a 49 años. Se priorizan 22 parroquias en Aragua, Lara, Portuguesa y Barinas para la vacunación. La ministra de Salud, Nuramy Gutiérrez, anunció la adquisición de nuevas dosis y la FANB se unirá a la campaña. Venezuela ha recibido donaciones de vacunas de varios países.",
+      "summary280": "Desde junio de 2025, se han confirmado 36 casos de fiebre amarilla en Venezuela, lo que ha generado una alerta sanitaria, según la vicepresidenta Isabel Iturria. El 75 % de los casos corresponde a personas de entre 10 y 49 años. Se están priorizando 22 parroquias en los estados de Aragua, Lara, Portuguesa y Barinas para la vacunación, mientras que en Caracas no hay presencia del virus. El Gobierno está adquiriendo nuevas dosis de vacunas.",
       "sourceName": "ELHERALDO.CO",
       "sourceUrl": "https://www.elheraldo.co/mundo/2026/02/28/mas-de-30-casos-de-fiebre-amarilla-en-venezuela-desde-mediados-de-2025-segun-el-gobierno/",
       "imageUrl": "https://www.elheraldo.co/resizer/v2/4R4IVSJVBNECTOYPQL45WVSQDE.jpg?smart=true&auth=490fd17f25315b595313a88954b44462bbcf37c2358340a485ae8bf4fca33b71&width=1200&height=675"
@@ -40,18 +26,18 @@
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/10/07/68e545c48d83a.jpeg"
     },
     {
-      "titleOriginal": "EE. UU. indaga buque que zarpó con combustible desde Colombia, que iría a Cuba: ¿por qué mencionan a bróker al que ligaron con negocio de Álex Saab?",
-      "summary280": "El buque Ocean Marine llegó al puerto de Palermo. La noticia fue reportada el 2 de febrero de 2026 a las 23:05.",
-      "sourceName": "El Tiempo",
-      "sourceUrl": "https://www.eltiempo.com/unidad-investigativa/ee-uu-indaga-buque-que-zarpo-con-combustible-desde-colombia-que-iria-a-cuba-por-que-mencionan-a-broker-al-que-ligaron-con-negocio-de-alex-saab-3536178",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a24683baf1d.r_d.613-205-0.png"
-    },
-    {
       "titleOriginal": "Gobierno confirma los primeros tres casos de sarampión en el país en los últimos diez años",
-      "summary280": "Las autoridades sanitarias de Colombia confirmaron tres casos de sarampión, los primeros en diez años, todos importados por personas que viajaron al exterior. El ministro de Salud, Guillermo Jaramillo, indicó que se está controlando a quienes tuvieron contacto con los afectados. Colombia fue declarada libre de sarampión autóctono en 2014. Se recomienda a los viajeros vacunarse contra la enfermedad, que es altamente contagiosa pero prevenible. Las vacunas están disponibles gratuitamente en el país.",
+      "summary280": "Las autoridades sanitarias de Colombia confirmaron tres casos de sarampión, los primeros en diez años, todos importados por personas que viajaron al exterior. El ministro de Salud, Guillermo Jaramillo, indicó que se está controlando a quienes estuvieron en contacto con los afectados. Colombia fue declarada libre de sarampión autóctono desde enero de 2014. Se recomienda a los colombianos vacunarse antes de viajar a ciertos países.",
       "sourceName": "ELHERALDO.CO",
       "sourceUrl": "https://www.elheraldo.co/colombia/2026/02/28/gobierno-confirma-los-primeros-tres-casos-de-sarampion-en-el-pais-en-los-ultimos-diez-anos/",
       "imageUrl": "https://www.elheraldo.co/resizer/v2/NGCGRUZ7P5G67D6QEJGAZQ6S6Q.jpg?smart=true&auth=a2c8b05459486a25d3e6be183b742b87dbfe0d92563abd6b66b33ea56aac7111&width=1200&height=675"
+    },
+    {
+      "titleOriginal": "Atlántico fortalece la donación de órganos y lidera 560 trasplantes en 2025",
+      "summary280": "La Gobernación del Atlántico ha fortalecido la donación de órganos, logrando 560 trasplantes en 2025. Este resultado se debe a la coordinación de más de 30 instituciones en la Regional 5 de la Red Nacional de Donación y Trasplantes. Se realizaron 61 trasplantes renales, 246 de tejido ocular, 118 hematopoyéticos, 134 de tejido osteomuscular y un trasplante de corazón, reflejando la capacidad técnica y la respuesta a la demanda en la región.",
+      "sourceName": "ELHERALDO.CO",
+      "sourceUrl": "https://www.elheraldo.co/atlantico/2026/02/27/atlantico-fortalece-la-donacion-de-organos-y-lidera-560-trasplantes-en-2025/",
+      "imageUrl": "https://www.elheraldo.co/resizer/v2/NLAKQ7GCFBB5HNHCGWUD55ZQSM.jpeg?smart=true&auth=4044ba0e386fd06f2e3e292f24bc1bae9ba42a8edb988845e86e91edf665ad5e&width=1200&height=675"
     }
   ]
 }
