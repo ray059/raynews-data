@@ -28,7 +28,9 @@ jobs:
         run: |
           playwright install chromium
 
-      - name: Update links (Playwright)
+      - name: Update links (GNews)
+        env:
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: python update_links.py
 
       - name: Generate edition
