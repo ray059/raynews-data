@@ -13,9 +13,9 @@ async def fetch_links():
         page = await browser.new_page()
 
         await page.goto(GOOGLE_NEWS_URL, timeout=60000)
-        await page.wait_for_timeout(5000)
+        await page.wait_for_timeout(6000)
 
-        anchors = await page.query_selector_all("article a")
+        anchors = await page.query_selector_all("a")
 
         for a in anchors:
             href = await a.get_attribute("href")
@@ -23,10 +23,13 @@ async def fetch_links():
             if not href:
                 continue
 
-            if href.startswith("./articles/"):
-                full_url = "https://news.google.com" + href[1:]
+            # Nuevo patrón correcto
+            if href.startswith("/articles/"):
+                full_url = "https://news.google.com" + href
+
                 page2 = await browser.new_page()
                 await page2.goto(full_url, timeout=60000)
+                await page2.wait_for_timeout(3000)
 
                 final_url = page2.url
 
