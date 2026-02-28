@@ -1,16 +1,9 @@
 {
   "edition_date": "28 Feb 2026",
-  "edition_number": 44,
-  "generated_at": "2026-02-28T18:47:50.967885",
+  "edition_number": 45,
+  "generated_at": "2026-02-28T18:52:52.636364",
   "country": "Internacional",
   "headlines": [
-    {
-      "titleOriginal": "Minería y energía: cada una por su lado",
-      "summary280": "Esta semana estuve participando en la Convención de Exploración Energética que tuvo lugar en Cartagena y organizada por la Asociación Colombiana de Geólogos y Geofísicos de la Energía. Creo que es de.",
-      "sourceName": "ELHERALDO.CO",
-      "sourceUrl": "https://www.elheraldo.co/columnas-de-opinion/2026/02/28/mineria-y-energia-cada-una-por-su-lado/",
-      "imageUrl": "https://www.elheraldo.co/resizer/v2/2V5MFCQBMNHXVJL2YXUKM6Y5AI.jpg?smart=true&auth=77c691e99b25736ef87102dc3380fbf1f95b02ee5293661bcf06242d47d12ef8&width=1200&height=675"
-    },
     {
       "titleOriginal": "La Gran Consulta por Colombia: sin fisuras y con nueve cartas en juego",
       "summary280": "La Gran Consulta por Colombia, la principal y más robusta alianza de la centro-derecha colombiana, llegará a los comicios del 8 de marzo como la principal fuerza política con –sobre el papel– la.",
@@ -26,29 +19,22 @@
       "imageUrl": "https://www.elheraldo.co/resizer/v2/K75KCA6RHNEA3FM46Q3KCZDSYE.jpg?smart=true&auth=5376f81dbd0eaec81f106df0370856642885c71ec0acf047aa304623373516ee&width=1200&height=675"
     },
     {
-      "titleOriginal": "Ghosting: cuando el silencio también es violencia",
-      "summary280": "El ghosting, fenómeno creciente, afecta a hombres y mujeres que seducen y desaparecen sin explicación. Quienes lo practican muestran: evasión del conflicto, baja tolerancia emocional y manipulación. Esto causa ansiedad, rumiación y deterioro de la autoestima en quienes lo sufren.",
-      "sourceName": "ELHERALDO.CO",
-      "sourceUrl": "https://www.elheraldo.co/columnas-de-opinion/2026/02/28/ghosting-cuando-el-silencio-tambien-es-violencia/",
-      "imageUrl": "https://www.elheraldo.co/resizer/v2/FT4KPRPVKFEC7IRBOLATUESIFU.jpg?smart=true&auth=efa37af4d5df675deaf846fba9438f09a3367931758b559e5c69bfd6bfd4c7d9&width=1200&height=675"
-    },
-    {
       "titleOriginal": "Esta es la lista de personas que deben vacunarse tras detección de casos importados de sarampión en Colombia: lo que debe saber",
-      "summary280": "Colombia emite alerta por sarampión, afectando a niños de 1 a 10 años con dos dosis de triple viral y a jóvenes de 6 a 16 años que no se vacunaron en 2020-2021. También se exige dosis a viajeros de 11 a 59 años sin antecedentes vacunales y a personal de salud.",
+      "summary280": "Alerta por sarampión en Colombia: se recomienda vacunar a niños de 1 a 10 años con dos dosis de triple viral, población de 6 a 16 años sin dosis en 2020-2021, viajeros de 11 a 59 años sin antecedentes, personal de salud y contactos de casos sospechosos. Mantente informado.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/salud/esta-es-la-lista-de-personas-que-deben-vacunarse-tras-deteccion-de-casos-importados-de-sarampion-en-colombia-lo-que-debe-saber-3536228",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/28/67c1cec979796.r_d.1046-605-0.jpeg"
     },
     {
       "titleOriginal": "Nuevo documento de la justicia de Estados Unidos señala a Cilia Flores de ser la 'estratega de la organización criminal' liderada por Nicolás Maduro",
-      "summary280": "Nicolás Maduro y Cilia Flores fueron arrestados el 27 de febrero de 2026 por presuntos delitos de corrupción y violaciones a los derechos humanos. La detención busca responder a las crecientes presiones internas y externas por la crisis en Venezuela.",
+      "summary280": "Nicolás Maduro y Cilia Flores fueron arrestados el 27 de febrero de 2026 por cargos de corrupción y violaciones a los derechos humanos en Venezuela. La detención busca responder a las crecientes demandas de justicia y transparencia en el país.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/mundo/eeuu-y-canada/nuevo-documento-de-la-justicia-de-estados-unidos-senala-a-cilia-flores-de-ser-la-estratega-de-la-organizacion-criminal-liderada-por-nicolas-maduro-3536229",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/01/06/695dc78498b3c.r_d.26-253-0.png"
     },
     {
       "titleOriginal": "Más de 30 casos de fiebre amarilla en Venezuela desde mediados de 2025, según el Gobierno",
-      "summary280": "Desde junio de 2022, se han confirmado 36 casos de fiebre amarilla en Venezuela, con un 75% de los afectados entre 10 y 49 años. Se priorizan 22 parroquias en Aragua, Lara, Portuguesa y Barinas para la vacunación. El Gobierno adquirirá más dosis y la FANB apoyará la campaña.",
+      "summary280": "Venezuela ha confirmado 36 casos de fiebre amarilla desde junio de 2022, lo que ha generado una alerta sanitaria, según Isabel Iturria. El Gobierno, liderado por la ministra de Salud, Nuramy Gutiérrez, intensificará la vacunación en áreas afectadas y adquirirá nuevas dosis.",
       "sourceName": "ELHERALDO.CO",
       "sourceUrl": "https://www.elheraldo.co/mundo/2026/02/28/mas-de-30-casos-de-fiebre-amarilla-en-venezuela-desde-mediados-de-2025-segun-el-gobierno/",
       "imageUrl": "https://www.elheraldo.co/resizer/v2/4R4IVSJVBNECTOYPQL45WVSQDE.jpg?smart=true&auth=490fd17f25315b595313a88954b44462bbcf37c2358340a485ae8bf4fca33b71&width=1200&height=675"
