@@ -22,7 +22,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install requests beautifulsoup4 openai
+          pip install requests beautifulsoup4 openai readability-lxml
 
       - name: Update links (RSS + GNews fallback)
         env:
