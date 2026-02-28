@@ -23,6 +23,13 @@ BLOCKED_DOMAINS = [
     "nytimes.com"
 ]
 
+BLOCKED_PATHS = [
+    "/opinion/",
+    "/columnas",
+    "/columnas-de-opinion",
+    "/blogs/"
+]
+
 # =============================
 # HELPERS
 # =============================
@@ -194,6 +201,11 @@ def extract_article_data(url):
     try:
         print("🔎 Procesando:", url)
 
+        # 🔴 Filtrar opinión por URL
+        if any(path in url.lower() for path in BLOCKED_PATHS):
+            print("⛔ Artículo de opinión detectado por URL. Saltando.")
+            return None
+
         for domain in BLOCKED_DOMAINS:
             if domain in url:
                 print(f"⛔ Dominio bloqueado ({domain}). Saltando.")
@@ -218,6 +230,12 @@ def extract_article_data(url):
             return None
 
         title = clean_text(title_tag["content"].split("|")[0])
+
+        # 🔴 Filtro adicional por título tipo columna
+        if "opinión" in title.lower() or "columna" in title.lower():
+            print("⛔ Artículo de opinión detectado por título. Saltando.")
+            return None
+
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
