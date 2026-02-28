@@ -70,11 +70,11 @@ def generate_summary_with_ai(text):
     Resume la siguiente noticia en máximo 280 caracteres.
     Debe terminar en punto.
     Explica el hecho principal con información concreta.
-    Incluye actores clave (quién), acción realizada (qué) y motivo (por qué).
-    No uses frases genéricas.
-    No mantengas tono sensacionalista.
+    Si el titular promete una lista, especifica los grupos mencionados.
+    Prioriza medidas, decisiones o cifras relevantes.
+    No incluyas descripciones médicas generales si no son el foco.
+    No uses frases vagas como "según reportes" o "ha generado alerta".
     No repitas el titular.
-    No dejes información incompleta.
     
     Noticia:
     {text}
