@@ -1,55 +1,51 @@
 import requests
 import os
-from datetime import datetime
 from urllib.parse import urlparse
 
 GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
 
-MAX_FETCH = 40          # traer más para margen
-MAX_SAVE = 25           # guardar hasta 25 en links.txt
-MAX_PER_DOMAIN = 4      # máximo 4 por medio
+MAX_FETCH_PER_QUERY = 25   # Cada query trae hasta 25
+MAX_SAVE = 25              # Guardamos 25 finales
+MAX_PER_DOMAIN = 4         # Máximo 4 por medio
 
-# Palabras que no queremos en títulos/URL
 BLOCKED_PATHS = [
     "/opinion/",
     "/columnas",
     "/columnas-de-opinion",
     "/blogs/",
-    "/editoriales/",
-    "/cartas-al-editor/"
+    "/editoriales/"
 ]
 
 EXCLUDE_KEYWORDS = [
     "lotería", "loteria", "sorteo",
-    "numeros ganadores", "chance",
-    "baloto"
+    "numeros ganadores", "chance", "baloto"
 ]
 
 
-def is_valid_url(url):
-    """Descartar opinión / columnistas por ruta en URL."""
-    lower = url.lower()
-    for path in BLOCKED_PATHS:
-        if path in lower:
-            return False
-    return True
-
-
-def is_valid_title(title):
-    """Descartar titulares claramente de ruido/lotería."""
-    if not title:
-        return False
-    text = title.lower()
-    for kw in EXCLUDE_KEYWORDS:
-        if kw in text:
-            return False
-    return True
-
+# =============================
+# UTILIDADES
+# =============================
 
 def normalize_url(url):
-    """Limpia parámetros de tracking en la URL."""
     parsed = urlparse(url)
     return f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+
+
+def is_valid_article(title, url):
+    title_lower = title.lower()
+    url_lower = url.lower()
+
+    # Filtrar basura tipo lotería
+    for word in EXCLUDE_KEYWORDS:
+        if word in title_lower:
+            return False
+
+    # Filtrar opinión/editorial por URL
+    for path in BLOCKED_PATHS:
+        if path in url_lower:
+            return False
+
+    return True
 
 
 def remove_duplicates(articles):
@@ -58,88 +54,104 @@ def remove_duplicates(articles):
     unique = []
 
     for a in articles:
-        title_norm = a["title"].strip().lower()
-        url_norm = normalize_url(a["url"])
+        title = a["title"].strip().lower()
+        url = normalize_url(a["url"])
 
-        if title_norm in seen_titles:
+        if title in seen_titles:
             continue
-        if url_norm in seen_urls:
+        if url in seen_urls:
             continue
 
-        seen_titles.add(title_norm)
-        seen_urls.add(url_norm)
-
-        a["url"] = url_norm
+        seen_titles.add(title)
+        seen_urls.add(url)
+        a["url"] = url
         unique.append(a)
 
     return unique
 
 
 def limit_per_domain(articles):
-    """Limita cuántos enlaces por dominio."""
     domain_count = {}
     balanced = []
 
     for a in articles:
         domain = urlparse(a["url"]).netloc
+
         if domain_count.get(domain, 0) >= MAX_PER_DOMAIN:
             continue
+
         domain_count[domain] = domain_count.get(domain, 0) + 1
         balanced.append(a)
 
     return balanced
 
 
-def fetch_articles():
+# =============================
+# FETCH GNEWS
+# =============================
+
+def fetch_gnews(query):
     if not GNEWS_API_KEY:
         print("❌ GNEWS_API_KEY no configurada")
         return []
 
-    try:
-        response = requests.get(
-            "https://gnews.io/api/v4/search",
-            params={
-                "q": "Colombia OR política OR economía OR internacional OR gobierno OR justicia OR educación OR deportes",
-                "lang": "es",
-                "country": "co",
-                "max": MAX_FETCH,
-                "sortby": "publishedAt",
-                "token": GNEWS_API_KEY
-            }
-        )
-        response.raise_for_status()
-        data = response.json()
-        return data.get("articles", [])
-    except Exception as e:
-        print("❌ Error GNews:", e)
+    response = requests.get(
+        "https://gnews.io/api/v4/search",
+        params={
+            "q": query,
+            "lang": "es",
+            "country": "co",
+            "max": MAX_FETCH_PER_QUERY,
+            "sortby": "publishedAt",
+            "token": GNEWS_API_KEY
+        }
+    )
+
+    if response.status_code != 200:
+        print("❌ Error GNews:", response.status_code)
         return []
 
+    data = response.json()
+    return data.get("articles", [])
+
+
+# =============================
+# MAIN
+# =============================
 
 def main():
-    print("🔎 Obteniendo noticias desde GNews...")
+    print("🔎 Ejecutando doble consulta a GNews...")
 
-    raw = fetch_articles()
+    query1 = "Colombia OR política OR gobierno OR justicia"
+    query2 = "salud OR economía OR internacional OR educación OR deportes"
 
-    if not raw:
+    results1 = fetch_gnews(query1)
+    print("Resultados query1:", len(results1))
+
+    results2 = fetch_gnews(query2)
+    print("Resultados query2:", len(results2))
+
+    combined = results1 + results2
+    print("Total combinados:", len(combined))
+
+    if not combined:
         print("❌ No se obtuvieron artículos")
         return
 
-    print("Total traídas:", len(raw))
-
-    # Filtrar por título y URL
+    # Filtrar basura
     filtered = [
-        {"title": a.get("title", ""), "url": a.get("url", "")}
-        for a in raw
-        if is_valid_title(a.get("title", "")) and is_valid_url(a.get("url", ""))
+        {"title": a["title"], "url": a["url"]}
+        for a in combined
+        if is_valid_article(a["title"], a["url"])
     ]
-    print("Después de filtrar opinion/editorial/lotería:", len(filtered))
 
-    # Eliminar duplicados
+    print("Después de filtrar basura:", len(filtered))
+
+    # Quitar duplicados
     unique = remove_duplicates(filtered)
     print("Después de quitar duplicados:", len(unique))
 
-    # Ordenar por orden original (ya viene ordenado por publishedAt)
-    # Balancear cuántos por dominio
+    # Balancear medios
     balanced = limit_per_domain(unique)
     print("Después de balancear por dominio:", len(balanced))
 
