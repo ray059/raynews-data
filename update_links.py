@@ -4,10 +4,9 @@ from datetime import datetime
 
 GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
 
-MAX_FETCH = 25
-MAX_FINAL = 7
+MAX_FETCH = 30          # 🔥 Traemos 30
+MAX_SAVE = 25           # 🔥 Guardamos 25 en links.txt
 
-# 🔥 Solo filtramos basura real, NO clickbait atractivo
 EXCLUDE_KEYWORDS = [
     "lotería",
     "loteria",
@@ -77,16 +76,21 @@ def main():
         print("❌ No se obtuvieron artículos")
         return
 
+    print("Total traídas:", len(articles))
+
     # 1️⃣ Eliminar duplicados
     articles = remove_duplicates(articles)
+    print("Después de quitar duplicados:", len(articles))
 
-    # 2️⃣ Filtrar basura irrelevante
+    # 2️⃣ Filtrar basura real (no clickbait atractivo)
     filtered = [
         a for a in articles
         if is_valid_article(a["title"])
     ]
 
-    # 3️⃣ Ordenar por fecha (más recientes primero)
+    print("Después de filtrar basura:", len(filtered))
+
+    # 3️⃣ Ordenar por fecha
     filtered.sort(
         key=lambda x: datetime.fromisoformat(
             x["publishedAt"].replace("Z", "+00:00")
@@ -94,13 +98,13 @@ def main():
         reverse=True
     )
 
-    # 4️⃣ Tomar las 7 finales
-    final_articles = filtered[:MAX_FINAL]
+    # 🔥 4️⃣ Guardamos 25, NO 7
+    final_articles = filtered[:MAX_SAVE]
 
     links = [a["url"] for a in final_articles]
 
-    if len(links) < MAX_FINAL:
-        print("⚠ Menos de 7 noticias después del filtro")
+    if len(links) < 15:
+        print("⚠ Pocas noticias obtenidas. Revisa filtros.")
 
     content = ";".join(links)
 
