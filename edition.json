@@ -1,7 +1,57 @@
 {
   "edition_date": "28 Feb 2026",
-  "edition_number": 60,
-  "generated_at": "2026-02-28T23:51:19.518233",
+  "edition_number": 61,
+  "generated_at": "2026-02-28T23:54:56.087638",
   "country": "Internacional",
-  "headlines": []
+  "headlines": [
+    {
+      "titleOriginal": "Esta es la lista de personas que deben vacunarse tras detección de casos importados de sarampión en Colombia: lo que debe saber",
+      "summary280": "Las autoridades sanitarias de Colombia confirmaron el 27 de febrero tres casos importados de sarampión en personas que viajaron al exterior. El Ministerio de Salud recomendó a los colombianos vacunarse, especialmente aquellos que planean viajar a países como México, Estados Unidos y Canadá. Las vacunas están disponibles de forma gratuita en más de 3.000 puntos del país. Estos son los primeros casos en diez años en Colombia, que no tiene sarampión autóctono.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/salud/esta-es-la-lista-de-personas-que-deben-vacunarse-tras-deteccion-de-casos-importados-de-sarampion-en-colombia-lo-que-debe-saber-3536228",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/28/67c1cec979796.r_d.1046-605-0.jpeg"
+    },
+    {
+      "titleOriginal": "Gobierno confirma los primeros tres casos de sarampión en el país en los últimos diez años",
+      "summary280": "Las autoridades sanitarias de Colombia confirmaron tres casos de sarampión, los primeros en diez años, todos importados por personas que viajaron al exterior. El ministro de Salud, Guillermo Jaramillo, destacó la importancia de la vacunación y recomendó una dosis de refuerzo para quienes viajen a países como México, Estados Unidos y Canadá. Colombia no tiene casos autóctonos desde 2014.",
+      "sourceName": "ELHERALDO.CO",
+      "sourceUrl": "https://www.elheraldo.co/colombia/2026/02/28/gobierno-confirma-los-primeros-tres-casos-de-sarampion-en-el-pais-en-los-ultimos-diez-anos/",
+      "imageUrl": "https://www.elheraldo.co/resizer/v2/NGCGRUZ7P5G67D6QEJGAZQ6S6Q.jpg?smart=true&auth=a2c8b05459486a25d3e6be183b742b87dbfe0d92563abd6b66b33ea56aac7111&width=1200&height=675"
+    },
+    {
+      "titleOriginal": "El empleo formal flexible aportó $20,4 billones al país. Esto es lo que viene para el 2026",
+      "summary280": "El empleo formal flexible en Colombia aportó más de $20,4 billones al país en 2025, según el Informe Estadístico de ACOSET. Este modelo de contratación es crucial para la economía, con un promedio de 489.015 trabajadores en misión, representando cerca del 5% del empleo formal. Para 2026, se identifican desafíos como la demanda de talento especializado y la necesidad de reglas claras para seguir generando empleo formal y proteger a los trabajadores.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/economia/el-empleo-formal-flexible-aporto-20-4-billones-al-pais-y-lo-que-viene-para-el-3536088",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1e8c0499fc.r_d.647-64-0.jpeg"
+    },
+    {
+      "titleOriginal": "¿Dudas sobre el nuevo decreto de Ministerio de Salud? El abecé para entender por qué podrían trasladarlo de EPS sin su autorización",
+      "summary280": "El nuevo decreto del Ministerio de Salud permite el traslado automático de afiliados de EPS sin su autorización cuando estas dejan de operar o son intervenidas. Esto afecta a más de 6,5 millones de usuarios, quienes serán asignados a otras EPS habilitadas en su territorio, siguiendo reglas técnicas de distribución. La nueva EPS asumirá la atención y pagos desde el día del traslado.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/salud/dudas-sobre-el-nuevo-decreto-de-ministerio-de-salud-el-abece-para-entender-por-que-podrian-trasladarlo-de-eps-sin-su-autorizacion-3536062",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1a5d06b02c.r_d.1176-155-0.png"
+    },
+    {
+      "titleOriginal": "Gobierno Petro impone nueva carga a empresas de energía para conseguir más dinero: estas son las 51 hidroeléctricas y térmicas que pagarán sobretasa",
+      "summary280": "El Gobierno Nacional impuso una sobretasa del 2 por ciento a las hidroeléctricas y térmicas para recaudar fondos destinados a los damnificados por la ola invernal. Esta medida, que se suma a las transferencias ambientales, eleva la carga a un 8 por ciento para hidroeléctricas y 6 por ciento para térmicas. Afectará a 51 plantas en varios departamentos y generará preocupación en el sector energético por su impacto en la liquidez y operación de las empresas.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/economia/sectores/las-51-hidroelectricas-y-termicas-que-pagarian-sobretasa-del-2-para-atender-emergencia-invernal-en-colombia-3535885",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/03/6981eb3c546c4.r_d.922-298-0.jpeg"
+    },
+    {
+      "titleOriginal": "Sistema Andino de Integración hace llamado urgente de diálogo entre los presidentes Gustavo Petro y Daniel Noboa tras escalada de guerra arancelaria",
+      "summary280": "El Gobierno de Ecuador, liderado por Daniel Noboa, anunció un aumento de aranceles del 30% al 50% para productos colombianos, lo que ha generado preocupación en diversos sectores. El Sistema Andino de Integración hizo un llamado urgente al diálogo entre los presidentes de Ecuador y Colombia para encontrar un entendimiento negociado, advirtiendo que estas medidas afectan el proceso de integración andina y el tejido socioeconómico de ambos países.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/mundo/latinoamerica/sistema-andino-hace-llamado-urgente-de-dialogo-entre-el-presidente-gustavo-petro-y-su-homologo-daniel-noboa-tras-escalada-de-guerra-arancelaria-3535998",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/04/16/661e602360301.r_d.970-264-0.png"
+    },
+    {
+      "titleOriginal": "Gobierno anuncia Ley Seca y cierre de fronteras en Colombia por elecciones del 8 de marzo: medidas empezarán a regir el sábado 7",
+      "summary280": "El Gobierno de Colombia, a través del ministro del Interior, anunció la implementación de la Ley Seca y el cierre de fronteras por las elecciones del 8 de marzo. La Ley Seca comenzará el 7 de marzo a las 6:00 p.m. y finalizará el 9 de marzo a las 6:00 a.m. El cierre de fronteras, que afecta a varios países, se prevé iniciar a las 12:00 p.m. del mismo día, aunque esta medida está en proceso de validación.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/politica/elecciones-colombia-2026/gobierno-anuncia-ley-seca-y-cierre-de-fronteras-en-colombia-por-elecciones-del-8-de-marzo-medidas-empezaran-a-regir-el-sabado-3536028",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1bbb815d89.r_d.926-271-0.png"
+    }
+  ]
 }
