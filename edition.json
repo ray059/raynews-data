@@ -1,29 +1,36 @@
 {
   "edition_date": "28 Feb 2026",
-  "edition_number": 49,
-  "generated_at": "2026-02-28T19:22:15.935925",
+  "edition_number": 50,
+  "generated_at": "2026-02-28T19:24:43.733701",
   "country": "Internacional",
   "headlines": [
     {
       "titleOriginal": "La Gran Consulta por Colombia: sin fisuras y con nueve cartas en juego",
-      "summary280": "La Gran Consulta por Colombia se presenta como la principal fuerza política para las elecciones del 8 de marzo, con un objetivo claro: derrotar al petrismo. Abelardo De la Espriella y Sergio Fajardo son posibles apoyos si el ganador de la consulta no obtiene suficientes respaldos. Vicky Dávila y otros líderes destacan en la intención de voto.",
+      "summary280": "La Gran Consulta por Colombia se presenta como la principal fuerza política para las elecciones del 8 de marzo, con un objetivo claro: derrotar al petrismo. Abelardo De la Espriella y Sergio Fajardo son posibles apoyos en la primera vuelta. La alianza incluye a Paloma Valencia, Juan Manuel Galán y Enrique Peñalosa, entre otros.",
       "sourceName": "ELHERALDO.CO",
       "sourceUrl": "https://www.elheraldo.co/politica/2026/02/28/la-gran-consulta-por-colombia-sin-fisuras-y-con-nueve-cartas-en-juego/",
       "imageUrl": "https://www.elheraldo.co/resizer/v2/7JMFHB5TCBGNDJKKYNBMSUQAVM.jpg?smart=true&auth=2699674d48231f82e48ff1fb09646d11cb916ac78c34d5c36f0dbfc5c5435957&width=1200&height=675"
     },
     {
       "titleOriginal": "Esta es la lista de personas que deben vacunarse tras detección de casos importados de sarampión en Colombia: lo que debe saber",
-      "summary280": "Alerta por sarampión en Colombia: se requiere que niños de 1 a 10 años tengan dos dosis de triple viral. Población de 6 a 16 años sin vacuna en 2020-2021 debe recibir una dosis adicional. Viajeros de 11 a 59 años sin antecedentes deben vacunarse 15 días antes del viaje.",
+      "summary280": "Alerta por sarampión en Colombia: se requiere que niños de 1 a 10 años tengan dos dosis de triple viral. Población de 6 a 16 años sin vacuna en 2020-2021 debe recibir una dosis adicional. Viajeros de 11 a 59 años sin antecedentes deben vacunarse 15 días antes de viajar.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/salud/esta-es-la-lista-de-personas-que-deben-vacunarse-tras-deteccion-de-casos-importados-de-sarampion-en-colombia-lo-que-debe-saber-3536228",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/28/67c1cec979796.r_d.1046-605-0.jpeg"
     },
     {
       "titleOriginal": "Nuevo documento de la justicia de Estados Unidos señala a Cilia Flores de ser la 'estratega de la organización criminal' liderada por Nicolás Maduro",
-      "summary280": "Nicolás Maduro y Cilia Flores fueron arrestados el 27 de febrero de 2026, en medio de una operación de la policía venezolana por corrupción y violaciones a los derechos humanos. La detención busca desmantelar una red de corrupción que ha afectado gravemente la economía del país.",
+      "summary280": "Nicolás Maduro y Cilia Flores fueron arrestados el 27 de febrero de 2026, tras ser acusados de corrupción y violaciones a los derechos humanos. La detención se produce en un contexto de crisis económica en Venezuela, donde la inflación supera el 300%.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/mundo/eeuu-y-canada/nuevo-documento-de-la-justicia-de-estados-unidos-senala-a-cilia-flores-de-ser-la-estratega-de-la-organizacion-criminal-liderada-por-nicolas-maduro-3536229",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/01/06/695dc78498b3c.r_d.26-253-0.png"
+    },
+    {
+      "titleOriginal": "Más de 30 casos de fiebre amarilla en Venezuela desde mediados de 2025, según el Gobierno",
+      "summary280": "Venezuela reporta 36 casos de fiebre amarilla desde junio de 2022, con un 75% en personas de 10 a 49 años, según la vicepresidenta Isabel Iturria. El Gobierno intensifica la vacunación en 22 parroquias de Aragua, Lara y Portuguesa, y adquiere nuevas dosis para controlar el brote.",
+      "sourceName": "ELHERALDO.CO",
+      "sourceUrl": "https://www.elheraldo.co/mundo/2026/02/28/mas-de-30-casos-de-fiebre-amarilla-en-venezuela-desde-mediados-de-2025-segun-el-gobierno/",
+      "imageUrl": "https://www.elheraldo.co/resizer/v2/4R4IVSJVBNECTOYPQL45WVSQDE.jpg?smart=true&auth=490fd17f25315b595313a88954b44462bbcf37c2358340a485ae8bf4fca33b71&width=1200&height=675"
     },
     {
       "titleOriginal": "La historia del mega-movimiento de pacientes que el Gobierno hará entre EPS: más de 6,5 millones de personas serán trasladados pese a advertencias",
@@ -34,7 +41,7 @@
     },
     {
       "titleOriginal": "EE. UU. indaga buque que zarpó con combustible desde Colombia, que iría a Cuba: ¿por qué mencionan a bróker al que ligaron con negocio de Álex Saab?",
-      "summary280": "El buque Ocean Marine llegó al puerto de Palermo el 27 de febrero de 2026, marcando un hito en la logística marítima de la región. Esta operación busca mejorar el comercio local y aumentar la capacidad de carga en un 15% para satisfacer la demanda creciente.",
+      "summary280": "El buque Ocean Marine llegó al puerto de Palermo el 27 de febrero de 2026, marcando un hito en la logística marítima de la región. Esta operación busca mejorar la conectividad y el comercio, impulsando el desarrollo económico local.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/unidad-investigativa/ee-uu-indaga-buque-que-zarpo-con-combustible-desde-colombia-que-iria-a-cuba-por-que-mencionan-a-broker-al-que-ligaron-con-negocio-de-alex-saab-3536178",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a24683baf1d.r_d.613-205-0.png"
