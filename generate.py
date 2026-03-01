@@ -56,8 +56,8 @@ def generate_summary(title, article_text):
     if not OPENAI_API_KEY:
         return None
 
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    import openai
+    openai.api_key = OPENAI_API_KEY
 
     prompt = f"""
 Responde claramente la pregunta del titular en máximo 280 caracteres.
@@ -72,13 +72,15 @@ Artículo:
 """
 
     try:
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3,
         )
 
-        summary = response.choices[0].message.content
+        summary = response["choices"][0]["message"]["content"]
         return clean_text(summary)
 
     except Exception as e:
