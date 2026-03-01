@@ -1,123 +1,76 @@
 import requests
-import os
-from datetime import datetime
+import re
+from bs4 import BeautifulSoup
 
-GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
+print("===== INICIO UPDATE_LINKS.PY =====")
 
-MAX_PER_QUERY = 10      # 10 por categoría
-MAX_SAVE = 30           # guardamos hasta 30 enlaces
+MAX_LINKS = 30
 
-EXCLUDE_KEYWORDS = [
-    "lotería",
-    "loteria",
-    "sorteo",
-    "numeros ganadores",
-    "chance",
-    "baloto"
+RSS_SOURCES = [
+    "https://www.eltiempo.com/rss",
+    "https://www.elheraldo.co/rss.xml"
 ]
 
-# 🔥 Consultas temáticas separadas
-QUERIES = [
-    "Colombia AND (politica OR elecciones OR gobierno)",
-    "Colombia AND (salud OR epidemia OR vacunacion)",
-    "Colombia AND (justicia OR fiscalia OR investigacion)",
-    "Colombia AND (economia OR inflacion OR empleo OR empresas)",
-    "internacional OR diplomacia OR relaciones Colombia"
-]
+def is_question_title(title):
+    title = title.strip()
+    return "¿" in title or title.endswith("?")
 
+def clean_text(text):
+    return re.sub(r'\s+', ' ', text).strip()
 
-def is_valid_article(title):
-    title_lower = title.lower()
-    for word in EXCLUDE_KEYWORDS:
-        if word in title_lower:
-            return False
-    return True
+def extract_links_from_rss(url):
+    try:
+        print(f"🔎 Revisando RSS: {url}")
+        response = requests.get(url, timeout=15)
+        if response.status_code != 200:
+            print("❌ Error RSS:", url)
+            return []
 
+        soup = BeautifulSoup(response.content, "xml")
+        items = soup.find_all("item")
 
-def remove_duplicates(articles):
-    seen_urls = set()
-    unique = []
+        links = []
 
-    for article in articles:
-        url = article["url"]
-        if url not in seen_urls:
-            seen_urls.add(url)
-            unique.append(article)
+        for item in items:
+            title_tag = item.find("title")
+            link_tag = item.find("link")
 
-    return unique
+            if not title_tag or not link_tag:
+                continue
 
+            title = clean_text(title_tag.text)
+            link = clean_text(link_tag.text)
 
-def fetch_query(query):
+            if not is_question_title(title):
+                continue
 
-    response = requests.get(
-        "https://gnews.io/api/v4/search",
-        params={
-            "q": query,
-            "lang": "es",
-            "country": "co",
-            "max": MAX_PER_QUERY,
-            "sortby": "publishedAt",
-            "token": GNEWS_API_KEY
-        }
-    )
+            links.append(link)
 
-    if response.status_code != 200:
-        print("❌ Error en query:", query)
+        return links
+
+    except Exception as e:
+        print("Error procesando RSS:", e)
         return []
-
-    data = response.json()
-    return data.get("articles", [])
-
 
 def main():
 
-    if not GNEWS_API_KEY:
-        print("❌ GNEWS_API_KEY no configurada")
-        return
+    all_links = []
 
-    print("🔎 Iniciando consultas múltiples...")
+    for source in RSS_SOURCES:
+        links = extract_links_from_rss(source)
+        all_links.extend(links)
 
-    all_articles = []
+    # Eliminar duplicados manteniendo orden
+    unique_links = list(dict.fromkeys(all_links))
 
-    for query in QUERIES:
-        print(f"📡 Consultando: {query}")
-        articles = fetch_query(query)
-        print("   → obtenidos:", len(articles))
-        all_articles.extend(articles)
-
-    print("Total bruto:", len(all_articles))
-
-    # 1️⃣ eliminar duplicados por URL
-    all_articles = remove_duplicates(all_articles)
-    print("Después de quitar duplicados:", len(all_articles))
-
-    # 2️⃣ filtrar basura real
-    filtered = [
-        a for a in all_articles
-        if is_valid_article(a["title"])
-    ]
-
-    print("Después de filtrar ruido:", len(filtered))
-
-    # 3️⃣ ordenar por fecha
-    filtered.sort(
-        key=lambda x: datetime.fromisoformat(
-            x["publishedAt"].replace("Z", "+00:00")
-        ),
-        reverse=True
-    )
-
-    # 4️⃣ guardar hasta 30
-    final_articles = filtered[:MAX_SAVE]
-
-    links = [a["url"] for a in final_articles]
+    # Limitar cantidad
+    final_links = unique_links[:MAX_LINKS]
 
     with open("links.txt", "w", encoding="utf-8") as f:
-        f.write(";".join(links))
+        f.write(";".join(final_links))
 
-    print("✅ links.txt actualizado")
-    print("Total enlaces guardados:", len(links))
-
+    print(f"✅ Links guardados: {len(final_links)}")
+    print("===== FIN UPDATE_LINKS.PY =====")
 
 if __name__ == "__main__":
     main()
