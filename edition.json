@@ -1,134 +1,166 @@
 {
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T03:30:31.384698-05:00",
+  "generated_at": "2026-03-01T14:10:33.515868-05:00",
   "country": "Internacional",
   "headlines": [
     {
+      "titleOriginal": "¿Por qué EE.UU. e Israel atacaron a Irán en este momento (y cómo podría acabar este conflicto)?",
+      "summary280": "EE.UU. e Israel atacaron a Irán para buscar un cambio de régimen tras la muerte del líder supremo Alí Jamenei. La campaña militar, sin precedentes, ha desatado represalias iraníes y ha complicado las negociaciones de paz, llevando a Irán a un estado de supervivencia.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cm21vee14m6o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/517f/live/e5a84490-14cc-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Quién era y cómo ejerció el poder el ayatolá Alí Jamenei, líder supremo de Irán durante casi 4 décadas que murió en ataques de EE.UU. e Israel",
+      "summary280": "El ayatolá Alí Jamenei, líder supremo de Irán desde 1989, murió en ataques de EE.UU. e Israel. Durante casi 40 años, ejerció un poder absoluto, vetando políticas y eligiendo candidatos, mientras enfrentaba protestas masivas y acusaciones de desarrollar armas nucleares.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0m8j2grvlo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/41b0/live/e5f983b0-4aeb-11f0-8abd-0dadf2c98a8a.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Quién tiene el poder en Irán tras la muerte del ayatolá Alí Jamenei y cómo se elegirá a su sucesor",
+      "summary280": "Tras la muerte del ayatolá Alí Jamenei, el poder en Irán se encuentra en un momento incierto. La Asamblea de Expertos, compuesta por 88 clérigos, será la encargada de elegir a su sucesor, mientras que el presidente y el jefe del poder judicial asumirán interinamente.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c78x34j38g7o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/f407/live/6abaa6a0-1545-11f1-939f-8b648b86149c.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Qué aliados le quedan a Irán en la región en medio de su enfrentamiento con EE.UU. e Israel",
+      "summary280": "Irán enfrenta un debilitamiento de sus aliados en la región, con grupos como Hezbolá y Hamás en crisis, y la pérdida de apoyo en Siria tras el derrocamiento de Bashar al Assad. Los hutíes en Yemen son uno de los pocos aliados que permanecen fieles, intensificando sus ataques cont",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Análisis de la BBC: es un momento peligroso, pero EE.UU. e Israel ven una oportunidad en Irán que no quieren desperdiciar",
+      "summary280": "EE.UU. e Israel consideran que la situación de vulnerabilidad de Irán es una oportunidad para atacar, a pesar de que esto podría desatar un conflicto peligroso y con consecuencias impredecibles. Ambos países justifican sus acciones como defensa, aunque la legalidad de esto es cue",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4g4ver73z1o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/872c/live/ed7fada0-150a-11f1-a62f-e9c9a6a2a3bf.png",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Qué se sabe de los ataques de EE.UU. e Israel contra Irán y de la muerte del líder supremo Alí Jamenei",
+      "summary280": "El ejército de Israel, con apoyo de EE.UU., lanzó ataques en Irán que resultaron en la muerte del líder supremo Alí Jamenei. Más de 200 muertos y 700 heridos se reportan. Irán prometió una \"respuesta aplastante\" y lanzó misiles contra Israel y aliados de EE.UU. en la región.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy6kzrylnko?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/63bb/live/51460880-1505-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Pánico en las calles y alivio para algunos: la reacción en Teherán al ataque de EE.UU. e Israel contra Irán",
+      "summary280": "En Teherán, tras los ataques de EE.UU. e Israel, se vive un clima de pánico con explosiones y evacuaciones, pero también hay alivio y celebración entre algunos que ven la intervención militar como una oportunidad para el cambio de régimen. La tensión y el miedo predominan en la p",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/clyzx52wz9yo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0e3a/live/a02aae50-14d4-11f1-b106-cbf633dcab7a.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
+      "summary280": "Los principales grupos de oposición en Irán incluyen a activistas en el exilio que apoyan al expríncipe Reza Pahlavi, quien aboga por un estado secular y ha ganado apoyo durante las protestas. Sin embargo, la oposición está fragmentada y carece de un liderazgo claro dentro del pa",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
+      "type": "explainer"
+    },
+    {
       "titleOriginal": "\"Deben deponer las armas o enfrentarán una muerte segura\": 6 mensajes clave de la declaración en la que Trump anunció los ataques a Irán",
-      "summary280": "En su reciente declaración, Trump anunció ataques militares a Irán, justificando la acción por \"amenazas inminentes\" del régimen iraní. Afirmó que el objetivo es eliminar estas amenazas y pidió un cambio de régimen, destacando que nunca permitirán que Irán tenga armas nucleares.",
+      "summary280": "Trump anunció ataques a Irán, exigiendo que depongan las armas o enfrentarán \"muerte segura\". Justificó la acción como defensa ante \"amenazas inminentes\" del régimen iraní, argumentando que no había opción tras fallidas negociaciones y que busca evitar que obtengan armas nucleare",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c4g297welj9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0dc2/live/ab06d610-14c9-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer"
     },
     {
+      "titleOriginal": "Cómo EE.UU. e Irán pasaron de una \"estrecha amistad\" a un enfrentamiento militar",
+      "summary280": "La relación entre EE.UU. e Irán pasó de una \"estrecha amistad\" en los años 70, bajo el liderazgo del sha Pahlavi, a un enfrentamiento militar actual, tras décadas de tensiones, intervenciones y cambios de régimen que culminaron en ataques recientes y un despliegue militar estadou",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/clyxd3gqrqxo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/fba0/live/79ac3330-14c4-11f1-8007-5bc8640dd651.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "¿Qué queda del programa nuclear de Irán y qué amenaza supone?",
+      "summary280": "El programa nuclear de Irán enfrenta incertidumbre tras ataques de EE. UU. e Israel, que dañaron instalaciones clave. Aunque Irán afirma que su actividad es civil, el OIEA señala que podría haber suficiente uranio enriquecido para 10 bombas nucleares, generando preocupaciones sob",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8a2e/live/a579e060-11a5-11f1-8efc-bb8df6087c73.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Cuál es el origen de la rivalidad entre Israel e Irán",
+      "summary280": "La rivalidad entre Israel e Irán se intensificó tras la Revolución Islámica de 1979, cuando Irán pasó de ser un aliado a considerar a Israel como su \"pequeño Satán\". La tensión ha escalado en el contexto de ataques mutuos y el programa nuclear iraní, generando inestabilidad en Me",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c9vgwewx30mo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b817/live/3dd6edd0-4898-11f0-ba0b-115e2eaa4584.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Los videos que muestran cómo soldados israelíes disparan a un adolescente palestino y se quedan viéndolo morir desangrado",
+      "summary280": "Un adolescente palestino de 14 años, Jad Jadallah, fue tiroteado por soldados israelíes en Cisjordania y dejó de recibir atención médica mientras moría desangrado. A pesar de la presencia de 14 soldados, no se le brindó ayuda durante 45 minutos, y el ejército israelí ha negado de",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cvg3qyyn32yo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/195b/live/40a76fb0-13fb-11f1-801d-ed3cff6bf876.png",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos",
+      "summary280": "Un tiroteo entre una lancha civil de EE.UU. y la patrulla fronteriza cubana dejó cuatro muertos y varios heridos. Cuba afirma que los tripulantes eran cubanos armados con intenciones terroristas. EE.UU. niega su implicación y se investiga el incidente en aguas territoriales cuban",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/79d4/live/5e02f360-1327-11f1-8080-b36026ca95b4.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "La vida de las 'niñeras de millonarios': \"Tuve que hacer la maleta de un día para otro para recoger un Ferrari en Francia\"",
+      "summary280": "Giuliana Passarelli, asistente personal de un millonario, comparte su experiencia como \"niñera de millonario\", donde organiza desde compras hasta viajes de emergencia, como recoger un Ferrari en Francia. Su trabajo es variado y excéntrico, reflejando una vida sin rutina fija.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cm21zkv38lmo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a283/live/b2380f40-06bd-11f1-9527-93c13292c717.jpg",
+      "type": "explainer"
+    },
+    {
       "titleOriginal": "\"Hacíamos nuestras necesidades donde nos servían la comida\": la denuncia de un activista de derechos humanos en Venezuela que pasó más de 4 años en prisión",
-      "summary280": "Javier Tarazona, activista de derechos humanos, denuncia condiciones \"inhumanas\" en prisión tras más de cuatro años de cautiverio en El Helicoide, donde sufrió aislamiento y tortura psicológica. Su detención se produjo tras denunciar vínculos del gobierno con grupos armados.",
+      "summary280": "Javier Tarazona, activista de derechos humanos en Venezuela, denuncia las condiciones inhumanas que vivió durante más de 4 años en prisión, donde se vio obligado a hacer sus necesidades en el mismo lugar donde le servían comida. Su testimonio resalta la brutalidad del régimen.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8ld080zlo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/7cc6/live/05bfbae0-0d1d-11f1-b15f-59c83b9de5e4.jpg",
       "type": "explainer"
     },
     {
+      "titleOriginal": "Al menos 20 muertos y 30 heridos al estrellarse un avión militar que transportaba billetes en Bolivia",
+      "summary280": "Un avión militar que transportaba billetes en Bolivia se estrelló cerca de La Paz, dejando al menos 20 muertos y más de 30 heridos. El incidente ocurrió al impactar contra una vía en El Alto, generando caos y enfrentamientos mientras la gente intentaba recoger el dinero esparcido",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c620d3pzzjgo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/50ea/live/e72ead90-14b8-11f1-b4e3-735eb5ac1cbc.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Cuál es la presencia de China en Perú (y la ofensiva del gobierno de Trump para revertirla)",
+      "summary280": "China ha aumentado su influencia en Perú, convirtiéndose en su principal socio comercial y el mayor inversor, controlando activos clave como el puerto de Chancay y la mina Las Bambas. Esto ha alarmado al gobierno de Trump, que busca revertir esta tendencia.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn4gw9q23qvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f35/live/02def8d0-1412-11f1-9e84-9b3edb4ade62.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "\"El Tuli\", la mano derecha de \"El Mencho\" que organizó los disturbios tras la muerte del jefe del Cartel Jalisco Nueva Generación y también fue abatido",
+      "summary280": "Hugo César Macías Ureña, alias \"El Tuli\", mano derecha de \"El Mencho\", organizó disturbios tras la muerte del líder del CJNG, ofreciendo recompensas por militares abatidos. Fue abatido en enfrentamientos con fuerzas de seguridad, junto a otros criminales, tras coordinar ataques y",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c0j59vxyd99o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/ced9/live/e256ed60-11b0-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer"
+    },
+    {
       "titleOriginal": "Cómo el Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México y qué puede ocurrir ahora sin \"El Mencho\"",
-      "summary280": "El Cartel Jalisco Nueva Generación, tras la muerte de su líder \"El Mencho\", enfrenta un periodo de reacomodo que podría desencadenar una ola de violencia. Este cartel, que ha desplazado a otros grupos en el narcotráfico, controla vastos mercados de drogas y extorsión en México.",
+      "summary280": "El Cartel Jalisco Nueva Generación, tras la muerte de su líder \"El Mencho\", enfrenta un periodo de reacomodo que podría desencadenar una ola de violencia. Este cartel, que ha desplazado al de Sinaloa, controla vastos mercados de drogas y extorsión en México y América.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cj0dyjrrp0yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faa7/live/03a7aba0-10d3-11f1-97cc-8b3c62c7814d.jpg",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "La trampa de la carga cognitiva: por qué estudiar más horas no siempre te ayuda a aprender más",
-      "summary280": "El artículo de Noelia Valle destaca que estudiar más horas no siempre mejora el aprendizaje, ya que la efectividad depende de cómo se utiliza la memoria de trabajo y se gestiona la carga cognitiva. La integración de la información es clave, no solo la acumulación.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c0435y9qexvo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d19f/live/0d602910-0d95-11f1-b5e2-dd58fc65f0f6.jpg",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Por qué el cielo que vemos desde la Tierra no siempre ha sido azul",
-      "summary280": "El color azul del cielo terrestre, resultado de la dispersión de Rayleigh, ha cambiado a lo largo de la historia del planeta. Se cree que en el pasado, la atmósfera contenía diferentes gases que alteraban su color, y podría volver a cambiar en el futuro, según los científicos.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cd6zjwzzvwvo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d50d/live/72e39930-0c0e-11f1-b7e1-afb6d0884c18.jpg",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Cómo un simple ladrillo de una casa ayudó a salvar a una niña tras años de abusos",
-      "summary280": "Un ladrillo visible en las imágenes de una niña abusada, apodada Lucy, fue clave para su identificación. Investigadores, tras analizar detalles de su entorno, lograron rastrear el tipo específico de ladrillo, lo que les permitió acotar la búsqueda y avanzar en el caso.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cpqw21xqj51o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5ef8/live/d681e5e0-0827-11f1-b5e2-dd58fc65f0f6.png",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Las fotos que muestran cómo quedó la corona del siglo XIX que se les cayó a los ladrones del museo del Louvre",
-      "summary280": "La corona de la emperatriz Eugenia, robada en un asalto al Louvre, quedó gravemente deformada tras caer de las manos de los ladrones. Aunque le falta una águila y algunos diamantes, el museo asegura que puede ser restaurada a su estado original. La investigación sigue en curso.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cq5y52zn82wo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0744/live/822c7830-02b3-11f1-83b0-21555a6f44a1.jpg",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Metsola apunta a la muerte de Jamenei como el fin de las dictaduras en Irán: \"Debe ser hora de la libertad\"",
-      "summary280": "Roberta Metsola sugiere que la muerte de Alí Jamenei podría marcar un cambio histórico en Irán, abriendo la posibilidad de libertad tras décadas de represión. Destaca el sufrimiento de las víctimas del régimen y llama a la población iraní a dejar atrás la opresión.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/01/metsola-apunta-a-la-muerte-de-jamenei-como-el-fin-de-las-dictaduras-en-iran-debe-ser-hora-de-la-libertad/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/XQ7MHZLE7ZFFFGNMV6VTN6AJUU.jpg?auth=fc4b45d65da5d712603eba76b27b4369340284007b0a9573b740c602ab9b0352&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Qué hay detrás de la amenaza de muerte de García Troche, la ex pareja de Marset: alertan por su salud mental “crítica”",
-      "summary280": "Gianina García Troche, ex pareja del narcotraficante Sebastián Marset, enfrenta un estado de salud mental \"crítico\" en prisión, donde ha expresado temores por su vida y ha amenazado al personal de seguridad. Su situación ha generado preocupaciones sobre su integridad y derechos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/america-latina/2026/03/01/que-hay-detras-de-la-amenaza-de-muerte-de-garcia-troche-la-ex-pareja-de-marset-alertan-por-su-salud-mental-critica/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/APTBQ2GHVZEQVAIJVY6N5XF6WI.jpg?auth=bc33937206aa64c3587ead3371ae83d1eb48e0115c48cb35fc5a185dfe3ba579&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Cuáles son los beneficios de sumar morrones a la alimentación diaria, según expertos",
-      "summary280": "Los morrones, o pimientos, ofrecen múltiples beneficios nutricionales, como vitaminas, antioxidantes y fibra, con bajo aporte calórico. Su consumo regular se asocia con la prevención de enfermedades, protección de la memoria y mejora de la digestión, según la Cleveland Clinic.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/salud/2026/03/01/cuales-son-los-beneficios-de-sumar-morrones-a-la-alimentacion-diaria-segun-expertos/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/BGNSGNFUKJFHZAXH4CZ4S7GRPQ.jpg?auth=b5fec00eaec6d6106fbfa32d8cd6d7dddc662638a403ff3cf84f0b922206f32f&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "¿Cuál es la temperatura promedio en Córdoba?",
-      "summary280": "La temperatura promedio en Córdoba no se especifica en el artículo, pero se menciona que el 1 de marzo alcanzará los 34 grados como máxima y 19 grados como mínima. Además, se describe el clima como templado moderado, con características de las cuatro estaciones y veranos húmedos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/noticias/2026/03/01/cual-es-la-temperatura-promedio-en-cordoba/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/VJROVBKJ5VDGJPYS537OFN5TZ4.png?auth=2900af841a65d43a39fc1a5455a9ac0c8da8fdb0b60b5ea07947fc679e0f1e78&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Justin Bieber cumple años: el impacto en la moda y cómo sus looks rompen esquemas",
-      "summary280": "Justin Bieber, al cumplir 32 años, continúa impactando la moda con su estilo ecléctico y experimental. Su capacidad para transformar prendas cotidianas en tendencias globales resalta su influencia en millones de seguidores, consolidando una identidad visual única y contemporánea.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/tendencias/2026/03/01/justin-bieber-cumple-anos-el-impacto-en-la-moda-y-sus-looks-que-rompen-esquemas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HNKIG7ZVNRBETL4FDRMDXUPJIQ.jpg?auth=9804a5ed9ac03040818fdd9cca1d6d5125a88dcf4fb4d94d3791d3e203c89602&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "EN VIVO: Baréin calificó los ataques iraníes de “cobardes” y confirmó que países del Golfo se defenderán",
-      "summary280": "Baréin calificó los ataques iraníes de \"cobardes\" y afirmó que los países del Golfo se preparan para defenderse. Esto ocurre en el contexto de un conflicto creciente tras el ataque de EE. UU. e Israel que resultó en la muerte del líder supremo iraní, Ali Khamenei.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/mundo/2026/02/28/israel-declaro-el-el-estado-de-emergencia-tras-el-ataque-al-regimen-de-iran/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/UIZZPRZFZ5F2BP2USNQH2M7E74.JPG?auth=c0337737545e1929a6b8779b06e852fcbef48b1e84e960ebb822a7c940ae78e8&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Cuáles son los municipios con las tasas más altas del país",
-      "summary280": "El Gobierno nacional lanzó un sitio web de transparencia tributaria municipal, revelando que los municipios con las tasas más altas, del 4,5%, son ocho de Neuquén y uno de Río Negro. Esto busca presionar a los municipios a reducir impuestos en un contexto de caída de recursos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/politica/2026/03/01/cuales-son-los-municipios-con-las-tasas-mas-altas-del-pais/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/XTOSIQLPJNA2RF5HVIL555T6DI.jpg?auth=ee17aa724368c5d4388268a39ec0ffef2f9ed375e2896cc52006c868d350aaf0&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Las locuras del Chacho Coudet en River: de la broma que dejó “ciego” a un compañero a los chistes a Saviola y Aimar",
-      "summary280": "Eduardo Coudet, exjugador de River, es recordado por sus anécdotas y humor en el vestuario, desde teñirse de rubio hasta bromear con compañeros como Saviola y Aimar. A diez años de su declaración sobre dirigir el club, está cerca de asumir el cargo tras la salida de Gallardo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/01/las-locuras-del-chacho-coudet-en-river-de-la-broma-que-dejo-ciego-a-un-companero-a-los-chistes-a-saviola-y-aimar/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HBWBE73ZJNBCFNNJ63LZMHWGRQ.jpg?auth=3c451da402f627785854d42a2e6e6f0498c53bdd5f0e37f2345d37a314679714&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Martín Savi, el tenor argentino que se encamina a hacer historia en España y se despide con dos shows Buenos Aires",
-      "summary280": "Martín Savi, tenor argentino de 21 años, se prepara para hacer historia al ser el primer argentino en participar en \"Tu cara me suena\" en España. Antes de su partida, ofrecerá dos conciertos de despedida en Buenos Aires, donde presentará su espectáculo \"Una voz universal\".",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/01/martin-savi-el-tenor-argentino-que-se-encamina-a-hacer-historia-en-espana-y-se-despide-con-dos-shows-buenos-aires/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/FJOCC6S3DZA6FGM73HJKBVZ5O4.jpg?auth=3f798025db6aea38de1003b7582e1788a018dc3f25499a333c713ee765d6cc06&smart=true&width=1200&height=630&quality=85",
       "type": "explainer"
     }
   ]
