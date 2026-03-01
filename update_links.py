@@ -7,21 +7,53 @@ print("===== INICIO UPDATE_LINKS.PY =====")
 MAX_LINKS = 30
 
 RSS_SOURCES = [
+    # Nacional
     "https://www.eltiempo.com/rss",
-    "https://www.elheraldo.co/rss.xml"
-]
+    "https://www.elheraldo.co/rss.xml",
 
-def is_question_title(title):
-    title = title.strip()
-    return "¿" in title or title.endswith("?")
+    # Internacional en español
+    "https://feeds.bbci.co.uk/mundo/rss.xml",
+    "https://cnnespanol.cnn.com/feed/",
+    "https://www.infobae.com/arc/outboundfeeds/rss/",
+    "https://www.dw.com/es/rss.xml"
+]
 
 def clean_text(text):
     return re.sub(r'\s+', ' ', text).strip()
+
+def is_clickbait_title(title):
+    lower = title.lower()
+
+    clickbait_patterns = [
+        "esta es",
+        "este es",
+        "esto es",
+        "lo que",
+        "lo que debe",
+        "el dato",
+        "la razón",
+        "el motivo",
+        "así es",
+        "atención",
+        "por qué",
+        "qué pasó",
+        "que pasó",
+        "cómo",
+        "como ",
+        "qué es",
+        "cuáles son",
+        "cuales son",
+        "qué se sabe",
+        "que se sabe"
+    ]
+
+    return any(p in lower for p in clickbait_patterns)
 
 def extract_links_from_rss(url):
     try:
         print(f"🔎 Revisando RSS: {url}")
         response = requests.get(url, timeout=15)
+
         if response.status_code != 200:
             print("❌ Error RSS:", url)
             return []
@@ -41,15 +73,16 @@ def extract_links_from_rss(url):
             title = clean_text(title_tag.text)
             link = clean_text(link_tag.text)
 
-            if not is_question_title(title):
+            if not is_clickbait_title(title):
                 continue
 
+            print("🟢 Clickbait detectado:", title)
             links.append(link)
 
         return links
 
     except Exception as e:
-        print("Error procesando RSS:", e)
+        print("⚠ Error procesando RSS:", url, e)
         return []
 
 def main():
@@ -63,7 +96,6 @@ def main():
     # Eliminar duplicados manteniendo orden
     unique_links = list(dict.fromkeys(all_links))
 
-    # Limitar cantidad
     final_links = unique_links[:MAX_LINKS]
 
     with open("links.txt", "w", encoding="utf-8") as f:
