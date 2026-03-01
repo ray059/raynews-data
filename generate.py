@@ -7,6 +7,7 @@ import os
 import unicodedata
 from openai import OpenAI
 from readability import Document
+from zoneinfo import ZoneInfo
 
 print("===== INICIO GENERATE.PY =====")
 
@@ -189,7 +190,6 @@ def extract_article_data(url, existing_titles):
 
         response.encoding = response.apparent_encoding
 
-        # META TAGS desde HTML original
         original_soup = BeautifulSoup(response.text, "html.parser")
 
         title_tag = original_soup.find("meta", property="og:title")
@@ -201,7 +201,6 @@ def extract_article_data(url, existing_titles):
 
         title = clean_text(title_tag["content"].split("|")[0])
 
-        # Anti-duplicado por título
         if is_similar_title(title, existing_titles):
             print("⚠ Título similar descartado")
             return None
@@ -209,7 +208,6 @@ def extract_article_data(url, existing_titles):
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
-        # Readability para el cuerpo
         try:
             doc = Document(response.text)
             content_html = doc.summary()
@@ -284,10 +282,13 @@ def main():
         if len(headlines) >= MAX_NEWS:
             break
 
+    # 🔥 ZONA HORARIA COLOMBIA
+    now = datetime.now(ZoneInfo("America/Bogota"))
+
     edition = {
-        "edition_date": datetime.now().strftime("%d %b %Y"),
+        "edition_date": now.strftime("%d %b %Y"),
         "edition_number": get_next_edition_number(),
-        "generated_at": datetime.now().isoformat(),
+        "generated_at": now.isoformat(),
         "country": "Internacional",
         "headlines": headlines
     }
