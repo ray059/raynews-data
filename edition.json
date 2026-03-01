@@ -1,7 +1,57 @@
 {
   "edition_date": "01 Mar 2026",
-  "edition_number": 62,
-  "generated_at": "2026-03-01T00:08:29.985437",
+  "edition_number": 63,
+  "generated_at": "2026-03-01T00:15:10.313575",
   "country": "Internacional",
-  "headlines": []
+  "headlines": [
+    {
+      "titleOriginal": "Esta es la lista de personas que deben vacunarse tras detección de casos importados de sarampión en Colombia: lo que debe saber",
+      "summary280": "Colombia confirmó el 27 de febrero tres casos importados de sarampión, los primeros en diez años, relacionados con viajeros recientes. El ministro de Salud, Guillermo Jaramillo, instó a la vacunación gratuita disponible en más de 3.000 puntos. No hay casos autóctonos en el país.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/salud/esta-es-la-lista-de-personas-que-deben-vacunarse-tras-deteccion-de-casos-importados-de-sarampion-en-colombia-lo-que-debe-saber-3536228",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/28/67c1cec979796.r_d.1046-605-0.jpeg"
+    },
+    {
+      "titleOriginal": "Gobierno confirma los primeros tres casos de sarampión en el país en los últimos diez años",
+      "summary280": "Las autoridades sanitarias de Colombia confirmaron tres casos importados de sarampión, los primeros en diez años, en personas que viajaron al exterior. El ministro de Salud, Guillermo Jaramillo, recomendó una dosis de refuerzo de la vacuna a quienes viajen a países como México,.",
+      "sourceName": "ELHERALDO.CO",
+      "sourceUrl": "https://www.elheraldo.co/colombia/2026/02/28/gobierno-confirma-los-primeros-tres-casos-de-sarampion-en-el-pais-en-los-ultimos-diez-anos/",
+      "imageUrl": "https://www.elheraldo.co/resizer/v2/NGCGRUZ7P5G67D6QEJGAZQ6S6Q.jpg?smart=true&auth=a2c8b05459486a25d3e6be183b742b87dbfe0d92563abd6b66b33ea56aac7111&width=1200&height=675"
+    },
+    {
+      "titleOriginal": "¿Dudas sobre el nuevo decreto de Ministerio de Salud? El abecé para entender por qué podrían trasladarlo de EPS sin su autorización",
+      "summary280": "El Gobierno Nacional expidió el Decreto 0182 del 25 de febrero de 2026, que modifica la operación de las EPS en Colombia y redistribuye 6,5 millones de afiliados. Las EPS que pierdan autorización deberán trasladar automáticamente a sus afiliados a otras entidades habilitadas en.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/salud/dudas-sobre-el-nuevo-decreto-de-ministerio-de-salud-el-abece-para-entender-por-que-podrian-trasladarlo-de-eps-sin-su-autorizacion-3536062",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1a5d06b02c.r_d.1176-155-0.png"
+    },
+    {
+      "titleOriginal": "Sistema Andino de Integración hace llamado urgente de diálogo entre los presidentes Gustavo Petro y Daniel Noboa tras escalada de guerra arancelaria",
+      "summary280": "Ecuador aumentará los aranceles del 30% al 50% para productos colombianos a partir del 1 de marzo, lo que ha generado preocupación en varios sectores. El Sistema Andino de Integración hizo un llamado urgente al diálogo entre ambos países para encontrar un entendimiento negociado.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/mundo/latinoamerica/sistema-andino-hace-llamado-urgente-de-dialogo-entre-el-presidente-gustavo-petro-y-su-homologo-daniel-noboa-tras-escalada-de-guerra-arancelaria-3535998",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/04/16/661e602360301.r_d.970-264-0.png"
+    },
+    {
+      "titleOriginal": "Gobierno anuncia Ley Seca y cierre de fronteras en Colombia por elecciones del 8 de marzo: medidas empezarán a regir el sábado 7",
+      "summary280": "El ministro del Interior, Armando Benedetti, anunció medidas para las elecciones del 8 de marzo, incluyendo Ley Seca desde el 7 de marzo y posible cierre de fronteras a las 12:00 p.m. Se restringirán reuniones políticas y se establecerán enlaces en los 32 departamentos para.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/politica/elecciones-colombia-2026/gobierno-anuncia-ley-seca-y-cierre-de-fronteras-en-colombia-por-elecciones-del-8-de-marzo-medidas-empezaran-a-regir-el-sabado-3536028",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1bbb815d89.r_d.926-271-0.png"
+    },
+    {
+      "titleOriginal": "El 'vainazo' de la ONU a Colombia para que publique 'sin demora' el informe de cultivos ilícitos de 2024",
+      "summary280": "La Junta Internacional de Fiscalización de Estupefacientes (Jife) instó al Gobierno colombiano a publicar sin demora el informe del Sistema de Monitoreo de Cultivos Ilícitos (Simci) de 2024, que muestra un aumento del 3% en hectáreas de coca. La producción de clorhidrato de.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/el-vainazo-de-la-onu-a-colombia-para-que-publique-sin-demora-el-informe-de-cultivos-ilicitos-de-3536023",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/10/25/68fd2cafe5fdc.r_d.2051-1016-0.jpeg"
+    },
+    {
+      "titleOriginal": "Reportan crecimiento del sector asegurador en Colombia: salud y seguridad social los que tuvieron mejores cifras",
+      "summary280": "En 2025, los colombianos mostraron mayor concientización sobre riesgos que afectan su vida y patrimonio, según Fasecolda. Las aseguradoras atendieron reclamaciones por $27,6 billones, un 8% más que en 2024. El sector representó el 3,29% del PIB, con un consumo per cápita de.",
+      "sourceName": "ELHERALDO.CO",
+      "sourceUrl": "https://www.elheraldo.co/economia/2026/02/27/reportan-crecimiento-del-sector-asegurador-en-colombia-salud-y-seguridad-social-los-que-tuvieron-mejores-cifras/",
+      "imageUrl": "https://www.elheraldo.co/resizer/v2/UP6P7GNMF5B4BMW2Z62ZZAF4NQ.jpeg?smart=true&auth=42cbec262c5a61126773e0bf6b4692398d5652c247aa20077b1d76b0cc4e4869&width=1200&height=675"
+    }
+  ]
 }
