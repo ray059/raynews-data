@@ -1,8 +1,16 @@
 {
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T14:42:21.011451-05:00",
+  "generated_at": "2026-03-01T15:22:57.230718-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Trump dice que la ofensiva en Irán va \"por delante de lo previsto\" mientras Teherán contraataca",
+      "summary280": "Trump afirma que la ofensiva en Irán avanza más rápido de lo esperado, mientras Teherán responde con contraataques y anuncia nuevos líderes tras la muerte del ayatolá Jamenei. Las fuerzas israelíes reportan ataques exitosos contra instalaciones iraníes y buques.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/69e0/live/904d9a30-155e-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer"
+    },
     {
       "titleOriginal": "¿Por qué EE.UU. e Israel atacaron a Irán en este momento (y cómo podría acabar este conflicto)?",
       "summary280": "EE.UU. e Israel atacaron a Irán para buscar un cambio de régimen tras la muerte del líder supremo Alí Jamenei. La campaña militar, sin precedentes, ha desatado represalias iraníes y ha complicado las negociaciones de paz, llevando a Irán a un estado de supervivencia.",
@@ -153,14 +161,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c0j59vxyd99o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/ced9/live/e256ed60-11b0-11f1-801d-ed3cff6bf876.jpg",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Cómo el Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México y qué puede ocurrir ahora sin \"El Mencho\"",
-      "summary280": "El Cartel Jalisco Nueva Generación, tras la muerte de su líder \"El Mencho\", enfrenta un periodo de reacomodo que podría desencadenar una ola de violencia. Este cartel, que ha desplazado al de Sinaloa, controla vastos mercados de drogas y extorsión en México y América.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0dyjrrp0yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faa7/live/03a7aba0-10d3-11f1-97cc-8b3c62c7814d.jpg",
       "type": "explainer"
     }
   ]
