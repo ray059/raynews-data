@@ -2,7 +2,6 @@ import requests
 import re
 from bs4 import BeautifulSoup
 from collections import defaultdict
-from urllib.parse import urlparse
 
 print("===== INICIO UPDATE_LINKS.PY =====")
 
@@ -32,13 +31,15 @@ for source_name, rss_url in RSS_SOURCES.items():
     try:
         print(f"Revisando {source_name}")
         response = requests.get(rss_url, timeout=10)
-        soup = BeautifulSoup(response.content, "xml")
+        response.raise_for_status()
 
+        soup = BeautifulSoup(response.content, "xml")
         items = soup.find_all("item")
 
         for item in items:
             title = item.title.text if item.title else ""
             link = item.link.text if item.link else ""
+
             title = clean_text(title)
 
             if not title or not link:
