@@ -12,8 +12,10 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 TARGET_NEWS = 12
 
+
 def clean_text(text):
     return " ".join(text.split())
+
 
 def extract_article(url):
     try:
@@ -29,24 +31,47 @@ def extract_article(url):
     except:
         return None
 
-def get_title(url):
+
+def extract_title(url):
     try:
         response = requests.get(url, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
-        title = soup.find("title")
-        if title:
-            return clean_text(title.text)
+
+        og_title = soup.find("meta", property="og:title")
+        if og_title and og_title.get("content"):
+            return clean_text(og_title["content"])
+
+        title_tag = soup.find("title")
+        if title_tag:
+            return clean_text(title_tag.text)
+
         return ""
     except:
         return ""
 
+
+def extract_image(url):
+    try:
+        response = requests.get(url, timeout=15)
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        og_image = soup.find("meta", property="og:image")
+        if og_image and og_image.get("content"):
+            return og_image["content"]
+
+        return None
+    except:
+        return None
+
+
 def generate_answer(title, content):
 
     prompt = f"""
-Responde directamente la pregunta del titular con claridad y precisión.
-No resumas la noticia.
-No expliques el contexto.
-Responde como si aclararas la duda del lector.
+Responde directamente la pregunta del titular con claridad absoluta.
+No resumas.
+No agregues contexto innecesario.
+No repitas el titular.
+Responde como si aclararas la duda del lector en una sola respuesta directa.
 
 Titular:
 {title}
@@ -61,7 +86,7 @@ Respuesta máxima 280 caracteres.
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "Eres un periodista que responde preguntas con claridad absoluta."},
+                {"role": "system", "content": "Eres un periodista que responde preguntas de forma clara, directa y precisa."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.2,
@@ -73,6 +98,7 @@ Respuesta máxima 280 caracteres.
     except Exception as e:
         print("❌ Error OpenAI:", e)
         return None
+
 
 def load_links():
     if not os.path.exists("links.txt"):
@@ -86,6 +112,7 @@ def load_links():
 
     return content.split(";")
 
+
 def main():
 
     links = load_links()
@@ -98,7 +125,7 @@ def main():
 
         print("🔎 Procesando:", url)
 
-        title = get_title(url)
+        title = extract_title(url)
         content = extract_article(url)
 
         if not title or not content:
@@ -109,10 +136,13 @@ def main():
         if not answer:
             continue
 
+        image_url = extract_image(url)
+
         headlines.append({
             "titleOriginal": title,
             "summary280": answer,
             "sourceUrl": url,
+            "imageUrl": image_url,
             "type": "question"
         })
 
@@ -128,6 +158,7 @@ def main():
 
     print(f"✅ Noticias generadas: {len(headlines)}")
     print("===== FIN GENERATE.PY =====")
+
 
 if __name__ == "__main__":
     main()
