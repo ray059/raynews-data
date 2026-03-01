@@ -5,29 +5,40 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import re
+import hashlib
 
 print("===== INICIO GENERATE.PY =====")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+HIST_FILE = "historical_editions.json"
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
+def make_id(url: str) -> str:
+    return hashlib.sha256(url.encode()).hexdigest()
+
 # -------------------------------------------------
-# EXTRAER TEXTO REAL
+# CARGAR HISTÓRICO
+# -------------------------------------------------
+if os.path.exists(HIST_FILE):
+    with open(HIST_FILE, "r", encoding="utf-8") as f:
+        historical = json.load(f)
+else:
+    historical = {"news": {}}
+
+# -------------------------------------------------
+# EXTRAER TEXTO
 # -------------------------------------------------
 def extract_article_text(url):
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
-
         paragraphs = soup.find_all("p")
         text = " ".join([p.get_text() for p in paragraphs])
-
         return clean_text(text)
-    except Exception as e:
-        print("Error extrayendo artículo:", e)
+    except:
         return ""
 
 # -------------------------------------------------
@@ -37,17 +48,15 @@ def extract_image(url):
     try:
         r = requests.get(url, timeout=10)
         soup = BeautifulSoup(r.text, "html.parser")
-
         og_image = soup.find("meta", property="og:image")
         if og_image and og_image.get("content"):
             return og_image["content"]
     except:
         pass
-
     return None
 
 # -------------------------------------------------
-# GENERAR RESUMEN PRUDENTE
+# GENERAR RESUMEN IA
 # -------------------------------------------------
 def generate_summary(title, article_text):
     if not OPENAI_API_KEY:
@@ -58,14 +67,8 @@ def generate_summary(title, article_text):
 
     prompt = f"""
 Responde claramente el titular en máximo 280 caracteres.
-
-Reglas:
-- Basate únicamente en el texto proporcionado.
-- No inventes información.
-- Mantén tono analítico y prudente.
-- Si el texto menciona hipótesis o versiones, indícalo.
-- No confirmes muertes salvo confirmación explícita.
-- No incluyas listas de números tipo lotería.
+Basate únicamente en el texto proporcionado.
+No inventes información.
 
 Titular: {title}
 
@@ -79,64 +82,9 @@ Artículo:
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
         )
-
-        summary = response["choices"][0]["message"]["content"]
-        return clean_text(summary)
-
-    except Exception as e:
-        print("Error OpenAI:", e)
+        return clean_text(response["choices"][0]["message"]["content"])
+    except:
         return None
-
-# -------------------------------------------------
-# VALIDACIÓN
-# -------------------------------------------------
-def validate_summary(summary):
-    if not summary:
-        return False
-
-    if len(summary) < 80 or len(summary) > 280:
-        return False
-
-    if not summary.endswith((".", "!", "?")):
-        return False
-
-    forbidden = [
-        "no puedo acceder",
-        "como modelo de lenguaje",
-        "no tengo información",
-        "url proporcionada"
-    ]
-
-    lower = summary.lower()
-    for f in forbidden:
-        if f in lower:
-            return False
-
-    return True
-
-# -------------------------------------------------
-# FILTRO RIESGO
-# -------------------------------------------------
-def contains_risky_content(summary):
-    lower = summary.lower()
-
-    if re.search(r"\b\d{1,2},\s?\d{1,2},\s?\d{1,2}", lower):
-        return True
-
-    risky_words = [
-        "confirmó",
-        "confirmado",
-        "ha confirmado",
-        "murió",
-        "muerte confirmada",
-        "fallecimiento confirmado"
-    ]
-
-    for word in risky_words:
-        if word in lower:
-            return True
-
-    return False
 
 # -------------------------------------------------
 # MAIN
@@ -150,31 +98,44 @@ if not os.path.exists("links.txt"):
 with open("links.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
+now = datetime.now(ZoneInfo("America/Bogota"))
+
 for line in lines:
     parts = line.strip().split("||")
     if len(parts) != 3:
         continue
 
     title, url, source_name = parts
+    news_id = make_id(url)
+
     print("Procesando:", title)
 
-    article_text = extract_article_text(url)
+    if news_id in historical["news"]:
+        print("♻ Reutilizando resumen existente")
+        stored = historical["news"][news_id]
+        summary = stored["summary280"]
+        image = stored.get("imageUrl")
+        historical["news"][news_id]["last_used"] = now.isoformat()
+    else:
+        article_text = extract_article_text(url)
+        if len(article_text) < 400:
+            continue
 
-    if len(article_text) < 400:
-        continue
-
-    summary = generate_summary(title, article_text)
-
-    if not validate_summary(summary):
         summary = generate_summary(title, article_text)
+        if not summary:
+            continue
 
-    if contains_risky_content(summary):
-        summary = generate_summary(title, article_text)
+        image = extract_image(url)
 
-    if not validate_summary(summary) or contains_risky_content(summary):
-        continue
-
-    image = extract_image(url)
+        historical["news"][news_id] = {
+            "titleOriginal": title,
+            "summary280": summary[:280],
+            "sourceName": source_name,
+            "sourceUrl": url,
+            "imageUrl": image,
+            "first_seen": now.isoformat(),
+            "last_used": now.isoformat()
+        }
 
     headlines.append({
         "titleOriginal": title,
@@ -188,8 +149,6 @@ for line in lines:
     if len(headlines) >= 20:
         break
 
-now = datetime.now(ZoneInfo("America/Bogota"))
-
 edition = {
     "edition_date": now.strftime("%d %b %Y"),
     "generated_at": now.isoformat(),
@@ -199,6 +158,9 @@ edition = {
 
 with open("edition.json", "w", encoding="utf-8") as f:
     json.dump(edition, f, indent=2, ensure_ascii=False)
+
+with open(HIST_FILE, "w", encoding="utf-8") as f:
+    json.dump(historical, f, indent=2, ensure_ascii=False)
 
 print("Noticias finales:", len(headlines))
 print("===== FIN GENERATE.PY =====")
