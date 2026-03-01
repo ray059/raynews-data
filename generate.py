@@ -1,261 +1,132 @@
+import os
+import json
 import requests
 from bs4 import BeautifulSoup
-import json
 from datetime import datetime
-import re
-import os
-import unicodedata
-from openai import OpenAI
 from readability import Document
-from zoneinfo import ZoneInfo
+from openai import OpenAI
 
 print("===== INICIO GENERATE.PY =====")
 
-API_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-if not API_KEY:
-    print("❌ OPENAI_API_KEY no encontrada")
-    client = None
-else:
-    print("✅ OPENAI_API_KEY detectada")
-    client = OpenAI(api_key=API_KEY)
-
-MAX_NEWS = 7
-MAX_SUMMARY_LENGTH = 280
-
-BLOCKED_DOMAINS = ["nytimes.com"]
-BLOCKED_PATHS = [
-    "/opinion/",
-    "/columnas",
-    "/columnas-de-opinion",
-    "/blogs/",
-    "/editoriales/"
-]
-
-# =============================
-# HELPERS
-# =============================
+TARGET_NEWS = 12
 
 def clean_text(text):
-    return re.sub(r'\s+', ' ', text).strip()
+    return " ".join(text.split())
 
-def clean_noise(text):
-    patterns = [
-        r'Publicidad.*?',
-        r'Foto:.*?\.',
-        r'©.*?',
-        r'Suscríbete.*?',
-        r'Google News.*?\.',
-        r'WhatsApp.*?\.',
-        r'Descargue.*?\.',
-        r'Actualizado.*?\.'
-    ]
-    for pattern in patterns:
-        text = re.sub(pattern, '', text, flags=re.IGNORECASE)
-    return clean_text(text)
+def extract_article(url):
+    try:
+        response = requests.get(url, timeout=20)
+        doc = Document(response.text)
+        html = doc.summary()
+        soup = BeautifulSoup(html, "html.parser")
 
-def normalize_text(text):
-    text = text.lower()
-    text = unicodedata.normalize("NFD", text)
-    text = text.encode("ascii", "ignore").decode("utf-8")
-    return text
+        paragraphs = soup.find_all("p")
+        text = " ".join([p.get_text() for p in paragraphs])
 
-def get_next_edition_number():
-    if os.path.exists("edition.json"):
-        try:
-            with open("edition.json", "r", encoding="utf-8") as f:
-                data = json.load(f)
-                return data.get("edition_number", 0) + 1
-        except:
-            return 1
-    return 1
-
-def title_is_question(title):
-    title = title.strip()
-    return "¿" in title or title.endswith("?")
-
-# =============================
-# IA — RESPUESTA DIRECTA
-# =============================
-
-def generate_answer_to_question(text, title):
-
-    if not client:
+        return clean_text(text)
+    except:
         return None
 
-    text = text[:2500]
+def get_title(url):
+    try:
+        response = requests.get(url, timeout=15)
+        soup = BeautifulSoup(response.text, "html.parser")
+        title = soup.find("title")
+        if title:
+            return clean_text(title.text)
+        return ""
+    except:
+        return ""
+
+def generate_answer(title, content):
 
     prompt = f"""
-El siguiente titular es una pregunta.
-
-Responde claramente la pregunta en máximo {MAX_SUMMARY_LENGTH} caracteres.
-
-Reglas:
-- Respuesta directa.
-- No repitas la pregunta.
-- No agregues contexto innecesario.
-- Solo usa información explícita del texto.
-- Tono periodístico neutral.
-- Termina en punto.
+Responde directamente la pregunta del titular con claridad y precisión.
+No resumas la noticia.
+No expliques el contexto.
+Responde como si aclararas la duda del lector.
 
 Titular:
 {title}
 
-Noticia:
-{text}
+Contenido:
+{content[:4000]}
+
+Respuesta máxima 280 caracteres.
 """
 
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
-            max_tokens=220
+            messages=[
+                {"role": "system", "content": "Eres un periodista que responde preguntas con claridad absoluta."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.2,
         )
 
-        answer = clean_text(response.choices[0].message.content)
-
-        # Recorte seguro
-        if len(answer) > MAX_SUMMARY_LENGTH:
-            trimmed = answer[:MAX_SUMMARY_LENGTH]
-            last_period = trimmed.rfind(".")
-            if last_period != -1:
-                answer = trimmed[:last_period + 1]
-            else:
-                answer = trimmed.rsplit(" ", 1)[0] + "."
-
-        if not answer.endswith("."):
-            answer = answer.rstrip(" ,;:") + "."
-
-        return answer
+        answer = response.choices[0].message.content.strip()
+        return answer[:280]
 
     except Exception as e:
-        print("Error IA:", e)
+        print("❌ Error OpenAI:", e)
         return None
 
-# =============================
-# SCRAPING
-# =============================
+def load_links():
+    if not os.path.exists("links.txt"):
+        return []
 
-def extract_article_data(url):
+    with open("links.txt", "r", encoding="utf-8") as f:
+        content = f.read().strip()
 
-    try:
-        print("🔎 Procesando:", url)
+    if not content:
+        return []
 
-        if any(path in url.lower() for path in BLOCKED_PATHS):
-            return None
-
-        for domain in BLOCKED_DOMAINS:
-            if domain in url:
-                return None
-
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers, timeout=20)
-
-        if response.status_code != 200:
-            return None
-
-        response.encoding = response.apparent_encoding
-        original_soup = BeautifulSoup(response.text, "html.parser")
-
-        title_tag = original_soup.find("meta", property="og:title")
-        image_tag = original_soup.find("meta", property="og:image")
-        source_tag = original_soup.find("meta", property="og:site_name")
-
-        if not title_tag:
-            return None
-
-        title = clean_text(title_tag["content"].split("|")[0])
-
-        # 🔥 SOLO PREGUNTAS
-        if not title_is_question(title):
-            print("⛔ No es pregunta, descartado")
-            return None
-
-        image = image_tag["content"] if image_tag else ""
-        source = source_tag["content"] if source_tag else "Fuente"
-
-        try:
-            doc = Document(response.text)
-            content_html = doc.summary()
-            soup = BeautifulSoup(content_html, "html.parser")
-        except:
-            soup = original_soup
-
-        paragraphs = soup.find_all(["p", "li"])
-        clean_paragraphs = []
-
-        for p in paragraphs:
-            text_p = clean_text(p.get_text())
-            if len(text_p) < 50:
-                continue
-            clean_paragraphs.append(text_p)
-
-        article_text = clean_noise(" ".join(clean_paragraphs))
-
-        if len(article_text) < 200:
-            return None
-
-        print("🟢 Generando respuesta directa")
-        summary = generate_answer_to_question(article_text, title)
-
-        if not summary:
-            print("⚠ No se pudo generar respuesta clara")
-            return None
-
-        return {
-            "titleOriginal": title,
-            "summary280": summary,
-            "sourceName": source,
-            "sourceUrl": url,
-            "imageUrl": image,
-            "type": "question"
-        }
-
-    except Exception as e:
-        print("Error procesando:", url, e)
-        return None
-
-# =============================
-# MAIN
-# =============================
+    return content.split(";")
 
 def main():
 
-    if not os.path.exists("links.txt"):
-        print("No existe links.txt")
-        return
-
-    with open("links.txt", "r", encoding="utf-8") as f:
-        raw_links = f.read()
-
-    links = re.findall(r'https?://[^\s;]+', raw_links)
-
+    links = load_links()
     headlines = []
 
-    for link in links:
+    for url in links:
 
-        data = extract_article_data(link)
-
-        if data:
-            headlines.append(data)
-
-        if len(headlines) >= MAX_NEWS:
+        if len(headlines) >= TARGET_NEWS:
             break
 
-    now = datetime.now(ZoneInfo("America/Bogota"))
+        print("🔎 Procesando:", url)
+
+        title = get_title(url)
+        content = extract_article(url)
+
+        if not title or not content:
+            continue
+
+        answer = generate_answer(title, content)
+
+        if not answer:
+            continue
+
+        headlines.append({
+            "titleOriginal": title,
+            "summary280": answer,
+            "sourceUrl": url,
+            "type": "question"
+        })
 
     edition = {
-        "edition_date": now.strftime("%d %b %Y"),
-        "edition_number": get_next_edition_number(),
-        "generated_at": now.isoformat(),
+        "edition_date": datetime.now().strftime("%d %b %Y"),
+        "generated_at": datetime.now().isoformat(),
         "country": "Internacional",
         "headlines": headlines
     }
 
     with open("edition.json", "w", encoding="utf-8") as f:
-        json.dump(edition, f, indent=2, ensure_ascii=False)
+        json.dump(edition, f, ensure_ascii=False, indent=2)
 
+    print(f"✅ Noticias generadas: {len(headlines)}")
     print("===== FIN GENERATE.PY =====")
 
 if __name__ == "__main__":
