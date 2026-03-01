@@ -109,10 +109,10 @@ def detect_event_keyword(title):
     return None
 
 # =============================
-# RESUMEN IA
+# RESUMEN IA CON REGLA EDITORIAL
 # =============================
 
-def generate_summary_with_ai(text):
+def generate_summary_with_ai(text, title):
 
     if not client:
         return fallback_summary(text)
@@ -122,12 +122,18 @@ def generate_summary_with_ai(text):
     prompt = f"""
 Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
 
-Reglas:
-- Usa solo información explícita del texto.
+Reglas estrictas:
+- Usa únicamente información explícita del texto.
 - No inventes datos.
 - No agregues contexto externo.
+- El resumen debe responder directamente lo que promete el titular.
+- Si el titular menciona una lista, explica quiénes la conforman.
+- Si el titular plantea una pregunta, respóndela.
 - Tono periodístico neutral.
 - Debe terminar en punto.
+
+Titular:
+{title}
 
 Noticia:
 {text}
@@ -138,23 +144,23 @@ Noticia:
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
-            max_tokens=200
+            max_tokens=220
         )
 
         summary = response.choices[0].message.content.strip()
         summary = clean_text(summary)
 
-        if len(summary) <= MAX_SUMMARY_LENGTH and summary.endswith("."):
-            return summary
-
+        # Ajuste si supera límite
         if len(summary) > MAX_SUMMARY_LENGTH:
             summary = summary[:MAX_SUMMARY_LENGTH]
+            last_period = summary.rfind(".")
+            if last_period > 150:
+                summary = summary[:last_period + 1]
+            else:
+                summary = summary.rsplit(" ", 1)[0] + "."
 
-        last_period = summary.rfind(".")
-        if last_period > 150:
-            summary = summary[:last_period + 1]
-        else:
-            summary = summary.rsplit(" ", 1)[0] + "."
+        if not summary.endswith("."):
+            summary = summary.rstrip(" ,;:") + "."
 
         return summary
 
@@ -189,7 +195,6 @@ def extract_article_data(url, existing_titles):
             return None
 
         response.encoding = response.apparent_encoding
-
         original_soup = BeautifulSoup(response.text, "html.parser")
 
         title_tag = original_soup.find("meta", property="og:title")
@@ -208,6 +213,7 @@ def extract_article_data(url, existing_titles):
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
+        # 🔥 Readability (modo lectura)
         try:
             doc = Document(response.text)
             content_html = doc.summary()
@@ -230,7 +236,7 @@ def extract_article_data(url, existing_titles):
         if len(article_text) < 200:
             return None
 
-        summary = generate_summary_with_ai(article_text)
+        summary = generate_summary_with_ai(article_text, title)
 
         return {
             "titleOriginal": title,
@@ -282,7 +288,7 @@ def main():
         if len(headlines) >= MAX_NEWS:
             break
 
-    # 🔥 ZONA HORARIA COLOMBIA
+    # 🔥 Zona horaria Colombia
     now = datetime.now(ZoneInfo("America/Bogota"))
 
     edition = {
