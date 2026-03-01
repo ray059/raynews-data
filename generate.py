@@ -13,28 +13,26 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
-# -----------------------------
-# EXTRAER TEXTO REAL DEL ARTÍCULO
-# -----------------------------
+# -------------------------------------------------
+# EXTRAER TEXTO COMPLETO DEL ARTÍCULO
+# -------------------------------------------------
 def extract_article_text(url):
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
-
         soup = BeautifulSoup(r.text, "html.parser")
 
         paragraphs = soup.find_all("p")
         text = " ".join([p.get_text() for p in paragraphs])
 
         return clean_text(text)
-
     except Exception as e:
         print("Error extrayendo artículo:", e)
         return ""
 
-# -----------------------------
-# EXTRAER IMAGEN
-# -----------------------------
+# -------------------------------------------------
+# EXTRAER IMAGEN PRINCIPAL
+# -------------------------------------------------
 def extract_image(url):
     try:
         r = requests.get(url, timeout=10)
@@ -49,9 +47,9 @@ def extract_image(url):
 
     return None
 
-# -----------------------------
-# GENERAR RESUMEN BASADO EN CONTENIDO REAL
-# -----------------------------
+# -------------------------------------------------
+# GENERAR RESUMEN CON CONTEXTO REAL
+# -------------------------------------------------
 def generate_summary(title, article_text):
     if not OPENAI_API_KEY:
         return None
@@ -61,9 +59,13 @@ def generate_summary(title, article_text):
 
     prompt = f"""
 Responde claramente la pregunta del titular en máximo 280 caracteres.
-Basate únicamente en el texto proporcionado.
-No inventes información.
-No menciones que no puedes acceder a enlaces.
+
+Reglas obligatorias:
+- Basate únicamente en el texto proporcionado.
+- No inventes información.
+- Si el artículo menciona hipótesis, análisis o falta de confirmación, usa lenguaje prudente.
+- No afirmes como hecho algo que el texto no confirme explícitamente.
+- No menciones que no puedes acceder a enlaces.
 
 Titular: {title}
 
@@ -74,10 +76,8 @@ Artículo:
     try:
         response = openai.ChatCompletion.create(
             model="gpt-4o-mini",
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.3,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
         )
 
         summary = response["choices"][0]["message"]["content"]
@@ -87,9 +87,9 @@ Artículo:
         print("Error OpenAI:", e)
         return None
 
-# -----------------------------
-# VALIDADOR EDITORIAL
-# -----------------------------
+# -------------------------------------------------
+# VALIDACIÓN EDITORIAL
+# -------------------------------------------------
 def validate_summary(summary):
     if not summary:
         return False
@@ -114,9 +114,28 @@ def validate_summary(summary):
 
     return True
 
-# -----------------------------
+# -------------------------------------------------
+# DETECTAR AFIRMACIONES SENSIBLES
+# -------------------------------------------------
+def contains_strong_claim(summary):
+    sensitive_words = [
+        "murió",
+        "muerte confirmada",
+        "ataque confirmado",
+        "invasión total",
+        "guerra declarada"
+    ]
+
+    lower = summary.lower()
+    for w in sensitive_words:
+        if w in lower:
+            return True
+
+    return False
+
+# -------------------------------------------------
 # PROCESAMIENTO PRINCIPAL
-# -----------------------------
+# -------------------------------------------------
 headlines = []
 
 if not os.path.exists("links.txt"):
@@ -132,7 +151,6 @@ for line in lines:
         continue
 
     title, url, source_name = parts
-
     print("Procesando:", title)
 
     article_text = extract_article_text(url)
@@ -143,9 +161,12 @@ for line in lines:
 
     summary = generate_summary(title, article_text)
 
-    # Reintento si falla validación
     if not validate_summary(summary):
         print("Resumen inválido. Reintentando...")
+        summary = generate_summary(title, article_text)
+
+    if contains_strong_claim(summary):
+        print("Afirmación fuerte detectada. Regenerando con cautela...")
         summary = generate_summary(title, article_text)
 
     if not validate_summary(summary):
