@@ -7,12 +7,12 @@ print("===== INICIO UPDATE_LINKS.PY =====")
 
 TARGET_NEWS = 12
 
-RSS_SOURCES = [
-    "https://feeds.bbci.co.uk/mundo/rss.xml",
-    "https://cnnespanol.cnn.com/feed/",
-    "https://www.infobae.com/arc/outboundfeeds/rss/",
-    "https://www.dw.com/es/rss.xml"
-]
+RSS_SOURCES = {
+    "bbc": "https://feeds.bbci.co.uk/mundo/rss.xml",
+    "cnn": "https://cnnespanol.cnn.com/feed/",
+    "infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
+    "dw": "https://www.dw.com/es/rss.xml"
+}
 
 STOPWORDS = {
     "qué","que","cómo","como","por","para","del","las","los","una","unos",
@@ -24,7 +24,6 @@ def clean_text(text):
 
 def is_valid_question(title):
     lower = title.lower()
-
     if "?" not in title and not lower.startswith(("qué","como","cómo","por qué","cuáles")):
         return False
 
@@ -37,10 +36,10 @@ def is_valid_question(title):
 def extract_keywords(title):
     words = re.findall(r'\b\w+\b', title.lower())
     words = [w for w in words if len(w) > 4 and w not in STOPWORDS]
-    return words[:5]
+    return words[:3]
 
-def detect_country(title, link):
-    lower = (title + " " + link).lower()
+def detect_country(title):
+    lower = title.lower()
     if "colombia" in lower:
         return "colombia"
     elif "mexico" in lower:
@@ -68,9 +67,9 @@ def detect_category(title):
 def extract_news():
     news = []
 
-    for source in RSS_SOURCES:
+    for source_name, url in RSS_SOURCES.items():
         try:
-            response = requests.get(source, timeout=15)
+            response = requests.get(url, timeout=15)
             soup = BeautifulSoup(response.content, "xml")
             items = soup.find_all("item")
 
@@ -90,9 +89,10 @@ def extract_news():
                 news.append({
                     "title": title,
                     "link": link,
-                    "country": detect_country(title, link),
+                    "country": detect_country(title),
                     "category": detect_category(title),
-                    "keywords": extract_keywords(title)
+                    "keywords": extract_keywords(title),
+                    "source": source_name
                 })
 
         except:
@@ -100,48 +100,74 @@ def extract_news():
 
     return news
 
-def balance_news(news):
+def progressive_balance(news):
 
     final = []
-    country_used = {}
-    category_used = {}
     macro_counter = Counter()
+    country_counter = Counter()
+    category_counter = Counter()
+    source_counter = Counter()
 
-    for item in news:
+    def can_add(item, strict=True):
+        dominant = item["keywords"][0] if item["keywords"] else None
 
-        country = item["country"]
-        category = item["category"]
-        keywords = item["keywords"]
+        if strict:
+            if item["country"] != "colombia" and country_counter[item["country"]] >= 1:
+                return False
 
-        # país
-        if country != "colombia" and country_used.get(country,0) >= 1:
-            continue
+        if category_counter[item["category"]] >= 2:
+            return False
 
-        # categoría
-        if category_used.get(category,0) >= 2:
-            continue
-
-        # macrotema
-        dominant = keywords[0] if keywords else None
         if dominant and macro_counter[dominant] >= 2:
+            return False
+
+        if source_counter[item["source"]] >= 3:
+            return False
+
+        return True
+
+    # FASE 1 estricta
+    for item in news:
+        if can_add(item, strict=True):
+            final.append(item)
+            dominant = item["keywords"][0] if item["keywords"] else None
+            if dominant:
+                macro_counter[dominant]+=1
+            country_counter[item["country"]]+=1
+            category_counter[item["category"]]+=1
+            source_counter[item["source"]]+=1
+        if len(final)>=TARGET_NEWS:
+            return final
+
+    # FASE 2 relajar país
+    for item in news:
+        if item in final:
             continue
+        if can_add(item, strict=False):
+            final.append(item)
+            dominant = item["keywords"][0] if item["keywords"] else None
+            if dominant:
+                macro_counter[dominant]+=1
+            country_counter[item["country"]]+=1
+            category_counter[item["category"]]+=1
+            source_counter[item["source"]]+=1
+        if len(final)>=TARGET_NEWS:
+            return final
 
-        final.append(item)
-
-        country_used[country] = country_used.get(country,0) + 1
-        category_used[category] = category_used.get(category,0) + 1
-
-        if dominant:
-            macro_counter[dominant] += 1
-
-        if len(final) >= TARGET_NEWS:
-            break
+    # FASE 3 solo limitar categoría y fuente
+    for item in news:
+        if item in final:
+            continue
+        if category_counter[item["category"]] < 3 and source_counter[item["source"]] < 4:
+            final.append(item)
+        if len(final)>=TARGET_NEWS:
+            return final
 
     return final
 
 def main():
     news = extract_news()
-    balanced = balance_news(news)
+    balanced = progressive_balance(news)
 
     links = [item["link"] for item in balanced]
 
