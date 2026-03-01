@@ -1,43 +1,107 @@
 {
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T00:55:52.463934-05:00",
+  "generated_at": "2026-03-01T03:30:31.384698-05:00",
   "country": "Internacional",
   "headlines": [
     {
+      "titleOriginal": "\"Deben deponer las armas o enfrentarán una muerte segura\": 6 mensajes clave de la declaración en la que Trump anunció los ataques a Irán",
+      "summary280": "En su reciente declaración, Trump anunció ataques militares a Irán, justificando la acción por \"amenazas inminentes\" del régimen iraní. Afirmó que el objetivo es eliminar estas amenazas y pidió un cambio de régimen, destacando que nunca permitirán que Irán tenga armas nucleares.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4g297welj9o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0dc2/live/ab06d610-14c9-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "\"Hacíamos nuestras necesidades donde nos servían la comida\": la denuncia de un activista de derechos humanos en Venezuela que pasó más de 4 años en prisión",
+      "summary280": "Javier Tarazona, activista de derechos humanos, denuncia condiciones \"inhumanas\" en prisión tras más de cuatro años de cautiverio en El Helicoide, donde sufrió aislamiento y tortura psicológica. Su detención se produjo tras denunciar vínculos del gobierno con grupos armados.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8ld080zlo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/7cc6/live/05bfbae0-0d1d-11f1-b15f-59c83b9de5e4.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Cómo el Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México y qué puede ocurrir ahora sin \"El Mencho\"",
+      "summary280": "El Cartel Jalisco Nueva Generación, tras la muerte de su líder \"El Mencho\", enfrenta un periodo de reacomodo que podría desencadenar una ola de violencia. Este cartel, que ha desplazado a otros grupos en el narcotráfico, controla vastos mercados de drogas y extorsión en México.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0dyjrrp0yo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faa7/live/03a7aba0-10d3-11f1-97cc-8b3c62c7814d.jpg",
+      "type": "explainer"
+    },
+    {
       "titleOriginal": "La trampa de la carga cognitiva: por qué estudiar más horas no siempre te ayuda a aprender más",
-      "summary280": "El estudio prolongado no garantiza un mejor aprendizaje, según la experta Noelia Valle. La efectividad del aprendizaje depende de la capacidad limitada de la memoria de trabajo y la carga cognitiva, sugiriendo que integrar información es más crucial que acumular horas de estudio.",
+      "summary280": "El artículo de Noelia Valle destaca que estudiar más horas no siempre mejora el aprendizaje, ya que la efectividad depende de cómo se utiliza la memoria de trabajo y se gestiona la carga cognitiva. La integración de la información es clave, no solo la acumulación.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c0435y9qexvo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d19f/live/0d602910-0d95-11f1-b5e2-dd58fc65f0f6.jpg",
       "type": "explainer"
     },
     {
+      "titleOriginal": "Por qué el cielo que vemos desde la Tierra no siempre ha sido azul",
+      "summary280": "El color azul del cielo terrestre, resultado de la dispersión de Rayleigh, ha cambiado a lo largo de la historia del planeta. Se cree que en el pasado, la atmósfera contenía diferentes gases que alteraban su color, y podría volver a cambiar en el futuro, según los científicos.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cd6zjwzzvwvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d50d/live/72e39930-0c0e-11f1-b7e1-afb6d0884c18.jpg",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Cómo un simple ladrillo de una casa ayudó a salvar a una niña tras años de abusos",
+      "summary280": "Un ladrillo visible en las imágenes de una niña abusada, apodada Lucy, fue clave para su identificación. Investigadores, tras analizar detalles de su entorno, lograron rastrear el tipo específico de ladrillo, lo que les permitió acotar la búsqueda y avanzar en el caso.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cpqw21xqj51o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5ef8/live/d681e5e0-0827-11f1-b5e2-dd58fc65f0f6.png",
+      "type": "explainer"
+    },
+    {
       "titleOriginal": "Las fotos que muestran cómo quedó la corona del siglo XIX que se les cayó a los ladrones del museo del Louvre",
-      "summary280": "La corona de la emperatriz Eugenia, robada en un asalto al Louvre, quedó gravemente deformada tras caer de manos de los ladrones. Aunque le falta una de sus águilas y sufrió daños, el museo asegura que puede ser restaurada a su estado original. La investigación sigue en curso.",
+      "summary280": "La corona de la emperatriz Eugenia, robada en un asalto al Louvre, quedó gravemente deformada tras caer de las manos de los ladrones. Aunque le falta una águila y algunos diamantes, el museo asegura que puede ser restaurada a su estado original. La investigación sigue en curso.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cq5y52zn82wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0744/live/822c7830-02b3-11f1-83b0-21555a6f44a1.jpg",
       "type": "explainer"
     },
     {
-      "titleOriginal": "EN VIVO: Bahréin calificó los ataques iraníes de “cobardes” y confirmó que países del Golfo se defenderán",
-      "summary280": "Bahréin calificó los ataques iraníes de \"cobardes\" y afirmó que los países del Golfo se defenderán ante lo que consideran una violación de su soberanía y una amenaza a la seguridad internacional. La situación se intensifica tras la muerte del líder supremo iraní, Ali Khamenei.",
+      "titleOriginal": "Metsola apunta a la muerte de Jamenei como el fin de las dictaduras en Irán: \"Debe ser hora de la libertad\"",
+      "summary280": "Roberta Metsola sugiere que la muerte de Alí Jamenei podría marcar un cambio histórico en Irán, abriendo la posibilidad de libertad tras décadas de represión. Destaca el sufrimiento de las víctimas del régimen y llama a la población iraní a dejar atrás la opresión.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/01/en-vivo-israel-y-estados-unidos-atacan-iran/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/DRBKAXSTXRBMTIPYRBXPMQNYAY.JPG?auth=532bfbeca4e8eb6f4db5472624bd02ad801abd8ef7f3723b3f8e2d09b21ddf6b&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/01/metsola-apunta-a-la-muerte-de-jamenei-como-el-fin-de-las-dictaduras-en-iran-debe-ser-hora-de-la-libertad/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/XQ7MHZLE7ZFFFGNMV6VTN6AJUU.jpg?auth=fc4b45d65da5d712603eba76b27b4369340284007b0a9573b740c602ab9b0352&smart=true&width=1200&height=630&quality=85",
       "type": "explainer"
     },
     {
-      "titleOriginal": "Seis planetas en el cielo: la alineación de 2026 que no volverá a repetirse hasta 2040",
-      "summary280": "El 28 de febrero de 2026, se producirá una alineación planetaria inusual con seis planetas y la Luna visibles en el cielo, un fenómeno que no se repetirá hasta 2040. Este evento ofrece una oportunidad única para la observación astronómica y la educación sobre el cosmos.",
+      "titleOriginal": "Qué hay detrás de la amenaza de muerte de García Troche, la ex pareja de Marset: alertan por su salud mental “crítica”",
+      "summary280": "Gianina García Troche, ex pareja del narcotraficante Sebastián Marset, enfrenta un estado de salud mental \"crítico\" en prisión, donde ha expresado temores por su vida y ha amenazado al personal de seguridad. Su situación ha generado preocupaciones sobre su integridad y derechos.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/ciencia-america/2026/03/01/seis-planetas-en-el-cielo-la-alineacion-de-2026-que-no-volvera-a-repetirse-hasta-2040/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/25RZIE4MP5GVNMCUEQDJJERRDI.png?auth=721973f5c7507b8edc09a24b1a4d3ccec63c3d6f127c5fc9b52f451cda21a8cd&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/america/america-latina/2026/03/01/que-hay-detras-de-la-amenaza-de-muerte-de-garcia-troche-la-ex-pareja-de-marset-alertan-por-su-salud-mental-critica/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/APTBQ2GHVZEQVAIJVY6N5XF6WI.jpg?auth=bc33937206aa64c3587ead3371ae83d1eb48e0115c48cb35fc5a185dfe3ba579&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Cuáles son los beneficios de sumar morrones a la alimentación diaria, según expertos",
+      "summary280": "Los morrones, o pimientos, ofrecen múltiples beneficios nutricionales, como vitaminas, antioxidantes y fibra, con bajo aporte calórico. Su consumo regular se asocia con la prevención de enfermedades, protección de la memoria y mejora de la digestión, según la Cleveland Clinic.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/salud/2026/03/01/cuales-son-los-beneficios-de-sumar-morrones-a-la-alimentacion-diaria-segun-expertos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/BGNSGNFUKJFHZAXH4CZ4S7GRPQ.jpg?auth=b5fec00eaec6d6106fbfa32d8cd6d7dddc662638a403ff3cf84f0b922206f32f&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "¿Cuál es la temperatura promedio en Córdoba?",
+      "summary280": "La temperatura promedio en Córdoba no se especifica en el artículo, pero se menciona que el 1 de marzo alcanzará los 34 grados como máxima y 19 grados como mínima. Además, se describe el clima como templado moderado, con características de las cuatro estaciones y veranos húmedos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/01/cual-es-la-temperatura-promedio-en-cordoba/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/VJROVBKJ5VDGJPYS537OFN5TZ4.png?auth=2900af841a65d43a39fc1a5455a9ac0c8da8fdb0b60b5ea07947fc679e0f1e78&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Justin Bieber cumple años: el impacto en la moda y cómo sus looks rompen esquemas",
+      "summary280": "Justin Bieber, al cumplir 32 años, continúa impactando la moda con su estilo ecléctico y experimental. Su capacidad para transformar prendas cotidianas en tendencias globales resalta su influencia en millones de seguidores, consolidando una identidad visual única y contemporánea.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/tendencias/2026/03/01/justin-bieber-cumple-anos-el-impacto-en-la-moda-y-sus-looks-que-rompen-esquemas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/HNKIG7ZVNRBETL4FDRMDXUPJIQ.jpg?auth=9804a5ed9ac03040818fdd9cca1d6d5125a88dcf4fb4d94d3791d3e203c89602&smart=true&width=1200&height=630&quality=85",
       "type": "explainer"
     },
     {
       "titleOriginal": "EN VIVO: Baréin calificó los ataques iraníes de “cobardes” y confirmó que países del Golfo se defenderán",
-      "summary280": "Baréin calificó los ataques iraníes de \"cobardes\" y afirmó que los países del Golfo se preparan para defenderse. Esto ocurre tras un ataque conjunto de EE. UU. e Israel que resultó en la muerte del líder supremo iraní, Ali Khamenei, y en represalias por parte de Irán.",
+      "summary280": "Baréin calificó los ataques iraníes de \"cobardes\" y afirmó que los países del Golfo se preparan para defenderse. Esto ocurre en el contexto de un conflicto creciente tras el ataque de EE. UU. e Israel que resultó en la muerte del líder supremo iraní, Ali Khamenei.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/mundo/2026/02/28/israel-declaro-el-el-estado-de-emergencia-tras-el-ataque-al-regimen-de-iran/",
       "imageUrl": "https://www.infobae.com/resizer/v2/UIZZPRZFZ5F2BP2USNQH2M7E74.JPG?auth=c0337737545e1929a6b8779b06e852fcbef48b1e84e960ebb822a7c940ae78e8&smart=true&width=1200&height=630&quality=85",
@@ -45,7 +109,7 @@
     },
     {
       "titleOriginal": "Cuáles son los municipios con las tasas más altas del país",
-      "summary280": "El Gobierno nacional lanzó un sitio web de transparencia tributaria municipal, revelando que los municipios con las tasas más altas del país son ocho de Neuquén y uno de Río Negro, todos con un 4,5% en la tasa vial. Esto busca presionar a los municipios a reducir impuestos.",
+      "summary280": "El Gobierno nacional lanzó un sitio web de transparencia tributaria municipal, revelando que los municipios con las tasas más altas, del 4,5%, son ocho de Neuquén y uno de Río Negro. Esto busca presionar a los municipios a reducir impuestos en un contexto de caída de recursos.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/politica/2026/03/01/cuales-son-los-municipios-con-las-tasas-mas-altas-del-pais/",
       "imageUrl": "https://www.infobae.com/resizer/v2/XTOSIQLPJNA2RF5HVIL555T6DI.jpg?auth=ee17aa724368c5d4388268a39ec0ffef2f9ed375e2896cc52006c868d350aaf0&smart=true&width=1200&height=630&quality=85",
@@ -53,42 +117,18 @@
     },
     {
       "titleOriginal": "Las locuras del Chacho Coudet en River: de la broma que dejó “ciego” a un compañero a los chistes a Saviola y Aimar",
-      "summary280": "Eduardo Coudet, exjugador de River, es recordado por sus anécdotas y humor en el club, desde teñirse de rubio hasta bromear con compañeros como Saviola y Aimar. A diez años de su declaración sobre dirigir al equipo, está cerca de asumir el cargo tras la salida de Gallardo.",
+      "summary280": "Eduardo Coudet, exjugador de River, es recordado por sus anécdotas y humor en el vestuario, desde teñirse de rubio hasta bromear con compañeros como Saviola y Aimar. A diez años de su declaración sobre dirigir el club, está cerca de asumir el cargo tras la salida de Gallardo.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/01/las-locuras-del-chacho-coudet-en-river-de-la-broma-que-dejo-ciego-a-un-companero-a-los-chistes-a-saviola-y-aimar/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HBWBE73ZJNBCFNNJ63LZMHWGRQ.jpg?auth=3c451da402f627785854d42a2e6e6f0498c53bdd5f0e37f2345d37a314679714&smart=true&width=1200&height=630&quality=85",
       "type": "explainer"
     },
     {
-      "titleOriginal": "Cuentas remuneradas en dólares: qué son, cómo funcionan y cuánto paga cada banco",
-      "summary280": "Las cuentas remuneradas en dólares permiten a los ahorristas generar rendimientos sin inmovilizar sus fondos, con tasas que promedian el 2% TNA. La oferta varía entre bancos y plataformas digitales, destacando límites en los montos sobre los que se aplican intereses.",
+      "titleOriginal": "Martín Savi, el tenor argentino que se encamina a hacer historia en España y se despide con dos shows Buenos Aires",
+      "summary280": "Martín Savi, tenor argentino de 21 años, se prepara para hacer historia al ser el primer argentino en participar en \"Tu cara me suena\" en España. Antes de su partida, ofrecerá dos conciertos de despedida en Buenos Aires, donde presentará su espectáculo \"Una voz universal\".",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/economia/2026/03/01/cuentas-remuneradas-en-dolares-que-son-como-funcionan-y-cuanto-paga-cada-banco/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/ZPG3IHFKLJDNXIOHI73VHQJZIM.jpg?auth=2be490d224c79b22e4f8802d0295e28e0b76327e32094ef1c790ea52cce87841&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Beatriz Martínez, psiquiatra: “Si tú te pasas horas usando pantallas, es difícil que tu hijo esté jugando con puzzles”",
-      "summary280": "Beatriz Martínez, psiquiatra, advierte sobre el impacto de las pantallas en la atención y concentración de niños y adolescentes. Aunque reconoce su utilidad, enfatiza la necesidad de reflexionar sobre su uso y evitar que sean el único recurso para el entretenimiento infantil.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/01/beatriz-martinez-psiquiatra-si-tu-te-pasas-horas-usando-pantallas-es-dificil-que-tu-hijo-este-jugando-con-puzzles/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HVLBMQ7QGNGVBNQ77PLGO3PIRM.jpg?auth=ecb36eef58a4aab6eb567974ae5d0898c4e88bec82ecab296c2551751e2bb9c1&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "México define a sus pitchers abridores y confirma quién suplirá la baja de Taj Bradley en el Clásico Mundial",
-      "summary280": "La Selección Mexicana de Béisbol ha definido a Javier Assad y Taijuan Walker como sus pitchers abridores para el Clásico Mundial 2026, tras la baja de Taj Bradley. Manny Barreda se unirá al equipo para suplir esta ausencia, aportando experiencia y liderazgo al staff de pitcheo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/01/mexico-define-a-sus-pitchers-abridores-y-confirma-quien-suplira-la-baja-de-taj-bradley-en-el-clasico-mundial/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/6QVQ7MQHG5AV5NAWYB4AM3ETJQ.png?auth=107ead61e5d5125368ff84671e74cc1bec702cb75fc33d5eb8694d50b31684be&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer"
-    },
-    {
-      "titleOriginal": "Té verde para el rostro: cómo reducir la mancha en el bigote y aclarar la piel de forma natural",
-      "summary280": "El té verde se presenta como un recurso natural para tratar la hiperpigmentación del bigote, gracias a sus propiedades antioxidantes y antiinflamatorias. Su aplicación constante puede ayudar a reducir manchas oscuras, aunque se recomienda consultar a un dermatólogo si persisten.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/te-verde-para-el-rostro-como-reducir-la-mancha-en-el-bigote-y-aclarar-la-piel-de-forma-natural/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/X6K6OXVSNVFUTEELGC6XSOJGCU.png?auth=84e06c5c8a0fe68aa67a6b19895977adba4d9265ac83a0a891a9b3555008afe8&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/01/martin-savi-el-tenor-argentino-que-se-encamina-a-hacer-historia-en-espana-y-se-despide-con-dos-shows-buenos-aires/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/FJOCC6S3DZA6FGM73HJKBVZ5O4.jpg?auth=3f798025db6aea38de1003b7582e1788a018dc3f25499a333c713ee765d6cc06&smart=true&width=1200&height=630&quality=85",
       "type": "explainer"
     }
   ]
