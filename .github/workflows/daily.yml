@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 3 AM Colombia
+    - cron: '0 8 * * *'   # 3 AM Colombia (UTC-5)
   workflow_dispatch:
 
 jobs:
@@ -20,16 +20,14 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install requests beautifulsoup4 openai readability-lxml pytz
 
-      - name: Update links (RSS + GNews fallback)
-        env:
-          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+      - name: Update links
         run: python update_links.py
 
-      - name: Generate edition (with AI)
+      - name: Generate edition
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate.py
@@ -38,6 +36,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add edition.json links.txt source_log.json
+          git add edition.json links.txt
           git commit -m "Daily edition update" || echo "No changes"
           git push
