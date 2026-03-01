@@ -71,26 +71,8 @@ def get_next_edition_number():
     return 1
 
 def title_is_question(title):
-    patterns = [
-        "¿",
-        "?",
-        "que ",
-        "qué ",
-        "cual ",
-        "cuál ",
-        "cuales ",
-        "cuáles ",
-        "como ",
-        "cómo ",
-        "por que",
-        "por qué",
-        "quien ",
-        "quién ",
-        "cuando ",
-        "cuándo "
-    ]
-    normalized = normalize_text(title)
-    return any(p in normalized for p in patterns)
+    title = title.strip()
+    return "¿" in title or title.endswith("?")
 
 # =============================
 # IA — RESPUESTA DIRECTA
