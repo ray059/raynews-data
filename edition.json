@@ -1,90 +1,27 @@
 {
   "edition_date": "28 Feb 2026",
-  "generated_at": "2026-02-28T23:28:34.923065-05:00",
+  "generated_at": "2026-02-28T23:36:15.923244-05:00",
   "country": "Internacional",
   "headlines": [
     {
       "titleOriginal": "Qué se sabe de los ataques de EE.UU. e Israel contra Irán y de la muerte del líder supremo Alí Jamenei - BBC News Mundo",
-      "summary280": "Estados Unidos e Israel llevaron a cabo ataques coordinados en Irán, resultando en la muerte del líder supremo Alí Jamenei. La ofensiva, justificada como un ataque preventivo contra amenazas nucleares, dejó más de 200 muertos y 700 heridos, con Teherán prometiendo represalias.",
+      "summary280": "Estados Unidos e Israel llevaron a cabo ataques aéreos en Irán, resultando en la muerte del líder supremo Alí Jamenei. La ofensiva, justificada como un ataque preventivo, busca eliminar amenazas nucleares y ha dejado más de 200 muertos en Irán, que promete una respuesta.",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy6kzrylnko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/63bb/live/51460880-1505-11f1-801d-ed3cff6bf876.jpg",
       "type": "question"
     },
     {
-      "titleOriginal": "Cómo el Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México y qué puede ocurrir ahora sin \"El Mencho\" - BBC News Mundo",
-      "summary280": "El Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México gracias a su expansión en el tráfico de drogas y su control territorial, superando al Cartel de Sinaloa. Sin \"El Mencho\", enfrenta un reacomodo que podría desatar una ola de violencia entre facciones riv",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0dyjrrp0yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faa7/live/03a7aba0-10d3-11f1-97cc-8b3c62c7814d.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Qué es la ELA, la enfermedad incurable por la que murió a los 53 años Eric Dane, actor de \"Anatomía de Grey\" y \"Euphoria\" - BBC News Mundo",
-      "summary280": "La esclerosis lateral amiotrófica (ELA) es una enfermedad neurodegenerativa progresiva e incurable que afecta las neuronas motoras, causando debilidad muscular, dificultad para hablar y tragar, y eventualmente insuficiencia respiratoria. Afecta a aproximadamente 2 de cada 100,000",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cy6ye5glz83o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a413/live/df990290-0e52-11f1-9d6e-2b202385ad19.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Por qué la decisión judicial sobre aranceles es un duro golpe para la agenda del segundo mandato de Trump - BBC News Mundo",
-      "summary280": "La decisión judicial es un golpe para Trump porque limita su capacidad para imponer aranceles, una herramienta clave en su agenda económica. La Corte determinó que solo el Congreso puede establecer aranceles, debilitando su autoridad ejecutiva y afectando su posición en negociaci",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c05v7rdn0dqo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/f3c5/live/c390fb90-0f13-11f1-8eb7-a5e3a5f2128a.jpg",
+      "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\" - BBC News Mundo",
+      "summary280": "La creciente solicitud de asilo por parte de colombianos en Europa se debe a factores como la violencia, la inestabilidad social y la búsqueda de mejores oportunidades. La designación de Colombia como \"país seguro\" por la UE complica sus posibilidades de obtener asilo, ya que",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
       "type": "question"
     },
     {
       "titleOriginal": "Qué es la enfermedad de Hashimoto, padecimiento que llevó a Cynthia Klitbo a la depresión",
-      "summary280": "La enfermedad de Hashimoto es una patología autoinmune que afecta la glándula tiroides, provocando hipotiroidismo y síntomas como fatiga, aumento de peso y depresión. Requiere cambios drásticos en la dieta y estilo de vida, impactando tanto la salud física como emocional de quien",
+      "summary280": "La enfermedad de Hashimoto es una tiroiditis autoinmune que afecta la glándula tiroides, provocando hipotiroidismo y síntomas como fatiga, aumento de peso y depresión. Requiere cambios en la dieta y estilo de vida, impactando tanto la salud física como emocional de quienes la",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/que-es-la-enfermedad-de-hashimoto-padecimiento-que-llevo-a-cynthia-klitbo-a-la-depresion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HS5UEL3XBFBMXIUDAWVNK4QMNI.jpg?auth=01a2507e49719cfbd4e40c73fc936d95bba70745b565ae69d7d65cd215a8b950&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Reforma electoral: ¿Cómo quedaría conformada la Cámara de Diputados y el Senado de la República si se aprueba propuesta de Sheinbaum?",
-      "summary280": "Si se aprueba la propuesta de Sheinbaum, la Cámara de Diputados se mantendría con 500 legisladores, mientras que el Senado se reduciría a 96 miembros. La reforma busca modificar la representación y el financiamiento de partidos, generando controversia sobre su impacto en la democ",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/reforma-electoral-como-quedaria-conformada-la-camara-de-diputados-y-el-senado-de-la-republica-si-se-aprueba-propuesta-de-sheinbaum/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/JRRHYBRT5VD4VEIRWG3EWMZLWQ.png?auth=c57d724193a68db504651fc858718b331ac5a5ac6c417c7c3c78912005f07473&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país - BBC News Mundo",
-      "summary280": "Los principales grupos de oposición en Irán incluyen el Movimiento Verde, que busca reformas democráticas; el Consejo Nacional de Resistencia de Irán, que aboga por un cambio de régimen; los kurdos iraníes, que luchan por autonomía; y los activistas pro derechos humanos, que exig",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Ataque de EE.UU. e Israel contra Irán: ¿qué queda del programa nuclear del país persa y qué amenaza supone? - BBC News Mundo",
-      "summary280": "El programa nuclear de Irán ha sufrido daños significativos tras los ataques de EE.UU. e Israel, pero no ha sido completamente destruido. Irán aún posee uranio enriquecido y podría reiniciar el enriquecimiento en meses, lo que representa una amenaza potencial para la proliferació",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8a2e/live/a579e060-11a5-11f1-8efc-bb8df6087c73.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Cómo EE.UU. e Irán pasaron de una \"estrecha amistad\" a un enfrentamiento militar - BBC News Mundo",
-      "summary280": "La relación entre EE.UU. e Irán se deterioró tras el derrocamiento del primer ministro Mohammad Mossadeq en 1953, la represión del sha Pahlavi y la Revolución Islámica de 1979, que llevó al establecimiento de un régimen hostil hacia Occidente, culminando en enfrentamientos milita",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/clyxd3gqrqxo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/fba0/live/79ac3330-14c4-11f1-8007-5bc8640dd651.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos - BBC News Mundo",
-      "summary280": "El tiroteo ocurrió cuando una lancha civil de EE.UU. fue interceptada por la patrulla fronteriza cubana, tras ignorar una orden de alto y abrir fuego. Cuatro tripulantes murieron y varios resultaron heridos. Cuba afirma que los ocupantes eran cubanos armados con intenciones terro",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/79d4/live/5e02f360-1327-11f1-8080-b36026ca95b4.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Cómo Ghislaine Maxwell llevó a Bill Clinton al círculo de Jeffrey Epstein - BBC News Mundo",
-      "summary280": "Ghislaine Maxwell facilitó la conexión entre Bill Clinton y Jeffrey Epstein a través de su relación cercana con el asistente de Clinton, Doug Band, y mediante la organización de eventos y vuelos en el jet privado de Epstein, aunque no hay pruebas de irregularidades por parte de C",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c5yj4430kzlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/07fa/live/c1bda190-1339-11f1-b048-c9424b2cf5fd.png",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\" - BBC News Mundo",
-      "summary280": "Muchos colombianos piden asilo en Europa debido a la violencia, la inestabilidad política y la búsqueda de mejores oportunidades. La designación de Colombia como \"país seguro\" por la UE implica que sus solicitudes de asilo serán rechazadas más fácilmente, limitando sus opciones d",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
       "type": "question"
     }
   ]
