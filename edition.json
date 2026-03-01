@@ -1,90 +1,48 @@
 {
-  "edition_date": "28 Feb 2026",
-  "generated_at": "2026-02-28T23:49:44.631021-05:00",
+  "edition_date": "01 Mar 2026",
+  "generated_at": "2026-03-01T00:02:41.778645-05:00",
   "country": "Internacional",
   "headlines": [
     {
       "titleOriginal": "Qué se sabe de los ataques de EE.UU. e Israel contra Irán y de la muerte del líder supremo Alí Jamenei - BBC News Mundo",
-      "summary280": "Estados Unidos e Israel llevaron a cabo ataques en Irán que resultaron en la muerte del líder supremo Alí Jamenei, confirmada por ambos gobiernos.",
+      "summary280": "Estados Unidos e Israel llevaron a cabo ataques coordinados en Irán que resultaron en la muerte del líder supremo Alí Jamenei, lo que ha desencadenado una respuesta militar de Teherán y un aumento de las tensiones en la región.",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy6kzrylnko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/63bb/live/51460880-1505-11f1-801d-ed3cff6bf876.jpg",
       "type": "question"
     },
     {
       "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\" - BBC News Mundo",
-      "summary280": "Muchos colombianos piden asilo en Europa debido a la búsqueda de mejores oportunidades y la percepción de inseguridad en su país, pero la reciente designación de Colombia como \"país seguro\" por la UE complica sus posibilidades de obtener asilo, ya que permite rechazar solicitudes",
+      "summary280": "La creciente solicitud de asilo por parte de colombianos en Europa se debe a factores como la exención de visa para turismo y la búsqueda de mejores oportunidades.",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
       "type": "question"
     },
     {
       "titleOriginal": "Qué es la ELA, la enfermedad incurable por la que murió a los 53 años Eric Dane, actor de \"Anatomía de Grey\" y \"Euphoria\" - BBC News Mundo",
-      "summary280": "La esclerosis lateral amiotrófica (ELA) es una enfermedad neurodegenerativa progresiva e incurable que afecta las neuronas motoras, provocando debilidad muscular, dificultades para moverse y, en etapas avanzadas, problemas respiratorios.",
+      "summary280": "La esclerosis lateral amiotrófica (ELA) es una enfermedad neurodegenerativa progresiva e incurable que afecta las neuronas motoras, provocando debilidad muscular, contracciones involuntarias y eventual incapacidad para moverse y respirar.",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cy6ye5glz83o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a413/live/df990290-0e52-11f1-9d6e-2b202385ad19.jpg",
       "type": "question"
     },
     {
       "titleOriginal": "Qué es la enfermedad de Hashimoto, padecimiento que llevó a Cynthia Klitbo a la depresión",
-      "summary280": "La enfermedad de Hashimoto es una patología autoinmune que afecta la glándula tiroides, provocando hipotiroidismo y una serie de síntomas físicos y emocionales, lo que puede llevar a quienes la padecen a realizar cambios significativos en su estilo de vida y bienestar.",
+      "summary280": "La enfermedad de Hashimoto es una tiroiditis autoinmune que afecta la glándula tiroides, provocando hipotiroidismo y una serie de síntomas como fatiga, aumento de peso y depresión.",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/que-es-la-enfermedad-de-hashimoto-padecimiento-que-llevo-a-cynthia-klitbo-a-la-depresion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HS5UEL3XBFBMXIUDAWVNK4QMNI.jpg?auth=01a2507e49719cfbd4e40c73fc936d95bba70745b565ae69d7d65cd215a8b950&smart=true&width=1200&height=630&quality=85",
       "type": "question"
     },
     {
-      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país - BBC News Mundo",
-      "summary280": "Los principales grupos de oposición en Irán incluyen a los exiliados del Consejo Nacional de Resistencia de Irán, los kurdos, los baluchis y los movimientos estudiantiles.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
+      "titleOriginal": "¿2026 es el nuevo 2008? Las claves de la ‘burbuja de expectativas’ que diferencia esta crisis de vivienda de la anterior",
+      "summary280": "La situación actual del mercado inmobiliario en 2026 no es comparable a la crisis de 2008, ya que se basa en fundamentos económicos sólidos y un déficit de vivienda significativo.",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/01/2026-es-el-nuevo-2008-las-claves-de-la-burbuja-de-expectativas-que-diferencia-esta-crisis-de-vivienda-de-la-anterior/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/R6EIBMGDUJF7PEQGOOFXC2F6UM.jpg?auth=b94a096629ae587e6bd0fd4a16e4e9f87bb48ac18b134d3070df0b1e3532ff39&smart=true&width=1200&height=630&quality=85",
       "type": "question"
     },
     {
-      "titleOriginal": "Ataque de EE.UU. e Israel contra Irán: ¿qué queda del programa nuclear del país persa y qué amenaza supone? - BBC News Mundo",
-      "summary280": "El programa nuclear de Irán ha sufrido daños significativos tras los ataques de EE.UU.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8a2e/live/a579e060-11a5-11f1-8efc-bb8df6087c73.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Cómo EE.UU. e Irán pasaron de una \"estrecha amistad\" a un enfrentamiento militar - BBC News Mundo",
-      "summary280": "La relación entre EE.UU. e Irán se deterioró tras el golpe de Estado de 1953, que consolidó la monarquía del sha y generó resentimiento en la población, culminando en la Revolución Islámica de 1979 y un conflicto que ha escalado hasta enfrentamientos militares recientes.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/clyxd3gqrqxo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/fba0/live/79ac3330-14c4-11f1-8007-5bc8640dd651.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos - BBC News Mundo",
-      "summary280": "El tiroteo ocurrió cuando una lancha civil estadounidense, supuestamente con intenciones terroristas, fue interceptada por la patrulla fronteriza cubana, resultando en cuatro muertos y varios heridos.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/79d4/live/5e02f360-1327-11f1-8080-b36026ca95b4.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Cómo el Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México y qué puede ocurrir ahora sin \"El Mencho\" - BBC News Mundo",
-      "summary280": "El Cartel Jalisco Nueva Generación se enfrenta a un periodo de reacomodo y potencial aumento de violencia tras la muerte de \"El Mencho\", su líder, lo que podría llevar a luchas internas y a un cambio en el equilibrio de poder en el narcotráfico en México.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0dyjrrp0yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faa7/live/03a7aba0-10d3-11f1-97cc-8b3c62c7814d.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Cómo Ghislaine Maxwell llevó a Bill Clinton al círculo de Jeffrey Epstein - BBC News Mundo",
-      "summary280": "Ghislaine Maxwell facilitó la conexión entre Bill Clinton y Jeffrey Epstein a través de su relación cercana con el asistente de Clinton, Doug Band, y la organización de eventos y vuelos relacionados con la Fundación Clinton.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c5yj4430kzlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/07fa/live/c1bda190-1339-11f1-b048-c9424b2cf5fd.png",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Cómo las imágenes absurdas creadas con IA están cambiando a las redes sociales y afectando a sus usuarios - BBC News Mundo",
-      "summary280": "Las imágenes absurdas generadas por IA están transformando las redes sociales al volverse virales y atraer la atención de los usuarios, lo que ha llevado a un aumento en la creación y difusión de contenido engañoso y poco convincente.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgl8wed51p2o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/bbed/live/3bb23f50-125a-11f1-9120-a910fc22c6ac.png",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Por qué es tan difícil contener la risa en situaciones inapropiadas - BBC News Mundo",
-      "summary280": "Contener la risa en situaciones inapropiadas es difícil porque el cerebro enfrenta un conflicto entre la necesidad de reprimir la risa y el impulso emocional que la provoca, lo que genera una respuesta automática y casi reflejo.",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c043eknn69xo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e357/live/6a1a5600-0f05-11f1-89a2-3d4ead3ca191.jpg",
+      "titleOriginal": "“¿Y si acá pasó algo horrible o hermoso?”: Selva Almada y la memoria inquietante de una casa rural",
+      "summary280": "Selva Almada explora en \"Una casa sola\" la inquietante relación entre una casa deshabitada y la desaparición de su familia, entrelazando la memoria de un hogar con las voces del campo argentino.",
+      "sourceUrl": "https://www.infobae.com/cultura/2026/03/01/y-si-aca-paso-algo-horrible-o-hermoso-selva-almada-y-la-memoria-inquietante-de-una-casa-rural/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/4KX262QLKJDANIOBOW6BBV74U4.jpg?auth=6cb58cda26fe956a406ceebfbe397568ebea8b3a6a98ab8ab817a53ad2ad0ed9&smart=true&width=1200&height=630&quality=85",
       "type": "question"
     }
   ]
