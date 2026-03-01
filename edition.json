@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T16:37:46.371266-05:00",
+  "generated_at": "2026-03-01T16:44:20.449930-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn0e9pxll1do?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/16cb/live/66697720-1554-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Investigación de la BBC: el fastuoso palacio en Marruecos que Epstein intentó comprar días antes de su arresto",
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c1d60nqn5r9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0f2c/live/3c459f50-14c3-11f1-8007-5bc8640dd651.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Trump dice que la ofensiva en Irán va \"por delante de lo previsto\" mientras Teherán contraataca",
