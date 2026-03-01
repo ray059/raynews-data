@@ -1,11 +1,11 @@
 {
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T00:18:10.266970-05:00",
+  "generated_at": "2026-03-01T00:28:26.984350-05:00",
   "country": "Internacional",
   "headlines": [
     {
       "titleOriginal": "Qué se sabe de los ataques de EE.UU. e Israel contra Irán y de la muerte del líder supremo Alí Jamenei",
-      "summary280": "Hasta ahora, no hay confirmación oficial de ataques de EE.UU. e Israel contra Irán ni de la muerte del líder supremo Alí Jamenei. Sin embargo, la tensión en la región ha aumentado, y se especula sobre posibles acciones militares en respuesta a las amenazas percibidas.",
+      "summary280": "El ejército de Israel, con apoyo de EE.UU., lanzó ataques contra Irán que resultaron en la muerte del líder supremo Alí Jamenei. Se reportan más de 200 muertos y 700 heridos. Irán prometió una \"respuesta aplastante\" y ya lanzó misiles contra Israel y otros países de la región.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy6kzrylnko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/63bb/live/51460880-1505-11f1-801d-ed3cff6bf876.jpg",
@@ -13,42 +13,18 @@
     },
     {
       "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
-      "summary280": "Los principales grupos de oposición en Irán incluyen a los reformistas, que buscan cambios dentro del sistema, y los exiliados, como el Consejo Nacional de Resistencia de Irán, que abogan por un cambio de régimen. Buscan más libertades políticas, derechos humanos y un gobierno de",
+      "summary280": "Los principales grupos de oposición en Irán son diversos y fragmentados, muchos en el exilio. Buscan un cambio de régimen hacia un sistema más democrático y menos represivo, pero carecen de un liderazgo unificado y enfrentan una fuerte represión interna.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
       "type": "question"
     },
     {
-      "titleOriginal": "¿Qué queda del programa nuclear de Irán y qué amenaza supone?",
-      "summary280": "El programa nuclear de Irán sigue avanzando, con un enriquecimiento de uranio más allá de los límites del acuerdo de 2015. Esto genera preocupaciones sobre su capacidad para desarrollar armas nucleares, aumentando las tensiones en la región y desafiando la seguridad global.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8a2e/live/a579e060-11a5-11f1-8efc-bb8df6087c73.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Qué es la enfermedad de Hashimoto, padecimiento que llevó a Cynthia Klitbo a la depresión",
-      "summary280": "La enfermedad de Hashimoto es un trastorno autoinmunitario que afecta la tiroides, provocando hipotiroidismo. Esto puede causar síntomas como fatiga, aumento de peso y depresión, como experimentó la actriz Cynthia Klitbo. Es importante un diagnóstico y tratamiento adecuados.",
+      "titleOriginal": "Cuáles son los municipios con las tasas más altas del país",
+      "summary280": "Los municipios con las tasas más altas del país, alcanzando un 4,5%, son Neuquén capital, Plottier, San Martín de los Andes, Senillosa, Plaza Huincul, Junín de los Andes, Centenario y Cutral Co en Neuquén, y Cipolletti en Río Negro.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/que-es-la-enfermedad-de-hashimoto-padecimiento-que-llevo-a-cynthia-klitbo-a-la-depresion/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HS5UEL3XBFBMXIUDAWVNK4QMNI.jpg?auth=01a2507e49719cfbd4e40c73fc936d95bba70745b565ae69d7d65cd215a8b950&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "¿2026 es el nuevo 2008? Las claves de la ‘burbuja de expectativas’ que diferencia esta crisis de vivienda de la anterior",
-      "summary280": "2026 podría no ser el nuevo 2008, ya que la actual crisis de vivienda se basa más en expectativas infladas que en una burbuja financiera. Factores como la oferta limitada y cambios en la demanda marcan diferencias clave entre ambas crisis.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/01/2026-es-el-nuevo-2008-las-claves-de-la-burbuja-de-expectativas-que-diferencia-esta-crisis-de-vivienda-de-la-anterior/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/R6EIBMGDUJF7PEQGOOFXC2F6UM.jpg?auth=b94a096629ae587e6bd0fd4a16e4e9f87bb48ac18b134d3070df0b1e3532ff39&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "¿Cómo estará el clima en Guadalajara?",
-      "summary280": "No puedo acceder a la URL proporcionada, pero generalmente, el clima en Guadalajara es templado con lluvias en verano. Para un pronóstico específico, consulta un servicio meteorológico local o la página de noticias mencionada.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/como-estara-el-clima-en-guadalajara/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/SGDHSU6UNNDWRODNWHHK6QZ6AY.png?auth=c17e95996fc72d9b217616f87ad35325a406f14310efb838234096ebada94750&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/01/cuales-son-los-municipios-con-las-tasas-mas-altas-del-pais/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/XTOSIQLPJNA2RF5HVIL555T6DI.jpg?auth=ee17aa724368c5d4388268a39ec0ffef2f9ed375e2896cc52006c868d350aaf0&smart=true&width=1200&height=630&quality=85",
       "type": "question"
     }
   ]
