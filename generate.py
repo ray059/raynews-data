@@ -109,7 +109,7 @@ def detect_event_keyword(title):
     return None
 
 # =============================
-# RESUMEN IA CON REGLA EDITORIAL
+# RESUMEN IA EDITORIAL
 # =============================
 
 def generate_summary_with_ai(text, title):
@@ -129,6 +129,8 @@ Reglas estrictas:
 - El resumen debe responder directamente lo que promete el titular.
 - Si el titular menciona una lista, explica quiénes la conforman.
 - Si el titular plantea una pregunta, respóndela.
+- Si el contenido corresponde a declaraciones o entrevista,
+  deja claro que se trata de afirmaciones del protagonista.
 - Tono periodístico neutral.
 - Debe terminar en punto.
 
@@ -150,14 +152,14 @@ Noticia:
         summary = response.choices[0].message.content.strip()
         summary = clean_text(summary)
 
-        # Ajuste si supera límite
+        # 🔥 Recorte seguro (sin mutilar frases)
         if len(summary) > MAX_SUMMARY_LENGTH:
-            summary = summary[:MAX_SUMMARY_LENGTH]
-            last_period = summary.rfind(".")
-            if last_period > 150:
-                summary = summary[:last_period + 1]
+            trimmed = summary[:MAX_SUMMARY_LENGTH]
+            last_period = trimmed.rfind(".")
+            if last_period != -1:
+                summary = trimmed[:last_period + 1]
             else:
-                summary = summary.rsplit(" ", 1)[0] + "."
+                summary = trimmed.rsplit(" ", 1)[0] + "."
 
         if not summary.endswith("."):
             summary = summary.rstrip(" ,;:") + "."
