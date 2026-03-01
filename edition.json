@@ -1,7 +1,79 @@
 {
-  "edition_date": "28 Feb 2026",
-  "edition_number": 73,
-  "generated_at": "2026-02-28T23:05:09.839437-05:00",
+  "edition_date": "01 Mar 2026",
+  "generated_at": "2026-03-01T04:14:04.992109",
   "country": "Internacional",
-  "headlines": []
+  "headlines": [
+    {
+      "titleOriginal": "Qué se sabe de los ataques de EE.UU. e Israel contra Irán y de la muerte del líder supremo Alí Jamenei - BBC News Mundo",
+      "summary280": "El ejército de Israel, con apoyo de EE.UU., lanzó ataques contra Irán que resultaron en la muerte del líder supremo Alí Jamenei. Se reportan más de 200 muertos y 700 heridos en Irán. Teherán prometió una \"respuesta aplastante\" y lanzó misiles contra Israel y aliados de EE.UU. en ",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy6kzrylnko?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Cómo el Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México y qué puede ocurrir ahora sin \"El Mencho\" - BBC News Mundo",
+      "summary280": "El Cartel Jalisco Nueva Generación se convirtió en el más poderoso de México gracias a su expansión en el tráfico de drogas y su control territorial. Sin \"El Mencho\", enfrenta un periodo de reacomodo que podría desencadenar una ola de violencia entre facciones rivales.",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0dyjrrp0yo?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Qué es la ELA, la enfermedad incurable por la que murió a los 53 años Eric Dane, actor de \"Anatomía de Grey\" y \"Euphoria\" - BBC News Mundo",
+      "summary280": "La ELA, o esclerosis lateral amiotrófica, es una enfermedad neurodegenerativa incurable que afecta las neuronas motoras, provocando debilidad muscular, contracciones involuntarias y pérdida de movilidad. La causa más común de muerte es la insuficiencia respiratoria.",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cy6ye5glz83o?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Por qué la decisión judicial sobre aranceles es un duro golpe para la agenda del segundo mandato de Trump - BBC News Mundo",
+      "summary280": "La decisión judicial es un duro golpe para la agenda del segundo mandato de Trump porque limita su capacidad para imponer aranceles, debilitando su posición negociadora y su autoridad ejecutiva, lo que podría afectar su política comercial y relaciones internacionales.",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c05v7rdn0dqo?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Qué es la enfermedad de Hashimoto, padecimiento que llevó a Cynthia Klitbo a la depresión - Infobae",
+      "summary280": "La enfermedad de Hashimoto es una patología autoinmune que afecta la glándula tiroides, provocando hipotiroidismo y síntomas como cansancio, dificultad para concentrarse, sequedad de piel y aumento de peso. Requiere cambios en la dieta y estilo de vida para manejar sus efectos.",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/que-es-la-enfermedad-de-hashimoto-padecimiento-que-llevo-a-cynthia-klitbo-a-la-depresion/",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Reforma electoral: ¿Cómo quedaría conformada la Cámara de Diputados y el Senado de la República si se aprueba propuesta de Sheinbaum? - Infobae",
+      "summary280": "Si se aprueba la propuesta de Sheinbaum, la Cámara de Diputados tendría 500 miembros (300 por distrito y 200 por representación), y el Senado quedaría con 96 senadores (64 por mayoría y 32 por primera minoría).",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/reforma-electoral-como-quedaria-conformada-la-camara-de-diputados-y-el-senado-de-la-republica-si-se-aprueba-propuesta-de-sheinbaum/",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país - BBC News Mundo",
+      "summary280": "Los principales grupos de oposición en Irán son: 1) La oposición en el exilio, que incluye a la Organización Mujahideen del Pueblo de Irán (MEK); 2) Grupos kurdos; 3) La oposición reformista dentro del país; y 4) Activistas pro derechos humanos. Buscan un cambio de régimen y más ",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Ataque de EE.UU. e Israel contra Irán: ¿qué queda del programa nuclear del país persa y qué amenaza supone? - BBC News Mundo",
+      "summary280": "El programa nuclear de Irán ha sufrido daños significativos tras los ataques de EE.UU. e Israel, pero no ha sido completamente destruido. Irán aún posee uranio enriquecido y podría reiniciar el enriquecimiento en meses, lo que representa una amenaza potencial para la proliferació",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Cómo EE.UU. e Irán pasaron de una \"estrecha amistad\" a un enfrentamiento militar - BBC News Mundo",
+      "summary280": "Estados Unidos e Irán pasaron de una \"estrecha amistad\" a un enfrentamiento militar debido a eventos históricos como el golpe de Estado de 1953, la represión política bajo el sha, y el deterioro de las relaciones tras la Revolución Islámica de 1979, que culminó en tensiones y con",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/clyxd3gqrqxo?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos - BBC News Mundo",
+      "summary280": "Cuba reportó que cuatro tripulantes de una lancha civil de EE.UU. fueron abatidos tras abrir fuego contra una patrulla fronteriza cubana durante un intento de infiltración. El incidente dejó varios heridos y se investiga la situación, con la afirmación de que los ocupantes eran c",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Cómo Ghislaine Maxwell llevó a Bill Clinton al círculo de Jeffrey Epstein - BBC News Mundo",
+      "summary280": "Ghislaine Maxwell facilitó la conexión entre Bill Clinton y Jeffrey Epstein a través de correos electrónicos y reuniones, pero no hay evidencia de irregularidades por parte de Clinton. Él ha declarado que no conocía los delitos de Epstein y cortó la relación antes de que se hicie",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c5yj4430kzlo?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\" - BBC News Mundo",
+      "summary280": "Muchos colombianos piden asilo en Europa debido a la búsqueda de mejores oportunidades y la facilidad de ingreso tras la exención de visa en 2015. La designación de Colombia como \"país seguro\" por la UE implica que sus solicitudes de asilo pueden ser rechazadas casi automáticamen",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
+      "type": "question"
+    }
+  ]
 }
