@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T17:48:52.902545-05:00",
+  "generated_at": "2026-03-01T18:24:35.850429-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Análisis BBC: un momento extraordinario para el que Irán se ha estado preparando",
