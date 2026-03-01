@@ -2,148 +2,121 @@ import os
 import json
 import requests
 from bs4 import BeautifulSoup
-from readability import Document
-from openai import OpenAI
 from datetime import datetime
-import pytz
+from zoneinfo import ZoneInfo
+from urllib.parse import urlparse
+import re
+from collections import Counter
 
 print("===== INICIO GENERATE.PY =====")
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-TARGET_NEWS = 12
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-def safe_trim(text, limit=280):
-    if len(text) <= limit:
-        return text
-    trimmed = text[:limit]
-    if "." in trimmed:
-        trimmed = trimmed.rsplit(".", 1)[0] + "."
-    return trimmed
+def clean_text(text):
+    return re.sub(r"\s+", " ", text).strip()
 
-def extract_article(url):
+def extract_image(url):
     try:
-        r = requests.get(url, timeout=20)
-        doc = Document(r.text)
-        soup = BeautifulSoup(doc.summary(), "html.parser")
-        return " ".join(p.get_text() for p in soup.find_all("p"))
-    except:
-        return None
-
-def extract_title_image(url):
-    try:
-        r = requests.get(url, timeout=15)
+        r = requests.get(url, timeout=10)
         soup = BeautifulSoup(r.text, "html.parser")
-        og_title = soup.find("meta", property="og:title")
+
         og_image = soup.find("meta", property="og:image")
-        title = og_title["content"] if og_title else soup.title.string
-        image = og_image["content"] if og_image else None
-        return title.strip(), image
+        if og_image and og_image.get("content"):
+            return og_image["content"]
+
+        img = soup.find("img")
+        if img and img.get("src"):
+            return img["src"]
+
     except:
-        return None, None
+        pass
 
-def is_duplicate(summary, existing):
-    base = summary[:120].lower()
-    for item in existing:
-        if base == item["summary280"][:120].lower():
-            return True
-    return False
+    return None
 
-def generate_answer(title, content):
+def generate_summary(title, url):
+    if not OPENAI_API_KEY:
+        return "Resumen no disponible."
+
+    import openai
+    openai.api_key = OPENAI_API_KEY
 
     prompt = f"""
-Responde directamente la pregunta del titular.
-La respuesta debe terminar en una oración completa.
-No repitas el titular.
-Entre 200 y 280 caracteres.
-Máximo 280 caracteres.
-
-Titular:
-{title}
-
-Contenido:
-{content[:4000]}
+Responde claramente la pregunta del titular en máximo 280 caracteres.
+Titular: {title}
+URL: {url}
 """
 
     try:
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "Eres editor periodístico. Responde con precisión."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.2
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
         )
-        answer = response.choices[0].message.content.strip()
 
-        # Si es muy corto, regenerar una vez
-        if len(answer) < 180:
-            response = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[
-                    {"role": "system", "content": "Responde con mayor profundidad, mínimo 200 caracteres."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.2
-            )
-            answer = response.choices[0].message.content.strip()
+        summary = response.choices[0].message["content"]
+        return clean_text(summary)[:280]
 
-        return safe_trim(answer, 280)
+    except Exception as e:
+        print("Error OpenAI:", e)
+        return "Resumen no disponible."
 
-    except:
-        return None
+def is_duplicate(title, used_keywords):
+    words = re.findall(r"\w+", title.lower())
+    keywords = [w for w in words if len(w) > 4]
 
-def load_links():
-    if not os.path.exists("links.txt"):
-        return []
-    with open("links.txt","r",encoding="utf-8") as f:
-        content = f.read().strip()
-    return content.split(";") if content else []
+    overlap = set(keywords) & used_keywords
+    return len(overlap) > 3
 
-def main():
+headlines = []
+used_keywords = set()
 
-    links = load_links()
-    headlines = []
+if not os.path.exists("links.txt"):
+    print("No hay links.txt")
+    exit()
 
-    for url in links:
-        if len(headlines) >= TARGET_NEWS:
-            break
+with open("links.txt", "r", encoding="utf-8") as f:
+    lines = f.readlines()
 
-        title, image = extract_title_image(url)
-        content = extract_article(url)
+for line in lines:
+    parts = line.strip().split("||")
+    if len(parts) != 3:
+        continue
 
-        if not title or not content:
-            continue
+    title, url, source_name = parts
 
-        answer = generate_answer(title, content)
-        if not answer:
-            continue
+    if is_duplicate(title, used_keywords):
+        continue
 
-        if is_duplicate(answer, headlines):
-            continue
+    summary = generate_summary(title, url)
+    image = extract_image(url)
 
-        headlines.append({
-            "titleOriginal": title,
-            "summary280": answer,
-            "sourceUrl": url,
-            "imageUrl": image,
-            "type": "question"
-        })
+    words = re.findall(r"\w+", title.lower())
+    for w in words:
+        if len(w) > 4:
+            used_keywords.add(w)
 
-    tz = pytz.timezone("America/Bogota")
-    now = datetime.now(tz)
+    headlines.append({
+        "titleOriginal": title,
+        "summary280": summary,
+        "sourceName": source_name,
+        "sourceUrl": url,
+        "imageUrl": image,
+        "type": "question"
+    })
 
-    edition = {
-        "edition_date": now.strftime("%d %b %Y"),
-        "generated_at": now.isoformat(),
-        "country": "Internacional",
-        "headlines": headlines
-    }
+    if len(headlines) >= 12:
+        break
 
-    with open("edition.json","w",encoding="utf-8") as f:
-        json.dump(edition,f,ensure_ascii=False,indent=2)
+now = datetime.now(ZoneInfo("America/Bogota"))
 
-    print(f"✅ Noticias generadas: {len(headlines)}")
-    print("===== FIN GENERATE.PY =====")
+edition = {
+    "edition_date": now.strftime("%d %b %Y"),
+    "generated_at": now.isoformat(),
+    "country": "Internacional",
+    "headlines": headlines
+}
 
-if __name__ == "__main__":
-    main()
+with open("edition.json", "w", encoding="utf-8") as f:
+    json.dump(edition, f, indent=2, ensure_ascii=False)
+
+print("===== FIN GENERATE.PY =====")
