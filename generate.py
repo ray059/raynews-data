@@ -12,6 +12,10 @@ print("===== INICIO GENERATE.PY =====")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 HIST_FILE = "historical_editions.json"
 
+# -------------------------------------------------
+# UTILIDADES
+# -------------------------------------------------
+
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
@@ -21,6 +25,7 @@ def make_id(url: str) -> str:
 # -------------------------------------------------
 # CARGAR HISTÓRICO
 # -------------------------------------------------
+
 if os.path.exists(HIST_FILE):
     with open(HIST_FILE, "r", encoding="utf-8") as f:
         historical = json.load(f)
@@ -30,6 +35,7 @@ else:
 # -------------------------------------------------
 # EXTRAER TEXTO
 # -------------------------------------------------
+
 def extract_article_text(url):
     try:
         r = requests.get(url, timeout=10)
@@ -44,6 +50,7 @@ def extract_article_text(url):
 # -------------------------------------------------
 # EXTRAER IMAGEN
 # -------------------------------------------------
+
 def extract_image(url):
     try:
         r = requests.get(url, timeout=10)
@@ -58,12 +65,13 @@ def extract_image(url):
 # -------------------------------------------------
 # GENERAR RESUMEN IA
 # -------------------------------------------------
+
 def generate_summary(title, article_text):
     if not OPENAI_API_KEY:
         return None
 
-    import openai
-    openai.api_key = OPENAI_API_KEY
+    from openai import OpenAI
+    client = OpenAI(api_key=OPENAI_API_KEY)
 
     prompt = f"""
 Responde claramente el titular en máximo 280 caracteres.
@@ -77,18 +85,45 @@ Artículo:
 """
 
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
         )
-        return clean_text(response["choices"][0]["message"]["content"])
+        return clean_text(response.choices[0].message.content)
     except:
         return None
 
 # -------------------------------------------------
+# GENERAR AUDIO
+# -------------------------------------------------
+
+def generate_audio(text):
+    if not OPENAI_API_KEY:
+        print("No hay OPENAI_API_KEY, no se genera audio")
+        return
+
+    from openai import OpenAI
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
+    try:
+        with client.audio.speech.with_streaming_response.create(
+            model="gpt-4o-mini-tts",
+            voice="alloy",
+            input=text,
+        ) as response:
+
+            response.stream_to_file("edition_audio.mp3")
+
+        print("Audio generado correctamente")
+
+    except Exception as e:
+        print("Error generando audio:", e)
+
+# -------------------------------------------------
 # MAIN
 # -------------------------------------------------
+
 headlines = []
 
 if not os.path.exists("links.txt"):
@@ -151,12 +186,19 @@ for line in lines:
     if len(headlines) >= 20:
         break
 
-# Ordenar por first_seen descendente
+# -------------------------------------------------
+# ORDENAR POR MÁS RECIENTES
+# -------------------------------------------------
+
 headlines = sorted(
     headlines,
     key=lambda x: historical["news"][make_id(x["sourceUrl"])]["first_seen"],
     reverse=True
 )
+
+# -------------------------------------------------
+# CREAR EDITION.JSON
+# -------------------------------------------------
 
 edition = {
     "api_version": 2,
@@ -171,6 +213,17 @@ with open("edition.json", "w", encoding="utf-8") as f:
 
 with open(HIST_FILE, "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
+
+# -------------------------------------------------
+# GENERAR AUDIO FINAL
+# -------------------------------------------------
+
+audio_text = f"Estas son las noticias de Ray News del {now.strftime('%d de %B de %Y')}. "
+
+for h in headlines:
+    audio_text += h["titleOriginal"] + ". "
+
+generate_audio(audio_text)
 
 print("Noticias finales:", len(headlines))
 print("===== FIN GENERATE.PY =====")
