@@ -14,7 +14,7 @@ def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
 # -------------------------------------------------
-# EXTRAER TEXTO COMPLETO DEL ARTÍCULO
+# EXTRAER TEXTO REAL DEL ARTÍCULO
 # -------------------------------------------------
 def extract_article_text(url):
     try:
@@ -41,14 +41,13 @@ def extract_image(url):
         og_image = soup.find("meta", property="og:image")
         if og_image and og_image.get("content"):
             return og_image["content"]
-
     except:
         pass
 
     return None
 
 # -------------------------------------------------
-# GENERAR RESUMEN CON CONTEXTO REAL
+# GENERAR RESUMEN EDITORIAL PRUDENTE
 # -------------------------------------------------
 def generate_summary(title, article_text):
     if not OPENAI_API_KEY:
@@ -63,9 +62,11 @@ Responde claramente la pregunta del titular en máximo 280 caracteres.
 Reglas obligatorias:
 - Basate únicamente en el texto proporcionado.
 - No inventes información.
-- Si el artículo menciona hipótesis, análisis o falta de confirmación, usa lenguaje prudente.
+- Mantén tono analítico y prudente.
+- Si el artículo menciona hipótesis o falta de confirmación, indícalo.
 - No afirmes como hecho algo que el texto no confirme explícitamente.
-- No menciones que no puedes acceder a enlaces.
+- No incluyas listas de números tipo lotería.
+- No confirmes muertes salvo que el texto lo afirme explícitamente.
 
 Titular: {title}
 
@@ -88,7 +89,7 @@ Artículo:
         return None
 
 # -------------------------------------------------
-# VALIDACIÓN EDITORIAL
+# VALIDADOR BÁSICO
 # -------------------------------------------------
 def validate_summary(summary):
     if not summary:
@@ -115,20 +116,26 @@ def validate_summary(summary):
     return True
 
 # -------------------------------------------------
-# DETECTAR AFIRMACIONES SENSIBLES
+# FILTRO DE CONTENIDO RIESGOSO
 # -------------------------------------------------
-def contains_strong_claim(summary):
-    sensitive_words = [
+def contains_risky_content(summary):
+    lower = summary.lower()
+
+    # Bloquear secuencias de números tipo lotería
+    if re.search(r"\b\d{1,2},\s?\d{1,2},\s?\d{1,2}", lower):
+        return True
+
+    risky_words = [
+        "confirmó",
+        "confirmado",
+        "ha confirmado",
         "murió",
         "muerte confirmada",
-        "ataque confirmado",
-        "invasión total",
-        "guerra declarada"
+        "fallecimiento confirmado"
     ]
 
-    lower = summary.lower()
-    for w in sensitive_words:
-        if w in lower:
+    for word in risky_words:
+        if word in lower:
             return True
 
     return False
@@ -161,16 +168,19 @@ for line in lines:
 
     summary = generate_summary(title, article_text)
 
+    # Validación básica
     if not validate_summary(summary):
         print("Resumen inválido. Reintentando...")
         summary = generate_summary(title, article_text)
 
-    if contains_strong_claim(summary):
-        print("Afirmación fuerte detectada. Regenerando con cautela...")
+    # Filtro de riesgo
+    if contains_risky_content(summary):
+        print("Contenido riesgoso detectado. Regenerando en modo prudente...")
         summary = generate_summary(title, article_text)
 
-    if not validate_summary(summary):
-        print("Resumen descartado.")
+    # Validación final
+    if not validate_summary(summary) or contains_risky_content(summary):
+        print("Resumen descartado por seguridad editorial.")
         continue
 
     image = extract_image(url)
