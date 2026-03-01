@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 print("===== INICIO UPDATE_LINKS.PY =====")
 
-MAX_LINKS = 20
+TARGET_NEWS = 12
 
 RSS_SOURCES = [
     "https://feeds.bbci.co.uk/mundo/rss.xml",
@@ -16,6 +16,18 @@ RSS_SOURCES = [
 
 def clean_text(text):
     return re.sub(r'\s+', ' ', text).strip()
+
+def is_valid_question(title):
+    lower = title.lower()
+
+    if "?" not in title and not lower.startswith(("qué", "como", "cómo", "por qué", "cuáles")):
+        return False
+
+    blocked = ["clima", "dólar", "horóscopo", "pronóstico", "temperatura", "uv"]
+    if any(w in lower for w in blocked):
+        return False
+
+    return True
 
 def detect_country(title, link):
     lower = (title + " " + link).lower()
@@ -46,19 +58,7 @@ def detect_category(title):
         return "justicia"
     return "sociedad"
 
-def is_valid_question(title):
-    lower = title.lower()
-
-    if "?" not in title and not lower.startswith(("qué", "como", "cómo", "por qué", "cuáles")):
-        return False
-
-    blocked = ["clima", "dólar", "horóscopo", "pronóstico", "temperatura", "uv"]
-    if any(w in lower for w in blocked):
-        return False
-
-    return True
-
-def extract_links():
+def extract_news():
     news = []
 
     for source in RSS_SOURCES:
@@ -80,14 +80,11 @@ def extract_links():
                 if not is_valid_question(title):
                     continue
 
-                country = detect_country(title, link)
-                category = detect_category(title)
-
                 news.append({
                     "title": title,
                     "link": link,
-                    "country": country,
-                    "category": category
+                    "country": detect_country(title, link),
+                    "category": detect_category(title)
                 })
 
         except:
@@ -101,17 +98,16 @@ def balance_news(news):
     country_used = {}
     category_used = {}
 
+    # FASE 1: balance estricto
     for item in news:
 
         country = item["country"]
         category = item["category"]
 
-        # Regla país
         if country != "colombia":
-            if country in country_used:
+            if country_used.get(country, 0) >= 1:
                 continue
 
-        # Regla categoría (máx 2 por categoría)
         if category_used.get(category, 0) >= 2:
             continue
 
@@ -119,13 +115,39 @@ def balance_news(news):
         country_used[country] = country_used.get(country, 0) + 1
         category_used[category] = category_used.get(category, 0) + 1
 
-        if len(final) >= MAX_LINKS:
-            break
+        if len(final) >= TARGET_NEWS:
+            return final
+
+    # FASE 2: relajar país extranjero
+    for item in news:
+        if item in final:
+            continue
+
+        category = item["category"]
+
+        if category_used.get(category, 0) >= 2:
+            continue
+
+        final.append(item)
+        category_used[category] = category_used.get(category, 0) + 1
+
+        if len(final) >= TARGET_NEWS:
+            return final
+
+    # FASE 3: relajar categoría
+    for item in news:
+        if item in final:
+            continue
+
+        final.append(item)
+
+        if len(final) >= TARGET_NEWS:
+            return final
 
     return final
 
 def main():
-    news = extract_links()
+    news = extract_news()
     balanced = balance_news(news)
 
     links = [item["link"] for item in balanced]
@@ -133,7 +155,7 @@ def main():
     with open("links.txt", "w", encoding="utf-8") as f:
         f.write(";".join(links))
 
-    print(f"✅ Links balanceados guardados: {len(links)}")
+    print(f"✅ Links finales guardados: {len(links)}")
     print("===== FIN UPDATE_LINKS.PY =====")
 
 if __name__ == "__main__":
