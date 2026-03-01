@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 import re
 import os
+import unicodedata
 from openai import OpenAI
 from readability import Document
 
@@ -68,6 +69,12 @@ def clean_noise(text):
         text = re.sub(pattern, '', text, flags=re.IGNORECASE)
     return clean_text(text)
 
+def normalize_text(text):
+    text = text.lower()
+    text = unicodedata.normalize("NFD", text)
+    text = text.encode("ascii", "ignore").decode("utf-8")
+    return text
+
 def get_next_edition_number():
     if os.path.exists("edition.json"):
         try:
@@ -79,8 +86,8 @@ def get_next_edition_number():
     return 1
 
 def normalize_title(title):
-    title = title.lower()
-    title = re.sub(r'[^a-z0-9áéíóúñ\s]', '', title)
+    title = normalize_text(title)
+    title = re.sub(r'[^a-z0-9\s]', '', title)
     words = title.split()
     words = [w for w in words if len(w) > 4]
     return set(words)
@@ -94,10 +101,10 @@ def is_similar_title(title, existing_titles):
     return False
 
 def detect_event_keyword(title):
-    title_lower = title.lower()
+    normalized_title = normalize_text(title)
     for word in CORE_EVENT_WORDS:
-        if word in title_lower:
-            return word
+        if normalize_text(word) in normalized_title:
+            return normalize_text(word)
     return None
 
 # =============================
@@ -139,7 +146,16 @@ Noticia:
         if len(summary) <= MAX_SUMMARY_LENGTH and summary.endswith("."):
             return summary
 
-        return summary[:MAX_SUMMARY_LENGTH].rsplit(" ", 1)[0] + "."
+        if len(summary) > MAX_SUMMARY_LENGTH:
+            summary = summary[:MAX_SUMMARY_LENGTH]
+
+        last_period = summary.rfind(".")
+        if last_period > 150:
+            summary = summary[:last_period + 1]
+        else:
+            summary = summary.rsplit(" ", 1)[0] + "."
+
+        return summary
 
     except Exception as e:
         print("Error IA:", e)
@@ -173,7 +189,7 @@ def extract_article_data(url, existing_titles):
 
         response.encoding = response.apparent_encoding
 
-        # 🔹 Parse ORIGINAL HTML for meta tags
+        # META TAGS desde HTML original
         original_soup = BeautifulSoup(response.text, "html.parser")
 
         title_tag = original_soup.find("meta", property="og:title")
@@ -185,15 +201,15 @@ def extract_article_data(url, existing_titles):
 
         title = clean_text(title_tag["content"].split("|")[0])
 
-        # 🔹 Duplicate title filter
+        # Anti-duplicado por título
         if is_similar_title(title, existing_titles):
-            print("⚠ Título muy similar, descartado")
+            print("⚠ Título similar descartado")
             return None
 
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
-        # 🔹 Use Readability ONLY for article body
+        # Readability para el cuerpo
         try:
             doc = Document(response.text)
             content_html = doc.summary()
