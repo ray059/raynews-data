@@ -108,6 +108,20 @@ def detect_event_keyword(title):
             return normalize_text(word)
     return None
 
+def title_requires_list_response(title):
+    patterns = [
+        "lista",
+        "cuáles son",
+        "quienes son",
+        "quiénes son",
+        "qué es",
+        "que es",
+        "qué debe",
+        "que debe"
+    ]
+    normalized = normalize_text(title)
+    return any(p in normalized for p in patterns)
+
 # =============================
 # RESUMEN IA EDITORIAL
 # =============================
@@ -119,6 +133,15 @@ def generate_summary_with_ai(text, title):
 
     text = text[:2500]
 
+    strict_instruction = ""
+
+    if title_requires_list_response(title):
+        strict_instruction = """
+- Es obligatorio responder explícitamente la lista mencionada en el titular.
+- No resumir solo el contexto.
+- Enumerar claramente los grupos o elementos mencionados.
+"""
+
     prompt = f"""
 Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
 
@@ -126,11 +149,8 @@ Reglas estrictas:
 - Usa únicamente información explícita del texto.
 - No inventes datos.
 - No agregues contexto externo.
-- El resumen debe responder directamente lo que promete el titular.
-- Si el titular menciona una lista, explica quiénes la conforman.
-- Si el titular plantea una pregunta, respóndela.
-- Si el contenido corresponde a declaraciones o entrevista,
-  deja claro que se trata de afirmaciones del protagonista.
+{strict_instruction}
+- Si el contenido corresponde a declaraciones, deja claro que son afirmaciones del protagonista.
 - Tono periodístico neutral.
 - Debe terminar en punto.
 
@@ -152,7 +172,7 @@ Noticia:
         summary = response.choices[0].message.content.strip()
         summary = clean_text(summary)
 
-        # 🔥 Recorte seguro (sin mutilar frases)
+        # 🔥 Recorte seguro
         if len(summary) > MAX_SUMMARY_LENGTH:
             trimmed = summary[:MAX_SUMMARY_LENGTH]
             last_period = trimmed.rfind(".")
@@ -215,7 +235,7 @@ def extract_article_data(url, existing_titles):
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
-        # 🔥 Readability (modo lectura)
+        # 🔥 Readability
         try:
             doc = Document(response.text)
             content_html = doc.summary()
