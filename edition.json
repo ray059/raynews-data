@@ -1,57 +1,64 @@
 {
   "edition_date": "28 Feb 2026",
-  "edition_number": 69,
-  "generated_at": "2026-02-28T22:27:23.470207-05:00",
+  "edition_number": 70,
+  "generated_at": "2026-02-28T22:33:40.084600-05:00",
   "country": "Internacional",
   "headlines": [
     {
       "titleOriginal": "Esta es la lista de personas que deben vacunarse tras detección de casos importados de sarampión en Colombia: lo que debe saber",
-      "summary280": "Deben vacunarse: niños de 6 a 11 meses que viajen a países sede, niños de 1 a 10 años con dos dosis de triple viral, población de 6 a 16 años sin vacuna en 2020-2021, viajeros de 11 a 59 años sin antecedente vacunal, personal de salud y contactos de casos sospechosos.",
+      "summary280": "Las personas que deben vacunarse son: niños de 6 a 11 meses que viajen a países sede, niños de 1 a 10 años con dos dosis de triple viral, población de 6 a 16 años sin vacuna en 2020-2021, viajeros de 11 a 59 años sin antecedentes, personal de salud y contactos de casos.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/salud/esta-es-la-lista-de-personas-que-deben-vacunarse-tras-deteccion-de-casos-importados-de-sarampion-en-colombia-lo-que-debe-saber-3536228",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/28/67c1cec979796.r_d.1046-605-0.jpeg"
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/28/67c1cec979796.r_d.1046-605-0.jpeg",
+      "type": "question"
     },
     {
       "titleOriginal": "¿Dudas sobre el nuevo decreto de Ministerio de Salud? El abecé para entender por qué podrían trasladarlo de EPS sin su autorización",
-      "summary280": "El nuevo decreto permite el traslado automático de afiliados de EPS sin su autorización cuando estas dejan de operar. El Ministerio de Salud y la ADRES asignarán a los afiliados a otras EPS habilitadas, garantizando que estas tengan capacidad operativa y financiera.",
+      "summary280": "El nuevo decreto permite el traslado automático de afiliados de EPS sin su autorización cuando estas dejan de operar. El Ministerio de Salud y la ADRES asignan a los afiliados a otras EPS habilitadas, garantizando que estas tengan capacidad operativa y financiera.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/salud/dudas-sobre-el-nuevo-decreto-de-ministerio-de-salud-el-abece-para-entender-por-que-podrian-trasladarlo-de-eps-sin-su-autorizacion-3536062",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1a5d06b02c.r_d.1176-155-0.png"
-    },
-    {
-      "titleOriginal": "Sistema Andino de Integración hace llamado urgente de diálogo entre los presidentes Gustavo Petro y Daniel Noboa tras escalada de guerra arancelaria",
-      "summary280": "El Sistema Andino de Integración llamó a un diálogo urgente entre los presidentes Gustavo Petro y Daniel Noboa tras el anuncio de Ecuador de aumentar aranceles del 30% al 50% a productos colombianos, medida que comenzará el 1 de marzo.",
-      "sourceName": "El Tiempo",
-      "sourceUrl": "https://www.eltiempo.com/mundo/latinoamerica/sistema-andino-hace-llamado-urgente-de-dialogo-entre-el-presidente-gustavo-petro-y-su-homologo-daniel-noboa-tras-escalada-de-guerra-arancelaria-3535998",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/04/16/661e602360301.r_d.970-264-0.png"
-    },
-    {
-      "titleOriginal": "Gobierno anuncia Ley Seca y cierre de fronteras en Colombia por elecciones del 8 de marzo: medidas empezarán a regir el sábado 7",
-      "summary280": "El Gobierno colombiano, a través del ministro del Interior, Armando Benedetti, anunció la implementación de la Ley Seca y el cierre de fronteras por las elecciones del 8 de marzo. La Ley Seca comenzará el 7 de marzo a las 6:00 p.m. y el cierre de fronteras se prevé a las 12:00 p.",
-      "sourceName": "El Tiempo",
-      "sourceUrl": "https://www.eltiempo.com/politica/elecciones-colombia-2026/gobierno-anuncia-ley-seca-y-cierre-de-fronteras-en-colombia-por-elecciones-del-8-de-marzo-medidas-empezaran-a-regir-el-sabado-3536028",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1bbb815d89.r_d.926-271-0.png"
-    },
-    {
-      "titleOriginal": "El 'vainazo' de la ONU a Colombia para que publique 'sin demora' el informe de cultivos ilícitos de 2024",
-      "summary280": "La ONU exige al Gobierno colombiano la publicación inmediata del informe de cultivos ilícitos de 2024, que muestra un aumento del 3% en las hectáreas de coca sembradas, alcanzando 262.000. La producción potencial de clorhidrato de cocaína supera las 3.000 toneladas.",
-      "sourceName": "El Tiempo",
-      "sourceUrl": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/el-vainazo-de-la-onu-a-colombia-para-que-publique-sin-demora-el-informe-de-cultivos-ilicitos-de-3536023",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/10/25/68fd2cafe5fdc.r_d.2051-1016-0.jpeg"
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/27/69a1a5d06b02c.r_d.1176-155-0.png",
+      "type": "question"
     },
     {
       "titleOriginal": "Reportan crecimiento del sector asegurador en Colombia: salud y seguridad social los que tuvieron mejores cifras",
-      "summary280": "El sector asegurador en Colombia creció un 3,5% en 2025, con un aumento del 8% en reclamaciones, alcanzando $27,6 billones. La concientización sobre riesgos y la necesidad de protección en salud y vida impulsaron este crecimiento. El sector representó el 3,29% del PIB.",
+      "summary280": "El sector asegurador en Colombia creció un 3,5% en 2025, con un aumento del 8% en reclamaciones, alcanzando $27,6 billones. La concientización sobre riesgos y la necesidad de protección en salud y vida impulsaron este crecimiento.",
       "sourceName": "ELHERALDO.CO",
       "sourceUrl": "https://www.elheraldo.co/economia/2026/02/27/reportan-crecimiento-del-sector-asegurador-en-colombia-salud-y-seguridad-social-los-que-tuvieron-mejores-cifras/",
-      "imageUrl": "https://www.elheraldo.co/resizer/v2/UP6P7GNMF5B4BMW2Z62ZZAF4NQ.jpeg?smart=true&auth=42cbec262c5a61126773e0bf6b4692398d5652c247aa20077b1d76b0cc4e4869&width=1200&height=675"
+      "imageUrl": "https://www.elheraldo.co/resizer/v2/UP6P7GNMF5B4BMW2Z62ZZAF4NQ.jpeg?smart=true&auth=42cbec262c5a61126773e0bf6b4692398d5652c247aa20077b1d76b0cc4e4869&width=1200&height=675",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Ministro de Ecuador atribuye alza de aranceles a una ruptura en el diálogo con Colombia: 'Había una comunicación que se estaba dando'",
+      "summary280": "El alza de aranceles se debe a la ruptura del diálogo entre Ecuador y Colombia, según el ministro Luis Alberto Jaramillo. La medida, que incrementa el arancel del 30 % al 50 %, entrará en vigencia el 1 de marzo.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/mundo/latinoamerica/ministro-de-ecuador-atribuye-alza-de-aranceles-a-una-ruptura-en-el-dialogo-con-colombia-habia-una-comunicacion-que-se-estaba-dando-3535923",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/02/27/69a14b263c616.jpeg",
+      "type": "question"
     },
     {
       "titleOriginal": "Katherine Miranda: 'Yo no cambio de principios según el gobierno de turno, critiqué el nepotismo antes y lo hago ahora'",
-      "summary280": "Katherine Miranda sostiene que no cambia de principios según el gobierno de turno y critica el nepotismo, la seguridad y la corrupción de manera coherente, sin importar la administración en el poder. Su enfoque se centra en la meritocracia y el control político riguroso.",
+      "summary280": "Katherine Miranda sostiene que no cambia de principios según el gobierno de turno y que ha mantenido posturas coherentes en temas como nepotismo, meritocracia, seguridad y corrupción, ejerciendo un control político riguroso sin importar la ideología del Ejecutivo.",
       "sourceName": "El Tiempo",
       "sourceUrl": "https://www.eltiempo.com/politica/elecciones-colombia-2026/katherine-miranda-yo-no-cambio-de-principios-segun-el-gobierno-de-turno-critique-el-nepotismo-antes-y-lo-hago-ahora-3535842",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/24/699de0dcc294b.r_d.477-504-0.jpeg"
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/24/699de0dcc294b.r_d.477-504-0.jpeg",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Mauricio Cárdenas: 'Gustavo Petro está preparando el terreno para acusar a la Registraduría de fraude cuando pierda'",
+      "summary280": "Mauricio Cárdenas afirma que Gustavo Petro está preparando el terreno para acusar a la Registraduría de fraude en caso de perder las elecciones.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/politica/elecciones-colombia-2026/mauricio-cardenas-colombia-cayo-en-manos-del-gota-a-gota-internacional-para-que-le-presten-plata-3535110",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/24/699e0fc087f7e.r_d.462-267-0.jpeg",
+      "type": "question"
+    },
+    {
+      "titleOriginal": "Atención: Corte Interamericana condena a Colombia por homicidio de profesor que alertó alianza entre Estado y 'paras' en las masacres de Segovia",
+      "summary280": "La Corte Interamericana de Derechos Humanos condenó a Colombia por el homicidio del profesor Jesús Ramiro Zapata, reconocido defensor de derechos humanos, asesinado en 2000 tras denunciar la alianza entre paramilitares y fuerzas del Estado.",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/justicia/paz-y-derechos-humanos/corte-interamericana-condena-a-colombia-por-homicidio-de-profesor-que-alerto-alianza-paramilitar-con-el-estado-en-las-masacres-de-segovia-3534643",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/02/23/699c5d0a0b9bc.png",
+      "type": "question"
     }
   ]
 }
