@@ -1,47 +1,95 @@
 {
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T00:46:45.183800-05:00",
+  "generated_at": "2026-03-01T00:55:52.463934-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
-      "summary280": "El artículo menciona que la oposición en Irán es fragmentada y carece de un liderazgo claro, con muchos disidentes perseguidos y en el exilio. Aunque hay un deseo de cambio de régimen, no se identifican grupos específicos ni se confirma un consenso sobre los cambios que buscan.",
+      "titleOriginal": "La trampa de la carga cognitiva: por qué estudiar más horas no siempre te ayuda a aprender más",
+      "summary280": "El estudio prolongado no garantiza un mejor aprendizaje, según la experta Noelia Valle. La efectividad del aprendizaje depende de la capacidad limitada de la memoria de trabajo y la carga cognitiva, sugiriendo que integrar información es más crucial que acumular horas de estudio.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
-      "type": "question"
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c0435y9qexvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d19f/live/0d602910-0d95-11f1-b5e2-dd58fc65f0f6.jpg",
+      "type": "explainer"
     },
     {
-      "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos",
-      "summary280": "El tiroteo entre una lancha civil estadounidense y la patrulla fronteriza cubana dejó cuatro muertos, según el Ministerio del Interior cubano, que afirma que los tripulantes eran cubanos armados con intenciones terroristas. EE.UU. niega su implicación y se investiga el incidente.",
+      "titleOriginal": "Las fotos que muestran cómo quedó la corona del siglo XIX que se les cayó a los ladrones del museo del Louvre",
+      "summary280": "La corona de la emperatriz Eugenia, robada en un asalto al Louvre, quedó gravemente deformada tras caer de manos de los ladrones. Aunque le falta una de sus águilas y sufrió daños, el museo asegura que puede ser restaurada a su estado original. La investigación sigue en curso.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/79d4/live/5e02f360-1327-11f1-8080-b36026ca95b4.jpg",
-      "type": "question"
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cq5y52zn82wo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0744/live/822c7830-02b3-11f1-83b0-21555a6f44a1.jpg",
+      "type": "explainer"
     },
     {
-      "titleOriginal": "Cómo Ghislaine Maxwell llevó a Bill Clinton al círculo de Jeffrey Epstein",
-      "summary280": "Ghislaine Maxwell facilitó la conexión entre Bill Clinton y Jeffrey Epstein, cultivando relaciones a través de correos y reuniones. Aunque Clinton ha negado conocer los delitos de Epstein, los documentos no implican irregularidades por su parte ni lo acusan de mala conducta.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c5yj4430kzlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/07fa/live/c1bda190-1339-11f1-b048-c9424b2cf5fd.png",
-      "type": "question"
+      "titleOriginal": "EN VIVO: Bahréin calificó los ataques iraníes de “cobardes” y confirmó que países del Golfo se defenderán",
+      "summary280": "Bahréin calificó los ataques iraníes de \"cobardes\" y afirmó que los países del Golfo se defenderán ante lo que consideran una violación de su soberanía y una amenaza a la seguridad internacional. La situación se intensifica tras la muerte del líder supremo iraní, Ali Khamenei.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/01/en-vivo-israel-y-estados-unidos-atacan-iran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/DRBKAXSTXRBMTIPYRBXPMQNYAY.JPG?auth=532bfbeca4e8eb6f4db5472624bd02ad801abd8ef7f3723b3f8e2d09b21ddf6b&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
     },
     {
-      "titleOriginal": "Cómo un simple ladrillo de una casa ayudó a salvar a una niña tras años de abusos",
-      "summary280": "El ladrillo visible en las imágenes del dormitorio de Lucy permitió a los investigadores identificar su origen y restringir la búsqueda a una región específica en Norteamérica, lo que facilitó su localización tras años de abusos. Este hallazgo fue clave en la investigación.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cpqw21xqj51o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5ef8/live/d681e5e0-0827-11f1-b5e2-dd58fc65f0f6.png",
-      "type": "question"
+      "titleOriginal": "Seis planetas en el cielo: la alineación de 2026 que no volverá a repetirse hasta 2040",
+      "summary280": "El 28 de febrero de 2026, se producirá una alineación planetaria inusual con seis planetas y la Luna visibles en el cielo, un fenómeno que no se repetirá hasta 2040. Este evento ofrece una oportunidad única para la observación astronómica y la educación sobre el cosmos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/ciencia-america/2026/03/01/seis-planetas-en-el-cielo-la-alineacion-de-2026-que-no-volvera-a-repetirse-hasta-2040/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/25RZIE4MP5GVNMCUEQDJJERRDI.png?auth=721973f5c7507b8edc09a24b1a4d3ccec63c3d6f127c5fc9b52f451cda21a8cd&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "EN VIVO: Baréin calificó los ataques iraníes de “cobardes” y confirmó que países del Golfo se defenderán",
+      "summary280": "Baréin calificó los ataques iraníes de \"cobardes\" y afirmó que los países del Golfo se preparan para defenderse. Esto ocurre tras un ataque conjunto de EE. UU. e Israel que resultó en la muerte del líder supremo iraní, Ali Khamenei, y en represalias por parte de Irán.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/02/28/israel-declaro-el-el-estado-de-emergencia-tras-el-ataque-al-regimen-de-iran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/UIZZPRZFZ5F2BP2USNQH2M7E74.JPG?auth=c0337737545e1929a6b8779b06e852fcbef48b1e84e960ebb822a7c940ae78e8&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
     },
     {
       "titleOriginal": "Cuáles son los municipios con las tasas más altas del país",
-      "summary280": "Los municipios con las tasas más altas del país, alcanzando un 4,5%, son Neuquén capital, Plottier, San Martín de los Andes, Senillosa, Plaza Huincul, Junín de los Andes, Centenario y Cutral Co en Neuquén, y Cipolletti en Río Negro.",
+      "summary280": "El Gobierno nacional lanzó un sitio web de transparencia tributaria municipal, revelando que los municipios con las tasas más altas del país son ocho de Neuquén y uno de Río Negro, todos con un 4,5% en la tasa vial. Esto busca presionar a los municipios a reducir impuestos.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/politica/2026/03/01/cuales-son-los-municipios-con-las-tasas-mas-altas-del-pais/",
       "imageUrl": "https://www.infobae.com/resizer/v2/XTOSIQLPJNA2RF5HVIL555T6DI.jpg?auth=ee17aa724368c5d4388268a39ec0ffef2f9ed375e2896cc52006c868d350aaf0&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Las locuras del Chacho Coudet en River: de la broma que dejó “ciego” a un compañero a los chistes a Saviola y Aimar",
+      "summary280": "Eduardo Coudet, exjugador de River, es recordado por sus anécdotas y humor en el club, desde teñirse de rubio hasta bromear con compañeros como Saviola y Aimar. A diez años de su declaración sobre dirigir al equipo, está cerca de asumir el cargo tras la salida de Gallardo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/deportes/2026/03/01/las-locuras-del-chacho-coudet-en-river-de-la-broma-que-dejo-ciego-a-un-companero-a-los-chistes-a-saviola-y-aimar/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/HBWBE73ZJNBCFNNJ63LZMHWGRQ.jpg?auth=3c451da402f627785854d42a2e6e6f0498c53bdd5f0e37f2345d37a314679714&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Cuentas remuneradas en dólares: qué son, cómo funcionan y cuánto paga cada banco",
+      "summary280": "Las cuentas remuneradas en dólares permiten a los ahorristas generar rendimientos sin inmovilizar sus fondos, con tasas que promedian el 2% TNA. La oferta varía entre bancos y plataformas digitales, destacando límites en los montos sobre los que se aplican intereses.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/economia/2026/03/01/cuentas-remuneradas-en-dolares-que-son-como-funcionan-y-cuanto-paga-cada-banco/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/ZPG3IHFKLJDNXIOHI73VHQJZIM.jpg?auth=2be490d224c79b22e4f8802d0295e28e0b76327e32094ef1c790ea52cce87841&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Beatriz Martínez, psiquiatra: “Si tú te pasas horas usando pantallas, es difícil que tu hijo esté jugando con puzzles”",
+      "summary280": "Beatriz Martínez, psiquiatra, advierte sobre el impacto de las pantallas en la atención y concentración de niños y adolescentes. Aunque reconoce su utilidad, enfatiza la necesidad de reflexionar sobre su uso y evitar que sean el único recurso para el entretenimiento infantil.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/01/beatriz-martinez-psiquiatra-si-tu-te-pasas-horas-usando-pantallas-es-dificil-que-tu-hijo-este-jugando-con-puzzles/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/HVLBMQ7QGNGVBNQ77PLGO3PIRM.jpg?auth=ecb36eef58a4aab6eb567974ae5d0898c4e88bec82ecab296c2551751e2bb9c1&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "México define a sus pitchers abridores y confirma quién suplirá la baja de Taj Bradley en el Clásico Mundial",
+      "summary280": "La Selección Mexicana de Béisbol ha definido a Javier Assad y Taijuan Walker como sus pitchers abridores para el Clásico Mundial 2026, tras la baja de Taj Bradley. Manny Barreda se unirá al equipo para suplir esta ausencia, aportando experiencia y liderazgo al staff de pitcheo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/01/mexico-define-a-sus-pitchers-abridores-y-confirma-quien-suplira-la-baja-de-taj-bradley-en-el-clasico-mundial/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/6QVQ7MQHG5AV5NAWYB4AM3ETJQ.png?auth=107ead61e5d5125368ff84671e74cc1bec702cb75fc33d5eb8694d50b31684be&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
+    },
+    {
+      "titleOriginal": "Té verde para el rostro: cómo reducir la mancha en el bigote y aclarar la piel de forma natural",
+      "summary280": "El té verde se presenta como un recurso natural para tratar la hiperpigmentación del bigote, gracias a sus propiedades antioxidantes y antiinflamatorias. Su aplicación constante puede ayudar a reducir manchas oscuras, aunque se recomienda consultar a un dermatólogo si persisten.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/te-verde-para-el-rostro-como-reducir-la-mancha-en-el-bigote-y-aclarar-la-piel-de-forma-natural/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/X6K6OXVSNVFUTEELGC6XSOJGCU.png?auth=84e06c5c8a0fe68aa67a6b19895977adba4d9265ac83a0a891a9b3555008afe8&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer"
     }
   ]
 }
