@@ -149,6 +149,13 @@ for line in lines:
     if len(headlines) >= 20:
         break
 
+# Ordenar por first_seen descendente (más recientes primero)
+headlines = sorted(
+    headlines,
+    key=lambda x: historical["news"][make_id(x["sourceUrl"])]["first_seen"],
+    reverse=True
+)
+
 edition = {
     "edition_date": now.strftime("%d %b %Y"),
     "generated_at": now.isoformat(),
