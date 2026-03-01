@@ -12,8 +12,13 @@ print("===== INICIO GENERATE.PY =====")
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 TARGET_NEWS = 12
 
-def clean_text(text):
-    return " ".join(text.split())
+def safe_trim(text, limit=280):
+    if len(text) <= limit:
+        return text
+    trimmed = text[:limit]
+    if " " in trimmed:
+        trimmed = trimmed.rsplit(" ",1)[0]
+    return trimmed
 
 def extract_article(url):
     try:
@@ -21,38 +26,39 @@ def extract_article(url):
         doc = Document(response.text)
         soup = BeautifulSoup(doc.summary(), "html.parser")
         paragraphs = soup.find_all("p")
-        return clean_text(" ".join(p.get_text() for p in paragraphs))
+        return " ".join(p.get_text() for p in paragraphs)
     except:
         return None
 
-def extract_title_and_image(url):
+def extract_title_image(url):
     try:
         response = requests.get(url, timeout=15)
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(response.text,"html.parser")
 
-        og_title = soup.find("meta", property="og:title")
-        og_image = soup.find("meta", property="og:image")
+        og_title = soup.find("meta",property="og:title")
+        og_image = soup.find("meta",property="og:image")
 
-        title = og_title["content"] if og_title and og_title.get("content") else soup.title.string
-        image = og_image["content"] if og_image and og_image.get("content") else None
+        title = og_title["content"] if og_title else soup.title.string
+        image = og_image["content"] if og_image else None
 
-        return clean_text(title), image
+        return title.strip(), image
     except:
-        return None, None
+        return None,None
 
-def is_duplicate(new_summary, existing):
-    new_base = new_summary[:120].lower()
+def is_duplicate(summary, existing):
+    base = summary[:120].lower()
     for item in existing:
-        if new_base == item["summary280"][:120].lower():
+        if base == item["summary280"][:120].lower():
             return True
     return False
 
 def generate_answer(title, content):
+
     prompt = f"""
-Responde directamente la pregunta del titular con claridad.
-No resumas.
+Responde directamente la pregunta del titular.
 No repitas el titular.
 Máximo 280 caracteres.
+Respuesta clara y directa.
 
 Titular:
 {title}
@@ -60,27 +66,32 @@ Titular:
 Contenido:
 {content[:4000]}
 """
+
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "Responde preguntas periodísticas con precisión y claridad."},
-                {"role": "user", "content": prompt}
+                {"role":"system","content":"Eres editor periodístico. Responde preguntas con claridad."},
+                {"role":"user","content":prompt}
             ],
-            temperature=0.2,
+            temperature=0.2
         )
-        return response.choices[0].message.content.strip()[:280]
+
+        answer = response.choices[0].message.content.strip()
+        return safe_trim(answer,280)
+
     except:
         return None
 
 def load_links():
     if not os.path.exists("links.txt"):
         return []
-    with open("links.txt", "r", encoding="utf-8") as f:
+    with open("links.txt","r",encoding="utf-8") as f:
         content = f.read().strip()
     return content.split(";") if content else []
 
 def main():
+
     links = load_links()
     headlines = []
 
@@ -88,19 +99,19 @@ def main():
         if len(headlines) >= TARGET_NEWS:
             break
 
-        print("🔎 Procesando:", url)
+        print("🔎 Procesando:",url)
 
-        title, image_url = extract_title_and_image(url)
+        title,image = extract_title_image(url)
         content = extract_article(url)
 
         if not title or not content:
             continue
 
-        answer = generate_answer(title, content)
+        answer = generate_answer(title,content)
         if not answer:
             continue
 
-        if is_duplicate(answer, headlines):
+        if is_duplicate(answer,headlines):
             print("⚠ Duplicado detectado")
             continue
 
@@ -108,7 +119,7 @@ def main():
             "titleOriginal": title,
             "summary280": answer,
             "sourceUrl": url,
-            "imageUrl": image_url,
+            "imageUrl": image,
             "type": "question"
         })
 
@@ -122,8 +133,8 @@ def main():
         "headlines": headlines
     }
 
-    with open("edition.json", "w", encoding="utf-8") as f:
-        json.dump(edition, f, ensure_ascii=False, indent=2)
+    with open("edition.json","w",encoding="utf-8") as f:
+        json.dump(edition,f,ensure_ascii=False,indent=2)
 
     print(f"✅ Noticias generadas: {len(headlines)}")
     print("===== FIN GENERATE.PY =====")
