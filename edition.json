@@ -1,40 +1,7 @@
 {
   "edition_date": "28 Feb 2026",
-  "edition_number": 72,
-  "generated_at": "2026-02-28T22:55:01.482131-05:00",
+  "edition_number": 73,
+  "generated_at": "2026-02-28T23:05:09.839437-05:00",
   "country": "Internacional",
-  "headlines": [
-    {
-      "titleOriginal": "¿Cómo se compara la semana laboral de 40 horas aprobada en México con el resto de América Latina? (y por qué Argentina es un caso aparte) - BBC News Mundo",
-      "summary280": "La semana laboral de 40 horas en México se alinea con países como Ecuador, pero enfrenta críticas por mantener un solo día de descanso y aumentar horas extras.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cvg3qpwer65o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/f854/live/3b936440-132c-11f1-8080-b36026ca95b4.jpg",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "¿Cómo estará el clima en Guadalajara?",
-      "summary280": "Se prevé una temperatura máxima de 31°C y mínima de 12°C en Guadalajara. La probabilidad de lluvia es del 1% durante el día y del 3% en la noche. Las ráfagas de viento alcanzarán los 22 km/h en el día y 26 km/h en la noche. Cuidado con los rayos UV, que llegarán a un nivel de 9.",
-      "sourceName": "infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/como-estara-el-clima-en-guadalajara/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/SGDHSU6UNNDWRODNWHHK6QZ6AY.png?auth=c17e95996fc72d9b217616f87ad35325a406f14310efb838234096ebada94750&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Reforma electoral: ¿Cómo quedaría conformada la Cámara de Diputados y el Senado de la República si se aprueba propuesta de Sheinbaum?",
-      "summary280": "La propuesta de Sheinbaum dejaría la Cámara de Diputados con 500 legisladores y el Senado con 96 miembros. En la Cámara, 300 serían elegidos por distrito y 200 por representación, mientras que en el Senado, 64 serían elegidos por mayoría y 32 por primera minoría.",
-      "sourceName": "infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/01/reforma-electoral-como-quedaria-conformada-la-camara-de-diputados-y-el-senado-de-la-republica-si-se-aprueba-propuesta-de-sheinbaum/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/JRRHYBRT5VD4VEIRWG3EWMZLWQ.png?auth=c57d724193a68db504651fc858718b331ac5a5ac6c417c7c3c78912005f07473&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
-    },
-    {
-      "titleOriginal": "Ministerio de Salud insta a detectar señales tempranas de enfermedades raras para prevenir discapacidad: ¿cuáles son?",
-      "summary280": "Los signos de alerta temprana de enfermedades raras incluyen retraso en el desarrollo psicomotor, dificultades de aprendizaje, problemas del habla y comunicación, pérdida auditiva, alteraciones posturales, dolor persistente y limitaciones en la movilidad.",
-      "sourceName": "infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/01/ministerio-de-salud-insta-a-detectar-senales-tempranas-de-enfermedades-raras-para-prevenir-discapacidad-cuales-son/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/BU2OKYIJXJBVTPHFY7B3LTCCD4.png?auth=0ebbf15481f6dea45a276e992a4a76965894b9c91e51b4cce5e46a805db01e71&smart=true&width=1200&height=630&quality=85",
-      "type": "question"
-    }
-  ]
+  "headlines": []
 }
