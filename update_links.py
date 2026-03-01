@@ -24,6 +24,7 @@ def clean_text(text):
 
 def is_valid_question(title):
     lower = title.lower()
+
     if "?" not in title and not lower.startswith(("qué","como","cómo","por qué","cuáles")):
         return False
 
@@ -108,59 +109,72 @@ def progressive_balance(news):
     category_counter = Counter()
     source_counter = Counter()
 
-    def can_add(item, strict=True):
-        dominant = item["keywords"][0] if item["keywords"] else None
+    def dominant_keyword(item):
+        return item["keywords"][0] if item["keywords"] else None
 
-        if strict:
-            if item["country"] != "colombia" and country_counter[item["country"]] >= 1:
-                return False
-
-        if category_counter[item["category"]] >= 2:
-            return False
-
-        if dominant and macro_counter[dominant] >= 2:
-            return False
-
+    def base_constraints(item):
+        # NUNCA se relajan
         if source_counter[item["source"]] >= 3:
             return False
-
+        dk = dominant_keyword(item)
+        if dk and macro_counter[dk] >= 2:
+            return False
         return True
 
-    # FASE 1 estricta
+    # FASE 1 (estricta)
     for item in news:
-        if can_add(item, strict=True):
-            final.append(item)
-            dominant = item["keywords"][0] if item["keywords"] else None
-            if dominant:
-                macro_counter[dominant]+=1
-            country_counter[item["country"]]+=1
-            category_counter[item["category"]]+=1
-            source_counter[item["source"]]+=1
-        if len(final)>=TARGET_NEWS:
+        if not base_constraints(item):
+            continue
+        if item["country"] != "colombia" and country_counter[item["country"]] >= 1:
+            continue
+        if category_counter[item["category"]] >= 2:
+            continue
+
+        final.append(item)
+        dk = dominant_keyword(item)
+        if dk:
+            macro_counter[dk] += 1
+        country_counter[item["country"]] += 1
+        category_counter[item["category"]] += 1
+        source_counter[item["source"]] += 1
+
+        if len(final) >= TARGET_NEWS:
             return final
 
-    # FASE 2 relajar país
+    # FASE 2 (relajar país)
     for item in news:
         if item in final:
             continue
-        if can_add(item, strict=False):
-            final.append(item)
-            dominant = item["keywords"][0] if item["keywords"] else None
-            if dominant:
-                macro_counter[dominant]+=1
-            country_counter[item["country"]]+=1
-            category_counter[item["category"]]+=1
-            source_counter[item["source"]]+=1
-        if len(final)>=TARGET_NEWS:
+        if not base_constraints(item):
+            continue
+        if category_counter[item["category"]] >= 2:
+            continue
+
+        final.append(item)
+        dk = dominant_keyword(item)
+        if dk:
+            macro_counter[dk] += 1
+        country_counter[item["country"]] += 1
+        category_counter[item["category"]] += 1
+        source_counter[item["source"]] += 1
+
+        if len(final) >= TARGET_NEWS:
             return final
 
-    # FASE 3 solo limitar categoría y fuente
+    # FASE 3 (relajar categoría)
     for item in news:
         if item in final:
             continue
-        if category_counter[item["category"]] < 3 and source_counter[item["source"]] < 4:
-            final.append(item)
-        if len(final)>=TARGET_NEWS:
+        if not base_constraints(item):
+            continue
+
+        final.append(item)
+        dk = dominant_keyword(item)
+        if dk:
+            macro_counter[dk] += 1
+        source_counter[item["source"]] += 1
+
+        if len(final) >= TARGET_NEWS:
             return final
 
     return final
