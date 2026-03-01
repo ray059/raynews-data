@@ -43,9 +43,15 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+      
           git add edition.json links.txt historical_editions.json
-          git commit -m "Daily edition update" || echo "No changes"
-          git push
+      
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update"
+            git push
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
