@@ -105,6 +105,7 @@ def detect_event_keyword(title):
 # =============================
 
 def generate_summary_with_ai(text):
+
     if not client:
         return fallback_summary(text)
 
@@ -114,11 +115,11 @@ def generate_summary_with_ai(text):
 Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
 
 Reglas:
-- Solo usa información explícita del texto.
+- Usa solo información explícita del texto.
 - No inventes datos.
 - No agregues contexto externo.
 - Tono periodístico neutral.
-- Termina en punto.
+- Debe terminar en punto.
 
 Noticia:
 {text}
@@ -138,14 +139,14 @@ Noticia:
         if len(summary) <= MAX_SUMMARY_LENGTH and summary.endswith("."):
             return summary
 
-        return summary[:MAX_SUMMARY_LENGTH].rsplit(" ",1)[0] + "."
+        return summary[:MAX_SUMMARY_LENGTH].rsplit(" ", 1)[0] + "."
 
     except Exception as e:
         print("Error IA:", e)
         return fallback_summary(text)
 
 def fallback_summary(text):
-    fallback = text[:250].rsplit(" ",1)[0]
+    fallback = text[:250].rsplit(" ", 1)[0]
     return fallback.rstrip(" ,;:") + "."
 
 # =============================
@@ -172,25 +173,19 @@ def extract_article_data(url, existing_titles):
 
         response.encoding = response.apparent_encoding
 
-        # =====================
-        # 1️⃣ READABILITY FIRST
-        # =====================
-        try:
-            doc = Document(response.text)
-            content_html = doc.summary()
-            soup = BeautifulSoup(content_html, "html.parser")
-        except:
-            soup = BeautifulSoup(response.text, "html.parser")
+        # 🔹 Parse ORIGINAL HTML for meta tags
+        original_soup = BeautifulSoup(response.text, "html.parser")
 
-        title_tag = soup.find("meta", property="og:title")
-        image_tag = soup.find("meta", property="og:image")
-        source_tag = soup.find("meta", property="og:site_name")
+        title_tag = original_soup.find("meta", property="og:title")
+        image_tag = original_soup.find("meta", property="og:image")
+        source_tag = original_soup.find("meta", property="og:site_name")
 
         if not title_tag:
             return None
 
         title = clean_text(title_tag["content"].split("|")[0])
 
+        # 🔹 Duplicate title filter
         if is_similar_title(title, existing_titles):
             print("⚠ Título muy similar, descartado")
             return None
@@ -198,8 +193,15 @@ def extract_article_data(url, existing_titles):
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
-        paragraphs = soup.find_all(["p", "li"])
+        # 🔹 Use Readability ONLY for article body
+        try:
+            doc = Document(response.text)
+            content_html = doc.summary()
+            soup = BeautifulSoup(content_html, "html.parser")
+        except:
+            soup = original_soup
 
+        paragraphs = soup.find_all(["p", "li"])
         clean_paragraphs = []
 
         for p in paragraphs:
