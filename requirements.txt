@@ -2,3 +2,4 @@ requests
 beautifulsoup4
 openai
 readability-lxml
+pytz==2024.1
