@@ -5,7 +5,7 @@ from collections import defaultdict
 
 print("===== INICIO UPDATE_LINKS.PY =====")
 
-TARGET_NEWS = 30
+TARGET_NEWS = 60
 
 RSS_SOURCES = {
     "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
