@@ -2,18 +2,25 @@ name: Daily News Update
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 on:
   schedule:
     - cron: '0 8 * * *'   # 3 AM Colombia (UTC-5)
   workflow_dispatch:
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  update-news:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -22,7 +29,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 openai readability-lxml pytz
+          pip install -r requirements.txt
 
       - name: Update links
         run: python update_links.py
@@ -39,3 +46,24 @@ jobs:
           git add edition.json links.txt
           git commit -m "Daily edition update" || echo "No changes"
           git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
