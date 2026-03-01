@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 print("===== INICIO UPDATE_LINKS.PY =====")
 
-TARGET_NEWS = 80  # Queremos suficiente materia prima
+TARGET_NEWS = 100  # Suficiente materia prima
 
 RSS_SOURCES = {
     "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
@@ -13,15 +13,31 @@ RSS_SOURCES = {
     "DW Español": "https://rss.dw.com/rdf/rss-es-all"
 }
 
-def is_question(title):
-    title = title.strip().lower()
-    return (
-        title.startswith("¿") or
-        title.startswith(("qué", "como", "cómo", "por qué", "cuál", "cuáles"))
-    )
-
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
+
+# Acepta preguntas + titulares explicativos
+def is_explainer(title):
+    title = title.strip().lower()
+
+    keywords = [
+        "qué",
+        "que ",
+        "cómo",
+        "como ",
+        "por qué",
+        "cuál",
+        "cuáles",
+        "quién",
+        "quienes",
+        "claves",
+        "lo que se sabe",
+        "qué significa",
+        "por qué ocurre",
+        "así es"
+    ]
+
+    return any(k in title for k in keywords)
 
 all_news = []
 
@@ -43,7 +59,7 @@ for source_name, rss_url in RSS_SOURCES.items():
             if not title or not link:
                 continue
 
-            if not is_question(title):
+            if not is_explainer(title):
                 continue
 
             all_news.append({
@@ -55,9 +71,9 @@ for source_name, rss_url in RSS_SOURCES.items():
     except Exception as e:
         print(f"Error en {source_name}: {e}")
 
-print(f"Total noticias encontradas: {len(all_news)}")
+print(f"Total candidatos encontrados: {len(all_news)}")
 
-# Limitar después, no por medio
+# Limitar después de recolectar todo
 all_news = all_news[:TARGET_NEWS]
 
 with open("links.txt", "w", encoding="utf-8") as f:
