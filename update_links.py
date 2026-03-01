@@ -98,15 +98,13 @@ def balance_news(news):
     country_used = {}
     category_used = {}
 
-    # FASE 1: balance estricto
+    # Fase 1: balance estricto
     for item in news:
-
         country = item["country"]
         category = item["category"]
 
-        if country != "colombia":
-            if country_used.get(country, 0) >= 1:
-                continue
+        if country != "colombia" and country_used.get(country, 0) >= 1:
+            continue
 
         if category_used.get(category, 0) >= 2:
             continue
@@ -118,7 +116,7 @@ def balance_news(news):
         if len(final) >= TARGET_NEWS:
             return final
 
-    # FASE 2: relajar país extranjero
+    # Fase 2: relajar país
     for item in news:
         if item in final:
             continue
@@ -134,13 +132,12 @@ def balance_news(news):
         if len(final) >= TARGET_NEWS:
             return final
 
-    # FASE 3: relajar categoría
+    # Fase 3: relajar categoría
     for item in news:
         if item in final:
             continue
 
         final.append(item)
-
         if len(final) >= TARGET_NEWS:
             return final
 
@@ -155,7 +152,7 @@ def main():
     with open("links.txt", "w", encoding="utf-8") as f:
         f.write(";".join(links))
 
-    print(f"✅ Links finales guardados: {len(links)}")
+    print(f"✅ Links guardados: {len(links)}")
     print("===== FIN UPDATE_LINKS.PY =====")
 
 if __name__ == "__main__":
