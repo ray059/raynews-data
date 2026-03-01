@@ -24,28 +24,12 @@ MAX_NEWS = 7
 MAX_SUMMARY_LENGTH = 280
 
 BLOCKED_DOMAINS = ["nytimes.com"]
-
 BLOCKED_PATHS = [
     "/opinion/",
     "/columnas",
     "/columnas-de-opinion",
     "/blogs/",
     "/editoriales/"
-]
-
-CORE_EVENT_WORDS = [
-    "sarampion",
-    "fiebre amarilla",
-    "elecciones",
-    "gran consulta",
-    "eps",
-    "decreto",
-    "sobretasa",
-    "arancel",
-    "guerra arancelaria",
-    "trasplante",
-    "empleo",
-    "violencia"
 ]
 
 # =============================
@@ -86,40 +70,6 @@ def get_next_edition_number():
             return 1
     return 1
 
-def normalize_title(title):
-    title = normalize_text(title)
-    title = re.sub(r'[^a-z0-9\s]', '', title)
-    words = title.split()
-    words = [w for w in words if len(w) > 4]
-    return set(words)
-
-def is_similar_title(title, existing_titles):
-    current_words = normalize_title(title)
-    for t in existing_titles:
-        other_words = normalize_title(t)
-        if len(current_words.intersection(other_words)) >= 3:
-            return True
-    return False
-
-def detect_event_keyword(title):
-    normalized_title = normalize_text(title)
-    for word in CORE_EVENT_WORDS:
-        if normalize_text(word) in normalized_title:
-            return normalize_text(word)
-    return None
-
-def title_requires_list_response(title):
-    patterns = [
-        "lista",
-        "cuáles son",
-        "quienes son",
-        "quiénes son",
-        "qué debe",
-        "que debe"
-    ]
-    normalized = normalize_text(title)
-    return any(p in normalized for p in patterns)
-
 def title_is_question(title):
     patterns = [
         "¿",
@@ -143,7 +93,7 @@ def title_is_question(title):
     return any(p in normalized for p in patterns)
 
 # =============================
-# IA MODOS
+# IA — RESPUESTA DIRECTA
 # =============================
 
 def generate_answer_to_question(text, title):
@@ -162,7 +112,7 @@ Reglas:
 - Respuesta directa.
 - No repitas la pregunta.
 - No agregues contexto innecesario.
-- Solo información explícita del texto.
+- Solo usa información explícita del texto.
 - Tono periodístico neutral.
 - Termina en punto.
 
@@ -183,6 +133,7 @@ Noticia:
 
         answer = clean_text(response.choices[0].message.content)
 
+        # Recorte seguro
         if len(answer) > MAX_SUMMARY_LENGTH:
             trimmed = answer[:MAX_SUMMARY_LENGTH]
             last_period = trimmed.rfind(".")
@@ -197,77 +148,14 @@ Noticia:
         return answer
 
     except Exception as e:
-        print("Error modo pregunta:", e)
+        print("Error IA:", e)
         return None
-
-
-def generate_summary_with_ai(text, title):
-
-    if not client:
-        return fallback_summary(text)
-
-    text = text[:2500]
-
-    strict_instruction = ""
-    if title_requires_list_response(title):
-        strict_instruction = """
-- Es obligatorio responder explícitamente la lista mencionada.
-- Enumerar claramente los elementos.
-"""
-
-    prompt = f"""
-Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
-
-Reglas:
-- Usa solo información explícita.
-- No inventes datos.
-{strict_instruction}
-- Tono periodístico neutral.
-- Termina en punto.
-
-Titular:
-{title}
-
-Noticia:
-{text}
-"""
-
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
-            max_tokens=220
-        )
-
-        summary = clean_text(response.choices[0].message.content)
-
-        if len(summary) > MAX_SUMMARY_LENGTH:
-            trimmed = summary[:MAX_SUMMARY_LENGTH]
-            last_period = trimmed.rfind(".")
-            if last_period != -1:
-                summary = trimmed[:last_period + 1]
-            else:
-                summary = trimmed.rsplit(" ", 1)[0] + "."
-
-        if not summary.endswith("."):
-            summary = summary.rstrip(" ,;:") + "."
-
-        return summary
-
-    except Exception:
-        return fallback_summary(text)
-
-
-def fallback_summary(text):
-    fallback = text[:250].rsplit(" ", 1)[0]
-    return fallback.rstrip(" ,;:") + "."
 
 # =============================
 # SCRAPING
 # =============================
 
-def extract_article_data(url, existing_titles):
+def extract_article_data(url):
 
     try:
         print("🔎 Procesando:", url)
@@ -297,7 +185,9 @@ def extract_article_data(url, existing_titles):
 
         title = clean_text(title_tag["content"].split("|")[0])
 
-        if is_similar_title(title, existing_titles):
+        # 🔥 SOLO PREGUNTAS
+        if not title_is_question(title):
+            print("⛔ No es pregunta, descartado")
             return None
 
         image = image_tag["content"] if image_tag else ""
@@ -324,23 +214,20 @@ def extract_article_data(url, existing_titles):
         if len(article_text) < 200:
             return None
 
-        # 🔥 PRIORIDAD 1 — TITULAR PREGUNTA
-        if title_is_question(title):
-            print("🟢 Modo pregunta activado")
-            answer = generate_answer_to_question(article_text, title)
-            if answer:
-                summary = answer
-            else:
-                summary = generate_summary_with_ai(article_text, title)
-        else:
-            summary = generate_summary_with_ai(article_text, title)
+        print("🟢 Generando respuesta directa")
+        summary = generate_answer_to_question(article_text, title)
+
+        if not summary:
+            print("⚠ No se pudo generar respuesta clara")
+            return None
 
         return {
             "titleOriginal": title,
             "summary280": summary,
             "sourceName": source,
             "sourceUrl": url,
-            "imageUrl": image
+            "imageUrl": image,
+            "type": "question"
         }
 
     except Exception as e:
@@ -363,22 +250,12 @@ def main():
     links = re.findall(r'https?://[^\s;]+', raw_links)
 
     headlines = []
-    used_events = set()
 
     for link in links:
 
-        existing_titles = [h["titleOriginal"] for h in headlines]
-        data = extract_article_data(link, existing_titles)
+        data = extract_article_data(link)
 
         if data:
-            event = detect_event_keyword(data["titleOriginal"])
-
-            if event and event in used_events:
-                continue
-
-            if event:
-                used_events.add(event)
-
             headlines.append(data)
 
         if len(headlines) >= MAX_NEWS:
