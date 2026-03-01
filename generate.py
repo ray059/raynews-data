@@ -108,15 +108,16 @@ for line in lines:
     title, url, source_name = parts
     news_id = make_id(url)
 
-    print("Procesando:", title)
+    is_new = False
 
     if news_id in historical["news"]:
-        print("♻ Reutilizando resumen existente")
         stored = historical["news"][news_id]
         summary = stored["summary280"]
         image = stored.get("imageUrl")
         historical["news"][news_id]["last_used"] = now.isoformat()
     else:
+        is_new = True
+
         article_text = extract_article_text(url)
         if len(article_text) < 400:
             continue
@@ -143,13 +144,14 @@ for line in lines:
         "sourceName": source_name,
         "sourceUrl": url,
         "imageUrl": image,
-        "type": "explainer"
+        "type": "explainer",
+        "isNew": is_new
     })
 
     if len(headlines) >= 20:
         break
 
-# Ordenar por first_seen descendente (más recientes primero)
+# Ordenar por first_seen descendente
 headlines = sorted(
     headlines,
     key=lambda x: historical["news"][make_id(x["sourceUrl"])]["first_seen"],
