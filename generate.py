@@ -14,7 +14,7 @@ def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
 # -------------------------------------------------
-# EXTRAER TEXTO REAL DEL ARTÍCULO
+# EXTRAER TEXTO REAL
 # -------------------------------------------------
 def extract_article_text(url):
     try:
@@ -31,7 +31,7 @@ def extract_article_text(url):
         return ""
 
 # -------------------------------------------------
-# EXTRAER IMAGEN PRINCIPAL
+# EXTRAER IMAGEN
 # -------------------------------------------------
 def extract_image(url):
     try:
@@ -47,7 +47,7 @@ def extract_image(url):
     return None
 
 # -------------------------------------------------
-# GENERAR RESUMEN EDITORIAL PRUDENTE
+# GENERAR RESUMEN PRUDENTE
 # -------------------------------------------------
 def generate_summary(title, article_text):
     if not OPENAI_API_KEY:
@@ -57,16 +57,15 @@ def generate_summary(title, article_text):
     openai.api_key = OPENAI_API_KEY
 
     prompt = f"""
-Responde claramente la pregunta del titular en máximo 280 caracteres.
+Responde claramente el titular en máximo 280 caracteres.
 
-Reglas obligatorias:
+Reglas:
 - Basate únicamente en el texto proporcionado.
 - No inventes información.
 - Mantén tono analítico y prudente.
-- Si el artículo menciona hipótesis o falta de confirmación, indícalo.
-- No afirmes como hecho algo que el texto no confirme explícitamente.
+- Si el texto menciona hipótesis o versiones, indícalo.
+- No confirmes muertes salvo confirmación explícita.
 - No incluyas listas de números tipo lotería.
-- No confirmes muertes salvo que el texto lo afirme explícitamente.
 
 Titular: {title}
 
@@ -89,7 +88,7 @@ Artículo:
         return None
 
 # -------------------------------------------------
-# VALIDADOR BÁSICO
+# VALIDACIÓN
 # -------------------------------------------------
 def validate_summary(summary):
     if not summary:
@@ -116,12 +115,11 @@ def validate_summary(summary):
     return True
 
 # -------------------------------------------------
-# FILTRO DE CONTENIDO RIESGOSO
+# FILTRO RIESGO
 # -------------------------------------------------
 def contains_risky_content(summary):
     lower = summary.lower()
 
-    # Bloquear secuencias de números tipo lotería
     if re.search(r"\b\d{1,2},\s?\d{1,2},\s?\d{1,2}", lower):
         return True
 
@@ -141,7 +139,7 @@ def contains_risky_content(summary):
     return False
 
 # -------------------------------------------------
-# PROCESAMIENTO PRINCIPAL
+# MAIN
 # -------------------------------------------------
 headlines = []
 
@@ -162,25 +160,18 @@ for line in lines:
 
     article_text = extract_article_text(url)
 
-    if len(article_text) < 500:
-        print("Artículo muy corto. Saltando.")
+    if len(article_text) < 400:
         continue
 
     summary = generate_summary(title, article_text)
 
-    # Validación básica
     if not validate_summary(summary):
-        print("Resumen inválido. Reintentando...")
         summary = generate_summary(title, article_text)
 
-    # Filtro de riesgo
     if contains_risky_content(summary):
-        print("Contenido riesgoso detectado. Regenerando en modo prudente...")
         summary = generate_summary(title, article_text)
 
-    # Validación final
     if not validate_summary(summary) or contains_risky_content(summary):
-        print("Resumen descartado por seguridad editorial.")
         continue
 
     image = extract_image(url)
@@ -191,7 +182,7 @@ for line in lines:
         "sourceName": source_name,
         "sourceUrl": url,
         "imageUrl": image,
-        "type": "question"
+        "type": "explainer"
     })
 
     if len(headlines) >= 20:
