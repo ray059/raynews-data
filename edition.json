@@ -1,9 +1,18 @@
 {
   "api_version": 2,
   "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T17:20:42.888777-05:00",
+  "generated_at": "2026-03-01T17:48:52.902545-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\"",
+      "summary280": "La UE declaró a Colombia como \"país seguro\", lo que permite rechazar casi automáticamente las solicitudes de asilo de colombianos. Esto se debe a la baja tasa de aprobación (5%) de estas solicitudes, a pesar del alto número de peticiones, que ha aumentado desde la exención de vis",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Análisis BBC: un momento extraordinario para el que Irán se ha estado preparando",
       "summary280": "Irán enfrenta un momento decisivo tras la muerte de su líder supremo, el ayatolá Jamenei, en un ataque aéreo. Las autoridades se preparaban para esta eventualidad, y mientras algunos lamentan su fallecimiento, otros celebran en las calles, marcando un posible cambio en el régimen",
@@ -41,15 +50,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Quién era y cómo ejerció el poder el ayatolá Alí Jamenei, líder supremo de Irán durante casi 4 décadas que murió en ataques de EE.UU. e Israel",
-      "summary280": "El ayatolá Alí Jamenei, líder supremo de Irán desde 1989, murió en ataques de EE.UU. e Israel. Durante casi 40 años, ejerció un poder absoluto, vetando políticas y eligiendo candidatos, mientras enfrentaba protestas masivas y acusaciones de desarrollar armas nucleares.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0m8j2grvlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/41b0/live/e5f983b0-4aeb-11f0-8abd-0dadf2c98a8a.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Quién tiene el poder en Irán tras la muerte del ayatolá Alí Jamenei y cómo se elegirá a su sucesor",
       "summary280": "Tras la muerte del ayatolá Alí Jamenei, el poder en Irán se encuentra en un momento incierto. La Asamblea de Expertos, compuesta por 88 clérigos, será la encargada de elegir a su sucesor, mientras que el presidente y el jefe del poder judicial asumirán interinamente.",
       "sourceName": "BBC News Mundo",
@@ -59,11 +59,11 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Qué aliados le quedan a Irán en la región en medio de su enfrentamiento con EE.UU. e Israel",
-      "summary280": "Irán enfrenta un debilitamiento de sus aliados en la región, con grupos como Hezbolá y Hamás en crisis, y la pérdida de apoyo en Siria tras el derrocamiento de Bashar al Assad. Los hutíes en Yemen son uno de los pocos aliados que permanecen fieles, intensificando sus ataques cont",
+      "titleOriginal": "Quién era y cómo ejerció el poder el ayatolá Alí Jamenei, líder supremo de Irán durante casi 4 décadas que murió en ataques de EE.UU. e Israel",
+      "summary280": "El ayatolá Alí Jamenei, líder supremo de Irán desde 1989, murió en ataques de EE.UU. e Israel. Durante casi 40 años, ejerció un poder absoluto, vetando políticas y eligiendo candidatos, mientras enfrentaba protestas masivas y acusaciones de desarrollar armas nucleares.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0m8j2grvlo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/41b0/live/e5f983b0-4aeb-11f0-8abd-0dadf2c98a8a.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -73,6 +73,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy6kzrylnko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/63bb/live/51460880-1505-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Qué aliados le quedan a Irán en la región en medio de su enfrentamiento con EE.UU. e Israel",
+      "summary280": "Irán enfrenta un debilitamiento de sus aliados en la región, con grupos como Hezbolá y Hamás en crisis, y la pérdida de apoyo en Siria tras el derrocamiento de Bashar al Assad. Los hutíes en Yemen son uno de los pocos aliados que permanecen fieles, intensificando sus ataques cont",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c620d3pzzjgo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/50ea/live/e72ead90-14b8-11f1-b4e3-735eb5ac1cbc.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuál es la presencia de China en Perú (y la ofensiva del gobierno de Trump para revertirla)",
-      "summary280": "China ha aumentado su influencia en Perú, convirtiéndose en su principal socio comercial y el mayor inversor, controlando activos clave como el puerto de Chancay y la mina Las Bambas. Esto ha alarmado al gobierno de Trump, que busca revertir esta tendencia.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn4gw9q23qvo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f35/live/02def8d0-1412-11f1-9e84-9b3edb4ade62.jpg",
       "type": "explainer",
       "isNew": false
     }
