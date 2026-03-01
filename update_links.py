@@ -4,104 +4,136 @@ from bs4 import BeautifulSoup
 
 print("===== INICIO UPDATE_LINKS.PY =====")
 
-MAX_LINKS = 30
+MAX_LINKS = 20
 
 RSS_SOURCES = [
-    # Nacional
-    "https://www.eltiempo.com/rss",
-    "https://www.elheraldo.co/rss.xml",
-
-    # Internacional en español
     "https://feeds.bbci.co.uk/mundo/rss.xml",
     "https://cnnespanol.cnn.com/feed/",
     "https://www.infobae.com/arc/outboundfeeds/rss/",
-    "https://www.dw.com/es/rss.xml"
+    "https://www.dw.com/es/rss.xml",
+    "https://www.eltiempo.com/rss"
 ]
 
 def clean_text(text):
     return re.sub(r'\s+', ' ', text).strip()
 
-def is_clickbait_title(title):
+def detect_country(title, link):
+    lower = (title + " " + link).lower()
+
+    if "colombia" in lower:
+        return "colombia"
+    elif "méxico" in lower:
+        return "mexico"
+    elif "perú" in lower:
+        return "peru"
+    elif "argentina" in lower:
+        return "argentina"
+    elif "ecuador" in lower:
+        return "ecuador"
+    else:
+        return "internacional"
+
+def detect_category(title):
     lower = title.lower()
 
-    clickbait_patterns = [
-        "esta es",
-        "este es",
-        "esto es",
-        "lo que",
-        "lo que debe",
-        "el dato",
-        "la razón",
-        "el motivo",
-        "así es",
-        "atención",
-        "por qué",
-        "qué pasó",
-        "que pasó",
-        "cómo",
-        "como ",
-        "qué es",
-        "cuáles son",
-        "cuales son",
-        "qué se sabe",
-        "que se sabe"
-    ]
+    if any(w in lower for w in ["elección", "gobierno", "presidente", "senado", "congreso", "decreto"]):
+        return "politica"
+    if any(w in lower for w in ["economía", "arancel", "inflación", "empleo", "reforma"]):
+        return "economia"
+    if any(w in lower for w in ["salud", "vacuna", "enfermedad"]):
+        return "salud"
+    if any(w in lower for w in ["corte", "justicia", "condena"]):
+        return "justicia"
+    return "sociedad"
 
-    return any(p in lower for p in clickbait_patterns)
+def is_valid_question(title):
+    lower = title.lower()
 
-def extract_links_from_rss(url):
-    try:
-        print(f"🔎 Revisando RSS: {url}")
-        response = requests.get(url, timeout=15)
+    if "?" not in title and not lower.startswith(("qué", "como", "cómo", "por qué", "cuáles")):
+        return False
 
-        if response.status_code != 200:
-            print("❌ Error RSS:", url)
-            return []
+    blocked = ["clima", "dólar", "horóscopo", "pronóstico", "temperatura", "uv"]
+    if any(w in lower for w in blocked):
+        return False
 
-        soup = BeautifulSoup(response.content, "xml")
-        items = soup.find_all("item")
+    return True
 
-        links = []
-
-        for item in items:
-            title_tag = item.find("title")
-            link_tag = item.find("link")
-
-            if not title_tag or not link_tag:
-                continue
-
-            title = clean_text(title_tag.text)
-            link = clean_text(link_tag.text)
-
-            if not is_clickbait_title(title):
-                continue
-
-            print("🟢 Clickbait detectado:", title)
-            links.append(link)
-
-        return links
-
-    except Exception as e:
-        print("⚠ Error procesando RSS:", url, e)
-        return []
-
-def main():
-
-    all_links = []
+def extract_links():
+    news = []
 
     for source in RSS_SOURCES:
-        links = extract_links_from_rss(source)
-        all_links.extend(links)
+        try:
+            response = requests.get(source, timeout=15)
+            soup = BeautifulSoup(response.content, "xml")
+            items = soup.find_all("item")
 
-    # Eliminar duplicados manteniendo orden
-    unique_links = list(dict.fromkeys(all_links))
+            for item in items:
+                title_tag = item.find("title")
+                link_tag = item.find("link")
 
-    final_links = unique_links[:MAX_LINKS]
+                if not title_tag or not link_tag:
+                    continue
+
+                title = clean_text(title_tag.text)
+                link = clean_text(link_tag.text)
+
+                if not is_valid_question(title):
+                    continue
+
+                country = detect_country(title, link)
+                category = detect_category(title)
+
+                news.append({
+                    "title": title,
+                    "link": link,
+                    "country": country,
+                    "category": category
+                })
+
+        except:
+            continue
+
+    return news
+
+def balance_news(news):
+
+    final = []
+    country_used = {}
+    category_used = {}
+
+    for item in news:
+
+        country = item["country"]
+        category = item["category"]
+
+        # Regla país
+        if country != "colombia":
+            if country in country_used:
+                continue
+
+        # Regla categoría (máx 2 por categoría)
+        if category_used.get(category, 0) >= 2:
+            continue
+
+        final.append(item)
+        country_used[country] = country_used.get(country, 0) + 1
+        category_used[category] = category_used.get(category, 0) + 1
+
+        if len(final) >= MAX_LINKS:
+            break
+
+    return final
+
+def main():
+    news = extract_links()
+    balanced = balance_news(news)
+
+    links = [item["link"] for item in balanced]
 
     with open("links.txt", "w", encoding="utf-8") as f:
-        f.write(";".join(final_links))
+        f.write(";".join(links))
 
-    print(f"✅ Links guardados: {len(final_links)}")
+    print(f"✅ Links balanceados guardados: {len(links)}")
     print("===== FIN UPDATE_LINKS.PY =====")
 
 if __name__ == "__main__":
