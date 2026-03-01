@@ -114,45 +114,57 @@ def title_requires_list_response(title):
         "cuáles son",
         "quienes son",
         "quiénes son",
-        "qué es",
-        "que es",
         "qué debe",
         "que debe"
     ]
     normalized = normalize_text(title)
     return any(p in normalized for p in patterns)
 
+def title_is_question(title):
+    patterns = [
+        "¿",
+        "?",
+        "que ",
+        "qué ",
+        "cual ",
+        "cuál ",
+        "cuales ",
+        "cuáles ",
+        "como ",
+        "cómo ",
+        "por que",
+        "por qué",
+        "quien ",
+        "quién ",
+        "cuando ",
+        "cuándo "
+    ]
+    normalized = normalize_text(title)
+    return any(p in normalized for p in patterns)
+
 # =============================
-# RESUMEN IA EDITORIAL
+# IA MODOS
 # =============================
 
-def generate_summary_with_ai(text, title):
+def generate_answer_to_question(text, title):
 
     if not client:
-        return fallback_summary(text)
+        return None
 
     text = text[:2500]
 
-    strict_instruction = ""
-
-    if title_requires_list_response(title):
-        strict_instruction = """
-- Es obligatorio responder explícitamente la lista mencionada en el titular.
-- No resumir solo el contexto.
-- Enumerar claramente los grupos o elementos mencionados.
-"""
-
     prompt = f"""
-Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
+El siguiente titular es una pregunta.
 
-Reglas estrictas:
-- Usa únicamente información explícita del texto.
-- No inventes datos.
-- No agregues contexto externo.
-{strict_instruction}
-- Si el contenido corresponde a declaraciones, deja claro que son afirmaciones del protagonista.
+Responde claramente la pregunta en máximo {MAX_SUMMARY_LENGTH} caracteres.
+
+Reglas:
+- Respuesta directa.
+- No repitas la pregunta.
+- No agregues contexto innecesario.
+- Solo información explícita del texto.
 - Tono periodístico neutral.
-- Debe terminar en punto.
+- Termina en punto.
 
 Titular:
 {title}
@@ -169,10 +181,67 @@ Noticia:
             max_tokens=220
         )
 
-        summary = response.choices[0].message.content.strip()
-        summary = clean_text(summary)
+        answer = clean_text(response.choices[0].message.content)
 
-        # 🔥 Recorte seguro
+        if len(answer) > MAX_SUMMARY_LENGTH:
+            trimmed = answer[:MAX_SUMMARY_LENGTH]
+            last_period = trimmed.rfind(".")
+            if last_period != -1:
+                answer = trimmed[:last_period + 1]
+            else:
+                answer = trimmed.rsplit(" ", 1)[0] + "."
+
+        if not answer.endswith("."):
+            answer = answer.rstrip(" ,;:") + "."
+
+        return answer
+
+    except Exception as e:
+        print("Error modo pregunta:", e)
+        return None
+
+
+def generate_summary_with_ai(text, title):
+
+    if not client:
+        return fallback_summary(text)
+
+    text = text[:2500]
+
+    strict_instruction = ""
+    if title_requires_list_response(title):
+        strict_instruction = """
+- Es obligatorio responder explícitamente la lista mencionada.
+- Enumerar claramente los elementos.
+"""
+
+    prompt = f"""
+Resume la siguiente noticia en máximo {MAX_SUMMARY_LENGTH} caracteres.
+
+Reglas:
+- Usa solo información explícita.
+- No inventes datos.
+{strict_instruction}
+- Tono periodístico neutral.
+- Termina en punto.
+
+Titular:
+{title}
+
+Noticia:
+{text}
+"""
+
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=220
+        )
+
+        summary = clean_text(response.choices[0].message.content)
+
         if len(summary) > MAX_SUMMARY_LENGTH:
             trimmed = summary[:MAX_SUMMARY_LENGTH]
             last_period = trimmed.rfind(".")
@@ -186,9 +255,9 @@ Noticia:
 
         return summary
 
-    except Exception as e:
-        print("Error IA:", e)
+    except Exception:
         return fallback_summary(text)
+
 
 def fallback_summary(text):
     fallback = text[:250].rsplit(" ", 1)[0]
@@ -229,13 +298,11 @@ def extract_article_data(url, existing_titles):
         title = clean_text(title_tag["content"].split("|")[0])
 
         if is_similar_title(title, existing_titles):
-            print("⚠ Título similar descartado")
             return None
 
         image = image_tag["content"] if image_tag else ""
         source = source_tag["content"] if source_tag else "Fuente"
 
-        # 🔥 Readability
         try:
             doc = Document(response.text)
             content_html = doc.summary()
@@ -252,13 +319,21 @@ def extract_article_data(url, existing_titles):
                 continue
             clean_paragraphs.append(text_p)
 
-        article_text = " ".join(clean_paragraphs)
-        article_text = clean_noise(article_text)
+        article_text = clean_noise(" ".join(clean_paragraphs))
 
         if len(article_text) < 200:
             return None
 
-        summary = generate_summary_with_ai(article_text, title)
+        # 🔥 PRIORIDAD 1 — TITULAR PREGUNTA
+        if title_is_question(title):
+            print("🟢 Modo pregunta activado")
+            answer = generate_answer_to_question(article_text, title)
+            if answer:
+                summary = answer
+            else:
+                summary = generate_summary_with_ai(article_text, title)
+        else:
+            summary = generate_summary_with_ai(article_text, title)
 
         return {
             "titleOriginal": title,
@@ -298,19 +373,17 @@ def main():
         if data:
             event = detect_event_keyword(data["titleOriginal"])
 
+            if event and event in used_events:
+                continue
+
             if event:
-                if event in used_events:
-                    print("⚠ Evento ya cubierto:", event)
-                    continue
                 used_events.add(event)
 
             headlines.append(data)
-            print("✅ Noticias acumuladas:", len(headlines))
 
         if len(headlines) >= MAX_NEWS:
             break
 
-    # 🔥 Zona horaria Colombia
     now = datetime.now(ZoneInfo("America/Bogota"))
 
     edition = {
