@@ -40,6 +40,7 @@ jobs:
         run: python generate.py
 
       - name: Commit changes
+        id: commit_step
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -47,16 +48,20 @@ jobs:
           git add edition.json links.txt historical_editions.json
       
           if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
             echo "No changes to commit"
           else
             git commit -m "Auto update"
             git push
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Setup Pages
+        if: steps.commit_step.outputs.changed == 'true'
         uses: actions/configure-pages@v4
-
+      
       - name: Upload artifact
+        if: steps.commit_step.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
