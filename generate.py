@@ -194,7 +194,7 @@ for line in lines:
         "type": "question"
     })
 
-    if len(headlines) >= 12:
+    if len(headlines) >= 20:
         break
 
 now = datetime.now(ZoneInfo("America/Bogota"))
