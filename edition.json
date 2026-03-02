@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T06:30:06.006911-05:00",
+  "generated_at": "2026-03-02T07:51:58.498806-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -46,15 +46,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
-      "summary280": "El ejército de Israel, con apoyo de EE.UU., atacó Irán, resultando en la muerte del líder supremo Alí Jamenei. Esto ocurre tras protestas masivas por un cambio de régimen, que fueron reprimidas.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -181,6 +172,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8ld080zlo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/7cc6/live/05bfbae0-0d1d-11f1-b15f-59c83b9de5e4.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Al menos 20 muertos y 30 heridos al estrellarse un avión militar que transportaba billetes en Bolivia",
+      "summary280": "Un avión militar que transportaba billetes en Bolivia se estrelló cerca de La Paz, dejando al menos 20 muertos y más de 30 heridos. El incidente ocurrió al impactar contra una vía en El Alto, generando caos y enfrentamientos mientras la gente intentaba recoger el dinero esparcido.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c620d3pzzjgo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/50ea/live/e72ead90-14b8-11f1-b4e3-735eb5ac1cbc.jpg",
       "type": "explainer",
       "isNew": false
     }
