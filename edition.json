@@ -1,17 +1,17 @@
 {
   "api_version": 2,
   "edition_date": "01 de marzo de 2026",
-  "generated_at": "2026-03-01T21:52:53.495882-05:00",
+  "generated_at": "2026-03-01T23:46:32.805985-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Hezbolá lanza proyectiles contra el norte de Israel, que responde bombardeando el Líbano",
-      "summary280": "Hezbolá lanzó cohetes y drones contra el norte de Israel en respuesta al asesinato del ayatolá Alí Jamenei, lo que llevó a Israel a bombardear objetivos en Líbano. A pesar de un alto el fuego mediado por EE.UU.",
+      "titleOriginal": "Qué se sabe del operativo de EE.UU. e Israel con el que localizaron y mataron al líder supremo de Irán, Alí Jamenei",
+      "summary280": "El ataque que mató al líder supremo de Irán, Alí Jamenei, fue ejecutado por EE.UU. e Israel a media mañana, aprovechando información de inteligencia sobre su ubicación.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5db2/live/ef92ea40-15db-11f1-9d05-61e44991c17e.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c309j9mpmvjo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6c6/live/d1a1f850-1586-11f1-85e5-f3dff60d76ee.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Los precios del petróleo suben después de que 3 buques fueran atacados cerca del estrecho de Ormuz",
@@ -23,20 +23,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Así te lo hemos contado: Hezbolá lanza proyectiles contra el norte de Israel, que responde bombardeando el Líbano",
+      "summary280": "Hezbolá lanzó cohetes y drones contra el norte de Israel en respuesta al asesinato del ayatolá Alí Jamenei, lo que llevó a Israel a bombardear objetivos en Líbano. A pesar de un alto el fuego mediado por EE.UU.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5db2/live/ef92ea40-15db-11f1-9d05-61e44991c17e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Qué aliados le quedan a Irán en la región en medio de su enfrentamiento con EE.UU. e Israel",
       "summary280": "Irán enfrenta un debilitamiento de sus aliados en Medio Oriente tras ataques de EE.UU. e Israel. Grupos como Hezbolá y Hamás están en crisis, mientras que el nuevo liderazgo en Siria se aleja de Teherán.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Pánico en las calles y alivio para algunos: la reacción en Teherán al ataque de EE.UU. e Israel contra Irán",
-      "summary280": "En Teherán, tras ataques de EE.UU. e Israel, se escucharon explosiones que generaron pánico, pero también alivio entre algunos que ven la intervención militar como una oportunidad para el cambio de régimen.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/clyzx52wz9yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0e3a/live/a02aae50-14d4-11f1-b106-cbf633dcab7a.jpg",
       "type": "explainer",
       "isNew": false
     },
