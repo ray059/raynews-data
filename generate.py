@@ -202,7 +202,7 @@ headlines = sorted(
 
 edition = {
     "api_version": 2,
-    "edition_date": now.strftime("%d %b %Y"),
+    "edition_date = now.strftime("%d de %B de %Y"),
     "generated_at": now.isoformat(),
     "country": "Internacional",
     "headlines": headlines
