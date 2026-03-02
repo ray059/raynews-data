@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "01 de marzo de 2026",
-  "generated_at": "2026-03-01T21:41:53.995417-05:00",
+  "generated_at": "2026-03-01T21:52:53.495882-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,16 +11,16 @@
       "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5db2/live/ef92ea40-15db-11f1-9d05-61e44991c17e.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
-      "titleOriginal": "Los precios del petróleo suben con fuerza después de que 3 buques fueran atacados cerca del estrecho de Ormuz",
+      "titleOriginal": "Los precios del petróleo suben después de que 3 buques fueran atacados cerca del estrecho de Ormuz",
       "summary280": "Los precios del petróleo han subido tras el ataque a tres buques cerca del estrecho de Ormuz, donde Irán ha advertido sobre riesgos para la navegación. El crudo Brent aumentó más del 8% debido a temores de interrupciones en el transporte marítimo. La situación sigue siendo tensa.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cy7jvz8rzypo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6d86/live/2ae31ae0-15d5-11f1-b996-299ca9f367dc.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Qué aliados le quedan a Irán en la región en medio de su enfrentamiento con EE.UU. e Israel",
@@ -29,7 +29,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Pánico en las calles y alivio para algunos: la reacción en Teherán al ataque de EE.UU. e Israel contra Irán",
@@ -38,7 +38,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/clyzx52wz9yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0e3a/live/a02aae50-14d4-11f1-b106-cbf633dcab7a.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
@@ -47,7 +47,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "\"Deben deponer las armas o enfrentarán una muerte segura\": 6 mensajes clave de la declaración en la que Trump anunció los ataques a Irán",
@@ -56,7 +56,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c4g297welj9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0dc2/live/ab06d610-14c9-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Es un momento peligroso, pero EE.UU. e Israel ven una oportunidad en Irán que no quieren desperdiciar",
@@ -65,7 +65,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c4g4ver73z1o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/872c/live/ed7fada0-150a-11f1-a62f-e9c9a6a2a3bf.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "¿Qué queda del programa nuclear de Irán y qué amenaza supone?",
@@ -74,7 +74,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8a2e/live/a579e060-11a5-11f1-8efc-bb8df6087c73.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Cuál es el origen de la rivalidad entre Israel e Irán",
@@ -83,7 +83,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c9vgwewx30mo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b817/live/3dd6edd0-4898-11f0-ba0b-115e2eaa4584.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Investigación de la BBC: el fastuoso palacio en Marruecos que Epstein intentó comprar días antes de su arresto",
@@ -92,7 +92,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c1d60nqn5r9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0f2c/live/3c459f50-14c3-11f1-8007-5bc8640dd651.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Los videos que muestran cómo soldados israelíes disparan a un adolescente palestino y se quedan viéndolo morir desangrado",
@@ -101,7 +101,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg3qyyn32yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/195b/live/40a76fb0-13fb-11f1-801d-ed3cff6bf876.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos",
@@ -110,7 +110,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/79d4/live/5e02f360-1327-11f1-8080-b36026ca95b4.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\"",
@@ -119,7 +119,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "\"No es el Dubái que conocemos\": el miedo y la incredulidad por los ataques de Irán en la meca del turismo de lujo de Medio Oriente",
