@@ -1,116 +1,125 @@
 {
   "api_version": 2,
   "edition_date": "01 de marzo de 2026",
-  "generated_at": "2026-03-01T20:52:52.274369-05:00",
+  "generated_at": "2026-03-01T21:41:53.995417-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Trump dice que los ataques continuarán hasta que se alcancen \"todos los objetivos\" mientras Teherán contraataca en la región",
-      "summary280": "Los ataques en Medio Oriente se intensifican tras la muerte del ayatolá Jamenei, con Teherán contraatacando y Hezbolá lanzando misiles hacia Israel. Trump advierte que las operaciones continuarán hasta alcanzar \"todos los objetivos\", anticipando más bajas estadounidenses.",
+      "titleOriginal": "Hezbolá lanza proyectiles contra el norte de Israel, que responde bombardeando el Líbano",
+      "summary280": "Hezbolá lanzó cohetes y drones contra el norte de Israel en respuesta al asesinato del ayatolá Alí Jamenei, lo que llevó a Israel a bombardear objetivos en Líbano. A pesar de un alto el fuego mediado por EE.UU.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f06/live/9690f4f0-15cc-11f1-bf7d-ad91e73c2353.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5db2/live/ef92ea40-15db-11f1-9d05-61e44991c17e.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
+    },
+    {
+      "titleOriginal": "Los precios del petróleo suben con fuerza después de que 3 buques fueran atacados cerca del estrecho de Ormuz",
+      "summary280": "Los precios del petróleo han subido tras el ataque a tres buques cerca del estrecho de Ormuz, donde Irán ha advertido sobre riesgos para la navegación. El crudo Brent aumentó más del 8% debido a temores de interrupciones en el transporte marítimo. La situación sigue siendo tensa.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cy7jvz8rzypo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6d86/live/2ae31ae0-15d5-11f1-b996-299ca9f367dc.png",
+      "type": "explainer",
+      "isNew": true
     },
     {
       "titleOriginal": "Qué aliados le quedan a Irán en la región en medio de su enfrentamiento con EE.UU. e Israel",
-      "summary280": "Irán enfrenta un debilitamiento de sus aliados en Medio Oriente tras el ataque de EE.UU. e Israel. Grupos como Hezbolá y Hamás están en crisis, mientras que el nuevo liderazgo en Siria se aleja de Teherán. Los hutíes en Yemen emergen como un aliado clave, intensificando sus...",
+      "summary280": "Irán enfrenta un debilitamiento de sus aliados en Medio Oriente tras ataques de EE.UU. e Israel. Grupos como Hezbolá y Hamás están en crisis, mientras que el nuevo liderazgo en Siria se aleja de Teherán.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Pánico en las calles y alivio para algunos: la reacción en Teherán al ataque de EE.UU. e Israel contra Irán",
-      "summary280": "En Teherán, tras los ataques de EE.UU. e Israel, se vivieron momentos de pánico y explosiones, pero también alivio entre algunos que ven la intervención militar como una oportunidad para el cambio de régimen. La tensión y el miedo predominan, mientras muchos se preparan para...",
+      "summary280": "En Teherán, tras ataques de EE.UU. e Israel, se escucharon explosiones que generaron pánico, pero también alivio entre algunos que ven la intervención militar como una oportunidad para el cambio de régimen.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/clyzx52wz9yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0e3a/live/a02aae50-14d4-11f1-b106-cbf633dcab7a.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
-      "summary280": "El ejército de Israel, con apoyo de EE.UU., atacó Irán, resultando en la muerte del líder supremo Alí Jamenei. Esto ocurre tras protestas masivas por un cambio de régimen, reprimidas violentamente. La oposición, fragmentada y en parte en el exilio, busca un liderazgo claro...",
+      "summary280": "El ejército de Israel, con apoyo de EE.UU., atacó Irán, resultando en la muerte del líder supremo Alí Jamenei. Esto ocurre tras protestas masivas por un cambio de régimen, que fueron reprimidas.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "\"Deben deponer las armas o enfrentarán una muerte segura\": 6 mensajes clave de la declaración en la que Trump anunció los ataques a Irán",
-      "summary280": "Donald Trump anunció ataques militares contra Irán, justificando la acción como necesaria para eliminar amenazas inminentes. Afirmó que nunca permitirán que Irán tenga armas nucleares y pidió un cambio de régimen. La operación busca defender a EE. UU. y sus aliados de un...",
+      "summary280": "Donald Trump anunció ataques militares contra Irán, justificando la acción por \"amenazas inminentes\" del régimen iraní. Pidió un cambio de régimen y afirmó que nunca permitirán un arma nuclear. La operación busca defender a EE. UU.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c4g297welj9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0dc2/live/ab06d610-14c9-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Es un momento peligroso, pero EE.UU. e Israel ven una oportunidad en Irán que no quieren desperdiciar",
-      "summary280": "EE.UU. e Israel ven una oportunidad en la vulnerabilidad de Irán, enfrentando crisis internas y debilitamiento militar. Justifican un ataque \"preventivo\", aunque es una guerra de elección. Sin embargo, la historia muestra que los conflictos armados pueden desatar...",
+      "summary280": "EE.UU. e Israel consideran que la situación de vulnerabilidad de Irán es una oportunidad para atacar, justificando su acción como \"preventiva\". Sin embargo, esto podría desestabilizar aún más el orden internacional y no garantiza un cambio de régimen.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c4g4ver73z1o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/872c/live/ed7fada0-150a-11f1-a62f-e9c9a6a2a3bf.png",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "¿Qué queda del programa nuclear de Irán y qué amenaza supone?",
-      "summary280": "El programa nuclear de Irán ha vuelto a ser un tema candente tras los ataques de EE. UU. e Israel. Aunque Irán niega buscar armas nucleares, el OIEA y otros países tienen dudas. Tras los bombardeos, se estima que Irán tiene suficiente uranio enriquecido para potencialmente...",
+      "summary280": "El programa nuclear de Irán ha vuelto a ser objeto de atención tras los ataques de EE. UU. e Israel. Aunque Irán niega buscar armas nucleares, el OIEA y otros países tienen dudas.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8a2e/live/a579e060-11a5-11f1-8efc-bb8df6087c73.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Cuál es el origen de la rivalidad entre Israel e Irán",
-      "summary280": "La rivalidad entre Israel e Irán se intensificó con ataques recientes, donde Israel, apoyado por EE.UU., atacó ciudades iraníes. La enemistad, que comenzó tras la Revolución Islámica de 1979, ha dejado miles de muertos y se ha convertido en una fuente de inestabilidad en...",
+      "summary280": "La rivalidad entre Israel e Irán se intensificó con ataques recientes de Israel, respaldados por EE.UU., contra ciudades iraníes, en respuesta a la amenaza nuclear de Irán.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c9vgwewx30mo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b817/live/3dd6edd0-4898-11f0-ba0b-115e2eaa4584.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Investigación de la BBC: el fastuoso palacio en Marruecos que Epstein intentó comprar días antes de su arresto",
-      "summary280": "Jeffrey Epstein intentó comprar un palacio en Marruecos justo antes de su arresto en 2019, tras años de negociaciones. La transacción de casi 15 millones de dólares fue cancelada tras su detención. Se especula que Epstein buscaba un refugio, aunque su exsocio afirmó que no...",
+      "summary280": "Jeffrey Epstein intentó comprar un palacio en Marruecos días antes de su arresto en 2019, tras años de negociaciones. La transacción de casi 15 millones de dólares fue cancelada tras su detención.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c1d60nqn5r9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0f2c/live/3c459f50-14c3-11f1-8007-5bc8640dd651.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Los videos que muestran cómo soldados israelíes disparan a un adolescente palestino y se quedan viéndolo morir desangrado",
-      "summary280": "Un adolescente palestino de 14 años, Jad Jadallah, fue tiroteado por soldados israelíes en Cisjordania y dejó de recibir atención médica mientras moría desangrado. A pesar de la presencia de 14 soldados, no se le brindó ayuda. Su muerte refleja la violencia hacia menores en...",
+      "summary280": "Un adolescente palestino de 14 años, Jad Jadallah, fue tiroteado por soldados israelíes en Cisjordania y dejó de recibir atención médica mientras moría desangrado. A pesar de la presencia de 14 soldados, no se le brindó ayuda adecuada.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg3qyyn32yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/195b/live/40a76fb0-13fb-11f1-801d-ed3cff6bf876.png",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos",
-      "summary280": "Un tiroteo entre una lancha civil de EE.UU. y la patrulla fronteriza cubana dejó cuatro muertos y varios heridos. Cuba afirma que los tripulantes eran cubanos armados con intenciones terroristas. EE.UU. niega su implicación y se investiga el incidente, que aumenta la tensión...",
+      "summary280": "Un tiroteo entre una lancha civil de EE.UU. y la patrulla fronteriza cubana dejó cuatro muertos y varios heridos. Cuba afirma que los tripulantes eran cubanos armados con intenciones terroristas, mientras EE.UU. niega su implicación.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/79d4/live/5e02f360-1327-11f1-8080-b36026ca95b4.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\"",
-      "summary280": "La UE declaró a Colombia como \"país seguro\", lo que permite rechazar casi automáticamente las solicitudes de asilo de colombianos, que han aumentado a 62,000. Esta decisión afecta a quienes buscan naturalizarse en Europa, cerrando opciones para muchos. La situación genera...",
+      "summary280": "La UE declaró a Colombia como \"país seguro\", lo que permite rechazar automáticamente las solicitudes de asilo de colombianos, que han aumentado significativamente en la última década.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
       "titleOriginal": "\"No es el Dubái que conocemos\": el miedo y la incredulidad por los ataques de Irán en la meca del turismo de lujo de Medio Oriente",
@@ -172,15 +181,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8ld080zlo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/7cc6/live/05bfbae0-0d1d-11f1-b15f-59c83b9de5e4.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Al menos 20 muertos y 30 heridos al estrellarse un avión militar que transportaba billetes en Bolivia",
-      "summary280": "Un avión militar que transportaba billetes en Bolivia se estrelló cerca de La Paz, dejando al menos 20 muertos y más de 30 heridos. El incidente ocurrió al impactar contra una vía en El Alto, generando caos y enfrentamientos mientras la gente intentaba recoger el dinero esparcido.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c620d3pzzjgo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/50ea/live/e72ead90-14b8-11f1-b4e3-735eb5ac1cbc.jpg",
       "type": "explainer",
       "isNew": false
     }
