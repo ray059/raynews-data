@@ -19,10 +19,26 @@ EDITION_FILE = "edition.json"
 # -------------------------------------------------
 
 def clean_text(text):
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
+
+MESES_ES = {
+    1: "enero",
+    2: "febrero",
+    3: "marzo",
+    4: "abril",
+    5: "mayo",
+    6: "junio",
+    7: "julio",
+    8: "agosto",
+    9: "septiembre",
+    10: "octubre",
+    11: "noviembre",
+    12: "diciembre",
+}
 
 # -------------------------------------------------
 # CARGAR HISTÓRICO
@@ -85,9 +101,11 @@ def generate_summary(title, article_text):
     client = OpenAI(api_key=OPENAI_API_KEY)
 
     prompt = f"""
-Responde claramente el titular en máximo 280 caracteres.
-Basate únicamente en el texto proporcionado.
-No inventes información.
+Resume el artículo en máximo 280 caracteres.
+Debe terminar en una frase completa.
+No cortar palabras.
+No usar puntos suspensivos.
+No inventar información.
 
 Titular: {title}
 
@@ -101,15 +119,23 @@ Artículo:
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
         )
-        return clean_text(response.choices[0].message.content)
-    except:
+        summary = clean_text(response.choices[0].message.content)
+
+        # Seguridad extra por si IA corta feo
+        if len(summary) > 280:
+            summary = summary[:277].rsplit(" ", 1)[0] + "..."
+
+        return summary
+
+    except Exception as e:
+        print("Error generando resumen:", e)
         return None
 
 # -------------------------------------------------
 # GENERAR AUDIO ALTERNANDO VOCES
 # -------------------------------------------------
 
-def generate_audio_blocks(headlines, now):
+def generate_audio_blocks(headlines, fecha_legible):
 
     if not OPENAI_API_KEY:
         print("No hay OPENAI_API_KEY")
@@ -120,9 +146,11 @@ def generate_audio_blocks(headlines, now):
 
     audio_files = []
 
+    print("Generando audio alternado...")
+
     # Intro masculina
-    intro_text = f"Estas son las noticias de Ray News del {now.strftime('%d de %B de %Y')}."
-    
+    intro_text = f"Estas son las noticias de Ray News del {fecha_legible}."
+
     with client.audio.speech.with_streaming_response.create(
         model="gpt-4o-mini-tts",
         voice="alloy",
@@ -132,12 +160,11 @@ def generate_audio_blocks(headlines, now):
 
     audio_files.append("part_0.mp3")
 
-    # Alternar voces
     voices = ["nova", "alloy"]  # femenina, masculina
 
     for i, h in enumerate(headlines):
         voice = voices[i % 2]
-        text = f"Siguiente titular. {h['titleOriginal']}."
+        text = f"Titular número {i+1}. {h['titleOriginal']}."
 
         filename = f"part_{i+1}.mp3"
 
@@ -150,12 +177,11 @@ def generate_audio_blocks(headlines, now):
 
         audio_files.append(filename)
 
-    # Crear archivo lista para ffmpeg
+    # Crear lista para ffmpeg
     with open("files.txt", "w") as f:
         for file in audio_files:
             f.write(f"file '{file}'\n")
 
-    # Unir audios
     subprocess.run([
         "ffmpeg", "-y",
         "-f", "concat",
@@ -173,7 +199,7 @@ def generate_audio_blocks(headlines, now):
     if os.path.exists("files.txt"):
         os.remove("files.txt")
 
-    print("Audio alternado generado correctamente")
+    print("Audio generado correctamente")
 
 # -------------------------------------------------
 # MAIN
@@ -189,6 +215,7 @@ with open("links.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 now = datetime.now(ZoneInfo("America/Bogota"))
+fecha_legible = f"{now.day:02d} de {MESES_ES[now.month]} de {now.year}"
 
 for line in lines:
     parts = line.strip().split("||")
@@ -220,7 +247,7 @@ for line in lines:
 
         historical["news"][news_id] = {
             "titleOriginal": title,
-            "summary280": summary[:280],
+            "summary280": summary,
             "sourceName": source_name,
             "sourceUrl": url,
             "imageUrl": image,
@@ -230,7 +257,7 @@ for line in lines:
 
     headlines.append({
         "titleOriginal": title,
-        "summary280": summary[:280],
+        "summary280": summary,
         "sourceName": source_name,
         "sourceUrl": url,
         "imageUrl": image,
@@ -241,20 +268,14 @@ for line in lines:
     if len(headlines) >= 20:
         break
 
-# -------------------------------------------------
-# ORDENAR
-# -------------------------------------------------
-
+# Ordenar
 headlines = sorted(
     headlines,
     key=lambda x: historical["news"][make_id(x["sourceUrl"])]["first_seen"],
     reverse=True
 )
 
-# -------------------------------------------------
-# DETECTAR CAMBIOS
-# -------------------------------------------------
-
+# Detectar cambios
 should_generate_audio = True
 
 if old_edition:
@@ -265,13 +286,10 @@ if old_edition:
         should_generate_audio = False
         print("No hay cambios en titulares → no se regenera audio")
 
-# -------------------------------------------------
-# CREAR EDITION.JSON
-# -------------------------------------------------
-
+# Crear edition.json
 edition = {
     "api_version": 2,
-    "edition_date": now.strftime("%d de %B de %Y"),
+    "edition_date": fecha_legible,
     "generated_at": now.isoformat(),
     "country": "Internacional",
     "headlines": headlines
@@ -283,12 +301,9 @@ with open(EDITION_FILE, "w", encoding="utf-8") as f:
 with open(HIST_FILE, "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
-# -------------------------------------------------
-# GENERAR AUDIO SOLO SI CAMBIÓ
-# -------------------------------------------------
-
+# Generar audio solo si cambió
 if should_generate_audio:
-    generate_audio_blocks(headlines, now)
+    generate_audio_blocks(headlines, fecha_legible)
 
 print("Noticias finales:", len(headlines))
 print("===== FIN GENERATE.PY =====")
