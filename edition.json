@@ -1,7 +1,7 @@
 {
   "api_version": 2,
-  "edition_date": "01 de marzo de 2026",
-  "generated_at": "2026-03-01T23:46:32.805985-05:00",
+  "edition_date": "02 de marzo de 2026",
+  "generated_at": "2026-03-02T00:50:43.874674-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c309j9mpmvjo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6c6/live/d1a1f850-1586-11f1-85e5-f3dff60d76ee.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Los precios del petróleo suben después de que 3 buques fueran atacados cerca del estrecho de Ormuz",
