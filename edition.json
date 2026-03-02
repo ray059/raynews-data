@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T02:47:25.700520-05:00",
+  "generated_at": "2026-03-02T03:40:17.581762-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -23,7 +23,7 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Así te lo hemos contado: Hezbolá lanza proyectiles contra el norte de Israel, que responde bombardeando el Líbano",
+      "titleOriginal": "Así te lo contamos: Hezbolá lanza proyectiles contra el norte de Israel, que responde bombardeando el Líbano",
       "summary280": "Hezbolá lanzó cohetes y drones contra el norte de Israel en respuesta al asesinato del ayatolá Alí Jamenei, lo que llevó a Israel a bombardear objetivos en Líbano. A pesar de un alto el fuego mediado por EE.UU.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
