@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T08:58:47.885416-05:00",
+  "generated_at": "2026-03-02T09:49:43.961338-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c0j59vxyd99o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/ced9/live/e256ed60-11b0-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Ataque de Israel contra Líbano deja al menos 31 muertos en un nuevo frente de combate en Medio Oriente tras la ofensiva contra Irán",
