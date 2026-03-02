@@ -1,9 +1,18 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T07:51:58.498806-05:00",
+  "generated_at": "2026-03-02T08:58:47.885416-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "\"El Tuli\", la mano derecha de \"El Mencho\" que organizó los disturbios tras la muerte del jefe del Cartel Jalisco Nueva Generación y también fue abatido",
+      "summary280": "Hugo César Macías Ureña, alias \"El Tuli\", mano derecha de \"El Mencho\", organizó disturbios tras la muerte del líder del CJNG, ofreciendo recompensas por militares abatidos.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c0j59vxyd99o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/ced9/live/e256ed60-11b0-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Ataque de Israel contra Líbano deja al menos 31 muertos en un nuevo frente de combate en Medio Oriente tras la ofensiva contra Irán",
       "summary280": "Un ataque de Israel y Estados Unidos contra Irán ha desatado un nuevo conflicto en Medio Oriente. Hezbolá respondió disparando misiles, y Israel lanzó ataques aéreos en Líbano, dejando al menos 31 muertos y 149 heridos.",
@@ -68,24 +77,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Cuál es el origen de la rivalidad entre Israel e Irán",
-      "summary280": "La rivalidad entre Israel e Irán se intensificó con ataques recientes de Israel, respaldados por EE.UU., contra ciudades iraníes, en respuesta a la amenaza nuclear de Irán.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c9vgwewx30mo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b817/live/3dd6edd0-4898-11f0-ba0b-115e2eaa4584.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Investigación de la BBC: el fastuoso palacio en Marruecos que Epstein intentó comprar días antes de su arresto",
-      "summary280": "Jeffrey Epstein intentó comprar un palacio en Marruecos días antes de su arresto en 2019, tras años de negociaciones. La transacción de casi 15 millones de dólares fue cancelada tras su detención.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c1d60nqn5r9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0f2c/live/3c459f50-14c3-11f1-8007-5bc8640dd651.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Los videos que muestran cómo soldados israelíes disparan a un adolescente palestino y se quedan viéndolo morir desangrado",
       "summary280": "Un adolescente palestino de 14 años, Jad Jadallah, fue tiroteado por soldados israelíes en Cisjordania y dejó de recibir atención médica mientras moría desangrado. A pesar de la presencia de 14 soldados, no se le brindó ayuda adecuada.",
       "sourceName": "BBC News Mundo",
@@ -109,6 +100,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Cuál es el origen de la rivalidad entre Israel e Irán",
+      "summary280": "La rivalidad entre Israel e Irán se intensificó con ataques recientes de Israel, respaldados por EE.UU., contra ciudades iraníes, en respuesta a la amenaza nuclear de Irán.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c9vgwewx30mo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b817/live/3dd6edd0-4898-11f0-ba0b-115e2eaa4584.jpg",
       "type": "explainer",
       "isNew": false
     },
