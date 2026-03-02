@@ -89,7 +89,7 @@ def extract_image(url):
     return None
 
 # -------------------------------------------------
-# GENERAR RESUMEN IA (ARREGLADO)
+# GENERAR RESUMEN IA
 # -------------------------------------------------
 
 def generate_summary(title, article_text):
@@ -121,7 +121,7 @@ Artículo:
 
         summary = clean_text(response.choices[0].message.content)
 
-        # Seguridad: si se pasa de 280, recortar limpio sin "..."
+        # Seguridad limpia si pasa 280
         if len(summary) > 280:
             summary = summary[:280]
             summary = summary.rsplit(".", 1)[0] + "."
@@ -133,7 +133,7 @@ Artículo:
         return None
 
 # -------------------------------------------------
-# GENERAR AUDIO (TITULAR LIMPIO)
+# GENERAR AUDIO SOLO NUEVAS NOTICIAS
 # -------------------------------------------------
 
 def generate_audio_blocks(headlines, fecha_legible):
@@ -142,15 +142,19 @@ def generate_audio_blocks(headlines, fecha_legible):
         print("No hay OPENAI_API_KEY")
         return
 
+    if not headlines:
+        print("No hay nuevas noticias para audio")
+        return
+
     from openai import OpenAI
     client = OpenAI(api_key=OPENAI_API_KEY)
 
     audio_files = []
 
-    print("Generando audio alternado...")
+    print("Generando audio solo para noticias nuevas...")
 
-    # Intro masculina
-    intro_text = f"Estas son las noticias de Ray News del {fecha_legible}."
+    # Intro
+    intro_text = f"Actualización de Ray News del {fecha_legible}."
 
     with client.audio.speech.with_streaming_response.create(
         model="gpt-4o-mini-tts",
@@ -165,8 +169,6 @@ def generate_audio_blocks(headlines, fecha_legible):
 
     for i, h in enumerate(headlines):
         voice = voices[i % 2]
-
-        # 🔥 Solo titular limpio
         text = h["titleOriginal"]
 
         filename = f"part_{i+1}.mp3"
@@ -194,7 +196,7 @@ def generate_audio_blocks(headlines, fecha_legible):
         "edition_audio.mp3"
     ])
 
-    # Limpiar
+    # Limpiar temporales
     for file in audio_files:
         if os.path.exists(file):
             os.remove(file)
@@ -278,16 +280,13 @@ headlines = sorted(
     reverse=True
 )
 
-# Detectar cambios
-should_generate_audio = True
+# Detectar solo nuevas
+new_headlines = [h for h in headlines if h["isNew"]]
 
-if old_edition:
-    old_titles = [h["titleOriginal"] for h in old_edition.get("headlines", [])]
-    new_titles = [h["titleOriginal"] for h in headlines]
-
-    if old_titles == new_titles:
-        should_generate_audio = False
-        print("No hay cambios en titulares → no se regenera audio")
+if new_headlines:
+    print(f"Hay {len(new_headlines)} noticias nuevas → se genera audio")
+else:
+    print("No hay noticias nuevas → no se regenera audio")
 
 # Crear edition.json
 edition = {
@@ -304,8 +303,9 @@ with open(EDITION_FILE, "w", encoding="utf-8") as f:
 with open(HIST_FILE, "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
-if should_generate_audio:
-    generate_audio_blocks(headlines, fecha_legible)
+# Generar audio solo si hay nuevas
+if new_headlines:
+    generate_audio_blocks(new_headlines, fecha_legible)
 
 print("Noticias finales:", len(headlines))
 print("===== FIN GENERATE.PY =====")
