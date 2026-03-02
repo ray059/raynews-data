@@ -1,188 +1,188 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T11:40:43.372605-05:00",
+  "generated_at": "2026-03-02T12:41:46.700681-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "\"El Tuli\", la mano derecha de \"El Mencho\" que organizó los disturbios tras la muerte del jefe del Cartel Jalisco Nueva Generación y también fue abatido",
-      "summary280": "Hugo César Macías Ureña, alias \"El Tuli\", mano derecha de \"El Mencho\", organizó disturbios tras la muerte del líder del CJNG, ofreciendo recompensas por militares abatidos.",
+      "titleOriginal": "Redescubren una obra de Rembrandt que llevaba 65 años perdida: \"Un giro innovador a la historia bíblica\"",
+      "summary280": "Una pintura de Rembrandt, \"La Visión de Zacarías en el Templo\", perdida durante 65 años, fue redescubierta y autenticada por el Rijksmuseum. Creada en 1633, presenta un enfoque innovador al sugerir la presencia del arcángel Gabriel.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c0j59vxyd99o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/ced9/live/e256ed60-11b0-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c743vm2mkl1o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5cc3/live/fe63eae0-1628-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Ataque de Israel contra Líbano deja al menos 31 muertos en un nuevo frente de combate en Medio Oriente tras la ofensiva contra Irán",
-      "summary280": "Un ataque de Israel y Estados Unidos contra Irán ha desatado un nuevo conflicto en Medio Oriente. Hezbolá respondió disparando misiles, y Israel lanzó ataques aéreos en Líbano, dejando al menos 31 muertos y 149 heridos.",
+      "titleOriginal": "Cómo EE.UU. e Irán pasaron de una \"estrecha amistad\" a un enfrentamiento militar",
+      "summary280": "La relación entre EE.UU. e Irán pasó de una \"estrecha amistad\" en los años 70, bajo el sha Reza Pahlavi, a un enfrentamiento militar tras un ataque estadounidense e israelí en 2026.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c4g5rd28n02o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9c5e/live/a0100470-1613-11f1-9697-634d5add2261.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/clyxd3gqrqxo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/fba0/live/79ac3330-14c4-11f1-8007-5bc8640dd651.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Qué se sabe del operativo de EE.UU. e Israel con el que localizaron y mataron al líder supremo de Irán, Alí Jamenei",
-      "summary280": "El ataque que mató al líder supremo de Irán, Alí Jamenei, fue ejecutado por EE.UU. e Israel a media mañana, aprovechando información de inteligencia sobre su ubicación.",
+      "titleOriginal": "La trampa de la carga cognitiva: por qué estudiar más horas no siempre te ayuda a aprender más",
+      "summary280": "Estudiar más horas no garantiza un mejor aprendizaje, según Noelia Valle. La memoria de trabajo tiene una capacidad limitada y el aprendizaje efectivo se basa en la integración de información, no en la acumulación.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c309j9mpmvjo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6c6/live/d1a1f850-1586-11f1-85e5-f3dff60d76ee.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c0435y9qexvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d19f/live/0d602910-0d95-11f1-b5e2-dd58fc65f0f6.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Los precios del petróleo suben después de que 3 buques fueran atacados cerca del estrecho de Ormuz",
-      "summary280": "Los precios del petróleo han subido tras el ataque a tres buques cerca del estrecho de Ormuz, donde Irán ha advertido sobre riesgos para la navegación. El crudo Brent aumentó más del 8% debido a temores de interrupciones en el transporte marítimo. La situación sigue siendo tensa.",
+      "titleOriginal": "Cómo las imágenes absurdas creadas con IA están cambiando a las redes sociales y afectando a sus usuarios",
+      "summary280": "Las imágenes absurdas generadas por IA están transformando las redes sociales, volviéndose virales sin que los usuarios se percaten de su falsedad. Théodore, un estudiante, critica este fenómeno en su cuenta \"Insane AI Slop\".",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cy7jvz8rzypo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6d86/live/2ae31ae0-15d5-11f1-b996-299ca9f367dc.png",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgl8wed51p2o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/bbed/live/3bb23f50-125a-11f1-9120-a910fc22c6ac.png",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Así te lo contamos: Cómo fue la ofensiva de EE.UU. e Israel sobre Irán que desató un conflicto regional",
-      "summary280": "Hezbolá lanzó cohetes y drones contra el norte de Israel en respuesta al asesinato del ayatolá Alí Jamenei, lo que llevó a Israel a bombardear objetivos en Líbano. A pesar de un alto el fuego mediado por EE.UU.",
+      "titleOriginal": "Por qué es tan difícil contener la risa en situaciones inapropiadas",
+      "summary280": "La risa en situaciones inapropiadas surge de la lucha entre el impulso emocional y el control social del cerebro.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5db2/live/ef92ea40-15db-11f1-9d05-61e44991c17e.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c043eknn69xo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e357/live/6a1a5600-0f05-11f1-89a2-3d4ead3ca191.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Qué aliados le quedan a Irán en la región en medio de su enfrentamiento con EE.UU. e Israel",
-      "summary280": "Irán enfrenta un debilitamiento de sus aliados en Medio Oriente tras ataques de EE.UU. e Israel. Grupos como Hezbolá y Hamás están en crisis, mientras que el nuevo liderazgo en Siria se aleja de Teherán.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cedzx0377epo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5485/live/19eaa9a0-14c8-11f1-8007-5bc8640dd651.jpg",
+      "titleOriginal": "Tensión en Medio Oriente EN VIVO: Donald Trump dijo que Irán enriquecía uranio en secreto: “Querían fabricar un arma nuclear, así que los destruimos”",
+      "summary280": "La tensión en Medio Oriente aumentó tras la muerte de Ali Khamenei, con bombardeos de EE.UU. e Israel a Irán y represalias iraníes. Donald Trump afirmó que la ofensiva busca desmantelar el programa nuclear iraní y no descartó el uso de tropas terrestres si es necesario.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/02/en-vivo-israel-y-estados-unidos-atacan-ran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/G53UHUQRQVFRFFXZNHMB2CGWJM.JPG?auth=afa1c58ff94b2a2f69f386004e69c5280830528cc8e27d49ec0623f1618695e6&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Es un momento peligroso, pero EE.UU. e Israel ven una oportunidad en Irán que no quieren desperdiciar",
-      "summary280": "EE.UU. e Israel consideran que la situación de vulnerabilidad de Irán es una oportunidad para atacar, justificando su acción como \"preventiva\". Sin embargo, esto podría desestabilizar aún más el orden internacional y no garantiza un cambio de régimen.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c4g4ver73z1o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/872c/live/ed7fada0-150a-11f1-a62f-e9c9a6a2a3bf.png",
+      "titleOriginal": "Bypass gástrico: qué es la cirugía que marcó los problemas de salud de Gomita y Kelly Osbourne",
+      "summary280": "Kelly Osbourne y \"Gomita\" enfrentan problemas de salud tras someterse a bypass gástrico, una cirugía bariátrica para perder peso. Ambas han lidiado con la presión de la fama y sus consecuencias.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/02/bypass-gastrico-que-es-la-cirugia-que-marco-los-problemas-de-salud-de-gomita-y-kelly-osbourne/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IVVVRRKG3FDO3NYF5WP6VB52XU.jpg?auth=313da8cf6bc7203af61a372efada740c2dc2675575f3d9ef7a98e03e6262d530&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "¿Qué queda del programa nuclear de Irán y qué amenaza supone?",
-      "summary280": "El programa nuclear de Irán ha vuelto a ser objeto de atención tras los ataques de EE. UU. e Israel. Aunque Irán niega buscar armas nucleares, el OIEA y otros países tienen dudas.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgqg4vw4gj4o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8a2e/live/a579e060-11a5-11f1-8efc-bb8df6087c73.jpg",
+      "titleOriginal": "Bajó otra vez la gasolina en Colombia: estas son las ciudades donde más se redujo y en las que la medida no aplica",
+      "summary280": "Desde el 1 de marzo, la gasolina en Colombia bajó 500 pesos por galón, excepto en Cúcuta, donde la reducción fue de 274 pesos. El diésel en Cúcuta subió 223 pesos, mientras que el promedio nacional se mantiene. Bogotá y Villavicencio tienen los precios más altos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/02/bajo-otra-vez-la-gasolina-en-colombia-estas-son-las-ciudades-donde-mas-se-redujo-y-en-las-que-la-medida-no-aplica/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/3RKO5RS74NFWFFWEXH4G6LHBDM.webp?auth=a86b64a0e191e2c2b41ce97ec447fa05cc8fca6d7c19331635ffd5b77501f84e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos",
-      "summary280": "Un tiroteo entre una lancha civil de EE.UU. y la patrulla fronteriza cubana dejó cuatro muertos y varios heridos. Cuba afirma que los tripulantes eran cubanos armados con intenciones terroristas, mientras EE.UU. niega su implicación.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c2e4j21n1l8o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/79d4/live/5e02f360-1327-11f1-8080-b36026ca95b4.jpg",
+      "titleOriginal": "María del Monte sobre el juicio con su sobrino, Antonio Tejado: \"Como comprenderás, no me hace gracia\"",
+      "summary280": "María del Monte se pronunció sobre el juicio de su sobrino Antonio Tejado, acusado de un violento asalto a su hogar, expresando su malestar por la situación familiar y emocional que enfrenta. El juicio comenzará el 19 de abril de 2027 y tendrá once sesiones.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/02/maria-del-monte-sobre-el-juicio-con-su-sobrino-antonio-tejado-como-comprenderas-no-me-hace-gracia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/O4T2XDWXDFCGJFBMUO653S7YDI.jpg?auth=225705dc7057183a2e178e18ea83db2c2e0cd1765c7648ca0759f7e4aee0654c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\"",
-      "summary280": "La UE declaró a Colombia como \"país seguro\", lo que permite rechazar automáticamente las solicitudes de asilo de colombianos, que han aumentado significativamente en la última década.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
+      "titleOriginal": "El PP pide a Sánchez, tras las últimas noticias sobre el accidente de Adamuz, que no actúe como \"gobierno de ocultación\"",
+      "summary280": "El PP, a través de Carmen Fúnez, ha instado al gobierno de Sánchez a actuar con transparencia tras el accidente de Adamuz, donde murieron 46 personas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/02/el-pp-pide-a-sanchez-tras-las-ultimas-noticias-sobre-el-accidente-de-adamuz-que-no-actue-como-gobierno-de-ocultacion/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/6W6RIZO5NVEGXJYFPY5LRATDCA.jpg?auth=3b260e2269a609cfc0d4f3dcbef8cbfdb80248f07964358e4e05f3a8264675c5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
-      "summary280": "El ejército de Israel, con apoyo de EE.UU., atacó Irán, resultando en la muerte del líder supremo Alí Jamenei. Esto ocurre tras protestas masivas por un cambio de régimen, que fueron reprimidas.",
+      "titleOriginal": "Por qué el cielo que vemos desde la Tierra no siempre ha sido azul",
+      "summary280": "El cielo azul que vemos hoy en la Tierra es resultado de la dispersión de Rayleigh y la composición atmosférica, pero su color ha cambiado a lo largo de la historia del planeta. Factores como la evolución de la vida y el aumento de oxígeno han influido en esta transformación.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cd6zjwzzvwvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d50d/live/72e39930-0c0e-11f1-b7e1-afb6d0884c18.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Cuál es el origen de la rivalidad entre Israel e Irán",
-      "summary280": "La rivalidad entre Israel e Irán se intensificó con ataques recientes de Israel, respaldados por EE.UU., contra ciudades iraníes, en respuesta a la amenaza nuclear de Irán.",
+      "titleOriginal": "El hombre que sufrió la enfermedad de leishmaniasis y ahora combate el parásito que la provoca, uno de los más mortales del planeta",
+      "summary280": "Andrew Ochieng, un sobreviviente de leishmaniasis visceral, ahora trabaja para combatir esta enfermedad mortal en la región fronteriza de Kenia y Uganda.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c9vgwewx30mo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b817/live/3dd6edd0-4898-11f0-ba0b-115e2eaa4584.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c8982vd94zwo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/002f/live/be13c6e0-dd98-11f0-929d-ed3251861479.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "\"No es el Dubái que conocemos\": el miedo y la incredulidad por los ataques de Irán en la meca del turismo de lujo de Medio Oriente",
-      "summary280": "Los ataques de Irán han transformado Dubái, un destino turístico de lujo, en un lugar de miedo e incredulidad. Residentes y turistas se resguardan en casa, con misiles y drones en el aire, mientras el aeropuerto y hoteles sufren daños, interrumpiendo gravemente los viajes.",
+      "titleOriginal": "Qué es la ELA, la enfermedad incurable por la que murió a los 53 años Eric Dane, actor de \"Anatomía de Grey\" y \"Euphoria\"",
+      "summary280": "Eric Dane, actor de \"Anatomía de Grey\" y \"Euphoria\", falleció a los 53 años por Esclerosis Lateral Amiotrófica (ELA), una enfermedad neurodegenerativa incurable que afecta el movimiento muscular. Dane había compartido su lucha y buscó concienciar sobre esta condición devastadora.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8d5y292r2vo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/bc54/live/7b1019d0-1591-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cy6ye5glz83o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a413/live/df990290-0e52-11f1-9d6e-2b202385ad19.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "¿Por qué EE.UU. e Israel atacaron a Irán en este momento (y cómo podría acabar este conflicto)?",
-      "summary280": "EE.UU. e Israel atacaron a Irán para buscar un cambio de régimen tras la muerte del líder supremo Alí Jamenei. La campaña militar, sin precedentes, ha desatado represalias iraníes y ha complicado las negociaciones de paz, llevando a Irán a un estado de supervivencia.",
+      "titleOriginal": "Una pesadilla \"atrevida y estremecedora\": cómo es la serie de TV basada en el clásico \"El señor de las moscas\"",
+      "summary280": "La serie de TV adaptada por Jack Thorne de \"El señor de las moscas\" presenta una narrativa dual: un thriller tenso y una reflexión sobre la maldad humana.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cm21vee14m6o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/517f/live/e5a84490-14cc-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c39wvlvglewo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/f836/live/e66bdab0-0b60-11f1-9cf6-a7ed73412217.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Quién tiene el poder en Irán tras la muerte del ayatolá Alí Jamenei y cómo se elegirá a su sucesor",
-      "summary280": "Tras la muerte del ayatolá Alí Jamenei, el poder en Irán se encuentra en un momento incierto. La Asamblea de Expertos, compuesta por 88 clérigos, será la encargada de elegir a su sucesor, mientras que el presidente y el jefe del poder judicial asumirán interinamente.",
+      "titleOriginal": "Cómo un simple ladrillo de una casa ayudó a salvar a una niña tras años de abusos",
+      "summary280": "ladrillo de una fábrica específica en un área limitada de EE.UU. Con esta información, el equipo de Squire pudo reducir la búsqueda a una región concreta. Finalmente, lograron localizar a Lucy y rescatarla de su situación de abuso.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c78x34j38g7o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/f407/live/6abaa6a0-1545-11f1-939f-8b648b86149c.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cpqw21xqj51o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5ef8/live/d681e5e0-0827-11f1-b5e2-dd58fc65f0f6.png",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Quién era y cómo ejerció el poder el ayatolá Alí Jamenei, líder supremo de Irán durante casi 4 décadas que murió en ataques de EE.UU. e Israel",
-      "summary280": "El ayatolá Alí Jamenei, líder supremo de Irán desde 1989, murió en ataques de EE.UU. e Israel. Durante casi 40 años, ejerció un poder absoluto, vetando políticas y eligiendo candidatos, mientras enfrentaba protestas masivas y acusaciones de desarrollar armas nucleares.",
+      "titleOriginal": "Quién era el controversial magnate Robert Maxwell, el padre de Ghislaine Maxwell, la única condenada por el caso Epstein",
+      "summary280": "Robert Maxwell, magnate de medios y padre de Ghislaine, tuvo una vida fascinante y oscura. Nacido en Checoslovaquia, se convirtió en un empresario influyente, pero su legado se manchó por los escándalos de su hija en el caso Epstein.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cj0m8j2grvlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/41b0/live/e5f983b0-4aeb-11f0-8abd-0dadf2c98a8a.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gezz8v70wo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3dbf/live/092c3a40-0d0f-11f1-b5e2-dd58fc65f0f6.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Qué se sabe de los ataques de EE.UU. e Israel contra Irán y de la muerte del líder supremo Alí Jamenei",
-      "summary280": "El ejército de Israel, con apoyo de EE.UU., lanzó ataques en Irán que resultaron en la muerte del líder supremo Alí Jamenei. Más de 200 muertos y 700 heridos se reportan. Irán prometió una \"respuesta aplastante\" y lanzó misiles contra Israel y aliados de EE.UU. en la región.",
+      "titleOriginal": "Cuál es la presencia de China en Perú (y la ofensiva del gobierno de Trump para revertirla)",
+      "summary280": "China ha aumentado su influencia en Perú, convirtiéndose en su principal socio comercial y el mayor inversor, superando a EE. UU. en intercambios y controlando activos clave como el puerto de Chancay.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy6kzrylnko?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/63bb/live/51460880-1505-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn4gw9q23qvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f35/live/02def8d0-1412-11f1-9e84-9b3edb4ade62.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "La vida de las 'niñeras de millonarios': \"Tuve que hacer la maleta de un día para otro para recoger un Ferrari en Francia\"",
-      "summary280": "Giuliana Passarelli, asistente personal de un millonario, comparte su experiencia como \"niñera de millonario\", donde organiza desde compras hasta viajes de emergencia, como recoger un Ferrari en Francia. Su trabajo es variado y excéntrico, reflejando una vida sin rutina fija.",
+      "titleOriginal": "3 claves de la polémica reforma laboral impulsada por Javier Milei y aprobada por el Senado de Argentina",
+      "summary280": "La reforma laboral de Javier Milei, aprobada por el Senado, busca modernizar las relaciones laborales en Argentina, permitiendo jornadas de hasta 12 horas y reduciendo indemnizaciones. Opositores la ven como un recorte de derechos.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cm21zkv38lmo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a283/live/b2380f40-06bd-11f1-9527-93c13292c717.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cq8g0y235wqo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/c06f/live/cc223660-0cee-11f1-a015-553217367293.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "\"Hacíamos nuestras necesidades donde nos servían la comida\": la denuncia de un activista de derechos humanos en Venezuela que pasó más de 4 años en prisión",
-      "summary280": "Javier Tarazona, activista de derechos humanos en Venezuela, denuncia las condiciones inhumanas que vivió durante más de 4 años en prisión, donde se vio obligado a hacer sus necesidades en el mismo lugar donde le servían comida. Su testimonio resalta la brutalidad del régimen.",
+      "titleOriginal": "\"La Habana Vieja está vacía. Todo parece muerto\": cómo se agudizó el declive del turismo en Cuba y qué impacto tiene",
+      "summary280": "El turismo en Cuba, vital para su economía, enfrenta un grave declive tras el cierre de hoteles y la disminución de visitantes. La crisis se agrava por la falta de petróleo y problemas eléctricos, lo que afecta a la población y al gobierno de Díaz-Canel, que lucha por sobrevivir.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8ld080zlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/7cc6/live/05bfbae0-0d1d-11f1-b15f-59c83b9de5e4.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c15xv9k9exgo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4d22/live/3e5b1df0-0dd5-11f1-ad76-15be5b81d03d.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     },
     {
-      "titleOriginal": "Al menos 20 muertos y 30 heridos al estrellarse un avión militar que transportaba billetes en Bolivia",
-      "summary280": "Un avión militar que transportaba billetes en Bolivia se estrelló cerca de La Paz, dejando al menos 20 muertos y más de 30 heridos. El incidente ocurrió al impactar contra una vía en El Alto, generando caos y enfrentamientos mientras la gente intentaba recoger el dinero esparcido.",
+      "titleOriginal": "Por qué la decisión judicial sobre aranceles es un duro golpe para la agenda del segundo mandato de Trump",
+      "summary280": "La Corte Suprema falló en contra de Trump, limitando su capacidad para imponer aranceles, lo que él calificó de \"desastre económico y de seguridad nacional\". Esta decisión debilita su agenda y podría alentar a socios comerciales a adoptar posturas más duras.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c620d3pzzjgo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/50ea/live/e72ead90-14b8-11f1-b4e3-735eb5ac1cbc.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c05v7rdn0dqo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/f3c5/live/c390fb90-0f13-11f1-8eb7-a5e3a5f2128a.jpg",
       "type": "explainer",
-      "isNew": false
+      "isNew": true
     }
   ]
 }
