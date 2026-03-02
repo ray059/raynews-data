@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T10:39:02.853017-05:00",
+  "generated_at": "2026-03-02T11:40:43.372605-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -77,15 +77,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Los videos que muestran cómo soldados israelíes disparan a un adolescente palestino y se quedan viéndolo morir desangrado",
-      "summary280": "Un adolescente palestino de 14 años, Jad Jadallah, fue tiroteado por soldados israelíes en Cisjordania y dejó de recibir atención médica mientras moría desangrado. A pesar de la presencia de 14 soldados, no se le brindó ayuda adecuada.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cvg3qyyn32yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/195b/live/40a76fb0-13fb-11f1-801d-ed3cff6bf876.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Qué se sabe del tiroteo reportado por Cuba contra una lancha civil de EE.UU. durante una presunta \"infiltración\" que dejó 4 muertos y varios heridos",
       "summary280": "Un tiroteo entre una lancha civil de EE.UU. y la patrulla fronteriza cubana dejó cuatro muertos y varios heridos. Cuba afirma que los tripulantes eran cubanos armados con intenciones terroristas, mientras EE.UU. niega su implicación.",
       "sourceName": "BBC News Mundo",
@@ -100,6 +91,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Cuáles son los principales grupos de oposición en Irán y qué cambios quieren para el país",
+      "summary280": "El ejército de Israel, con apoyo de EE.UU., atacó Irán, resultando en la muerte del líder supremo Alí Jamenei. Esto ocurre tras protestas masivas por un cambio de régimen, que fueron reprimidas.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
       "type": "explainer",
       "isNew": false
     },
