@@ -15,7 +15,7 @@ HIST_FILE = "historical_editions.json"
 EDITION_FILE = "edition.json"
 
 MAX_TOTAL = 20
-MAX_NEW_PER_EDITION = 1   # 🔥 Solo cambia este número si quieres más nuevas
+MAX_NEW_PER_EDITION = 1  # 🔥 Solo cambia este número si quieres más nuevas
 
 # -------------------------------------------------
 # UTILIDADES
@@ -45,7 +45,7 @@ else:
     historical = {"news": {}}
 
 # -------------------------------------------------
-# TOMAR FOTO DEL EDITION ACTUAL
+# TOMAR SNAPSHOT DEL EDITION ACTUAL
 # -------------------------------------------------
 
 base_edition = []
@@ -55,7 +55,9 @@ if os.path.exists(EDITION_FILE):
         current_data = json.load(f)
         base_edition = current_data.get("headlines", [])
 
-# Normalizar: todas pasan a NO nuevas
+edition_exists = len(base_edition) > 0
+
+# Normalizar: todas las anteriores pasan a NO nuevas
 normalized_base = []
 for h in base_edition:
     h_copy = h.copy()
@@ -248,13 +250,19 @@ for line in lines:
         "isNew": True
     })
 
-# Limitar nuevas
-new_items = new_items[:MAX_NEW_PER_EDITION]
+# -------------------------------------------------
+# CONTROL DE NUEVAS SEGÚN ESTADO DEL SISTEMA
+# -------------------------------------------------
+
+if edition_exists:
+    # Operación normal → limitar nuevas
+    new_items = new_items[:MAX_NEW_PER_EDITION]
+else:
+    # Reconstrucción total → permitir todas
+    pass
 
 # Construir edición final
 final_headlines = new_items + normalized_base
-
-# Recortar a tamaño máximo
 final_headlines = final_headlines[:MAX_TOTAL]
 
 edition = {
