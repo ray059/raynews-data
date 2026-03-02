@@ -1,7 +1,7 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T04:44:08.628522-05:00",
+  "generated_at": "2026-03-02T05:41:00.474453-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c4g5rd28n02o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9c5e/live/a0100470-1613-11f1-9697-634d5add2261.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Qué se sabe del operativo de EE.UU. e Israel con el que localizaron y mataron al líder supremo de Irán, Alí Jamenei",
