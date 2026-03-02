@@ -15,7 +15,7 @@ HIST_FILE = "historical_editions.json"
 EDITION_FILE = "edition.json"
 
 MAX_TOTAL = 20
-MAX_NEW_PER_EDITION = 1  # 🔥 Solo cambia este número si quieres más nuevas
+MAX_NEW_PER_EDITION = 1  # 🔥 Cambia este número si quieres más nuevas
 
 # -------------------------------------------------
 # UTILIDADES
@@ -45,7 +45,7 @@ else:
     historical = {"news": {}}
 
 # -------------------------------------------------
-# TOMAR SNAPSHOT DEL EDITION ACTUAL
+# SNAPSHOT DEL EDITION ACTUAL
 # -------------------------------------------------
 
 base_edition = []
@@ -251,15 +251,26 @@ for line in lines:
     })
 
 # -------------------------------------------------
-# CONTROL DE NUEVAS SEGÚN ESTADO DEL SISTEMA
+# BALANCE INTELIGENTE DE NUEVAS
 # -------------------------------------------------
 
-if edition_exists:
-    # Operación normal → limitar nuevas
+if edition_exists and new_items:
+
+    # Contar presencia actual por fuente
+    source_counter = {}
+    for h in normalized_base:
+        src = h["sourceName"]
+        source_counter[src] = source_counter.get(src, 0) + 1
+
+    # Ordenar nuevas por menor presencia
+    new_items.sort(
+        key=lambda x: source_counter.get(x["sourceName"], 0)
+    )
+
+    # Tomar solo las permitidas
     new_items = new_items[:MAX_NEW_PER_EDITION]
-else:
-    # Reconstrucción total → permitir todas
-    pass
+
+# Si no existe edition → reconstrucción total (no limitar nuevas)
 
 # Construir edición final
 final_headlines = new_items + normalized_base
