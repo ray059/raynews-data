@@ -11,6 +11,7 @@ print("===== INICIO GENERATE.PY =====")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 HIST_FILE = "historical_editions.json"
+EDITION_FILE = "edition.json"
 
 # -------------------------------------------------
 # UTILIDADES
@@ -31,6 +32,15 @@ if os.path.exists(HIST_FILE):
         historical = json.load(f)
 else:
     historical = {"news": {}}
+
+# -------------------------------------------------
+# CARGAR EDICIÓN ANTERIOR (para detectar cambios)
+# -------------------------------------------------
+
+old_edition = None
+if os.path.exists(EDITION_FILE):
+    with open(EDITION_FILE, "r", encoding="utf-8") as f:
+        old_edition = json.load(f)
 
 # -------------------------------------------------
 # EXTRAER TEXTO
@@ -197,33 +207,49 @@ headlines = sorted(
 )
 
 # -------------------------------------------------
+# DETECTAR CAMBIOS EN TITULARES
+# -------------------------------------------------
+
+should_generate_audio = True
+
+if old_edition:
+    old_titles = [h["titleOriginal"] for h in old_edition.get("headlines", [])]
+    new_titles = [h["titleOriginal"] for h in headlines]
+
+    if old_titles == new_titles:
+        should_generate_audio = False
+        print("No hay cambios en titulares → no se regenera audio")
+
+# -------------------------------------------------
 # CREAR EDITION.JSON
 # -------------------------------------------------
 
 edition = {
     "api_version": 2,
-    "edition_date = now.strftime("%d de %B de %Y"),
+    "edition_date": now.strftime("%d de %B de %Y"),
     "generated_at": now.isoformat(),
     "country": "Internacional",
     "headlines": headlines
 }
 
-with open("edition.json", "w", encoding="utf-8") as f:
+with open(EDITION_FILE, "w", encoding="utf-8") as f:
     json.dump(edition, f, indent=2, ensure_ascii=False)
 
 with open(HIST_FILE, "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
 # -------------------------------------------------
-# GENERAR AUDIO FINAL
+# GENERAR AUDIO SOLO SI CAMBIÓ
 # -------------------------------------------------
 
-audio_text = f"Estas son las noticias de Ray News del {now.strftime('%d de %B de %Y')}. "
+if should_generate_audio:
 
-for h in headlines:
-    audio_text += h["titleOriginal"] + ". "
+    audio_text = f"Estas son las noticias de Ray News del {now.strftime('%d de %B de %Y')}. "
 
-generate_audio(audio_text)
+    for h in headlines:
+        audio_text += h["titleOriginal"] + ". ... "
+
+    generate_audio(audio_text)
 
 print("Noticias finales:", len(headlines))
 print("===== FIN GENERATE.PY =====")
