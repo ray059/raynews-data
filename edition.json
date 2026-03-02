@@ -1,9 +1,18 @@
 {
   "api_version": 2,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T03:40:17.581762-05:00",
+  "generated_at": "2026-03-02T04:44:08.628522-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Ataque de Israel contra Líbano deja al menos 31 muertos en un nuevo frente de combate en Medio Oriente tras la ofensiva contra Irán",
+      "summary280": "Un ataque de Israel y Estados Unidos contra Irán ha desatado un nuevo conflicto en Medio Oriente. Hezbolá respondió disparando misiles, y Israel lanzó ataques aéreos en Líbano, dejando al menos 31 muertos y 149 heridos.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4g5rd28n02o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9c5e/live/a0100470-1613-11f1-9697-634d5add2261.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Qué se sabe del operativo de EE.UU. e Israel con el que localizaron y mataron al líder supremo de Irán, Alí Jamenei",
       "summary280": "El ataque que mató al líder supremo de Irán, Alí Jamenei, fue ejecutado por EE.UU. e Israel a media mañana, aprovechando información de inteligencia sobre su ubicación.",
@@ -46,15 +55,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c050ee7ynz9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b8e1/live/f1511750-f234-11f0-b0c7-71b671ae4961.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Deben deponer las armas o enfrentarán una muerte segura\": 6 mensajes clave de la declaración en la que Trump anunció los ataques a Irán",
-      "summary280": "Donald Trump anunció ataques militares contra Irán, justificando la acción por \"amenazas inminentes\" del régimen iraní. Pidió un cambio de régimen y afirmó que nunca permitirán un arma nuclear. La operación busca defender a EE. UU.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c4g297welj9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0dc2/live/ab06d610-14c9-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
       "isNew": false
     },
