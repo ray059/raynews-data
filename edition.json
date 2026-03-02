@@ -1,9 +1,18 @@
 {
-  "api_version": 2,
+  "api_version": 3,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T16:29:45.038226-05:00",
+  "generated_at": "2026-03-02T17:24:11.702133-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Extendieron la investigación por el cuadro robado por los nazis que apareció en Mar del Plata",
+      "summary280": "El Juzgado Federal N° 1 de Mar del Plata extendió la investigación sobre el \"Retrato de una dama\", robado por nazis, por cuatro meses. Patricia Kadgien y su esposo están imputados por encubrimiento.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/judiciales/2026/03/02/extendieron-la-investigacion-por-el-cuadro-robado-por-los-nazis-que-aparecio-en-mar-del-plata/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/FY3EF6NZJREPBDTS6TDRKU2IHI.jpg?auth=e80e5038051c4bdc598aa9f824c92d1d451dcbbb884e249d5f82e850af8e7896&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Lucero confiesa que iba a morir “al aire y embarazada” hace 22 años tras casi asfixiarse con confeti",
       "summary280": "Lucero recordó un incidente de 2004 en el programa 'Hoy', donde casi se asfixia con confeti metálico mientras estaba embarazada. A pesar del pánico, logró quitarse el objeto y ahora es más precavida con efectos especiales en sus presentaciones. La anécdota la comparte con humor.",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/salud/ciencia/2026/03/02/como-la-combinacion-de-dos-terapias-podria-potenciar-los-tratamientos-ante-el-cancer-de-prostata/",
       "imageUrl": "https://www.infobae.com/resizer/v2/4B4C4OLADJGEDC3BXBJLZE4DTU.jpg?auth=1097192390f134bf9826cc840cdae62fd599a29f2aeaec1205a89459fb203092&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": true
-    },
-    {
-      "titleOriginal": "Cómo se vivió el UPD en las escuelas de todo el país: controles de alcoholemia y estrictos protocolos de seguridad",
-      "summary280": "El UPD se vivió con estrictos controles de alcoholemia y protocolos de seguridad en escuelas de todo el país. En Buenos Aires, se prohibió el ingreso a alumnos bajo efectos de alcohol. En Córdoba, se desarticularon fiestas clandestinas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/sociedad/2026/03/02/como-se-vivio-el-upd-en-las-escuelas-de-todo-el-pais-controles-de-alcoholemia-y-estrictos-protocolos-de-seguridad/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/7NGZTHVN5VARVJITD6IUAIPBVM.jpg?auth=4a28590f766c6e9673d2f83a3b6f48bc81c4577767ea1f076a20a25cf7a31aeb&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     }
