@@ -6,6 +6,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import re
 import hashlib
+import subprocess
 
 print("===== INICIO GENERATE.PY =====")
 
@@ -34,7 +35,7 @@ else:
     historical = {"news": {}}
 
 # -------------------------------------------------
-# CARGAR EDICIÓN ANTERIOR (para detectar cambios)
+# CARGAR EDICIÓN ANTERIOR
 # -------------------------------------------------
 
 old_edition = None
@@ -105,30 +106,74 @@ Artículo:
         return None
 
 # -------------------------------------------------
-# GENERAR AUDIO
+# GENERAR AUDIO ALTERNANDO VOCES
 # -------------------------------------------------
 
-def generate_audio(text):
+def generate_audio_blocks(headlines, now):
+
     if not OPENAI_API_KEY:
-        print("No hay OPENAI_API_KEY, no se genera audio")
+        print("No hay OPENAI_API_KEY")
         return
 
     from openai import OpenAI
     client = OpenAI(api_key=OPENAI_API_KEY)
 
-    try:
+    audio_files = []
+
+    # Intro masculina
+    intro_text = f"Estas son las noticias de Ray News del {now.strftime('%d de %B de %Y')}."
+    
+    with client.audio.speech.with_streaming_response.create(
+        model="gpt-4o-mini-tts",
+        voice="alloy",
+        input=intro_text,
+    ) as response:
+        response.stream_to_file("part_0.mp3")
+
+    audio_files.append("part_0.mp3")
+
+    # Alternar voces
+    voices = ["nova", "alloy"]  # femenina, masculina
+
+    for i, h in enumerate(headlines):
+        voice = voices[i % 2]
+        text = f"Siguiente titular. {h['titleOriginal']}."
+
+        filename = f"part_{i+1}.mp3"
+
         with client.audio.speech.with_streaming_response.create(
             model="gpt-4o-mini-tts",
-            voice="alloy",
+            voice=voice,
             input=text,
         ) as response:
+            response.stream_to_file(filename)
 
-            response.stream_to_file("edition_audio.mp3")
+        audio_files.append(filename)
 
-        print("Audio generado correctamente")
+    # Crear archivo lista para ffmpeg
+    with open("files.txt", "w") as f:
+        for file in audio_files:
+            f.write(f"file '{file}'\n")
 
-    except Exception as e:
-        print("Error generando audio:", e)
+    # Unir audios
+    subprocess.run([
+        "ffmpeg", "-y",
+        "-f", "concat",
+        "-safe", "0",
+        "-i", "files.txt",
+        "-c", "copy",
+        "edition_audio.mp3"
+    ])
+
+    # Limpiar temporales
+    for file in audio_files:
+        if os.path.exists(file):
+            os.remove(file)
+
+    if os.path.exists("files.txt"):
+        os.remove("files.txt")
+
+    print("Audio alternado generado correctamente")
 
 # -------------------------------------------------
 # MAIN
@@ -197,7 +242,7 @@ for line in lines:
         break
 
 # -------------------------------------------------
-# ORDENAR POR MÁS RECIENTES
+# ORDENAR
 # -------------------------------------------------
 
 headlines = sorted(
@@ -207,7 +252,7 @@ headlines = sorted(
 )
 
 # -------------------------------------------------
-# DETECTAR CAMBIOS EN TITULARES
+# DETECTAR CAMBIOS
 # -------------------------------------------------
 
 should_generate_audio = True
@@ -243,13 +288,7 @@ with open(HIST_FILE, "w", encoding="utf-8") as f:
 # -------------------------------------------------
 
 if should_generate_audio:
-
-    audio_text = f"Estas son las noticias de Ray News del {now.strftime('%d de %B de %Y')}. "
-
-    for h in headlines:
-        audio_text += h["titleOriginal"] + ". ... "
-
-    generate_audio(audio_text)
+    generate_audio_blocks(headlines, now)
 
 print("Noticias finales:", len(headlines))
 print("===== FIN GENERATE.PY =====")
