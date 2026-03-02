@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T17:24:11.702133-05:00",
+  "generated_at": "2026-03-02T18:21:59.446486-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
+      "summary280": "Irán ha cerrado el estrecho de Ormuz, vital para el comercio global de petróleo, afectando el suministro y disparando precios. Este cierre, inédito y acompañado de amenazas militares, se produce tras ataques aéreos de EE.UU. e Israel.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Extendieron la investigación por el cuadro robado por los nazis que apareció en Mar del Plata",
       "summary280": "El Juzgado Federal N° 1 de Mar del Plata extendió la investigación sobre el \"Retrato de una dama\", robado por nazis, por cuatro meses. Patricia Kadgien y su esposo están imputados por encubrimiento.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/judiciales/2026/03/02/extendieron-la-investigacion-por-el-cuadro-robado-por-los-nazis-que-aparecio-en-mar-del-plata/",
       "imageUrl": "https://www.infobae.com/resizer/v2/FY3EF6NZJREPBDTS6TDRKU2IHI.jpg?auth=e80e5038051c4bdc598aa9f824c92d1d451dcbbb884e249d5f82e850af8e7896&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Lucero confiesa que iba a morir “al aire y embarazada” hace 22 años tras casi asfixiarse con confeti",
@@ -20,7 +29,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/02/lucero-confiesa-que-iba-a-morir-al-aire-y-embarazada-hace-22-anos-tras-asfixiarse-con-confeti/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3FHBNCFDFNGBTMRBDDEQF2DKA4.jpg?auth=2c984ae685d7ebf5b13a0ea38e8b15d5f40cca4d43ba3cbc691e5871286f8367&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Presidente de Fedegán alertó sobre presuntas invasiones ilegales: advirtió que la ANT podría expropiar tierras",
@@ -29,7 +38,7 @@
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/02/presidente-de-fedegan-alerto-sobre-presuntas-invasiones-ilegales-advirtio-que-la-ant-podria-expropiar-tierras/",
       "imageUrl": "https://www.infobae.com/resizer/v2/E7MIOUBTHNEWNPVQ3QQUJJA5KY.png?auth=623fa0169af69b21c03b1efa481b9caff0727a2c075f694399ccd26bb8e76b53&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Somos México entrega al INE más de 348 mil firmas para solicitar su registro como partido político",
@@ -38,7 +47,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/02/somos-mexico-entrega-al-ine-mas-de-348-mil-firmas-para-solicitar-su-registro-como-partido-politico/",
       "imageUrl": "https://www.infobae.com/resizer/v2/VI4MFBS3PJAXHG5UY7SPEEQ2SA.png?auth=e0747a3f9bc3c837bb34e1d16aa60d6c81f3abbcebb69c9c943d67c589acb4e7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "¿Qué está pasando con los 5.000 peruanos en Medio Oriente? Embajador lanza reporte tras ataques de Irán e Israel",
@@ -47,7 +56,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/02/que-esta-pasando-con-los-5000-peruanos-en-medio-oriente-embajador-lanza-reporte-tras-ataques-de-iran-e-israel/",
       "imageUrl": "https://www.infobae.com/resizer/v2/NQRIZ5JKIVAMBBU5TA2DAWZ2PE.JPG?auth=5fb609b8cbabd6cd04d29980d6878c496db4d97a71ed3e2ffe0080668ce3458e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Carlos Álvarez: “Soy lo que soy y no pido excusas por eso. Mi sexualidad no puede ser motivo de persecución”",
@@ -56,7 +65,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/01/carlos-alvarez-soy-lo-que-soy-y-no-pido-excusas-por-eso-mi-sexualidad-no-puede-ser-motivo-de-persecucion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/XBOWKXRQKRA2FN3U4D2NKMTL5U.png?auth=f5b429a050e74f519f0a4051de1ae8ebb21eee574c31528a036dd39c55f58439&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La pérdida de hielo en la Antártida superó la extensión de Los Ángeles: qué alertó un estudio",
@@ -65,7 +74,7 @@
       "sourceUrl": "https://www.infobae.com/america/medio-ambiente/2026/03/02/la-perdida-de-hielo-en-la-antartida-supero-la-extension-de-los-angeles-que-alerto-un-estudio/",
       "imageUrl": "https://www.infobae.com/resizer/v2/LUJJDY3URJBCRPI5JTJBLN3Q5I.jpg?auth=8a1b77c70c78cea6080ec733180e58f027b5ac95998f55456bcd795380df65cf&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La respuesta de Di María al ser consultado por una posible vuelta a la selección argentina: “Sé lo que se habla”",
@@ -74,7 +83,7 @@
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/la-respuesta-de-di-maria-al-ser-consultado-por-una-posible-vuelta-a-la-seleccion-argentina-se-lo-que-se-habla/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3DPC3SXJDBEXXD4QB6XONSNZ5Q?auth=04e63cc583082ee2bf1fadc09c1f587cdb0cb7bbd2e42813d9118b21a3fa81d8&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Bernabé defiende que Zapatero confronta con \"verdad\" los \"bulos\" de un PP que hace del Senado una \"casa de los horrores\"",
@@ -83,7 +92,7 @@
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/02/bernabe-defiende-que-zapatero-confronta-con-verdad-los-bulos-de-un-pp-que-hace-del-senado-una-casa-de-los-horrores/",
       "imageUrl": "https://www.infobae.com/resizer/v2/6LC5XX2IQVA2HBPPA5IGDQJ2B4.jpg?auth=ff65224727f94c548a950d081cd6aef52ac72566a57f933508ae0487aa6304e7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La recaudación tributaria cayó en febrero por séptimo mes consecutivo: los factores clave que explican la baja",
@@ -92,7 +101,7 @@
       "sourceUrl": "https://www.infobae.com/economia/2026/03/02/la-recaudacion-tributaria-cayo-en-febrero-por-septimo-mes-consecutivo-los-factores-clave-que-explican-la-baja/",
       "imageUrl": "https://www.infobae.com/resizer/v2/2EYUYLLLJJH7NDOSOPXCKE77VU.jpg?auth=8347309f957e46982e37d8949b157cbbf686fd40cdfb1441e1005b772e7ffe83&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Por qué se congela el móvil: posibles causas y soluciones prácticas",
@@ -101,7 +110,7 @@
       "sourceUrl": "https://www.infobae.com/tecno/2026/03/02/por-que-se-congela-el-movil-posibles-causas-y-soluciones-practicas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/XGHY75LK6NESROWL2KDVLEI7YE.png?auth=9d7e1d2990fed1eea1f6f2c3154b42fb24ec732f67166e40f8d0bf5644e11911&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El contundente mensaje de Aston Martin en medio de los rumores de que podría limitar su participación en el GP de Australia",
@@ -110,7 +119,7 @@
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/el-contundente-mensaje-de-aston-martin-en-medio-de-los-rumores-de-que-podria-limitar-su-participacion-en-el-gp-de-australia/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DTU3RTNK5BDK7HJ6ZT54Y7BZPI.jfif?auth=cdd24d61c519a8011aeafafd446b702dca663ec2ada4c88a5b77fd29aad0c16d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Atento Boca Juniors: la decisión que tomó Edinson Cavani tras una recaída en su lesión lumbar",
@@ -119,7 +128,7 @@
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/atento-boca-juniors-la-decision-que-tomo-edinson-cavani-tras-una-recaida-en-su-lesion-lumbar/",
       "imageUrl": "https://www.infobae.com/resizer/v2/F5WF4WTMTNAZDPUKIZAMATVAHM.jfif?auth=c2034f6a669f02e69a61dd512b1ba69c5457c3820a0a6f480bb27e366cc2f783&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Abascal reprocha que el PP \"promete el oro y el moro\" para llegar a los gobiernos y \"sólo trae una de esas cosas\"",
@@ -128,7 +137,7 @@
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/02/abascal-reprocha-que-el-pp-promete-el-oro-y-el-moro-para-llegar-a-los-gobiernos-y-solo-trae-una-de-esas-cosas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/6D4Q5TI5UZEW3AWPBBM6DFUORE.jpg?auth=25e66cf623f2d9731276d9da200590b96a7458f596e6445e7c1aa2688597dc85&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Gisèle Pelicot visitará a su exmarido a la cárcel después de ganar el juicio: “Él estará en una posición de debilidad, y quiero preguntarle por qué esa traición”",
@@ -137,7 +146,7 @@
       "sourceUrl": "https://www.infobae.com/espana/2026/03/02/gisele-pelicot-visitara-a-su-exmarido-a-la-carcel-despues-de-ganar-el-juicio-el-estara-en-una-posicion-de-debilidad-y-quiero-preguntarle-por-que-esa-traicion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3TQPMNGL5JETTPEKYZ6WDX2IC4.jpg?auth=f3a67acd8639bbc98056722ea731b09cfd25eb8c093b2395dc6c49ab3f439c45&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Los detalles del desembarco de Coudet en River Plate: la cifra que recibirá el Alavés y un viejo conocido como asistente",
@@ -146,7 +155,7 @@
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/los-detalles-del-desembarco-de-coudet-en-river-plate-la-cifra-que-recibira-el-alaves-y-un-viejo-conocido-como-asistente/",
       "imageUrl": "https://www.infobae.com/resizer/v2/MJRXC644NVF7JB4JISEOKKKLSY.jpg?auth=e659743cc1ddd347a43e29fef0c9f06b93b31f3d5af46da9e76d51e339171aea&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Rafael López Aliaga afirma que los insultos contra periodistas en su cuenta de X no son suyos: “Tengo un equipo de redes”",
@@ -155,7 +164,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/02/rafael-lopez-aliaga-afirma-que-los-insultos-contra-periodistas-en-su-cuenta-de-x-no-son-suyos-tengo-un-equipo-de-redes/",
       "imageUrl": "https://www.infobae.com/resizer/v2/5PCFSHP4VNBZDJQKB2UPFOZLXY.jpg?auth=babd6d1a2acd2aa7e3806206cd8504afdfc76d9e2a0536a4347d0a4086dfbf56&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Las series más populares de Netflix Perú que no podrás dejar de ver",
@@ -164,7 +173,7 @@
       "sourceUrl": "https://www.infobae.com/noticias/2026/03/02/las-series-mas-populares-de-netflix-peru-que-no-podras-dejar-de-ver/",
       "imageUrl": "https://www.infobae.com/resizer/v2/7MZ523YLQ5BDBP774HFREDUJOU.jpg?auth=a6870d4eeb8389b78639ea7b551c541b4a87cc058059637fa73230edaa569018&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Detectan un láser cósmico a 8 mil millones de años luz: cómo se origina y qué revela sobre el universo",
@@ -173,16 +182,7 @@
       "sourceUrl": "https://www.infobae.com/america/ciencia-america/2026/03/02/detectan-un-laser-cosmico-a-8-mil-millones-de-anos-luz-como-se-origina-y-que-revela-sobre-el-universo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/N67A6MKNB5H77KB4VML7XLTC5M.jpg?auth=522c1e7bbdb55df7b187a0b73d79c421ab1d3ca483528f7f4c54d5f042a8730d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
-    },
-    {
-      "titleOriginal": "Cómo la combinación de dos terapias podría potenciar los tratamientos ante el cáncer de próstata",
-      "summary280": "Un estudio de la Mayo Clinic sugiere que combinar terapia hormonal con inmunoterapia puede mejorar el tratamiento del cáncer de próstata al reducir células T reguladoras que inhiben la respuesta inmunitaria. Esto podría cambiar el enfoque en pacientes de alto riesgo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/salud/ciencia/2026/03/02/como-la-combinacion-de-dos-terapias-podria-potenciar-los-tratamientos-ante-el-cancer-de-prostata/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/4B4C4OLADJGEDC3BXBJLZE4DTU.jpg?auth=1097192390f134bf9826cc840cdae62fd599a29f2aeaec1205a89459fb203092&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
