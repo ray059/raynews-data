@@ -7,7 +7,6 @@ from zoneinfo import ZoneInfo
 import re
 import hashlib
 import subprocess
-from collections import defaultdict
 
 print("===== INICIO GENERATE.PY =====")
 
@@ -16,7 +15,7 @@ HIST_FILE = "historical_editions.json"
 EDITION_FILE = "edition.json"
 
 MAX_TOTAL = 20
-MAX_PER_SOURCE = 5
+MAX_NEW_PER_EDITION = 1   # 🔥 Solo cambia este número si quieres más nuevas
 
 # -------------------------------------------------
 # UTILIDADES
@@ -36,7 +35,7 @@ MESES_ES = {
 }
 
 # -------------------------------------------------
-# CARGAR HISTÓRICO
+# CARGAR HISTÓRICO (solo para evitar regenerar IA)
 # -------------------------------------------------
 
 if os.path.exists(HIST_FILE):
@@ -44,6 +43,17 @@ if os.path.exists(HIST_FILE):
         historical = json.load(f)
 else:
     historical = {"news": {}}
+
+# -------------------------------------------------
+# CARGAR EDICIÓN ANTERIOR
+# -------------------------------------------------
+
+previous_edition = []
+
+if os.path.exists(EDITION_FILE):
+    with open(EDITION_FILE, "r", encoding="utf-8") as f:
+        prev_data = json.load(f)
+        previous_edition = prev_data.get("headlines", [])
 
 # -------------------------------------------------
 # EXTRAER TEXTO
@@ -124,20 +134,13 @@ Artículo:
 
 def generate_audio_blocks(headlines, fecha_legible):
 
-    if not OPENAI_API_KEY:
-        print("No hay OPENAI_API_KEY")
-        return
-
-    if not headlines:
-        print("No hay nuevas noticias para audio")
+    if not OPENAI_API_KEY or not headlines:
         return
 
     from openai import OpenAI
     client = OpenAI(api_key=OPENAI_API_KEY)
 
     audio_files = []
-
-    print("Generando audio...")
 
     intro_text = f"Actualización de Ray News del {fecha_legible}."
 
@@ -150,17 +153,13 @@ def generate_audio_blocks(headlines, fecha_legible):
 
     audio_files.append("part_0.mp3")
 
-    voices = ["nova", "alloy"]
-
     for i, h in enumerate(headlines):
-        voice = voices[i % 2]
-        text = h["titleOriginal"]
         filename = f"part_{i+1}.mp3"
 
         with client.audio.speech.with_streaming_response.create(
             model="gpt-4o-mini-tts",
-            voice=voice,
-            input=text,
+            voice="nova",
+            input=h["titleOriginal"],
         ) as response:
             response.stream_to_file(filename)
 
@@ -186,13 +185,9 @@ def generate_audio_blocks(headlines, fecha_legible):
     if os.path.exists("files.txt"):
         os.remove("files.txt")
 
-    print("Audio generado correctamente")
-
 # -------------------------------------------------
 # MAIN
 # -------------------------------------------------
-
-headlines = []
 
 if not os.path.exists("links.txt"):
     print("No hay links.txt")
@@ -204,6 +199,8 @@ with open("links.txt", "r", encoding="utf-8") as f:
 now = datetime.now(ZoneInfo("America/Bogota"))
 fecha_legible = f"{now.day:02d} de {MESES_ES[now.month]} de {now.year}"
 
+new_items = []
+
 for line in lines:
     parts = line.strip().split("||")
     if len(parts) != 3:
@@ -211,88 +208,60 @@ for line in lines:
 
     title, url, source_name = parts
     news_id = make_id(url)
-    is_new = False
 
     if news_id in historical["news"]:
-        stored = historical["news"][news_id]
-        summary = stored["summary280"]
-        image = stored.get("imageUrl")
-        historical["news"][news_id]["last_used"] = now.isoformat()
-    else:
-        is_new = True
+        continue
 
-        article_text = extract_article_text(url)
-        if len(article_text) < 400:
-            continue
+    article_text = extract_article_text(url)
+    if len(article_text) < 400:
+        continue
 
-        summary = generate_summary(title, article_text)
-        if not summary:
-            continue
+    summary = generate_summary(title, article_text)
+    if not summary:
+        continue
 
-        image = extract_image(url)
+    image = extract_image(url)
 
-        historical["news"][news_id] = {
-            "titleOriginal": title,
-            "summary280": summary,
-            "sourceName": source_name,
-            "sourceUrl": url,
-            "imageUrl": image,
-            "first_seen": now.isoformat(),
-            "last_used": now.isoformat()
-        }
+    historical["news"][news_id] = {
+        "titleOriginal": title,
+        "summary280": summary,
+        "sourceName": source_name,
+        "sourceUrl": url,
+        "imageUrl": image,
+        "first_seen": now.isoformat()
+    }
 
-    headlines.append({
+    new_items.append({
         "titleOriginal": title,
         "summary280": summary,
         "sourceName": source_name,
         "sourceUrl": url,
         "imageUrl": image,
         "type": "explainer",
-        "isNew": is_new
+        "isNew": True
     })
 
-# -------------------------------------------------
-# SELECCIÓN BALANCEADA
-# -------------------------------------------------
+# Tomar solo máximo permitido
+new_items = new_items[:MAX_NEW_PER_EDITION]
 
-grouped = defaultdict(list)
+# Eliminar duplicados de edición anterior
+existing_urls = set(h["sourceUrl"] for h in new_items)
 
-for h in headlines:
-    grouped[h["sourceName"]].append(h)
+previous_clean = [
+    h for h in previous_edition
+    if h["sourceUrl"] not in existing_urls
+]
 
-final_headlines = []
-
-# Tomar hasta MAX_PER_SOURCE por fuente
-for source in grouped:
-    for h in grouped[source][:MAX_PER_SOURCE]:
-        if len(final_headlines) < MAX_TOTAL:
-            final_headlines.append(h)
-
-# Rellenar si faltan
-if len(final_headlines) < MAX_TOTAL:
-    remaining = []
-    for source in grouped:
-        remaining.extend(grouped[source][MAX_PER_SOURCE:])
-
-    for h in remaining:
-        if len(final_headlines) < MAX_TOTAL:
-            final_headlines.append(h)
-
-headlines = final_headlines
-
-new_headlines = [h for h in headlines if h["isNew"]]
-
-if new_headlines:
-    print(f"Hay {len(new_headlines)} noticias nuevas → se genera audio")
-else:
-    print("No hay noticias nuevas → no se regenera audio")
+# Construir edición final (nuevas arriba)
+final_headlines = new_items + previous_clean
+final_headlines = final_headlines[:MAX_TOTAL]
 
 edition = {
-    "api_version": 2,
+    "api_version": 3,
     "edition_date": fecha_legible,
     "generated_at": now.isoformat(),
     "country": "Internacional",
-    "headlines": headlines
+    "headlines": final_headlines
 }
 
 with open(EDITION_FILE, "w", encoding="utf-8") as f:
@@ -301,8 +270,8 @@ with open(EDITION_FILE, "w", encoding="utf-8") as f:
 with open(HIST_FILE, "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
-if new_headlines:
-    generate_audio_blocks(new_headlines, fecha_legible)
+if new_items:
+    generate_audio_blocks(new_items, fecha_legible)
 
-print("Noticias finales:", len(headlines))
+print("Noticias finales:", len(final_headlines))
 print("===== FIN GENERATE.PY =====")
