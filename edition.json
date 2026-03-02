@@ -1,7 +1,7 @@
 {
   "api_version": 2,
-  "edition_date": "01 Mar 2026",
-  "generated_at": "2026-03-01T18:45:22.554098-05:00",
+  "edition_date": "01 de March de 2026",
+  "generated_at": "2026-03-01T19:31:10.735644-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c8d5y292r2vo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/bc54/live/7b1019d0-1591-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Por qué tantos colombianos piden asilo en Europa y qué significa que la UE haya designado a su país como \"seguro\"",
@@ -19,15 +19,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg24540rmro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a13b/live/f28a3b70-1321-11f1-a871-29777a15d35e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Análisis BBC: un momento extraordinario para el que Irán se ha estado preparando",
-      "summary280": "Irán enfrenta un momento decisivo tras la muerte de su líder supremo, el ayatolá Jamenei, en un ataque aéreo. Las autoridades se preparaban para esta eventualidad, y mientras algunos lamentan su fallecimiento, otros celebran en las calles, marcando un posible cambio en el régimen",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0e9pxll1do?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/16cb/live/66697720-1554-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -41,7 +32,7 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Trump dice que la ofensiva en Irán va \"por delante de lo previsto\" mientras Teherán contraataca",
+      "titleOriginal": "Trump dice que los ataques continuarán hasta que se alcancen \"todos los objetivos\" mientras Teherán contraataca en la región",
       "summary280": "Trump afirma que la ofensiva en Irán avanza más rápido de lo esperado, mientras Teherán responde con contraataques y anuncia nuevos líderes tras la muerte del ayatolá Jamenei. Las fuerzas israelíes reportan ataques exitosos contra instalaciones iraníes y buques.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.co.uk/mundo/live/cj32z44n0nkt?at_medium=RSS&at_campaign=rss",
@@ -181,6 +172,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8ld080zlo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/7cc6/live/05bfbae0-0d1d-11f1-b15f-59c83b9de5e4.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Al menos 20 muertos y 30 heridos al estrellarse un avión militar que transportaba billetes en Bolivia",
+      "summary280": "Un avión militar que transportaba billetes en Bolivia se estrelló cerca de La Paz, dejando al menos 20 muertos y más de 30 heridos. El incidente ocurrió al impactar contra una vía en El Alto, generando caos y enfrentamientos mientras la gente intentaba recoger el dinero esparcido",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c620d3pzzjgo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/50ea/live/e72ead90-14b8-11f1-b4e3-735eb5ac1cbc.jpg",
       "type": "explainer",
       "isNew": false
     }
