@@ -19,8 +19,7 @@ EDITION_FILE = "edition.json"
 # -------------------------------------------------
 
 def clean_text(text):
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return re.sub(r"\s+", " ", text).strip()
 
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
@@ -90,7 +89,7 @@ def extract_image(url):
     return None
 
 # -------------------------------------------------
-# GENERAR RESUMEN IA
+# GENERAR RESUMEN IA (ARREGLADO)
 # -------------------------------------------------
 
 def generate_summary(title, article_text):
@@ -119,11 +118,13 @@ Artículo:
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
         )
+
         summary = clean_text(response.choices[0].message.content)
 
-        # Seguridad extra por si IA corta feo
+        # Seguridad: si se pasa de 280, recortar limpio sin "..."
         if len(summary) > 280:
-            summary = summary[:277].rsplit(" ", 1)[0] + "..."
+            summary = summary[:280]
+            summary = summary.rsplit(".", 1)[0] + "."
 
         return summary
 
@@ -132,7 +133,7 @@ Artículo:
         return None
 
 # -------------------------------------------------
-# GENERAR AUDIO ALTERNANDO VOCES
+# GENERAR AUDIO (TITULAR LIMPIO)
 # -------------------------------------------------
 
 def generate_audio_blocks(headlines, fecha_legible):
@@ -160,11 +161,13 @@ def generate_audio_blocks(headlines, fecha_legible):
 
     audio_files.append("part_0.mp3")
 
-    voices = ["nova", "alloy"]  # femenina, masculina
+    voices = ["nova", "alloy"]
 
     for i, h in enumerate(headlines):
         voice = voices[i % 2]
-        text = f"Titular número {i+1}. {h['titleOriginal']}."
+
+        # 🔥 Solo titular limpio
+        text = h["titleOriginal"]
 
         filename = f"part_{i+1}.mp3"
 
@@ -177,7 +180,7 @@ def generate_audio_blocks(headlines, fecha_legible):
 
         audio_files.append(filename)
 
-    # Crear lista para ffmpeg
+    # Concatenar
     with open("files.txt", "w") as f:
         for file in audio_files:
             f.write(f"file '{file}'\n")
@@ -191,7 +194,7 @@ def generate_audio_blocks(headlines, fecha_legible):
         "edition_audio.mp3"
     ])
 
-    # Limpiar temporales
+    # Limpiar
     for file in audio_files:
         if os.path.exists(file):
             os.remove(file)
@@ -301,7 +304,6 @@ with open(EDITION_FILE, "w", encoding="utf-8") as f:
 with open(HIST_FILE, "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
-# Generar audio solo si cambió
 if should_generate_audio:
     generate_audio_blocks(headlines, fecha_legible)
 
