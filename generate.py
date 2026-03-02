@@ -35,7 +35,7 @@ MESES_ES = {
 }
 
 # -------------------------------------------------
-# CARGAR HISTÓRICO (solo para evitar regenerar IA)
+# CARGAR HISTÓRICO (solo evita regenerar IA)
 # -------------------------------------------------
 
 if os.path.exists(HIST_FILE):
@@ -45,15 +45,22 @@ else:
     historical = {"news": {}}
 
 # -------------------------------------------------
-# CARGAR EDICIÓN ANTERIOR
+# TOMAR FOTO DEL EDITION ACTUAL
 # -------------------------------------------------
 
-previous_edition = []
+base_edition = []
 
 if os.path.exists(EDITION_FILE):
     with open(EDITION_FILE, "r", encoding="utf-8") as f:
-        prev_data = json.load(f)
-        previous_edition = prev_data.get("headlines", [])
+        current_data = json.load(f)
+        base_edition = current_data.get("headlines", [])
+
+# Normalizar: todas pasan a NO nuevas
+normalized_base = []
+for h in base_edition:
+    h_copy = h.copy()
+    h_copy["isNew"] = False
+    normalized_base.append(h_copy)
 
 # -------------------------------------------------
 # EXTRAER TEXTO
@@ -241,19 +248,13 @@ for line in lines:
         "isNew": True
     })
 
-# Tomar solo máximo permitido
+# Limitar nuevas
 new_items = new_items[:MAX_NEW_PER_EDITION]
 
-# Eliminar duplicados de edición anterior
-existing_urls = set(h["sourceUrl"] for h in new_items)
+# Construir edición final
+final_headlines = new_items + normalized_base
 
-previous_clean = [
-    h for h in previous_edition
-    if h["sourceUrl"] not in existing_urls
-]
-
-# Construir edición final (nuevas arriba)
-final_headlines = new_items + previous_clean
+# Recortar a tamaño máximo
 final_headlines = final_headlines[:MAX_TOTAL]
 
 edition = {
