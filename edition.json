@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T03:37:00.182786-05:00",
+  "generated_at": "2026-03-03T04:38:11.201524-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Ana Boyer y Fernando Verdasco mandan un mensaje de tranquilidad desde Doha: “No tenemos miedo porque sabemos quién nos va a proteger”",
+      "summary280": "Ana Boyer y Fernando Verdasco envían un mensaje de tranquilidad desde Doha, donde residen con sus hijos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/03/ana-boyer-y-fernando-verdasco-mandan-un-mensaje-de-tranquilidad-desde-doha-no-tenemos-miedo-porque-sabemos-quien-nos-va-a-proteger/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YQHNGUJPNVBFXLPNWYHFLTXJBI.jpg?auth=1a2c2b4fa3cc7e3e2a88f55a27f26039ee225886cb0f097cd1847886c5bfb58e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "BEL-20-INDEX se mueve en terreno rojo tras arranque de operaciones este 3 de marzo",
       "summary280": "El BEL-20 INDEX inicia el 3 de marzo con caídas del 1,65%, situándose en 5.277,50 puntos, acumulando dos días negativos y un descenso del 6,25% en la última semana. A pesar de esto, mantiene un incremento del 18,24% en el último año.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/noticias/2026/03/03/bel-20-index-se-mueve-en-terreno-rojo-tras-arranque-de-operaciones-este-3-de-marzo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Hezbolá reivindica un ataque contra dos bases militares de Israel",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/economia/2026/03/02/la-recaudacion-tributaria-cayo-en-febrero-por-septimo-mes-consecutivo-los-factores-clave-que-explican-la-baja/",
       "imageUrl": "https://www.infobae.com/resizer/v2/2EYUYLLLJJH7NDOSOPXCKE77VU.jpg?auth=8347309f957e46982e37d8949b157cbbf686fd40cdfb1441e1005b772e7ffe83&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Por qué se congela el móvil: posibles causas y soluciones prácticas",
-      "summary280": "Los móviles pueden congelarse por diversas razones, como actualizaciones incompletas, aplicaciones incompatibles, malware, temperaturas extremas o falta de almacenamiento.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/tecno/2026/03/02/por-que-se-congela-el-movil-posibles-causas-y-soluciones-practicas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/XGHY75LK6NESROWL2KDVLEI7YE.png?auth=9d7e1d2990fed1eea1f6f2c3154b42fb24ec732f67166e40f8d0bf5644e11911&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
