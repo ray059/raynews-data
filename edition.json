@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T19:53:24.600355-05:00",
+  "generated_at": "2026-03-02T20:22:50.627250-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Álvaro Uribe respaldó a Fico Gutiérrez y Andrés Julián Rendón: “Que los amigos del terrorismo se rasguen las vestiduras gritando soberanía”",
+      "summary280": "Álvaro Uribe respaldó a Fico Gutiérrez y Andrés Julián Rendón tras un plan de atentado contra ellos, criticando la política de seguridad del Gobierno de Gustavo Petro.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/alvaro-uribe-respaldo-a-fico-gutierrez-y-andres-julian-rendon-que-los-amigos-del-terrorismo-se-rasguen-las-vestiduras-gritando-soberania/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/HRS6CW537RB5XON2FAJCYPFZZQ.jpg?auth=cd5ee746ee4832809aaed50aa2cf30e7b4293507e077c85dbfde3ebe23b11ef5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
       "summary280": "Ibis León Malave y José Basilea, latinoamericanos en Medio Oriente, comparten su angustia tras recibir alarmas por ataques a Irán.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/02/rafael-lopez-aliaga-afirma-que-los-insultos-contra-periodistas-en-su-cuenta-de-x-no-son-suyos-tengo-un-equipo-de-redes/",
       "imageUrl": "https://www.infobae.com/resizer/v2/5PCFSHP4VNBZDJQKB2UPFOZLXY.jpg?auth=babd6d1a2acd2aa7e3806206cd8504afdfc76d9e2a0536a4347d0a4086dfbf56&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Las series más populares de Netflix Perú que no podrás dejar de ver",
-      "summary280": "Netflix Perú ofrece una variedad de series populares que facilitan la elección para los amantes de la televisión. Entre ellas destacan \"Los Bridgerton\", \"Baki-Dou\", \"El agente nocturno\" y \"Fórmula 1: La emoción de un Grand Prix\".",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/noticias/2026/03/02/las-series-mas-populares-de-netflix-peru-que-no-podras-dejar-de-ver/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/7MZ523YLQ5BDBP774HFREDUJOU.jpg?auth=a6870d4eeb8389b78639ea7b551c541b4a87cc058059637fa73230edaa569018&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
