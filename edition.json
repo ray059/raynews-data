@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T14:05:30.183283-05:00",
+  "generated_at": "2026-03-03T14:37:39.671864-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
-      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
+      "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
+      "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
       "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
       "type": "explainer",
       "isNew": true
     },
@@ -46,6 +46,15 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/03/el-brutal-rodillazo-de-rudiger-en-el-rostro-de-un-rival-durante-la-historica-caida-del-real-madrid-no-se-para-que-esta-el-var/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HI424H64KRCQVNP2IKHTJQDF6I.jpg?auth=a164c7efc149c2700aa0e4f2afbfbc1489e32524c19f1d70ee20e14642fcd9a5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
+      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/03/hezbola-reivindica-un-ataque-contra-dos-bases-militares-de-israel/",
       "imageUrl": "https://www.infobae.com/resizer/v2/A6MJGVZYCFFUFOOPKHTP4TU4LU.jpg?auth=81536d7b24766a3b06657ab1ab653ff7e73bd9e2c0b49ec1abaa9b4bc6c0b56f&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Las 10 películas más esperadas que se estrenan en cines y plataformas: de lo nuevo de Pedro Almodóvar a ‘Peaky Blinders’ en Netflix",
-      "summary280": "Marzo trae estrenos esperados como la nueva película de Almodóvar, un thriller con Mario Casas, y adaptaciones de obras literarias. Destacan títulos como \"La novia de Frankenstein\" y una historia de amor sadomasoquista.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/cultura/2026/03/03/las-10-peliculas-mas-esperadas-que-se-estrenan-en-cines-y-plataformas-de-lo-nuevo-de-pedro-almodovar-a-peaky-blinders-en-netflix/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YKVOKTWRHREUFGKT5WX7GOM2GI.png?auth=fdc9dffa1483bef1d0c2c0a05d2d94ebd375f016fbcc9f14c4d300b403bc33fd&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
