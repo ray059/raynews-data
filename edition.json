@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T01:45:37.792476-05:00",
+  "generated_at": "2026-03-03T02:40:10.232668-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Hezbolá reivindica un ataque contra dos bases militares de Israel",
+      "summary280": "Hezbolá reivindicó un ataque con drones a dos bases militares israelíes como respuesta a la reciente ofensiva israelí que dejó más de 50 muertos y 154 heridos en Líbano.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/03/hezbola-reivindica-un-ataque-contra-dos-bases-militares-de-israel/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/A6MJGVZYCFFUFOOPKHTP4TU4LU.jpg?auth=81536d7b24766a3b06657ab1ab653ff7e73bd9e2c0b49ec1abaa9b4bc6c0b56f&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Las 10 películas más esperadas que se estrenan en cines y plataformas: de lo nuevo de Pedro Almodóvar a ‘Peaky Blinders’ en Netflix",
       "summary280": "Marzo trae estrenos esperados como la nueva película de Almodóvar, un thriller con Mario Casas, y adaptaciones de obras literarias. Destacan títulos como \"La novia de Frankenstein\" y una historia de amor sadomasoquista.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/espana/cultura/2026/03/03/las-10-peliculas-mas-esperadas-que-se-estrenan-en-cines-y-plataformas-de-lo-nuevo-de-pedro-almodovar-a-peaky-blinders-en-netflix/",
       "imageUrl": "https://www.infobae.com/resizer/v2/YKVOKTWRHREUFGKT5WX7GOM2GI.png?auth=fdc9dffa1483bef1d0c2c0a05d2d94ebd375f016fbcc9f14c4d300b403bc33fd&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La novela de más de 700 páginas considerada como una de las mejores del año: el regreso de la escritora india más joven galardonada de la historia",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/el-contundente-mensaje-de-aston-martin-en-medio-de-los-rumores-de-que-podria-limitar-su-participacion-en-el-gp-de-australia/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DTU3RTNK5BDK7HJ6ZT54Y7BZPI.jfif?auth=cdd24d61c519a8011aeafafd446b702dca663ec2ada4c88a5b77fd29aad0c16d&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Atento Boca Juniors: la decisión que tomó Edinson Cavani tras una recaída en su lesión lumbar",
-      "summary280": "Edinson Cavani, delantero de Boca Juniors, se somete a un nuevo tratamiento de bloqueo lumbar tras una recaída en su lesión, lo que lo mantendrá fuera de las canchas por aproximadamente cuatro semanas. Su deseo es regresar a jugar antes de diciembre, cuando finaliza su contrato.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/atento-boca-juniors-la-decision-que-tomo-edinson-cavani-tras-una-recaida-en-su-lesion-lumbar/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/F5WF4WTMTNAZDPUKIZAMATVAHM.jfif?auth=c2034f6a669f02e69a61dd512b1ba69c5457c3820a0a6f480bb27e366cc2f783&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
