@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T12:57:24.782280-05:00",
+  "generated_at": "2026-03-03T13:11:37.993303-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
-      "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
+      "titleOriginal": "Las pruebas que demuestran cómo un ejecutivo bancario en Florida lavó y transfirió más de USD 5 millones a Colombia: así operaba el esquema",
+      "summary280": "Leonardo Ayala, empleado de TD Bank en Florida, confesó haber lavado más de USD 5,5 millones a Colombia mediante tarjetas de débito fraudulentas y cuentas ficticias. La investigación reveló fallas en los controles internos del banco, permitiendo operaciones ilícitas.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/las-pruebas-que-demostrarian-como-un-ejecutivo-bancario-en-florida-lavo-y-transfirio-mas-de-usd-5-millones-a-colombia-asi-operaba-el-esquema/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/755UIVKKU5FHBP6AIULTXZNRBQ.png?auth=02250d438daaa0071f98d97cf214a4068805908f113dd1adcfb8b5b4264f53a2&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -32,20 +32,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
+      "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Petro reaccionó a captura de escolta de congresista que llevaba millonaria suma de dinero en efectivo: “Capturar a los compradores de votos”",
       "summary280": "El escolta de un congresista fue detenido con $145.000.000 en efectivo, vinculado a la compra de votos en La Guajira.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/petro-reacciono-a-captura-de-escolta-de-congresista-que-llevaba-millonaria-suma-de-dinero-en-efectivo-capturar-a-los-compradores-de-votos/",
       "imageUrl": "https://www.infobae.com/resizer/v2/F4G5XSXRYVGYPAALIMPN5ELPUQ.jpg?auth=d3356ccb428ab90933bd5fa2a6fca9459e1843eed07d46abbfe324a215006191&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Corte Constitucional ordena medidas contra el ruido y riñas de bares que afectan a estudiantes menores de edad y adultos mayores",
-      "summary280": "La Corte Constitucional ordenó a una alcaldía tomar medidas contra el ruido y la violencia de bares cercanos a una escuela, afectando a estudiantes y adultos mayores.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/corte-constitucional-ordena-medidas-contra-el-ruido-y-rinas-de-bares-que-afectan-a-estudiantes-menores-de-edad-y-adultos-mayores/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/EF5UKF7FGZCMVO3UEDEPISYEB4.jpg?auth=9079665c7f2f459fd7f1c8a56cebf52371ce8d7d90c64079da65be1f41a95924&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -64,6 +64,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Corte Constitucional ordena medidas contra el ruido y riñas de bares que afectan a estudiantes menores de edad y adultos mayores",
+      "summary280": "La Corte Constitucional ordenó a una alcaldía tomar medidas contra el ruido y la violencia de bares cercanos a una escuela, afectando a estudiantes y adultos mayores.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/corte-constitucional-ordena-medidas-contra-el-ruido-y-rinas-de-bares-que-afectan-a-estudiantes-menores-de-edad-y-adultos-mayores/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/EF5UKF7FGZCMVO3UEDEPISYEB4.jpg?auth=9079665c7f2f459fd7f1c8a56cebf52371ce8d7d90c64079da65be1f41a95924&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/alvaro-uribe-respaldo-a-fico-gutierrez-y-andres-julian-rendon-que-los-amigos-del-terrorismo-se-rasguen-las-vestiduras-gritando-soberania/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HRS6CW537RB5XON2FAJCYPFZZQ.jpg?auth=cd5ee746ee4832809aaed50aa2cf30e7b4293507e077c85dbfde3ebe23b11ef5&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Extendieron la investigación por el cuadro robado por los nazis que apareció en Mar del Plata",
-      "summary280": "El Juzgado Federal N° 1 de Mar del Plata extendió la investigación sobre el \"Retrato de una dama\", robado por nazis, por cuatro meses. Patricia Kadgien y su esposo están imputados por encubrimiento.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/judiciales/2026/03/02/extendieron-la-investigacion-por-el-cuadro-robado-por-los-nazis-que-aparecio-en-mar-del-plata/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/FY3EF6NZJREPBDTS6TDRKU2IHI.jpg?auth=e80e5038051c4bdc598aa9f824c92d1d451dcbbb884e249d5f82e850af8e7896&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
