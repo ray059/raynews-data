@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T02:40:10.232668-05:00",
+  "generated_at": "2026-03-03T03:37:00.182786-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "BEL-20-INDEX se mueve en terreno rojo tras arranque de operaciones este 3 de marzo",
+      "summary280": "El BEL-20 INDEX inicia el 3 de marzo con caídas del 1,65%, situándose en 5.277,50 puntos, acumulando dos días negativos y un descenso del 6,25% en la última semana. A pesar de esto, mantiene un incremento del 18,24% en el último año.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/03/bel-20-index-se-mueve-en-terreno-rojo-tras-arranque-de-operaciones-este-3-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Hezbolá reivindica un ataque contra dos bases militares de Israel",
       "summary280": "Hezbolá reivindicó un ataque con drones a dos bases militares israelíes como respuesta a la reciente ofensiva israelí que dejó más de 50 muertos y 154 heridos en Líbano.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/03/hezbola-reivindica-un-ataque-contra-dos-bases-militares-de-israel/",
       "imageUrl": "https://www.infobae.com/resizer/v2/A6MJGVZYCFFUFOOPKHTP4TU4LU.jpg?auth=81536d7b24766a3b06657ab1ab653ff7e73bd9e2c0b49ec1abaa9b4bc6c0b56f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Las 10 películas más esperadas que se estrenan en cines y plataformas: de lo nuevo de Pedro Almodóvar a ‘Peaky Blinders’ en Netflix",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/tecno/2026/03/02/por-que-se-congela-el-movil-posibles-causas-y-soluciones-practicas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/XGHY75LK6NESROWL2KDVLEI7YE.png?auth=9d7e1d2990fed1eea1f6f2c3154b42fb24ec732f67166e40f8d0bf5644e11911&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El contundente mensaje de Aston Martin en medio de los rumores de que podría limitar su participación en el GP de Australia",
-      "summary280": "Aston Martin enfrenta serios problemas de fiabilidad en el GP de Australia, lo que ha generado rumores sobre una posible limitación en su participación.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/el-contundente-mensaje-de-aston-martin-en-medio-de-los-rumores-de-que-podria-limitar-su-participacion-en-el-gp-de-australia/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/DTU3RTNK5BDK7HJ6ZT54Y7BZPI.jfif?auth=cdd24d61c519a8011aeafafd446b702dca663ec2ada4c88a5b77fd29aad0c16d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
