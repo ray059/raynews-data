@@ -6,7 +6,6 @@ import hashlib
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from dateutil import parser  # 🔥 NUEVO para ISO 8601
 
 print("===== INICIO UPDATE_LINKS.PY PRO =====")
 
@@ -28,7 +27,6 @@ RSS_SOURCES = {
 
 HIST_FILE = "historical_editions.json"
 
-
 # -------------------------------------------------
 # UTILIDADES
 # -------------------------------------------------
@@ -36,18 +34,16 @@ HIST_FILE = "historical_editions.json"
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
-
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
 
-
-# 🔥 PARSER ROBUSTO (RFC + ISO)
+# 🔥 PARSER ROBUSTO (RFC + ISO 8601 SIN DEPENDENCIAS)
 def parse_date(pub_date_str):
 
     if not pub_date_str:
         return None
 
-    # Intentar RFC clásico
+    # 1️⃣ Intentar RFC clásico (BBC, DW)
     try:
         dt = parsedate_to_datetime(pub_date_str)
         if dt.tzinfo is None:
@@ -56,22 +52,20 @@ def parse_date(pub_date_str):
     except:
         pass
 
-    # Intentar ISO 8601 (El Tiempo)
+    # 2️⃣ Intentar ISO 8601 (El Tiempo)
     try:
-        dt = parser.isoparse(pub_date_str)
+        dt = datetime.fromisoformat(pub_date_str)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=COLOMBIA_TZ)
         return dt.astimezone(COLOMBIA_TZ)
     except:
         return None
 
-
 def is_last_24h(dt):
     if not dt:
         return False
     now = datetime.now(COLOMBIA_TZ)
     return dt >= now - timedelta(hours=24)
-
 
 def is_explainer(title):
     title = title.lower()
@@ -83,7 +77,6 @@ def is_explainer(title):
     ]
     return any(k in title for k in keywords)
 
-
 # -------------------------------------------------
 # CARGAR HISTÓRICO
 # -------------------------------------------------
@@ -93,7 +86,6 @@ if os.path.exists(HIST_FILE):
         historical = json.load(f)
 else:
     historical = {"news": {}}
-
 
 # -------------------------------------------------
 # RECOLECTAR
@@ -131,7 +123,7 @@ for source_name, rss_url in RSS_SOURCES.items():
             if not pub_date:
                 continue
 
-            # 🔥 Filtro 24h funciona ahora correctamente
+            # 🔥 Filtro últimas 24h
             if not is_last_24h(pub_date):
                 continue
 
