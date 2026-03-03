@@ -1,9 +1,18 @@
 {
   "api_version": 3,
-  "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T23:12:28.464183-05:00",
+  "edition_date": "03 de marzo de 2026",
+  "generated_at": "2026-03-03T00:46:04.810416-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "La novela de más de 700 páginas considerada como una de las mejores del año: el regreso de la escritora india más joven galardonada de la historia",
+      "summary280": "Kiran Desai regresa con \"La soledad de Sonia y Sunny\", una novela de más de 700 páginas que explora la experiencia migratoria y la soledad. La obra sigue a dos jóvenes indios en EE. UU.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/cultura/2026/03/03/la-novela-de-mas-de-700-paginas-considerada-como-una-de-las-mejores-del-ano-el-regreso-de-la-escritora-india-mas-joven-galardonada-de-la-historia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/C7TFNJYDCFD5DJEQ4VC6EN7MBA.jpg?auth=bca075a8f280f49670c67cf4b6e7573efb94d9030fc94a94cabd6093c9385ea2&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Joaquín Levinton habló de cómo está hoy su salud: \"Pude volver a hacer las cosas mías\"",
       "summary280": "Joaquín Levinton, cantante de Turf, habló sobre su salud tras un infarto que sufrió en Palermo. Agradeció al equipo médico y al público por su apoyo. Regresó a los escenarios en Cosquín Rock, sorprendiendo al llegar en camilla.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/teleshow/2026/03/03/joaquin-levinton-hablo-de-como-esta-hoy-su-salud-pude-volver-a-hacer-las-cosas-mias/",
       "imageUrl": "https://www.infobae.com/resizer/v2/2SA4VEMQCFCKLINPENBTF5572Q.jpg?auth=13cc1e511a2b74e4275d09e7f359bbbc13b3a94d8aa6c79c84f2f70a80bb5fbe&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "André Jardine revela cuál es su mayor sueño como entrenador: ¿Se va del club América?",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/02/abascal-reprocha-que-el-pp-promete-el-oro-y-el-moro-para-llegar-a-los-gobiernos-y-solo-trae-una-de-esas-cosas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/6D4Q5TI5UZEW3AWPBBM6DFUORE.jpg?auth=25e66cf623f2d9731276d9da200590b96a7458f596e6445e7c1aa2688597dc85&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Gisèle Pelicot visitará a su exmarido a la cárcel después de ganar el juicio: “Él estará en una posición de debilidad, y quiero preguntarle por qué esa traición”",
-      "summary280": "Gisèle Pelicot, referente del feminismo tras ganar un juicio por violencia sexual, visitará a su exmarido en prisión para confrontarlo sobre su traición.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/02/gisele-pelicot-visitara-a-su-exmarido-a-la-carcel-despues-de-ganar-el-juicio-el-estara-en-una-posicion-de-debilidad-y-quiero-preguntarle-por-que-esa-traicion/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/3TQPMNGL5JETTPEKYZ6WDX2IC4.jpg?auth=f3a67acd8639bbc98056722ea731b09cfd25eb8c093b2395dc6c49ab3f439c45&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
