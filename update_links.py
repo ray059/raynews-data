@@ -12,7 +12,6 @@ print("===== INICIO UPDATE_LINKS.PY PRO =====")
 TARGET_NEWS = 100
 MAX_PER_SOURCE = 25
 
-# Zona horaria Colombia (UTC-5)
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
 HEADERS = {
@@ -24,20 +23,18 @@ RSS_SOURCES = {
     "El Tiempo Colombia": "https://www.eltiempo.com/rss/colombia.xml",
     "Infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
     "DW Español": "https://rss.dw.com/rdf/rss-sp-all"
-    
 }
 
 HIST_FILE = "historical_editions.json"
 
-# -------------------------------------------------
-# UTILIDADES
-# -------------------------------------------------
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
+
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
+
 
 def parse_date(pub_date_str):
     try:
@@ -48,48 +45,24 @@ def parse_date(pub_date_str):
     except:
         return None
 
+
 def is_last_24h(dt):
     if not dt:
         return False
     now = datetime.now(COLOMBIA_TZ)
     return dt >= now - timedelta(hours=24)
 
+
 def is_explainer(title):
-    title = title.strip().lower()
-
+    title = title.lower()
     keywords = [
-        "qué", "que ", "cómo", "como ", "por qué",
-        "cuál", "cuáles", "quién", "quienes",
+        "qué", "como", "cómo", "por qué",
+        "cuál", "cuáles", "quién",
         "claves", "lo que se sabe",
-        "qué significa", "por qué ocurre", "así es"
+        "qué significa"
     ]
-
     return any(k in title for k in keywords)
 
-# -------------------------------------------------
-# RESOLVER LINK REAL DE GOOGLE NEWS (CNN)
-# -------------------------------------------------
-
-def resolve_google_news_link(google_url):
-    try:
-        r = requests.get(google_url, headers=HEADERS, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        for a in soup.find_all("a"):
-            href = a.get("href", "")
-            if "cnnespanol.cnn.com" in href:
-                if href.startswith("./"):
-                    href = "https://news.google.com" + href[1:]
-                return href
-
-    except Exception as e:
-        print("Error resolviendo Google News:", e)
-
-    return google_url
-
-# -------------------------------------------------
-# CARGAR HISTÓRICO
-# -------------------------------------------------
 
 if os.path.exists(HIST_FILE):
     with open(HIST_FILE, "r", encoding="utf-8") as f:
@@ -97,9 +70,6 @@ if os.path.exists(HIST_FILE):
 else:
     historical = {"news": {}}
 
-# -------------------------------------------------
-# RECOLECTAR
-# -------------------------------------------------
 
 all_news = []
 source_counts = {s: 0 for s in RSS_SOURCES}
@@ -125,21 +95,15 @@ for source_name, rss_url in RSS_SOURCES.items():
             if not title or not link:
                 continue
 
-            # 🔵 Resolver link real si viene de Google News
-            if "news.google.com" in link:
-                real_link = resolve_google_news_link(link)
-                if real_link:
-                    link = real_link
-
             pub_date = parse_date(pub_date_str)
 
-            # Solo últimas 24h
             if not is_last_24h(pub_date):
                 continue
 
-            # Solo explainers
-            if not is_explainer(title):
-                continue
+            # 🔥 Solo exigir explainers a BBC e Infobae
+            if source_name in ["BBC News Mundo", "Infobae"]:
+                if not is_explainer(title):
+                    continue
 
             news_id = make_id(link)
 
@@ -159,15 +123,7 @@ for source_name, rss_url in RSS_SOURCES.items():
 
 print("Candidatos antes de ordenar:", len(all_news))
 
-# -------------------------------------------------
-# ORDENAR POR MÁS RECIENTES
-# -------------------------------------------------
-
 all_news.sort(key=lambda x: x["pubDate"], reverse=True)
-
-# -------------------------------------------------
-# BALANCE ENTRE FUENTES
-# -------------------------------------------------
 
 balanced_news = []
 
@@ -185,13 +141,8 @@ for news in all_news:
 
 print("Noticias finales seleccionadas:", len(balanced_news))
 
-# -------------------------------------------------
-# GUARDAR LINKS
-# -------------------------------------------------
-
 with open("links.txt", "w", encoding="utf-8") as f:
     for news in balanced_news:
         f.write(f"{news['title']}||{news['url']}||{news['sourceName']}\n")
 
-print("Noticias guardadas en links.txt:", len(balanced_news))
 print("===== FIN UPDATE_LINKS.PY PRO =====")
