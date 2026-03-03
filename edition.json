@@ -1,7 +1,7 @@
 {
   "api_version": 3,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T20:22:50.627250-05:00",
+  "generated_at": "2026-03-02T20:33:32.214028-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/alvaro-uribe-respaldo-a-fico-gutierrez-y-andres-julian-rendon-que-los-amigos-del-terrorismo-se-rasguen-las-vestiduras-gritando-soberania/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HRS6CW537RB5XON2FAJCYPFZZQ.jpg?auth=cd5ee746ee4832809aaed50aa2cf30e7b4293507e077c85dbfde3ebe23b11ef5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
