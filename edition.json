@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T17:25:48.185170-05:00",
+  "generated_at": "2026-03-03T18:23:37.272734-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Dominicanos con enfermedades crónicas no oncológicas tendrán acceso a tratamientos tras ampliación de cobertura",
+      "summary280": "El CNSS aprobó la ampliación de la cobertura del Seguro Familiar de Salud para incluir tratamientos de alto costo para enfermedades crónicas no oncológicas, con un tope de RD$1.000.000 por paciente.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/republica-dominicana/2026/03/03/dominicanos-con-enfermedades-cronicas-no-oncologicas-tendran-acceso-a-tratamientos-tras-ampliacion-de-cobertura/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/BGRSFAS4YNGSZDQ537HNCKSZKU.png?auth=d110ed08357ce14fe5068f3050a5b457492ce548c33eaf38072586d5e6c2bd2c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
       "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "EN VIVO se define prisión preventiva de Adrián Villar: audiencia se reanuda hoy por caso Lizeth Marzano",
-      "summary280": "Adrián Villar Chirinos, de 21 años, enfrenta una audiencia por prisión preventiva tras atropellar y matar a la deportista Lizeth Marzano en San Isidro. La Fiscalía pide 9 meses de prisión, mientras su defensa busca alternativas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/03/en-vivo-se-define-prision-preventiva-de-adrian-villar-audiencia-se-reanuda-hoy-por-caso-lizeth-marzano/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/5XCIYE3L4BA5PM5Q7A3UCH4VSU.jpg?auth=e26677670943ccd451bc155bdd8e94a0362d6699b16614c04be36383d6183a5a&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El brutal rodillazo de Rudiger en el rostro de un rival durante la histórica caída del Real Madrid: “No sé para qué está el VAR”",
-      "summary280": "En el partido entre Getafe y Real Madrid, Rüdiger propinó un rodillazo a Diego Rico, acción no sancionada que generó polémica sobre el VAR y el arbitraje. Rico criticó la inacción del sistema y la falta de sanción, mientras el Getafe celebró una victoria clave en LaLiga.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/03/el-brutal-rodillazo-de-rudiger-en-el-rostro-de-un-rival-durante-la-historica-caida-del-real-madrid-no-se-para-que-esta-el-var/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HI424H64KRCQVNP2IKHTJQDF6I.jpg?auth=a164c7efc149c2700aa0e4f2afbfbc1489e32524c19f1d70ee20e14642fcd9a5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "EN VIVO se define prisión preventiva de Adrián Villar: audiencia se reanuda hoy por caso Lizeth Marzano",
+      "summary280": "Adrián Villar Chirinos, de 21 años, enfrenta una audiencia por prisión preventiva tras atropellar y matar a la deportista Lizeth Marzano en San Isidro. La Fiscalía pide 9 meses de prisión, mientras su defensa busca alternativas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/03/en-vivo-se-define-prision-preventiva-de-adrian-villar-audiencia-se-reanuda-hoy-por-caso-lizeth-marzano/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/5XCIYE3L4BA5PM5Q7A3UCH4VSU.jpg?auth=e26677670943ccd451bc155bdd8e94a0362d6699b16614c04be36383d6183a5a&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El brutal rodillazo de Rudiger en el rostro de un rival durante la histórica caída del Real Madrid: “No sé para qué está el VAR”",
+      "summary280": "En el partido entre Getafe y Real Madrid, Rüdiger propinó un rodillazo a Diego Rico, acción no sancionada que generó polémica sobre el VAR y el arbitraje. Rico criticó la inacción del sistema y la falta de sanción, mientras el Getafe celebró una victoria clave en LaLiga.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/deportes/2026/03/03/el-brutal-rodillazo-de-rudiger-en-el-rostro-de-un-rival-durante-la-historica-caida-del-real-madrid-no-se-para-que-esta-el-var/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/HI424H64KRCQVNP2IKHTJQDF6I.jpg?auth=a164c7efc149c2700aa0e4f2afbfbc1489e32524c19f1d70ee20e14642fcd9a5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
       "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
       "sourceName": "BBC News Mundo",
@@ -77,24 +86,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Las pruebas que demuestran cómo un ejecutivo bancario en Florida lavó y transfirió más de USD 5 millones a Colombia: así operaba el esquema",
-      "summary280": "Leonardo Ayala, empleado de TD Bank en Florida, confesó haber lavado más de USD 5,5 millones a Colombia mediante tarjetas de débito fraudulentas y cuentas ficticias. La investigación reveló fallas en los controles internos del banco, permitiendo operaciones ilícitas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/las-pruebas-que-demostrarian-como-un-ejecutivo-bancario-en-florida-lavo-y-transfirio-mas-de-usd-5-millones-a-colombia-asi-operaba-el-esquema/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/755UIVKKU5FHBP6AIULTXZNRBQ.png?auth=02250d438daaa0071f98d97cf214a4068805908f113dd1adcfb8b5b4264f53a2&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
-      "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
       "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
       "sourceName": "El Tiempo Colombia",
@@ -109,6 +100,24 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Las pruebas que demuestran cómo un ejecutivo bancario en Florida lavó y transfirió más de USD 5 millones a Colombia: así operaba el esquema",
+      "summary280": "Leonardo Ayala, empleado de TD Bank en Florida, confesó haber lavado más de USD 5,5 millones a Colombia mediante tarjetas de débito fraudulentas y cuentas ficticias. La investigación reveló fallas en los controles internos del banco, permitiendo operaciones ilícitas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/las-pruebas-que-demostrarian-como-un-ejecutivo-bancario-en-florida-lavo-y-transfirio-mas-de-usd-5-millones-a-colombia-asi-operaba-el-esquema/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/755UIVKKU5FHBP6AIULTXZNRBQ.png?auth=02250d438daaa0071f98d97cf214a4068805908f113dd1adcfb8b5b4264f53a2&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
+      "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/viajes/2026/03/03/la-ruta-de-los-dos-mares-el-camino-que-conecta-la-costa-adriatica-y-jonica-para-disfrutar-de-forma-tranquila-y-sostenible/",
       "imageUrl": "https://www.infobae.com/resizer/v2/52F3MZSYJRBFFPKVPVDCPT6G5M.jpg?auth=e9765d1eda28196257376b98075b7f8709507a3cbdbea50b634d2c3a1bcc604f&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Podemos pide salir de la OTAN y topar precios para que la ciudadanía no \"pague las consecuencias\" de los ataques a Irán",
-      "summary280": "Irene Montero, de Podemos, pidió salir de la OTAN y establecer topes en precios de energía, alimentos y medicamentos para proteger a la ciudadanía de las consecuencias de los ataques a Irán. También abogó por la gratuidad del transporte público ante posibles crisis económicas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/03/podemos-pide-salir-de-la-otan-y-topar-precios-para-que-la-ciudadania-no-pague-las-consecuencias-de-los-ataques-a-iran/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GWWRZFKWQNEFNHRMBH4NF6WVNA.jpg?auth=af09a5c8212dd5d49d46238e6333341dbdb17a70821e14779d38b28258691db2&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
