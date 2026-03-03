@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T13:11:37.993303-05:00",
+  "generated_at": "2026-03-03T13:22:44.723431-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Las pruebas que demuestran cómo un ejecutivo bancario en Florida lavó y transfirió más de USD 5 millones a Colombia: así operaba el esquema",
-      "summary280": "Leonardo Ayala, empleado de TD Bank en Florida, confesó haber lavado más de USD 5,5 millones a Colombia mediante tarjetas de débito fraudulentas y cuentas ficticias. La investigación reveló fallas en los controles internos del banco, permitiendo operaciones ilícitas.",
+      "titleOriginal": "El brutal rodillazo de Rudiger en el rostro de un rival durante la histórica caída del Real Madrid: “No sé para qué está el VAR”",
+      "summary280": "En el partido entre Getafe y Real Madrid, Rüdiger propinó un rodillazo a Diego Rico, acción no sancionada que generó polémica sobre el VAR y el arbitraje. Rico criticó la inacción del sistema y la falta de sanción, mientras el Getafe celebró una victoria clave en LaLiga.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/las-pruebas-que-demostrarian-como-un-ejecutivo-bancario-en-florida-lavo-y-transfirio-mas-de-usd-5-millones-a-colombia-asi-operaba-el-esquema/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/755UIVKKU5FHBP6AIULTXZNRBQ.png?auth=02250d438daaa0071f98d97cf214a4068805908f113dd1adcfb8b5b4264f53a2&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/deportes/2026/03/03/el-brutal-rodillazo-de-rudiger-en-el-rostro-de-un-rival-durante-la-historica-caida-del-real-madrid-no-se-para-que-esta-el-var/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/HI424H64KRCQVNP2IKHTJQDF6I.jpg?auth=a164c7efc149c2700aa0e4f2afbfbc1489e32524c19f1d70ee20e14642fcd9a5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -32,20 +32,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Las pruebas que demuestran cómo un ejecutivo bancario en Florida lavó y transfirió más de USD 5 millones a Colombia: así operaba el esquema",
+      "summary280": "Leonardo Ayala, empleado de TD Bank en Florida, confesó haber lavado más de USD 5,5 millones a Colombia mediante tarjetas de débito fraudulentas y cuentas ficticias. La investigación reveló fallas en los controles internos del banco, permitiendo operaciones ilícitas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/las-pruebas-que-demostrarian-como-un-ejecutivo-bancario-en-florida-lavo-y-transfirio-mas-de-usd-5-millones-a-colombia-asi-operaba-el-esquema/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/755UIVKKU5FHBP6AIULTXZNRBQ.png?auth=02250d438daaa0071f98d97cf214a4068805908f113dd1adcfb8b5b4264f53a2&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
       "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Petro reaccionó a captura de escolta de congresista que llevaba millonaria suma de dinero en efectivo: “Capturar a los compradores de votos”",
-      "summary280": "El escolta de un congresista fue detenido con $145.000.000 en efectivo, vinculado a la compra de votos en La Guajira.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/petro-reacciono-a-captura-de-escolta-de-congresista-que-llevaba-millonaria-suma-de-dinero-en-efectivo-capturar-a-los-compradores-de-votos/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/F4G5XSXRYVGYPAALIMPN5ELPUQ.jpg?auth=d3356ccb428ab90933bd5fa2a6fca9459e1843eed07d46abbfe324a215006191&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -64,6 +64,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Petro reaccionó a captura de escolta de congresista que llevaba millonaria suma de dinero en efectivo: “Capturar a los compradores de votos”",
+      "summary280": "El escolta de un congresista fue detenido con $145.000.000 en efectivo, vinculado a la compra de votos en La Guajira.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/petro-reacciono-a-captura-de-escolta-de-congresista-que-llevaba-millonaria-suma-de-dinero-en-efectivo-capturar-a-los-compradores-de-votos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/F4G5XSXRYVGYPAALIMPN5ELPUQ.jpg?auth=d3356ccb428ab90933bd5fa2a6fca9459e1843eed07d46abbfe324a215006191&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/03/andre-jardine-revela-cual-es-su-mayor-sueno-como-entrenador-se-va-del-club-america/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EP6JDLOXUNEC5HG7BWCLEXOHJQ.jpg?auth=7456bc76961b97867896df655722f4fe80b7eb495a9997e6f9d2730c9a76adf1&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Álvaro Uribe respaldó a Fico Gutiérrez y Andrés Julián Rendón: “Que los amigos del terrorismo se rasguen las vestiduras gritando soberanía”",
-      "summary280": "Álvaro Uribe respaldó a Fico Gutiérrez y Andrés Julián Rendón tras un plan de atentado contra ellos, criticando la política de seguridad del Gobierno de Gustavo Petro.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/alvaro-uribe-respaldo-a-fico-gutierrez-y-andres-julian-rendon-que-los-amigos-del-terrorismo-se-rasguen-las-vestiduras-gritando-soberania/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HRS6CW537RB5XON2FAJCYPFZZQ.jpg?auth=cd5ee746ee4832809aaed50aa2cf30e7b4293507e077c85dbfde3ebe23b11ef5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
