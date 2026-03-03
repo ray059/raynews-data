@@ -21,12 +21,10 @@ HEADERS = {
 
 RSS_SOURCES = {
     "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
-
-    # CNN vía Google News RSS
-    "CNN Español": "https://news.google.com/rss/search?q=site:cnnespanol.cnn.com&hl=es-419&gl=CO&ceid=CO:es-419",
-
+    "El Tiempo Colombia": "https://www.eltiempo.com/rss/colombia.xml",
     "Infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
-    "DW Español": "https://rss.dw.com/rdf/rss-es-all"
+    "DW Español": "https://rss.dw.com/rdf/rss-sp-all"
+    
 }
 
 HIST_FILE = "historical_editions.json"
