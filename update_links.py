@@ -37,13 +37,11 @@ def clean_text(text):
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
 
-# 🔥 PARSER ROBUSTO (RFC + ISO 8601 SIN DEPENDENCIAS)
 def parse_date(pub_date_str):
 
     if not pub_date_str:
         return None
 
-    # 1️⃣ Intentar RFC clásico (BBC, DW)
     try:
         dt = parsedate_to_datetime(pub_date_str)
         if dt.tzinfo is None:
@@ -52,7 +50,6 @@ def parse_date(pub_date_str):
     except:
         pass
 
-    # 2️⃣ Intentar ISO 8601 (El Tiempo)
     try:
         dt = datetime.fromisoformat(pub_date_str)
         if dt.tzinfo is None:
@@ -105,35 +102,29 @@ for source_name, rss_url in RSS_SOURCES.items():
         soup = BeautifulSoup(response.content, "xml")
         items = soup.find_all("item")
 
-        print(f"Items encontrados: {len(items)}")
-
         for item in items:
 
             title = item.title.text if item.title else ""
             link = item.link.text if item.link else ""
             pub_date_str = item.pubDate.text if item.pubDate else ""
+            description = item.description.text if item.description else ""
 
             title = clean_text(title)
+            description = clean_text(description)
 
             if not title or not link:
                 continue
 
             pub_date = parse_date(pub_date_str)
-
-            if not pub_date:
+            if not pub_date or not is_last_24h(pub_date):
                 continue
 
-            # 🔥 Filtro últimas 24h
-            if not is_last_24h(pub_date):
-                continue
-
-            # 🔥 Solo exigir explainers a BBC e Infobae
-            if source_name in ["BBC News Mundo", "Infobae"]:
+            # Solo exigir explainers a BBC
+            if source_name == "BBC News Mundo":
                 if not is_explainer(title):
                     continue
 
             news_id = make_id(link)
-
             if news_id in historical["news"]:
                 continue
 
@@ -142,7 +133,8 @@ for source_name, rss_url in RSS_SOURCES.items():
                 "title": title,
                 "url": link,
                 "sourceName": source_name,
-                "pubDate": pub_date
+                "pubDate": pub_date,
+                "description": description
             })
 
     except Exception as e:
@@ -150,20 +142,11 @@ for source_name, rss_url in RSS_SOURCES.items():
 
 print("Candidatos antes de ordenar:", len(all_news))
 
-# -------------------------------------------------
-# ORDENAR POR MÁS RECIENTES
-# -------------------------------------------------
-
 all_news.sort(key=lambda x: x["pubDate"], reverse=True)
-
-# -------------------------------------------------
-# BALANCE ENTRE FUENTES
-# -------------------------------------------------
 
 balanced_news = []
 
 for news in all_news:
-
     if len(balanced_news) >= TARGET_NEWS:
         break
 
@@ -177,13 +160,11 @@ for news in all_news:
 
 print("Noticias finales seleccionadas:", len(balanced_news))
 
-# -------------------------------------------------
-# GUARDAR LINKS
-# -------------------------------------------------
-
 with open("links.txt", "w", encoding="utf-8") as f:
     for news in balanced_news:
-        f.write(f"{news['title']}||{news['url']}||{news['sourceName']}\n")
+        f.write(
+            f"{news['title']}||{news['url']}||{news['sourceName']}||{news['description']}\n"
+        )
 
 print("Noticias guardadas en links.txt:", len(balanced_news))
 print("===== FIN UPDATE_LINKS.PY PRO =====")
