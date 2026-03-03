@@ -6,6 +6,7 @@ import hashlib
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from dateutil import parser  # 🔥 NUEVO para ISO 8601
 
 print("===== INICIO UPDATE_LINKS.PY PRO =====")
 
@@ -28,6 +29,10 @@ RSS_SOURCES = {
 HIST_FILE = "historical_editions.json"
 
 
+# -------------------------------------------------
+# UTILIDADES
+# -------------------------------------------------
+
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
@@ -36,11 +41,26 @@ def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
 
 
+# 🔥 PARSER ROBUSTO (RFC + ISO)
 def parse_date(pub_date_str):
+
+    if not pub_date_str:
+        return None
+
+    # Intentar RFC clásico
     try:
         dt = parsedate_to_datetime(pub_date_str)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(COLOMBIA_TZ)
+    except:
+        pass
+
+    # Intentar ISO 8601 (El Tiempo)
+    try:
+        dt = parser.isoparse(pub_date_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=COLOMBIA_TZ)
         return dt.astimezone(COLOMBIA_TZ)
     except:
         return None
@@ -64,12 +84,20 @@ def is_explainer(title):
     return any(k in title for k in keywords)
 
 
+# -------------------------------------------------
+# CARGAR HISTÓRICO
+# -------------------------------------------------
+
 if os.path.exists(HIST_FILE):
     with open(HIST_FILE, "r", encoding="utf-8") as f:
         historical = json.load(f)
 else:
     historical = {"news": {}}
 
+
+# -------------------------------------------------
+# RECOLECTAR
+# -------------------------------------------------
 
 all_news = []
 source_counts = {s: 0 for s in RSS_SOURCES}
@@ -78,11 +106,14 @@ for source_name, rss_url in RSS_SOURCES.items():
 
     try:
         print(f"Revisando {source_name}")
+
         response = requests.get(rss_url, headers=HEADERS, timeout=10)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, "xml")
         items = soup.find_all("item")
+
+        print(f"Items encontrados: {len(items)}")
 
         for item in items:
 
@@ -97,6 +128,10 @@ for source_name, rss_url in RSS_SOURCES.items():
 
             pub_date = parse_date(pub_date_str)
 
+            if not pub_date:
+                continue
+
+            # 🔥 Filtro 24h funciona ahora correctamente
             if not is_last_24h(pub_date):
                 continue
 
@@ -123,11 +158,20 @@ for source_name, rss_url in RSS_SOURCES.items():
 
 print("Candidatos antes de ordenar:", len(all_news))
 
+# -------------------------------------------------
+# ORDENAR POR MÁS RECIENTES
+# -------------------------------------------------
+
 all_news.sort(key=lambda x: x["pubDate"], reverse=True)
+
+# -------------------------------------------------
+# BALANCE ENTRE FUENTES
+# -------------------------------------------------
 
 balanced_news = []
 
 for news in all_news:
+
     if len(balanced_news) >= TARGET_NEWS:
         break
 
@@ -141,8 +185,13 @@ for news in all_news:
 
 print("Noticias finales seleccionadas:", len(balanced_news))
 
+# -------------------------------------------------
+# GUARDAR LINKS
+# -------------------------------------------------
+
 with open("links.txt", "w", encoding="utf-8") as f:
     for news in balanced_news:
         f.write(f"{news['title']}||{news['url']}||{news['sourceName']}\n")
 
+print("Noticias guardadas en links.txt:", len(balanced_news))
 print("===== FIN UPDATE_LINKS.PY PRO =====")
