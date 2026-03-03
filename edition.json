@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T09:48:59.188666-05:00",
+  "generated_at": "2026-03-03T10:43:46.153314-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
+      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Bruselas reúne el jueves por primera vez al panel que estudiará cómo limitar el acceso de menores a redes sociales",
       "summary280": "La Unión Europea se reunirá el jueves en Bruselas para analizar cómo limitar el acceso de menores a redes sociales, inspirándose en la experiencia de Australia.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/03/bruselas-reune-el-jueves-por-primera-vez-al-panel-que-estudiara-como-limitar-el-acceso-de-menores-a-redes-sociales/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/02/somos-mexico-entrega-al-ine-mas-de-348-mil-firmas-para-solicitar-su-registro-como-partido-politico/",
       "imageUrl": "https://www.infobae.com/resizer/v2/VI4MFBS3PJAXHG5UY7SPEEQ2SA.png?auth=e0747a3f9bc3c837bb34e1d16aa60d6c81f3abbcebb69c9c943d67c589acb4e7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Qué está pasando con los 5.000 peruanos en Medio Oriente? Embajador lanza reporte tras ataques de Irán e Israel",
-      "summary280": "La escalada del conflicto en Medio Oriente mantiene en alerta a miles de familias peruanas. El embajador en Israel, Javier Martín Sánchez-Checa, informó que no hay bajas ni heridos entre los peruanos, y se están coordinando evacuaciones. Aproximadamente 5.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/02/que-esta-pasando-con-los-5000-peruanos-en-medio-oriente-embajador-lanza-reporte-tras-ataques-de-iran-e-israel/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/NQRIZ5JKIVAMBBU5TA2DAWZ2PE.JPG?auth=5fb609b8cbabd6cd04d29980d6878c496db4d97a71ed3e2ffe0080668ce3458e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
