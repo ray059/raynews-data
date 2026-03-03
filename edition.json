@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T07:50:33.613426-05:00",
+  "generated_at": "2026-03-03T08:58:22.036585-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
+      "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Todo lo que debes saber del Pokémon Go Fest 2026: precios de entradas y más novedades",
       "summary280": "El Pokémon Go Fest 2026 se llevará a cabo entre finales de mayo y mediados de junio en Tokio, Chicago y Copenhague. Se ofrecerán entradas anticipadas con descuentos hasta el 31 de marzo.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/tecno/2026/03/03/todo-lo-que-debes-saber-del-pokemon-go-fest-2026-precios-de-entradas-y-mas-novedades/",
       "imageUrl": "https://www.infobae.com/resizer/v2/V3RCP5QASZCC7IOWWDYICKPSAY.jpg?auth=561e3d91f6983e4ffee71cffd5f3bbf68bfe19843e3c4d058faf9a59473a7d35&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La ruta de los dos mares: el camino que conecta la costa adriática y jónica para disfrutar de forma tranquila y sostenible",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/01/carlos-alvarez-soy-lo-que-soy-y-no-pido-excusas-por-eso-mi-sexualidad-no-puede-ser-motivo-de-persecucion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/XBOWKXRQKRA2FN3U4D2NKMTL5U.png?auth=f5b429a050e74f519f0a4051de1ae8ebb21eee574c31528a036dd39c55f58439&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La pérdida de hielo en la Antártida superó la extensión de Los Ángeles: qué alertó un estudio",
-      "summary280": "La pérdida de hielo en la Antártida en 30 años equivale a 12.820 km², superando la extensión de Los Ángeles.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/medio-ambiente/2026/03/02/la-perdida-de-hielo-en-la-antartida-supero-la-extension-de-los-angeles-que-alerto-un-estudio/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/LUJJDY3URJBCRPI5JTJBLN3Q5I.jpg?auth=8a1b77c70c78cea6080ec733180e58f027b5ac95998f55456bcd795380df65cf&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
