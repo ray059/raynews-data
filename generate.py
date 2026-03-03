@@ -15,10 +15,10 @@ HIST_FILE = "historical_editions.json"
 EDITION_FILE = "edition.json"
 
 MAX_TOTAL = 20
-MAX_NEW_PER_EDITION = 1  # 🔥 Cambia este número si quieres más nuevas
+MAX_NEW_PER_EDITION = 1
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
 
 # -------------------------------------------------
@@ -49,7 +49,7 @@ else:
     historical = {"news": {}}
 
 # -------------------------------------------------
-# SNAPSHOT DEL EDITION ACTUAL
+# SNAPSHOT EDITION ACTUAL
 # -------------------------------------------------
 
 base_edition = []
@@ -73,25 +73,12 @@ for h in base_edition:
 
 def extract_article_text(url):
     try:
-        if "cnnespanol.cnn.com" in url:
-            amp_url = url.rstrip("/") + "/amp"
-            r = requests.get(amp_url, headers=HEADERS, timeout=10)
-            if r.status_code == 200:
-                soup = BeautifulSoup(r.text, "html.parser")
-                paragraphs = soup.find_all("p")
-                text = " ".join([p.get_text() for p in paragraphs])
-                if len(text) > 400:
-                    return clean_text(text)
-
         r = requests.get(url, headers=HEADERS, timeout=10)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
-
         paragraphs = soup.find_all("p")
         text = " ".join([p.get_text() for p in paragraphs])
-
         return clean_text(text)
-
     except Exception as e:
         print("Error extrayendo artículo:", e)
         return ""
@@ -116,6 +103,7 @@ def extract_image(url):
 # -------------------------------------------------
 
 def generate_summary(title, article_text):
+
     if not OPENAI_API_KEY:
         return None
 
@@ -125,7 +113,6 @@ def generate_summary(title, article_text):
     prompt = f"""
 Resume el artículo en máximo 280 caracteres.
 Debe terminar en una frase completa.
-No cortar palabras.
 No usar puntos suspensivos.
 No inventar información.
 
@@ -269,28 +256,34 @@ for line in lines:
     })
 
 # -------------------------------------------------
-# BALANCE INTELIGENTE
+# LIMITAR NUEVAS POR EDICIÓN
 # -------------------------------------------------
 
 if edition_exists and new_items:
-
-    source_counter = {}
-    for h in normalized_base:
-        src = h["sourceName"]
-        source_counter[src] = source_counter.get(src, 0) + 1
-
-    new_items.sort(
-        key=lambda x: source_counter.get(x["sourceName"], 0)
-    )
-
     new_items = new_items[:MAX_NEW_PER_EDITION]
 
 # -------------------------------------------------
-# CONSTRUIR EDICIÓN
+# CONSTRUIR EDICIÓN BALANCEADA POR FUENTE
 # -------------------------------------------------
 
-final_headlines = new_items + normalized_base
-final_headlines = final_headlines[:MAX_TOTAL]
+combined = new_items + normalized_base
+
+source_counts = {}
+balanced_final = []
+
+while combined and len(balanced_final) < MAX_TOTAL:
+
+    combined.sort(
+        key=lambda x: source_counts.get(x["sourceName"], 0)
+    )
+
+    selected = combined.pop(0)
+    balanced_final.append(selected)
+
+    src = selected["sourceName"]
+    source_counts[src] = source_counts.get(src, 0) + 1
+
+final_headlines = balanced_final
 
 edition = {
     "api_version": 3,
@@ -299,10 +292,6 @@ edition = {
     "country": "Internacional",
     "headlines": final_headlines
 }
-
-# -------------------------------------------------
-# ESCRITURA ATÓMICA (ANTI-RACE CONDITION)
-# -------------------------------------------------
 
 edition_tmp = "edition_tmp.json"
 with open(edition_tmp, "w", encoding="utf-8") as f:
