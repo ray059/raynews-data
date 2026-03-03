@@ -16,10 +16,15 @@ EDITION_FILE = "edition.json"
 
 MAX_TOTAL = 20
 MAX_NEW_PER_EDITION = 1
+MAX_NEW_PER_SOURCE = 1  # 🔥 evita monopolio de una sola fuente
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
+
+# -------------------------------------------------
+# UTILIDADES
+# -------------------------------------------------
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
@@ -34,11 +39,19 @@ MESES_ES = {
     11: "noviembre", 12: "diciembre",
 }
 
+# -------------------------------------------------
+# CARGAR HISTÓRICO
+# -------------------------------------------------
+
 if os.path.exists(HIST_FILE):
     with open(HIST_FILE, "r", encoding="utf-8") as f:
         historical = json.load(f)
 else:
     historical = {"news": {}}
+
+# -------------------------------------------------
+# SNAPSHOT EDITION ACTUAL
+# -------------------------------------------------
 
 base_edition = []
 
@@ -54,6 +67,10 @@ for h in base_edition:
     h_copy = h.copy()
     h_copy["isNew"] = False
     normalized_base.append(h_copy)
+
+# -------------------------------------------------
+# EXTRACCIÓN
+# -------------------------------------------------
 
 def extract_article_text(url):
     try:
@@ -76,6 +93,10 @@ def extract_image(url):
     except:
         pass
     return None
+
+# -------------------------------------------------
+# RESUMEN IA
+# -------------------------------------------------
 
 def generate_summary(title, article_text):
 
@@ -130,6 +151,7 @@ now = datetime.now(ZoneInfo("America/Bogota"))
 fecha_legible = f"{now.day:02d} de {MESES_ES[now.month]} de {now.year}"
 
 new_items = []
+per_source_new_counter = {}
 
 for line in lines:
     parts = line.strip().split("||")
@@ -148,7 +170,8 @@ for line in lines:
     else:
         article_text = extract_article_text(url)
 
-    if len(article_text) < 120:
+    # 🔥 Filtro inteligente
+    if source_name != "El Tiempo Colombia" and len(article_text) < 120:
         continue
 
     summary = generate_summary(title, article_text)
@@ -166,6 +189,10 @@ for line in lines:
         "first_seen": now.isoformat()
     }
 
+    # 🔥 Limitar nuevas por fuente
+    if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
+        continue
+
     new_items.append({
         "titleOriginal": title,
         "summary280": summary,
@@ -176,8 +203,16 @@ for line in lines:
         "isNew": True
     })
 
+    per_source_new_counter[source_name] = (
+        per_source_new_counter.get(source_name, 0) + 1
+    )
+
+# -------------------------------------------------
 # PRIORIDAD FUENTES AUSENTES
+# -------------------------------------------------
+
 if edition_exists and new_items:
+
     source_counter = {}
     for h in normalized_base:
         src = h["sourceName"]
@@ -191,6 +226,10 @@ if edition_exists and new_items:
 
     new_items.sort(key=priority)
     new_items = new_items[:MAX_NEW_PER_EDITION]
+
+# -------------------------------------------------
+# CONSTRUIR EDICIÓN BALANCEADA
+# -------------------------------------------------
 
 combined = new_items + normalized_base
 
@@ -224,5 +263,6 @@ with open("historical_tmp.json", "w", encoding="utf-8") as f:
 
 os.replace("historical_tmp.json", HIST_FILE)
 
+print("Noticias nuevas detectadas:", len(new_items))
 print("Noticias finales:", len(final_headlines))
 print("===== FIN GENERATE.PY =====")
