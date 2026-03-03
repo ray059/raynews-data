@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T13:22:44.723431-05:00",
+  "generated_at": "2026-03-03T13:42:50.495186-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Victoria judicial para Cali: Consejo de Estado confirma que no hay 'daño especial' por normas de ordenamiento urbano",
+      "summary280": "El Consejo de Estado confirmó que no hay 'daño especial' por normas de ordenamiento urbano en Cali, lo que permite a la Alcaldía recuperar $42.900 millones. La decisión implica que el demandante deberá pagar al Distrito el 3% de sus pretensiones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/victoria-judicial-para-cali-consejo-de-estado-confirma-que-no-hay-dano-especial-por-normas-de-ordenamiento-urbano-3536955",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2021/11/19/61982d8f8a36f.r_d.1060-707-0.jpeg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "El brutal rodillazo de Rudiger en el rostro de un rival durante la histórica caída del Real Madrid: “No sé para qué está el VAR”",
       "summary280": "En el partido entre Getafe y Real Madrid, Rüdiger propinó un rodillazo a Diego Rico, acción no sancionada que generó polémica sobre el VAR y el arbitraje. Rico criticó la inacción del sistema y la falta de sanción, mientras el Getafe celebró una victoria clave en LaLiga.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/03/el-brutal-rodillazo-de-rudiger-en-el-rostro-de-un-rival-durante-la-historica-caida-del-real-madrid-no-se-para-que-esta-el-var/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HI424H64KRCQVNP2IKHTJQDF6I.jpg?auth=a164c7efc149c2700aa0e4f2afbfbc1489e32524c19f1d70ee20e14642fcd9a5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/teleshow/2026/03/03/joaquin-levinton-hablo-de-como-esta-hoy-su-salud-pude-volver-a-hacer-las-cosas-mias/",
       "imageUrl": "https://www.infobae.com/resizer/v2/2SA4VEMQCFCKLINPENBTF5572Q.jpg?auth=13cc1e511a2b74e4275d09e7f359bbbc13b3a94d8aa6c79c84f2f70a80bb5fbe&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "André Jardine revela cuál es su mayor sueño como entrenador: ¿Se va del club América?",
-      "summary280": "André Jardine, entrenador del club América, enfrenta dudas sobre su continuidad tras una mala racha. Aunque sueña con dirigir en LaLiga de España, asegura que su compromiso actual es con América, donde ha logrado un tricampeonato.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/03/andre-jardine-revela-cual-es-su-mayor-sueno-como-entrenador-se-va-del-club-america/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/EP6JDLOXUNEC5HG7BWCLEXOHJQ.jpg?auth=7456bc76961b97867896df655722f4fe80b7eb495a9997e6f9d2730c9a76adf1&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
