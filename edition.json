@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T20:33:32.214028-05:00",
+  "generated_at": "2026-03-02T20:53:41.823404-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "André Jardine revela cuál es su mayor sueño como entrenador: ¿Se va del club América?",
+      "summary280": "André Jardine, entrenador del club América, enfrenta dudas sobre su continuidad tras una mala racha. Aunque sueña con dirigir en LaLiga de España, asegura que su compromiso actual es con América, donde ha logrado un tricampeonato.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/03/andre-jardine-revela-cual-es-su-mayor-sueno-como-entrenador-se-va-del-club-america/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/EP6JDLOXUNEC5HG7BWCLEXOHJQ.jpg?auth=7456bc76961b97867896df655722f4fe80b7eb495a9997e6f9d2730c9a76adf1&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Álvaro Uribe respaldó a Fico Gutiérrez y Andrés Julián Rendón: “Que los amigos del terrorismo se rasguen las vestiduras gritando soberanía”",
       "summary280": "Álvaro Uribe respaldó a Fico Gutiérrez y Andrés Julián Rendón tras un plan de atentado contra ellos, criticando la política de seguridad del Gobierno de Gustavo Petro.",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/los-detalles-del-desembarco-de-coudet-en-river-plate-la-cifra-que-recibira-el-alaves-y-un-viejo-conocido-como-asistente/",
       "imageUrl": "https://www.infobae.com/resizer/v2/MJRXC644NVF7JB4JISEOKKKLSY.jpg?auth=e659743cc1ddd347a43e29fef0c9f06b93b31f3d5af46da9e76d51e339171aea&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Rafael López Aliaga afirma que los insultos contra periodistas en su cuenta de X no son suyos: “Tengo un equipo de redes”",
-      "summary280": "Rafael López Aliaga afirmó que los insultos a periodistas en su cuenta de X no son de su autoría, sino de un equipo que gestiona sus redes. Defendió su trabajo como candidato y desmintió acusaciones sobre su relación con Lori Berenson.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/02/rafael-lopez-aliaga-afirma-que-los-insultos-contra-periodistas-en-su-cuenta-de-x-no-son-suyos-tengo-un-equipo-de-redes/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/5PCFSHP4VNBZDJQKB2UPFOZLXY.jpg?auth=babd6d1a2acd2aa7e3806206cd8504afdfc76d9e2a0536a4347d0a4086dfbf56&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
