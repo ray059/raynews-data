@@ -21,10 +21,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
 
-# -------------------------------------------------
-# UTILIDADES
-# -------------------------------------------------
-
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
@@ -38,19 +34,11 @@ MESES_ES = {
     11: "noviembre", 12: "diciembre",
 }
 
-# -------------------------------------------------
-# CARGAR HISTÓRICO
-# -------------------------------------------------
-
 if os.path.exists(HIST_FILE):
     with open(HIST_FILE, "r", encoding="utf-8") as f:
         historical = json.load(f)
 else:
     historical = {"news": {}}
-
-# -------------------------------------------------
-# SNAPSHOT EDITION ACTUAL
-# -------------------------------------------------
 
 base_edition = []
 
@@ -67,10 +55,6 @@ for h in base_edition:
     h_copy["isNew"] = False
     normalized_base.append(h_copy)
 
-# -------------------------------------------------
-# EXTRAER TEXTO
-# -------------------------------------------------
-
 def extract_article_text(url):
     try:
         r = requests.get(url, headers=HEADERS, timeout=10)
@@ -79,13 +63,8 @@ def extract_article_text(url):
         paragraphs = soup.find_all("p")
         text = " ".join([p.get_text() for p in paragraphs])
         return clean_text(text)
-    except Exception as e:
-        print("Error extrayendo artículo:", e)
+    except:
         return ""
-
-# -------------------------------------------------
-# EXTRAER IMAGEN
-# -------------------------------------------------
 
 def extract_image(url):
     try:
@@ -97,10 +76,6 @@ def extract_image(url):
     except:
         pass
     return None
-
-# -------------------------------------------------
-# GENERAR RESUMEN IA
-# -------------------------------------------------
 
 def generate_summary(title, article_text):
 
@@ -137,66 +112,8 @@ Artículo:
 
         return summary
 
-    except Exception as e:
-        print("Error generando resumen:", e)
+    except:
         return None
-
-# -------------------------------------------------
-# GENERAR AUDIO
-# -------------------------------------------------
-
-def generate_audio_blocks(headlines, fecha_legible):
-
-    if not OPENAI_API_KEY or not headlines:
-        return
-
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_API_KEY)
-
-    audio_files = []
-
-    intro_text = f"Actualización de Ray News del {fecha_legible}."
-
-    with client.audio.speech.with_streaming_response.create(
-        model="gpt-4o-mini-tts",
-        voice="alloy",
-        input=intro_text,
-    ) as response:
-        response.stream_to_file("part_0.mp3")
-
-    audio_files.append("part_0.mp3")
-
-    for i, h in enumerate(headlines):
-        filename = f"part_{i+1}.mp3"
-
-        with client.audio.speech.with_streaming_response.create(
-            model="gpt-4o-mini-tts",
-            voice="nova",
-            input=h["titleOriginal"],
-        ) as response:
-            response.stream_to_file(filename)
-
-        audio_files.append(filename)
-
-    with open("files.txt", "w") as f:
-        for file in audio_files:
-            f.write(f"file '{file}'\n")
-
-    subprocess.run([
-        "ffmpeg", "-y",
-        "-f", "concat",
-        "-safe", "0",
-        "-i", "files.txt",
-        "-c", "copy",
-        "edition_audio.mp3"
-    ])
-
-    for file in audio_files:
-        if os.path.exists(file):
-            os.remove(file)
-
-    if os.path.exists("files.txt"):
-        os.remove("files.txt")
 
 # -------------------------------------------------
 # MAIN
@@ -216,17 +133,22 @@ new_items = []
 
 for line in lines:
     parts = line.strip().split("||")
-    if len(parts) != 3:
+    if len(parts) != 4:
         continue
 
-    title, url, source_name = parts
+    title, url, source_name, description = parts
     news_id = make_id(url)
 
     if news_id in historical["news"]:
         continue
 
-    article_text = extract_article_text(url)
-    if len(article_text) < 400:
+    # 🔥 El Tiempo usa description RSS
+    if source_name == "El Tiempo Colombia":
+        article_text = description
+    else:
+        article_text = extract_article_text(url)
+
+    if len(article_text) < 120:
         continue
 
     summary = generate_summary(title, article_text)
@@ -254,13 +176,8 @@ for line in lines:
         "isNew": True
     })
 
-# -------------------------------------------------
-# PRIORIDAD A FUENTES AUSENTES
-# -------------------------------------------------
-
+# PRIORIDAD FUENTES AUSENTES
 if edition_exists and new_items:
-
-    # Contar cuántas noticias tiene cada fuente en la edición actual
     source_counter = {}
     for h in normalized_base:
         src = h["sourceName"]
@@ -268,20 +185,12 @@ if edition_exists and new_items:
 
     def priority(item):
         count = source_counter.get(item["sourceName"], 0)
-
-        # Prioridad máxima si la fuente no existe en edición
         if count == 0:
             return (0, 0)
-        else:
-            return (1, count)
+        return (1, count)
 
     new_items.sort(key=priority)
-
     new_items = new_items[:MAX_NEW_PER_EDITION]
-
-# -------------------------------------------------
-# CONSTRUIR EDICIÓN BALANCEADA
-# -------------------------------------------------
 
 combined = new_items + normalized_base
 
@@ -289,14 +198,9 @@ source_counts = {}
 balanced_final = []
 
 while combined and len(balanced_final) < MAX_TOTAL:
-
-    combined.sort(
-        key=lambda x: source_counts.get(x["sourceName"], 0)
-    )
-
+    combined.sort(key=lambda x: source_counts.get(x["sourceName"], 0))
     selected = combined.pop(0)
     balanced_final.append(selected)
-
     src = selected["sourceName"]
     source_counts[src] = source_counts.get(src, 0) + 1
 
@@ -310,20 +214,15 @@ edition = {
     "headlines": final_headlines
 }
 
-edition_tmp = "edition_tmp.json"
-with open(edition_tmp, "w", encoding="utf-8") as f:
+with open("edition_tmp.json", "w", encoding="utf-8") as f:
     json.dump(edition, f, indent=2, ensure_ascii=False)
 
-os.replace(edition_tmp, EDITION_FILE)
+os.replace("edition_tmp.json", EDITION_FILE)
 
-hist_tmp = "historical_tmp.json"
-with open(hist_tmp, "w", encoding="utf-8") as f:
+with open("historical_tmp.json", "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
-os.replace(hist_tmp, HIST_FILE)
-
-if new_items:
-    generate_audio_blocks(new_items, fecha_legible)
+os.replace("historical_tmp.json", HIST_FILE)
 
 print("Noticias finales:", len(final_headlines))
 print("===== FIN GENERATE.PY =====")
