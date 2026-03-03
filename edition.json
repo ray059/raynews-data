@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T20:53:41.823404-05:00",
+  "generated_at": "2026-03-02T23:12:28.464183-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Joaquín Levinton habló de cómo está hoy su salud: \"Pude volver a hacer las cosas mías\"",
+      "summary280": "Joaquín Levinton, cantante de Turf, habló sobre su salud tras un infarto que sufrió en Palermo. Agradeció al equipo médico y al público por su apoyo. Regresó a los escenarios en Cosquín Rock, sorprendiendo al llegar en camilla.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/03/joaquin-levinton-hablo-de-como-esta-hoy-su-salud-pude-volver-a-hacer-las-cosas-mias/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/2SA4VEMQCFCKLINPENBTF5572Q.jpg?auth=13cc1e511a2b74e4275d09e7f359bbbc13b3a94d8aa6c79c84f2f70a80bb5fbe&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "André Jardine revela cuál es su mayor sueño como entrenador: ¿Se va del club América?",
       "summary280": "André Jardine, entrenador del club América, enfrenta dudas sobre su continuidad tras una mala racha. Aunque sueña con dirigir en LaLiga de España, asegura que su compromiso actual es con América, donde ha logrado un tricampeonato.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/03/andre-jardine-revela-cual-es-su-mayor-sueno-como-entrenador-se-va-del-club-america/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EP6JDLOXUNEC5HG7BWCLEXOHJQ.jpg?auth=7456bc76961b97867896df655722f4fe80b7eb495a9997e6f9d2730c9a76adf1&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Álvaro Uribe respaldó a Fico Gutiérrez y Andrés Julián Rendón: “Que los amigos del terrorismo se rasguen las vestiduras gritando soberanía”",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/02/gisele-pelicot-visitara-a-su-exmarido-a-la-carcel-despues-de-ganar-el-juicio-el-estara-en-una-posicion-de-debilidad-y-quiero-preguntarle-por-que-esa-traicion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3TQPMNGL5JETTPEKYZ6WDX2IC4.jpg?auth=f3a67acd8639bbc98056722ea731b09cfd25eb8c093b2395dc6c49ab3f439c45&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Los detalles del desembarco de Coudet en River Plate: la cifra que recibirá el Alavés y un viejo conocido como asistente",
-      "summary280": "Eduardo Coudet comenzará su era en River Plate tras despedirse del Alavés. Se espera una compensación económica inferior al millón de euros. Damián Musto será su asistente y el debut está previsto para el domingo, si se levanta el paro.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/los-detalles-del-desembarco-de-coudet-en-river-plate-la-cifra-que-recibira-el-alaves-y-un-viejo-conocido-como-asistente/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/MJRXC644NVF7JB4JISEOKKKLSY.jpg?auth=e659743cc1ddd347a43e29fef0c9f06b93b31f3d5af46da9e76d51e339171aea&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
