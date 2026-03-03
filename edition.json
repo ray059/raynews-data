@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T11:42:33.028624-05:00",
+  "generated_at": "2026-03-03T12:41:08.428907-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Petro reaccionó a captura de escolta de congresista que llevaba millonaria suma de dinero en efectivo: “Capturar a los compradores de votos”",
+      "summary280": "El escolta de un congresista fue detenido con $145.000.000 en efectivo, vinculado a la compra de votos en La Guajira.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/petro-reacciono-a-captura-de-escolta-de-congresista-que-llevaba-millonaria-suma-de-dinero-en-efectivo-capturar-a-los-compradores-de-votos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/F4G5XSXRYVGYPAALIMPN5ELPUQ.jpg?auth=d3356ccb428ab90933bd5fa2a6fca9459e1843eed07d46abbfe324a215006191&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Corte Constitucional ordena medidas contra el ruido y riñas de bares que afectan a estudiantes menores de edad y adultos mayores",
       "summary280": "La Corte Constitucional ordenó a una alcaldía tomar medidas contra el ruido y la violencia de bares cercanos a una escuela, afectando a estudiantes y adultos mayores.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/corte-constitucional-ordena-medidas-contra-el-ruido-y-rinas-de-bares-que-afectan-a-estudiantes-menores-de-edad-y-adultos-mayores/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EF5UKF7FGZCMVO3UEDEPISYEB4.jpg?auth=9079665c7f2f459fd7f1c8a56cebf52371ce8d7d90c64079da65be1f41a95924&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/02/lucero-confiesa-que-iba-a-morir-al-aire-y-embarazada-hace-22-anos-tras-asfixiarse-con-confeti/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3FHBNCFDFNGBTMRBDDEQF2DKA4.jpg?auth=2c984ae685d7ebf5b13a0ea38e8b15d5f40cca4d43ba3cbc691e5871286f8367&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Presidente de Fedegán alertó sobre presuntas invasiones ilegales: advirtió que la ANT podría expropiar tierras",
-      "summary280": "El presidente de Fedegán, José Félix Lafaurie, alertó sobre el Decreto 0174 de 2026, que permite a la ANT expropiar tierras, advirtiendo que podría fomentar invasiones ilegales y afectar la propiedad rural.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/02/presidente-de-fedegan-alerto-sobre-presuntas-invasiones-ilegales-advirtio-que-la-ant-podria-expropiar-tierras/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/E7MIOUBTHNEWNPVQ3QQUJJA5KY.png?auth=623fa0169af69b21c03b1efa481b9caff0727a2c075f694399ccd26bb8e76b53&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
