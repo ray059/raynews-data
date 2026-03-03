@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T15:29:16.672514-05:00",
+  "generated_at": "2026-03-03T16:30:40.954603-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
-      "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
+      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
+      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
       "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/se-restablece-el-paso-en-la-via-medellin-bogota-habilitan-transito-controlado-en-el-sector-de-san-luis-3536981",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a73aef6b150.jpeg",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
+      "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/se-restablece-el-paso-en-la-via-medellin-bogota-habilitan-transito-controlado-en-el-sector-de-san-luis-3536981",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a73aef6b150.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
       "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
-      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -100,6 +100,15 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
+      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/03/ana-boyer-y-fernando-verdasco-mandan-un-mensaje-de-tranquilidad-desde-doha-no-tenemos-miedo-porque-sabemos-quien-nos-va-a-proteger/",
       "imageUrl": "https://www.infobae.com/resizer/v2/YQHNGUJPNVBFXLPNWYHFLTXJBI.jpg?auth=1a2c2b4fa3cc7e3e2a88f55a27f26039ee225886cb0f097cd1847886c5bfb58e&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "BEL-20-INDEX se mueve en terreno rojo tras arranque de operaciones este 3 de marzo",
-      "summary280": "El BEL-20 INDEX inicia el 3 de marzo con caídas del 1,65%, situándose en 5.277,50 puntos, acumulando dos días negativos y un descenso del 6,25% en la última semana. A pesar de esto, mantiene un incremento del 18,24% en el último año.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/noticias/2026/03/03/bel-20-index-se-mueve-en-terreno-rojo-tras-arranque-de-operaciones-este-3-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
