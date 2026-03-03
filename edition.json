@@ -1,24 +1,24 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T13:42:50.495186-05:00",
+  "generated_at": "2026-03-03T13:46:24.923857-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "EN VIVO se define prisión preventiva de Adrián Villar: audiencia se reanuda hoy por caso Lizeth Marzano",
+      "summary280": "Adrián Villar Chirinos, de 21 años, enfrenta una audiencia por prisión preventiva tras atropellar y matar a la deportista Lizeth Marzano en San Isidro. La Fiscalía pide 9 meses de prisión, mientras su defensa busca alternativas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/03/en-vivo-se-define-prision-preventiva-de-adrian-villar-audiencia-se-reanuda-hoy-por-caso-lizeth-marzano/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/5XCIYE3L4BA5PM5Q7A3UCH4VSU.jpg?auth=e26677670943ccd451bc155bdd8e94a0362d6699b16614c04be36383d6183a5a&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Victoria judicial para Cali: Consejo de Estado confirma que no hay 'daño especial' por normas de ordenamiento urbano",
       "summary280": "El Consejo de Estado confirmó que no hay 'daño especial' por normas de ordenamiento urbano en Cali, lo que permite a la Alcaldía recuperar $42.900 millones. La decisión implica que el demandante deberá pagar al Distrito el 3% de sus pretensiones.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/victoria-judicial-para-cali-consejo-de-estado-confirma-que-no-hay-dano-especial-por-normas-de-ordenamiento-urbano-3536955",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2021/11/19/61982d8f8a36f.r_d.1060-707-0.jpeg",
-      "type": "explainer",
-      "isNew": true
-    },
-    {
-      "titleOriginal": "El brutal rodillazo de Rudiger en el rostro de un rival durante la histórica caída del Real Madrid: “No sé para qué está el VAR”",
-      "summary280": "En el partido entre Getafe y Real Madrid, Rüdiger propinó un rodillazo a Diego Rico, acción no sancionada que generó polémica sobre el VAR y el arbitraje. Rico criticó la inacción del sistema y la falta de sanción, mientras el Getafe celebró una victoria clave en LaLiga.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/03/el-brutal-rodillazo-de-rudiger-en-el-rostro-de-un-rival-durante-la-historica-caida-del-real-madrid-no-se-para-que-esta-el-var/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HI424H64KRCQVNP2IKHTJQDF6I.jpg?auth=a164c7efc149c2700aa0e4f2afbfbc1489e32524c19f1d70ee20e14642fcd9a5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -41,20 +41,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El brutal rodillazo de Rudiger en el rostro de un rival durante la histórica caída del Real Madrid: “No sé para qué está el VAR”",
+      "summary280": "En el partido entre Getafe y Real Madrid, Rüdiger propinó un rodillazo a Diego Rico, acción no sancionada que generó polémica sobre el VAR y el arbitraje. Rico criticó la inacción del sistema y la falta de sanción, mientras el Getafe celebró una victoria clave en LaLiga.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/deportes/2026/03/03/el-brutal-rodillazo-de-rudiger-en-el-rostro-de-un-rival-durante-la-historica-caida-del-real-madrid-no-se-para-que-esta-el-var/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/HI424H64KRCQVNP2IKHTJQDF6I.jpg?auth=a164c7efc149c2700aa0e4f2afbfbc1489e32524c19f1d70ee20e14642fcd9a5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Las pruebas que demuestran cómo un ejecutivo bancario en Florida lavó y transfirió más de USD 5 millones a Colombia: así operaba el esquema",
       "summary280": "Leonardo Ayala, empleado de TD Bank en Florida, confesó haber lavado más de USD 5,5 millones a Colombia mediante tarjetas de débito fraudulentas y cuentas ficticias. La investigación reveló fallas en los controles internos del banco, permitiendo operaciones ilícitas.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/las-pruebas-que-demostrarian-como-un-ejecutivo-bancario-en-florida-lavo-y-transfirio-mas-de-usd-5-millones-a-colombia-asi-operaba-el-esquema/",
       "imageUrl": "https://www.infobae.com/resizer/v2/755UIVKKU5FHBP6AIULTXZNRBQ.png?auth=02250d438daaa0071f98d97cf214a4068805908f113dd1adcfb8b5b4264f53a2&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
-      "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -73,6 +73,15 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
+      "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/03/beca-rita-cetina-y-benito-juarez-2026-como-quedaria-el-calendario-de-pagos-de-abril/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GJPLGXWYFZEPROYTUQUXOWLY2U.jpg?auth=29a98e649cd3caaf0e1bff6a27b55488115849aa170ca068115dc8f25af5d856&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/cultura/2026/03/03/la-novela-de-mas-de-700-paginas-considerada-como-una-de-las-mejores-del-ano-el-regreso-de-la-escritora-india-mas-joven-galardonada-de-la-historia/",
       "imageUrl": "https://www.infobae.com/resizer/v2/C7TFNJYDCFD5DJEQ4VC6EN7MBA.jpg?auth=bca075a8f280f49670c67cf4b6e7573efb94d9030fc94a94cabd6093c9385ea2&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Joaquín Levinton habló de cómo está hoy su salud: \"Pude volver a hacer las cosas mías\"",
-      "summary280": "Joaquín Levinton, cantante de Turf, habló sobre su salud tras un infarto que sufrió en Palermo. Agradeció al equipo médico y al público por su apoyo. Regresó a los escenarios en Cosquín Rock, sorprendiendo al llegar en camilla.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/03/joaquin-levinton-hablo-de-como-esta-hoy-su-salud-pude-volver-a-hacer-las-cosas-mias/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/2SA4VEMQCFCKLINPENBTF5572Q.jpg?auth=13cc1e511a2b74e4275d09e7f359bbbc13b3a94d8aa6c79c84f2f70a80bb5fbe&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
