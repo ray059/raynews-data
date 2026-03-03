@@ -37,11 +37,13 @@ def clean_text(text):
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
 
+# 🔥 PARSER ROBUSTO (RFC + ISO 8601)
 def parse_date(pub_date_str):
 
     if not pub_date_str:
         return None
 
+    # 1️⃣ RFC clásico (BBC, DW, Infobae)
     try:
         dt = parsedate_to_datetime(pub_date_str)
         if dt.tzinfo is None:
@@ -50,6 +52,7 @@ def parse_date(pub_date_str):
     except:
         pass
 
+    # 2️⃣ ISO 8601 (El Tiempo)
     try:
         dt = datetime.fromisoformat(pub_date_str)
         if dt.tzinfo is None:
@@ -85,7 +88,7 @@ else:
     historical = {"news": {}}
 
 # -------------------------------------------------
-# RECOLECTAR
+# RECOLECTAR RSS
 # -------------------------------------------------
 
 all_news = []
@@ -94,13 +97,15 @@ source_counts = {s: 0 for s in RSS_SOURCES}
 for source_name, rss_url in RSS_SOURCES.items():
 
     try:
-        print(f"Revisando {source_name}")
+        print(f"\nRevisando {source_name}")
 
         response = requests.get(rss_url, headers=HEADERS, timeout=10)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, "xml")
         items = soup.find_all("item")
+
+        print("Items encontrados:", len(items))
 
         for item in items:
 
@@ -116,7 +121,11 @@ for source_name, rss_url in RSS_SOURCES.items():
                 continue
 
             pub_date = parse_date(pub_date_str)
-            if not pub_date or not is_last_24h(pub_date):
+
+            if not pub_date:
+                continue
+
+            if not is_last_24h(pub_date):
                 continue
 
             # Solo exigir explainers a BBC
@@ -125,6 +134,7 @@ for source_name, rss_url in RSS_SOURCES.items():
                     continue
 
             news_id = make_id(link)
+
             if news_id in historical["news"]:
                 continue
 
@@ -140,13 +150,22 @@ for source_name, rss_url in RSS_SOURCES.items():
     except Exception as e:
         print(f"Error en {source_name}: {e}")
 
-print("Candidatos antes de ordenar:", len(all_news))
+print("\nCandidatos antes de ordenar:", len(all_news))
+
+# -------------------------------------------------
+# ORDENAR POR MÁS RECIENTES
+# -------------------------------------------------
 
 all_news.sort(key=lambda x: x["pubDate"], reverse=True)
+
+# -------------------------------------------------
+# BALANCE ENTRE FUENTES
+# -------------------------------------------------
 
 balanced_news = []
 
 for news in all_news:
+
     if len(balanced_news) >= TARGET_NEWS:
         break
 
@@ -159,6 +178,10 @@ for news in all_news:
     source_counts[source] += 1
 
 print("Noticias finales seleccionadas:", len(balanced_news))
+
+# -------------------------------------------------
+# GUARDAR LINKS
+# -------------------------------------------------
 
 with open("links.txt", "w", encoding="utf-8") as f:
     for news in balanced_news:
