@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T08:58:22.036585-05:00",
+  "generated_at": "2026-03-03T09:48:59.188666-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Bruselas reúne el jueves por primera vez al panel que estudiará cómo limitar el acceso de menores a redes sociales",
+      "summary280": "La Unión Europea se reunirá el jueves en Bruselas para analizar cómo limitar el acceso de menores a redes sociales, inspirándose en la experiencia de Australia.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/03/bruselas-reune-el-jueves-por-primera-vez-al-panel-que-estudiara-como-limitar-el-acceso-de-menores-a-redes-sociales/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
       "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Todo lo que debes saber del Pokémon Go Fest 2026: precios de entradas y más novedades",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/02/que-esta-pasando-con-los-5000-peruanos-en-medio-oriente-embajador-lanza-reporte-tras-ataques-de-iran-e-israel/",
       "imageUrl": "https://www.infobae.com/resizer/v2/NQRIZ5JKIVAMBBU5TA2DAWZ2PE.JPG?auth=5fb609b8cbabd6cd04d29980d6878c496db4d97a71ed3e2ffe0080668ce3458e&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Carlos Álvarez: “Soy lo que soy y no pido excusas por eso. Mi sexualidad no puede ser motivo de persecución”",
-      "summary280": "Carlos Álvarez, candidato presidencial de País para Todos, defiende su derecho a la privacidad y afirma que su sexualidad no debe ser motivo de persecución.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/01/carlos-alvarez-soy-lo-que-soy-y-no-pido-excusas-por-eso-mi-sexualidad-no-puede-ser-motivo-de-persecucion/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/XBOWKXRQKRA2FN3U4D2NKMTL5U.png?auth=f5b429a050e74f519f0a4051de1ae8ebb21eee574c31528a036dd39c55f58439&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
