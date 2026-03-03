@@ -226,7 +226,6 @@ for line in lines:
         continue
 
     article_text = extract_article_text(url)
-
     if len(article_text) < 400:
         continue
 
@@ -256,14 +255,32 @@ for line in lines:
     })
 
 # -------------------------------------------------
-# LIMITAR NUEVAS POR EDICIÓN
+# PRIORIDAD A FUENTES AUSENTES
 # -------------------------------------------------
 
 if edition_exists and new_items:
+
+    # Contar cuántas noticias tiene cada fuente en la edición actual
+    source_counter = {}
+    for h in normalized_base:
+        src = h["sourceName"]
+        source_counter[src] = source_counter.get(src, 0) + 1
+
+    def priority(item):
+        count = source_counter.get(item["sourceName"], 0)
+
+        # Prioridad máxima si la fuente no existe en edición
+        if count == 0:
+            return (0, 0)
+        else:
+            return (1, count)
+
+    new_items.sort(key=priority)
+
     new_items = new_items[:MAX_NEW_PER_EDITION]
 
 # -------------------------------------------------
-# CONSTRUIR EDICIÓN BALANCEADA POR FUENTE
+# CONSTRUIR EDICIÓN BALANCEADA
 # -------------------------------------------------
 
 combined = new_items + normalized_base
