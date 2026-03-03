@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T04:38:11.201524-05:00",
+  "generated_at": "2026-03-03T05:35:38.722652-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Podemos pide salir de la OTAN y topar precios para que la ciudadanía no \"pague las consecuencias\" de los ataques a Irán",
+      "summary280": "Irene Montero, de Podemos, pidió salir de la OTAN y establecer topes en precios de energía, alimentos y medicamentos para proteger a la ciudadanía de las consecuencias de los ataques a Irán. También abogó por la gratuidad del transporte público ante posibles crisis económicas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/03/podemos-pide-salir-de-la-otan-y-topar-precios-para-que-la-ciudadania-no-pague-las-consecuencias-de-los-ataques-a-iran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GWWRZFKWQNEFNHRMBH4NF6WVNA.jpg?auth=af09a5c8212dd5d49d46238e6333341dbdb17a70821e14779d38b28258691db2&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Ana Boyer y Fernando Verdasco mandan un mensaje de tranquilidad desde Doha: “No tenemos miedo porque sabemos quién nos va a proteger”",
       "summary280": "Ana Boyer y Fernando Verdasco envían un mensaje de tranquilidad desde Doha, donde residen con sus hijos.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/espana/2026/03/03/ana-boyer-y-fernando-verdasco-mandan-un-mensaje-de-tranquilidad-desde-doha-no-tenemos-miedo-porque-sabemos-quien-nos-va-a-proteger/",
       "imageUrl": "https://www.infobae.com/resizer/v2/YQHNGUJPNVBFXLPNWYHFLTXJBI.jpg?auth=1a2c2b4fa3cc7e3e2a88f55a27f26039ee225886cb0f097cd1847886c5bfb58e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "BEL-20-INDEX se mueve en terreno rojo tras arranque de operaciones este 3 de marzo",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/02/bernabe-defiende-que-zapatero-confronta-con-verdad-los-bulos-de-un-pp-que-hace-del-senado-una-casa-de-los-horrores/",
       "imageUrl": "https://www.infobae.com/resizer/v2/6LC5XX2IQVA2HBPPA5IGDQJ2B4.jpg?auth=ff65224727f94c548a950d081cd6aef52ac72566a57f933508ae0487aa6304e7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La recaudación tributaria cayó en febrero por séptimo mes consecutivo: los factores clave que explican la baja",
-      "summary280": "La recaudación tributaria en febrero cayó por séptimo mes consecutivo, con una disminución real del 12,3% a pesar de un aumento nominal del 20,1%.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/economia/2026/03/02/la-recaudacion-tributaria-cayo-en-febrero-por-septimo-mes-consecutivo-los-factores-clave-que-explican-la-baja/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/2EYUYLLLJJH7NDOSOPXCKE77VU.jpg?auth=8347309f957e46982e37d8949b157cbbf686fd40cdfb1441e1005b772e7ffe83&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
