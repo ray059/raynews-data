@@ -17,7 +17,10 @@ COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
 RSS_SOURCES = {
     "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
-    "CNN Español": "https://cnnespanol.cnn.com/feed/",
+
+    # 🔵 CNN vía Google News RSS (prueba segura)
+    "CNN Español": "https://news.google.com/rss/search?q=site:cnnespanol.cnn.com&hl=es-419&gl=CO&ceid=CO:es-419",
+
     "Infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
     "DW Español": "https://rss.dw.com/rdf/rss-es-all"
 }
