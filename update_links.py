@@ -15,10 +15,14 @@ MAX_PER_SOURCE = 25
 # Zona horaria Colombia (UTC-5)
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
+
 RSS_SOURCES = {
     "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
 
-    # 🔵 CNN vía Google News RSS (prueba segura)
+    # CNN vía Google News RSS
     "CNN Español": "https://news.google.com/rss/search?q=site:cnnespanol.cnn.com&hl=es-419&gl=CO&ceid=CO:es-419",
 
     "Infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
@@ -65,6 +69,27 @@ def is_explainer(title):
     return any(k in title for k in keywords)
 
 # -------------------------------------------------
+# RESOLVER LINK REAL DE GOOGLE NEWS (CNN)
+# -------------------------------------------------
+
+def resolve_google_news_link(google_url):
+    try:
+        r = requests.get(google_url, headers=HEADERS, timeout=10)
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        for a in soup.find_all("a"):
+            href = a.get("href", "")
+            if "cnnespanol.cnn.com" in href:
+                if href.startswith("./"):
+                    href = "https://news.google.com" + href[1:]
+                return href
+
+    except Exception as e:
+        print("Error resolviendo Google News:", e)
+
+    return google_url
+
+# -------------------------------------------------
 # CARGAR HISTÓRICO
 # -------------------------------------------------
 
@@ -85,7 +110,7 @@ for source_name, rss_url in RSS_SOURCES.items():
 
     try:
         print(f"Revisando {source_name}")
-        response = requests.get(rss_url, timeout=10)
+        response = requests.get(rss_url, headers=HEADERS, timeout=10)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, "xml")
@@ -101,6 +126,12 @@ for source_name, rss_url in RSS_SOURCES.items():
 
             if not title or not link:
                 continue
+
+            # 🔵 Resolver link real si viene de Google News
+            if "news.google.com" in link:
+                real_link = resolve_google_news_link(link)
+                if real_link:
+                    link = real_link
 
             pub_date = parse_date(pub_date_str)
 
