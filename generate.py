@@ -17,6 +17,10 @@ EDITION_FILE = "edition.json"
 MAX_TOTAL = 20
 MAX_NEW_PER_EDITION = 1  # 🔥 Cambia este número si quieres más nuevas
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
+}
+
 # -------------------------------------------------
 # UTILIDADES
 # -------------------------------------------------
@@ -35,7 +39,7 @@ MESES_ES = {
 }
 
 # -------------------------------------------------
-# CARGAR HISTÓRICO (solo evita regenerar IA)
+# CARGAR HISTÓRICO
 # -------------------------------------------------
 
 if os.path.exists(HIST_FILE):
@@ -57,7 +61,6 @@ if os.path.exists(EDITION_FILE):
 
 edition_exists = len(base_edition) > 0
 
-# Normalizar: todas las anteriores pasan a NO nuevas
 normalized_base = []
 for h in base_edition:
     h_copy = h.copy()
@@ -65,18 +68,34 @@ for h in base_edition:
     normalized_base.append(h_copy)
 
 # -------------------------------------------------
-# EXTRAER TEXTO
+# EXTRAER TEXTO (MEJORADO)
 # -------------------------------------------------
 
 def extract_article_text(url):
     try:
-        r = requests.get(url, timeout=10)
+        # 🔵 Caso especial CNN → intentar AMP
+        if "cnnespanol.cnn.com" in url:
+            amp_url = url.rstrip("/") + "/amp"
+            r = requests.get(amp_url, headers=HEADERS, timeout=10)
+            if r.status_code == 200:
+                soup = BeautifulSoup(r.text, "html.parser")
+                paragraphs = soup.find_all("p")
+                text = " ".join([p.get_text() for p in paragraphs])
+                if len(text) > 400:
+                    return clean_text(text)
+
+        # 🔵 Caso general
+        r = requests.get(url, headers=HEADERS, timeout=10)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
+
         paragraphs = soup.find_all("p")
         text = " ".join([p.get_text() for p in paragraphs])
+
         return clean_text(text)
-    except:
+
+    except Exception as e:
+        print("Error extrayendo artículo:", e)
         return ""
 
 # -------------------------------------------------
@@ -85,7 +104,7 @@ def extract_article_text(url):
 
 def extract_image(url):
     try:
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(r.text, "html.parser")
         og_image = soup.find("meta", property="og:image")
         if og_image and og_image.get("content"):
@@ -222,6 +241,7 @@ for line in lines:
         continue
 
     article_text = extract_article_text(url)
+
     if len(article_text) < 400:
         continue
 
@@ -251,28 +271,26 @@ for line in lines:
     })
 
 # -------------------------------------------------
-# BALANCE INTELIGENTE DE NUEVAS
+# BALANCE INTELIGENTE
 # -------------------------------------------------
 
 if edition_exists and new_items:
 
-    # Contar presencia actual por fuente
     source_counter = {}
     for h in normalized_base:
         src = h["sourceName"]
         source_counter[src] = source_counter.get(src, 0) + 1
 
-    # Ordenar nuevas por menor presencia
     new_items.sort(
         key=lambda x: source_counter.get(x["sourceName"], 0)
     )
 
-    # Tomar solo las permitidas
     new_items = new_items[:MAX_NEW_PER_EDITION]
 
-# Si no existe edition → reconstrucción total (no limitar nuevas)
+# -------------------------------------------------
+# CONSTRUIR EDICIÓN
+# -------------------------------------------------
 
-# Construir edición final
 final_headlines = new_items + normalized_base
 final_headlines = final_headlines[:MAX_TOTAL]
 
