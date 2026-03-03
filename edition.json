@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T10:43:46.153314-05:00",
+  "generated_at": "2026-03-03T11:42:33.028624-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Corte Constitucional ordena medidas contra el ruido y riñas de bares que afectan a estudiantes menores de edad y adultos mayores",
+      "summary280": "La Corte Constitucional ordenó a una alcaldía tomar medidas contra el ruido y la violencia de bares cercanos a una escuela, afectando a estudiantes y adultos mayores.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/corte-constitucional-ordena-medidas-contra-el-ruido-y-rinas-de-bares-que-afectan-a-estudiantes-menores-de-edad-y-adultos-mayores/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/EF5UKF7FGZCMVO3UEDEPISYEB4.jpg?auth=9079665c7f2f459fd7f1c8a56cebf52371ce8d7d90c64079da65be1f41a95924&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
       "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Bruselas reúne el jueves por primera vez al panel que estudiará cómo limitar el acceso de menores a redes sociales",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/02/presidente-de-fedegan-alerto-sobre-presuntas-invasiones-ilegales-advirtio-que-la-ant-podria-expropiar-tierras/",
       "imageUrl": "https://www.infobae.com/resizer/v2/E7MIOUBTHNEWNPVQ3QQUJJA5KY.png?auth=623fa0169af69b21c03b1efa481b9caff0727a2c075f694399ccd26bb8e76b53&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Somos México entrega al INE más de 348 mil firmas para solicitar su registro como partido político",
-      "summary280": "La organización Somos México entregó al INE 348 mil 942 firmas para solicitar su registro como partido político. Sus dirigentes esperan respuesta en 60 días y aseguran haber cumplido con los requisitos legales. Buscan ser una alternativa política plural y crítica del gobierno.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/02/somos-mexico-entrega-al-ine-mas-de-348-mil-firmas-para-solicitar-su-registro-como-partido-politico/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/VI4MFBS3PJAXHG5UY7SPEEQ2SA.png?auth=e0747a3f9bc3c837bb34e1d16aa60d6c81f3abbcebb69c9c943d67c589acb4e7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
