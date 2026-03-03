@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "02 de marzo de 2026",
-  "generated_at": "2026-03-02T18:21:59.446486-05:00",
+  "generated_at": "2026-03-02T19:53:24.600355-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
+      "summary280": "Ibis León Malave y José Basilea, latinoamericanos en Medio Oriente, comparten su angustia tras recibir alarmas por ataques a Irán.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
       "summary280": "Irán ha cerrado el estrecho de Ormuz, vital para el comercio global de petróleo, afectando el suministro y disparando precios. Este cierre, inédito y acompañado de amenazas militares, se produce tras ataques aéreos de EE.UU. e Israel.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Extendieron la investigación por el cuadro robado por los nazis que apareció en Mar del Plata",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/noticias/2026/03/02/las-series-mas-populares-de-netflix-peru-que-no-podras-dejar-de-ver/",
       "imageUrl": "https://www.infobae.com/resizer/v2/7MZ523YLQ5BDBP774HFREDUJOU.jpg?auth=a6870d4eeb8389b78639ea7b551c541b4a87cc058059637fa73230edaa569018&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Detectan un láser cósmico a 8 mil millones de años luz: cómo se origina y qué revela sobre el universo",
-      "summary280": "El radiotelescopio MeerKAT ha descubierto un láser cósmico a 8 mil millones de años luz, el más brillante registrado, en una galaxia en fusión.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/ciencia-america/2026/03/02/detectan-un-laser-cosmico-a-8-mil-millones-de-anos-luz-como-se-origina-y-que-revela-sobre-el-universo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/N67A6MKNB5H77KB4VML7XLTC5M.jpg?auth=522c1e7bbdb55df7b187a0b73d79c421ab1d3ca483528f7f4c54d5f042a8730d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
