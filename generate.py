@@ -68,12 +68,11 @@ for h in base_edition:
     normalized_base.append(h_copy)
 
 # -------------------------------------------------
-# EXTRAER TEXTO (MEJORADO)
+# EXTRAER TEXTO
 # -------------------------------------------------
 
 def extract_article_text(url):
     try:
-        # 🔵 Caso especial CNN → intentar AMP
         if "cnnespanol.cnn.com" in url:
             amp_url = url.rstrip("/") + "/amp"
             r = requests.get(amp_url, headers=HEADERS, timeout=10)
@@ -84,7 +83,6 @@ def extract_article_text(url):
                 if len(text) > 400:
                     return clean_text(text)
 
-        # 🔵 Caso general
         r = requests.get(url, headers=HEADERS, timeout=10)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
@@ -302,11 +300,21 @@ edition = {
     "headlines": final_headlines
 }
 
-with open(EDITION_FILE, "w", encoding="utf-8") as f:
+# -------------------------------------------------
+# ESCRITURA ATÓMICA (ANTI-RACE CONDITION)
+# -------------------------------------------------
+
+edition_tmp = "edition_tmp.json"
+with open(edition_tmp, "w", encoding="utf-8") as f:
     json.dump(edition, f, indent=2, ensure_ascii=False)
 
-with open(HIST_FILE, "w", encoding="utf-8") as f:
+os.replace(edition_tmp, EDITION_FILE)
+
+hist_tmp = "historical_tmp.json"
+with open(hist_tmp, "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
+
+os.replace(hist_tmp, HIST_FILE)
 
 if new_items:
     generate_audio_blocks(new_items, fecha_legible)
