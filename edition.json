@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T06:29:58.216638-05:00",
+  "generated_at": "2026-03-03T07:50:33.613426-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Todo lo que debes saber del Pokémon Go Fest 2026: precios de entradas y más novedades",
+      "summary280": "El Pokémon Go Fest 2026 se llevará a cabo entre finales de mayo y mediados de junio en Tokio, Chicago y Copenhague. Se ofrecerán entradas anticipadas con descuentos hasta el 31 de marzo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/tecno/2026/03/03/todo-lo-que-debes-saber-del-pokemon-go-fest-2026-precios-de-entradas-y-mas-novedades/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/V3RCP5QASZCC7IOWWDYICKPSAY.jpg?auth=561e3d91f6983e4ffee71cffd5f3bbf68bfe19843e3c4d058faf9a59473a7d35&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "La ruta de los dos mares: el camino que conecta la costa adriática y jónica para disfrutar de forma tranquila y sostenible",
       "summary280": "La ruta de los dos mares en Apulia ofrece un itinerario de 136 km entre el mar Adriático y el jónico, ideal para turismo lento y sostenible.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/espana/viajes/2026/03/03/la-ruta-de-los-dos-mares-el-camino-que-conecta-la-costa-adriatica-y-jonica-para-disfrutar-de-forma-tranquila-y-sostenible/",
       "imageUrl": "https://www.infobae.com/resizer/v2/52F3MZSYJRBFFPKVPVDCPT6G5M.jpg?auth=e9765d1eda28196257376b98075b7f8709507a3cbdbea50b634d2c3a1bcc604f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Podemos pide salir de la OTAN y topar precios para que la ciudadanía no \"pague las consecuencias\" de los ataques a Irán",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/medio-ambiente/2026/03/02/la-perdida-de-hielo-en-la-antartida-supero-la-extension-de-los-angeles-que-alerto-un-estudio/",
       "imageUrl": "https://www.infobae.com/resizer/v2/LUJJDY3URJBCRPI5JTJBLN3Q5I.jpg?auth=8a1b77c70c78cea6080ec733180e58f027b5ac95998f55456bcd795380df65cf&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La respuesta de Di María al ser consultado por una posible vuelta a la selección argentina: “Sé lo que se habla”",
-      "summary280": "Ángel Di María habló sobre su posible regreso a la selección argentina para el Mundial 2026, afirmando que está tranquilo y consciente de los rumores.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/la-respuesta-de-di-maria-al-ser-consultado-por-una-posible-vuelta-a-la-seleccion-argentina-se-lo-que-se-habla/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/3DPC3SXJDBEXXD4QB6XONSNZ5Q?auth=04e63cc583082ee2bf1fadc09c1f587cdb0cb7bbd2e42813d9118b21a3fa81d8&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
