@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T16:30:40.954603-05:00",
+  "generated_at": "2026-03-03T17:25:48.185170-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
+      "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
       "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "EN VIVO se define prisión preventiva de Adrián Villar: audiencia se reanuda hoy por caso Lizeth Marzano",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/03/en-vivo-se-define-prision-preventiva-de-adrian-villar-audiencia-se-reanuda-hoy-por-caso-lizeth-marzano/",
       "imageUrl": "https://www.infobae.com/resizer/v2/5XCIYE3L4BA5PM5Q7A3UCH4VSU.jpg?auth=e26677670943ccd451bc155bdd8e94a0362d6699b16614c04be36383d6183a5a&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
-      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
-      "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
+      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
+      "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
       "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
       "sourceName": "El Tiempo Colombia",
@@ -77,24 +86,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
-      "summary280": "Ibis León Malave y José Basilea, latinoamericanos en Medio Oriente, comparten su angustia tras recibir alarmas por ataques a Irán.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
-      "summary280": "Irán ha cerrado el estrecho de Ormuz, vital para el comercio global de petróleo, afectando el suministro y disparando precios. Este cierre, inédito y acompañado de amenazas militares, se produce tras ataques aéreos de EE.UU. e Israel.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
       "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
       "sourceName": "Infobae",
@@ -109,6 +100,24 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
+      "summary280": "Ibis León Malave y José Basilea, latinoamericanos en Medio Oriente, comparten su angustia tras recibir alarmas por ataques a Irán.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
+      "summary280": "Irán ha cerrado el estrecho de Ormuz, vital para el comercio global de petróleo, afectando el suministro y disparando precios. Este cierre, inédito y acompañado de amenazas militares, se produce tras ataques aéreos de EE.UU. e Israel.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/03/podemos-pide-salir-de-la-otan-y-topar-precios-para-que-la-ciudadania-no-pague-las-consecuencias-de-los-ataques-a-iran/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GWWRZFKWQNEFNHRMBH4NF6WVNA.jpg?auth=af09a5c8212dd5d49d46238e6333341dbdb17a70821e14779d38b28258691db2&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ana Boyer y Fernando Verdasco mandan un mensaje de tranquilidad desde Doha: “No tenemos miedo porque sabemos quién nos va a proteger”",
-      "summary280": "Ana Boyer y Fernando Verdasco envían un mensaje de tranquilidad desde Doha, donde residen con sus hijos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/03/ana-boyer-y-fernando-verdasco-mandan-un-mensaje-de-tranquilidad-desde-doha-no-tenemos-miedo-porque-sabemos-quien-nos-va-a-proteger/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YQHNGUJPNVBFXLPNWYHFLTXJBI.jpg?auth=1a2c2b4fa3cc7e3e2a88f55a27f26039ee225886cb0f097cd1847886c5bfb58e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
