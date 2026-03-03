@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T05:35:38.722652-05:00",
+  "generated_at": "2026-03-03T06:29:58.216638-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "La ruta de los dos mares: el camino que conecta la costa adriática y jónica para disfrutar de forma tranquila y sostenible",
+      "summary280": "La ruta de los dos mares en Apulia ofrece un itinerario de 136 km entre el mar Adriático y el jónico, ideal para turismo lento y sostenible.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/viajes/2026/03/03/la-ruta-de-los-dos-mares-el-camino-que-conecta-la-costa-adriatica-y-jonica-para-disfrutar-de-forma-tranquila-y-sostenible/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/52F3MZSYJRBFFPKVPVDCPT6G5M.jpg?auth=e9765d1eda28196257376b98075b7f8709507a3cbdbea50b634d2c3a1bcc604f&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Podemos pide salir de la OTAN y topar precios para que la ciudadanía no \"pague las consecuencias\" de los ataques a Irán",
       "summary280": "Irene Montero, de Podemos, pidió salir de la OTAN y establecer topes en precios de energía, alimentos y medicamentos para proteger a la ciudadanía de las consecuencias de los ataques a Irán. También abogó por la gratuidad del transporte público ante posibles crisis económicas.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/03/podemos-pide-salir-de-la-otan-y-topar-precios-para-que-la-ciudadania-no-pague-las-consecuencias-de-los-ataques-a-iran/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GWWRZFKWQNEFNHRMBH4NF6WVNA.jpg?auth=af09a5c8212dd5d49d46238e6333341dbdb17a70821e14779d38b28258691db2&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Ana Boyer y Fernando Verdasco mandan un mensaje de tranquilidad desde Doha: “No tenemos miedo porque sabemos quién nos va a proteger”",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/02/la-respuesta-de-di-maria-al-ser-consultado-por-una-posible-vuelta-a-la-seleccion-argentina-se-lo-que-se-habla/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3DPC3SXJDBEXXD4QB6XONSNZ5Q?auth=04e63cc583082ee2bf1fadc09c1f587cdb0cb7bbd2e42813d9118b21a3fa81d8&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Bernabé defiende que Zapatero confronta con \"verdad\" los \"bulos\" de un PP que hace del Senado una \"casa de los horrores\"",
-      "summary280": "Pilar Bernabé, secretaria de Igualdad del PSOE, defendió la intervención de Zapatero en el Senado, acusando al PP de manipulación y de convertir la Cámara en una \"casa de los horrores\".",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/02/bernabe-defiende-que-zapatero-confronta-con-verdad-los-bulos-de-un-pp-que-hace-del-senado-una-casa-de-los-horrores/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/6LC5XX2IQVA2HBPPA5IGDQJ2B4.jpg?auth=ff65224727f94c548a950d081cd6aef52ac72566a57f933508ae0487aa6304e7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
