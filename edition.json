@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "04 de marzo de 2026",
-  "generated_at": "2026-03-04T08:56:22.847802-05:00",
+  "generated_at": "2026-03-04T09:37:09.165054-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Mayra Couto enfrenta dificultades para quedar embarazada tras superar el cáncer de tiroides: “No es fácil”",
+      "summary280": "Mayra Couto, actriz de 'Al fondo hay sitio', enfrenta dificultades para quedar embarazada tras superar un cáncer de tiroides. A sus 34 años, busca ser madre, pero debe cumplir condiciones médicas específicas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/03/mayra-couto-enfrenta-dificultades-para-quedar-embarazada-tras-superar-el-cancer-de-tiroides-no-es-facil/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/NZYIRGFBG5AMDGZVMWI7D7CASI.jpg?auth=a9517566150c32a14963588187cfbcd26f06282350760b64d248fa1a66616460&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
       "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ángela Aguilar y Nodal muestran su apoyo a Kunno mientras presumen romántica cena",
-      "summary280": "Ángela Aguilar y Christian Nodal compartieron una romántica cena mientras veían \"La Casa de los Famosos\", generando revuelo en redes. La cantante desmintió rumores de un posible retiro, afirmando que sigue enfocada en su carrera.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/angela-aguilar-y-nodal-muestran-su-apoyo-a-kunno-mientras-presumen-romantica-cena/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KHVES3HYNJGELLWKPMZ4HTAVVI.jpg?auth=669d2116b0ccb95d2ff7319647506c390a21ca9120112c196c54847d4ea751fc&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ucrania denuncia el lanzamiento de cerca de 150 drones por parte de Rusia",
-      "summary280": "Ucrania denuncia el lanzamiento de cerca de 150 drones rusos, con impactos en al menos 15 localidades. Las autoridades instan a la población a seguir normas de seguridad ante la amenaza continua. Rusia, por su parte, reporta el derribo de más de 30 drones ucranianos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/ucrania-denuncia-el-lanzamiento-de-cerca-de-150-drones-por-parte-de-rusia/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/JJ7736EQIJAZFDANPMKHHCP3AE.jpg?auth=362535c126a97a2e991d4213271a3efb153e6c435e7ae2fe282f4ac615647f9c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Ángela Aguilar y Nodal muestran su apoyo a Kunno mientras presumen romántica cena",
+      "summary280": "Ángela Aguilar y Christian Nodal compartieron una romántica cena mientras veían \"La Casa de los Famosos\", generando revuelo en redes. La cantante desmintió rumores de un posible retiro, afirmando que sigue enfocada en su carrera.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/angela-aguilar-y-nodal-muestran-su-apoyo-a-kunno-mientras-presumen-romantica-cena/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KHVES3HYNJGELLWKPMZ4HTAVVI.jpg?auth=669d2116b0ccb95d2ff7319647506c390a21ca9120112c196c54847d4ea751fc&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Ucrania denuncia el lanzamiento de cerca de 150 drones por parte de Rusia",
+      "summary280": "Ucrania denuncia el lanzamiento de cerca de 150 drones rusos, con impactos en al menos 15 localidades. Las autoridades instan a la población a seguir normas de seguridad ante la amenaza continua. Rusia, por su parte, reporta el derribo de más de 30 drones ucranianos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/ucrania-denuncia-el-lanzamiento-de-cerca-de-150-drones-por-parte-de-rusia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/JJ7736EQIJAZFDANPMKHHCP3AE.jpg?auth=362535c126a97a2e991d4213271a3efb153e6c435e7ae2fe282f4ac615647f9c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así se prepara Medellín para recibir el clásico colombiano por Copa Sudamericana: Atlético Nacional y Millonarios definen un cupo en el Atanasio",
       "summary280": "Medellín se alista para el clásico colombiano entre Atlético Nacional y Millonarios por la Copa Sudamericana, implementando un dispositivo de seguridad especial para garantizar la tranquilidad durante el evento. La ciudad espera un gran encuentro.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Honduras abandona el Grupo de La Haya en pro de ejercer una política exterior \"autónoma\" y \"equilibrada\"",
-      "summary280": "Honduras se retira del Grupo de La Haya para adoptar una política exterior \"soberana, autónoma y equilibrada\". La decisión busca evitar comprometer su independencia de criterio y reafirma su compromiso con el Derecho Internacional y la paz en Oriente Próximo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/honduras-abandona-el-grupo-de-la-haya-en-pro-de-ejercer-una-politica-exterior-autonoma-y-equilibrada/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KTWF5P276FBQROLXOVJBTBLCMQ.jpg?auth=b442b4684a6a176bc71062f39a7a9f4bc1b64aa264426c864a1985ffbdb9ef0e&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Resultados de la Kábala hoy, martes 3 de marzo de 2026: números ganadores y premio mayor",
-      "summary280": "La Kábala realizó su sorteo el 26 de febrero, revelando los números ganadores: 2, 4, 14, 18, 23 y 37, sin ganador del 'Pozo Buenazo' de S/680,456. El próximo premio asciende a S/730,474. Los participantes tienen plazos específicos para reclamar premios según su monto.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/04/resultados-ganadores-de-la-kabala-del-martes-3-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/IN4H245LPFHK5EJTA63JH4THRU.jpg?auth=16c564c6c8d3a22089a74641776d92b857f743a2b5aa7e2428b07807a638d8b6&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Honduras abandona el Grupo de La Haya en pro de ejercer una política exterior \"autónoma\" y \"equilibrada\"",
+      "summary280": "Honduras se retira del Grupo de La Haya para adoptar una política exterior \"soberana, autónoma y equilibrada\". La decisión busca evitar comprometer su independencia de criterio y reafirma su compromiso con el Derecho Internacional y la paz en Oriente Próximo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/honduras-abandona-el-grupo-de-la-haya-en-pro-de-ejercer-una-politica-exterior-autonoma-y-equilibrada/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KTWF5P276FBQROLXOVJBTBLCMQ.jpg?auth=b442b4684a6a176bc71062f39a7a9f4bc1b64aa264426c864a1985ffbdb9ef0e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Resultados de la Kábala hoy, martes 3 de marzo de 2026: números ganadores y premio mayor",
+      "summary280": "La Kábala realizó su sorteo el 26 de febrero, revelando los números ganadores: 2, 4, 14, 18, 23 y 37, sin ganador del 'Pozo Buenazo' de S/680,456. El próximo premio asciende a S/730,474. Los participantes tienen plazos específicos para reclamar premios según su monto.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/04/resultados-ganadores-de-la-kabala-del-martes-3-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IN4H245LPFHK5EJTA63JH4THRU.jpg?auth=16c564c6c8d3a22089a74641776d92b857f743a2b5aa7e2428b07807a638d8b6&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
       "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Cuándo entra el equinoccio de primavera a México? Fecha y hora exactas",
-      "summary280": "El equinoccio de primavera en México ocurrirá el 20 de marzo de 2026 a las 08:46 horas. Este evento marca un equilibrio en la luz solar, dando inicio a la primavera y simbolizando renovación.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/cuando-entra-el-equinoccio-de-primavera-a-mexico-fecha-y-hora-exactas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/IO2VD4RZIZDF5EQ4CMLTJJQRMI.jpg?auth=8c0ae5604e867b3fa10d91e31510524e30331214df4f3e6cdc30ab3e3a11f218&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Festival del helado 2026: fecha, días, lugar y todo lo que debes saber",
-      "summary280": "El Festival del Helado 2026 se llevará a cabo el 30 y 31 de mayo en el Centro de Convenciones Churubusco, CDMX, con entrada gratuita. Habrá una variedad de helados, actividades culturales y una verbena artesanal. Es un evento para disfrutar en familia y celebrar la diversidad.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/festival-del-helado-2026-fecha-dias-lugar-y-todo-lo-que-debes-saber/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/Y3Q7ZHUZWVA2LH5GLIIGKKMYGU.jpg?auth=e037512585c6bf04e1326d350d494f0b55d2d26c026cfb10f935f198d64dfc99&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿Cuándo entra el equinoccio de primavera a México? Fecha y hora exactas",
+      "summary280": "El equinoccio de primavera en México ocurrirá el 20 de marzo de 2026 a las 08:46 horas. Este evento marca un equilibrio en la luz solar, dando inicio a la primavera y simbolizando renovación.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/cuando-entra-el-equinoccio-de-primavera-a-mexico-fecha-y-hora-exactas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IO2VD4RZIZDF5EQ4CMLTJJQRMI.jpg?auth=8c0ae5604e867b3fa10d91e31510524e30331214df4f3e6cdc30ab3e3a11f218&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Festival del helado 2026: fecha, días, lugar y todo lo que debes saber",
+      "summary280": "El Festival del Helado 2026 se llevará a cabo el 30 y 31 de mayo en el Centro de Convenciones Churubusco, CDMX, con entrada gratuita. Habrá una variedad de helados, actividades culturales y una verbena artesanal. Es un evento para disfrutar en familia y celebrar la diversidad.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/festival-del-helado-2026-fecha-dias-lugar-y-todo-lo-que-debes-saber/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Y3Q7ZHUZWVA2LH5GLIIGKKMYGU.jpg?auth=e037512585c6bf04e1326d350d494f0b55d2d26c026cfb10f935f198d64dfc99&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
       "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
-      "summary280": "Irán ha cerrado el estrecho de Ormuz, vital para el comercio global de petróleo, afectando el suministro y disparando precios. Este cierre, inédito y acompañado de amenazas militares, se produce tras ataques aéreos de EE.UU. e Israel.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
       "type": "explainer",
       "isNew": false
     }
