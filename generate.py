@@ -16,7 +16,7 @@ EDITION_FILE = "edition.json"
 
 MAX_TOTAL = 20
 MAX_NEW_PER_EDITION = 1
-MAX_NEW_PER_SOURCE = 1  # 🔥 evita monopolio de una sola fuente
+MAX_NEW_PER_SOURCE = 1
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
@@ -137,6 +137,72 @@ Artículo:
         return None
 
 # -------------------------------------------------
+# GENERAR AUDIO
+# -------------------------------------------------
+
+def generate_audio_blocks(headlines, fecha_legible):
+
+    if not OPENAI_API_KEY or not headlines:
+        return
+
+    from openai import OpenAI
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
+    audio_files = []
+
+    intro_text = f"Actualización de Ray News del {fecha_legible}."
+
+    try:
+
+        with client.audio.speech.with_streaming_response.create(
+            model="gpt-4o-mini-tts",
+            voice="alloy",
+            input=intro_text,
+        ) as response:
+            response.stream_to_file("part_0.mp3")
+
+        audio_files.append("part_0.mp3")
+
+        for i, h in enumerate(headlines):
+
+            filename = f"part_{i+1}.mp3"
+
+            with client.audio.speech.with_streaming_response.create(
+                model="gpt-4o-mini-tts",
+                voice="nova",
+                input=h["titleOriginal"],
+            ) as response:
+                response.stream_to_file(filename)
+
+            audio_files.append(filename)
+
+        with open("files.txt", "w") as f:
+            for file in audio_files:
+                f.write(f"file '{file}'\n")
+
+        subprocess.run([
+            "ffmpeg",
+            "-y",
+            "-f", "concat",
+            "-safe", "0",
+            "-i", "files.txt",
+            "-c", "copy",
+            "edition_audio.mp3"
+        ])
+
+        for file in audio_files:
+            if os.path.exists(file):
+                os.remove(file)
+
+        if os.path.exists("files.txt"):
+            os.remove("files.txt")
+
+        print("Audio generado: edition_audio.mp3")
+
+    except Exception as e:
+        print("Error generando audio:", e)
+
+# -------------------------------------------------
 # MAIN
 # -------------------------------------------------
 
@@ -164,13 +230,11 @@ for line in lines:
     if news_id in historical["news"]:
         continue
 
-    # 🔥 El Tiempo usa description RSS
     if source_name == "El Tiempo Colombia":
         article_text = description
     else:
         article_text = extract_article_text(url)
 
-    # 🔥 Filtro inteligente
     if source_name != "El Tiempo Colombia" and len(article_text) < 120:
         continue
 
@@ -189,7 +253,6 @@ for line in lines:
         "first_seen": now.isoformat()
     }
 
-    # 🔥 Limitar nuevas por fuente
     if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
         continue
 
@@ -262,6 +325,13 @@ with open("historical_tmp.json", "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
 os.replace("historical_tmp.json", HIST_FILE)
+
+# -------------------------------------------------
+# GENERAR AUDIO SI HAY NOTICIAS NUEVAS
+# -------------------------------------------------
+
+if new_items:
+    generate_audio_blocks(final_headlines[:10], fecha_legible)
 
 print("Noticias nuevas detectadas:", len(new_items))
 print("Noticias finales:", len(final_headlines))
