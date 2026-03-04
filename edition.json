@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "04 de marzo de 2026",
-  "generated_at": "2026-03-04T11:39:36.888294-05:00",
+  "generated_at": "2026-03-04T11:49:47.321017-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Un estudio expone el ser autónomo como único factor asociado a menor riesgo y duración de baja laboral por dolor lumbar",
+      "summary280": "Un estudio de la Red Española de Investigadores en Dolencias de la Espalda revela que ser autónomo es el único factor que reduce el riesgo y la duración de bajas laborales por dolor lumbar. Este hallazgo se basa en un análisis de 77 factores que afectan la discapacidad laboral.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/un-estudio-expone-el-ser-autonomo-como-unico-factor-asociado-a-menor-riesgo-y-duracion-de-baja-laboral-por-dolor-lumbar/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PSSZSCGLKVHDDN7BH2BDRD6334.jpg?auth=1f63ba9d5e9759982ddcbe56ad49a2a083c71b586c43f4a9ad47f1de7aa524f2&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
       "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Mayra Couto enfrenta dificultades para quedar embarazada tras superar el cáncer de tiroides: “No es fácil”",
-      "summary280": "Mayra Couto, actriz de 'Al fondo hay sitio', enfrenta dificultades para quedar embarazada tras superar un cáncer de tiroides. A sus 34 años, busca ser madre, pero debe cumplir condiciones médicas específicas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/03/mayra-couto-enfrenta-dificultades-para-quedar-embarazada-tras-superar-el-cancer-de-tiroides-no-es-facil/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/NZYIRGFBG5AMDGZVMWI7D7CASI.jpg?auth=a9517566150c32a14963588187cfbcd26f06282350760b64d248fa1a66616460&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ángela Aguilar y Nodal muestran su apoyo a Kunno mientras presumen romántica cena",
-      "summary280": "Ángela Aguilar y Christian Nodal compartieron una romántica cena mientras veían \"La Casa de los Famosos\", generando revuelo en redes. La cantante desmintió rumores de un posible retiro, afirmando que sigue enfocada en su carrera.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/angela-aguilar-y-nodal-muestran-su-apoyo-a-kunno-mientras-presumen-romantica-cena/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KHVES3HYNJGELLWKPMZ4HTAVVI.jpg?auth=669d2116b0ccb95d2ff7319647506c390a21ca9120112c196c54847d4ea751fc&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Mayra Couto enfrenta dificultades para quedar embarazada tras superar el cáncer de tiroides: “No es fácil”",
+      "summary280": "Mayra Couto, actriz de 'Al fondo hay sitio', enfrenta dificultades para quedar embarazada tras superar un cáncer de tiroides. A sus 34 años, busca ser madre, pero debe cumplir condiciones médicas específicas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/03/mayra-couto-enfrenta-dificultades-para-quedar-embarazada-tras-superar-el-cancer-de-tiroides-no-es-facil/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/NZYIRGFBG5AMDGZVMWI7D7CASI.jpg?auth=a9517566150c32a14963588187cfbcd26f06282350760b64d248fa1a66616460&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Ángela Aguilar y Nodal muestran su apoyo a Kunno mientras presumen romántica cena",
+      "summary280": "Ángela Aguilar y Christian Nodal compartieron una romántica cena mientras veían \"La Casa de los Famosos\", generando revuelo en redes. La cantante desmintió rumores de un posible retiro, afirmando que sigue enfocada en su carrera.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/angela-aguilar-y-nodal-muestran-su-apoyo-a-kunno-mientras-presumen-romantica-cena/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KHVES3HYNJGELLWKPMZ4HTAVVI.jpg?auth=669d2116b0ccb95d2ff7319647506c390a21ca9120112c196c54847d4ea751fc&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
       "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ucrania denuncia el lanzamiento de cerca de 150 drones por parte de Rusia",
-      "summary280": "Ucrania denuncia el lanzamiento de cerca de 150 drones rusos, con impactos en al menos 15 localidades. Las autoridades instan a la población a seguir normas de seguridad ante la amenaza continua. Rusia, por su parte, reporta el derribo de más de 30 drones ucranianos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/ucrania-denuncia-el-lanzamiento-de-cerca-de-150-drones-por-parte-de-rusia/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/JJ7736EQIJAZFDANPMKHHCP3AE.jpg?auth=362535c126a97a2e991d4213271a3efb153e6c435e7ae2fe282f4ac615647f9c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Honduras abandona el Grupo de La Haya en pro de ejercer una política exterior \"autónoma\" y \"equilibrada\"",
-      "summary280": "Honduras se retira del Grupo de La Haya para adoptar una política exterior \"soberana, autónoma y equilibrada\". La decisión busca evitar comprometer su independencia de criterio y reafirma su compromiso con el Derecho Internacional y la paz en Oriente Próximo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/honduras-abandona-el-grupo-de-la-haya-en-pro-de-ejercer-una-politica-exterior-autonoma-y-equilibrada/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KTWF5P276FBQROLXOVJBTBLCMQ.jpg?auth=b442b4684a6a176bc71062f39a7a9f4bc1b64aa264426c864a1985ffbdb9ef0e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Ucrania denuncia el lanzamiento de cerca de 150 drones por parte de Rusia",
+      "summary280": "Ucrania denuncia el lanzamiento de cerca de 150 drones rusos, con impactos en al menos 15 localidades. Las autoridades instan a la población a seguir normas de seguridad ante la amenaza continua. Rusia, por su parte, reporta el derribo de más de 30 drones ucranianos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/ucrania-denuncia-el-lanzamiento-de-cerca-de-150-drones-por-parte-de-rusia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/JJ7736EQIJAZFDANPMKHHCP3AE.jpg?auth=362535c126a97a2e991d4213271a3efb153e6c435e7ae2fe282f4ac615647f9c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Honduras abandona el Grupo de La Haya en pro de ejercer una política exterior \"autónoma\" y \"equilibrada\"",
+      "summary280": "Honduras se retira del Grupo de La Haya para adoptar una política exterior \"soberana, autónoma y equilibrada\". La decisión busca evitar comprometer su independencia de criterio y reafirma su compromiso con el Derecho Internacional y la paz en Oriente Próximo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/honduras-abandona-el-grupo-de-la-haya-en-pro-de-ejercer-una-politica-exterior-autonoma-y-equilibrada/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KTWF5P276FBQROLXOVJBTBLCMQ.jpg?auth=b442b4684a6a176bc71062f39a7a9f4bc1b64aa264426c864a1985ffbdb9ef0e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
       "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Resultados de la Kábala hoy, martes 3 de marzo de 2026: números ganadores y premio mayor",
-      "summary280": "La Kábala realizó su sorteo el 26 de febrero, revelando los números ganadores: 2, 4, 14, 18, 23 y 37, sin ganador del 'Pozo Buenazo' de S/680,456. El próximo premio asciende a S/730,474. Los participantes tienen plazos específicos para reclamar premios según su monto.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/04/resultados-ganadores-de-la-kabala-del-martes-3-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/IN4H245LPFHK5EJTA63JH4THRU.jpg?auth=16c564c6c8d3a22089a74641776d92b857f743a2b5aa7e2428b07807a638d8b6&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Cuándo entra el equinoccio de primavera a México? Fecha y hora exactas",
-      "summary280": "El equinoccio de primavera en México ocurrirá el 20 de marzo de 2026 a las 08:46 horas. Este evento marca un equilibrio en la luz solar, dando inicio a la primavera y simbolizando renovación.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/cuando-entra-el-equinoccio-de-primavera-a-mexico-fecha-y-hora-exactas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/IO2VD4RZIZDF5EQ4CMLTJJQRMI.jpg?auth=8c0ae5604e867b3fa10d91e31510524e30331214df4f3e6cdc30ab3e3a11f218&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Resultados de la Kábala hoy, martes 3 de marzo de 2026: números ganadores y premio mayor",
+      "summary280": "La Kábala realizó su sorteo el 26 de febrero, revelando los números ganadores: 2, 4, 14, 18, 23 y 37, sin ganador del 'Pozo Buenazo' de S/680,456. El próximo premio asciende a S/730,474. Los participantes tienen plazos específicos para reclamar premios según su monto.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/04/resultados-ganadores-de-la-kabala-del-martes-3-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IN4H245LPFHK5EJTA63JH4THRU.jpg?auth=16c564c6c8d3a22089a74641776d92b857f743a2b5aa7e2428b07807a638d8b6&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "¿Cuándo entra el equinoccio de primavera a México? Fecha y hora exactas",
+      "summary280": "El equinoccio de primavera en México ocurrirá el 20 de marzo de 2026 a las 08:46 horas. Este evento marca un equilibrio en la luz solar, dando inicio a la primavera y simbolizando renovación.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/cuando-entra-el-equinoccio-de-primavera-a-mexico-fecha-y-hora-exactas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IO2VD4RZIZDF5EQ4CMLTJJQRMI.jpg?auth=8c0ae5604e867b3fa10d91e31510524e30331214df4f3e6cdc30ab3e3a11f218&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
       "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
-      "summary280": "Ibis León Malave y José Basilea, latinoamericanos en Medio Oriente, comparten su angustia tras recibir alarmas por ataques a Irán.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
       "type": "explainer",
       "isNew": false
     }
