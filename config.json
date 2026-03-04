@@ -4,5 +4,6 @@
   "weekly_limit": 3,
   "monthly_limit": 8,
   "promo_mode": true,
-  "promo_daily_limit": 5
+  "promo_daily_limit": 5,
+  "free_budget_remaining": 1000
 }
