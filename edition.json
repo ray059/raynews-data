@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "04 de marzo de 2026",
-  "generated_at": "2026-03-04T16:30:56.577253-05:00",
+  "generated_at": "2026-03-04T17:27:53.267481-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Iván Cepeda se refirió al encuentro que tuvo con miembros de distintas iglesias y cultos: “No fui yo quien reunió a esas personas”",
-      "summary280": "Iván Cepeda, senador y candidato presidencial, se reunió con líderes de diversas iglesias, pero aclaró que no convocó el evento, sino que fue invitado. Prometió proteger la libertad de cultos si es elegido, destacando su compromiso con la diversidad religiosa en Colombia.",
+      "titleOriginal": "Yoshimar Yotún cobró con efectividad un penal en Sporting Cristal vs Carabobo por fase 3 ida de la Copa Libertadores 2026",
+      "summary280": "Yoshimar Yotún anotó un penal para Sporting Cristal en el partido de ida contra Carabobo, acercando al equipo a la Fase de Grupos de la CONMEBOL Libertadores 2026. La efectividad del equipo se refleja en su competitividad en el torneo.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/04/ivan-cepeda-se-refirio-al-encuentro-que-tuvo-con-miembros-de-distintas-iglesias-y-cultos-no-fui-yo-quien-reunio-a-esas-personas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/BHV4FJ2KDBGIHI5MAAY7CF6X7Q.jpeg?auth=5e46e2a70d9c0cae1a4195b71c734fff561305a8cf546a0fa6d2125fcfd11e0b&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/04/gol-yoshimar-yotun-sporting-cristal-vs-carabobo-partido-venezuela-fase-3-ida-copa-libertadores-2026-video-hoy/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/APE6L66I75FWXLMDMX47A5THTU.jpeg?auth=b4ebb3060d6b878c899c73e7751d0728c8d57e858519ac5b0e105639e73ba20d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Iván Cepeda se refirió al encuentro que tuvo con miembros de distintas iglesias y cultos: “No fui yo quien reunió a esas personas”",
+      "summary280": "Iván Cepeda, senador y candidato presidencial, se reunió con líderes de diversas iglesias, pero aclaró que no convocó el evento, sino que fue invitado. Prometió proteger la libertad de cultos si es elegido, destacando su compromiso con la diversidad religiosa en Colombia.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/04/ivan-cepeda-se-refirio-al-encuentro-que-tuvo-con-miembros-de-distintas-iglesias-y-cultos-no-fui-yo-quien-reunio-a-esas-personas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/BHV4FJ2KDBGIHI5MAAY7CF6X7Q.jpeg?auth=5e46e2a70d9c0cae1a4195b71c734fff561305a8cf546a0fa6d2125fcfd11e0b&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Sistema Nacional de Áreas de Conservación reporta 26 incendios forestales en solo dos meses en Costa Rica",
       "summary280": "En dos meses, Costa Rica ha registrado 26 incendios forestales que han afectado 602 hectáreas, principalmente en fincas privadas. Las autoridades alertan sobre el riesgo creciente y llaman a la población a evitar actividades que puedan provocar incendios durante la época seca.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/costa-rica/2026/03/04/sistema-nacional-de-areas-de-conservacion-reporta-26-incendios-forestales-en-solo-dos-meses-en-costa-rica/",
       "imageUrl": "https://www.infobae.com/resizer/v2/FXL2OZ4YXRAJBKIRYIE54ZZRSY.jpg?auth=09f9a6acb840099c5392124874f539beb3ad1c03abdb5a669839dda334255749&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Alerta por oleaje anómalo en el litoral peruano: Marina de Guerra alerta riesgo en playas desde el 6 de marzo",
-      "summary280": "La Marina de Guerra del Perú alertó sobre oleajes anómalos en el litoral nacional del 6 al 12 de marzo, afectando principalmente playas abiertas al suroeste. Se recomienda a la población y autoridades reforzar medidas de seguridad para prevenir accidentes.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/04/alerta-por-oleaje-anomalo-en-el-litoral-peruano-marina-de-guerra-alerta-riesgo-en-playas-desde-el-6-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/OU33WW6YOVC33CD56D4DZIAEFM.jpg?auth=7ee05614bec65417ed81eacb89ffbbcb097bc86b531dbc0a71187acbbc27514f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Alerta por oleaje anómalo en el litoral peruano: Marina de Guerra alerta riesgo en playas desde el 6 de marzo",
+      "summary280": "La Marina de Guerra del Perú alertó sobre oleajes anómalos en el litoral nacional del 6 al 12 de marzo, afectando principalmente playas abiertas al suroeste. Se recomienda a la población y autoridades reforzar medidas de seguridad para prevenir accidentes.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/04/alerta-por-oleaje-anomalo-en-el-litoral-peruano-marina-de-guerra-alerta-riesgo-en-playas-desde-el-6-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/OU33WW6YOVC33CD56D4DZIAEFM.jpg?auth=7ee05614bec65417ed81eacb89ffbbcb097bc86b531dbc0a71187acbbc27514f&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Blue Prince, uno de los juegos independientes mejor valorados de 2025, aterriza en Nintendo Switch 2",
       "summary280": "Blue Prince, un aclamado juego de aventura y puzles, se lanza hoy en Nintendo Switch 2 tras su éxito en otras plataformas. Con una puntuación de 92 en Metacritic y premios destacados, ofrece innovaciones como el control tipo ratón con Joy-Con 2, mejorando la experiencia de juego.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/malditos-nerds/2026/03/04/blue-prince-uno-de-los-juegos-independientes-mejor-valorados-de-2025-aterriza-en-nintendo-switch-2/",
       "imageUrl": "https://www.infobae.com/resizer/v2/23QTCNN6YVCJDE6YKLGGWXD3XQ.jpg?auth=7b1783e5dcc12933ab882a11d62d6fc3d5642f9e74930c4f60a3572e0203a9bc&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Por qué Sheinbaum no ha presentado informe de personas desaparecidas en México?",
-      "summary280": "Claudia Sheinbaum anunció que presentaría un informe sobre personas desaparecidas en febrero, pero aún no lo ha hecho. Explicó que se trabaja con colectivos para informarles primero.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/por-que-sheinbaum-no-ha-presentado-informe-de-personas-desaparecidas-en-mexico/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/PHCCURNHO5ACPGYARTDQXIJPUY.jpg?auth=204e43006f4c138272968cd564b7a993d17f1ca53b84fa0d893f4b8f6f64b1f8&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿Por qué Sheinbaum no ha presentado informe de personas desaparecidas en México?",
+      "summary280": "Claudia Sheinbaum anunció que presentaría un informe sobre personas desaparecidas en febrero, pero aún no lo ha hecho. Explicó que se trabaja con colectivos para informarles primero.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/por-que-sheinbaum-no-ha-presentado-informe-de-personas-desaparecidas-en-mexico/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PHCCURNHO5ACPGYARTDQXIJPUY.jpg?auth=204e43006f4c138272968cd564b7a993d17f1ca53b84fa0d893f4b8f6f64b1f8&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Boca Juniors buscará volver al triunfo en su visita a Lanús por el Torneo Apertura: hora, TV y formaciones",
       "summary280": "Boca Juniors visitará a Lanús en la séptima jornada del Torneo Apertura, buscando un triunfo tras un empate sin goles en su último enfrentamiento. Edinson Cavani no jugará por problemas de espalda. El partido comenzará a las 21:00 y será transmitido por ESPN Premium.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/04/boca-juniors-buscara-volver-al-triunfo-en-su-visita-a-lanus-por-el-torneo-apertura-hora-tv-y-formaciones/",
       "imageUrl": "https://www.infobae.com/resizer/v2/JO4IMQUUOFD65PFDJYEL3KRE4A.jpg?auth=804b23b284ab0d5fecb64b22f99f047804d2f9202200066294d9fd41186622a7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Un estudio expone el ser autónomo como único factor asociado a menor riesgo y duración de baja laboral por dolor lumbar",
-      "summary280": "Un estudio de la Red Española de Investigadores en Dolencias de la Espalda revela que ser autónomo es el único factor que reduce el riesgo y la duración de bajas laborales por dolor lumbar. Este hallazgo se basa en un análisis de 77 factores que afectan la discapacidad laboral.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/un-estudio-expone-el-ser-autonomo-como-unico-factor-asociado-a-menor-riesgo-y-duracion-de-baja-laboral-por-dolor-lumbar/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/PSSZSCGLKVHDDN7BH2BDRD6334.jpg?auth=1f63ba9d5e9759982ddcbe56ad49a2a083c71b586c43f4a9ad47f1de7aa524f2&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
