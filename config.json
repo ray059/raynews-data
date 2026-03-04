@@ -1,8 +1,8 @@
 {
   "free_questions_enabled": true,
-  "daily_limit": 1,
-  "weekly_limit": 3,
-  "monthly_limit": 8,
+  "daily_limit": 7,
+  "weekly_limit": 7,
+  "monthly_limit": 7,
   "promo_mode": true,
   "promo_daily_limit": 5,
   "free_budget_remaining": 1000
