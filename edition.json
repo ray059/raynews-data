@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "03 de marzo de 2026",
-  "generated_at": "2026-03-03T18:23:37.272734-05:00",
+  "generated_at": "2026-03-03T21:21:55.685054-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Así se prepara Medellín para recibir el clásico colombiano por Copa Sudamericana: Atlético Nacional y Millonarios definen un cupo en el Atanasio",
+      "summary280": "Medellín se alista para el clásico colombiano entre Atlético Nacional y Millonarios por la Copa Sudamericana, implementando un dispositivo de seguridad especial para garantizar la tranquilidad durante el evento. La ciudad espera un gran encuentro.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/asi-se-prepara-medellin-para-recibir-el-clasico-colombiano-por-copa-sudamericana-atletico-nacional-y-millonarios-definen-un-cupo-en-el-atanasio-3537088",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a78e74e1ef0.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Dominicanos con enfermedades crónicas no oncológicas tendrán acceso a tratamientos tras ampliación de cobertura",
       "summary280": "El CNSS aprobó la ampliación de la cobertura del Seguro Familiar de Salud para incluir tratamientos de alto costo para enfermedades crónicas no oncológicas, con un tope de RD$1.000.000 por paciente.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/republica-dominicana/2026/03/03/dominicanos-con-enfermedades-cronicas-no-oncologicas-tendran-acceso-a-tratamientos-tras-ampliacion-de-cobertura/",
       "imageUrl": "https://www.infobae.com/resizer/v2/BGRSFAS4YNGSZDQ537HNCKSZKU.png?auth=d110ed08357ce14fe5068f3050a5b457492ce548c33eaf38072586d5e6c2bd2c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
-      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
-      "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/se-restablece-el-paso-en-la-via-medellin-bogota-habilitan-transito-controlado-en-el-sector-de-san-luis-3536981",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a73aef6b150.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
+      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
+      "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/se-restablece-el-paso-en-la-via-medellin-bogota-habilitan-transito-controlado-en-el-sector-de-san-luis-3536981",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a73aef6b150.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El brutal rodillazo de Rudiger en el rostro de un rival durante la histórica caída del Real Madrid: “No sé para qué está el VAR”",
       "summary280": "En el partido entre Getafe y Real Madrid, Rüdiger propinó un rodillazo a Diego Rico, acción no sancionada que generó polémica sobre el VAR y el arbitraje. Rico criticó la inacción del sistema y la falta de sanción, mientras el Getafe celebró una victoria clave en LaLiga.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
-      "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
-      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
+      "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
+      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Beca Rita Cetina y Benito Juárez 2026: ¿Cómo quedaría el calendario de pagos de abril?",
       "summary280": "La Beca Rita Cetina, impulsada por el gobierno de México, busca apoyar a estudiantes de secundaria y, en 2026, ampliará su cobertura a primaria y preescolar. Aunque no hay fechas confirmadas para los próximos pagos, se espera un calendario tentativo que inicie en marzo.",
       "sourceName": "Infobae",
@@ -131,20 +140,20 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Victoria judicial para Cali: Consejo de Estado confirma que no hay 'daño especial' por normas de ordenamiento urbano",
-      "summary280": "El Consejo de Estado confirmó que no hay 'daño especial' por normas de ordenamiento urbano en Cali, lo que permite a la Alcaldía recuperar $42.900 millones. La decisión implica que el demandante deberá pagar al Distrito el 3% de sus pretensiones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/victoria-judicial-para-cali-consejo-de-estado-confirma-que-no-hay-dano-especial-por-normas-de-ordenamiento-urbano-3536955",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2021/11/19/61982d8f8a36f.r_d.1060-707-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Petro reaccionó a captura de escolta de congresista que llevaba millonaria suma de dinero en efectivo: “Capturar a los compradores de votos”",
       "summary280": "El escolta de un congresista fue detenido con $145.000.000 en efectivo, vinculado a la compra de votos en La Guajira.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/03/petro-reacciono-a-captura-de-escolta-de-congresista-que-llevaba-millonaria-suma-de-dinero-en-efectivo-capturar-a-los-compradores-de-votos/",
       "imageUrl": "https://www.infobae.com/resizer/v2/F4G5XSXRYVGYPAALIMPN5ELPUQ.jpg?auth=d3356ccb428ab90933bd5fa2a6fca9459e1843eed07d46abbfe324a215006191&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Victoria judicial para Cali: Consejo de Estado confirma que no hay 'daño especial' por normas de ordenamiento urbano",
+      "summary280": "El Consejo de Estado confirmó que no hay 'daño especial' por normas de ordenamiento urbano en Cali, lo que permite a la Alcaldía recuperar $42.900 millones. La decisión implica que el demandante deberá pagar al Distrito el 3% de sus pretensiones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/victoria-judicial-para-cali-consejo-de-estado-confirma-que-no-hay-dano-especial-por-normas-de-ordenamiento-urbano-3536955",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2021/11/19/61982d8f8a36f.r_d.1060-707-0.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/tecno/2026/03/03/todo-lo-que-debes-saber-del-pokemon-go-fest-2026-precios-de-entradas-y-mas-novedades/",
       "imageUrl": "https://www.infobae.com/resizer/v2/V3RCP5QASZCC7IOWWDYICKPSAY.jpg?auth=561e3d91f6983e4ffee71cffd5f3bbf68bfe19843e3c4d058faf9a59473a7d35&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La ruta de los dos mares: el camino que conecta la costa adriática y jónica para disfrutar de forma tranquila y sostenible",
-      "summary280": "La ruta de los dos mares en Apulia ofrece un itinerario de 136 km entre el mar Adriático y el jónico, ideal para turismo lento y sostenible.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/viajes/2026/03/03/la-ruta-de-los-dos-mares-el-camino-que-conecta-la-costa-adriatica-y-jonica-para-disfrutar-de-forma-tranquila-y-sostenible/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/52F3MZSYJRBFFPKVPVDCPT6G5M.jpg?auth=e9765d1eda28196257376b98075b7f8709507a3cbdbea50b634d2c3a1bcc604f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
