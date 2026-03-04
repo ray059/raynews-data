@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "04 de marzo de 2026",
-  "generated_at": "2026-03-04T07:49:12.662165-05:00",
+  "generated_at": "2026-03-04T08:56:22.847802-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
+      "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
       "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Ángela Aguilar y Nodal muestran su apoyo a Kunno mientras presumen romántica cena",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/angela-aguilar-y-nodal-muestran-su-apoyo-a-kunno-mientras-presumen-romantica-cena/",
       "imageUrl": "https://www.infobae.com/resizer/v2/KHVES3HYNJGELLWKPMZ4HTAVVI.jpg?auth=669d2116b0ccb95d2ff7319647506c390a21ca9120112c196c54847d4ea751fc&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
-      "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así se prepara Medellín para recibir el clásico colombiano por Copa Sudamericana: Atlético Nacional y Millonarios definen un cupo en el Atanasio",
-      "summary280": "Medellín se alista para el clásico colombiano entre Atlético Nacional y Millonarios por la Copa Sudamericana, implementando un dispositivo de seguridad especial para garantizar la tranquilidad durante el evento. La ciudad espera un gran encuentro.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/asi-se-prepara-medellin-para-recibir-el-clasico-colombiano-por-copa-sudamericana-atletico-nacional-y-millonarios-definen-un-cupo-en-el-atanasio-3537088",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a78e74e1ef0.png",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
+      "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Así se prepara Medellín para recibir el clásico colombiano por Copa Sudamericana: Atlético Nacional y Millonarios definen un cupo en el Atanasio",
+      "summary280": "Medellín se alista para el clásico colombiano entre Atlético Nacional y Millonarios por la Copa Sudamericana, implementando un dispositivo de seguridad especial para garantizar la tranquilidad durante el evento. La ciudad espera un gran encuentro.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/asi-se-prepara-medellin-para-recibir-el-clasico-colombiano-por-copa-sudamericana-atletico-nacional-y-millonarios-definen-un-cupo-en-el-atanasio-3537088",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a78e74e1ef0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
       "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/04/honduras-abandona-el-grupo-de-la-haya-en-pro-de-ejercer-una-politica-exterior-autonoma-y-equilibrada/",
       "imageUrl": "https://www.infobae.com/resizer/v2/KTWF5P276FBQROLXOVJBTBLCMQ.jpg?auth=b442b4684a6a176bc71062f39a7a9f4bc1b64aa264426c864a1985ffbdb9ef0e&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
-      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
-      "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/se-restablece-el-paso-en-la-via-medellin-bogota-habilitan-transito-controlado-en-el-sector-de-san-luis-3536981",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a73aef6b150.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
+      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
+      "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/se-restablece-el-paso-en-la-via-medellin-bogota-habilitan-transito-controlado-en-el-sector-de-san-luis-3536981",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a73aef6b150.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
       "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/04/cuando-entra-el-equinoccio-de-primavera-a-mexico-fecha-y-hora-exactas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/IO2VD4RZIZDF5EQ4CMLTJJQRMI.jpg?auth=8c0ae5604e867b3fa10d91e31510524e30331214df4f3e6cdc30ab3e3a11f218&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
-      "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
-      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
+      "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Confusión y versiones encontradas sobre el paradero de dos menores desaparecidas desde el sábado en el norte de Barranquilla",
+      "summary280": "Familiares de dos menores desaparecidas en Barranquilla desmienten su hallazgo en Bolívar. La Policía continúa buscando pistas en la isla de Barú para dar con su paradero. La situación genera confusión y versiones contradictorias sobre el caso.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/confusion-y-versiones-encontradas-sobre-el-paradero-de-dos-menores-desaparecidas-desde-el-sabado-en-el-norte-de-barranquilla-3536964",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2025/07/03/6866df4eb3b34.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
       "summary280": "Irán ha cerrado el estrecho de Ormuz, vital para el comercio global de petróleo, afectando el suministro y disparando precios. Este cierre, inédito y acompañado de amenazas militares, se produce tras ataques aéreos de EE.UU. e Israel.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c86yv180qgxo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6f9f/live/81db5d40-1683-11f1-8b11-919daf3dd69e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Dominicanos con enfermedades crónicas no oncológicas tendrán acceso a tratamientos tras ampliación de cobertura",
-      "summary280": "El CNSS aprobó la ampliación de la cobertura del Seguro Familiar de Salud para incluir tratamientos de alto costo para enfermedades crónicas no oncológicas, con un tope de RD$1.000.000 por paciente.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/republica-dominicana/2026/03/03/dominicanos-con-enfermedades-cronicas-no-oncologicas-tendran-acceso-a-tratamientos-tras-ampliacion-de-cobertura/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/BGRSFAS4YNGSZDQ537HNCKSZKU.png?auth=d110ed08357ce14fe5068f3050a5b457492ce548c33eaf38072586d5e6c2bd2c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
