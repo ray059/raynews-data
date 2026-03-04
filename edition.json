@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "04 de marzo de 2026",
-  "generated_at": "2026-03-04T06:28:01.665282-05:00",
+  "generated_at": "2026-03-04T07:49:12.662165-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
-      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
+      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
+      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
       "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
+      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
       "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
-      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
+      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
       "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
-      "summary280": "Ibis León Malave y José Basilea, latinoamericanos en Medio Oriente, comparten su angustia tras recibir alarmas por ataques a Irán.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
       "type": "explainer",
       "isNew": false
     },
@@ -158,6 +158,15 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"Hay demasiada incertidumbre y miedo\": los testimonios de 2 latinoamericanos que viven en Medio Oriente",
+      "summary280": "Ibis León Malave y José Basilea, latinoamericanos en Medio Oriente, comparten su angustia tras recibir alarmas por ataques a Irán.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cx2jy8g50e0o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ae8/live/296277a0-1680-11f1-b048-c9424b2cf5fd.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Irán cierra el estrecho de Ormuz: cuál es su importancia estratégica y qué consecuencias tiene ya su clausura",
       "summary280": "Irán ha cerrado el estrecho de Ormuz, vital para el comercio global de petróleo, afectando el suministro y disparando precios. Este cierre, inédito y acompañado de amenazas militares, se produce tras ataques aéreos de EE.UU. e Israel.",
       "sourceName": "BBC News Mundo",
@@ -172,15 +181,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/republica-dominicana/2026/03/03/dominicanos-con-enfermedades-cronicas-no-oncologicas-tendran-acceso-a-tratamientos-tras-ampliacion-de-cobertura/",
       "imageUrl": "https://www.infobae.com/resizer/v2/BGRSFAS4YNGSZDQ537HNCKSZKU.png?auth=d110ed08357ce14fe5068f3050a5b457492ce548c33eaf38072586d5e6c2bd2c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Victoria judicial para Cali: Consejo de Estado confirma que no hay 'daño especial' por normas de ordenamiento urbano",
-      "summary280": "El Consejo de Estado confirmó que no hay 'daño especial' por normas de ordenamiento urbano en Cali, lo que permite a la Alcaldía recuperar $42.900 millones. La decisión implica que el demandante deberá pagar al Distrito el 3% de sus pretensiones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/victoria-judicial-para-cali-consejo-de-estado-confirma-que-no-hay-dano-especial-por-normas-de-ordenamiento-urbano-3536955",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2021/11/19/61982d8f8a36f.r_d.1060-707-0.jpeg",
       "type": "explainer",
       "isNew": false
     }
