@@ -1,5 +1,5 @@
 {
-  "free_questions_enabled": false,
+  "free_questions_enabled": true,
   "daily_limit": 1,
   "weekly_limit": 3,
   "monthly_limit": 8
