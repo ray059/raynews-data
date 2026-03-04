@@ -331,7 +331,7 @@ os.replace("historical_tmp.json", HIST_FILE)
 # -------------------------------------------------
 
 if new_items:
-    generate_audio_blocks(final_headlines[:10], fecha_legible)
+    generate_audio_blocks(new_items, fecha_legible)
 
 print("Noticias nuevas detectadas:", len(new_items))
 print("Noticias finales:", len(final_headlines))
