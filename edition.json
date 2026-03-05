@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "04 de marzo de 2026",
-  "generated_at": "2026-03-04T20:50:01.750202-05:00",
+  "generated_at": "2026-03-04T23:10:24.095156-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Cuál es la importancia estratégica de las bases militares que EE.UU. tiene en España y que el gobierno de Sánchez no permite usar para la guerra en Irán",
+      "summary280": "Las bases militares de EE.UU. en España, ubicadas en Rota y Morón, son estratégicas pero el gobierno de Sánchez se opone a su uso en operaciones contra Irán, alegando que no se ajusta al convenio bilateral.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cze00wy7670o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f7f/live/5fbe7950-17f9-11f1-a90b-c9c0021d7ebe.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "O’Higgins vs. Deportes Tolima EN VIVO, tercera fase de la Copa Libertadores: siga el minuto a minuto del partido del Pijao",
       "summary280": "O’Higgins se enfrenta a Deportes Tolima en la tercera fase de la Copa Libertadores, con un marcador de 1-0 tras el gol de Francisco González. Tolima, con un jugador menos, intenta contener los ataques chilenos mientras O’Higgins busca ampliar la ventaja.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/04/ohiggins-vs-deportes-tolima-en-vivo-tercera-fase-de-la-copa-libertadores-siga-el-minuto-a-minuto-del-partido-del-pijao/",
       "imageUrl": "https://www.infobae.com/resizer/v2/UGKOPXB75RBMLNX2B6QLES3R6U.jpg?auth=bac5cd4417c2c2f0405227e48e073d5e2317051f244dcb32225753e284f259c3&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
-      "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
-      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
+      "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
+      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Yoshimar Yotún cobró con efectividad un penal en Sporting Cristal vs Carabobo por fase 3 ida de la Copa Libertadores 2026",
       "summary280": "Yoshimar Yotún anotó un penal para Sporting Cristal en el partido de ida contra Carabobo, acercando al equipo a la Fase de Grupos de la CONMEBOL Libertadores 2026. La efectividad del equipo se refleja en su competitividad en el torneo.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
-      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
-      "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
+      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
+      "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Sistema Nacional de Áreas de Conservación reporta 26 incendios forestales en solo dos meses en Costa Rica",
       "summary280": "En dos meses, Costa Rica ha registrado 26 incendios forestales que han afectado 602 hectáreas, principalmente en fincas privadas. Las autoridades alertan sobre el riesgo creciente y llaman a la población a evitar actividades que puedan provocar incendios durante la época seca.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
-      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
-      "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
+      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Ataque de EE.UU. e Israel a Irán: ¿dónde están Rusia y China, los aliados de la nación islámica?",
+      "summary280": "Rusia y China, aliados de Irán, han expresado su indignación por los ataques de EE.UU. e Israel, pero su apoyo es principalmente retórico.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgk282r1geno?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/3401/live/e3c40b20-1704-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Blue Prince, uno de los juegos independientes mejor valorados de 2025, aterriza en Nintendo Switch 2",
       "summary280": "Blue Prince, un aclamado juego de aventura y puzles, se lanza hoy en Nintendo Switch 2 tras su éxito en otras plataformas. Con una puntuación de 92 en Metacritic y premios destacados, ofrece innovaciones como el control tipo ratón con Joy-Con 2, mejorando la experiencia de juego.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/malditos-nerds/2026/03/04/blue-prince-uno-de-los-juegos-independientes-mejor-valorados-de-2025-aterriza-en-nintendo-switch-2/",
       "imageUrl": "https://www.infobae.com/resizer/v2/23QTCNN6YVCJDE6YKLGGWXD3XQ.jpg?auth=7b1783e5dcc12933ab882a11d62d6fc3d5642f9e74930c4f60a3572e0203a9bc&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Cómo vive un policía antibombas en Cali, donde se han registrado explosiones y amenazas de artefactos?: 'No hay lugar para el miedo, solo desactivar'",
-      "summary280": "Un policía antibombas en Cali enfrenta el terrorismo desactivando explosivos y amenazas. A pesar de las tres acciones frustradas en el año, su valentía y compromiso son inquebrantables.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/como-vive-un-policia-antibombas-en-cali-donde-se-han-registrado-explosiones-y-amenazas-de-artefactos-no-hay-lugar-para-el-miedo-solo-desactivar-3536852",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934d72b277bb.r_d.421-625-0.jpeg",
       "type": "explainer",
       "isNew": false
     }
