@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "05 de marzo de 2026",
-  "generated_at": "2026-03-05T16:31:06.111834-05:00",
+  "generated_at": "2026-03-05T17:29:14.513421-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Waymo ya incluye Miami Beach: el robotaxi autónomo amplía su zona de servicio a 260 km²",
-      "summary280": "Waymo ha ampliado su servicio de robotaxis autónomos a Miami Beach, cubriendo 259 km² y ofreciendo viajes sin conductor las 24 horas. Sin embargo, el acceso es limitado y los usuarios deben inscribirse en una lista de espera.",
+      "titleOriginal": "Atlético Nacional rompió su racha invicta en el Atanasio Girardot con Diego Arias tras derrota con Millonarios",
+      "summary280": "Atlético Nacional perdió 1-3 ante Millonarios en el Atanasio Girardot, rompiendo su racha invicta y quedando eliminado de la Copa Sudamericana.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/05/waymo-ya-incluye-miami-beach-el-robotaxi-autonomo-amplia-su-zona-de-servicio-a-260-km/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/V7FRJVISLZA6DDAFJTGCN7K4GI.jpeg?auth=3fd0bb179b4114dc2b6086f9636a41c1fa32dc7ead5fefcd3be0ac839e33f822&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/05/atletico-nacional-rompio-su-racha-invicta-en-el-atanasio-girardot-con-diego-arias-tras-derrota-con-millonarios/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YMRAA5YCKVEDNAOSJSMALG5A64.jpg?auth=0bc93fe4c1f79f990deaf57c0308a6107f811fef8c9837e3c5d9585c5199da3a&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Waymo ya incluye Miami Beach: el robotaxi autónomo amplía su zona de servicio a 260 km²",
+      "summary280": "Waymo ha ampliado su servicio de robotaxis autónomos a Miami Beach, cubriendo 259 km² y ofreciendo viajes sin conductor las 24 horas. Sin embargo, el acceso es limitado y los usuarios deben inscribirse en una lista de espera.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/05/waymo-ya-incluye-miami-beach-el-robotaxi-autonomo-amplia-su-zona-de-servicio-a-260-km/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/V7FRJVISLZA6DDAFJTGCN7K4GI.jpeg?auth=3fd0bb179b4114dc2b6086f9636a41c1fa32dc7ead5fefcd3be0ac839e33f822&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Sanciones por no votar y que menores de 16 voten: MC presenta su propuesta de reforma electoral",
       "summary280": "Movimiento Ciudadano, liderado por Jorge Álvarez Máynez, propone una reforma electoral que incluye el voto obligatorio con sanciones por no participar, permitir que jóvenes de 16 años voten y establecer una circunscripción migrante.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/movimiento-ciudadano-presenta-su-propuesta-de-reforma-electoral-propone-sanciones-por-no-votar/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EFPPZ7GKLRDTLPUUWDMN4U2BXI.jpg?auth=18ecf598ce187dde50f7c7f989d0dd81b929cd8239b2f0cf87fa55d5b036f03f&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán afirma que \"la teoría de la paz mediante la fuerza está manchada de sangre\" tras ataque a una escuela",
-      "summary280": "Irán condena la \"teoría de la paz mediante la fuerza\" tras un ataque en una escuela que dejó más de 150 muertos, acusando a EE. UU. e Israel. Alí Lariyani advierte que un posible ataque terrestre de EE. UU. resultará en \"miles de muertos y prisioneros\". La situación es crítica.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/iran-afirma-que-la-teoria-de-la-paz-mediante-la-fuerza-esta-manchada-de-sangre-tras-ataque-a-una-escuela/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/D3MBZJW7VJGM3A7QMYK5DGNO64.jpg?auth=72292ef78366f5416bae45d3ce0cbf16bec0ee2dc4355b9174f098a6fdd22947&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Irán afirma que \"la teoría de la paz mediante la fuerza está manchada de sangre\" tras ataque a una escuela",
+      "summary280": "Irán condena la \"teoría de la paz mediante la fuerza\" tras un ataque en una escuela que dejó más de 150 muertos, acusando a EE. UU. e Israel. Alí Lariyani advierte que un posible ataque terrestre de EE. UU. resultará en \"miles de muertos y prisioneros\". La situación es crítica.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/iran-afirma-que-la-teoria-de-la-paz-mediante-la-fuerza-esta-manchada-de-sangre-tras-ataque-a-una-escuela/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/D3MBZJW7VJGM3A7QMYK5DGNO64.jpg?auth=72292ef78366f5416bae45d3ce0cbf16bec0ee2dc4355b9174f098a6fdd22947&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Adrián Villar salió enmarrocado a la espera que se decida el penal donde cumplirá prisión preventiva por caso Lizeth Marzano",
       "summary280": "Adrián Villar fue trasladado a la Junta de Calificación del INPE en Ancón, donde se decidirá su penal tras ser acusado del atropello y muerte de la deportista Lizeth Marzano.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/05/adrian-villar-salio-enmarrocado-a-la-espera-que-se-decida-el-penal-donde-cumplira-prision-preventiva-por-caso-lizeth-marzano/",
       "imageUrl": "https://www.infobae.com/resizer/v2/4M6QQ62NUNAJNJ4CKJ2COC77EQ.jpg?auth=8887a1f64c3b27a3b7d14efacb571b57c42657c19fbcdb2c5f76099053b829f7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así fue la relación de la exnovia de “El Chapo” con René Arzate, hoy uno de los más buscados por EEUU",
-      "summary280": "René Arzate García, alias \"La Rana\", es uno de los más buscados por EE.UU. por narcoterrorismo. Su relación con Valeria Rubí Quiroz, exnovia de \"El Chapo\", fue intensa pero breve. A pesar de su ruptura, Quiroz lo recuerda con cariño y espera que su hija lo conozca algún día.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/asi-fue-la-relacion-de-la-exnovia-de-el-chapo-con-rene-arzate-hoy-uno-de-los-mas-buscados-por-eeuu/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WSNV4GYQVVCGDAK2V77VAD7BAY.jpg?auth=84ee637f5f1f26cf11e28e1e6fd2bcce8b3a70066f7829867af37e450388306c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Así fue la relación de la exnovia de “El Chapo” con René Arzate, hoy uno de los más buscados por EEUU",
+      "summary280": "René Arzate García, alias \"La Rana\", es uno de los más buscados por EE.UU. por narcoterrorismo. Su relación con Valeria Rubí Quiroz, exnovia de \"El Chapo\", fue intensa pero breve. A pesar de su ruptura, Quiroz lo recuerda con cariño y espera que su hija lo conozca algún día.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/asi-fue-la-relacion-de-la-exnovia-de-el-chapo-con-rene-arzate-hoy-uno-de-los-mas-buscados-por-eeuu/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WSNV4GYQVVCGDAK2V77VAD7BAY.jpg?auth=84ee637f5f1f26cf11e28e1e6fd2bcce8b3a70066f7829867af37e450388306c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Clima en Perú: temperatura y probabilidad de lluvia para Huancayo este 5 de marzo",
       "summary280": "El 5 de marzo en Huancayo se espera una temperatura máxima de 14°C y mínima de 6°C, con un 49% de probabilidad de lluvia durante el día y 25% en la noche. La nubosidad será del 99% y los vientos alcanzarán 24 km/h. Se recomienda precaución por los rayos UV.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/noticias/2026/03/05/clima-en-peru-temperatura-y-probabilidad-de-lluvia-para-huancayo-este-5-de-marzo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/RR6JBACYTFG27DPN4TGWOYDI4U.png?auth=c44437a76bb3f4f2342b8ea70bb96912d4d60d59f531668bb59663be58817d9b&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Abascal, sobre Antelo: \"Los que no quieren estar en Vox y quieren ir a lo suyo ya saben lo que tienen que hacer\"",
-      "summary280": "Santiago Abascal, presidente de Vox, se pronunció sobre la crisis en Murcia tras las denuncias de José Ángel Antelo. Afirmó que quienes no deseen estar en Vox y busquen sus propios intereses deben actuar en consecuencia, defendiendo la integridad del partido.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/05/abascal-sobre-antelo-los-que-no-quieren-estar-en-vox-y-quieren-ir-a-lo-suyo-ya-saben-lo-que-tienen-que-hacer/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/4WUDXHNQANERNPZGK4T5N5B6TY.jpg?auth=227ea39c69ed3af021246f96cc5b65a55b93a5178029d9adabc3e0cb92ca6b80&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
