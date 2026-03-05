@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "05 de marzo de 2026",
-  "generated_at": "2026-03-05T09:56:04.643210-05:00",
+  "generated_at": "2026-03-05T10:48:42.093749-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Adrián Villar salió enmarrocado a la espera que se decida el penal donde cumplirá prisión preventiva por caso Lizeth Marzano",
-      "summary280": "Adrián Villar fue trasladado a la Junta de Calificación del INPE en Ancón, donde se decidirá su penal tras ser acusado del atropello y muerte de la deportista Lizeth Marzano.",
+      "titleOriginal": "Irán afirma que \"la teoría de la paz mediante la fuerza está manchada de sangre\" tras ataque a una escuela",
+      "summary280": "Irán condena la \"teoría de la paz mediante la fuerza\" tras un ataque en una escuela que dejó más de 150 muertos, acusando a EE. UU. e Israel. Alí Lariyani advierte que un posible ataque terrestre de EE. UU. resultará en \"miles de muertos y prisioneros\". La situación es crítica.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/05/adrian-villar-salio-enmarrocado-a-la-espera-que-se-decida-el-penal-donde-cumplira-prision-preventiva-por-caso-lizeth-marzano/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/4M6QQ62NUNAJNJ4CKJ2COC77EQ.jpg?auth=8887a1f64c3b27a3b7d14efacb571b57c42657c19fbcdb2c5f76099053b829f7&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/iran-afirma-que-la-teoria-de-la-paz-mediante-la-fuerza-esta-manchada-de-sangre-tras-ataque-a-una-escuela/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/D3MBZJW7VJGM3A7QMYK5DGNO64.jpg?auth=72292ef78366f5416bae45d3ce0cbf16bec0ee2dc4355b9174f098a6fdd22947&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Adrián Villar salió enmarrocado a la espera que se decida el penal donde cumplirá prisión preventiva por caso Lizeth Marzano",
+      "summary280": "Adrián Villar fue trasladado a la Junta de Calificación del INPE en Ancón, donde se decidirá su penal tras ser acusado del atropello y muerte de la deportista Lizeth Marzano.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/05/adrian-villar-salio-enmarrocado-a-la-espera-que-se-decida-el-penal-donde-cumplira-prision-preventiva-por-caso-lizeth-marzano/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/4M6QQ62NUNAJNJ4CKJ2COC77EQ.jpg?auth=8887a1f64c3b27a3b7d14efacb571b57c42657c19fbcdb2c5f76099053b829f7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así fue la relación de la exnovia de “El Chapo” con René Arzate, hoy uno de los más buscados por EEUU",
       "summary280": "René Arzate García, alias \"La Rana\", es uno de los más buscados por EE.UU. por narcoterrorismo. Su relación con Valeria Rubí Quiroz, exnovia de \"El Chapo\", fue intensa pero breve. A pesar de su ruptura, Quiroz lo recuerda con cariño y espera que su hija lo conozca algún día.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/asi-fue-la-relacion-de-la-exnovia-de-el-chapo-con-rene-arzate-hoy-uno-de-los-mas-buscados-por-eeuu/",
       "imageUrl": "https://www.infobae.com/resizer/v2/WSNV4GYQVVCGDAK2V77VAD7BAY.jpg?auth=84ee637f5f1f26cf11e28e1e6fd2bcce8b3a70066f7829867af37e450388306c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Clima en Perú: temperatura y probabilidad de lluvia para Huancayo este 5 de marzo",
-      "summary280": "El 5 de marzo en Huancayo se espera una temperatura máxima de 14°C y mínima de 6°C, con un 49% de probabilidad de lluvia durante el día y 25% en la noche. La nubosidad será del 99% y los vientos alcanzarán 24 km/h. Se recomienda precaución por los rayos UV.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/noticias/2026/03/05/clima-en-peru-temperatura-y-probabilidad-de-lluvia-para-huancayo-este-5-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/RR6JBACYTFG27DPN4TGWOYDI4U.png?auth=c44437a76bb3f4f2342b8ea70bb96912d4d60d59f531668bb59663be58817d9b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Clima en Perú: temperatura y probabilidad de lluvia para Huancayo este 5 de marzo",
+      "summary280": "El 5 de marzo en Huancayo se espera una temperatura máxima de 14°C y mínima de 6°C, con un 49% de probabilidad de lluvia durante el día y 25% en la noche. La nubosidad será del 99% y los vientos alcanzarán 24 km/h. Se recomienda precaución por los rayos UV.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/05/clima-en-peru-temperatura-y-probabilidad-de-lluvia-para-huancayo-este-5-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/RR6JBACYTFG27DPN4TGWOYDI4U.png?auth=c44437a76bb3f4f2342b8ea70bb96912d4d60d59f531668bb59663be58817d9b&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Abascal, sobre Antelo: \"Los que no quieren estar en Vox y quieren ir a lo suyo ya saben lo que tienen que hacer\"",
       "summary280": "Santiago Abascal, presidente de Vox, se pronunció sobre la crisis en Murcia tras las denuncias de José Ángel Antelo. Afirmó que quienes no deseen estar en Vox y busquen sus propios intereses deben actuar en consecuencia, defendiendo la integridad del partido.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/05/abascal-sobre-antelo-los-que-no-quieren-estar-en-vox-y-quieren-ir-a-lo-suyo-ya-saben-lo-que-tienen-que-hacer/",
       "imageUrl": "https://www.infobae.com/resizer/v2/4WUDXHNQANERNPZGK4T5N5B6TY.jpg?auth=227ea39c69ed3af021246f96cc5b65a55b93a5178029d9adabc3e0cb92ca6b80&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Seis muertos en dos bombardeos de Israel contra las afueras de la capital de Líbano y el sur del país",
-      "summary280": "Israel ha llevado a cabo bombardeos en las afueras de Beirut y el sur de Líbano, resultando en seis muertos y varios heridos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/seis-muertos-en-dos-bombardeos-de-israel-contra-las-afueras-de-la-capital-de-libano-y-el-sur-del-pais/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/JGV5XLYARRBC7FQHQIRGA5J5TM.jpg?auth=c31a95f97deb1bd7854f6fe6b877a23151e235d14aab8e6d01e0473315f88b43&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Seis muertos en dos bombardeos de Israel contra las afueras de la capital de Líbano y el sur del país",
+      "summary280": "Israel ha llevado a cabo bombardeos en las afueras de Beirut y el sur de Líbano, resultando en seis muertos y varios heridos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/seis-muertos-en-dos-bombardeos-de-israel-contra-las-afueras-de-la-capital-de-libano-y-el-sur-del-pais/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/JGV5XLYARRBC7FQHQIRGA5J5TM.jpg?auth=c31a95f97deb1bd7854f6fe6b877a23151e235d14aab8e6d01e0473315f88b43&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Rescatan a tlacuache lesionado tras ser atropellado en calles de la alcaldía Cuauhtémoc",
       "summary280": "Elementos de la SSC y la Brigada de Vigilancia Animal rescataron a un tlacuache atropellado en Cuauhtémoc tras un reporte ciudadano. El animal fue atendido y trasladado para recibir atención médica.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/rescatan-a-tlacuache-lesionado-tras-ser-atropellado-en-calles-de-la-alcaldia-cuauhtemoc/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HCYMWXODUNFUBBHB2I2OBDCAVM.jpg?auth=7ad88726aff632066b89a7fd86aa39d95df124fb6fbf51fbf9b4741b5f142723&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Edad de Emma Watson y Gonzalo Hevia Baillères: ¿cuántos años se llevan?",
-      "summary280": "Emma Watson, de 35 años, y Gonzalo Hevia Baillères, de aproximadamente 29, han confirmado su romance tras ser vistos juntos en Europa y México. La diferencia de edad es de seis años.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/edad-de-emma-watson-y-gonzalo-hevia-bailleres-cuantos-anos-se-llevan/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/7QCDI5IJ3NAFXBDUFLNFQ5ZVWA.jpg?auth=1e1edca61810480f0e8d98ac24764c0ba7db5fb3ecd7078ab73603ea412b27f5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
