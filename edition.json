@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "05 de marzo de 2026",
-  "generated_at": "2026-03-05T13:00:53.209657-05:00",
+  "generated_at": "2026-03-05T14:50:11.521327-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Puntos de control en la calles y filas para comprar pan: qué pasa en Irán conforme se intensifican los ataques que dejan ya 1.100 civiles muertos",
+      "summary280": "Irán enfrenta una intensa ofensiva de Israel y EE.UU. desde el 28 de febrero, resultando en más de 1.100 civiles muertos. La situación en Teherán es crítica, con ataques constantes, escasez de alimentos y un aumento de la represión.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwykk0yxr54o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/2a04/live/7f97b2a0-18a3-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Sanciones por no votar y que menores de 16 voten: MC presenta su propuesta de reforma electoral",
       "summary280": "Movimiento Ciudadano, liderado por Jorge Álvarez Máynez, propone una reforma electoral que incluye el voto obligatorio con sanciones por no participar, permitir que jóvenes de 16 años voten y establecer una circunscripción migrante.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/movimiento-ciudadano-presenta-su-propuesta-de-reforma-electoral-propone-sanciones-por-no-votar/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EFPPZ7GKLRDTLPUUWDMN4U2BXI.jpg?auth=18ecf598ce187dde50f7c7f989d0dd81b929cd8239b2f0cf87fa55d5b036f03f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
-      "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuál es la importancia estratégica de las bases militares que EE.UU. tiene en España y que el gobierno de Sánchez no permite usar para la guerra en Irán",
-      "summary280": "Las bases militares de EE.UU. en España, ubicadas en Rota y Morón, son estratégicas pero el gobierno de Sánchez se opone a su uso en operaciones contra Irán, alegando que no se ajusta al convenio bilateral.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cze00wy7670o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f7f/live/5fbe7950-17f9-11f1-a90b-c9c0021d7ebe.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
+      "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Cuál es la importancia estratégica de las bases militares que EE.UU. tiene en España y que el gobierno de Sánchez no permite usar para la guerra en Irán",
+      "summary280": "Las bases militares de EE.UU. en España, ubicadas en Rota y Morón, son estratégicas pero el gobierno de Sánchez se opone a su uso en operaciones contra Irán, alegando que no se ajusta al convenio bilateral.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cze00wy7670o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f7f/live/5fbe7950-17f9-11f1-a90b-c9c0021d7ebe.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Adrián Villar salió enmarrocado a la espera que se decida el penal donde cumplirá prisión preventiva por caso Lizeth Marzano",
       "summary280": "Adrián Villar fue trasladado a la Junta de Calificación del INPE en Ancón, donde se decidirá su penal tras ser acusado del atropello y muerte de la deportista Lizeth Marzano.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
-      "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
-      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
+      "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
+      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Clima en Perú: temperatura y probabilidad de lluvia para Huancayo este 5 de marzo",
       "summary280": "El 5 de marzo en Huancayo se espera una temperatura máxima de 14°C y mínima de 6°C, con un 49% de probabilidad de lluvia durante el día y 25% en la noche. La nubosidad será del 99% y los vientos alcanzarán 24 km/h. Se recomienda precaución por los rayos UV.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
-      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
-      "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
+      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
+      "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Seis muertos en dos bombardeos de Israel contra las afueras de la capital de Líbano y el sur del país",
       "summary280": "Israel ha llevado a cabo bombardeos en las afueras de Beirut y el sur de Líbano, resultando en seis muertos y varios heridos.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/seis-muertos-en-dos-bombardeos-de-israel-contra-las-afueras-de-la-capital-de-libano-y-el-sur-del-pais/",
       "imageUrl": "https://www.infobae.com/resizer/v2/JGV5XLYARRBC7FQHQIRGA5J5TM.jpg?auth=c31a95f97deb1bd7854f6fe6b877a23151e235d14aab8e6d01e0473315f88b43&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
-      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
       "type": "explainer",
       "isNew": false
     }
