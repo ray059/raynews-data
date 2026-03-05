@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "05 de marzo de 2026",
-  "generated_at": "2026-03-05T06:31:42.897675-05:00",
+  "generated_at": "2026-03-05T07:53:29.725040-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
+      "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Así fue la relación de la exnovia de “El Chapo” con René Arzate, hoy uno de los más buscados por EEUU",
       "summary280": "René Arzate García, alias \"La Rana\", es uno de los más buscados por EE.UU. por narcoterrorismo. Su relación con Valeria Rubí Quiroz, exnovia de \"El Chapo\", fue intensa pero breve. A pesar de su ruptura, Quiroz lo recuerda con cariño y espera que su hija lo conozca algún día.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/asi-fue-la-relacion-de-la-exnovia-de-el-chapo-con-rene-arzate-hoy-uno-de-los-mas-buscados-por-eeuu/",
       "imageUrl": "https://www.infobae.com/resizer/v2/WSNV4GYQVVCGDAK2V77VAD7BAY.jpg?auth=84ee637f5f1f26cf11e28e1e6fd2bcce8b3a70066f7829867af37e450388306c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuál es la importancia estratégica de las bases militares que EE.UU. tiene en España y que el gobierno de Sánchez no permite usar para la guerra en Irán",
-      "summary280": "Las bases militares de EE.UU. en España, ubicadas en Rota y Morón, son estratégicas pero el gobierno de Sánchez se opone a su uso en operaciones contra Irán, alegando que no se ajusta al convenio bilateral.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cze00wy7670o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f7f/live/5fbe7950-17f9-11f1-a90b-c9c0021d7ebe.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
-      "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Cuál es la importancia estratégica de las bases militares que EE.UU. tiene en España y que el gobierno de Sánchez no permite usar para la guerra en Irán",
+      "summary280": "Las bases militares de EE.UU. en España, ubicadas en Rota y Morón, son estratégicas pero el gobierno de Sánchez se opone a su uso en operaciones contra Irán, alegando que no se ajusta al convenio bilateral.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cze00wy7670o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f7f/live/5fbe7950-17f9-11f1-a90b-c9c0021d7ebe.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
+      "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Abascal, sobre Antelo: \"Los que no quieren estar en Vox y quieren ir a lo suyo ya saben lo que tienen que hacer\"",
       "summary280": "Santiago Abascal, presidente de Vox, se pronunció sobre la crisis en Murcia tras las denuncias de José Ángel Antelo. Afirmó que quienes no deseen estar en Vox y busquen sus propios intereses deben actuar en consecuencia, defendiendo la integridad del partido.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
-      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
-      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
+      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
+      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Rescatan a tlacuache lesionado tras ser atropellado en calles de la alcaldía Cuauhtémoc",
       "summary280": "Elementos de la SSC y la Brigada de Vigilancia Animal rescataron a un tlacuache atropellado en Cuauhtémoc tras un reporte ciudadano. El animal fue atendido y trasladado para recibir atención médica.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/asi-se-prepara-medellin-para-recibir-el-clasico-colombiano-por-copa-sudamericana-atletico-nacional-y-millonarios-definen-un-cupo-en-el-atanasio-3537088",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a78e74e1ef0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
-      "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
-      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Por qué el gobierno de Sánchez se negó a que EE.UU. use sus bases en España para atacar a Irán",
+      "summary280": "El gobierno de Sánchez rechazó que EE.UU. use sus bases en España para atacar a Irán, argumentando que no se ajusta al convenio de cooperación. Trump respondió suspendiendo el comercio con España.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwy8gz1elp9o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/75f1/live/64ca84b0-1737-11f1-9b2c-7dd75c18821e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
+      "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "O’Higgins vs. Deportes Tolima EN VIVO, tercera fase de la Copa Libertadores: siga el minuto a minuto del partido del Pijao",
       "summary280": "O’Higgins se enfrenta a Deportes Tolima en la tercera fase de la Copa Libertadores, con un marcador de 1-0 tras el gol de Francisco González. Tolima, con un jugador menos, intenta contener los ataques chilenos mientras O’Higgins busca ampliar la ventaja.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/04/ohiggins-vs-deportes-tolima-en-vivo-tercera-fase-de-la-copa-libertadores-siga-el-minuto-a-minuto-del-partido-del-pijao/",
       "imageUrl": "https://www.infobae.com/resizer/v2/UGKOPXB75RBMLNX2B6QLES3R6U.jpg?auth=bac5cd4417c2c2f0405227e48e073d5e2317051f244dcb32225753e284f259c3&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Se restablece el paso en la vía Medellín–Bogotá: habilitan tránsito controlado en el sector de San Luis",
-      "summary280": "Se restablece el paso controlado en la vía Medellín–Bogotá, específicamente en el sector de San Luis, tras la remoción de 60.000 m³ de tierra. Se informan horarios y restricciones para el tránsito en la zona. La vía vuelve a estar operativa.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/se-restablece-el-paso-en-la-via-medellin-bogota-habilitan-transito-controlado-en-el-sector-de-san-luis-3536981",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a73aef6b150.jpeg",
       "type": "explainer",
       "isNew": false
     }
