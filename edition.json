@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "05 de marzo de 2026",
-  "generated_at": "2026-03-05T07:53:29.725040-05:00",
+  "generated_at": "2026-03-05T09:00:07.569708-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
+      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
       "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Así fue la relación de la exnovia de “El Chapo” con René Arzate, hoy uno de los más buscados por EEUU",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/asi-fue-la-relacion-de-la-exnovia-de-el-chapo-con-rene-arzate-hoy-uno-de-los-mas-buscados-por-eeuu/",
       "imageUrl": "https://www.infobae.com/resizer/v2/WSNV4GYQVVCGDAK2V77VAD7BAY.jpg?auth=84ee637f5f1f26cf11e28e1e6fd2bcce8b3a70066f7829867af37e450388306c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
-      "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
-      "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
+      "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
+      "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
       "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/05/abascal-sobre-antelo-los-que-no-quieren-estar-en-vox-y-quieren-ir-a-lo-suyo-ya-saben-lo-que-tienen-que-hacer/",
       "imageUrl": "https://www.infobae.com/resizer/v2/4WUDXHNQANERNPZGK4T5N5B6TY.jpg?auth=227ea39c69ed3af021246f96cc5b65a55b93a5178029d9adabc3e0cb92ca6b80&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
-      "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
-      "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
+      "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
+      "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
       "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/rescatan-a-tlacuache-lesionado-tras-ser-atropellado-en-calles-de-la-alcaldia-cuauhtemoc/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HCYMWXODUNFUBBHB2I2OBDCAVM.jpg?auth=7ad88726aff632066b89a7fd86aa39d95df124fb6fbf51fbf9b4741b5f142723&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así se prepara Medellín para recibir el clásico colombiano por Copa Sudamericana: Atlético Nacional y Millonarios definen un cupo en el Atanasio",
-      "summary280": "Medellín se alista para el clásico colombiano entre Atlético Nacional y Millonarios por la Copa Sudamericana, implementando un dispositivo de seguridad especial para garantizar la tranquilidad durante el evento. La ciudad espera un gran encuentro.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/asi-se-prepara-medellin-para-recibir-el-clasico-colombiano-por-copa-sudamericana-atletico-nacional-y-millonarios-definen-un-cupo-en-el-atanasio-3537088",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a78e74e1ef0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
-      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Así se prepara Medellín para recibir el clásico colombiano por Copa Sudamericana: Atlético Nacional y Millonarios definen un cupo en el Atanasio",
+      "summary280": "Medellín se alista para el clásico colombiano entre Atlético Nacional y Millonarios por la Copa Sudamericana, implementando un dispositivo de seguridad especial para garantizar la tranquilidad durante el evento. La ciudad espera un gran encuentro.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/asi-se-prepara-medellin-para-recibir-el-clasico-colombiano-por-copa-sudamericana-atletico-nacional-y-millonarios-definen-un-cupo-en-el-atanasio-3537088",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/03/69a78e74e1ef0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Un hombre habría sido apuñalado cuando iba en bicicleta y luego fue atropellado por una ambulancia en el oriente de Cali; conmoción en video",
+      "summary280": "Un hombre fue apuñalado mientras montaba en bicicleta y luego atropellado por una ambulancia en Cali, en el contexto de la 'guerra del centavo', conocida como 'carrera de la muerte'. El incidente ha generado conmoción y ha sido captado en video.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/un-hombre-habria-sido-apunalado-cuando-iba-en-bicicleta-y-luego-habria-sido-atropellado-por-una-ambulancia-en-el-oriente-de-cali-conmocion-en-video-3536995",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/01/15/65a516824c68b.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Los mapas que muestran el impacto en Medio Oriente del conflicto entre Israel y EE.UU. e Irán",
       "summary280": "La guerra entre EE.UU. e Israel contra Irán se intensifica, con ataques aéreos en Teherán y Líbano. Hezbolá responde con cohetes y drones. Más de 787 muertos en Irán y seis militares estadounidenses fallecidos. La embajada de EE.UU. en Riad fue atacada por drones iraníes.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn9ezq4xp0ro?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62ad/live/cadc5c60-1714-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "O’Higgins vs. Deportes Tolima EN VIVO, tercera fase de la Copa Libertadores: siga el minuto a minuto del partido del Pijao",
-      "summary280": "O’Higgins se enfrenta a Deportes Tolima en la tercera fase de la Copa Libertadores, con un marcador de 1-0 tras el gol de Francisco González. Tolima, con un jugador menos, intenta contener los ataques chilenos mientras O’Higgins busca ampliar la ventaja.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/04/ohiggins-vs-deportes-tolima-en-vivo-tercera-fase-de-la-copa-libertadores-siga-el-minuto-a-minuto-del-partido-del-pijao/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/UGKOPXB75RBMLNX2B6QLES3R6U.jpg?auth=bac5cd4417c2c2f0405227e48e073d5e2317051f244dcb32225753e284f259c3&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
