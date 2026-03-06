@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "05 de marzo de 2026",
-  "generated_at": "2026-03-05T18:48:30.600561-05:00",
+  "generated_at": "2026-03-05T20:51:36.155325-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
+      "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-en-narino-al-hermano-de-la-candidata-a-la-camara-claudia-cabrera-del-partido-de-la-u-disidencias-serian-las-presuntas-responsables-3537737",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/05/69aa207011275.r_d.837-333-0.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
       "summary280": "Irán no puede derrotar militarmente a EE.UU. o Israel, pero su estrategia se centra en prolongar el conflicto y desgastar a sus oponentes.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Atlético Nacional rompió su racha invicta en el Atanasio Girardot con Diego Arias tras derrota con Millonarios",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/05/atletico-nacional-rompio-su-racha-invicta-en-el-atanasio-girardot-con-diego-arias-tras-derrota-con-millonarios/",
       "imageUrl": "https://www.infobae.com/resizer/v2/YMRAA5YCKVEDNAOSJSMALG5A64.jpg?auth=0bc93fe4c1f79f990deaf57c0308a6107f811fef8c9837e3c5d9585c5199da3a&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
-      "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
-      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
+      "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
+      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
       "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/movimiento-ciudadano-presenta-su-propuesta-de-reforma-electoral-propone-sanciones-por-no-votar/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EFPPZ7GKLRDTLPUUWDMN4U2BXI.jpg?auth=18ecf598ce187dde50f7c7f989d0dd81b929cd8239b2f0cf87fa55d5b036f03f&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
-      "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
-      "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
+      "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
+      "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
       "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/05/adrian-villar-salio-enmarrocado-a-la-espera-que-se-decida-el-penal-donde-cumplira-prision-preventiva-por-caso-lizeth-marzano/",
       "imageUrl": "https://www.infobae.com/resizer/v2/4M6QQ62NUNAJNJ4CKJ2COC77EQ.jpg?auth=8887a1f64c3b27a3b7d14efacb571b57c42657c19fbcdb2c5f76099053b829f7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
-      "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
-      "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
+      "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
+      "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
       "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Clima en Perú: temperatura y probabilidad de lluvia para Huancayo este 5 de marzo",
-      "summary280": "El 5 de marzo en Huancayo se espera una temperatura máxima de 14°C y mínima de 6°C, con un 49% de probabilidad de lluvia durante el día y 25% en la noche. La nubosidad será del 99% y los vientos alcanzarán 24 km/h. Se recomienda precaución por los rayos UV.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/noticias/2026/03/05/clima-en-peru-temperatura-y-probabilidad-de-lluvia-para-huancayo-este-5-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/RR6JBACYTFG27DPN4TGWOYDI4U.png?auth=c44437a76bb3f4f2342b8ea70bb96912d4d60d59f531668bb59663be58817d9b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
