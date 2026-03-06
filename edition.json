@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "05 de marzo de 2026",
-  "generated_at": "2026-03-05T20:51:36.155325-05:00",
+  "generated_at": "2026-03-05T23:07:40.511388-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Quiénes fueron los dos participantes que se salvaron de la gala de eliminación en Gran Hermano: la placa final",
+      "summary280": "En la gala de eliminación de Gran Hermano Generación Dorada, el público salvó a Juanicar y Yipio de la placa de nominados.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/06/quienes-fueron-los-dos-participantes-que-se-salvaron-de-la-gala-de-eliminacion-en-gran-hermano-la-placa-final/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/V26XRIWBQRCPPEQ6AEA2V6Z3JI.jpg?auth=058c2428ed66a27ddf563cb6955db356ece169391e3ff486724056ddb94c02e5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
       "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-en-narino-al-hermano-de-la-candidata-a-la-camara-claudia-cabrera-del-partido-de-la-u-disidencias-serian-las-presuntas-responsables-3537737",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/05/69aa207011275.r_d.837-333-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Atlético Nacional rompió su racha invicta en el Atanasio Girardot con Diego Arias tras derrota con Millonarios",
-      "summary280": "Atlético Nacional perdió 1-3 ante Millonarios en el Atanasio Girardot, rompiendo su racha invicta y quedando eliminado de la Copa Sudamericana.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/05/atletico-nacional-rompio-su-racha-invicta-en-el-atanasio-girardot-con-diego-arias-tras-derrota-con-millonarios/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YMRAA5YCKVEDNAOSJSMALG5A64.jpg?auth=0bc93fe4c1f79f990deaf57c0308a6107f811fef8c9837e3c5d9585c5199da3a&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Waymo ya incluye Miami Beach: el robotaxi autónomo amplía su zona de servicio a 260 km²",
-      "summary280": "Waymo ha ampliado su servicio de robotaxis autónomos a Miami Beach, cubriendo 259 km² y ofreciendo viajes sin conductor las 24 horas. Sin embargo, el acceso es limitado y los usuarios deben inscribirse en una lista de espera.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/05/waymo-ya-incluye-miami-beach-el-robotaxi-autonomo-amplia-su-zona-de-servicio-a-260-km/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/V7FRJVISLZA6DDAFJTGCN7K4GI.jpeg?auth=3fd0bb179b4114dc2b6086f9636a41c1fa32dc7ead5fefcd3be0ac839e33f822&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Atlético Nacional rompió su racha invicta en el Atanasio Girardot con Diego Arias tras derrota con Millonarios",
+      "summary280": "Atlético Nacional perdió 1-3 ante Millonarios en el Atanasio Girardot, rompiendo su racha invicta y quedando eliminado de la Copa Sudamericana.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/05/atletico-nacional-rompio-su-racha-invicta-en-el-atanasio-girardot-con-diego-arias-tras-derrota-con-millonarios/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YMRAA5YCKVEDNAOSJSMALG5A64.jpg?auth=0bc93fe4c1f79f990deaf57c0308a6107f811fef8c9837e3c5d9585c5199da3a&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Waymo ya incluye Miami Beach: el robotaxi autónomo amplía su zona de servicio a 260 km²",
+      "summary280": "Waymo ha ampliado su servicio de robotaxis autónomos a Miami Beach, cubriendo 259 km² y ofreciendo viajes sin conductor las 24 horas. Sin embargo, el acceso es limitado y los usuarios deben inscribirse en una lista de espera.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/05/waymo-ya-incluye-miami-beach-el-robotaxi-autonomo-amplia-su-zona-de-servicio-a-260-km/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/V7FRJVISLZA6DDAFJTGCN7K4GI.jpeg?auth=3fd0bb179b4114dc2b6086f9636a41c1fa32dc7ead5fefcd3be0ac839e33f822&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
       "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Sanciones por no votar y que menores de 16 voten: MC presenta su propuesta de reforma electoral",
-      "summary280": "Movimiento Ciudadano, liderado por Jorge Álvarez Máynez, propone una reforma electoral que incluye el voto obligatorio con sanciones por no participar, permitir que jóvenes de 16 años voten y establecer una circunscripción migrante.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/movimiento-ciudadano-presenta-su-propuesta-de-reforma-electoral-propone-sanciones-por-no-votar/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/EFPPZ7GKLRDTLPUUWDMN4U2BXI.jpg?auth=18ecf598ce187dde50f7c7f989d0dd81b929cd8239b2f0cf87fa55d5b036f03f&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán afirma que \"la teoría de la paz mediante la fuerza está manchada de sangre\" tras ataque a una escuela",
-      "summary280": "Irán condena la \"teoría de la paz mediante la fuerza\" tras un ataque en una escuela que dejó más de 150 muertos, acusando a EE. UU. e Israel. Alí Lariyani advierte que un posible ataque terrestre de EE. UU. resultará en \"miles de muertos y prisioneros\". La situación es crítica.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/iran-afirma-que-la-teoria-de-la-paz-mediante-la-fuerza-esta-manchada-de-sangre-tras-ataque-a-una-escuela/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/D3MBZJW7VJGM3A7QMYK5DGNO64.jpg?auth=72292ef78366f5416bae45d3ce0cbf16bec0ee2dc4355b9174f098a6fdd22947&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Sanciones por no votar y que menores de 16 voten: MC presenta su propuesta de reforma electoral",
+      "summary280": "Movimiento Ciudadano, liderado por Jorge Álvarez Máynez, propone una reforma electoral que incluye el voto obligatorio con sanciones por no participar, permitir que jóvenes de 16 años voten y establecer una circunscripción migrante.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/movimiento-ciudadano-presenta-su-propuesta-de-reforma-electoral-propone-sanciones-por-no-votar/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/EFPPZ7GKLRDTLPUUWDMN4U2BXI.jpg?auth=18ecf598ce187dde50f7c7f989d0dd81b929cd8239b2f0cf87fa55d5b036f03f&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Irán afirma que \"la teoría de la paz mediante la fuerza está manchada de sangre\" tras ataque a una escuela",
+      "summary280": "Irán condena la \"teoría de la paz mediante la fuerza\" tras un ataque en una escuela que dejó más de 150 muertos, acusando a EE. UU. e Israel. Alí Lariyani advierte que un posible ataque terrestre de EE. UU. resultará en \"miles de muertos y prisioneros\". La situación es crítica.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/05/iran-afirma-que-la-teoria-de-la-paz-mediante-la-fuerza-esta-manchada-de-sangre-tras-ataque-a-una-escuela/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/D3MBZJW7VJGM3A7QMYK5DGNO64.jpg?auth=72292ef78366f5416bae45d3ce0cbf16bec0ee2dc4355b9174f098a6fdd22947&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
       "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Adrián Villar salió enmarrocado a la espera que se decida el penal donde cumplirá prisión preventiva por caso Lizeth Marzano",
-      "summary280": "Adrián Villar fue trasladado a la Junta de Calificación del INPE en Ancón, donde se decidirá su penal tras ser acusado del atropello y muerte de la deportista Lizeth Marzano.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/05/adrian-villar-salio-enmarrocado-a-la-espera-que-se-decida-el-penal-donde-cumplira-prision-preventiva-por-caso-lizeth-marzano/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/4M6QQ62NUNAJNJ4CKJ2COC77EQ.jpg?auth=8887a1f64c3b27a3b7d14efacb571b57c42657c19fbcdb2c5f76099053b829f7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así fue la relación de la exnovia de “El Chapo” con René Arzate, hoy uno de los más buscados por EEUU",
-      "summary280": "René Arzate García, alias \"La Rana\", es uno de los más buscados por EE.UU. por narcoterrorismo. Su relación con Valeria Rubí Quiroz, exnovia de \"El Chapo\", fue intensa pero breve. A pesar de su ruptura, Quiroz lo recuerda con cariño y espera que su hija lo conozca algún día.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/asi-fue-la-relacion-de-la-exnovia-de-el-chapo-con-rene-arzate-hoy-uno-de-los-mas-buscados-por-eeuu/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WSNV4GYQVVCGDAK2V77VAD7BAY.jpg?auth=84ee637f5f1f26cf11e28e1e6fd2bcce8b3a70066f7829867af37e450388306c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Adrián Villar salió enmarrocado a la espera que se decida el penal donde cumplirá prisión preventiva por caso Lizeth Marzano",
+      "summary280": "Adrián Villar fue trasladado a la Junta de Calificación del INPE en Ancón, donde se decidirá su penal tras ser acusado del atropello y muerte de la deportista Lizeth Marzano.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/05/adrian-villar-salio-enmarrocado-a-la-espera-que-se-decida-el-penal-donde-cumplira-prision-preventiva-por-caso-lizeth-marzano/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/4M6QQ62NUNAJNJ4CKJ2COC77EQ.jpg?auth=8887a1f64c3b27a3b7d14efacb571b57c42657c19fbcdb2c5f76099053b829f7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Así fue la relación de la exnovia de “El Chapo” con René Arzate, hoy uno de los más buscados por EEUU",
+      "summary280": "René Arzate García, alias \"La Rana\", es uno de los más buscados por EE.UU. por narcoterrorismo. Su relación con Valeria Rubí Quiroz, exnovia de \"El Chapo\", fue intensa pero breve. A pesar de su ruptura, Quiroz lo recuerda con cariño y espera que su hija lo conozca algún día.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/asi-fue-la-relacion-de-la-exnovia-de-el-chapo-con-rene-arzate-hoy-uno-de-los-mas-buscados-por-eeuu/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WSNV4GYQVVCGDAK2V77VAD7BAY.jpg?auth=84ee637f5f1f26cf11e28e1e6fd2bcce8b3a70066f7829867af37e450388306c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Conozca los detalles del pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026",
       "summary280": "El pico y placa en Bucaramanga para el miércoles 4 de marzo de 2026 afectará a varios tipos de vehículos, dependiendo del último dígito de su placa. Se recomienda a los conductores estar atentos a las restricciones para evitar sanciones.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/conozca-los-detalles-del-pico-y-placa-en-bucaramanga-para-el-miercoles-4-de-marzo-de-3537112",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El efecto protector que tiene la fibra sobre nuestro cerebro y qué alimentos son los más recomendados",
-      "summary280": "Una dieta rica en fibra, presente en cereales integrales, frutas y legumbres, beneficia tanto el cuerpo como el cerebro, mejorando la salud cognitiva y reduciendo el riesgo de enfermedades.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/czj1m2n4erlo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4533/live/5b5937a0-119c-11f1-b6a5-03d43da28d6c.jpg",
       "type": "explainer",
       "isNew": false
     }
