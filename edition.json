@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "06 de marzo de 2026",
-  "generated_at": "2026-03-06T11:36:37.315525-05:00",
+  "generated_at": "2026-03-06T12:32:28.633395-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Diomedes Dionisio Díaz se encuentra fuera de peligro: esto se sabe de la recuperación del hijo de Diomedes Díaz",
+      "summary280": "Diomedes Dionisio Díaz, hijo del famoso cantante vallenato, fue dado de alta tras varios días en observación médica en Barranquilla. Se encuentra estable y en recuperación en Valledupar, con planes de retomar su carrera artística a mediados de marzo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/diomedes-dionisio-diaz-se-encuentra-fuera-de-peligro-esto-se-sabe-de-la-recuperacion-del-hijo-de-diomedes-diaz/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/ULQBMDQITZBEBBV7WGDTVCIVEQ.png?auth=6602d390d90d276168ad56123de9e0e197abcdc47f8a82a478c2dfadbc722c06&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Así operaba una banda de ‘Falsos Pastores’ en el Caribe: sus víctimas eran, en su mayoría, adultos mayores, a quienes despojaban de joyas y dinero",
       "summary280": "Una banda de 'Falsos Pastores' en el Caribe estafaba a adultos mayores, despojándolos de joyas y dinero. Utilizaban manipulación psicológica y habilidades manuales para llevar a cabo sus delitos. Las víctimas eran principalmente personas vulnerables.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-operaba-una-banda-de-falsos-pastores-en-bolivar-sus-victimas-eran-en-su-mayoria-adultos-mayores-a-quienes-despojaban-de-joyas-y-dinero-3537888",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/06/69aaf71b901fa.r_d.621-308-0.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Catar avisa de que la guerra puede hundir la economía al paralizar las exportaciones de energía",
-      "summary280": "Catar advierte que la guerra en Oriente Próximo podría paralizar las exportaciones de energía, afectando la economía global.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/catar-avisa-de-que-la-guerra-puede-hundir-la-economia-al-paralizar-las-exportaciones-de-energia/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/45QT4DCNFZDQFEC6BU7IOBLFLY.jpg?auth=bf611af2e7e724d96fac5d43a31e301182d887b3ff78fde14d3905b8e807685c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Estatus de los vuelos en vivo: demoras y cancelaciones en el AICM",
-      "summary280": "El AICM publica en vivo el estado de sus vuelos, incluyendo demoras y cancelaciones. Los pasajeros tienen derechos ante retrasos, como descuentos o indemnizaciones. La Profeco está disponible en el aeropuerto para ayudar con cualquier irregularidad. Infórmate sobre tus derechos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/estatus-de-los-vuelos-en-vivo-demoras-y-cancelaciones-en-el-aicm/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Catar avisa de que la guerra puede hundir la economía al paralizar las exportaciones de energía",
+      "summary280": "Catar advierte que la guerra en Oriente Próximo podría paralizar las exportaciones de energía, afectando la economía global.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/catar-avisa-de-que-la-guerra-puede-hundir-la-economia-al-paralizar-las-exportaciones-de-energia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/45QT4DCNFZDQFEC6BU7IOBLFLY.jpg?auth=bf611af2e7e724d96fac5d43a31e301182d887b3ff78fde14d3905b8e807685c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Estatus de los vuelos en vivo: demoras y cancelaciones en el AICM",
+      "summary280": "El AICM publica en vivo el estado de sus vuelos, incluyendo demoras y cancelaciones. Los pasajeros tienen derechos ante retrasos, como descuentos o indemnizaciones. La Profeco está disponible en el aeropuerto para ayudar con cualquier irregularidad. Infórmate sobre tus derechos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/estatus-de-los-vuelos-en-vivo-demoras-y-cancelaciones-en-el-aicm/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
       "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Cuáles son los medicamentos más agresivos para el corazón si se automedica?",
-      "summary280": "La automedicación puede ser peligrosa para la salud cardiovascular, especialmente con AINEs, descongestionantes y algunos antibióticos, que pueden causar hipertensión y arritmias.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/cuales-son-los-medicamentos-mas-agresivos-para-el-corazon-si-se-automedica/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WYXZ3RDQNFBRPNL5ZJ43MRIFMY.jpg?auth=368e95a6bde0d9952116a1215454433273a6bd71889eb87cc9b480204cdff32d&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Tres detenidos, dos menores, por un doble apuñalamiento en la Plaza del Ayuntamiento en noviembre",
-      "summary280": "Tres jóvenes, dos de ellos menores, fueron detenidos por un doble apuñalamiento en la Plaza del Ayuntamiento de València durante el encendido navideño. Un cuarto implicado no fue arrestado por ser inimputable. La investigación sigue abierta y se evalúan medidas para el menor.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/tres-detenidos-dos-menores-por-un-doble-apunalamiento-en-la-plaza-del-ayuntamiento-en-noviembre/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/4CN54TPK2JGWTGYD7J4YHDK76M.jpg?auth=3954038a229bd9044b0f24e62caf26c3076200bab68349210f77af34b7b8af40&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿Cuáles son los medicamentos más agresivos para el corazón si se automedica?",
+      "summary280": "La automedicación puede ser peligrosa para la salud cardiovascular, especialmente con AINEs, descongestionantes y algunos antibióticos, que pueden causar hipertensión y arritmias.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/cuales-son-los-medicamentos-mas-agresivos-para-el-corazon-si-se-automedica/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WYXZ3RDQNFBRPNL5ZJ43MRIFMY.jpg?auth=368e95a6bde0d9952116a1215454433273a6bd71889eb87cc9b480204cdff32d&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Tres detenidos, dos menores, por un doble apuñalamiento en la Plaza del Ayuntamiento en noviembre",
+      "summary280": "Tres jóvenes, dos de ellos menores, fueron detenidos por un doble apuñalamiento en la Plaza del Ayuntamiento de València durante el encendido navideño. Un cuarto implicado no fue arrestado por ser inimputable. La investigación sigue abierta y se evalúan medidas para el menor.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/tres-detenidos-dos-menores-por-un-doble-apunalamiento-en-la-plaza-del-ayuntamiento-en-noviembre/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/4CN54TPK2JGWTGYD7J4YHDK76M.jpg?auth=3954038a229bd9044b0f24e62caf26c3076200bab68349210f77af34b7b8af40&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
       "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "ATX comienza sesión en terreno positivo este 6 de marzo",
-      "summary280": "El ATX inicia la sesión del 6 de marzo con un leve incremento del 0,31%, alcanzando los 5.454,42 puntos, tras una caída del 1,51% en la jornada anterior. A pesar de un descenso del 4,34% en la última semana, acumula una subida del 27,12% en el último año.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/noticias/2026/03/06/atx-comienza-sesion-en-terreno-positivo-este-6-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "EEUU autoriza a India a comprar petróleo ruso durante un mes por el conflicto en el golfo Pérsico",
-      "summary280": "EEUU ha autorizado a India a comprar petróleo ruso durante 30 días debido al conflicto en el golfo Pérsico, donde Irán ha bloqueado el estrecho de Ormuz. La licencia permite transacciones de crudo ruso cargado antes del 5 de marzo, buscando aliviar la presión energética global.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/eeuu-autoriza-a-india-a-comprar-petroleo-ruso-durante-un-mes-por-el-conflicto-en-el-golfo-persico/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YY7VL2AFKNHEHF36UTD4JY2UDM.jpg?auth=23afb9dfd9520719f6c60fe69404775d886de605c13ac2ad1bd4fcd1369ee434&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "ATX comienza sesión en terreno positivo este 6 de marzo",
+      "summary280": "El ATX inicia la sesión del 6 de marzo con un leve incremento del 0,31%, alcanzando los 5.454,42 puntos, tras una caída del 1,51% en la jornada anterior. A pesar de un descenso del 4,34% en la última semana, acumula una subida del 27,12% en el último año.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/06/atx-comienza-sesion-en-terreno-positivo-este-6-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "EEUU autoriza a India a comprar petróleo ruso durante un mes por el conflicto en el golfo Pérsico",
+      "summary280": "EEUU ha autorizado a India a comprar petróleo ruso durante 30 días debido al conflicto en el golfo Pérsico, donde Irán ha bloqueado el estrecho de Ormuz. La licencia permite transacciones de crudo ruso cargado antes del 5 de marzo, buscando aliviar la presión energética global.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/eeuu-autoriza-a-india-a-comprar-petroleo-ruso-durante-un-mes-por-el-conflicto-en-el-golfo-persico/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YY7VL2AFKNHEHF36UTD4JY2UDM.jpg?auth=23afb9dfd9520719f6c60fe69404775d886de605c13ac2ad1bd4fcd1369ee434&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
       "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Estos ataques no se quedarán sin respuesta\": países del Golfo sopesan cómo reaccionar a los bombardeos de Irán",
-      "summary280": "Los países del Golfo están furiosos por los ataques de Irán, que han dañado su imagen y economía. Aunque interceptan la mayoría de misiles, los drones causan caos. La unidad entre los estados del Golfo se fortalece, y consideran posibles represalias.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn0zzgd9j05o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4ff2/live/52ba8c30-17db-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     }
