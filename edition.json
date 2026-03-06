@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "06 de marzo de 2026",
-  "generated_at": "2026-03-06T08:52:58.186400-05:00",
+  "generated_at": "2026-03-06T09:35:10.547982-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Catar avisa de que la guerra puede hundir la economía al paralizar las exportaciones de energía",
+      "summary280": "Catar advierte que la guerra en Oriente Próximo podría paralizar las exportaciones de energía, afectando la economía global.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/catar-avisa-de-que-la-guerra-puede-hundir-la-economia-al-paralizar-las-exportaciones-de-energia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/45QT4DCNFZDQFEC6BU7IOBLFLY.jpg?auth=bf611af2e7e724d96fac5d43a31e301182d887b3ff78fde14d3905b8e807685c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
       "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Estatus de los vuelos en vivo: demoras y cancelaciones en el AICM",
-      "summary280": "El AICM publica en vivo el estado de sus vuelos, incluyendo demoras y cancelaciones. Los pasajeros tienen derechos ante retrasos, como descuentos o indemnizaciones. La Profeco está disponible en el aeropuerto para ayudar con cualquier irregularidad. Infórmate sobre tus derechos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/estatus-de-los-vuelos-en-vivo-demoras-y-cancelaciones-en-el-aicm/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Cuáles son los medicamentos más agresivos para el corazón si se automedica?",
-      "summary280": "La automedicación puede ser peligrosa para la salud cardiovascular, especialmente con AINEs, descongestionantes y algunos antibióticos, que pueden causar hipertensión y arritmias.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/cuales-son-los-medicamentos-mas-agresivos-para-el-corazon-si-se-automedica/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WYXZ3RDQNFBRPNL5ZJ43MRIFMY.jpg?auth=368e95a6bde0d9952116a1215454433273a6bd71889eb87cc9b480204cdff32d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Estatus de los vuelos en vivo: demoras y cancelaciones en el AICM",
+      "summary280": "El AICM publica en vivo el estado de sus vuelos, incluyendo demoras y cancelaciones. Los pasajeros tienen derechos ante retrasos, como descuentos o indemnizaciones. La Profeco está disponible en el aeropuerto para ayudar con cualquier irregularidad. Infórmate sobre tus derechos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/estatus-de-los-vuelos-en-vivo-demoras-y-cancelaciones-en-el-aicm/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "¿Cuáles son los medicamentos más agresivos para el corazón si se automedica?",
+      "summary280": "La automedicación puede ser peligrosa para la salud cardiovascular, especialmente con AINEs, descongestionantes y algunos antibióticos, que pueden causar hipertensión y arritmias.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/cuales-son-los-medicamentos-mas-agresivos-para-el-corazon-si-se-automedica/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WYXZ3RDQNFBRPNL5ZJ43MRIFMY.jpg?auth=368e95a6bde0d9952116a1215454433273a6bd71889eb87cc9b480204cdff32d&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
       "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwykk0yxr54o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/2a04/live/7f97b2a0-18a3-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Tres detenidos, dos menores, por un doble apuñalamiento en la Plaza del Ayuntamiento en noviembre",
-      "summary280": "Tres jóvenes, dos de ellos menores, fueron detenidos por un doble apuñalamiento en la Plaza del Ayuntamiento de València durante el encendido navideño. Un cuarto implicado no fue arrestado por ser inimputable. La investigación sigue abierta y se evalúan medidas para el menor.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/tres-detenidos-dos-menores-por-un-doble-apunalamiento-en-la-plaza-del-ayuntamiento-en-noviembre/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/4CN54TPK2JGWTGYD7J4YHDK76M.jpg?auth=3954038a229bd9044b0f24e62caf26c3076200bab68349210f77af34b7b8af40&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "ATX comienza sesión en terreno positivo este 6 de marzo",
-      "summary280": "El ATX inicia la sesión del 6 de marzo con un leve incremento del 0,31%, alcanzando los 5.454,42 puntos, tras una caída del 1,51% en la jornada anterior. A pesar de un descenso del 4,34% en la última semana, acumula una subida del 27,12% en el último año.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/noticias/2026/03/06/atx-comienza-sesion-en-terreno-positivo-este-6-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Tres detenidos, dos menores, por un doble apuñalamiento en la Plaza del Ayuntamiento en noviembre",
+      "summary280": "Tres jóvenes, dos de ellos menores, fueron detenidos por un doble apuñalamiento en la Plaza del Ayuntamiento de València durante el encendido navideño. Un cuarto implicado no fue arrestado por ser inimputable. La investigación sigue abierta y se evalúan medidas para el menor.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/tres-detenidos-dos-menores-por-un-doble-apunalamiento-en-la-plaza-del-ayuntamiento-en-noviembre/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/4CN54TPK2JGWTGYD7J4YHDK76M.jpg?auth=3954038a229bd9044b0f24e62caf26c3076200bab68349210f77af34b7b8af40&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "ATX comienza sesión en terreno positivo este 6 de marzo",
+      "summary280": "El ATX inicia la sesión del 6 de marzo con un leve incremento del 0,31%, alcanzando los 5.454,42 puntos, tras una caída del 1,51% en la jornada anterior. A pesar de un descenso del 4,34% en la última semana, acumula una subida del 27,12% en el último año.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/06/atx-comienza-sesion-en-terreno-positivo-este-6-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
       "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cze00wy7670o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f7f/live/5fbe7950-17f9-11f1-a90b-c9c0021d7ebe.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "EEUU autoriza a India a comprar petróleo ruso durante un mes por el conflicto en el golfo Pérsico",
-      "summary280": "EEUU ha autorizado a India a comprar petróleo ruso durante 30 días debido al conflicto en el golfo Pérsico, donde Irán ha bloqueado el estrecho de Ormuz. La licencia permite transacciones de crudo ruso cargado antes del 5 de marzo, buscando aliviar la presión energética global.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/eeuu-autoriza-a-india-a-comprar-petroleo-ruso-durante-un-mes-por-el-conflicto-en-el-golfo-persico/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YY7VL2AFKNHEHF36UTD4JY2UDM.jpg?auth=23afb9dfd9520719f6c60fe69404775d886de605c13ac2ad1bd4fcd1369ee434&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Melcochita desmiente ser ludópata y exige estados de cuenta a Monserrat Seminario: “Ahí se va a saber la verdad”",
-      "summary280": "Melcochita desmintió ser ludópata y exigió a su esposa Monserrat Seminario que le entregue los estados de cuenta bancarios para esclarecer el destino de su dinero.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/06/melcochita-desmiente-ser-ludopata-y-exige-estados-de-cuenta-a-monserrat-seminario-ahi-se-va-a-saber-la-verdad/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/BYS7EHBJTNBVLJO2SONP54QBAA.jpg?auth=d374570431ff96c01a99cc38e80b486e17add1c72da996f431a00605a09e8d17&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "EEUU autoriza a India a comprar petróleo ruso durante un mes por el conflicto en el golfo Pérsico",
+      "summary280": "EEUU ha autorizado a India a comprar petróleo ruso durante 30 días debido al conflicto en el golfo Pérsico, donde Irán ha bloqueado el estrecho de Ormuz. La licencia permite transacciones de crudo ruso cargado antes del 5 de marzo, buscando aliviar la presión energética global.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/eeuu-autoriza-a-india-a-comprar-petroleo-ruso-durante-un-mes-por-el-conflicto-en-el-golfo-persico/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YY7VL2AFKNHEHF36UTD4JY2UDM.jpg?auth=23afb9dfd9520719f6c60fe69404775d886de605c13ac2ad1bd4fcd1369ee434&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Melcochita desmiente ser ludópata y exige estados de cuenta a Monserrat Seminario: “Ahí se va a saber la verdad”",
+      "summary280": "Melcochita desmintió ser ludópata y exigió a su esposa Monserrat Seminario que le entregue los estados de cuenta bancarios para esclarecer el destino de su dinero.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/06/melcochita-desmiente-ser-ludopata-y-exige-estados-de-cuenta-a-monserrat-seminario-ahi-se-va-a-saber-la-verdad/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/BYS7EHBJTNBVLJO2SONP54QBAA.jpg?auth=d374570431ff96c01a99cc38e80b486e17add1c72da996f431a00605a09e8d17&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
       "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
-      "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     }
