@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "06 de marzo de 2026",
-  "generated_at": "2026-03-06T17:25:07.376506-05:00",
+  "generated_at": "2026-03-06T18:25:00.451542-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Petro aprovechó el funeral de Jesse Jackson para pedirle a Trump que se separe de Benjamín Netanyahu: “Es necesario”",
+      "summary280": "Durante el funeral de Jesse Jackson, Gustavo Petro instó a Donald Trump a distanciarse de Benjamín Netanyahu, criticando los ataques israelíes en territorios con niños.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/petro-aprovecho-el-funeral-de-jesse-jackson-para-pedirle-a-trump-que-se-separe-de-benjamin-netanyahu-es-necesario/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/MOZYHMMQGNDJNGDIDD4XBDD7MM.jpg?auth=8ebb9cd1c6cf57cd325a89db79a1163647fb2b15867e67f96b4dbb6401307182&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
       "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "“¿Quién carajos se cree este tipo?”: la pelea entre Russell Crowe y George Clooney que terminó con un regalo musical",
-      "summary280": "La disputa entre George Clooney y Russell Crowe comenzó tras un poema leído por Clooney, lo que llevó a Crowe a insultarlo. Tras un año de tensión, Crowe envió un disco y se disculpó, lo que resultó en una relación cordial.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/06/quien-carajos-se-cree-este-tipo-la-pelea-entre-russell-crowe-y-george-clooney-que-termino-con-un-regalo-musical/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GXVANSBHSZGWDHEAZ4SE3POMRQ.jpg?auth=6a4d1199f53783b3492a8bbbfbe7fd97ebcc1da0734679b666591af55ec035c4&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "LA Metro lanza servicio especial al SoFi Stadium por USD 1,75 durante el Mundial",
-      "summary280": "LA Metro lanza un servicio especial de autobuses al SoFi Stadium por USD 1,75 durante la Copa Mundial de la FIFA 2026, con traslados desde puntos clave del sur de California.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/06/la-metro-lanza-servicio-especial-al-sofi-stadium-por-usd-175-durante-el-mundial/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/3SDEAK4XKBFYLLHQ4MTEY2SU4Q.jpg?auth=c8764e81499e3b1ab6fca7da0038783442128b522cbdbc518819e36cd8f420d8&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "“¿Quién carajos se cree este tipo?”: la pelea entre Russell Crowe y George Clooney que terminó con un regalo musical",
+      "summary280": "La disputa entre George Clooney y Russell Crowe comenzó tras un poema leído por Clooney, lo que llevó a Crowe a insultarlo. Tras un año de tensión, Crowe envió un disco y se disculpó, lo que resultó en una relación cordial.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/06/quien-carajos-se-cree-este-tipo-la-pelea-entre-russell-crowe-y-george-clooney-que-termino-con-un-regalo-musical/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GXVANSBHSZGWDHEAZ4SE3POMRQ.jpg?auth=6a4d1199f53783b3492a8bbbfbe7fd97ebcc1da0734679b666591af55ec035c4&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "LA Metro lanza servicio especial al SoFi Stadium por USD 1,75 durante el Mundial",
+      "summary280": "LA Metro lanza un servicio especial de autobuses al SoFi Stadium por USD 1,75 durante la Copa Mundial de la FIFA 2026, con traslados desde puntos clave del sur de California.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/06/la-metro-lanza-servicio-especial-al-sofi-stadium-por-usd-175-durante-el-mundial/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/3SDEAK4XKBFYLLHQ4MTEY2SU4Q.jpg?auth=c8764e81499e3b1ab6fca7da0038783442128b522cbdbc518819e36cd8f420d8&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
       "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Propuesta del Gobierno de Gustavo Petro para cambiar cálculo del precio de vivienda VIS genera preocupación: por qué la Contraloría convocó a una mesa técnica",
-      "summary280": "La Contraloría de Colombia analizó la propuesta del Gobierno de Gustavo Petro para desvincular el precio de la vivienda de interés social del salario mínimo, fijándolo en pesos. Esto genera preocupación por su impacto en proyectos ya firmados y en el mercado inmobiliario.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/propuesta-del-gobierno-de-gustavo-petro-para-cambiar-calculo-del-precio-de-vivienda-vis-genera-preocupacion-por-que-la-contraloria-convoco-a-una-mesa-tecnica/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YDPH6ZDTXFHXRHYQAOWS5ZCS7Q.png?auth=36a85643cfbbc36dfe518b7cba193c7318f621e4e70cdbb182ee1cf73f8987ca&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Diomedes Dionisio Díaz se encuentra fuera de peligro: esto se sabe de la recuperación del hijo de Diomedes Díaz",
-      "summary280": "Diomedes Dionisio Díaz, hijo del famoso cantante vallenato, fue dado de alta tras varios días en observación médica en Barranquilla. Se encuentra estable y en recuperación en Valledupar, con planes de retomar su carrera artística a mediados de marzo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/diomedes-dionisio-diaz-se-encuentra-fuera-de-peligro-esto-se-sabe-de-la-recuperacion-del-hijo-de-diomedes-diaz/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/ULQBMDQITZBEBBV7WGDTVCIVEQ.png?auth=6602d390d90d276168ad56123de9e0e197abcdc47f8a82a478c2dfadbc722c06&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Propuesta del Gobierno de Gustavo Petro para cambiar cálculo del precio de vivienda VIS genera preocupación: por qué la Contraloría convocó a una mesa técnica",
+      "summary280": "La Contraloría de Colombia analizó la propuesta del Gobierno de Gustavo Petro para desvincular el precio de la vivienda de interés social del salario mínimo, fijándolo en pesos. Esto genera preocupación por su impacto en proyectos ya firmados y en el mercado inmobiliario.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/propuesta-del-gobierno-de-gustavo-petro-para-cambiar-calculo-del-precio-de-vivienda-vis-genera-preocupacion-por-que-la-contraloria-convoco-a-una-mesa-tecnica/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YDPH6ZDTXFHXRHYQAOWS5ZCS7Q.png?auth=36a85643cfbbc36dfe518b7cba193c7318f621e4e70cdbb182ee1cf73f8987ca&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Diomedes Dionisio Díaz se encuentra fuera de peligro: esto se sabe de la recuperación del hijo de Diomedes Díaz",
+      "summary280": "Diomedes Dionisio Díaz, hijo del famoso cantante vallenato, fue dado de alta tras varios días en observación médica en Barranquilla. Se encuentra estable y en recuperación en Valledupar, con planes de retomar su carrera artística a mediados de marzo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/diomedes-dionisio-diaz-se-encuentra-fuera-de-peligro-esto-se-sabe-de-la-recuperacion-del-hijo-de-diomedes-diaz/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/ULQBMDQITZBEBBV7WGDTVCIVEQ.png?auth=6602d390d90d276168ad56123de9e0e197abcdc47f8a82a478c2dfadbc722c06&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
       "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwykk0yxr54o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/2a04/live/7f97b2a0-18a3-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Catar avisa de que la guerra puede hundir la economía al paralizar las exportaciones de energía",
-      "summary280": "Catar advierte que la guerra en Oriente Próximo podría paralizar las exportaciones de energía, afectando la economía global.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/catar-avisa-de-que-la-guerra-puede-hundir-la-economia-al-paralizar-las-exportaciones-de-energia/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/45QT4DCNFZDQFEC6BU7IOBLFLY.jpg?auth=bf611af2e7e724d96fac5d43a31e301182d887b3ff78fde14d3905b8e807685c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Estatus de los vuelos en vivo: demoras y cancelaciones en el AICM",
-      "summary280": "El AICM publica en vivo el estado de sus vuelos, incluyendo demoras y cancelaciones. Los pasajeros tienen derechos ante retrasos, como descuentos o indemnizaciones. La Profeco está disponible en el aeropuerto para ayudar con cualquier irregularidad. Infórmate sobre tus derechos.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/estatus-de-los-vuelos-en-vivo-demoras-y-cancelaciones-en-el-aicm/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Catar avisa de que la guerra puede hundir la economía al paralizar las exportaciones de energía",
+      "summary280": "Catar advierte que la guerra en Oriente Próximo podría paralizar las exportaciones de energía, afectando la economía global.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/catar-avisa-de-que-la-guerra-puede-hundir-la-economia-al-paralizar-las-exportaciones-de-energia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/45QT4DCNFZDQFEC6BU7IOBLFLY.jpg?auth=bf611af2e7e724d96fac5d43a31e301182d887b3ff78fde14d3905b8e807685c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Estatus de los vuelos en vivo: demoras y cancelaciones en el AICM",
+      "summary280": "El AICM publica en vivo el estado de sus vuelos, incluyendo demoras y cancelaciones. Los pasajeros tienen derechos ante retrasos, como descuentos o indemnizaciones. La Profeco está disponible en el aeropuerto para ayudar con cualquier irregularidad. Infórmate sobre tus derechos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/estatus-de-los-vuelos-en-vivo-demoras-y-cancelaciones-en-el-aicm/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
       "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuál es la importancia estratégica de las bases militares que EE.UU. tiene en España y que el gobierno de Sánchez no permite usar para la guerra en Irán",
-      "summary280": "Las bases militares de EE.UU. en España, ubicadas en Rota y Morón, son estratégicas pero el gobierno de Sánchez se opone a su uso en operaciones contra Irán, alegando que no se ajusta al convenio bilateral.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cze00wy7670o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/1f7f/live/5fbe7950-17f9-11f1-a90b-c9c0021d7ebe.jpg",
       "type": "explainer",
       "isNew": false
     }
