@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "06 de marzo de 2026",
-  "generated_at": "2026-03-06T07:47:11.114340-05:00",
+  "generated_at": "2026-03-06T08:52:58.186400-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
+      "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
       "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Estatus de los vuelos en vivo: demoras y cancelaciones en el AICM",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/06/estatus-de-los-vuelos-en-vivo-demoras-y-cancelaciones-en-el-aicm/",
       "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
-      "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-en-narino-al-hermano-de-la-candidata-a-la-camara-claudia-cabrera-del-partido-de-la-u-disidencias-serian-las-presuntas-responsables-3537737",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/05/69aa207011275.r_d.837-333-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
-      "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
+      "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-en-narino-al-hermano-de-la-candidata-a-la-camara-claudia-cabrera-del-partido-de-la-u-disidencias-serian-las-presuntas-responsables-3537737",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/05/69aa207011275.r_d.837-333-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
+      "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Puntos de control en la calles y filas para comprar pan: qué pasa en Irán conforme se intensifican los ataques que dejan ya 1.100 civiles muertos",
       "summary280": "Irán enfrenta una intensa ofensiva de Israel y EE.UU. desde el 28 de febrero, resultando en más de 1.100 civiles muertos. La situación en Teherán es crítica, con ataques constantes, escasez de alimentos y un aumento de la represión.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/tres-detenidos-dos-menores-por-un-doble-apunalamiento-en-la-plaza-del-ayuntamiento-en-noviembre/",
       "imageUrl": "https://www.infobae.com/resizer/v2/4CN54TPK2JGWTGYD7J4YHDK76M.jpg?auth=3954038a229bd9044b0f24e62caf26c3076200bab68349210f77af34b7b8af40&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
-      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
-      "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
+      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
+      "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Cuál es la importancia estratégica de las bases militares que EE.UU. tiene en España y que el gobierno de Sánchez no permite usar para la guerra en Irán",
       "summary280": "Las bases militares de EE.UU. en España, ubicadas en Rota y Morón, son estratégicas pero el gobierno de Sánchez se opone a su uso en operaciones contra Irán, alegando que no se ajusta al convenio bilateral.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/eeuu-autoriza-a-india-a-comprar-petroleo-ruso-durante-un-mes-por-el-conflicto-en-el-golfo-persico/",
       "imageUrl": "https://www.infobae.com/resizer/v2/YY7VL2AFKNHEHF36UTD4JY2UDM.jpg?auth=23afb9dfd9520719f6c60fe69404775d886de605c13ac2ad1bd4fcd1369ee434&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
-      "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
-      "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Jefe de enfermería fue reportado como desaparecido y a los dos días apareció muerto en un baño de un hospital del Meta: así fue su extraña muerte",
+      "summary280": "Un jefe de enfermería fue reportado como desaparecido y hallado muerto en un baño de un hospital en Meta dos días después. Originario de Bucaramanga, su familia planea despedirlo en Santander. Su muerte es considerada extraña y ha generado conmoción en la comunidad.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/santander/jefe-de-enfermeria-fue-reportado-como-desaparecido-y-a-los-dos-dias-aparecio-muerto-en-un-bano-de-un-hospital-del-meta-asi-fue-su-extrana-muerte-3537217",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a85749d4c1e.r_d.560-283-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Menor ingresó sin permiso a la pista del Aeropuerto Ernesto Cortissoz, en Barranquilla, y estuvo allí varios minutos: quería 'acercarse a los aviones'",
+      "summary280": "Un menor ingresó sin autorización a la pista del Aeropuerto Ernesto Cortissoz en Barranquilla, buscando acercarse a los aviones. El incidente, que se volvió viral, ocurrió a finales de enero, según la Aeronáutica Civil. La seguridad en los aeropuertos es crucial.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/menor-ingreso-sin-permiso-a-la-pista-del-aeropuerto-ernesto-cortissoz-en-barranquilla-y-estuvo-alli-varios-minutos-queria-acercarse-a-los-aviones-3537149",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a82db11b036.r_d.206-266-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"Cada día es la misma hambre, la misma miseria\": por qué la Revolución cubana enfrenta su mayor amenaza hasta la fecha",
       "summary280": "La Revolución cubana enfrenta su mayor amenaza debido a la crisis económica y el embargo estadounidense, que se ha intensificado. Familias como la de Lisandra Botey viven en pobreza extrema, cocinando con leña y sin saber de dónde vendrá su próxima comida.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cn8zx6yve68o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/094b/live/ed1d1bf0-13f1-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Intentó robar una camioneta en Neuquén, se quedó dormido en el asiento del conductor y fue detenido",
-      "summary280": "Un hombre intentó robar una camioneta en Neuquén, pero se quedó dormido en el asiento del conductor. La dueña del vehículo lo descubrió y llamó a la policía, que lo detuvo sin complicaciones. El intento de robo dejó daños en el vehículo y generó desconcierto en la comunidad.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/sociedad/policiales/2026/03/06/intento-robar-una-camioneta-en-neuquen-se-quedo-dormido-en-el-asiento-del-conductor-y-fue-detenido/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/5BFIAQS6SFBXRKAEGMUOEULHRA.jpg?auth=087940fdff6424818384a7b1447b71456613621a55746e4449811c0a6888ac1b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
