@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "06 de marzo de 2026",
-  "generated_at": "2026-03-06T02:36:24.093539-05:00",
+  "generated_at": "2026-03-06T03:34:07.455465-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "EEUU autoriza a India a comprar petróleo ruso durante un mes por el conflicto en el golfo Pérsico",
-      "summary280": "EEUU ha autorizado a India a comprar petróleo ruso durante 30 días debido al conflicto en el golfo Pérsico, donde Irán ha bloqueado el estrecho de Ormuz. La licencia permite transacciones de crudo ruso cargado antes del 5 de marzo, buscando aliviar la presión energética global.",
+      "titleOriginal": "ATX comienza sesión en terreno positivo este 6 de marzo",
+      "summary280": "El ATX inicia la sesión del 6 de marzo con un leve incremento del 0,31%, alcanzando los 5.454,42 puntos, tras una caída del 1,51% en la jornada anterior. A pesar de un descenso del 4,34% en la última semana, acumula una subida del 27,12% en el último año.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/eeuu-autoriza-a-india-a-comprar-petroleo-ruso-durante-un-mes-por-el-conflicto-en-el-golfo-persico/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YY7VL2AFKNHEHF36UTD4JY2UDM.jpg?auth=23afb9dfd9520719f6c60fe69404775d886de605c13ac2ad1bd4fcd1369ee434&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/06/atx-comienza-sesion-en-terreno-positivo-este-6-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "EEUU autoriza a India a comprar petróleo ruso durante un mes por el conflicto en el golfo Pérsico",
+      "summary280": "EEUU ha autorizado a India a comprar petróleo ruso durante 30 días debido al conflicto en el golfo Pérsico, donde Irán ha bloqueado el estrecho de Ormuz. La licencia permite transacciones de crudo ruso cargado antes del 5 de marzo, buscando aliviar la presión energética global.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/06/eeuu-autoriza-a-india-a-comprar-petroleo-ruso-durante-un-mes-por-el-conflicto-en-el-golfo-persico/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YY7VL2AFKNHEHF36UTD4JY2UDM.jpg?auth=23afb9dfd9520719f6c60fe69404775d886de605c13ac2ad1bd4fcd1369ee434&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Melcochita desmiente ser ludópata y exige estados de cuenta a Monserrat Seminario: “Ahí se va a saber la verdad”",
       "summary280": "Melcochita desmintió ser ludópata y exigió a su esposa Monserrat Seminario que le entregue los estados de cuenta bancarios para esclarecer el destino de su dinero.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/06/melcochita-desmiente-ser-ludopata-y-exige-estados-de-cuenta-a-monserrat-seminario-ahi-se-va-a-saber-la-verdad/",
       "imageUrl": "https://www.infobae.com/resizer/v2/BYS7EHBJTNBVLJO2SONP54QBAA.jpg?auth=d374570431ff96c01a99cc38e80b486e17add1c72da996f431a00605a09e8d17&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Intentó robar una camioneta en Neuquén, se quedó dormido en el asiento del conductor y fue detenido",
-      "summary280": "Un hombre intentó robar una camioneta en Neuquén, pero se quedó dormido en el asiento del conductor. La dueña del vehículo lo descubrió y llamó a la policía, que lo detuvo sin complicaciones. El intento de robo dejó daños en el vehículo y generó desconcierto en la comunidad.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/sociedad/policiales/2026/03/06/intento-robar-una-camioneta-en-neuquen-se-quedo-dormido-en-el-asiento-del-conductor-y-fue-detenido/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/5BFIAQS6SFBXRKAEGMUOEULHRA.jpg?auth=087940fdff6424818384a7b1447b71456613621a55746e4449811c0a6888ac1b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Intentó robar una camioneta en Neuquén, se quedó dormido en el asiento del conductor y fue detenido",
+      "summary280": "Un hombre intentó robar una camioneta en Neuquén, pero se quedó dormido en el asiento del conductor. La dueña del vehículo lo descubrió y llamó a la policía, que lo detuvo sin complicaciones. El intento de robo dejó daños en el vehículo y generó desconcierto en la comunidad.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/sociedad/policiales/2026/03/06/intento-robar-una-camioneta-en-neuquen-se-quedo-dormido-en-el-asiento-del-conductor-y-fue-detenido/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/5BFIAQS6SFBXRKAEGMUOEULHRA.jpg?auth=087940fdff6424818384a7b1447b71456613621a55746e4449811c0a6888ac1b&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Quiénes fueron los dos participantes que se salvaron de la gala de eliminación en Gran Hermano: la placa final",
       "summary280": "En la gala de eliminación de Gran Hermano Generación Dorada, el público salvó a Juanicar y Yipio de la placa de nominados.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/teleshow/2026/03/06/quienes-fueron-los-dos-participantes-que-se-salvaron-de-la-gala-de-eliminacion-en-gran-hermano-la-placa-final/",
       "imageUrl": "https://www.infobae.com/resizer/v2/V26XRIWBQRCPPEQ6AEA2V6Z3JI.jpg?auth=058c2428ed66a27ddf563cb6955db356ece169391e3ff486724056ddb94c02e5&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Atlético Nacional rompió su racha invicta en el Atanasio Girardot con Diego Arias tras derrota con Millonarios",
-      "summary280": "Atlético Nacional perdió 1-3 ante Millonarios en el Atanasio Girardot, rompiendo su racha invicta y quedando eliminado de la Copa Sudamericana.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/05/atletico-nacional-rompio-su-racha-invicta-en-el-atanasio-girardot-con-diego-arias-tras-derrota-con-millonarios/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YMRAA5YCKVEDNAOSJSMALG5A64.jpg?auth=0bc93fe4c1f79f990deaf57c0308a6107f811fef8c9837e3c5d9585c5199da3a&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Atlético Nacional rompió su racha invicta en el Atanasio Girardot con Diego Arias tras derrota con Millonarios",
+      "summary280": "Atlético Nacional perdió 1-3 ante Millonarios en el Atanasio Girardot, rompiendo su racha invicta y quedando eliminado de la Copa Sudamericana.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/05/atletico-nacional-rompio-su-racha-invicta-en-el-atanasio-girardot-con-diego-arias-tras-derrota-con-millonarios/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YMRAA5YCKVEDNAOSJSMALG5A64.jpg?auth=0bc93fe4c1f79f990deaf57c0308a6107f811fef8c9837e3c5d9585c5199da3a&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Waymo ya incluye Miami Beach: el robotaxi autónomo amplía su zona de servicio a 260 km²",
       "summary280": "Waymo ha ampliado su servicio de robotaxis autónomos a Miami Beach, cubriendo 259 km² y ofreciendo viajes sin conductor las 24 horas. Sin embargo, el acceso es limitado y los usuarios deben inscribirse en una lista de espera.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/05/waymo-ya-incluye-miami-beach-el-robotaxi-autonomo-amplia-su-zona-de-servicio-a-260-km/",
       "imageUrl": "https://www.infobae.com/resizer/v2/V7FRJVISLZA6DDAFJTGCN7K4GI.jpeg?auth=3fd0bb179b4114dc2b6086f9636a41c1fa32dc7ead5fefcd3be0ac839e33f822&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Sanciones por no votar y que menores de 16 voten: MC presenta su propuesta de reforma electoral",
-      "summary280": "Movimiento Ciudadano, liderado por Jorge Álvarez Máynez, propone una reforma electoral que incluye el voto obligatorio con sanciones por no participar, permitir que jóvenes de 16 años voten y establecer una circunscripción migrante.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/05/movimiento-ciudadano-presenta-su-propuesta-de-reforma-electoral-propone-sanciones-por-no-votar/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/EFPPZ7GKLRDTLPUUWDMN4U2BXI.jpg?auth=18ecf598ce187dde50f7c7f989d0dd81b929cd8239b2f0cf87fa55d5b036f03f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
