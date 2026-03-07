@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "07 de marzo de 2026",
-  "generated_at": "2026-03-07T01:35:41.204238-05:00",
+  "generated_at": "2026-03-07T02:26:26.156092-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Alcances del armado anti Milei: el gesto que esperan de CFK, ansiedad por Kicillof y la necesidad de una PASO",
-      "summary280": "El peronismo busca un candidato sólido para enfrentar a Javier Milei en 2027, pero la figura de Axel Kicillof genera dudas entre dirigentes. La presión interna crece para que Kicillof se posicione y muestre un nuevo enfoque.",
+      "titleOriginal": "EN VIVO: Más de 80 aviones de combate de Israel alcanzaron infraestructura militar clave del régimen iraní en Tehéran",
+      "summary280": "Más de 80 aviones de combate de Israel bombardearon infraestructura militar iraní en Teherán, mientras Irán lanzó ataques contra Tel Aviv. Estados Unidos evalúa medidas para contener el alza del petróleo.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/politica/2026/03/07/alcances-del-armado-anti-milei-el-gesto-que-esperan-de-cfk-ansiedad-por-kicillof-y-la-necesidad-de-una-paso/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/QSY5B2YXQVEIJFYXM2S7KFGRKA.jpg?auth=610745de81b072fb1e885622452bdc8c5589b6c3c9b3c3ac367b1f8f39caf546&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/07/en-vivo-israel-y-estados-unidos-atacan-iran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WIKU3GKMVNDHXJDNZIAVHABO5U.jpg?auth=f83cc603242aa3ac9433f924ca53f24d977c648627b75e02b454ade18fa94298&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Alcances del armado anti Milei: el gesto que esperan de CFK, ansiedad por Kicillof y la necesidad de una PASO",
+      "summary280": "El peronismo busca un candidato sólido para enfrentar a Javier Milei en 2027, pero la figura de Axel Kicillof genera dudas entre dirigentes. La presión interna crece para que Kicillof se posicione y muestre un nuevo enfoque.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/07/alcances-del-armado-anti-milei-el-gesto-que-esperan-de-cfk-ansiedad-por-kicillof-y-la-necesidad-de-una-paso/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/QSY5B2YXQVEIJFYXM2S7KFGRKA.jpg?auth=610745de81b072fb1e885622452bdc8c5589b6c3c9b3c3ac367b1f8f39caf546&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Suecia califica a El Salvador como “uno de los países más seguros de la región” en nueva alerta de viaje",
       "summary280": "Suecia ha actualizado su alerta de viaje, calificando a El Salvador como “uno de los más seguros de Latinoamérica”, destacando el éxito de las políticas del presidente Bukele en la reducción de la delincuencia.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/suecia-califica-a-el-salvador-como-uno-de-los-mas-seguros-de-la-region-en-nueva-alerta-de-viaje/",
       "imageUrl": "https://www.infobae.com/resizer/v2/M5SFUFZVVRAELGPBZ5MIHY3SAI.jpg?auth=43d189fc0f3357064fab8b2447e85b2174947b410d5c503ec4dd13c4a8a35311&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Extranjeros celebran la obtención de sus residencias en El Salvador: “ Eficientes, acogedores y con visión de futuro”",
-      "summary280": "Extranjeros celebran la obtención de residencia temporal en El Salvador, destacando la eficiencia del proceso que se resolvió en cinco días. Las reformas migratorias han incrementado las residencias definitivas, alcanzando un récord en 2025.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/extranjeros-celebran-la-obtencion-de-sus-residencias-en-el-salvador-eficientes-acogedores-y-con-vision-de-futuro/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/IBM4VNOBEJFIBBYUFZNIYJKPNQ.jpeg?auth=f6acba8ea37d0335fce491e121b1517bbd24f396edc66c8b29dee27b27d333ce&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Extranjeros celebran la obtención de sus residencias en El Salvador: “ Eficientes, acogedores y con visión de futuro”",
+      "summary280": "Extranjeros celebran la obtención de residencia temporal en El Salvador, destacando la eficiencia del proceso que se resolvió en cinco días. Las reformas migratorias han incrementado las residencias definitivas, alcanzando un récord en 2025.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/extranjeros-celebran-la-obtencion-de-sus-residencias-en-el-salvador-eficientes-acogedores-y-con-vision-de-futuro/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IBM4VNOBEJFIBBYUFZNIYJKPNQ.jpeg?auth=f6acba8ea37d0335fce491e121b1517bbd24f396edc66c8b29dee27b27d333ce&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Petro aprovechó el funeral de Jesse Jackson para pedirle a Trump que se separe de Benjamín Netanyahu: “Es necesario”",
       "summary280": "Durante el funeral de Jesse Jackson, Gustavo Petro instó a Donald Trump a distanciarse de Benjamín Netanyahu, criticando los ataques israelíes en territorios con niños.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/petro-aprovecho-el-funeral-de-jesse-jackson-para-pedirle-a-trump-que-se-separe-de-benjamin-netanyahu-es-necesario/",
       "imageUrl": "https://www.infobae.com/resizer/v2/MOZYHMMQGNDJNGDIDD4XBDD7MM.jpg?auth=8ebb9cd1c6cf57cd325a89db79a1163647fb2b15867e67f96b4dbb6401307182&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "“¿Quién carajos se cree este tipo?”: la pelea entre Russell Crowe y George Clooney que terminó con un regalo musical",
-      "summary280": "La disputa entre George Clooney y Russell Crowe comenzó tras un poema leído por Clooney, lo que llevó a Crowe a insultarlo. Tras un año de tensión, Crowe envió un disco y se disculpó, lo que resultó en una relación cordial.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/06/quien-carajos-se-cree-este-tipo-la-pelea-entre-russell-crowe-y-george-clooney-que-termino-con-un-regalo-musical/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GXVANSBHSZGWDHEAZ4SE3POMRQ.jpg?auth=6a4d1199f53783b3492a8bbbfbe7fd97ebcc1da0734679b666591af55ec035c4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "“¿Quién carajos se cree este tipo?”: la pelea entre Russell Crowe y George Clooney que terminó con un regalo musical",
+      "summary280": "La disputa entre George Clooney y Russell Crowe comenzó tras un poema leído por Clooney, lo que llevó a Crowe a insultarlo. Tras un año de tensión, Crowe envió un disco y se disculpó, lo que resultó en una relación cordial.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/06/quien-carajos-se-cree-este-tipo-la-pelea-entre-russell-crowe-y-george-clooney-que-termino-con-un-regalo-musical/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GXVANSBHSZGWDHEAZ4SE3POMRQ.jpg?auth=6a4d1199f53783b3492a8bbbfbe7fd97ebcc1da0734679b666591af55ec035c4&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "LA Metro lanza servicio especial al SoFi Stadium por USD 1,75 durante el Mundial",
       "summary280": "LA Metro lanza un servicio especial de autobuses al SoFi Stadium por USD 1,75 durante la Copa Mundial de la FIFA 2026, con traslados desde puntos clave del sur de California.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/06/la-metro-lanza-servicio-especial-al-sofi-stadium-por-usd-175-durante-el-mundial/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3SDEAK4XKBFYLLHQ4MTEY2SU4Q.jpg?auth=c8764e81499e3b1ab6fca7da0038783442128b522cbdbc518819e36cd8f420d8&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Propuesta del Gobierno de Gustavo Petro para cambiar cálculo del precio de vivienda VIS genera preocupación: por qué la Contraloría convocó a una mesa técnica",
-      "summary280": "La Contraloría de Colombia analizó la propuesta del Gobierno de Gustavo Petro para desvincular el precio de la vivienda de interés social del salario mínimo, fijándolo en pesos. Esto genera preocupación por su impacto en proyectos ya firmados y en el mercado inmobiliario.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/propuesta-del-gobierno-de-gustavo-petro-para-cambiar-calculo-del-precio-de-vivienda-vis-genera-preocupacion-por-que-la-contraloria-convoco-a-una-mesa-tecnica/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YDPH6ZDTXFHXRHYQAOWS5ZCS7Q.png?auth=36a85643cfbbc36dfe518b7cba193c7318f621e4e70cdbb182ee1cf73f8987ca&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
