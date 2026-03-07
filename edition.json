@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "07 de marzo de 2026",
-  "generated_at": "2026-03-07T04:25:52.594283-05:00",
+  "generated_at": "2026-03-07T05:20:16.876264-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "La primera iglesia prefabricada de Francia: un joya arquitectónica declarada Monumento Histórico en el corazón de París",
-      "summary280": "La iglesia de Saint-Christophe-de-Javel, construida entre 1926 y 1930 en París, es la primera iglesia prefabricada de Francia y un Monumento Histórico.",
+      "titleOriginal": "Carlos Sainz: \"Es un fin de semana nefasto\"",
+      "summary280": "Carlos Sainz, piloto de Williams, calificó el Gran Premio de Australia como un \"fin de semana nefasto\" tras sufrir problemas con el ERS que le impidieron participar en la clasificación, comenzando penúltimo.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/viajes/2026/03/07/la-primera-iglesia-prefabricada-de-francia-un-joya-arquitectonica-declarada-monumento-historico-en-el-corazon-de-paris/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YOG777UZK5HBPBOVQ5IBACOA5Y.jpg?auth=a7931c7f6d12ba470f219831ab8fb39ef5cf652205c74c860a4ddab097738409&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/carlos-sainz-es-un-fin-de-semana-nefasto/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Q5LVVNO47BG5DJEJKB2PYFNKOE.jpg?auth=4757099d7de7d0be950a0c9c2782d28bd08fc480e444188a5913501b413f0bd3&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "La primera iglesia prefabricada de Francia: un joya arquitectónica declarada Monumento Histórico en el corazón de París",
+      "summary280": "La iglesia de Saint-Christophe-de-Javel, construida entre 1926 y 1930 en París, es la primera iglesia prefabricada de Francia y un Monumento Histórico.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/viajes/2026/03/07/la-primera-iglesia-prefabricada-de-francia-un-joya-arquitectonica-declarada-monumento-historico-en-el-corazon-de-paris/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YOG777UZK5HBPBOVQ5IBACOA5Y.jpg?auth=a7931c7f6d12ba470f219831ab8fb39ef5cf652205c74c860a4ddab097738409&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Mujeres que pajarean con mujeres: más seguras, más visibles y más felices",
       "summary280": "las mujeres que pajarean juntas han ganado seguridad y visibilidad en la ornitología, formando grupos que fomentan el aprendizaje y el bienestar. Aunque aún enfrentan barreras estructurales y de representación, su creciente participación está transformando el campo.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/mujeres-que-pajarean-con-mujeres-mas-seguras-mas-visibles-y-mas-felices/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "EN VIVO: Más de 80 aviones de combate de Israel alcanzaron infraestructura militar clave del régimen iraní en Tehéran",
-      "summary280": "Más de 80 aviones de combate de Israel bombardearon infraestructura militar iraní en Teherán, mientras Irán lanzó ataques contra Tel Aviv. Estados Unidos evalúa medidas para contener el alza del petróleo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/07/en-vivo-israel-y-estados-unidos-atacan-iran/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WIKU3GKMVNDHXJDNZIAVHABO5U.jpg?auth=f83cc603242aa3ac9433f924ca53f24d977c648627b75e02b454ade18fa94298&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "EN VIVO: Más de 80 aviones de combate de Israel alcanzaron infraestructura militar clave del régimen iraní en Tehéran",
+      "summary280": "Más de 80 aviones de combate de Israel bombardearon infraestructura militar iraní en Teherán, mientras Irán lanzó ataques contra Tel Aviv. Estados Unidos evalúa medidas para contener el alza del petróleo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/07/en-vivo-israel-y-estados-unidos-atacan-iran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WIKU3GKMVNDHXJDNZIAVHABO5U.jpg?auth=f83cc603242aa3ac9433f924ca53f24d977c648627b75e02b454ade18fa94298&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Alcances del armado anti Milei: el gesto que esperan de CFK, ansiedad por Kicillof y la necesidad de una PASO",
       "summary280": "El peronismo busca un candidato sólido para enfrentar a Javier Milei en 2027, pero la figura de Axel Kicillof genera dudas entre dirigentes. La presión interna crece para que Kicillof se posicione y muestre un nuevo enfoque.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/politica/2026/03/07/alcances-del-armado-anti-milei-el-gesto-que-esperan-de-cfk-ansiedad-por-kicillof-y-la-necesidad-de-una-paso/",
       "imageUrl": "https://www.infobae.com/resizer/v2/QSY5B2YXQVEIJFYXM2S7KFGRKA.jpg?auth=610745de81b072fb1e885622452bdc8c5589b6c3c9b3c3ac367b1f8f39caf546&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Suecia califica a El Salvador como “uno de los países más seguros de la región” en nueva alerta de viaje",
-      "summary280": "Suecia ha actualizado su alerta de viaje, calificando a El Salvador como “uno de los más seguros de Latinoamérica”, destacando el éxito de las políticas del presidente Bukele en la reducción de la delincuencia.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/suecia-califica-a-el-salvador-como-uno-de-los-mas-seguros-de-la-region-en-nueva-alerta-de-viaje/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/M5SFUFZVVRAELGPBZ5MIHY3SAI.jpg?auth=43d189fc0f3357064fab8b2447e85b2174947b410d5c503ec4dd13c4a8a35311&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Suecia califica a El Salvador como “uno de los países más seguros de la región” en nueva alerta de viaje",
+      "summary280": "Suecia ha actualizado su alerta de viaje, calificando a El Salvador como “uno de los más seguros de Latinoamérica”, destacando el éxito de las políticas del presidente Bukele en la reducción de la delincuencia.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/suecia-califica-a-el-salvador-como-uno-de-los-mas-seguros-de-la-region-en-nueva-alerta-de-viaje/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/M5SFUFZVVRAELGPBZ5MIHY3SAI.jpg?auth=43d189fc0f3357064fab8b2447e85b2174947b410d5c503ec4dd13c4a8a35311&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Extranjeros celebran la obtención de sus residencias en El Salvador: “ Eficientes, acogedores y con visión de futuro”",
       "summary280": "Extranjeros celebran la obtención de residencia temporal en El Salvador, destacando la eficiencia del proceso que se resolvió en cinco días. Las reformas migratorias han incrementado las residencias definitivas, alcanzando un récord en 2025.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/extranjeros-celebran-la-obtencion-de-sus-residencias-en-el-salvador-eficientes-acogedores-y-con-vision-de-futuro/",
       "imageUrl": "https://www.infobae.com/resizer/v2/IBM4VNOBEJFIBBYUFZNIYJKPNQ.jpeg?auth=f6acba8ea37d0335fce491e121b1517bbd24f396edc66c8b29dee27b27d333ce&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Petro aprovechó el funeral de Jesse Jackson para pedirle a Trump que se separe de Benjamín Netanyahu: “Es necesario”",
-      "summary280": "Durante el funeral de Jesse Jackson, Gustavo Petro instó a Donald Trump a distanciarse de Benjamín Netanyahu, criticando los ataques israelíes en territorios con niños.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/petro-aprovecho-el-funeral-de-jesse-jackson-para-pedirle-a-trump-que-se-separe-de-benjamin-netanyahu-es-necesario/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/MOZYHMMQGNDJNGDIDD4XBDD7MM.jpg?auth=8ebb9cd1c6cf57cd325a89db79a1163647fb2b15867e67f96b4dbb6401307182&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
