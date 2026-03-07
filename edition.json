@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "07 de marzo de 2026",
-  "generated_at": "2026-03-07T06:17:45.159006-05:00",
+  "generated_at": "2026-03-07T07:39:21.677699-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
+      "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Una persona objeta la adjudicación de la vivienda tras su divorcio pero la Justicia determina que el pacto entre ex cónyuges es válido",
       "summary280": "La Justicia valida un acuerdo de divorcio que adjudica una vivienda a un ex cónyuge, quien asume la hipoteca. A pesar de las objeciones del registrador sobre la representación notarial, se determinó que el poder otorgado era suficiente y vinculante.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/espana/2026/03/07/una-persona-objeta-la-adjudicacion-de-la-vivienda-tras-su-divorcio-pero-la-justicia-determina-que-el-pacto-entre-ex-conyuges-es-valido/",
       "imageUrl": "https://www.infobae.com/resizer/v2/YDMADS7SHNG6FM3MOX6AK3ZJR4.png?auth=ea22460ce25ec45aedd44868aa10c5fe5c1791d2694f42f83244ac17fb7d596e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
-      "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así operaba una banda de ‘Falsos Pastores’ en el Caribe: sus víctimas eran, en su mayoría, adultos mayores, a quienes despojaban de joyas y dinero",
-      "summary280": "Una banda de 'Falsos Pastores' en el Caribe estafaba a adultos mayores, despojándolos de joyas y dinero. Utilizaban manipulación psicológica y habilidades manuales para llevar a cabo sus delitos. Las víctimas eran principalmente personas vulnerables.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-operaba-una-banda-de-falsos-pastores-en-bolivar-sus-victimas-eran-en-su-mayoria-adultos-mayores-a-quienes-despojaban-de-joyas-y-dinero-3537888",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/06/69aaf71b901fa.r_d.621-308-0.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
+      "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Así operaba una banda de ‘Falsos Pastores’ en el Caribe: sus víctimas eran, en su mayoría, adultos mayores, a quienes despojaban de joyas y dinero",
+      "summary280": "Una banda de 'Falsos Pastores' en el Caribe estafaba a adultos mayores, despojándolos de joyas y dinero. Utilizaban manipulación psicológica y habilidades manuales para llevar a cabo sus delitos. Las víctimas eran principalmente personas vulnerables.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-operaba-una-banda-de-falsos-pastores-en-bolivar-sus-victimas-eran-en-su-mayoria-adultos-mayores-a-quienes-despojaban-de-joyas-y-dinero-3537888",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/06/69aaf71b901fa.r_d.621-308-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "La primera iglesia prefabricada de Francia: un joya arquitectónica declarada Monumento Histórico en el corazón de París",
       "summary280": "La iglesia de Saint-Christophe-de-Javel, construida entre 1926 y 1930 en París, es la primera iglesia prefabricada de Francia y un Monumento Histórico.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
-      "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
-      "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-en-narino-al-hermano-de-la-candidata-a-la-camara-claudia-cabrera-del-partido-de-la-u-disidencias-serian-las-presuntas-responsables-3537737",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/05/69aa207011275.r_d.837-333-0.png",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
+      "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
+      "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-en-narino-al-hermano-de-la-candidata-a-la-camara-claudia-cabrera-del-partido-de-la-u-disidencias-serian-las-presuntas-responsables-3537737",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/05/69aa207011275.r_d.837-333-0.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "EN VIVO: Más de 80 aviones de combate de Israel alcanzaron infraestructura militar clave del régimen iraní en Tehéran",
       "summary280": "Más de 80 aviones de combate de Israel bombardearon infraestructura militar iraní en Teherán, mientras Irán lanzó ataques contra Tel Aviv. Estados Unidos evalúa medidas para contener el alza del petróleo.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
-      "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
-      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
+      "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
+      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Suecia califica a El Salvador como “uno de los países más seguros de la región” en nueva alerta de viaje",
       "summary280": "Suecia ha actualizado su alerta de viaje, calificando a El Salvador como “uno de los más seguros de Latinoamérica”, destacando el éxito de las políticas del presidente Bukele en la reducción de la delincuencia.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/suecia-califica-a-el-salvador-como-uno-de-los-mas-seguros-de-la-region-en-nueva-alerta-de-viaje/",
       "imageUrl": "https://www.infobae.com/resizer/v2/M5SFUFZVVRAELGPBZ5MIHY3SAI.jpg?auth=43d189fc0f3357064fab8b2447e85b2174947b410d5c503ec4dd13c4a8a35311&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
-      "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
       "type": "explainer",
       "isNew": false
     }
