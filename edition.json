@@ -1,9 +1,18 @@
 {
   "api_version": 3,
-  "edition_date": "06 de marzo de 2026",
-  "generated_at": "2026-03-06T22:58:03.952798-05:00",
+  "edition_date": "07 de marzo de 2026",
+  "generated_at": "2026-03-07T00:01:53.148947-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
+      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Suecia califica a El Salvador como “uno de los países más seguros de la región” en nueva alerta de viaje",
       "summary280": "Suecia ha actualizado su alerta de viaje, calificando a El Salvador como “uno de los más seguros de Latinoamérica”, destacando el éxito de las políticas del presidente Bukele en la reducción de la delincuencia.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/suecia-califica-a-el-salvador-como-uno-de-los-mas-seguros-de-la-region-en-nueva-alerta-de-viaje/",
       "imageUrl": "https://www.infobae.com/resizer/v2/M5SFUFZVVRAELGPBZ5MIHY3SAI.jpg?auth=43d189fc0f3357064fab8b2447e85b2174947b410d5c503ec4dd13c4a8a35311&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
-      "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
-      "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
+      "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
+      "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Petro aprovechó el funeral de Jesse Jackson para pedirle a Trump que se separe de Benjamín Netanyahu: “Es necesario”",
       "summary280": "Durante el funeral de Jesse Jackson, Gustavo Petro instó a Donald Trump a distanciarse de Benjamín Netanyahu, criticando los ataques israelíes en territorios con niños.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
-      "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
-      "summary280": "Irán no puede derrotar militarmente a EE.UU. o Israel, pero su estrategia se centra en prolongar el conflicto y desgastar a sus oponentes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
+      "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
+      "summary280": "Irán no puede derrotar militarmente a EE.UU. o Israel, pero su estrategia se centra en prolongar el conflicto y desgastar a sus oponentes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "LA Metro lanza servicio especial al SoFi Stadium por USD 1,75 durante el Mundial",
       "summary280": "LA Metro lanza un servicio especial de autobuses al SoFi Stadium por USD 1,75 durante la Copa Mundial de la FIFA 2026, con traslados desde puntos clave del sur de California.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Puntos de control en la calles y filas para comprar pan: qué pasa en Irán conforme se intensifican los ataques que dejan ya 1.100 civiles muertos",
-      "summary280": "Irán enfrenta una intensa ofensiva de Israel y EE.UU. desde el 28 de febrero, resultando en más de 1.100 civiles muertos. La situación en Teherán es crítica, con ataques constantes, escasez de alimentos y un aumento de la represión.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cwykk0yxr54o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/2a04/live/7f97b2a0-18a3-11f1-9120-a910fc22c6ac.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
-      "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Puntos de control en la calles y filas para comprar pan: qué pasa en Irán conforme se intensifican los ataques que dejan ya 1.100 civiles muertos",
+      "summary280": "Irán enfrenta una intensa ofensiva de Israel y EE.UU. desde el 28 de febrero, resultando en más de 1.100 civiles muertos. La situación en Teherán es crítica, con ataques constantes, escasez de alimentos y un aumento de la represión.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwykk0yxr54o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/2a04/live/7f97b2a0-18a3-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
+      "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Diomedes Dionisio Díaz se encuentra fuera de peligro: esto se sabe de la recuperación del hijo de Diomedes Díaz",
       "summary280": "Diomedes Dionisio Díaz, hijo del famoso cantante vallenato, fue dado de alta tras varios días en observación médica en Barranquilla. Se encuentra estable y en recuperación en Valledupar, con planes de retomar su carrera artística a mediados de marzo.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/diomedes-dionisio-diaz-se-encuentra-fuera-de-peligro-esto-se-sabe-de-la-recuperacion-del-hijo-de-diomedes-diaz/",
       "imageUrl": "https://www.infobae.com/resizer/v2/ULQBMDQITZBEBBV7WGDTVCIVEQ.png?auth=6602d390d90d276168ad56123de9e0e197abcdc47f8a82a478c2dfadbc722c06&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Este es el plan de seguridad del Atlántico para las elecciones: cerca de 2.500 uniformados y funcionarios del CTI componen el dispositivo",
-      "summary280": "El plan de seguridad del Atlántico para las elecciones contará con cerca de 2.500 uniformados y funcionarios del CTI, además de apoyo aéreo del helicóptero Halcón en municipios priorizados, para asegurar una jornada tranquila. La seguridad es una prioridad.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/este-es-el-plan-de-seguridad-del-atlantico-para-las-elecciones-cerca-de-2-500-uniformados-y-funcionarios-del-cti-componen-el-dispositivo-3537408",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/10/29/653eb15f1798d.jpeg",
       "type": "explainer",
       "isNew": false
     }
