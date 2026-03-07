@@ -1,24 +1,24 @@
 {
   "api_version": 3,
   "edition_date": "07 de marzo de 2026",
-  "generated_at": "2026-03-07T00:01:53.148947-05:00",
+  "generated_at": "2026-03-07T01:35:41.204238-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Alcances del armado anti Milei: el gesto que esperan de CFK, ansiedad por Kicillof y la necesidad de una PASO",
+      "summary280": "El peronismo busca un candidato sólido para enfrentar a Javier Milei en 2027, pero la figura de Axel Kicillof genera dudas entre dirigentes. La presión interna crece para que Kicillof se posicione y muestre un nuevo enfoque.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/07/alcances-del-armado-anti-milei-el-gesto-que-esperan-de-cfk-ansiedad-por-kicillof-y-la-necesidad-de-una-paso/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/QSY5B2YXQVEIJFYXM2S7KFGRKA.jpg?auth=610745de81b072fb1e885622452bdc8c5589b6c3c9b3c3ac367b1f8f39caf546&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
       "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
-      "type": "explainer",
-      "isNew": true
-    },
-    {
-      "titleOriginal": "Suecia califica a El Salvador como “uno de los países más seguros de la región” en nueva alerta de viaje",
-      "summary280": "Suecia ha actualizado su alerta de viaje, calificando a El Salvador como “uno de los más seguros de Latinoamérica”, destacando el éxito de las políticas del presidente Bukele en la reducción de la delincuencia.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/suecia-califica-a-el-salvador-como-uno-de-los-mas-seguros-de-la-region-en-nueva-alerta-de-viaje/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/M5SFUFZVVRAELGPBZ5MIHY3SAI.jpg?auth=43d189fc0f3357064fab8b2447e85b2174947b410d5c503ec4dd13c4a8a35311&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -41,15 +41,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Extranjeros celebran la obtención de sus residencias en El Salvador: “ Eficientes, acogedores y con visión de futuro”",
-      "summary280": "Extranjeros celebran la obtención de residencia temporal en El Salvador, destacando la eficiencia del proceso que se resolvió en cinco días. Las reformas migratorias han incrementado las residencias definitivas, alcanzando un récord en 2025.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/extranjeros-celebran-la-obtencion-de-sus-residencias-en-el-salvador-eficientes-acogedores-y-con-vision-de-futuro/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/IBM4VNOBEJFIBBYUFZNIYJKPNQ.jpeg?auth=f6acba8ea37d0335fce491e121b1517bbd24f396edc66c8b29dee27b27d333ce&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
       "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
       "sourceName": "BBC News Mundo",
@@ -59,20 +50,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Suecia califica a El Salvador como “uno de los países más seguros de la región” en nueva alerta de viaje",
+      "summary280": "Suecia ha actualizado su alerta de viaje, calificando a El Salvador como “uno de los más seguros de Latinoamérica”, destacando el éxito de las políticas del presidente Bukele en la reducción de la delincuencia.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/suecia-califica-a-el-salvador-como-uno-de-los-mas-seguros-de-la-region-en-nueva-alerta-de-viaje/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/M5SFUFZVVRAELGPBZ5MIHY3SAI.jpg?auth=43d189fc0f3357064fab8b2447e85b2174947b410d5c503ec4dd13c4a8a35311&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Extranjeros celebran la obtención de sus residencias en El Salvador: “ Eficientes, acogedores y con visión de futuro”",
+      "summary280": "Extranjeros celebran la obtención de residencia temporal en El Salvador, destacando la eficiencia del proceso que se resolvió en cinco días. Las reformas migratorias han incrementado las residencias definitivas, alcanzando un récord en 2025.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/extranjeros-celebran-la-obtencion-de-sus-residencias-en-el-salvador-eficientes-acogedores-y-con-vision-de-futuro/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IBM4VNOBEJFIBBYUFZNIYJKPNQ.jpeg?auth=f6acba8ea37d0335fce491e121b1517bbd24f396edc66c8b29dee27b27d333ce&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
       "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Petro aprovechó el funeral de Jesse Jackson para pedirle a Trump que se separe de Benjamín Netanyahu: “Es necesario”",
-      "summary280": "Durante el funeral de Jesse Jackson, Gustavo Petro instó a Donald Trump a distanciarse de Benjamín Netanyahu, criticando los ataques israelíes en territorios con niños.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/petro-aprovecho-el-funeral-de-jesse-jackson-para-pedirle-a-trump-que-se-separe-de-benjamin-netanyahu-es-necesario/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/MOZYHMMQGNDJNGDIDD4XBDD7MM.jpg?auth=8ebb9cd1c6cf57cd325a89db79a1163647fb2b15867e67f96b4dbb6401307182&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -95,15 +95,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "“¿Quién carajos se cree este tipo?”: la pelea entre Russell Crowe y George Clooney que terminó con un regalo musical",
-      "summary280": "La disputa entre George Clooney y Russell Crowe comenzó tras un poema leído por Clooney, lo que llevó a Crowe a insultarlo. Tras un año de tensión, Crowe envió un disco y se disculpó, lo que resultó en una relación cordial.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/06/quien-carajos-se-cree-este-tipo-la-pelea-entre-russell-crowe-y-george-clooney-que-termino-con-un-regalo-musical/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GXVANSBHSZGWDHEAZ4SE3POMRQ.jpg?auth=6a4d1199f53783b3492a8bbbfbe7fd97ebcc1da0734679b666591af55ec035c4&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
       "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
       "sourceName": "BBC News Mundo",
@@ -113,20 +104,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Petro aprovechó el funeral de Jesse Jackson para pedirle a Trump que se separe de Benjamín Netanyahu: “Es necesario”",
+      "summary280": "Durante el funeral de Jesse Jackson, Gustavo Petro instó a Donald Trump a distanciarse de Benjamín Netanyahu, criticando los ataques israelíes en territorios con niños.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/petro-aprovecho-el-funeral-de-jesse-jackson-para-pedirle-a-trump-que-se-separe-de-benjamin-netanyahu-es-necesario/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/MOZYHMMQGNDJNGDIDD4XBDD7MM.jpg?auth=8ebb9cd1c6cf57cd325a89db79a1163647fb2b15867e67f96b4dbb6401307182&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "“¿Quién carajos se cree este tipo?”: la pelea entre Russell Crowe y George Clooney que terminó con un regalo musical",
+      "summary280": "La disputa entre George Clooney y Russell Crowe comenzó tras un poema leído por Clooney, lo que llevó a Crowe a insultarlo. Tras un año de tensión, Crowe envió un disco y se disculpó, lo que resultó en una relación cordial.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/06/quien-carajos-se-cree-este-tipo-la-pelea-entre-russell-crowe-y-george-clooney-que-termino-con-un-regalo-musical/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GXVANSBHSZGWDHEAZ4SE3POMRQ.jpg?auth=6a4d1199f53783b3492a8bbbfbe7fd97ebcc1da0734679b666591af55ec035c4&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
       "summary280": "Irán no puede derrotar militarmente a EE.UU. o Israel, pero su estrategia se centra en prolongar el conflicto y desgastar a sus oponentes.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "LA Metro lanza servicio especial al SoFi Stadium por USD 1,75 durante el Mundial",
-      "summary280": "LA Metro lanza un servicio especial de autobuses al SoFi Stadium por USD 1,75 durante la Copa Mundial de la FIFA 2026, con traslados desde puntos clave del sur de California.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/06/la-metro-lanza-servicio-especial-al-sofi-stadium-por-usd-175-durante-el-mundial/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/3SDEAK4XKBFYLLHQ4MTEY2SU4Q.jpg?auth=c8764e81499e3b1ab6fca7da0038783442128b522cbdbc518819e36cd8f420d8&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -149,15 +149,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Propuesta del Gobierno de Gustavo Petro para cambiar cálculo del precio de vivienda VIS genera preocupación: por qué la Contraloría convocó a una mesa técnica",
-      "summary280": "La Contraloría de Colombia analizó la propuesta del Gobierno de Gustavo Petro para desvincular el precio de la vivienda de interés social del salario mínimo, fijándolo en pesos. Esto genera preocupación por su impacto en proyectos ya firmados y en el mercado inmobiliario.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/propuesta-del-gobierno-de-gustavo-petro-para-cambiar-calculo-del-precio-de-vivienda-vis-genera-preocupacion-por-que-la-contraloria-convoco-a-una-mesa-tecnica/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YDPH6ZDTXFHXRHYQAOWS5ZCS7Q.png?auth=36a85643cfbbc36dfe518b7cba193c7318f621e4e70cdbb182ee1cf73f8987ca&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Puntos de control en la calles y filas para comprar pan: qué pasa en Irán conforme se intensifican los ataques que dejan ya 1.100 civiles muertos",
       "summary280": "Irán enfrenta una intensa ofensiva de Israel y EE.UU. desde el 28 de febrero, resultando en más de 1.100 civiles muertos. La situación en Teherán es crítica, con ataques constantes, escasez de alimentos y un aumento de la represión.",
       "sourceName": "BBC News Mundo",
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "LA Metro lanza servicio especial al SoFi Stadium por USD 1,75 durante el Mundial",
+      "summary280": "LA Metro lanza un servicio especial de autobuses al SoFi Stadium por USD 1,75 durante la Copa Mundial de la FIFA 2026, con traslados desde puntos clave del sur de California.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/06/la-metro-lanza-servicio-especial-al-sofi-stadium-por-usd-175-durante-el-mundial/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/3SDEAK4XKBFYLLHQ4MTEY2SU4Q.jpg?auth=c8764e81499e3b1ab6fca7da0038783442128b522cbdbc518819e36cd8f420d8&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Propuesta del Gobierno de Gustavo Petro para cambiar cálculo del precio de vivienda VIS genera preocupación: por qué la Contraloría convocó a una mesa técnica",
+      "summary280": "La Contraloría de Colombia analizó la propuesta del Gobierno de Gustavo Petro para desvincular el precio de la vivienda de interés social del salario mínimo, fijándolo en pesos. Esto genera preocupación por su impacto en proyectos ya firmados y en el mercado inmobiliario.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/propuesta-del-gobierno-de-gustavo-petro-para-cambiar-calculo-del-precio-de-vivienda-vis-genera-preocupacion-por-que-la-contraloria-convoco-a-una-mesa-tecnica/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YDPH6ZDTXFHXRHYQAOWS5ZCS7Q.png?auth=36a85643cfbbc36dfe518b7cba193c7318f621e4e70cdbb182ee1cf73f8987ca&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"Doblarse para no romperse\": el delicado equilibrio de Delcy Rodríguez en Venezuela (y qué poder tiene frente a Trump)",
       "summary280": "Delcy Rodríguez, presidenta encargada de Venezuela, enfrenta un delicado equilibrio entre apoyar a Maduro y adaptarse a la presión de Trump, quien amenaza con un destino similar al del presidente.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/ckg3e845j1wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/363f/live/f3c1e430-0be6-11f1-b7e1-afb6d0884c18.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Diomedes Dionisio Díaz se encuentra fuera de peligro: esto se sabe de la recuperación del hijo de Diomedes Díaz",
-      "summary280": "Diomedes Dionisio Díaz, hijo del famoso cantante vallenato, fue dado de alta tras varios días en observación médica en Barranquilla. Se encuentra estable y en recuperación en Valledupar, con planes de retomar su carrera artística a mediados de marzo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/06/diomedes-dionisio-diaz-se-encuentra-fuera-de-peligro-esto-se-sabe-de-la-recuperacion-del-hijo-de-diomedes-diaz/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/ULQBMDQITZBEBBV7WGDTVCIVEQ.png?auth=6602d390d90d276168ad56123de9e0e197abcdc47f8a82a478c2dfadbc722c06&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
