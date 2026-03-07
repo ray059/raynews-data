@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "07 de marzo de 2026",
-  "generated_at": "2026-03-07T11:23:15.016727-05:00",
+  "generated_at": "2026-03-07T12:18:46.523427-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Hija de Carmen Salinas rechaza disculpa de Saskia Niño de Rivera: “Estamos estudiando por donde demandar”",
-      "summary280": "María Eugenia Plascencia, hija de Carmen Salinas, rechazó la disculpa de Saskia Niño de Rivera por vincular a su madre con rituales en un pódcast. Plascencia considera que la disculpa no es sincera y está evaluando acciones legales por el daño moral causado a su familia.",
+      "titleOriginal": "Cuál es el mejor momento del día para consumir electrolitos, de acuerdo con especialistas en nutrición",
+      "summary280": "El consumo de electrolitos no es necesario para todos, según especialistas. Su uso se justifica en situaciones de alta pérdida de líquidos, como ejercicio intenso o deshidratación.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/07/hija-de-carmen-salinas-rechaza-disculpa-de-saskia-nino-de-rivera-estamos-estudiando-por-donde-demandar/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/ZWYK6Q6HMFAFLH63U2FC6HVKWU.jpg?auth=9b41c6b05f6b36fb08a87f6d68fdb26e4fb4f1bc6935fa0bb2e8e4f7bb6d8c69&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/salud/2026/03/07/cual-es-el-mejor-momento-del-dia-para-consumir-electrolitos-de-acuerdo-con-especialistas-en-nutricion/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/G3X4K6RZRBD4BMF5TMFE627YAQ.jpg?auth=db5f84f559ed46f73cb6d463ac080ab0d621670e262732e9f85d15e81089ec8f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Hija de Carmen Salinas rechaza disculpa de Saskia Niño de Rivera: “Estamos estudiando por donde demandar”",
+      "summary280": "María Eugenia Plascencia, hija de Carmen Salinas, rechazó la disculpa de Saskia Niño de Rivera por vincular a su madre con rituales en un pódcast. Plascencia considera que la disculpa no es sincera y está evaluando acciones legales por el daño moral causado a su familia.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/07/hija-de-carmen-salinas-rechaza-disculpa-de-saskia-nino-de-rivera-estamos-estudiando-por-donde-demandar/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/ZWYK6Q6HMFAFLH63U2FC6HVKWU.jpg?auth=9b41c6b05f6b36fb08a87f6d68fdb26e4fb4f1bc6935fa0bb2e8e4f7bb6d8c69&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Asfura, Bukele, Mulino, Abinader y Chavez presentes en la Cumbre “Escudo de las Américas”",
       "summary280": "Más de 10 líderes de América Latina y el Caribe se reunieron en Miami para la cumbre “Escudo de las Américas”, convocada por Donald Trump. Se firmará una declaración conjunta sobre cooperación y se abordarán temas de seguridad, migración y desarrollo económico.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/07/asfura-bukele-mulino-abinader-y-chavez-presentes-en-la-cumbre-escudo-de-las-americas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HP7HVZZGAZGRNJOGGYUCKDGZNQ.png?auth=886ea3a8f5fb089b45419c1abb90c3886bf6d0b4692c6c13c901ea1ebb19d0a2&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Israel afirma que atacó en Teherán 16 aviones usados para enviar armas a Hizbulá",
-      "summary280": "La Fuerza Aérea israelí bombardeó el aeropuerto de Mehrabad en Teherán, destruyendo 16 aviones de la Fuerza Quds que enviaban armas a Hizbulá. Este ataque forma parte de una guerra más amplia contra Irán, que ha dejado miles de muertos en ambos lados.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/israel-afirma-que-ataco-en-teheran-16-aviones-usados-para-enviar-armas-a-hizbula/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Israel afirma que atacó en Teherán 16 aviones usados para enviar armas a Hizbulá",
+      "summary280": "La Fuerza Aérea israelí bombardeó el aeropuerto de Mehrabad en Teherán, destruyendo 16 aviones de la Fuerza Quds que enviaban armas a Hizbulá. Este ataque forma parte de una guerra más amplia contra Irán, que ha dejado miles de muertos en ambos lados.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/israel-afirma-que-ataco-en-teheran-16-aviones-usados-para-enviar-armas-a-hizbula/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "EEUU captura en Guanajuato a “Beto” Bazán Salinas del Cártel del Golfo por trasiego de drogas",
       "summary280": "El HSI de EE.UU. capturó en Guanajuato a Roberto \"Beto\" Bazán Salinas, vinculado al Cártel del Golfo y buscado por tráfico de drogas. Su arresto se realizó en un operativo conjunto con autoridades mexicanas.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/eeuu-captura-en-mexico-a-beto-bazan-salinas-del-cartel-del-golfo-por-trasiego-de-drogas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GV5HHZT6VFCYLHNVS4YFWBK7AA.jpg?auth=33e194a8e4c827591cc8837272ef1280731d812b8044dfba9ee15eb4c79a6a95&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Una persona objeta la adjudicación de la vivienda tras su divorcio pero la Justicia determina que el pacto entre ex cónyuges es válido",
-      "summary280": "La Justicia valida un acuerdo de divorcio que adjudica una vivienda a un ex cónyuge, quien asume la hipoteca. A pesar de las objeciones del registrador sobre la representación notarial, se determinó que el poder otorgado era suficiente y vinculante.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/07/una-persona-objeta-la-adjudicacion-de-la-vivienda-tras-su-divorcio-pero-la-justicia-determina-que-el-pacto-entre-ex-conyuges-es-valido/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YDMADS7SHNG6FM3MOX6AK3ZJR4.png?auth=ea22460ce25ec45aedd44868aa10c5fe5c1791d2694f42f83244ac17fb7d596e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Una persona objeta la adjudicación de la vivienda tras su divorcio pero la Justicia determina que el pacto entre ex cónyuges es válido",
+      "summary280": "La Justicia valida un acuerdo de divorcio que adjudica una vivienda a un ex cónyuge, quien asume la hipoteca. A pesar de las objeciones del registrador sobre la representación notarial, se determinó que el poder otorgado era suficiente y vinculante.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/07/una-persona-objeta-la-adjudicacion-de-la-vivienda-tras-su-divorcio-pero-la-justicia-determina-que-el-pacto-entre-ex-conyuges-es-valido/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YDMADS7SHNG6FM3MOX6AK3ZJR4.png?auth=ea22460ce25ec45aedd44868aa10c5fe5c1791d2694f42f83244ac17fb7d596e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Carlos Sainz: \"Es un fin de semana nefasto\"",
       "summary280": "Carlos Sainz, piloto de Williams, calificó el Gran Premio de Australia como un \"fin de semana nefasto\" tras sufrir problemas con el ERS que le impidieron participar en la clasificación, comenzando penúltimo.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/carlos-sainz-es-un-fin-de-semana-nefasto/",
       "imageUrl": "https://www.infobae.com/resizer/v2/Q5LVVNO47BG5DJEJKB2PYFNKOE.jpg?auth=4757099d7de7d0be950a0c9c2782d28bd08fc480e444188a5913501b413f0bd3&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La primera iglesia prefabricada de Francia: un joya arquitectónica declarada Monumento Histórico en el corazón de París",
-      "summary280": "La iglesia de Saint-Christophe-de-Javel, construida entre 1926 y 1930 en París, es la primera iglesia prefabricada de Francia y un Monumento Histórico.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/viajes/2026/03/07/la-primera-iglesia-prefabricada-de-francia-un-joya-arquitectonica-declarada-monumento-historico-en-el-corazon-de-paris/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/YOG777UZK5HBPBOVQ5IBACOA5Y.jpg?auth=a7931c7f6d12ba470f219831ab8fb39ef5cf652205c74c860a4ddab097738409&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
