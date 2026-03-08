@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "07 de marzo de 2026",
-  "generated_at": "2026-03-07T18:19:14.282357-05:00",
+  "generated_at": "2026-03-07T20:50:53.669755-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "México vs Brasil Femenil EN VIVO: la Selección Mexicana se enfrenta a la canarinha en el Estadio Ciudad de los Deportes",
-      "summary280": "México se enfrenta a Brasil en un amistoso en el Estadio Ciudad de los Deportes. En los primeros minutos, Brasil falla un tiro de esquina y México recibe un penalti tras revisión del VAR, pero la arquera brasileña Letícia lo ataja. El partido ya ha comenzado.",
+      "titleOriginal": "Procesan a “El Lexus”, líder del Cártel del Golfo detenido en Tamaulipas",
+      "summary280": "Antonio Guadalupe “N”, alias “El Lexus”, líder del Cártel del Golfo, fue procesado tras su detención en Matamoros junto a ocho miembros de su grupo. Enfrenta cargos por portación de armas y posesión de metanfetamina.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/07/mexico-vs-brasil-femenil-en-vivo-la-seleccion-mexicana-se-enfrenta-a-la-canarinha-en-el-estadio-ciudad-de-los-deportes/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/BIXPLSH7JRAQDNLREW7NMYPSD4.jpg?auth=ce0eb6efced70571ea9d8437299ec9cba1f254b3bc9c7640d5a4136815b8ef11&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/08/procesan-a-el-lexus-lider-del-cartel-del-golfo-detenido-en-tamaulipas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/E4SYHCBWERDWDP3KUWLZOAIZAY.jpg?auth=1c069dea1320fd274c6f73f2e39b85e37dc13fe0ce4667485989c789325fd50d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,19 +50,19 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Choque de aspirantes; las Palmas y el Ceuta a por la lucha por el playoff de ascenso",
-      "summary280": "La UD Las Palmas y AD Ceuta FC se enfrentarán el domingo en Gran Canaria, buscando consolidar sus recientes buenos resultados.",
+      "titleOriginal": "México vs Brasil Femenil EN VIVO: la Selección Mexicana se enfrenta a la canarinha en el Estadio Ciudad de los Deportes",
+      "summary280": "México se enfrenta a Brasil en un amistoso en el Estadio Ciudad de los Deportes. En los primeros minutos, Brasil falla un tiro de esquina y México recibe un penalti tras revisión del VAR, pero la arquera brasileña Letícia lo ataja. El partido ya ha comenzado.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/choque-de-aspirantes-las-palmas-y-el-ceuta-a-por-la-lucha-por-el-playoff-de-ascenso/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/07/mexico-vs-brasil-femenil-en-vivo-la-seleccion-mexicana-se-enfrenta-a-la-canarinha-en-el-estadio-ciudad-de-los-deportes/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/BIXPLSH7JRAQDNLREW7NMYPSD4.jpg?auth=ce0eb6efced70571ea9d8437299ec9cba1f254b3bc9c7640d5a4136815b8ef11&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
     {
-      "titleOriginal": "Manifestantes en México prenden fuego al dios Baal y exigen la paz en Oriente Medio",
-      "summary280": "Activistas en México quemaron una figura del dios Baal cerca de la embajada de EE.UU. para exigir el fin de la guerra en Oriente Medio. La protesta, organizada por la comunidad iraní, también conmemoró al líder supremo Ali Jameneí, fallecido en bombardeos.",
+      "titleOriginal": "Choque de aspirantes; las Palmas y el Ceuta a por la lucha por el playoff de ascenso",
+      "summary280": "La UD Las Palmas y AD Ceuta FC se enfrentarán el domingo en Gran Canaria, buscando consolidar sus recientes buenos resultados.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/manifestantes-en-mexico-prenden-fuego-al-dios-baal-y-exigen-la-paz-en-oriente-medio/",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/choque-de-aspirantes-las-palmas-y-el-ceuta-a-por-la-lucha-por-el-playoff-de-ascenso/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Manifestantes en México prenden fuego al dios Baal y exigen la paz en Oriente Medio",
+      "summary280": "Activistas en México quemaron una figura del dios Baal cerca de la embajada de EE.UU. para exigir el fin de la guerra en Oriente Medio. La protesta, organizada por la comunidad iraní, también conmemoró al líder supremo Ali Jameneí, fallecido en bombardeos.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/manifestantes-en-mexico-prenden-fuego-al-dios-baal-y-exigen-la-paz-en-oriente-medio/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Gobierno de la CDMX reporta la reducción del 35% del delito de feminicidio",
       "summary280": "La Jefa de Gobierno de la CDMX, Clara Brugada, anunció una reducción del 35% en feminicidios en 2025 y destacó que el 95% de los responsables tienen órdenes de aprehensión.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/07/gobierno-de-la-cdmx-reporta-la-reduccion-del-35-del-delito-de-feminicidio/",
       "imageUrl": "https://www.infobae.com/resizer/v2/U7CRULGNFNGL7NKEK4M2HFTGTA.jpg?auth=c95ac85682dc41802480eb1f46951955d5b27e2475b860fa5e3b8b51c82e4238&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La mató y la dejó en un tambo en Ecatepec, frente a gente que pasaba",
-      "summary280": "En Ecatepec, un hombre abandonó un tambo en la calle, donde vecinos encontraron el cuerpo de una mujer en su interior.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/07/la-mato-ya-la-dejo-en-un-tambo-en-ecatepec-frente-a-gente-que-pasaba/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/DMHPM7XPC5G2HN34YNRTFL5VKQ.jpg?auth=7f0d5f64333a0a67002e5cee9fe796b109e47ca8ab1d559466e8a318375ebb7c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "La mató y la dejó en un tambo en Ecatepec, frente a gente que pasaba",
+      "summary280": "En Ecatepec, un hombre abandonó un tambo en la calle, donde vecinos encontraron el cuerpo de una mujer en su interior.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/07/la-mato-ya-la-dejo-en-un-tambo-en-ecatepec-frente-a-gente-que-pasaba/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/DMHPM7XPC5G2HN34YNRTFL5VKQ.jpg?auth=7f0d5f64333a0a67002e5cee9fe796b109e47ca8ab1d559466e8a318375ebb7c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Tabla de posiciones de la Liga 1 Perú 2026 HOY: así van los equipos en la fecha 6 del Torneo Apertura",
       "summary280": "La fecha 6 del Torneo Apertura de la Liga 1 Perú 2026 promete cambios en la tabla. Alianza Lima, Universitario y Sporting Cristal son protagonistas de partidos clave. La jornada incluye varios encuentros que podrían definir la lucha por el campeonato. La emoción está garantizada.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/07/tabla-de-posiciones-liga-1-peru-2026-fecha-6-torneo-apertura-alianza-lima-universitario-sporting-cristal-utc-melgar/",
       "imageUrl": "https://www.infobae.com/resizer/v2/2W4ZVTD25BGQ7D62BXZQPWTLSE.png?auth=e13909e3b05f9340175c4c265f10b2c8988f1fbcff0b94c8544a80cf662d283c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuál es el mejor momento del día para consumir electrolitos, de acuerdo con especialistas en nutrición",
-      "summary280": "El consumo de electrolitos no es necesario para todos, según especialistas. Su uso se justifica en situaciones de alta pérdida de líquidos, como ejercicio intenso o deshidratación.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/salud/2026/03/07/cual-es-el-mejor-momento-del-dia-para-consumir-electrolitos-de-acuerdo-con-especialistas-en-nutricion/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/G3X4K6RZRBD4BMF5TMFE627YAQ.jpg?auth=db5f84f559ed46f73cb6d463ac080ab0d621670e262732e9f85d15e81089ec8f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
