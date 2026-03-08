@@ -1,9 +1,18 @@
 {
   "api_version": 3,
-  "edition_date": "07 de marzo de 2026",
-  "generated_at": "2026-03-07T23:09:12.806957-05:00",
+  "edition_date": "08 de marzo de 2026",
+  "generated_at": "2026-03-08T00:40:40.791013-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
+      "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Insólito: Oscar Piastri chocó su McLaren en la vuelta de salida y no correrá el Gran Premio de Australia de Fórmula 1",
       "summary280": "Oscar Piastri chocó su McLaren en la vuelta de salida del Gran Premio de Australia, lo que le impide competir en la primera carrera de la temporada 2026. El accidente ocurrió al perder el control en la curva 4, dejando su monoplaza dañado.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/08/insolito-oscar-piastri-choco-su-mclaren-en-la-vuelta-de-salida-y-no-correra-el-gran-premio-de-australia-de-formula-1/",
       "imageUrl": "https://www.infobae.com/resizer/v2/W6ZD7B4O3FCAFGT2BE6TVBDSAE.jpg?auth=d98f473d11fc4ec604794a99fbb21766e77106361ca69c1a3a278651fc947ec7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
-      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
-      "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
+      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
+      "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "México vs Brasil Femenil EN VIVO: la Selección Mexicana se enfrenta a la canarinha en el Estadio Ciudad de los Deportes",
       "summary280": "México se enfrenta a Brasil en un amistoso en el Estadio Ciudad de los Deportes. En los primeros minutos, Brasil falla un tiro de esquina y México recibe un penalti tras revisión del VAR, pero la arquera brasileña Letícia lo ataja. El partido ya ha comenzado.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-operaba-una-banda-de-falsos-pastores-en-bolivar-sus-victimas-eran-en-su-mayoria-adultos-mayores-a-quienes-despojaban-de-joyas-y-dinero-3537888",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/06/69aaf71b901fa.r_d.621-308-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
-      "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
-      "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
+      "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
+      "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Manifestantes en México prenden fuego al dios Baal y exigen la paz en Oriente Medio",
       "summary280": "Activistas en México quemaron una figura del dios Baal cerca de la embajada de EE.UU. para exigir el fin de la guerra en Oriente Medio. La protesta, organizada por la comunidad iraní, también conmemoró al líder supremo Ali Jameneí, fallecido en bombardeos.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asesinan-en-narino-al-hermano-de-la-candidata-a-la-camara-claudia-cabrera-del-partido-de-la-u-disidencias-serian-las-presuntas-responsables-3537737",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/05/69aa207011275.r_d.837-333-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
-      "summary280": "Irán no puede derrotar militarmente a EE.UU. o Israel, pero su estrategia se centra en prolongar el conflicto y desgastar a sus oponentes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Puntos de control en la calles y filas para comprar pan: qué pasa en Irán conforme se intensifican los ataques que dejan ya 1.100 civiles muertos",
-      "summary280": "Irán enfrenta una intensa ofensiva de Israel y EE.UU. desde el 28 de febrero, resultando en más de 1.100 civiles muertos. La situación en Teherán es crítica, con ataques constantes, escasez de alimentos y un aumento de la represión.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cwykk0yxr54o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/2a04/live/7f97b2a0-18a3-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
+      "summary280": "Irán no puede derrotar militarmente a EE.UU. o Israel, pero su estrategia se centra en prolongar el conflicto y desgastar a sus oponentes.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Puntos de control en la calles y filas para comprar pan: qué pasa en Irán conforme se intensifican los ataques que dejan ya 1.100 civiles muertos",
+      "summary280": "Irán enfrenta una intensa ofensiva de Israel y EE.UU. desde el 28 de febrero, resultando en más de 1.100 civiles muertos. La situación en Teherán es crítica, con ataques constantes, escasez de alimentos y un aumento de la represión.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cwykk0yxr54o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/2a04/live/7f97b2a0-18a3-11f1-9120-a910fc22c6ac.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "La mató y la dejó en un tambo en Ecatepec, frente a gente que pasaba",
       "summary280": "En Ecatepec, un hombre abandonó un tambo en la calle, donde vecinos encontraron el cuerpo de una mujer en su interior.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/07/la-mato-ya-la-dejo-en-un-tambo-en-ecatepec-frente-a-gente-que-pasaba/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DMHPM7XPC5G2HN34YNRTFL5VKQ.jpg?auth=7f0d5f64333a0a67002e5cee9fe796b109e47ca8ab1d559466e8a318375ebb7c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Suspensión de energía este jueves 5 de marzo: trabajos de modernización en la zona urbana y rural de Cali implican cortes temporales",
-      "summary280": "Este jueves 5 de marzo, se realizarán cortes temporales de energía en Cali debido a trabajos de modernización, que incluyen reparaciones de fugas, instalación de cable ecológico y limpieza de canales en varios sectores de la ciudad. Se recomienda estar preparado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/suspension-de-energia-este-jueves-5-de-marzo-trabajos-de-modernizacion-en-la-zona-urbana-y-rural-de-cali-implican-cortes-temporales-3537509",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/01/22/697224b12ca41.jpeg",
       "type": "explainer",
       "isNew": false
     }
