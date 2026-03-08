@@ -1,24 +1,24 @@
 {
   "api_version": 3,
   "edition_date": "08 de marzo de 2026",
-  "generated_at": "2026-03-08T06:18:37.198743-05:00",
+  "generated_at": "2026-03-08T07:41:12.152371-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Día Internacional de la Mujer: Dra. María Isabel Rodríguez pionera en la salud pública salvadoreña",
+      "summary280": "El Día Internacional de la Mujer resalta la trayectoria de la Dra. María Isabel Rodríguez, pionera en salud pública en El Salvador. Graduada en 1948, fue la segunda mujer en medicina en la UES y primera ministra de salud.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/08/dia-internacional-de-la-mujer-dra-maria-isabel-rodriguez-pionera-en-la-salud-publica-salvadorena/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/LI7HHIIPTRE6BATL7ISNBJJ6DA.jpg?auth=50d46f64d17d1a93c50b8cd05f389e624328c6cb712a4515d54f9af734d39d22&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
       "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
-      "type": "explainer",
-      "isNew": true
-    },
-    {
-      "titleOriginal": "La AFE reclama de nuevo la inclusión permanente de partidos de la LigaF en La Quiniela",
-      "summary280": "La AFE reclama la inclusión permanente de partidos de la Liga F en La Quiniela, destacando que lleva más de siete años en esta lucha por visibilidad y recursos para el fútbol femenino.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/la-afe-reclama-de-nuevo-la-inclusion-permanente-de-partidos-de-la-ligaf-en-la-quiniela/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -41,15 +41,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Día de la Mujer 2026: Colombia registra avances en participación femenina en cursos de IA Generativa",
-      "summary280": "En el Día Internacional de la Mujer 2026, Colombia destaca por un aumento del 4,5% en la participación femenina en cursos de IA Generativa, superando a los hombres en tasas de finalización.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/dia-de-la-mujer-2026-colombia-registra-avances-en-participacion-femenina-en-cursos-de-ia-generativa/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/D375YMK46RDWHNOOPVNFQ3B4NY.jpg?auth=be9a1f45a5f512cc4384ecdb2697bdd78bcf4b6aaa449e0c5bf682d1bc8860d0&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
       "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
       "sourceName": "El Tiempo Colombia",
@@ -59,20 +50,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "La AFE reclama de nuevo la inclusión permanente de partidos de la LigaF en La Quiniela",
+      "summary280": "La AFE reclama la inclusión permanente de partidos de la Liga F en La Quiniela, destacando que lleva más de siete años en esta lucha por visibilidad y recursos para el fútbol femenino.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/la-afe-reclama-de-nuevo-la-inclusion-permanente-de-partidos-de-la-ligaf-en-la-quiniela/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Día de la Mujer 2026: Colombia registra avances en participación femenina en cursos de IA Generativa",
+      "summary280": "En el Día Internacional de la Mujer 2026, Colombia destaca por un aumento del 4,5% en la participación femenina en cursos de IA Generativa, superando a los hombres en tasas de finalización.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/dia-de-la-mujer-2026-colombia-registra-avances-en-participacion-femenina-en-cursos-de-ia-generativa/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/D375YMK46RDWHNOOPVNFQ3B4NY.jpg?auth=be9a1f45a5f512cc4384ecdb2697bdd78bcf4b6aaa449e0c5bf682d1bc8860d0&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
       "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Semana política marcada por la guerra de Irán y las elecciones en Castilla y León",
-      "summary280": "La semana política se centra en la guerra en Irán y las elecciones en Castilla y León. España enfrenta evacuaciones y debates sobre el envío de una fragata a Chipre.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/semana-politica-marcada-por-la-guerra-de-iran-y-las-elecciones-en-castilla-y-leon/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -95,15 +95,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Milei inició su gira por New York con el objetivo político de promover las inversiones privadas en la Argentina",
-      "summary280": "Javier Milei comenzó su gira en Nueva York para promover inversiones en Argentina, tras fortalecer la relación con Trump en Miami. Participará en eventos clave, incluyendo Argentina Week 2026 y una reunión con Jamie Dimon.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/politica/2026/03/08/milei-inicio-su-gira-por-new-york-con-el-objetivo-politico-de-promover-las-inversiones-privadas-en-la-argentina/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WSH76AQ2ZBHCHLWRKH2VMH52RY.jpg?auth=a3fb8ccd663761e1f38eb244e5df4931de58535e60d53b4274935d0025f8bb91&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Así operaba una banda de ‘Falsos Pastores’ en el Caribe: sus víctimas eran, en su mayoría, adultos mayores, a quienes despojaban de joyas y dinero",
       "summary280": "Una banda de 'Falsos Pastores' en el Caribe estafaba a adultos mayores, despojándolos de joyas y dinero. Utilizaban manipulación psicológica y habilidades manuales para llevar a cabo sus delitos. Las víctimas eran principalmente personas vulnerables.",
       "sourceName": "El Tiempo Colombia",
@@ -113,20 +104,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Semana política marcada por la guerra de Irán y las elecciones en Castilla y León",
+      "summary280": "La semana política se centra en la guerra en Irán y las elecciones en Castilla y León. España enfrenta evacuaciones y debates sobre el envío de una fragata a Chipre.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/semana-politica-marcada-por-la-guerra-de-iran-y-las-elecciones-en-castilla-y-leon/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Milei inició su gira por New York con el objetivo político de promover las inversiones privadas en la Argentina",
+      "summary280": "Javier Milei comenzó su gira en Nueva York para promover inversiones en Argentina, tras fortalecer la relación con Trump en Miami. Participará en eventos clave, incluyendo Argentina Week 2026 y una reunión con Jamie Dimon.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/08/milei-inicio-su-gira-por-new-york-con-el-objetivo-politico-de-promover-las-inversiones-privadas-en-la-argentina/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WSH76AQ2ZBHCHLWRKH2VMH52RY.jpg?auth=a3fb8ccd663761e1f38eb244e5df4931de58535e60d53b4274935d0025f8bb91&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
       "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Maíllo (IU) acusa a Feijóo de \"irresponsable\" y \"belicista\" en un intento de salir del \"efecto pánico\" con Vox",
-      "summary280": "Antonio Maíllo, de Izquierda Unida, criticó a Alberto Núñez Feijóo por su postura \"irresponsable\" y \"belicista\", argumentando que el Gobierno español defiende la paz en un contexto complejo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/maillo-iu-acusa-a-feijoo-de-irresponsable-y-belicista-en-un-intento-de-salir-del-efecto-panico-con-vox/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/Z7HN2GTXKBD6HKLUPHKRCSXTRQ.jpg?auth=576cac620fd29649f121cdf4cc24e3e04207537a82fad4fd0f052f696ad27cf7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -149,15 +149,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Insólito: Oscar Piastri chocó su McLaren en la vuelta de salida y no correrá el Gran Premio de Australia de Fórmula 1",
-      "summary280": "Oscar Piastri chocó su McLaren en la vuelta de salida del Gran Premio de Australia, lo que le impide competir en la primera carrera de la temporada 2026. El accidente ocurrió al perder el control en la curva 4, dejando su monoplaza dañado.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/08/insolito-oscar-piastri-choco-su-mclaren-en-la-vuelta-de-salida-y-no-correra-el-gran-premio-de-australia-de-formula-1/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/W6ZD7B4O3FCAFGT2BE6TVBDSAE.jpg?auth=d98f473d11fc4ec604794a99fbb21766e77106361ca69c1a3a278651fc947ec7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Asesinaron en Nariño al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U; disidencias serían las presuntas responsables",
       "summary280": "En Nariño, asesinaron al hermano de Claudia Cabrera, candidata a la Cámara por el Partido de la U. El crimen se produjo en un contexto electoral previo al 8 de marzo, y se sospecha que disidencias armadas son las responsables del homicidio. La violencia persiste en la región.",
       "sourceName": "El Tiempo Colombia",
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Maíllo (IU) acusa a Feijóo de \"irresponsable\" y \"belicista\" en un intento de salir del \"efecto pánico\" con Vox",
+      "summary280": "Antonio Maíllo, de Izquierda Unida, criticó a Alberto Núñez Feijóo por su postura \"irresponsable\" y \"belicista\", argumentando que el Gobierno español defiende la paz en un contexto complejo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/maillo-iu-acusa-a-feijoo-de-irresponsable-y-belicista-en-un-intento-de-salir-del-efecto-panico-con-vox/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Z7HN2GTXKBD6HKLUPHKRCSXTRQ.jpg?auth=576cac620fd29649f121cdf4cc24e3e04207537a82fad4fd0f052f696ad27cf7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Insólito: Oscar Piastri chocó su McLaren en la vuelta de salida y no correrá el Gran Premio de Australia de Fórmula 1",
+      "summary280": "Oscar Piastri chocó su McLaren en la vuelta de salida del Gran Premio de Australia, lo que le impide competir en la primera carrera de la temporada 2026. El accidente ocurrió al perder el control en la curva 4, dejando su monoplaza dañado.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/deportes/2026/03/08/insolito-oscar-piastri-choco-su-mclaren-en-la-vuelta-de-salida-y-no-correra-el-gran-premio-de-australia-de-formula-1/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/W6ZD7B4O3FCAFGT2BE6TVBDSAE.jpg?auth=d98f473d11fc4ec604794a99fbb21766e77106361ca69c1a3a278651fc947ec7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así fue el operativo en la cárcel de La Dorada que terminó con la incautación de 12 armas y 29 celulares que estaban escondidos en alcantarillas",
       "summary280": "En un operativo en la cárcel de La Dorada, las autoridades incautaron 12 armas y 29 celulares escondidos en alcantarillas, como parte de esfuerzos para desmantelar redes que amenazan la seguridad en los centros penitenciarios. La acción busca mejorar el control interno.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-fue-el-operativo-en-la-carcel-de-la-dorada-que-termino-con-la-incautacion-de-12-armas-y-29-celulares-que-estaban-escondidos-en-alcantarillas-3537648",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/06/02/647a9ea419527.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Procesan a “El Lexus”, líder del Cártel del Golfo detenido en Tamaulipas",
-      "summary280": "Antonio Guadalupe “N”, alias “El Lexus”, líder del Cártel del Golfo, fue procesado tras su detención en Matamoros junto a ocho miembros de su grupo. Enfrenta cargos por portación de armas y posesión de metanfetamina.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/08/procesan-a-el-lexus-lider-del-cartel-del-golfo-detenido-en-tamaulipas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/E4SYHCBWERDWDP3KUWLZOAIZAY.jpg?auth=1c069dea1320fd274c6f73f2e39b85e37dc13fe0ce4667485989c789325fd50d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
