@@ -1,24 +1,24 @@
 {
   "api_version": 3,
   "edition_date": "08 de marzo de 2026",
-  "generated_at": "2026-03-08T08:37:50.226378-05:00",
+  "generated_at": "2026-03-08T09:22:12.524315-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Feijóo descarta que el futuro de Castilla y León se pueda decidir en \"despachos de Madrid\"",
+      "summary280": "Alberto Núñez Feijóo, presidente del PP, afirmó que el futuro de Castilla y León debe decidirse por sus habitantes y no desde \"despachos de Madrid\". Criticó a Vox y al PSOE por su inestabilidad y llamó a votar al PP en las elecciones del 15 de marzo para gobernar en solitario.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/feijoo-descarta-que-el-futuro-de-castilla-y-leon-se-pueda-decidir-en-despachos-de-madrid/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
       "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": true
-    },
-    {
-      "titleOriginal": "Día Internacional de la Mujer: Dra. María Isabel Rodríguez pionera en la salud pública salvadoreña",
-      "summary280": "El Día Internacional de la Mujer resalta la trayectoria de la Dra. María Isabel Rodríguez, pionera en salud pública en El Salvador. Graduada en 1948, fue la segunda mujer en medicina en la UES y primera ministra de salud.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/08/dia-internacional-de-la-mujer-dra-maria-isabel-rodriguez-pionera-en-la-salud-publica-salvadorena/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/LI7HHIIPTRE6BATL7ISNBJJ6DA.jpg?auth=50d46f64d17d1a93c50b8cd05f389e624328c6cb712a4515d54f9af734d39d22&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -41,15 +41,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "La AFE reclama de nuevo la inclusión permanente de partidos de la LigaF en La Quiniela",
-      "summary280": "La AFE reclama la inclusión permanente de partidos de la Liga F en La Quiniela, destacando que lleva más de siete años en esta lucha por visibilidad y recursos para el fútbol femenino.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/la-afe-reclama-de-nuevo-la-inclusion-permanente-de-partidos-de-la-ligaf-en-la-quiniela/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
       "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
       "sourceName": "BBC News Mundo",
@@ -59,20 +50,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Día Internacional de la Mujer: Dra. María Isabel Rodríguez pionera en la salud pública salvadoreña",
+      "summary280": "El Día Internacional de la Mujer resalta la trayectoria de la Dra. María Isabel Rodríguez, pionera en salud pública en El Salvador. Graduada en 1948, fue la segunda mujer en medicina en la UES y primera ministra de salud.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/08/dia-internacional-de-la-mujer-dra-maria-isabel-rodriguez-pionera-en-la-salud-publica-salvadorena/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/LI7HHIIPTRE6BATL7ISNBJJ6DA.jpg?auth=50d46f64d17d1a93c50b8cd05f389e624328c6cb712a4515d54f9af734d39d22&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "La AFE reclama de nuevo la inclusión permanente de partidos de la LigaF en La Quiniela",
+      "summary280": "La AFE reclama la inclusión permanente de partidos de la Liga F en La Quiniela, destacando que lleva más de siete años en esta lucha por visibilidad y recursos para el fútbol femenino.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/la-afe-reclama-de-nuevo-la-inclusion-permanente-de-partidos-de-la-ligaf-en-la-quiniela/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
       "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Día de la Mujer 2026: Colombia registra avances en participación femenina en cursos de IA Generativa",
-      "summary280": "En el Día Internacional de la Mujer 2026, Colombia destaca por un aumento del 4,5% en la participación femenina en cursos de IA Generativa, superando a los hombres en tasas de finalización.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/dia-de-la-mujer-2026-colombia-registra-avances-en-participacion-femenina-en-cursos-de-ia-generativa/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/D375YMK46RDWHNOOPVNFQ3B4NY.jpg?auth=be9a1f45a5f512cc4384ecdb2697bdd78bcf4b6aaa449e0c5bf682d1bc8860d0&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -95,15 +95,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Semana política marcada por la guerra de Irán y las elecciones en Castilla y León",
-      "summary280": "La semana política se centra en la guerra en Irán y las elecciones en Castilla y León. España enfrenta evacuaciones y debates sobre el envío de una fragata a Chipre.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/semana-politica-marcada-por-la-guerra-de-iran-y-las-elecciones-en-castilla-y-leon/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
       "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
       "sourceName": "BBC News Mundo",
@@ -113,20 +104,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Día de la Mujer 2026: Colombia registra avances en participación femenina en cursos de IA Generativa",
+      "summary280": "En el Día Internacional de la Mujer 2026, Colombia destaca por un aumento del 4,5% en la participación femenina en cursos de IA Generativa, superando a los hombres en tasas de finalización.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/dia-de-la-mujer-2026-colombia-registra-avances-en-participacion-femenina-en-cursos-de-ia-generativa/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/D375YMK46RDWHNOOPVNFQ3B4NY.jpg?auth=be9a1f45a5f512cc4384ecdb2697bdd78bcf4b6aaa449e0c5bf682d1bc8860d0&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Semana política marcada por la guerra de Irán y las elecciones en Castilla y León",
+      "summary280": "La semana política se centra en la guerra en Irán y las elecciones en Castilla y León. España enfrenta evacuaciones y debates sobre el envío de una fragata a Chipre.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/semana-politica-marcada-por-la-guerra-de-iran-y-las-elecciones-en-castilla-y-leon/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
       "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Milei inició su gira por New York con el objetivo político de promover las inversiones privadas en la Argentina",
-      "summary280": "Javier Milei comenzó su gira en Nueva York para promover inversiones en Argentina, tras fortalecer la relación con Trump en Miami. Participará en eventos clave, incluyendo Argentina Week 2026 y una reunión con Jamie Dimon.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/politica/2026/03/08/milei-inicio-su-gira-por-new-york-con-el-objetivo-politico-de-promover-las-inversiones-privadas-en-la-argentina/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WSH76AQ2ZBHCHLWRKH2VMH52RY.jpg?auth=a3fb8ccd663761e1f38eb244e5df4931de58535e60d53b4274935d0025f8bb91&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -149,15 +149,6 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Maíllo (IU) acusa a Feijóo de \"irresponsable\" y \"belicista\" en un intento de salir del \"efecto pánico\" con Vox",
-      "summary280": "Antonio Maíllo, de Izquierda Unida, criticó a Alberto Núñez Feijóo por su postura \"irresponsable\" y \"belicista\", argumentando que el Gobierno español defiende la paz en un contexto complejo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/maillo-iu-acusa-a-feijoo-de-irresponsable-y-belicista-en-un-intento-de-salir-del-efecto-panico-con-vox/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/Z7HN2GTXKBD6HKLUPHKRCSXTRQ.jpg?auth=576cac620fd29649f121cdf4cc24e3e04207537a82fad4fd0f052f696ad27cf7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
       "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
       "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
       "sourceName": "BBC News Mundo",
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Milei inició su gira por New York con el objetivo político de promover las inversiones privadas en la Argentina",
+      "summary280": "Javier Milei comenzó su gira en Nueva York para promover inversiones en Argentina, tras fortalecer la relación con Trump en Miami. Participará en eventos clave, incluyendo Argentina Week 2026 y una reunión con Jamie Dimon.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/08/milei-inicio-su-gira-por-new-york-con-el-objetivo-politico-de-promover-las-inversiones-privadas-en-la-argentina/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WSH76AQ2ZBHCHLWRKH2VMH52RY.jpg?auth=a3fb8ccd663761e1f38eb244e5df4931de58535e60d53b4274935d0025f8bb91&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Maíllo (IU) acusa a Feijóo de \"irresponsable\" y \"belicista\" en un intento de salir del \"efecto pánico\" con Vox",
+      "summary280": "Antonio Maíllo, de Izquierda Unida, criticó a Alberto Núñez Feijóo por su postura \"irresponsable\" y \"belicista\", argumentando que el Gobierno español defiende la paz en un contexto complejo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/maillo-iu-acusa-a-feijoo-de-irresponsable-y-belicista-en-un-intento-de-salir-del-efecto-panico-con-vox/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Z7HN2GTXKBD6HKLUPHKRCSXTRQ.jpg?auth=576cac620fd29649f121cdf4cc24e3e04207537a82fad4fd0f052f696ad27cf7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Irán no puede derrotar a EE.UU. militarmente, pero así es como sus líderes planean sobrevivir",
       "summary280": "Irán no puede derrotar militarmente a EE.UU. o Israel, pero su estrategia se centra en prolongar el conflicto y desgastar a sus oponentes.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg134vn8e5o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e9f8/live/d20ca780-18e8-11f1-8be4-df5fb30ee14c.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Insólito: Oscar Piastri chocó su McLaren en la vuelta de salida y no correrá el Gran Premio de Australia de Fórmula 1",
-      "summary280": "Oscar Piastri chocó su McLaren en la vuelta de salida del Gran Premio de Australia, lo que le impide competir en la primera carrera de la temporada 2026. El accidente ocurrió al perder el control en la curva 4, dejando su monoplaza dañado.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/deportes/2026/03/08/insolito-oscar-piastri-choco-su-mclaren-en-la-vuelta-de-salida-y-no-correra-el-gran-premio-de-australia-de-formula-1/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/W6ZD7B4O3FCAFGT2BE6TVBDSAE.jpg?auth=d98f473d11fc4ec604794a99fbb21766e77106361ca69c1a3a278651fc947ec7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
