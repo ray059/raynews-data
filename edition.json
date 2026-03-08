@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "08 de marzo de 2026",
-  "generated_at": "2026-03-08T01:38:32.370009-05:00",
+  "generated_at": "2026-03-08T02:28:58.619697-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Maíllo (IU) acusa a Feijóo de \"irresponsable\" y \"belicista\" en un intento de salir del \"efecto pánico\" con Vox",
-      "summary280": "Antonio Maíllo, de Izquierda Unida, criticó a Alberto Núñez Feijóo por su postura \"irresponsable\" y \"belicista\", argumentando que el Gobierno español defiende la paz en un contexto complejo.",
+      "titleOriginal": "Milei inició su gira por New York con el objetivo político de promover las inversiones privadas en la Argentina",
+      "summary280": "Javier Milei comenzó su gira en Nueva York para promover inversiones en Argentina, tras fortalecer la relación con Trump en Miami. Participará en eventos clave, incluyendo Argentina Week 2026 y una reunión con Jamie Dimon.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/maillo-iu-acusa-a-feijoo-de-irresponsable-y-belicista-en-un-intento-de-salir-del-efecto-panico-con-vox/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/Z7HN2GTXKBD6HKLUPHKRCSXTRQ.jpg?auth=576cac620fd29649f121cdf4cc24e3e04207537a82fad4fd0f052f696ad27cf7&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/08/milei-inicio-su-gira-por-new-york-con-el-objetivo-politico-de-promover-las-inversiones-privadas-en-la-argentina/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WSH76AQ2ZBHCHLWRKH2VMH52RY.jpg?auth=a3fb8ccd663761e1f38eb244e5df4931de58535e60d53b4274935d0025f8bb91&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Maíllo (IU) acusa a Feijóo de \"irresponsable\" y \"belicista\" en un intento de salir del \"efecto pánico\" con Vox",
+      "summary280": "Antonio Maíllo, de Izquierda Unida, criticó a Alberto Núñez Feijóo por su postura \"irresponsable\" y \"belicista\", argumentando que el Gobierno español defiende la paz en un contexto complejo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/maillo-iu-acusa-a-feijoo-de-irresponsable-y-belicista-en-un-intento-de-salir-del-efecto-panico-con-vox/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Z7HN2GTXKBD6HKLUPHKRCSXTRQ.jpg?auth=576cac620fd29649f121cdf4cc24e3e04207537a82fad4fd0f052f696ad27cf7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Insólito: Oscar Piastri chocó su McLaren en la vuelta de salida y no correrá el Gran Premio de Australia de Fórmula 1",
       "summary280": "Oscar Piastri chocó su McLaren en la vuelta de salida del Gran Premio de Australia, lo que le impide competir en la primera carrera de la temporada 2026. El accidente ocurrió al perder el control en la curva 4, dejando su monoplaza dañado.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/08/insolito-oscar-piastri-choco-su-mclaren-en-la-vuelta-de-salida-y-no-correra-el-gran-premio-de-australia-de-formula-1/",
       "imageUrl": "https://www.infobae.com/resizer/v2/W6ZD7B4O3FCAFGT2BE6TVBDSAE.jpg?auth=d98f473d11fc4ec604794a99fbb21766e77106361ca69c1a3a278651fc947ec7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Procesan a “El Lexus”, líder del Cártel del Golfo detenido en Tamaulipas",
-      "summary280": "Antonio Guadalupe “N”, alias “El Lexus”, líder del Cártel del Golfo, fue procesado tras su detención en Matamoros junto a ocho miembros de su grupo. Enfrenta cargos por portación de armas y posesión de metanfetamina.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/08/procesan-a-el-lexus-lider-del-cartel-del-golfo-detenido-en-tamaulipas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/E4SYHCBWERDWDP3KUWLZOAIZAY.jpg?auth=1c069dea1320fd274c6f73f2e39b85e37dc13fe0ce4667485989c789325fd50d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Procesan a “El Lexus”, líder del Cártel del Golfo detenido en Tamaulipas",
+      "summary280": "Antonio Guadalupe “N”, alias “El Lexus”, líder del Cártel del Golfo, fue procesado tras su detención en Matamoros junto a ocho miembros de su grupo. Enfrenta cargos por portación de armas y posesión de metanfetamina.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/08/procesan-a-el-lexus-lider-del-cartel-del-golfo-detenido-en-tamaulipas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/E4SYHCBWERDWDP3KUWLZOAIZAY.jpg?auth=1c069dea1320fd274c6f73f2e39b85e37dc13fe0ce4667485989c789325fd50d&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "México vs Brasil Femenil EN VIVO: la Selección Mexicana se enfrenta a la canarinha en el Estadio Ciudad de los Deportes",
       "summary280": "México se enfrenta a Brasil en un amistoso en el Estadio Ciudad de los Deportes. En los primeros minutos, Brasil falla un tiro de esquina y México recibe un penalti tras revisión del VAR, pero la arquera brasileña Letícia lo ataja. El partido ya ha comenzado.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/07/mexico-vs-brasil-femenil-en-vivo-la-seleccion-mexicana-se-enfrenta-a-la-canarinha-en-el-estadio-ciudad-de-los-deportes/",
       "imageUrl": "https://www.infobae.com/resizer/v2/BIXPLSH7JRAQDNLREW7NMYPSD4.jpg?auth=ce0eb6efced70571ea9d8437299ec9cba1f254b3bc9c7640d5a4136815b8ef11&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Choque de aspirantes; las Palmas y el Ceuta a por la lucha por el playoff de ascenso",
-      "summary280": "La UD Las Palmas y AD Ceuta FC se enfrentarán el domingo en Gran Canaria, buscando consolidar sus recientes buenos resultados.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/choque-de-aspirantes-las-palmas-y-el-ceuta-a-por-la-lucha-por-el-playoff-de-ascenso/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
-      "titleOriginal": "Manifestantes en México prenden fuego al dios Baal y exigen la paz en Oriente Medio",
-      "summary280": "Activistas en México quemaron una figura del dios Baal cerca de la embajada de EE.UU. para exigir el fin de la guerra en Oriente Medio. La protesta, organizada por la comunidad iraní, también conmemoró al líder supremo Ali Jameneí, fallecido en bombardeos.",
+      "titleOriginal": "Choque de aspirantes; las Palmas y el Ceuta a por la lucha por el playoff de ascenso",
+      "summary280": "La UD Las Palmas y AD Ceuta FC se enfrentarán el domingo en Gran Canaria, buscando consolidar sus recientes buenos resultados.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/manifestantes-en-mexico-prenden-fuego-al-dios-baal-y-exigen-la-paz-en-oriente-medio/",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/07/choque-de-aspirantes-las-palmas-y-el-ceuta-a-por-la-lucha-por-el-playoff-de-ascenso/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
     {
-      "titleOriginal": "Gobierno de la CDMX reporta la reducción del 35% del delito de feminicidio",
-      "summary280": "La Jefa de Gobierno de la CDMX, Clara Brugada, anunció una reducción del 35% en feminicidios en 2025 y destacó que el 95% de los responsables tienen órdenes de aprehensión.",
+      "titleOriginal": "Manifestantes en México prenden fuego al dios Baal y exigen la paz en Oriente Medio",
+      "summary280": "Activistas en México quemaron una figura del dios Baal cerca de la embajada de EE.UU. para exigir el fin de la guerra en Oriente Medio. La protesta, organizada por la comunidad iraní, también conmemoró al líder supremo Ali Jameneí, fallecido en bombardeos.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/07/gobierno-de-la-cdmx-reporta-la-reduccion-del-35-del-delito-de-feminicidio/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/U7CRULGNFNGL7NKEK4M2HFTGTA.jpg?auth=c95ac85682dc41802480eb1f46951955d5b27e2475b860fa5e3b8b51c82e4238&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/07/manifestantes-en-mexico-prenden-fuego-al-dios-baal-y-exigen-la-paz-en-oriente-medio/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
