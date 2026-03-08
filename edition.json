@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "08 de marzo de 2026",
-  "generated_at": "2026-03-08T12:20:04.490033-05:00",
+  "generated_at": "2026-03-08T13:29:27.451863-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "El equipo del Real Club Marítimo del Abra gana la EKP Women's Cup de Getxo",
-      "summary280": "El Real Club Marítimo del Abra ganó la EKP Women's Cup de J80, primera prueba de la Liga Iberdrola 2026, en Getxo. La tripulación, liderada por Carmen Galdós, se impuso en la 'medal race'.",
+      "titleOriginal": "Registran combates entre el Ejército y el Clan del Golfo en zona rural de Yondó durante la jornada electoral del 8 de marzo",
+      "summary280": "El 8 de marzo, se registraron combates entre el Ejército y el Clan del Golfo en Yondó, durante las elecciones. Aunque no hubo interrupciones en los puestos de votación, la situación humanitaria se agrava con desplazamientos masivos de comunidades.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/el-equipo-del-real-club-maritimo-del-abra-gana-la-ekp-womens-cup-de-getxo/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/registran-conbates-entre-el-ejercito-y-el-clan-del-golfo-en-zona-rural-de-yondo-durante-la-jornada-electoral-del-8-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/T5EWBXPHEVF5PMCWGL4AO6KTHM.jpg?auth=3b4dc61d508fa29bbd69e7d7e4a04c410ee9cbc12a2f79417192a119b482fb8e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El equipo del Real Club Marítimo del Abra gana la EKP Women's Cup de Getxo",
+      "summary280": "El Real Club Marítimo del Abra ganó la EKP Women's Cup de J80, primera prueba de la Liga Iberdrola 2026, en Getxo. La tripulación, liderada por Carmen Galdós, se impuso en la 'medal race'.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/el-equipo-del-real-club-maritimo-del-abra-gana-la-ekp-womens-cup-de-getxo/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Bad Bunny hizo cantar en español a japoneses durante su concierto exclusivo en Tokio",
       "summary280": "Bad Bunny ofreció un concierto exclusivo en Tokio, donde un público japonés coreó en español sus éxitos. El evento, parte del ciclo Billions Club de Spotify, celebró su música y la conexión entre culturas.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/08/bad-bunny-hizo-cantar-en-espanol-a-japoneses-durante-su-concierto-exclusivo-en-tokio/",
       "imageUrl": "https://www.infobae.com/resizer/v2/T4F5YMTQHZCSVGFUZEM2EHIF24.jpg?auth=80d755710720966627ef2ae0f9e7419bc3d190deb2d513857577c11960b681c4&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Feijóo descarta que el futuro de Castilla y León se pueda decidir en \"despachos de Madrid\"",
-      "summary280": "Alberto Núñez Feijóo, presidente del PP, afirmó que el futuro de Castilla y León debe decidirse por sus habitantes y no desde \"despachos de Madrid\". Criticó a Vox y al PSOE por su inestabilidad y llamó a votar al PP en las elecciones del 15 de marzo para gobernar en solitario.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/feijoo-descarta-que-el-futuro-de-castilla-y-leon-se-pueda-decidir-en-despachos-de-madrid/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Feijóo descarta que el futuro de Castilla y León se pueda decidir en \"despachos de Madrid\"",
+      "summary280": "Alberto Núñez Feijóo, presidente del PP, afirmó que el futuro de Castilla y León debe decidirse por sus habitantes y no desde \"despachos de Madrid\". Criticó a Vox y al PSOE por su inestabilidad y llamó a votar al PP en las elecciones del 15 de marzo para gobernar en solitario.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/feijoo-descarta-que-el-futuro-de-castilla-y-leon-se-pueda-decidir-en-despachos-de-madrid/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Día Internacional de la Mujer: Dra. María Isabel Rodríguez pionera en la salud pública salvadoreña",
       "summary280": "El Día Internacional de la Mujer resalta la trayectoria de la Dra. María Isabel Rodríguez, pionera en salud pública en El Salvador. Graduada en 1948, fue la segunda mujer en medicina en la UES y primera ministra de salud.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/08/dia-internacional-de-la-mujer-dra-maria-isabel-rodriguez-pionera-en-la-salud-publica-salvadorena/",
       "imageUrl": "https://www.infobae.com/resizer/v2/LI7HHIIPTRE6BATL7ISNBJJ6DA.jpg?auth=50d46f64d17d1a93c50b8cd05f389e624328c6cb712a4515d54f9af734d39d22&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La AFE reclama de nuevo la inclusión permanente de partidos de la LigaF en La Quiniela",
-      "summary280": "La AFE reclama la inclusión permanente de partidos de la Liga F en La Quiniela, destacando que lleva más de siete años en esta lucha por visibilidad y recursos para el fútbol femenino.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/la-afe-reclama-de-nuevo-la-inclusion-permanente-de-partidos-de-la-ligaf-en-la-quiniela/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "La AFE reclama de nuevo la inclusión permanente de partidos de la LigaF en La Quiniela",
+      "summary280": "La AFE reclama la inclusión permanente de partidos de la Liga F en La Quiniela, destacando que lleva más de siete años en esta lucha por visibilidad y recursos para el fútbol femenino.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/la-afe-reclama-de-nuevo-la-inclusion-permanente-de-partidos-de-la-ligaf-en-la-quiniela/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Día de la Mujer 2026: Colombia registra avances en participación femenina en cursos de IA Generativa",
       "summary280": "En el Día Internacional de la Mujer 2026, Colombia destaca por un aumento del 4,5% en la participación femenina en cursos de IA Generativa, superando a los hombres en tasas de finalización.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/dia-de-la-mujer-2026-colombia-registra-avances-en-participacion-femenina-en-cursos-de-ia-generativa/",
       "imageUrl": "https://www.infobae.com/resizer/v2/D375YMK46RDWHNOOPVNFQ3B4NY.jpg?auth=be9a1f45a5f512cc4384ecdb2697bdd78bcf4b6aaa449e0c5bf682d1bc8860d0&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Semana política marcada por la guerra de Irán y las elecciones en Castilla y León",
-      "summary280": "La semana política se centra en la guerra en Irán y las elecciones en Castilla y León. España enfrenta evacuaciones y debates sobre el envío de una fragata a Chipre.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/semana-politica-marcada-por-la-guerra-de-iran-y-las-elecciones-en-castilla-y-leon/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
