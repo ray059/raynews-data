@@ -1,14 +1,14 @@
 {
   "api_version": 3,
   "edition_date": "08 de marzo de 2026",
-  "generated_at": "2026-03-08T15:22:04.547695-05:00",
+  "generated_at": "2026-03-08T16:20:23.343156-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Más de 500.000 personas se registran como desplazadas con las autoridades libanesas",
-      "summary280": "Más de 517.000 personas se han registrado como desplazadas en Líbano debido a los bombardeos israelíes, con más de 117.000 alojadas en centros educativos. La situación es crítica, ya que muchas familias viven en la calle o en vehículos. La crisis humanitaria sigue en aumento.",
+      "titleOriginal": "Inicia en Ecuador juicio contra alcalde de Guayaquil por comercio ilegal de combustibles",
+      "summary280": "Un tribunal de Ecuador inició el juicio contra el alcalde de Guayaquil, Aquiles Alvarez, y 15 personas más por comercio ilegal de combustibles. Alvarez, en prisión desde febrero por otro caso, enfrenta acusaciones de manipulación y defraudación tributaria.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/mas-de-500000-personas-se-registran-como-desplazadas-con-las-autoridades-libanesas/",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/inicia-en-ecuador-juicio-contra-alcalde-de-guayaquil-por-comercio-ilegal-de-combustibles/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": true
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Más de 500.000 personas se registran como desplazadas con las autoridades libanesas",
+      "summary280": "Más de 517.000 personas se han registrado como desplazadas en Líbano debido a los bombardeos israelíes, con más de 117.000 alojadas en centros educativos. La situación es crítica, ya que muchas familias viven en la calle o en vehículos. La crisis humanitaria sigue en aumento.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/mas-de-500000-personas-se-registran-como-desplazadas-con-las-autoridades-libanesas/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Suprema Corte: Yasmín Esquivel afirma que seguirá alzando la voz contra la violencia y la discriminación",
       "summary280": "Yasmín Esquivel, ministra de la SCJN, reafirmó su compromiso contra la violencia y discriminación en el evento “Avances, retos y liderazgo de las mujeres en la sociedad actual”.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/08/suprema-corte-yasmin-esquivel-afirma-que-seguira-alzando-la-voz-contra-la-violencia-y-la-discriminacion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/BCTKHW7GCFCOJKEWKAQGSQIG24.png?auth=5d6f8712525ad48b9c974238232cf1f6ec7392a390109bc128cbf580468027ab&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Registran combates entre el Ejército y el Clan del Golfo en zona rural de Yondó durante la jornada electoral del 8 de marzo",
-      "summary280": "El 8 de marzo, se registraron combates entre el Ejército y el Clan del Golfo en Yondó, durante las elecciones. Aunque no hubo interrupciones en los puestos de votación, la situación humanitaria se agrava con desplazamientos masivos de comunidades.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/registran-conbates-entre-el-ejercito-y-el-clan-del-golfo-en-zona-rural-de-yondo-durante-la-jornada-electoral-del-8-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/T5EWBXPHEVF5PMCWGL4AO6KTHM.jpg?auth=3b4dc61d508fa29bbd69e7d7e4a04c410ee9cbc12a2f79417192a119b482fb8e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Registran combates entre el Ejército y el Clan del Golfo en zona rural de Yondó durante la jornada electoral del 8 de marzo",
+      "summary280": "El 8 de marzo, se registraron combates entre el Ejército y el Clan del Golfo en Yondó, durante las elecciones. Aunque no hubo interrupciones en los puestos de votación, la situación humanitaria se agrava con desplazamientos masivos de comunidades.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/registran-conbates-entre-el-ejercito-y-el-clan-del-golfo-en-zona-rural-de-yondo-durante-la-jornada-electoral-del-8-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/T5EWBXPHEVF5PMCWGL4AO6KTHM.jpg?auth=3b4dc61d508fa29bbd69e7d7e4a04c410ee9cbc12a2f79417192a119b482fb8e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El equipo del Real Club Marítimo del Abra gana la EKP Women's Cup de Getxo",
       "summary280": "El Real Club Marítimo del Abra ganó la EKP Women's Cup de J80, primera prueba de la Liga Iberdrola 2026, en Getxo. La tripulación, liderada por Carmen Galdós, se impuso en la 'medal race'.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/el-equipo-del-real-club-maritimo-del-abra-gana-la-ekp-womens-cup-de-getxo/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Bad Bunny hizo cantar en español a japoneses durante su concierto exclusivo en Tokio",
-      "summary280": "Bad Bunny ofreció un concierto exclusivo en Tokio, donde un público japonés coreó en español sus éxitos. El evento, parte del ciclo Billions Club de Spotify, celebró su música y la conexión entre culturas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/08/bad-bunny-hizo-cantar-en-espanol-a-japoneses-durante-su-concierto-exclusivo-en-tokio/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/T4F5YMTQHZCSVGFUZEM2EHIF24.jpg?auth=80d755710720966627ef2ae0f9e7419bc3d190deb2d513857577c11960b681c4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Bad Bunny hizo cantar en español a japoneses durante su concierto exclusivo en Tokio",
+      "summary280": "Bad Bunny ofreció un concierto exclusivo en Tokio, donde un público japonés coreó en español sus éxitos. El evento, parte del ciclo Billions Club de Spotify, celebró su música y la conexión entre culturas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/entretenimiento/2026/03/08/bad-bunny-hizo-cantar-en-espanol-a-japoneses-durante-su-concierto-exclusivo-en-tokio/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/T4F5YMTQHZCSVGFUZEM2EHIF24.jpg?auth=80d755710720966627ef2ae0f9e7419bc3d190deb2d513857577c11960b681c4&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Feijóo descarta que el futuro de Castilla y León se pueda decidir en \"despachos de Madrid\"",
       "summary280": "Alberto Núñez Feijóo, presidente del PP, afirmó que el futuro de Castilla y León debe decidirse por sus habitantes y no desde \"despachos de Madrid\". Criticó a Vox y al PSOE por su inestabilidad y llamó a votar al PP en las elecciones del 15 de marzo para gobernar en solitario.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/feijoo-descarta-que-el-futuro-de-castilla-y-leon-se-pueda-decidir-en-despachos-de-madrid/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Día Internacional de la Mujer: Dra. María Isabel Rodríguez pionera en la salud pública salvadoreña",
-      "summary280": "El Día Internacional de la Mujer resalta la trayectoria de la Dra. María Isabel Rodríguez, pionera en salud pública en El Salvador. Graduada en 1948, fue la segunda mujer en medicina en la UES y primera ministra de salud.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/el-salvador/2026/03/08/dia-internacional-de-la-mujer-dra-maria-isabel-rodriguez-pionera-en-la-salud-publica-salvadorena/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/LI7HHIIPTRE6BATL7ISNBJJ6DA.jpg?auth=50d46f64d17d1a93c50b8cd05f389e624328c6cb712a4515d54f9af734d39d22&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
