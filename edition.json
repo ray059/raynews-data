@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "09 de marzo de 2026",
-  "generated_at": "2026-03-09T06:32:53.900430-05:00",
+  "generated_at": "2026-03-09T07:55:43.668436-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
+      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
       "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Vasco Madueño llora al hablar de su madre y su reconciliación con Guillermo Dávila: “Se fue en paz”",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/09/vasco-madueno-llora-al-hablar-de-su-madre-y-su-reconciliacion-con-guillermo-davila-se-fue-en-paz/",
       "imageUrl": "https://www.infobae.com/resizer/v2/6O33FNSNMFALNN6LOY4BGXVTHQ.jpg?auth=f138911046a401f2c19e40194b254c7366c7ff49b05292eb1144fe9b94ca8d23&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
-      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
-      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
+      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
+      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
       "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/09/lucas-bochides-argentino-que-ha-conseguido-la-nacionalidad-espanola-emigrar-no-es-facil-te-sientes-muy-solo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DRU66ZU4OBC7VFNLDC4RTT73YY.png?auth=c995d7a6815bc87ebd9b0e647136217dee0791a496cd341269089c2952f4efaa&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
-      "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
-      "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
+      "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
+      "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
       "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/angela-aguilar-se-pronuncia-sobre-el-8m-y-critica-ataques-entre-mujeres-en-redes-aplaudimos-cuando-una-es-humillada/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HWN26TT6SBCCVEKZP5ZVU54BFM.jpg?auth=8623f78ae1eaeed465e3c8de27fa04f69a5f67625f287747aab85329cd2498c3&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
-      "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así operaba una banda de ‘Falsos Pastores’ en el Caribe: sus víctimas eran, en su mayoría, adultos mayores, a quienes despojaban de joyas y dinero",
-      "summary280": "Una banda de 'Falsos Pastores' en el Caribe estafaba a adultos mayores, despojándolos de joyas y dinero. Utilizaban manipulación psicológica y habilidades manuales para llevar a cabo sus delitos. Las víctimas eran principalmente personas vulnerables.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-operaba-una-banda-de-falsos-pastores-en-bolivar-sus-victimas-eran-en-su-mayoria-adultos-mayores-a-quienes-despojaban-de-joyas-y-dinero-3537888",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/06/69aaf71b901fa.r_d.621-308-0.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
+      "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Así operaba una banda de ‘Falsos Pastores’ en el Caribe: sus víctimas eran, en su mayoría, adultos mayores, a quienes despojaban de joyas y dinero",
+      "summary280": "Una banda de 'Falsos Pastores' en el Caribe estafaba a adultos mayores, despojándolos de joyas y dinero. Utilizaban manipulación psicológica y habilidades manuales para llevar a cabo sus delitos. Las víctimas eran principalmente personas vulnerables.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/asi-operaba-una-banda-de-falsos-pastores-en-bolivar-sus-victimas-eran-en-su-mayoria-adultos-mayores-a-quienes-despojaban-de-joyas-y-dinero-3537888",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/06/69aaf71b901fa.r_d.621-308-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
       "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El círculo rojo se muda a Nueva York y hasta la UIA estará presente: quiénes son los empresarios locales que asistirán la Argentina Week",
-      "summary280": "El Gobierno de Javier Milei presenta la Argentina Week en Nueva York, buscando atraer inversiones. Más de 400 empresarios, incluidos 200 CEOs, asistirán al evento organizado por JP Morgan y otros.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/economia/2026/03/09/el-circulo-rojo-se-muda-a-nueva-york-y-hasta-la-uia-estara-presente-quienes-son-los-empresarios-locales-que-asistiran-la-argentina-week/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/FDPEKC7QBJHZ7INYS65LVGKVQM.png?auth=950de5a583bdc27c137100b846343b9e196d97e6649ac84e38ba757ed3518430&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
