@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "09 de marzo de 2026",
-  "generated_at": "2026-03-09T05:41:51.192196-05:00",
+  "generated_at": "2026-03-09T06:32:53.900430-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
+      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Vasco Madueño llora al hablar de su madre y su reconciliación con Guillermo Dávila: “Se fue en paz”",
       "summary280": "Vasco Madueño se emocionó al hablar de su madre, Jessica, y su reconciliación con Guillermo Dávila, su padre. Recordó cómo su madre, antes de fallecer, pudo verlos juntos, lo que le dio paz. Para Vasco, esa reconciliación fue el mayor regalo que pudo ofrecerle en su vida.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/09/vasco-madueno-llora-al-hablar-de-su-madre-y-su-reconciliacion-con-guillermo-davila-se-fue-en-paz/",
       "imageUrl": "https://www.infobae.com/resizer/v2/6O33FNSNMFALNN6LOY4BGXVTHQ.jpg?auth=f138911046a401f2c19e40194b254c7366c7ff49b05292eb1144fe9b94ca8d23&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
-      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
-      "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
+      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
+      "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Lucas Bochides, argentino que ha conseguido la nacionalidad española: “Emigrar no es fácil, te sientes muy solo”",
       "summary280": "Lucas Bochides, un argentino que ha obtenido la nacionalidad española, comparte su experiencia migratoria en TikTok. Destaca las dificultades del proceso, como la soledad y el papeleo, pero también el crecimiento personal y la gratitud por la nueva oportunidad en España.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
-      "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
-      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
+      "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
+      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Ángela Aguilar se pronuncia sobre el 8M y critica ataques entre mujeres: “En redes aplaudimos cuando una es humillada”",
       "summary280": "Ángela Aguilar se pronunció en Instagram sobre el 8M, criticando las agresiones digitales entre mujeres y la hipocresía en la defensa de la igualdad.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
-      "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
-      "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
+      "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"La Casa Blanca de invierno\": cómo Trump convirtió a Miami y el sur de Florida en un nuevo centro del poder político de EE.UU.",
+      "summary280": "Donald Trump ha transformado Miami y el sur de Florida en un nuevo centro de poder político, utilizando su residencia Mar-a-Lago como \"Casa Blanca de invierno\".",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c043px63e0no?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/d84e/live/aa5481b0-1819-11f1-8ff3-d5f5110756d9.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El círculo rojo se muda a Nueva York y hasta la UIA estará presente: quiénes son los empresarios locales que asistirán la Argentina Week",
       "summary280": "El Gobierno de Javier Milei presenta la Argentina Week en Nueva York, buscando atraer inversiones. Más de 400 empresarios, incluidos 200 CEOs, asistirán al evento organizado por JP Morgan y otros.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/economia/2026/03/09/el-circulo-rojo-se-muda-a-nueva-york-y-hasta-la-uia-estara-presente-quienes-son-los-empresarios-locales-que-asistiran-la-argentina-week/",
       "imageUrl": "https://www.infobae.com/resizer/v2/FDPEKC7QBJHZ7INYS65LVGKVQM.png?auth=950de5a583bdc27c137100b846343b9e196d97e6649ac84e38ba757ed3518430&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
-      "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
       "type": "explainer",
       "isNew": false
     }
