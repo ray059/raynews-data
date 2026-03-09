@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "08 de marzo de 2026",
-  "generated_at": "2026-03-08T20:52:33.101900-05:00",
+  "generated_at": "2026-03-08T23:14:34.301024-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "El círculo rojo se muda a Nueva York y hasta la UIA estará presente: quiénes son los empresarios locales que asistirán la Argentina Week",
+      "summary280": "El Gobierno de Javier Milei presenta la Argentina Week en Nueva York, buscando atraer inversiones. Más de 400 empresarios, incluidos 200 CEOs, asistirán al evento organizado por JP Morgan y otros.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/economia/2026/03/09/el-circulo-rojo-se-muda-a-nueva-york-y-hasta-la-uia-estara-presente-quienes-son-los-empresarios-locales-que-asistiran-la-argentina-week/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/FDPEKC7QBJHZ7INYS65LVGKVQM.png?auth=950de5a583bdc27c137100b846343b9e196d97e6649ac84e38ba757ed3518430&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
       "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Muriqi se acerca a cinco goles del liderato de Mbappé",
-      "summary280": "Vedaq Muriqi, con 18 goles, se acerca a Kylian Mbappé, líder con 23, tras anotar dos tantos en el 2-2 entre Mallorca y Osasuna. Lamine Yamal, con 14 goles, y otros jugadores como Budimir y Oyarzabal también destacan en la tabla de goleadores. La competencia se intensifica.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/muriqi-se-acerca-a-cinco-goles-del-liderato-de-mbappe/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Inicia en Ecuador juicio contra alcalde de Guayaquil por comercio ilegal de combustibles",
-      "summary280": "Un tribunal de Ecuador inició el juicio contra el alcalde de Guayaquil, Aquiles Alvarez, y 15 personas más por comercio ilegal de combustibles. Alvarez, en prisión desde febrero por otro caso, enfrenta acusaciones de manipulación y defraudación tributaria.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/inicia-en-ecuador-juicio-contra-alcalde-de-guayaquil-por-comercio-ilegal-de-combustibles/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Muriqi se acerca a cinco goles del liderato de Mbappé",
+      "summary280": "Vedaq Muriqi, con 18 goles, se acerca a Kylian Mbappé, líder con 23, tras anotar dos tantos en el 2-2 entre Mallorca y Osasuna. Lamine Yamal, con 14 goles, y otros jugadores como Budimir y Oyarzabal también destacan en la tabla de goleadores. La competencia se intensifica.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/muriqi-se-acerca-a-cinco-goles-del-liderato-de-mbappe/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Inicia en Ecuador juicio contra alcalde de Guayaquil por comercio ilegal de combustibles",
+      "summary280": "Un tribunal de Ecuador inició el juicio contra el alcalde de Guayaquil, Aquiles Alvarez, y 15 personas más por comercio ilegal de combustibles. Alvarez, en prisión desde febrero por otro caso, enfrenta acusaciones de manipulación y defraudación tributaria.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/inicia-en-ecuador-juicio-contra-alcalde-de-guayaquil-por-comercio-ilegal-de-combustibles/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
       "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Más de 500.000 personas se registran como desplazadas con las autoridades libanesas",
-      "summary280": "Más de 517.000 personas se han registrado como desplazadas en Líbano debido a los bombardeos israelíes, con más de 117.000 alojadas en centros educativos. La situación es crítica, ya que muchas familias viven en la calle o en vehículos. La crisis humanitaria sigue en aumento.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/mas-de-500000-personas-se-registran-como-desplazadas-con-las-autoridades-libanesas/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Suprema Corte: Yasmín Esquivel afirma que seguirá alzando la voz contra la violencia y la discriminación",
-      "summary280": "Yasmín Esquivel, ministra de la SCJN, reafirmó su compromiso contra la violencia y discriminación en el evento “Avances, retos y liderazgo de las mujeres en la sociedad actual”.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/08/suprema-corte-yasmin-esquivel-afirma-que-seguira-alzando-la-voz-contra-la-violencia-y-la-discriminacion/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/BCTKHW7GCFCOJKEWKAQGSQIG24.png?auth=5d6f8712525ad48b9c974238232cf1f6ec7392a390109bc128cbf580468027ab&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Más de 500.000 personas se registran como desplazadas con las autoridades libanesas",
+      "summary280": "Más de 517.000 personas se han registrado como desplazadas en Líbano debido a los bombardeos israelíes, con más de 117.000 alojadas en centros educativos. La situación es crítica, ya que muchas familias viven en la calle o en vehículos. La crisis humanitaria sigue en aumento.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/08/mas-de-500000-personas-se-registran-como-desplazadas-con-las-autoridades-libanesas/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Suprema Corte: Yasmín Esquivel afirma que seguirá alzando la voz contra la violencia y la discriminación",
+      "summary280": "Yasmín Esquivel, ministra de la SCJN, reafirmó su compromiso contra la violencia y discriminación en el evento “Avances, retos y liderazgo de las mujeres en la sociedad actual”.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/08/suprema-corte-yasmin-esquivel-afirma-que-seguira-alzando-la-voz-contra-la-violencia-y-la-discriminacion/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/BCTKHW7GCFCOJKEWKAQGSQIG24.png?auth=5d6f8712525ad48b9c974238232cf1f6ec7392a390109bc128cbf580468027ab&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
       "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Registran combates entre el Ejército y el Clan del Golfo en zona rural de Yondó durante la jornada electoral del 8 de marzo",
-      "summary280": "El 8 de marzo, se registraron combates entre el Ejército y el Clan del Golfo en Yondó, durante las elecciones. Aunque no hubo interrupciones en los puestos de votación, la situación humanitaria se agrava con desplazamientos masivos de comunidades.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/registran-conbates-entre-el-ejercito-y-el-clan-del-golfo-en-zona-rural-de-yondo-durante-la-jornada-electoral-del-8-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/T5EWBXPHEVF5PMCWGL4AO6KTHM.jpg?auth=3b4dc61d508fa29bbd69e7d7e4a04c410ee9cbc12a2f79417192a119b482fb8e&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El equipo del Real Club Marítimo del Abra gana la EKP Women's Cup de Getxo",
-      "summary280": "El Real Club Marítimo del Abra ganó la EKP Women's Cup de J80, primera prueba de la Liga Iberdrola 2026, en Getxo. La tripulación, liderada por Carmen Galdós, se impuso en la 'medal race'.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/el-equipo-del-real-club-maritimo-del-abra-gana-la-ekp-womens-cup-de-getxo/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Registran combates entre el Ejército y el Clan del Golfo en zona rural de Yondó durante la jornada electoral del 8 de marzo",
+      "summary280": "El 8 de marzo, se registraron combates entre el Ejército y el Clan del Golfo en Yondó, durante las elecciones. Aunque no hubo interrupciones en los puestos de votación, la situación humanitaria se agrava con desplazamientos masivos de comunidades.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/08/registran-conbates-entre-el-ejercito-y-el-clan-del-golfo-en-zona-rural-de-yondo-durante-la-jornada-electoral-del-8-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/T5EWBXPHEVF5PMCWGL4AO6KTHM.jpg?auth=3b4dc61d508fa29bbd69e7d7e4a04c410ee9cbc12a2f79417192a119b482fb8e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El equipo del Real Club Marítimo del Abra gana la EKP Women's Cup de Getxo",
+      "summary280": "El Real Club Marítimo del Abra ganó la EKP Women's Cup de J80, primera prueba de la Liga Iberdrola 2026, en Getxo. La tripulación, liderada por Carmen Galdós, se impuso en la 'medal race'.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/08/el-equipo-del-real-club-maritimo-del-abra-gana-la-ekp-womens-cup-de-getxo/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "¿162 millones de pesos sin papeles? Así la Policía del Valle del Cauca frenó posible compra de votos con operativos en la vía Buenaventura-Buga",
       "summary280": "La Policía del Valle del Cauca detuvo a dos personas en la vía Buenaventura-Buga por transportar de manera irregular 162 millones de pesos en efectivo y joyas, en el contexto del Plan Democracia, para frenar posibles compras de votos.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/162-millones-de-pesos-sin-papeles-asi-la-policia-del-valle-del-cauca-freno-posible-compra-de-votos-con-operativos-en-la-via-buenaventura-buga-3537834",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/06/06/684306b04def7.r_d.2399-1007-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Lo que se sabe del vínculo de Andrés Pastrana con Jeffrey Epstein y Ghislaine Maxwell (y las explicaciones del expresidente de Colombia a BBC Mundo)",
-      "summary280": "Andrés Pastrana, expresidente de Colombia, aparece en documentos del Departamento de Justicia de EE.UU. relacionados con Jeffrey Epstein y Ghislaine Maxwell. Aunque se reunió con ellos en varias ocasiones, Pastrana asegura no haber tenido conocimiento de sus crímenes.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c20487665jvo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/704b/live/8bf98990-1954-11f1-9120-a910fc22c6ac.jpg",
       "type": "explainer",
       "isNew": false
     }
