@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "09 de marzo de 2026",
-  "generated_at": "2026-03-09T11:55:18.754985-05:00",
+  "generated_at": "2026-03-09T12:44:19.069794-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
+      "summary280": "El Pacto Histórico, con la inclusión de Orlando De La Hoz, aumentaría la representación del Atlántico en el Senado de siete a ocho senadores, consolidándose como una fuerza política en el departamento. Esto refleja un crecimiento significativo en su influencia.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
       "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cgmllre9zn7o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9f7c/live/23557e30-198b-11f1-a8c7-d931bb8f99d4.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Estos son los convocados por Croacia para el partido amistoso contra la selección Colombia: Luka Modrić, el más destacado",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/09/estos-son-los-convocados-por-croacia-para-el-partido-amistoso-contra-la-seleccion-colombia-luka-modric-el-mas-destacado/",
       "imageUrl": "https://www.infobae.com/resizer/v2/MLTLUVMNCNAEPEUUKT5OAIN4RU.jpg?auth=6cd91270c9126191ff769856da576075e9e80bef15b414e85f0247db482d7541&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
-      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
-      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
+      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
+      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
       "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/09/vasco-madueno-llora-al-hablar-de-su-madre-y-su-reconciliacion-con-guillermo-davila-se-fue-en-paz/",
       "imageUrl": "https://www.infobae.com/resizer/v2/6O33FNSNMFALNN6LOY4BGXVTHQ.jpg?auth=f138911046a401f2c19e40194b254c7366c7ff49b05292eb1144fe9b94ca8d23&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
-      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
-      "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
+      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
+      "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
       "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/09/lucas-bochides-argentino-que-ha-conseguido-la-nacionalidad-espanola-emigrar-no-es-facil-te-sientes-muy-solo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DRU66ZU4OBC7VFNLDC4RTT73YY.png?auth=c995d7a6815bc87ebd9b0e647136217dee0791a496cd341269089c2952f4efaa&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
-      "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
-      "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
+      "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
+      "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Qué es el Escudo de las Américas, la nueva iniciativa de Trump para el continente que liderará la destituida Kristi Noem",
       "summary280": "Donald Trump ha presentado el Escudo de las Américas, una iniciativa de seguridad para combatir el narcotráfico y la inmigración irregular, liderada por Kristi Noem.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cjrq9j55wnwo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/33c5/live/c83c3810-196f-11f1-a1cd-a71e69f1cf89.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ángela Aguilar se pronuncia sobre el 8M y critica ataques entre mujeres: “En redes aplaudimos cuando una es humillada”",
-      "summary280": "Ángela Aguilar se pronunció en Instagram sobre el 8M, criticando las agresiones digitales entre mujeres y la hipocresía en la defensa de la igualdad.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/angela-aguilar-se-pronuncia-sobre-el-8m-y-critica-ataques-entre-mujeres-en-redes-aplaudimos-cuando-una-es-humillada/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/HWN26TT6SBCCVEKZP5ZVU54BFM.jpg?auth=8623f78ae1eaeed465e3c8de27fa04f69a5f67625f287747aab85329cd2498c3&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
