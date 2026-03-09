@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "09 de marzo de 2026",
-  "generated_at": "2026-03-09T16:30:01.338276-05:00",
+  "generated_at": "2026-03-09T17:25:16.990283-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Fundador del CJNG, El 85, se declarará culpable en EEUU",
-      "summary280": "Erick Valencia Salazar, alias El 85, fundador del CJNG, se declarará culpable de narcotráfico en EE.UU. el 7 de abril, cambiando su declaración anterior de inocente. Este acuerdo podría llevar a una reducción de condena y a convertirse en testigo protegido.",
+      "titleOriginal": "The Mars Volta cancela participación en el Vive Latino 2026 de último minuto",
+      "summary280": "The Mars Volta canceló su participación en el Vive Latino 2026 a pocos días del evento por \"circunstancias imprevistas fuera de su control\". La banda expresó su deseo de regresar pronto a México, mientras los fans reaccionaron con frustración y sugerencias para un reemplazo.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/fundador-del-cjng-el-85-se-declarara-culpable-en-eeuu/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/Z2YLHCKKWRGAZLGNMP4OYWXZ2A.jpg?auth=da306561a9a55f4009ba7b2e26f211a3308545fe964ad337e5e6698ae008dfcb&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/the-mars-volta-cancela-participacion-en-el-vive-latino-2026-de-ultimo-minuto/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KIB2QKC5SFCMJH4MPMRP7QJG5Q.jpg?auth=b164305626b4a9f0d91fc4f4dcb0caf2ba35c3673be87d430227626c837da859&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Fundador del CJNG, El 85, se declarará culpable en EEUU",
+      "summary280": "Erick Valencia Salazar, alias El 85, fundador del CJNG, se declarará culpable de narcotráfico en EE.UU. el 7 de abril, cambiando su declaración anterior de inocente. Este acuerdo podría llevar a una reducción de condena y a convertirse en testigo protegido.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/fundador-del-cjng-el-85-se-declarara-culpable-en-eeuu/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Z2YLHCKKWRGAZLGNMP4OYWXZ2A.jpg?auth=da306561a9a55f4009ba7b2e26f211a3308545fe964ad337e5e6698ae008dfcb&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El hallazgo de dos peces remo en Cabo San Lucas sorprende a turistas y despierta leyendas sobre el fin del mundo",
       "summary280": "Turistas en Cabo San Lucas avistaron dos peces remo, conocidos como \"pez del fin del mundo\", arrastrados a la orilla. Su presencia inusual reavivó leyendas sobre desastres naturales, especialmente en Japón, donde se les considera mensajeros del dios del mar.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/el-hallazgo-de-dos-peces-remo-en-cabo-san-lucas-sorprende-a-turistas-y-despierta-leyendas-sobre-el-fin-del-mundo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/K4UILAJWK5GKPGGBZ3ELYI5HUQ.jpg?auth=e7c47f768390862f9cdff2752f098c4b681410baa22e5540114379abf484460b&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Quiénes quedan exentos de solicitar una Visa turista para acceder a Estados Unidos",
-      "summary280": "La mayoría de los viajeros extranjeros necesita solicitar una visa de turista para ingresar a EE. UU., excepto quienes están en el Programa de Exención de Visa y usan el sistema ESTA.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/09/quienes-quedan-exentos-de-solicitar-una-visa-turista-para-acceder-a-estados-unidos/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/V3AISMGL6NG5FFLU3LWHDNO7WU.png?auth=c1a63b4da043967bdcc9ce2021458079de04837f52163b114d898f994403de4e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Quiénes quedan exentos de solicitar una Visa turista para acceder a Estados Unidos",
+      "summary280": "La mayoría de los viajeros extranjeros necesita solicitar una visa de turista para ingresar a EE. UU., excepto quienes están en el Programa de Exención de Visa y usan el sistema ESTA.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/09/quienes-quedan-exentos-de-solicitar-una-visa-turista-para-acceder-a-estados-unidos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/V3AISMGL6NG5FFLU3LWHDNO7WU.png?auth=c1a63b4da043967bdcc9ce2021458079de04837f52163b114d898f994403de4e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Encuestas sobre las consultas interpartidistas atinaron ‘a medias’ con los resultados del 8 marzo: se ‘pifiaron’ con el Frente por la Vida",
       "summary280": "Las encuestas sobre las consultas interpartidistas del 8 de marzo acertaron en dos de tres contiendas, pero fallaron al predecir la victoria de Roy Barreras sobre Daniel Quintero en la más disputada. Esto resalta las limitaciones de los sondeos en procesos electorales.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/09/encuestas-sobre-las-consultas-interpartidistas-atinaron-a-medias-con-los-resultados-del-8-marzo-se-pifiaron-con-el-frente-por-la-vida/",
       "imageUrl": "https://www.infobae.com/resizer/v2/UP4CO6EOMZHTPBQW3OZMFIOUMQ.JPG?auth=2672cb4d10461e32c1cae56359669a2ccbaad4cda4d7f5fc74913b816db24c18&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Estos son los convocados por Croacia para el partido amistoso contra la selección Colombia: Luka Modrić, el más destacado",
-      "summary280": "La selección de Croacia, dirigida por Zlatko Dalić, convocó a 26 jugadores para un amistoso contra Colombia el 26 de marzo en Orlando, como preparación para el Mundial. Destaca Luka Modrić, quien podría jugar su última Copa del Mundo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/09/estos-son-los-convocados-por-croacia-para-el-partido-amistoso-contra-la-seleccion-colombia-luka-modric-el-mas-destacado/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/MLTLUVMNCNAEPEUUKT5OAIN4RU.jpg?auth=6cd91270c9126191ff769856da576075e9e80bef15b414e85f0247db482d7541&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Estos son los convocados por Croacia para el partido amistoso contra la selección Colombia: Luka Modrić, el más destacado",
+      "summary280": "La selección de Croacia, dirigida por Zlatko Dalić, convocó a 26 jugadores para un amistoso contra Colombia el 26 de marzo en Orlando, como preparación para el Mundial. Destaca Luka Modrić, quien podría jugar su última Copa del Mundo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/deportes/2026/03/09/estos-son-los-convocados-por-croacia-para-el-partido-amistoso-contra-la-seleccion-colombia-luka-modric-el-mas-destacado/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/MLTLUVMNCNAEPEUUKT5OAIN4RU.jpg?auth=6cd91270c9126191ff769856da576075e9e80bef15b414e85f0247db482d7541&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Paraguay comienza la vacunación contra el sarampión y la rubeola tras cerrar el brote",
       "summary280": "Paraguay inicia una campaña de vacunación contra el sarampión y la rubeola del 9 de marzo al 9 de mayo, buscando inmunizar a 500,000 niños de 1 a 5 años tras cerrar un brote en 2025.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/09/paraguay-comienza-la-vacunacion-contra-el-sarampion-y-la-rubeola-tras-cerrar-el-brote/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Vasco Madueño llora al hablar de su madre y su reconciliación con Guillermo Dávila: “Se fue en paz”",
-      "summary280": "Vasco Madueño se emocionó al hablar de su madre, Jessica, y su reconciliación con Guillermo Dávila, su padre. Recordó cómo su madre, antes de fallecer, pudo verlos juntos, lo que le dio paz. Para Vasco, esa reconciliación fue el mayor regalo que pudo ofrecerle en su vida.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/2026/03/09/vasco-madueno-llora-al-hablar-de-su-madre-y-su-reconciliacion-con-guillermo-davila-se-fue-en-paz/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/6O33FNSNMFALNN6LOY4BGXVTHQ.jpg?auth=f138911046a401f2c19e40194b254c7366c7ff49b05292eb1144fe9b94ca8d23&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
