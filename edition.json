@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T13:42:43.077539-05:00",
+  "generated_at": "2026-03-10T14:36:20.538354-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Kallas anuncia la firma esta semana de nuevas asociaciones de seguridad con Australia, Islandia y Ghana",
+      "summary280": "Kaja Kallas anunció que la UE firmará nuevas asociaciones de seguridad con Australia, Islandia y Ghana, ampliando su red de cooperación en defensa.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/09/kallas-anuncia-la-firma-esta-semana-de-nuevas-asociaciones-de-seguridad-con-australia-islandia-y-ghana/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/H43RUBTDG5H5ZI2KXUVL6TL5NE.jpg?auth=57ba6f79c23f2e7d835346fee37bfa2519806eb72a0c24957d4c8f6c6261805d&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Tragedia en Amalfi: hermano del cantante Horacio Grisales fallece tras el ataque de una serpiente en zona rural de Antioquia",
       "summary280": "El hermano del cantante Horacio Grisales falleció tras ser atacado por una serpiente en la zona rural de Amalfi, Antioquia. Las autoridades de salud están en alerta por el aumento de accidentes ofídicos en la región durante este año. La situación es preocupante.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/tragedia-en-amalfi-hermano-del-cantante-horacio-grisales-fallece-tras-el-ataque-de-una-serpiente-en-zona-rural-de-antioquia-3539015",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/10/69b0509fb154a.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Por qué la crisis energética desatada por la guerra en Irán puede convertirse en el \"mayor shock petrolero de la historia\"",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c1d6yl4y04wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5534/live/36c51d80-1ca7-11f1-912e-4f7e9c532354.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Madre pide foto del INE a taxista de aplicación y termina cancelando el viaje de su hija por no acceder: video viral",
-      "summary280": "Un altercado entre una madre y un conductor de Uber en Puebla se volvió viral tras la insistencia de la mujer en obtener una foto del INE del chofer por motivos de seguridad.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/madre-pide-foto-del-ine-a-taxista-de-aplicacion-y-termina-cancelando-el-viaje-de-su-hija-por-no-acceder-video-viral/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/I4MYM6HTKVEP7KX5HSZMZSBLO4.jpg?auth=5e1bc58c8e530a4c73cb979743da960acb7f0c939a648cc7fd4eb2874f0621ce&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "“Preparate que te van a salir dólares por las orejas”: la promesa de Milei al presidente del BCRA",
-      "summary280": "Javier Milei prometió al presidente del BCRA, Santiago Bausili, que las inversiones en energía harán que \"salgan dólares por las orejas\" en Argentina.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/economia/2026/03/10/preparate-que-te-van-a-salir-dolares-por-las-orejas-la-promesa-de-milei-al-presidente-del-bcra/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/A5656UOC3JC37KDSKB4JBSKRJU.JPG?auth=4bb9ebd567d2155e4dd88c8e59d9b51644bc00247e2e940e898ee62ba3921a4c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Madre pide foto del INE a taxista de aplicación y termina cancelando el viaje de su hija por no acceder: video viral",
+      "summary280": "Un altercado entre una madre y un conductor de Uber en Puebla se volvió viral tras la insistencia de la mujer en obtener una foto del INE del chofer por motivos de seguridad.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/madre-pide-foto-del-ine-a-taxista-de-aplicacion-y-termina-cancelando-el-viaje-de-su-hija-por-no-acceder-video-viral/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/I4MYM6HTKVEP7KX5HSZMZSBLO4.jpg?auth=5e1bc58c8e530a4c73cb979743da960acb7f0c939a648cc7fd4eb2874f0621ce&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "“Preparate que te van a salir dólares por las orejas”: la promesa de Milei al presidente del BCRA",
+      "summary280": "Javier Milei prometió al presidente del BCRA, Santiago Bausili, que las inversiones en energía harán que \"salgan dólares por las orejas\" en Argentina.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/economia/2026/03/10/preparate-que-te-van-a-salir-dolares-por-las-orejas-la-promesa-de-milei-al-presidente-del-bcra/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/A5656UOC3JC37KDSKB4JBSKRJU.JPG?auth=4bb9ebd567d2155e4dd88c8e59d9b51644bc00247e2e940e898ee62ba3921a4c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
       "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Metro CDMX y Metrobús hoy 10 de marzo",
-      "summary280": "El 10 de marzo de 2026, el Sistema de Transporte Colectivo (STC) Metro y el Metrobús comenzaron sus operaciones. Ambos servicios están disponibles para los usuarios en la Ciudad de México.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/metro-cdmx-y-metrobus-hoy-10-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KV2BLXGDVNGLVCZOVY2TEJEREQ.jpg?auth=23da32eca8c18b26fad74c00794d2d96d23de64a4fbad41986e98d042e9d2ea6&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Se va el calor o todavía queda? Qué dice el pronóstico para el AMBA",
-      "summary280": "El AMBA inicia la semana con 18°C y cielo despejado, con máximas de 25°C a 27°C. Se prevén días templados y sin lluvias, aunque otras regiones del país enfrentan alertas por tormentas. El clima en el AMBA se mantendrá estable, sin fenómenos adversos a la vista.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/sociedad/2026/03/10/se-va-el-calor-o-todavia-queda-que-dice-el-pronostico-para-el-amba/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/UL4YFYRMAVE5VNZY5SMDUCST6A.png?auth=2c247a6f92d29475cadf25b32aa72e69af761687ca2ba06202b020ad4cfccf2c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Metro CDMX y Metrobús hoy 10 de marzo",
+      "summary280": "El 10 de marzo de 2026, el Sistema de Transporte Colectivo (STC) Metro y el Metrobús comenzaron sus operaciones. Ambos servicios están disponibles para los usuarios en la Ciudad de México.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/metro-cdmx-y-metrobus-hoy-10-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KV2BLXGDVNGLVCZOVY2TEJEREQ.jpg?auth=23da32eca8c18b26fad74c00794d2d96d23de64a4fbad41986e98d042e9d2ea6&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "¿Se va el calor o todavía queda? Qué dice el pronóstico para el AMBA",
+      "summary280": "El AMBA inicia la semana con 18°C y cielo despejado, con máximas de 25°C a 27°C. Se prevén días templados y sin lluvias, aunque otras regiones del país enfrentan alertas por tormentas. El clima en el AMBA se mantendrá estable, sin fenómenos adversos a la vista.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/sociedad/2026/03/10/se-va-el-calor-o-todavia-queda-que-dice-el-pronostico-para-el-amba/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/UL4YFYRMAVE5VNZY5SMDUCST6A.png?auth=2c247a6f92d29475cadf25b32aa72e69af761687ca2ba06202b020ad4cfccf2c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
       "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Instituciones Penitenciarias desaconseja la presencia de Koldo en la Comisión navarra",
-      "summary280": "Instituciones Penitenciarias ha desaconsejado el traslado de Koldo García al Parlamento de Navarra para su comparecencia en la Comisión de Investigación sobre licitación de obras públicas, sugiriendo que participe por videoconferencia debido a razones médicas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/instituciones-penitenciarias-desaconseja-la-presencia-de-koldo-en-la-comision-navarra/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irene Montero acusa al PP de \"legitimar y financiar\" expresiones de \"violencia política\"",
-      "summary280": "Irene Montero, eurodiputada de Podemos, acusó al PP de \"legitimar y financiar\" la violencia política contra la izquierda. Tras recibir amenazas de una organización neonazi, denunció que la violencia está normalizada por partidos de derecha y medios afines.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/irene-montero-acusa-al-pp-de-legitimar-y-financiar-expresiones-de-violencia-politica/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Instituciones Penitenciarias desaconseja la presencia de Koldo en la Comisión navarra",
+      "summary280": "Instituciones Penitenciarias ha desaconsejado el traslado de Koldo García al Parlamento de Navarra para su comparecencia en la Comisión de Investigación sobre licitación de obras públicas, sugiriendo que participe por videoconferencia debido a razones médicas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/instituciones-penitenciarias-desaconseja-la-presencia-de-koldo-en-la-comision-navarra/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Irene Montero acusa al PP de \"legitimar y financiar\" expresiones de \"violencia política\"",
+      "summary280": "Irene Montero, eurodiputada de Podemos, acusó al PP de \"legitimar y financiar\" la violencia política contra la izquierda. Tras recibir amenazas de una organización neonazi, denunció que la violencia está normalizada por partidos de derecha y medios afines.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/irene-montero-acusa-al-pp-de-legitimar-y-financiar-expresiones-de-violencia-politica/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
       "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
-      "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     }
