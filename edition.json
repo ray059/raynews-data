@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T06:30:21.532956-05:00",
+  "generated_at": "2026-03-10T07:53:44.985689-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Cuáles son los logros y las deudas que deja Boric en Chile tras 4 años de gobierno",
+      "summary280": "Gabriel Boric, presidente de Chile, deja un legado mixto tras cuatro años de gobierno. Logró reformas en pensiones, reducción de la semana laboral y aumento del salario mínimo, pero también enfrenta deudas como la insatisfacción social y la crítica a su propuesta constitucional.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cm21pj8n25go?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/665f/live/976cd740-1c75-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Metro CDMX y Metrobús hoy 10 de marzo",
       "summary280": "El 10 de marzo de 2026, el Sistema de Transporte Colectivo (STC) Metro y el Metrobús comenzaron sus operaciones. Ambos servicios están disponibles para los usuarios en la Ciudad de México.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/metro-cdmx-y-metrobus-hoy-10-de-marzo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/KV2BLXGDVNGLVCZOVY2TEJEREQ.jpg?auth=23da32eca8c18b26fad74c00794d2d96d23de64a4fbad41986e98d042e9d2ea6&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
-      "summary280": "La guerra en Irán plantea desafíos a la estrategia global de China, que, aunque tiene suficiente petróleo a corto plazo, enfrenta riesgos a largo plazo para sus inversiones y mercados.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
-      "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgmllre9zn7o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9f7c/live/23557e30-198b-11f1-a8c7-d931bb8f99d4.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
+      "summary280": "La guerra en Irán plantea desafíos a la estrategia global de China, que, aunque tiene suficiente petróleo a corto plazo, enfrenta riesgos a largo plazo para sus inversiones y mercados.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
+      "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgmllre9zn7o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9f7c/live/23557e30-198b-11f1-a8c7-d931bb8f99d4.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Instituciones Penitenciarias desaconseja la presencia de Koldo en la Comisión navarra",
       "summary280": "Instituciones Penitenciarias ha desaconsejado el traslado de Koldo García al Parlamento de Navarra para su comparecencia en la Comisión de Investigación sobre licitación de obras públicas, sugiriendo que participe por videoconferencia debido a razones médicas.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
-      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
-      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
+      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
+      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Juanma Lorente, abogado: “Da igual lo que hayas hecho, si la empresa comete este error, el despido es improcedente”",
       "summary280": "Juanma Lorente, abogado, sostiene que un despido disciplinario puede ser improcedente si la empresa no respeta las garantías legales, independientemente de la falta cometida por el trabajador. La empresa debe permitir al empleado defenderse antes de tomar la decisión de despido.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
-      "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
-      "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
+      "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
+      "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "México vs Estados Unidos en el Clásico Mundial de Beisbol en vivo: empieza 3ra entrada, la pizarra sigue en ceros",
       "summary280": "México y Estados Unidos se enfrentan hoy en el Clásico Mundial de Beisbol, buscando asegurar su clasificación. Ambos equipos tienen dos victorias. En la tercera entrada, la pizarra sigue en ceros, pero los estadounidenses comienzan a tomar ventaja con un marcador de 0-5.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/09/mexico-vs-estados-unidos-en-el-clasico-mundial-de-beisbol-sigue-en-vivo-el-juego-de-la-novena-mexicana/",
       "imageUrl": "https://www.infobae.com/resizer/v2/K27D4N4VABCIZC4KRQS72STOYU.JPG?auth=5c95bec529f907efd1783382f40565b4f44605b60fa11c60958333293a5bd8a4&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
-      "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
       "type": "explainer",
       "isNew": false
     }
