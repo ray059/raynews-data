@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T12:43:40.240394-05:00",
+  "generated_at": "2026-03-10T13:42:43.077539-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Tragedia en Amalfi: hermano del cantante Horacio Grisales fallece tras el ataque de una serpiente en zona rural de Antioquia",
+      "summary280": "El hermano del cantante Horacio Grisales falleció tras ser atacado por una serpiente en la zona rural de Amalfi, Antioquia. Las autoridades de salud están en alerta por el aumento de accidentes ofídicos en la región durante este año. La situación es preocupante.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/tragedia-en-amalfi-hermano-del-cantante-horacio-grisales-fallece-tras-el-ataque-de-una-serpiente-en-zona-rural-de-antioquia-3539015",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/10/69b0509fb154a.jpeg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Por qué la crisis energética desatada por la guerra en Irán puede convertirse en el \"mayor shock petrolero de la historia\"",
       "summary280": "La guerra en Irán ha desatado una crisis energética que ha elevado los precios del petróleo de US$60 a casi US$120 en un solo día, generando una volatilidad histórica en los mercados. Las consecuencias económicas son graves, especialmente para industrias dependientes del crudo.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c1d6yl4y04wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5534/live/36c51d80-1ca7-11f1-912e-4f7e9c532354.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Madre pide foto del INE a taxista de aplicación y termina cancelando el viaje de su hija por no acceder: video viral",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/madre-pide-foto-del-ine-a-taxista-de-aplicacion-y-termina-cancelando-el-viaje-de-su-hija-por-no-acceder-video-viral/",
       "imageUrl": "https://www.infobae.com/resizer/v2/I4MYM6HTKVEP7KX5HSZMZSBLO4.jpg?auth=5e1bc58c8e530a4c73cb979743da960acb7f0c939a648cc7fd4eb2874f0621ce&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Quién es Aida Quilcué, la fórmula vicepresidencial de Iván Cepeda y una de las lideresas más significativas en el suroccidente colombiano?",
-      "summary280": "Aida Quilcué, senadora y destacada lideresa del suroccidente colombiano, fue elegida como fórmula vicepresidencial de Iván Cepeda del Pacto Histórico para las elecciones del 31 de mayo. Su trayectoria la posiciona como una figura clave en la política del país.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/quien-es-aida-quilcue-la-formula-vicepresidencial-de-ivan-cepeda-y-una-de-las-lideresas-mas-significativas-en-el-suroccidente-colombiano-3538937",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/10/69aff4d4427b9.r_d.309-481-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
-      "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿Quién es Aida Quilcué, la fórmula vicepresidencial de Iván Cepeda y una de las lideresas más significativas en el suroccidente colombiano?",
+      "summary280": "Aida Quilcué, senadora y destacada lideresa del suroccidente colombiano, fue elegida como fórmula vicepresidencial de Iván Cepeda del Pacto Histórico para las elecciones del 31 de mayo. Su trayectoria la posiciona como una figura clave en la política del país.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/quien-es-aida-quilcue-la-formula-vicepresidencial-de-ivan-cepeda-y-una-de-las-lideresas-mas-significativas-en-el-suroccidente-colombiano-3538937",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/10/69aff4d4427b9.r_d.309-481-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
+      "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
       "summary280": "La guerra en Irán plantea desafíos a la estrategia global de China, que, aunque tiene suficiente petróleo a corto plazo, enfrenta riesgos a largo plazo para sus inversiones y mercados.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/metro-cdmx-y-metrobus-hoy-10-de-marzo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/KV2BLXGDVNGLVCZOVY2TEJEREQ.jpg?auth=23da32eca8c18b26fad74c00794d2d96d23de64a4fbad41986e98d042e9d2ea6&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
-      "summary280": "El Pacto Histórico, con la inclusión de Orlando De La Hoz, aumentaría la representación del Atlántico en el Senado de siete a ocho senadores, consolidándose como una fuerza política en el departamento. Esto refleja un crecimiento significativo en su influencia.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
-      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
+      "summary280": "El Pacto Histórico, con la inclusión de Orlando De La Hoz, aumentaría la representación del Atlántico en el Senado de siete a ocho senadores, consolidándose como una fuerza política en el departamento. Esto refleja un crecimiento significativo en su influencia.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
+      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
       "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/instituciones-penitenciarias-desaconseja-la-presencia-de-koldo-en-la-comision-navarra/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
-      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
-      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
+      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
+      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
       "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Juanma Lorente, abogado: “Da igual lo que hayas hecho, si la empresa comete este error, el despido es improcedente”",
-      "summary280": "Juanma Lorente, abogado, sostiene que un despido disciplinario puede ser improcedente si la empresa no respeta las garantías legales, independientemente de la falta cometida por el trabajador. La empresa debe permitir al empleado defenderse antes de tomar la decisión de despido.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/10/juanma-lorente-abogado-da-igual-lo-que-hayas-hecho-si-la-empresa-comete-este-error-el-despido-es-improcedente/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/U3NP7CLZNJANVKJKF63WA635JY.jpg?auth=5f7882df0314fea845e1ad77cc24d4dc3e81417b515225bdcf7de43c3118ab97&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
