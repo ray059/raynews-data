@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "09 de marzo de 2026",
-  "generated_at": "2026-03-09T20:45:16.009319-05:00",
+  "generated_at": "2026-03-09T23:07:14.692097-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
+      "summary280": "La guerra en Irán plantea desafíos a la estrategia global de China, que, aunque tiene suficiente petróleo a corto plazo, enfrenta riesgos a largo plazo para sus inversiones y mercados.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "México vs Estados Unidos en el Clásico Mundial de Beisbol en vivo: empieza 3ra entrada, la pizarra sigue en ceros",
       "summary280": "México y Estados Unidos se enfrentan hoy en el Clásico Mundial de Beisbol, buscando asegurar su clasificación. Ambos equipos tienen dos victorias. En la tercera entrada, la pizarra sigue en ceros, pero los estadounidenses comienzan a tomar ventaja con un marcador de 0-5.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/09/mexico-vs-estados-unidos-en-el-clasico-mundial-de-beisbol-sigue-en-vivo-el-juego-de-la-novena-mexicana/",
       "imageUrl": "https://www.infobae.com/resizer/v2/K27D4N4VABCIZC4KRQS72STOYU.JPG?auth=5c95bec529f907efd1783382f40565b4f44605b60fa11c60958333293a5bd8a4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
-      "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgmllre9zn7o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9f7c/live/23557e30-198b-11f1-a8c7-d931bb8f99d4.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
-      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
+      "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgmllre9zn7o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9f7c/live/23557e30-198b-11f1-a8c7-d931bb8f99d4.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
+      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "The Mars Volta cancela participación en el Vive Latino 2026 de último minuto",
       "summary280": "The Mars Volta canceló su participación en el Vive Latino 2026 a pocos días del evento por \"circunstancias imprevistas fuera de su control\". La banda expresó su deseo de regresar pronto a México, mientras los fans reaccionaron con frustración y sugerencias para un reemplazo.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
-      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
-      "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
+      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "La \"enfermedad\" que dio origen a la palabra feminismo (y cómo cambió su significado con el tiempo)",
+      "summary280": "La palabra \"feminismo\" proviene del latín y se usó por primera vez en 1871 en una tesis médica sobre la tuberculosis, donde se describía como una patología masculina.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El hallazgo de dos peces remo en Cabo San Lucas sorprende a turistas y despierta leyendas sobre el fin del mundo",
       "summary280": "Turistas en Cabo San Lucas avistaron dos peces remo, conocidos como \"pez del fin del mundo\", arrastrados a la orilla. Su presencia inusual reavivó leyendas sobre desastres naturales, especialmente en Japón, donde se les considera mensajeros del dios del mar.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
-      "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
-      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
+      "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
+      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Encuestas sobre las consultas interpartidistas atinaron ‘a medias’ con los resultados del 8 marzo: se ‘pifiaron’ con el Frente por la Vida",
       "summary280": "Las encuestas sobre las consultas interpartidistas del 8 de marzo acertaron en dos de tres contiendas, pero fallaron al predecir la victoria de Roy Barreras sobre Daniel Quintero en la más disputada. Esto resalta las limitaciones de los sondeos en procesos electorales.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/09/encuestas-sobre-las-consultas-interpartidistas-atinaron-a-medias-con-los-resultados-del-8-marzo-se-pifiaron-con-el-frente-por-la-vida/",
       "imageUrl": "https://www.infobae.com/resizer/v2/UP4CO6EOMZHTPBQW3OZMFIOUMQ.JPG?auth=2672cb4d10461e32c1cae56359669a2ccbaad4cda4d7f5fc74913b816db24c18&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Habla el joven vendedor informal al que autoridades de Medellín le quitaron su carretilla en indignante video viral: 'valoren lo poco que tienen'",
-      "summary280": "Un joven vendedor informal de Medellín, cuyo video viral muestra la confiscación de su carretilla, se reunió con el alcalde, quien anunció que recibirá apoyo de la administración para mejorar su situación. Es un llamado a valorar lo poco que se tiene.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/habla-el-joven-vendedor-informal-al-que-autoridades-de-medellin-le-quitaron-su-carretilla-en-indignante-video-viral-valoren-lo-poco-que-tienen-3538018",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/06/69ab4bd263c3a.png",
       "type": "explainer",
       "isNew": false
     }
