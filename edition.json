@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T02:39:01.447421-05:00",
+  "generated_at": "2026-03-10T03:37:15.793550-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Juanma Lorente, abogado: “Da igual lo que hayas hecho, si la empresa comete este error, el despido es improcedente”",
-      "summary280": "Juanma Lorente, abogado, sostiene que un despido disciplinario puede ser improcedente si la empresa no respeta las garantías legales, independientemente de la falta cometida por el trabajador. La empresa debe permitir al empleado defenderse antes de tomar la decisión de despido.",
+      "titleOriginal": "Irene Montero acusa al PP de \"legitimar y financiar\" expresiones de \"violencia política\"",
+      "summary280": "Irene Montero, eurodiputada de Podemos, acusó al PP de \"legitimar y financiar\" la violencia política contra la izquierda. Tras recibir amenazas de una organización neonazi, denunció que la violencia está normalizada por partidos de derecha y medios afines.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/10/juanma-lorente-abogado-da-igual-lo-que-hayas-hecho-si-la-empresa-comete-este-error-el-despido-es-improcedente/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/U3NP7CLZNJANVKJKF63WA635JY.jpg?auth=5f7882df0314fea845e1ad77cc24d4dc3e81417b515225bdcf7de43c3118ab97&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/irene-montero-acusa-al-pp-de-legitimar-y-financiar-expresiones-de-violencia-politica/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Juanma Lorente, abogado: “Da igual lo que hayas hecho, si la empresa comete este error, el despido es improcedente”",
+      "summary280": "Juanma Lorente, abogado, sostiene que un despido disciplinario puede ser improcedente si la empresa no respeta las garantías legales, independientemente de la falta cometida por el trabajador. La empresa debe permitir al empleado defenderse antes de tomar la decisión de despido.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/10/juanma-lorente-abogado-da-igual-lo-que-hayas-hecho-si-la-empresa-comete-este-error-el-despido-es-improcedente/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/U3NP7CLZNJANVKJKF63WA635JY.jpg?auth=5f7882df0314fea845e1ad77cc24d4dc3e81417b515225bdcf7de43c3118ab97&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "EN VIVO: Trump advirtió que el régimen de Irán será golpeado “20 veces más fuerte” si bloquea el paso de petróleo por el Estrecho de Ormuz",
       "summary280": "Trump advirtió que EE. UU. responderá \"20 veces más fuerte\" si Irán bloquea el paso de petróleo por el Estrecho de Ormuz, tras la amenaza de Teherán de no permitir exportaciones.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/10/en-vivo-israel-y-estados-unidos-atacan-iran/",
       "imageUrl": "https://www.infobae.com/resizer/v2/ROEQK3D4U5FYXLUNYFIKSPH354.JPG?auth=bc841cac6179b03b0d6c2c3cdb88a9bb2ebb222e4102229f123dca704f8cce3a&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "México vs Estados Unidos en el Clásico Mundial de Beisbol en vivo: empieza 3ra entrada, la pizarra sigue en ceros",
-      "summary280": "México y Estados Unidos se enfrentan hoy en el Clásico Mundial de Beisbol, buscando asegurar su clasificación. Ambos equipos tienen dos victorias. En la tercera entrada, la pizarra sigue en ceros, pero los estadounidenses comienzan a tomar ventaja con un marcador de 0-5.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/09/mexico-vs-estados-unidos-en-el-clasico-mundial-de-beisbol-sigue-en-vivo-el-juego-de-la-novena-mexicana/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/K27D4N4VABCIZC4KRQS72STOYU.JPG?auth=5c95bec529f907efd1783382f40565b4f44605b60fa11c60958333293a5bd8a4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "México vs Estados Unidos en el Clásico Mundial de Beisbol en vivo: empieza 3ra entrada, la pizarra sigue en ceros",
+      "summary280": "México y Estados Unidos se enfrentan hoy en el Clásico Mundial de Beisbol, buscando asegurar su clasificación. Ambos equipos tienen dos victorias. En la tercera entrada, la pizarra sigue en ceros, pero los estadounidenses comienzan a tomar ventaja con un marcador de 0-5.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/09/mexico-vs-estados-unidos-en-el-clasico-mundial-de-beisbol-sigue-en-vivo-el-juego-de-la-novena-mexicana/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/K27D4N4VABCIZC4KRQS72STOYU.JPG?auth=5c95bec529f907efd1783382f40565b4f44605b60fa11c60958333293a5bd8a4&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Reforma electoral avanza en comisiones: reunión extraordinaria programada para el 10 de marzo",
       "summary280": "Las Comisiones Unidas de Puntos Constitucionales y de Reforma Política-Electoral de la Cámara de Diputados se reunirán el 10 de marzo para discutir la reforma electoral del Ejecutivo.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/reforma-electoral-avanza-en-comisiones-reunion-extraordinaria-programada-para-el-10-de-marzo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GD4VVROQ3VFR5CYCHCPYC2YUNI.png?auth=d6f5142c2cdab542bb6df61f724bdbc8e5c54a493f88fa2e26c0eb6c6649d32b&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "The Mars Volta cancela participación en el Vive Latino 2026 de último minuto",
-      "summary280": "The Mars Volta canceló su participación en el Vive Latino 2026 a pocos días del evento por \"circunstancias imprevistas fuera de su control\". La banda expresó su deseo de regresar pronto a México, mientras los fans reaccionaron con frustración y sugerencias para un reemplazo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/the-mars-volta-cancela-participacion-en-el-vive-latino-2026-de-ultimo-minuto/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KIB2QKC5SFCMJH4MPMRP7QJG5Q.jpg?auth=b164305626b4a9f0d91fc4f4dcb0caf2ba35c3673be87d430227626c837da859&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "The Mars Volta cancela participación en el Vive Latino 2026 de último minuto",
+      "summary280": "The Mars Volta canceló su participación en el Vive Latino 2026 a pocos días del evento por \"circunstancias imprevistas fuera de su control\". La banda expresó su deseo de regresar pronto a México, mientras los fans reaccionaron con frustración y sugerencias para un reemplazo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/the-mars-volta-cancela-participacion-en-el-vive-latino-2026-de-ultimo-minuto/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KIB2QKC5SFCMJH4MPMRP7QJG5Q.jpg?auth=b164305626b4a9f0d91fc4f4dcb0caf2ba35c3673be87d430227626c837da859&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Fundador del CJNG, El 85, se declarará culpable en EEUU",
       "summary280": "Erick Valencia Salazar, alias El 85, fundador del CJNG, se declarará culpable de narcotráfico en EE.UU. el 7 de abril, cambiando su declaración anterior de inocente. Este acuerdo podría llevar a una reducción de condena y a convertirse en testigo protegido.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/fundador-del-cjng-el-85-se-declarara-culpable-en-eeuu/",
       "imageUrl": "https://www.infobae.com/resizer/v2/Z2YLHCKKWRGAZLGNMP4OYWXZ2A.jpg?auth=da306561a9a55f4009ba7b2e26f211a3308545fe964ad337e5e6698ae008dfcb&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El hallazgo de dos peces remo en Cabo San Lucas sorprende a turistas y despierta leyendas sobre el fin del mundo",
-      "summary280": "Turistas en Cabo San Lucas avistaron dos peces remo, conocidos como \"pez del fin del mundo\", arrastrados a la orilla. Su presencia inusual reavivó leyendas sobre desastres naturales, especialmente en Japón, donde se les considera mensajeros del dios del mar.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/el-hallazgo-de-dos-peces-remo-en-cabo-san-lucas-sorprende-a-turistas-y-despierta-leyendas-sobre-el-fin-del-mundo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/K4UILAJWK5GKPGGBZ3ELYI5HUQ.jpg?auth=e7c47f768390862f9cdff2752f098c4b681410baa22e5540114379abf484460b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
