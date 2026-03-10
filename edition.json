@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T00:43:09.502057-05:00",
+  "generated_at": "2026-03-10T01:43:12.898007-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "EN VIVO: Trump advirtió que el régimen de Irán será golpeado “20 veces más fuerte” si bloquea el paso de petróleo por el Estrecho de Ormuz",
+      "summary280": "Trump advirtió que EE. UU. responderá \"20 veces más fuerte\" si Irán bloquea el paso de petróleo por el Estrecho de Ormuz, tras la amenaza de Teherán de no permitir exportaciones.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/10/en-vivo-israel-y-estados-unidos-atacan-iran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/ROEQK3D4U5FYXLUNYFIKSPH354.JPG?auth=bc841cac6179b03b0d6c2c3cdb88a9bb2ebb222e4102229f123dca704f8cce3a&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
       "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "México vs Estados Unidos en el Clásico Mundial de Beisbol en vivo: empieza 3ra entrada, la pizarra sigue en ceros",
-      "summary280": "México y Estados Unidos se enfrentan hoy en el Clásico Mundial de Beisbol, buscando asegurar su clasificación. Ambos equipos tienen dos victorias. En la tercera entrada, la pizarra sigue en ceros, pero los estadounidenses comienzan a tomar ventaja con un marcador de 0-5.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/09/mexico-vs-estados-unidos-en-el-clasico-mundial-de-beisbol-sigue-en-vivo-el-juego-de-la-novena-mexicana/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/K27D4N4VABCIZC4KRQS72STOYU.JPG?auth=5c95bec529f907efd1783382f40565b4f44605b60fa11c60958333293a5bd8a4&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Reforma electoral avanza en comisiones: reunión extraordinaria programada para el 10 de marzo",
-      "summary280": "Las Comisiones Unidas de Puntos Constitucionales y de Reforma Política-Electoral de la Cámara de Diputados se reunirán el 10 de marzo para discutir la reforma electoral del Ejecutivo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/reforma-electoral-avanza-en-comisiones-reunion-extraordinaria-programada-para-el-10-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/GD4VVROQ3VFR5CYCHCPYC2YUNI.png?auth=d6f5142c2cdab542bb6df61f724bdbc8e5c54a493f88fa2e26c0eb6c6649d32b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "México vs Estados Unidos en el Clásico Mundial de Beisbol en vivo: empieza 3ra entrada, la pizarra sigue en ceros",
+      "summary280": "México y Estados Unidos se enfrentan hoy en el Clásico Mundial de Beisbol, buscando asegurar su clasificación. Ambos equipos tienen dos victorias. En la tercera entrada, la pizarra sigue en ceros, pero los estadounidenses comienzan a tomar ventaja con un marcador de 0-5.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/09/mexico-vs-estados-unidos-en-el-clasico-mundial-de-beisbol-sigue-en-vivo-el-juego-de-la-novena-mexicana/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/K27D4N4VABCIZC4KRQS72STOYU.JPG?auth=5c95bec529f907efd1783382f40565b4f44605b60fa11c60958333293a5bd8a4&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Reforma electoral avanza en comisiones: reunión extraordinaria programada para el 10 de marzo",
+      "summary280": "Las Comisiones Unidas de Puntos Constitucionales y de Reforma Política-Electoral de la Cámara de Diputados se reunirán el 10 de marzo para discutir la reforma electoral del Ejecutivo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/reforma-electoral-avanza-en-comisiones-reunion-extraordinaria-programada-para-el-10-de-marzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/GD4VVROQ3VFR5CYCHCPYC2YUNI.png?auth=d6f5142c2cdab542bb6df61f724bdbc8e5c54a493f88fa2e26c0eb6c6649d32b&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
       "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "The Mars Volta cancela participación en el Vive Latino 2026 de último minuto",
-      "summary280": "The Mars Volta canceló su participación en el Vive Latino 2026 a pocos días del evento por \"circunstancias imprevistas fuera de su control\". La banda expresó su deseo de regresar pronto a México, mientras los fans reaccionaron con frustración y sugerencias para un reemplazo.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/the-mars-volta-cancela-participacion-en-el-vive-latino-2026-de-ultimo-minuto/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KIB2QKC5SFCMJH4MPMRP7QJG5Q.jpg?auth=b164305626b4a9f0d91fc4f4dcb0caf2ba35c3673be87d430227626c837da859&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Fundador del CJNG, El 85, se declarará culpable en EEUU",
-      "summary280": "Erick Valencia Salazar, alias El 85, fundador del CJNG, se declarará culpable de narcotráfico en EE.UU. el 7 de abril, cambiando su declaración anterior de inocente. Este acuerdo podría llevar a una reducción de condena y a convertirse en testigo protegido.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/fundador-del-cjng-el-85-se-declarara-culpable-en-eeuu/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/Z2YLHCKKWRGAZLGNMP4OYWXZ2A.jpg?auth=da306561a9a55f4009ba7b2e26f211a3308545fe964ad337e5e6698ae008dfcb&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "The Mars Volta cancela participación en el Vive Latino 2026 de último minuto",
+      "summary280": "The Mars Volta canceló su participación en el Vive Latino 2026 a pocos días del evento por \"circunstancias imprevistas fuera de su control\". La banda expresó su deseo de regresar pronto a México, mientras los fans reaccionaron con frustración y sugerencias para un reemplazo.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/the-mars-volta-cancela-participacion-en-el-vive-latino-2026-de-ultimo-minuto/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KIB2QKC5SFCMJH4MPMRP7QJG5Q.jpg?auth=b164305626b4a9f0d91fc4f4dcb0caf2ba35c3673be87d430227626c837da859&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Fundador del CJNG, El 85, se declarará culpable en EEUU",
+      "summary280": "Erick Valencia Salazar, alias El 85, fundador del CJNG, se declarará culpable de narcotráfico en EE.UU. el 7 de abril, cambiando su declaración anterior de inocente. Este acuerdo podría llevar a una reducción de condena y a convertirse en testigo protegido.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/fundador-del-cjng-el-85-se-declarara-culpable-en-eeuu/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Z2YLHCKKWRGAZLGNMP4OYWXZ2A.jpg?auth=da306561a9a55f4009ba7b2e26f211a3308545fe964ad337e5e6698ae008dfcb&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
       "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c99j570v8k2o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/345f/live/b375c4a0-196f-11f1-b048-c9424b2cf5fd.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El hallazgo de dos peces remo en Cabo San Lucas sorprende a turistas y despierta leyendas sobre el fin del mundo",
-      "summary280": "Turistas en Cabo San Lucas avistaron dos peces remo, conocidos como \"pez del fin del mundo\", arrastrados a la orilla. Su presencia inusual reavivó leyendas sobre desastres naturales, especialmente en Japón, donde se les considera mensajeros del dios del mar.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/el-hallazgo-de-dos-peces-remo-en-cabo-san-lucas-sorprende-a-turistas-y-despierta-leyendas-sobre-el-fin-del-mundo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/K4UILAJWK5GKPGGBZ3ELYI5HUQ.jpg?auth=e7c47f768390862f9cdff2752f098c4b681410baa22e5540114379abf484460b&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Quiénes quedan exentos de solicitar una Visa turista para acceder a Estados Unidos",
-      "summary280": "La mayoría de los viajeros extranjeros necesita solicitar una visa de turista para ingresar a EE. UU., excepto quienes están en el Programa de Exención de Visa y usan el sistema ESTA.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/09/quienes-quedan-exentos-de-solicitar-una-visa-turista-para-acceder-a-estados-unidos/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/V3AISMGL6NG5FFLU3LWHDNO7WU.png?auth=c1a63b4da043967bdcc9ce2021458079de04837f52163b114d898f994403de4e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El hallazgo de dos peces remo en Cabo San Lucas sorprende a turistas y despierta leyendas sobre el fin del mundo",
+      "summary280": "Turistas en Cabo San Lucas avistaron dos peces remo, conocidos como \"pez del fin del mundo\", arrastrados a la orilla. Su presencia inusual reavivó leyendas sobre desastres naturales, especialmente en Japón, donde se les considera mensajeros del dios del mar.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/09/el-hallazgo-de-dos-peces-remo-en-cabo-san-lucas-sorprende-a-turistas-y-despierta-leyendas-sobre-el-fin-del-mundo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/K4UILAJWK5GKPGGBZ3ELYI5HUQ.jpg?auth=e7c47f768390862f9cdff2752f098c4b681410baa22e5540114379abf484460b&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Quiénes quedan exentos de solicitar una Visa turista para acceder a Estados Unidos",
+      "summary280": "La mayoría de los viajeros extranjeros necesita solicitar una visa de turista para ingresar a EE. UU., excepto quienes están en el Programa de Exención de Visa y usan el sistema ESTA.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/09/quienes-quedan-exentos-de-solicitar-una-visa-turista-para-acceder-a-estados-unidos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/V3AISMGL6NG5FFLU3LWHDNO7WU.png?auth=c1a63b4da043967bdcc9ce2021458079de04837f52163b114d898f994403de4e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "11.323 uniformados blindan Nariño para el 8 de marzo: Policía, Ejército e Infantería custodiarán 64 municipios y 1,2 millones de votantes",
       "summary280": "El 8 de marzo, 11.323 uniformados de la Policía, Ejército e Infantería garantizarán la seguridad en 64 municipios de Nariño, protegiendo a 1,2 millones de votantes. Además, la frontera entre Colombia y Ecuador estará cerrada del 7 al 9 de marzo.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/11-323-uniformados-blindan-narino-para-el-8-de-marzo-policia-ejercito-e-infanteria-custodiaran-64-municipios-y-1-2-millones-de-votantes-3538121",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2024/03/24/660036abcc510.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué pasó en los países en los que EE.UU. intervino militarmente en Medio Oriente y el norte de África en las últimas décadas",
-      "summary280": "Estados Unidos ha intervenido militarmente en Medio Oriente y el norte de África en las últimas décadas, con resultados cuestionables. Desde Irak hasta Libia y Afganistán, estas acciones han generado inestabilidad y conflictos prolongados, sin lograr la democracia esperada.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8eg5p81p4lo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/faeb/live/d4ffab10-19e0-11f1-9755-9b6b61abe658.jpg",
       "type": "explainer",
       "isNew": false
     }
