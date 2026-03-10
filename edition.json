@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T07:53:44.985689-05:00",
+  "generated_at": "2026-03-10T09:00:16.765430-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "¿Quién es Aida Quilcué, la fórmula vicepresidencial de Iván Cepeda y una de las lideresas más significativas en el suroccidente colombiano?",
+      "summary280": "Aida Quilcué, senadora y destacada lideresa del suroccidente colombiano, fue elegida como fórmula vicepresidencial de Iván Cepeda del Pacto Histórico para las elecciones del 31 de mayo. Su trayectoria la posiciona como una figura clave en la política del país.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/quien-es-aida-quilcue-la-formula-vicepresidencial-de-ivan-cepeda-y-una-de-las-lideresas-mas-significativas-en-el-suroccidente-colombiano-3538937",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/10/69aff4d4427b9.r_d.309-481-0.jpeg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Cuáles son los logros y las deudas que deja Boric en Chile tras 4 años de gobierno",
       "summary280": "Gabriel Boric, presidente de Chile, deja un legado mixto tras cuatro años de gobierno. Logró reformas en pensiones, reducción de la semana laboral y aumento del salario mínimo, pero también enfrenta deudas como la insatisfacción social y la crítica a su propuesta constitucional.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cm21pj8n25go?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/665f/live/976cd740-1c75-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Metro CDMX y Metrobús hoy 10 de marzo",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/metro-cdmx-y-metrobus-hoy-10-de-marzo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/KV2BLXGDVNGLVCZOVY2TEJEREQ.jpg?auth=23da32eca8c18b26fad74c00794d2d96d23de64a4fbad41986e98d042e9d2ea6&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
-      "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
-      "summary280": "El Pacto Histórico, con la inclusión de Orlando De La Hoz, aumentaría la representación del Atlántico en el Senado de siete a ocho senadores, consolidándose como una fuerza política en el departamento. Esto refleja un crecimiento significativo en su influencia.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
+      "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
+      "summary280": "El Pacto Histórico, con la inclusión de Orlando De La Hoz, aumentaría la representación del Atlántico en el Senado de siete a ocho senadores, consolidándose como una fuerza política en el departamento. Esto refleja un crecimiento significativo en su influencia.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
       "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/instituciones-penitenciarias-desaconseja-la-presencia-de-koldo-en-la-comision-navarra/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
-      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
-      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
+      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Elecciones 2026 en Antioquia: cinco capturas y múltiples sanciones empañaron la jornada electoral",
+      "summary280": "En las elecciones de 2026 en Antioquia, se registraron cinco capturas por tráfico de votos y constreñimiento, junto con la incautación de propaganda ilegal, lo que empañó la jornada electoral. Las autoridades continúan investigando las irregularidades.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/elecciones-2026-en-antioquia-cinco-capturas-y-multiples-sanciones-empanaron-la-jornada-electoral-3538504",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69ae0a38780c7.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
       "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/10/juanma-lorente-abogado-da-igual-lo-que-hayas-hecho-si-la-empresa-comete-este-error-el-despido-es-improcedente/",
       "imageUrl": "https://www.infobae.com/resizer/v2/U3NP7CLZNJANVKJKF63WA635JY.jpg?auth=5f7882df0314fea845e1ad77cc24d4dc3e81417b515225bdcf7de43c3118ab97&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
-      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
-      "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
+      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El MIO se pone la camiseta de las elecciones: prográmese con el servicio especial de 6 a. m. a 10 p. m. para llegar a 206 puestos de votación en Cali",
+      "summary280": "El MIO ofrecerá un servicio especial de 6 a.m. a 10 p.m. para facilitar el acceso a 206 puestos de votación en Cali. Se contará con refuerzo de personal técnico y de orientación para ayudar a los ciudadanos en su traslado durante las elecciones.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-mio-se-pone-la-camiseta-de-las-elecciones-programese-con-el-servicio-especial-de-6-a-m-a-10-p-m-para-llegar-a-206-puestos-de-votacion-en-cali-3538252",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/12/11/5fd3897d6571e.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "\"Estoy en contra tanto de la guerra como de la represión de la República Islámica\": cómo ven dos académicas iraníes el conflicto en su país",
       "summary280": "Dos académicas iraníes, Mansoureh Shojaee y Naghmeh Sohrabi, critican la intervención militar de EE. UU. en Irán, argumentando que no trae democracia y que la guerra agrava la crisis humanitaria.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c9q5dgv200jo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/b6d1/live/f3d535e0-195f-11f1-a1cd-a71e69f1cf89.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "México vs Estados Unidos en el Clásico Mundial de Beisbol en vivo: empieza 3ra entrada, la pizarra sigue en ceros",
-      "summary280": "México y Estados Unidos se enfrentan hoy en el Clásico Mundial de Beisbol, buscando asegurar su clasificación. Ambos equipos tienen dos victorias. En la tercera entrada, la pizarra sigue en ceros, pero los estadounidenses comienzan a tomar ventaja con un marcador de 0-5.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/09/mexico-vs-estados-unidos-en-el-clasico-mundial-de-beisbol-sigue-en-vivo-el-juego-de-la-novena-mexicana/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/K27D4N4VABCIZC4KRQS72STOYU.JPG?auth=5c95bec529f907efd1783382f40565b4f44605b60fa11c60958333293a5bd8a4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
