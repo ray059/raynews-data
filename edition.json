@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T14:36:20.538354-05:00",
+  "generated_at": "2026-03-10T15:30:00.008621-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Qué es la \"lluvia negra\", la otra amenaza que sufre Teherán por los ataques de EE.UU. e Israel contra Irán",
+      "summary280": "La \"lluvia negra\" en Teherán es el resultado de la contaminación provocada por los ataques de EE.UU. e Israel a instalaciones petroleras, generando smog y un intenso olor a quemado.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/crl4wgeez10o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e8c7/live/6f71ea20-1cb9-11f1-96ae-61a2a0a97c34.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Kallas anuncia la firma esta semana de nuevas asociaciones de seguridad con Australia, Islandia y Ghana",
       "summary280": "Kaja Kallas anunció que la UE firmará nuevas asociaciones de seguridad con Australia, Islandia y Ghana, ampliando su red de cooperación en defensa.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/09/kallas-anuncia-la-firma-esta-semana-de-nuevas-asociaciones-de-seguridad-con-australia-islandia-y-ghana/",
       "imageUrl": "https://www.infobae.com/resizer/v2/H43RUBTDG5H5ZI2KXUVL6TL5NE.jpg?auth=57ba6f79c23f2e7d835346fee37bfa2519806eb72a0c24957d4c8f6c6261805d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Tragedia en Amalfi: hermano del cantante Horacio Grisales fallece tras el ataque de una serpiente en zona rural de Antioquia",
@@ -19,24 +28,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/tragedia-en-amalfi-hermano-del-cantante-horacio-grisales-fallece-tras-el-ataque-de-una-serpiente-en-zona-rural-de-antioquia-3539015",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/10/69b0509fb154a.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Por qué la crisis energética desatada por la guerra en Irán puede convertirse en el \"mayor shock petrolero de la historia\"",
-      "summary280": "La guerra en Irán ha desatado una crisis energética que ha elevado los precios del petróleo de US$60 a casi US$120 en un solo día, generando una volatilidad histórica en los mercados. Las consecuencias económicas son graves, especialmente para industrias dependientes del crudo.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c1d6yl4y04wo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5534/live/36c51d80-1ca7-11f1-912e-4f7e9c532354.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuáles son los logros y las deudas que deja Boric en Chile tras 4 años de gobierno",
-      "summary280": "Gabriel Boric, presidente de Chile, deja un legado mixto tras cuatro años de gobierno. Logró reformas en pensiones, reducción de la semana laboral y aumento del salario mínimo, pero también enfrenta deudas como la insatisfacción social y la crítica a su propuesta constitucional.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cm21pj8n25go?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/665f/live/976cd740-1c75-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Por qué la crisis energética desatada por la guerra en Irán puede convertirse en el \"mayor shock petrolero de la historia\"",
+      "summary280": "La guerra en Irán ha desatado una crisis energética que ha elevado los precios del petróleo de US$60 a casi US$120 en un solo día, generando una volatilidad histórica en los mercados. Las consecuencias económicas son graves, especialmente para industrias dependientes del crudo.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c1d6yl4y04wo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5534/live/36c51d80-1ca7-11f1-912e-4f7e9c532354.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Cuáles son los logros y las deudas que deja Boric en Chile tras 4 años de gobierno",
+      "summary280": "Gabriel Boric, presidente de Chile, deja un legado mixto tras cuatro años de gobierno. Logró reformas en pensiones, reducción de la semana laboral y aumento del salario mínimo, pero también enfrenta deudas como la insatisfacción social y la crítica a su propuesta constitucional.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cm21pj8n25go?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/665f/live/976cd740-1c75-11f1-801d-ed3cff6bf876.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "“Preparate que te van a salir dólares por las orejas”: la promesa de Milei al presidente del BCRA",
       "summary280": "Javier Milei prometió al presidente del BCRA, Santiago Bausili, que las inversiones en energía harán que \"salgan dólares por las orejas\" en Argentina.",
       "sourceName": "Infobae",
@@ -73,24 +82,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
-      "summary280": "La guerra en Irán plantea desafíos a la estrategia global de China, que, aunque tiene suficiente petróleo a corto plazo, enfrenta riesgos a largo plazo para sus inversiones y mercados.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
-      "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cgmllre9zn7o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9f7c/live/23557e30-198b-11f1-a8c7-d931bb8f99d4.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
+      "summary280": "La guerra en Irán plantea desafíos a la estrategia global de China, que, aunque tiene suficiente petróleo a corto plazo, enfrenta riesgos a largo plazo para sus inversiones y mercados.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Cómo es el régimen teocrático de Irán y por qué sus estructuras de poder parecen seguir intactas tras la muerte del ayatolá Alí Jamenei",
+      "summary280": "Irán ha elegido a Mojtaba Jamenei como nuevo líder supremo tras la muerte de su padre, Alí Jamenei. Su régimen teocrático, que concentra el poder en una figura religiosa, se mantiene fuerte gracias a su estructura institucional y la represión de la oposición.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cgmllre9zn7o?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/9f7c/live/23557e30-198b-11f1-a8c7-d931bb8f99d4.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "¿Se va el calor o todavía queda? Qué dice el pronóstico para el AMBA",
       "summary280": "El AMBA inicia la semana con 18°C y cielo despejado, con máximas de 25°C a 27°C. Se prevén días templados y sin lluvias, aunque otras regiones del país enfrentan alertas por tormentas. El clima en el AMBA se mantendrá estable, sin fenómenos adversos a la vista.",
       "sourceName": "Infobae",
@@ -127,24 +136,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
-      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
-      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
+      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Irán elige a Mojtaba Jamenei como nuevo líder supremo: quién es el misterioso hijo del fallecido ayatolá Alí Jamenei",
+      "summary280": "Irán ha elegido a Mojtaba Jamenei, hijo del fallecido ayatolá Alí Jamenei, como nuevo líder supremo. A pesar de su bajo perfil y falta de experiencia pública, se espera que continúe las políticas de su padre. Enfrenta desafíos significativos para mantener la estabilidad del país.",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c4gq4vjwd8qo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/342d/live/50cecb70-1b41-11f1-b048-c9424b2cf5fd.jpg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Irene Montero acusa al PP de \"legitimar y financiar\" expresiones de \"violencia política\"",
       "summary280": "Irene Montero, eurodiputada de Podemos, acusó al PP de \"legitimar y financiar\" la violencia política contra la izquierda. Tras recibir amenazas de una organización neonazi, denunció que la violencia está normalizada por partidos de derecha y medios afines.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/irene-montero-acusa-al-pp-de-legitimar-y-financiar-expresiones-de-violencia-politica/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Policía incauta $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico; conductor no pudo justificar el origen del dinero",
-      "summary280": "La policía incautó $105 millones en efectivo en la vía al Mar, en Tubará, Atlántico, durante un control a un vehículo que viajaba de Cartagena a Barranquilla. El conductor no pudo justificar el origen del dinero y fue judicializado.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/policia-incauta-105-millones-en-efectivo-en-la-via-al-mar-en-tubara-atlantico-conductor-no-pudo-justificar-el-origen-del-dinero-3538276",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/08/69ad958a352e8.r_d.661-388-0.jpeg",
       "type": "explainer",
       "isNew": false
     }
