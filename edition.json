@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "11 de marzo de 2026",
-  "generated_at": "2026-03-11T09:04:26.789163-05:00",
+  "generated_at": "2026-03-11T10:44:11.477056-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "‘La Mañanera de Sheinbaum’ hoy miércoles 11 de marzo de 2026: presentan acuerdo para atender violencia digital contra las mujeres",
-      "summary280": "En la 'Mañanera' del 11 de marzo de 2026, Citlali Hernández Mora presentó un acuerdo inédito para combatir la violencia digital contra mujeres, con 9 acciones de prevención y 8 de atención, en colaboración con activistas y plataformas digitales.",
+      "titleOriginal": "Postergaron el inicio del nuevo juicio por la muerte de Maradona a menos de una semana para el comienzo",
+      "summary280": "El inicio del nuevo juicio por la muerte de Maradona, programado para el 17 de marzo, fue postergado al 14 de abril por el Tribunal Oral en lo Criminal N°7 de San Isidro, tras un pedido de la acusación. Se juzgará a siete imputados por homicidio simple con dolo eventual.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/la-mananera-de-sheinbaum-hoy-miercoles-11-de-marzo-de-2026-en-vivo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/DARYCAES7RCVBM6ZKUGEBKTBKI.jpg?auth=05462ee4f85a46fe15c7545d6fc81a14247aad8b0a538c2ab9228571097af188&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/sociedad/policiales/2026/03/11/postergaron-el-inicio-del-nuevo-juicio-por-la-muerte-de-maradona-a-menos-de-una-semana-para-el-comienzo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/4EQAW4MVBNHR5AQLEC573IS7FE?auth=26f43e35fc178872a93b33dd0607b6dd1bd807e9414429b4147babc69063dd2b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "‘La Mañanera de Sheinbaum’ hoy miércoles 11 de marzo de 2026: presentan acuerdo para atender violencia digital contra las mujeres",
+      "summary280": "En la 'Mañanera' del 11 de marzo de 2026, Citlali Hernández Mora presentó un acuerdo inédito para combatir la violencia digital contra mujeres, con 9 acciones de prevención y 8 de atención, en colaboración con activistas y plataformas digitales.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/la-mananera-de-sheinbaum-hoy-miercoles-11-de-marzo-de-2026-en-vivo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/DARYCAES7RCVBM6ZKUGEBKTBKI.jpg?auth=05462ee4f85a46fe15c7545d6fc81a14247aad8b0a538c2ab9228571097af188&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Polonia abre investigación formal por trata de personas vinculada al caso Epstein",
       "summary280": "La Fiscalía Nacional de Polonia ha iniciado una investigación formal sobre trata de personas vinculada al caso Epstein, presuntamente entre 2009 y 2019. Se sospecha que se reclutaron víctimas en Polonia para explotación sexual en el extranjero.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/11/polonia-abre-investigacion-formal-por-trata-de-personas-vinculada-al-caso-epstein/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Golpe a la mocromafia en Marbella con una incautación de 1.500 kilos de cocaína procedente de Brasil",
-      "summary280": "La Policía Nacional, en colaboración con Brasil, desarticuló una red de mocromafia en Marbella, deteniendo a cinco personas e incautando 1.500 kilos de cocaína ocultos en sacos de cemento. La operación ‘Amazona’ sigue abierta con nuevas órdenes de detención.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/11/golpe-a-la-mocromafia-en-marbella-con-una-incautacion-de-1500-kilos-de-cocaina-procedente-de-brasil/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KI6CGDCK2VDELGTBBL6AJMNEOM.png?auth=d607d56144da1dc54cd05f80910242beb4e0326e29a71cce8b8ece94f9a4e4e0&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Golpe a la mocromafia en Marbella con una incautación de 1.500 kilos de cocaína procedente de Brasil",
+      "summary280": "La Policía Nacional, en colaboración con Brasil, desarticuló una red de mocromafia en Marbella, deteniendo a cinco personas e incautando 1.500 kilos de cocaína ocultos en sacos de cemento. La operación ‘Amazona’ sigue abierta con nuevas órdenes de detención.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/11/golpe-a-la-mocromafia-en-marbella-con-una-incautacion-de-1500-kilos-de-cocaina-procedente-de-brasil/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KI6CGDCK2VDELGTBBL6AJMNEOM.png?auth=d607d56144da1dc54cd05f80910242beb4e0326e29a71cce8b8ece94f9a4e4e0&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Reino Unido confirma que tres buques mercantes han sido atacados en el estrecho de Ormuz y EEUU no puede protegerlos",
       "summary280": "Reino Unido confirma que tres buques mercantes han sido atacados en el estrecho de Ormuz, con un carguero incendiado y evacuaciones. La Marina de EEUU ha rechazado solicitudes de escolta, argumentando que el riesgo de ataques es demasiado alto. La situación sigue siendo crítica.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/11/reino-unido-confirma-que-dos-buques-mercantes-han-sido-atacados-en-el-estrecho-de-ormuz-y-uno-ha-sido-evacuado-por-un-incendio/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DO36KONEH5GMNNPZ6Z3FAF5AUU.jpg?auth=3fbb1ce19d9d2d5945184b38b4a9570fe28cc2fd4347f73ac810fd718ba05623&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El régimen de Corea del Norte se sumó a Rusia y respaldó la elección del nuevo líder supremo de Irán, Mojtaba Khamenei",
-      "summary280": "Corea del Norte respaldó la elección de Mojtaba Khamenei como nuevo líder supremo de Irán, condenando los bombardeos de EE. UU. e Israel. Pyongyang enfatizó el derecho del pueblo iraní a elegir su líder y reafirmó su alianza con Teherán en medio de tensiones internacionales.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/11/el-regimen-de-corea-del-norte-se-sumo-a-rusia-y-respaldo-la-eleccion-del-nuevo-lider-supremo-de-iran-mojtaba-khamenei/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WAXJ7JYBVFC5ZOB4HM4I3IWC34.JPG?auth=8ab6e94388047dad70d9db6e02e3b99e63b9228322b03aa51219533e1f9293d1&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El régimen de Corea del Norte se sumó a Rusia y respaldó la elección del nuevo líder supremo de Irán, Mojtaba Khamenei",
+      "summary280": "Corea del Norte respaldó la elección de Mojtaba Khamenei como nuevo líder supremo de Irán, condenando los bombardeos de EE. UU. e Israel. Pyongyang enfatizó el derecho del pueblo iraní a elegir su líder y reafirmó su alianza con Teherán en medio de tensiones internacionales.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/11/el-regimen-de-corea-del-norte-se-sumo-a-rusia-y-respaldo-la-eleccion-del-nuevo-lider-supremo-de-iran-mojtaba-khamenei/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WAXJ7JYBVFC5ZOB4HM4I3IWC34.JPG?auth=8ab6e94388047dad70d9db6e02e3b99e63b9228322b03aa51219533e1f9293d1&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Senado analiza creación de un Registro Nacional de Enfermedades Renales para mejorar atención a pacientes",
       "summary280": "El Senado de México discute la creación de un Registro Nacional de Enfermedades Renales para mejorar la atención a pacientes.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/senado-analiza-creacion-de-un-registro-nacional-de-enfermedades-renales-para-mejorar-atencion-a-pacientes/",
       "imageUrl": "https://www.infobae.com/resizer/v2/QCIF27AJ75C3ZBFMK6KGTZYJPE.jpg?auth=bc4982957dce50d38befa62d19d149b905e1d03ce67f12f09eced093c1e34fc5&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Detectan primer brote de influenza aviar en Colombia en 2026: ICA explica impacto en consumo de pollo y huevo",
-      "summary280": "El ICA confirmó el primer brote de influenza aviar en Colombia en 2026, detectado en aves de traspatio en Meta. A pesar de la alerta, no hay riesgo para el abastecimiento de pollo y huevos, ya que el virus no afecta granjas comerciales.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/11/detectan-primer-brote-de-influenza-aviar-en-colombia-en-2026-ica-explica-impacto-en-consumo-de-pollo-y-huevo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/RUHOOJ4HUZBLHBO26PMTEWSXSI.png?auth=87433264089e796ebb7cef17b5990dc41ae06e21706e42525b17581d18894c5d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
