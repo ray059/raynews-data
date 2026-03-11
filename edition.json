@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "11 de marzo de 2026",
-  "generated_at": "2026-03-11T07:53:31.974619-05:00",
+  "generated_at": "2026-03-11T09:04:26.789163-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "‘La Mañanera de Sheinbaum’ hoy miércoles 11 de marzo de 2026: presentan acuerdo para atender violencia digital contra las mujeres",
+      "summary280": "En la 'Mañanera' del 11 de marzo de 2026, Citlali Hernández Mora presentó un acuerdo inédito para combatir la violencia digital contra mujeres, con 9 acciones de prevención y 8 de atención, en colaboración con activistas y plataformas digitales.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/la-mananera-de-sheinbaum-hoy-miercoles-11-de-marzo-de-2026-en-vivo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/DARYCAES7RCVBM6ZKUGEBKTBKI.jpg?auth=05462ee4f85a46fe15c7545d6fc81a14247aad8b0a538c2ab9228571097af188&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Hallaron el cuerpo sin vida de tatuador en Medellín: autoridades investigan su causa de muerte y la identidad de otros restos humanos en el inmueble",
       "summary280": "El cuerpo sin vida de un tatuador fue hallado en Medellín tras el aviso de vecinos por un fuerte olor. Las autoridades investigan la causa de muerte y la identidad de otros restos humanos encontrados en el inmueble. Se están realizando indagaciones para esclarecer el caso.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/hallaron-el-cuerpo-sin-vida-de-tatuador-en-medellin-autoridades-investigan-su-causa-de-muerte-y-la-identidad-de-otros-restos-humanos-en-el-inmueble-3539224",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/11/69b15705bfdde.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Qué es el ciclo nasal que regula nuestra respiración y cómo cuidarlo para tener una buena salud",
@@ -19,24 +28,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cx2g4rj29y1o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ade/live/b07946e0-1c77-11f1-a7bf-efb6e72f87e6.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Polonia abre investigación formal por trata de personas vinculada al caso Epstein",
-      "summary280": "La Fiscalía Nacional de Polonia ha iniciado una investigación formal sobre trata de personas vinculada al caso Epstein, presuntamente entre 2009 y 2019. Se sospecha que se reclutaron víctimas en Polonia para explotación sexual en el extranjero.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/11/polonia-abre-investigacion-formal-por-trata-de-personas-vinculada-al-caso-epstein/",
-      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Golpe a la mocromafia en Marbella con una incautación de 1.500 kilos de cocaína procedente de Brasil",
-      "summary280": "La Policía Nacional, en colaboración con Brasil, desarticuló una red de mocromafia en Marbella, deteniendo a cinco personas e incautando 1.500 kilos de cocaína ocultos en sacos de cemento. La operación ‘Amazona’ sigue abierta con nuevas órdenes de detención.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/11/golpe-a-la-mocromafia-en-marbella-con-una-incautacion-de-1500-kilos-de-cocaina-procedente-de-brasil/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KI6CGDCK2VDELGTBBL6AJMNEOM.png?auth=d607d56144da1dc54cd05f80910242beb4e0326e29a71cce8b8ece94f9a4e4e0&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Polonia abre investigación formal por trata de personas vinculada al caso Epstein",
+      "summary280": "La Fiscalía Nacional de Polonia ha iniciado una investigación formal sobre trata de personas vinculada al caso Epstein, presuntamente entre 2009 y 2019. Se sospecha que se reclutaron víctimas en Polonia para explotación sexual en el extranjero.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/11/polonia-abre-investigacion-formal-por-trata-de-personas-vinculada-al-caso-epstein/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Golpe a la mocromafia en Marbella con una incautación de 1.500 kilos de cocaína procedente de Brasil",
+      "summary280": "La Policía Nacional, en colaboración con Brasil, desarticuló una red de mocromafia en Marbella, deteniendo a cinco personas e incautando 1.500 kilos de cocaína ocultos en sacos de cemento. La operación ‘Amazona’ sigue abierta con nuevas órdenes de detención.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/11/golpe-a-la-mocromafia-en-marbella-con-una-incautacion-de-1500-kilos-de-cocaina-procedente-de-brasil/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/KI6CGDCK2VDELGTBBL6AJMNEOM.png?auth=d607d56144da1dc54cd05f80910242beb4e0326e29a71cce8b8ece94f9a4e4e0&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Tragedia en Amalfi: hermano del cantante Horacio Grisales fallece tras el ataque de una serpiente en zona rural de Antioquia",
       "summary280": "El hermano del cantante Horacio Grisales falleció tras ser atacado por una serpiente en la zona rural de Amalfi, Antioquia. Las autoridades de salud están en alerta por el aumento de accidentes ofídicos en la región durante este año. La situación es preocupante.",
       "sourceName": "El Tiempo Colombia",
@@ -73,24 +82,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c1d6yl4y04wo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5534/live/36c51d80-1ca7-11f1-912e-4f7e9c532354.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Reino Unido confirma que tres buques mercantes han sido atacados en el estrecho de Ormuz y EEUU no puede protegerlos",
-      "summary280": "Reino Unido confirma que tres buques mercantes han sido atacados en el estrecho de Ormuz, con un carguero incendiado y evacuaciones. La Marina de EEUU ha rechazado solicitudes de escolta, argumentando que el riesgo de ataques es demasiado alto. La situación sigue siendo crítica.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/2026/03/11/reino-unido-confirma-que-dos-buques-mercantes-han-sido-atacados-en-el-estrecho-de-ormuz-y-uno-ha-sido-evacuado-por-un-incendio/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/DO36KONEH5GMNNPZ6Z3FAF5AUU.jpg?auth=3fbb1ce19d9d2d5945184b38b4a9570fe28cc2fd4347f73ac810fd718ba05623&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El régimen de Corea del Norte se sumó a Rusia y respaldó la elección del nuevo líder supremo de Irán, Mojtaba Khamenei",
-      "summary280": "Corea del Norte respaldó la elección de Mojtaba Khamenei como nuevo líder supremo de Irán, condenando los bombardeos de EE. UU. e Israel. Pyongyang enfatizó el derecho del pueblo iraní a elegir su líder y reafirmó su alianza con Teherán en medio de tensiones internacionales.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/11/el-regimen-de-corea-del-norte-se-sumo-a-rusia-y-respaldo-la-eleccion-del-nuevo-lider-supremo-de-iran-mojtaba-khamenei/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/WAXJ7JYBVFC5ZOB4HM4I3IWC34.JPG?auth=8ab6e94388047dad70d9db6e02e3b99e63b9228322b03aa51219533e1f9293d1&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Reino Unido confirma que tres buques mercantes han sido atacados en el estrecho de Ormuz y EEUU no puede protegerlos",
+      "summary280": "Reino Unido confirma que tres buques mercantes han sido atacados en el estrecho de Ormuz, con un carguero incendiado y evacuaciones. La Marina de EEUU ha rechazado solicitudes de escolta, argumentando que el riesgo de ataques es demasiado alto. La situación sigue siendo crítica.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/11/reino-unido-confirma-que-dos-buques-mercantes-han-sido-atacados-en-el-estrecho-de-ormuz-y-uno-ha-sido-evacuado-por-un-incendio/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/DO36KONEH5GMNNPZ6Z3FAF5AUU.jpg?auth=3fbb1ce19d9d2d5945184b38b4a9570fe28cc2fd4347f73ac810fd718ba05623&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El régimen de Corea del Norte se sumó a Rusia y respaldó la elección del nuevo líder supremo de Irán, Mojtaba Khamenei",
+      "summary280": "Corea del Norte respaldó la elección de Mojtaba Khamenei como nuevo líder supremo de Irán, condenando los bombardeos de EE. UU. e Israel. Pyongyang enfatizó el derecho del pueblo iraní a elegir su líder y reafirmó su alianza con Teherán en medio de tensiones internacionales.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/11/el-regimen-de-corea-del-norte-se-sumo-a-rusia-y-respaldo-la-eleccion-del-nuevo-lider-supremo-de-iran-mojtaba-khamenei/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WAXJ7JYBVFC5ZOB4HM4I3IWC34.JPG?auth=8ab6e94388047dad70d9db6e02e3b99e63b9228322b03aa51219533e1f9293d1&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
       "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
       "sourceName": "El Tiempo Colombia",
@@ -127,24 +136,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c70kdz0nqyko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/62c4/live/d67046d0-1887-11f1-aff7-a32b6621d3cc.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Senado analiza creación de un Registro Nacional de Enfermedades Renales para mejorar atención a pacientes",
-      "summary280": "El Senado de México discute la creación de un Registro Nacional de Enfermedades Renales para mejorar la atención a pacientes.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/senado-analiza-creacion-de-un-registro-nacional-de-enfermedades-renales-para-mejorar-atencion-a-pacientes/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/QCIF27AJ75C3ZBFMK6KGTZYJPE.jpg?auth=bc4982957dce50d38befa62d19d149b905e1d03ce67f12f09eced093c1e34fc5&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Detectan primer brote de influenza aviar en Colombia en 2026: ICA explica impacto en consumo de pollo y huevo",
-      "summary280": "El ICA confirmó el primer brote de influenza aviar en Colombia en 2026, detectado en aves de traspatio en Meta. A pesar de la alerta, no hay riesgo para el abastecimiento de pollo y huevos, ya que el virus no afecta granjas comerciales.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/11/detectan-primer-brote-de-influenza-aviar-en-colombia-en-2026-ica-explica-impacto-en-consumo-de-pollo-y-huevo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/RUHOOJ4HUZBLHBO26PMTEWSXSI.png?auth=87433264089e796ebb7cef17b5990dc41ae06e21706e42525b17581d18894c5d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Senado analiza creación de un Registro Nacional de Enfermedades Renales para mejorar atención a pacientes",
+      "summary280": "El Senado de México discute la creación de un Registro Nacional de Enfermedades Renales para mejorar la atención a pacientes.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/senado-analiza-creacion-de-un-registro-nacional-de-enfermedades-renales-para-mejorar-atencion-a-pacientes/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/QCIF27AJ75C3ZBFMK6KGTZYJPE.jpg?auth=bc4982957dce50d38befa62d19d149b905e1d03ce67f12f09eced093c1e34fc5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Detectan primer brote de influenza aviar en Colombia en 2026: ICA explica impacto en consumo de pollo y huevo",
+      "summary280": "El ICA confirmó el primer brote de influenza aviar en Colombia en 2026, detectado en aves de traspatio en Meta. A pesar de la alerta, no hay riesgo para el abastecimiento de pollo y huevos, ya que el virus no afecta granjas comerciales.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/11/detectan-primer-brote-de-influenza-aviar-en-colombia-en-2026-ica-explica-impacto-en-consumo-de-pollo-y-huevo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/RUHOOJ4HUZBLHBO26PMTEWSXSI.png?auth=87433264089e796ebb7cef17b5990dc41ae06e21706e42525b17581d18894c5d&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
       "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
-      "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
       "type": "explainer",
       "isNew": false
     }
