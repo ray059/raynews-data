@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "10 de marzo de 2026",
-  "generated_at": "2026-03-10T20:45:20.243211-05:00",
+  "generated_at": "2026-03-10T23:07:40.585205-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Santiago del Moro contó cuál es su vínculo con Carmiña, luego de que la jugadora de Gran Hermano confesara tener una relación",
-      "summary280": "Santiago del Moro aclaró su relación con Carmiña Masi, participante de Gran Hermano, tras sus declaraciones sobre una amistad.",
+      "titleOriginal": "Muere hombre de 62 años tras caer de árbol mientras instalaba red eléctrica en Honduras",
+      "summary280": "Andrés Pérez Núñez, un trabajador de 62 años, falleció tras caer de un árbol mientras instalaba una red eléctrica en Ojojona, Honduras. A pesar de los intentos de sus compañeros por llevarlo al hospital, la falta de atención inmediata fue fatal.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/11/santiago-del-moro-conto-cual-es-su-vinculo-con-carmina-luego-de-que-la-jugadora-de-gran-hermano-confesara-tener-una-relacion/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/SDNTMA3PHVCE3DCTHPOT5YWTJE.jpg?auth=480d49ea598abdb9d2fb974ad20450e0ca988f2380c53fcdbeaf8653a3a2d906&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/honduras/2026/03/11/muere-hombre-de-62-anos-tras-caer-de-arbol-mientras-instalaba-red-electrica-en-honduras/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/VOZHTBEXEBHPVFADJW2OI72GHE.webp?auth=5cb95b48dcb57695ffebb47178a78142f7182f6458b08661f6a0e31267dc7e43&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Santiago del Moro contó cuál es su vínculo con Carmiña, luego de que la jugadora de Gran Hermano confesara tener una relación",
+      "summary280": "Santiago del Moro aclaró su relación con Carmiña Masi, participante de Gran Hermano, tras sus declaraciones sobre una amistad.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/11/santiago-del-moro-conto-cual-es-su-vinculo-con-carmina-luego-de-que-la-jugadora-de-gran-hermano-confesara-tener-una-relacion/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/SDNTMA3PHVCE3DCTHPOT5YWTJE.jpg?auth=480d49ea598abdb9d2fb974ad20450e0ca988f2380c53fcdbeaf8653a3a2d906&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "El Senado sesionará la semana que viene para dar ingreso a pliegos de militares, diplomáticos y jueces",
       "summary280": "El Senado se reunirá el 18 de marzo para dar ingreso a pliegos de diplomáticos, jueces y ascensos militares. La sesión, que busca avanzar en estos temas y en tratados internacionales, fue postergada por ausencias de aliados. Se espera que se amplíen los pliegos a tratar.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/politica/2026/03/10/el-senado-sesionara-la-semana-que-viene-para-dar-ingreso-a-pliegos-de-militares-diplomaticos-y-jueces/",
       "imageUrl": "https://www.infobae.com/resizer/v2/5KLN76FT6JFZDHZIXRVAZI36KA.JPG?auth=d3b356369615738bb038911846f8c6bb35bbc399495c79d910cd6e639390a6d3&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Claude Cowork llega a Copilot: Microsoft suma agentes de IA avanzados a su plataforma",
-      "summary280": "Microsoft integra la herramienta Cowork de Anthropic en su asistente Copilot, permitiendo a los usuarios delegar tareas cotidianas y optimizar la gestión de su agenda en Microsoft 365.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/tecno/2026/03/10/claude-cowork-llega-a-copilot-microsoft-suma-agentes-de-ia-avanzados-a-su-plataforma/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/R7GR53TUYNH2XD7WD2YYD2NWUU.png?auth=e651696564ad00734ee93cc97f7f7285330e23fe88a8d5a1314fc2cb44143bcf&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Claude Cowork llega a Copilot: Microsoft suma agentes de IA avanzados a su plataforma",
+      "summary280": "Microsoft integra la herramienta Cowork de Anthropic en su asistente Copilot, permitiendo a los usuarios delegar tareas cotidianas y optimizar la gestión de su agenda en Microsoft 365.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/tecno/2026/03/10/claude-cowork-llega-a-copilot-microsoft-suma-agentes-de-ia-avanzados-a-su-plataforma/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/R7GR53TUYNH2XD7WD2YYD2NWUU.png?auth=e651696564ad00734ee93cc97f7f7285330e23fe88a8d5a1314fc2cb44143bcf&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Kallas anuncia la firma esta semana de nuevas asociaciones de seguridad con Australia, Islandia y Ghana",
       "summary280": "Kaja Kallas anunció que la UE firmará nuevas asociaciones de seguridad con Australia, Islandia y Ghana, ampliando su red de cooperación en defensa.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/09/kallas-anuncia-la-firma-esta-semana-de-nuevas-asociaciones-de-seguridad-con-australia-islandia-y-ghana/",
       "imageUrl": "https://www.infobae.com/resizer/v2/H43RUBTDG5H5ZI2KXUVL6TL5NE.jpg?auth=57ba6f79c23f2e7d835346fee37bfa2519806eb72a0c24957d4c8f6c6261805d&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Madre pide foto del INE a taxista de aplicación y termina cancelando el viaje de su hija por no acceder: video viral",
-      "summary280": "Un altercado entre una madre y un conductor de Uber en Puebla se volvió viral tras la insistencia de la mujer en obtener una foto del INE del chofer por motivos de seguridad.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/madre-pide-foto-del-ine-a-taxista-de-aplicacion-y-termina-cancelando-el-viaje-de-su-hija-por-no-acceder-video-viral/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/I4MYM6HTKVEP7KX5HSZMZSBLO4.jpg?auth=5e1bc58c8e530a4c73cb979743da960acb7f0c939a648cc7fd4eb2874f0621ce&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Madre pide foto del INE a taxista de aplicación y termina cancelando el viaje de su hija por no acceder: video viral",
+      "summary280": "Un altercado entre una madre y un conductor de Uber en Puebla se volvió viral tras la insistencia de la mujer en obtener una foto del INE del chofer por motivos de seguridad.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/madre-pide-foto-del-ine-a-taxista-de-aplicacion-y-termina-cancelando-el-viaje-de-su-hija-por-no-acceder-video-viral/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/I4MYM6HTKVEP7KX5HSZMZSBLO4.jpg?auth=5e1bc58c8e530a4c73cb979743da960acb7f0c939a648cc7fd4eb2874f0621ce&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "“Preparate que te van a salir dólares por las orejas”: la promesa de Milei al presidente del BCRA",
       "summary280": "Javier Milei prometió al presidente del BCRA, Santiago Bausili, que las inversiones en energía harán que \"salgan dólares por las orejas\" en Argentina.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/economia/2026/03/10/preparate-que-te-van-a-salir-dolares-por-las-orejas-la-promesa-de-milei-al-presidente-del-bcra/",
       "imageUrl": "https://www.infobae.com/resizer/v2/A5656UOC3JC37KDSKB4JBSKRJU.JPG?auth=4bb9ebd567d2155e4dd88c8e59d9b51644bc00247e2e940e898ee62ba3921a4c&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Metro CDMX y Metrobús hoy 10 de marzo",
-      "summary280": "El 10 de marzo de 2026, el Sistema de Transporte Colectivo (STC) Metro y el Metrobús comenzaron sus operaciones. Ambos servicios están disponibles para los usuarios en la Ciudad de México.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/10/metro-cdmx-y-metrobus-hoy-10-de-marzo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KV2BLXGDVNGLVCZOVY2TEJEREQ.jpg?auth=23da32eca8c18b26fad74c00794d2d96d23de64a4fbad41986e98d042e9d2ea6&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
