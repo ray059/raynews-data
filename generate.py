@@ -19,7 +19,7 @@ MAX_NEW_PER_EDITION = 1
 MAX_NEW_PER_SOURCE = 1
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    "User-Agent": "Mozilla/5.0"
 }
 
 # -------------------------------------------------
@@ -50,7 +50,7 @@ else:
     historical = {"news": {}}
 
 # -------------------------------------------------
-# SNAPSHOT EDITION ACTUAL
+# SNAPSHOT EDICIÓN ACTUAL
 # -------------------------------------------------
 
 base_edition = []
@@ -69,30 +69,25 @@ for h in base_edition:
     normalized_base.append(h_copy)
 
 # -------------------------------------------------
-# EXTRACCIÓN
+# EXTRAER ARTÍCULO
 # -------------------------------------------------
 
 def extract_article_text(url):
+
     try:
         r = requests.get(url, headers=HEADERS, timeout=10)
         r.raise_for_status()
+
         soup = BeautifulSoup(r.text, "html.parser")
         paragraphs = soup.find_all("p")
+
         text = " ".join([p.get_text() for p in paragraphs])
-        return clean_text(text)
+        text = clean_text(text)
+
+        return text[:4000]
+
     except:
         return ""
-
-def extract_image(url):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        og_image = soup.find("meta", property="og:image")
-        if og_image and og_image.get("content"):
-            return og_image["content"]
-    except:
-        pass
-    return None
 
 # -------------------------------------------------
 # RESUMEN IA
@@ -119,10 +114,11 @@ Artículo:
 """
 
     try:
+
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.2,
+            temperature=0.2
         )
 
         summary = clean_text(response.choices[0].message.content)
@@ -137,70 +133,25 @@ Artículo:
         return None
 
 # -------------------------------------------------
-# GENERAR AUDIO
+# IMAGEN
 # -------------------------------------------------
 
-def generate_audio_blocks(headlines, fecha_legible):
-
-    if not OPENAI_API_KEY or not headlines:
-        return
-
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_API_KEY)
-
-    audio_files = []
-
-    intro_text = f"Actualización de Ray News del {fecha_legible}."
+def extract_image(url):
 
     try:
 
-        with client.audio.speech.with_streaming_response.create(
-            model="gpt-4o-mini-tts",
-            voice="alloy",
-            input=intro_text,
-        ) as response:
-            response.stream_to_file("part_0.mp3")
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        soup = BeautifulSoup(r.text, "html.parser")
 
-        audio_files.append("part_0.mp3")
+        og_image = soup.find("meta", property="og:image")
 
-        for i, h in enumerate(headlines):
+        if og_image and og_image.get("content"):
+            return og_image["content"]
 
-            filename = f"part_{i+1}.mp3"
+    except:
+        pass
 
-            with client.audio.speech.with_streaming_response.create(
-                model="gpt-4o-mini-tts",
-                voice="nova",
-                input=h["titleOriginal"],
-            ) as response:
-                response.stream_to_file(filename)
-
-            audio_files.append(filename)
-
-        with open("files.txt", "w") as f:
-            for file in audio_files:
-                f.write(f"file '{file}'\n")
-
-        subprocess.run([
-            "ffmpeg",
-            "-y",
-            "-f", "concat",
-            "-safe", "0",
-            "-i", "files.txt",
-            "-c", "copy",
-            "edition_audio.mp3"
-        ])
-
-        for file in audio_files:
-            if os.path.exists(file):
-                os.remove(file)
-
-        if os.path.exists("files.txt"):
-            os.remove("files.txt")
-
-        print("Audio generado: edition_audio.mp3")
-
-    except Exception as e:
-        print("Error generando audio:", e)
+    return None
 
 # -------------------------------------------------
 # MAIN
@@ -220,25 +171,26 @@ new_items = []
 per_source_new_counter = {}
 
 for line in lines:
+
     parts = line.strip().split("||")
+
     if len(parts) != 4:
         continue
 
     title, url, source_name, description = parts
+
     news_id = make_id(url)
 
     if news_id in historical["news"]:
         continue
 
-    if source_name == "El Tiempo Colombia":
-        article_text = description
-    else:
-        article_text = extract_article_text(url)
+    article_text = extract_article_text(url)
 
-    if source_name != "El Tiempo Colombia" and len(article_text) < 120:
+    if len(article_text) < 120:
         continue
 
     summary = generate_summary(title, article_text)
+
     if not summary:
         continue
 
@@ -247,6 +199,7 @@ for line in lines:
     historical["news"][news_id] = {
         "titleOriginal": title,
         "summary280": summary,
+        "articleText": article_text,
         "sourceName": source_name,
         "sourceUrl": url,
         "imageUrl": image,
@@ -259,6 +212,7 @@ for line in lines:
     new_items.append({
         "titleOriginal": title,
         "summary280": summary,
+        "articleText": article_text,
         "sourceName": source_name,
         "sourceUrl": url,
         "imageUrl": image,
@@ -270,43 +224,8 @@ for line in lines:
         per_source_new_counter.get(source_name, 0) + 1
     )
 
-# -------------------------------------------------
-# PRIORIDAD FUENTES AUSENTES
-# -------------------------------------------------
-
-if edition_exists and new_items:
-
-    source_counter = {}
-    for h in normalized_base:
-        src = h["sourceName"]
-        source_counter[src] = source_counter.get(src, 0) + 1
-
-    def priority(item):
-        count = source_counter.get(item["sourceName"], 0)
-        if count == 0:
-            return (0, 0)
-        return (1, count)
-
-    new_items.sort(key=priority)
-    new_items = new_items[:MAX_NEW_PER_EDITION]
-
-# -------------------------------------------------
-# CONSTRUIR EDICIÓN BALANCEADA
-# -------------------------------------------------
-
 combined = new_items + normalized_base
-
-source_counts = {}
-balanced_final = []
-
-while combined and len(balanced_final) < MAX_TOTAL:
-    combined.sort(key=lambda x: source_counts.get(x["sourceName"], 0))
-    selected = combined.pop(0)
-    balanced_final.append(selected)
-    src = selected["sourceName"]
-    source_counts[src] = source_counts.get(src, 0) + 1
-
-final_headlines = balanced_final
+final_headlines = combined[:MAX_TOTAL]
 
 edition = {
     "api_version": 3,
@@ -325,13 +244,6 @@ with open("historical_tmp.json", "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
 os.replace("historical_tmp.json", HIST_FILE)
-
-# -------------------------------------------------
-# GENERAR AUDIO SI HAY NOTICIAS NUEVAS
-# -------------------------------------------------
-
-if new_items:
-    generate_audio_blocks(new_items, fecha_legible)
 
 print("Noticias nuevas detectadas:", len(new_items))
 print("Noticias finales:", len(final_headlines))
