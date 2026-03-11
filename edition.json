@@ -1,15 +1,15 @@
 {
   "api_version": 3,
   "edition_date": "11 de marzo de 2026",
-  "generated_at": "2026-03-11T01:48:15.651933-05:00",
+  "generated_at": "2026-03-11T02:41:28.614726-05:00",
   "country": "Internacional",
   "headlines": [
     {
-      "titleOriginal": "Senado analiza creación de un Registro Nacional de Enfermedades Renales para mejorar atención a pacientes",
-      "summary280": "El Senado de México discute la creación de un Registro Nacional de Enfermedades Renales para mejorar la atención a pacientes.",
+      "titleOriginal": "El régimen de Corea del Norte se sumó a Rusia y respaldó la elección del nuevo líder supremo de Irán, Mojtaba Khamenei",
+      "summary280": "Corea del Norte respaldó la elección de Mojtaba Khamenei como nuevo líder supremo de Irán, condenando los bombardeos de EE. UU. e Israel. Pyongyang enfatizó el derecho del pueblo iraní a elegir su líder y reafirmó su alianza con Teherán en medio de tensiones internacionales.",
       "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/senado-analiza-creacion-de-un-registro-nacional-de-enfermedades-renales-para-mejorar-atencion-a-pacientes/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/QCIF27AJ75C3ZBFMK6KGTZYJPE.jpg?auth=bc4982957dce50d38befa62d19d149b905e1d03ce67f12f09eced093c1e34fc5&smart=true&width=1200&height=630&quality=85",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/11/el-regimen-de-corea-del-norte-se-sumo-a-rusia-y-respaldo-la-eleccion-del-nuevo-lider-supremo-de-iran-mojtaba-khamenei/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WAXJ7JYBVFC5ZOB4HM4I3IWC34.JPG?auth=8ab6e94388047dad70d9db6e02e3b99e63b9228322b03aa51219533e1f9293d1&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": true
     },
@@ -50,20 +50,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Senado analiza creación de un Registro Nacional de Enfermedades Renales para mejorar atención a pacientes",
+      "summary280": "El Senado de México discute la creación de un Registro Nacional de Enfermedades Renales para mejorar la atención a pacientes.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/senado-analiza-creacion-de-un-registro-nacional-de-enfermedades-renales-para-mejorar-atencion-a-pacientes/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/QCIF27AJ75C3ZBFMK6KGTZYJPE.jpg?auth=bc4982957dce50d38befa62d19d149b905e1d03ce67f12f09eced093c1e34fc5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Detectan primer brote de influenza aviar en Colombia en 2026: ICA explica impacto en consumo de pollo y huevo",
       "summary280": "El ICA confirmó el primer brote de influenza aviar en Colombia en 2026, detectado en aves de traspatio en Meta. A pesar de la alerta, no hay riesgo para el abastecimiento de pollo y huevos, ya que el virus no afecta granjas comerciales.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/11/detectan-primer-brote-de-influenza-aviar-en-colombia-en-2026-ica-explica-impacto-en-consumo-de-pollo-y-huevo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/RUHOOJ4HUZBLHBO26PMTEWSXSI.png?auth=87433264089e796ebb7cef17b5990dc41ae06e21706e42525b17581d18894c5d&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Muere hombre de 62 años tras caer de árbol mientras instalaba red eléctrica en Honduras",
-      "summary280": "Andrés Pérez Núñez, un trabajador de 62 años, falleció tras caer de un árbol mientras instalaba una red eléctrica en Ojojona, Honduras. A pesar de los intentos de sus compañeros por llevarlo al hospital, la falta de atención inmediata fue fatal.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/honduras/2026/03/11/muere-hombre-de-62-anos-tras-caer-de-arbol-mientras-instalaba-red-electrica-en-honduras/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/VOZHTBEXEBHPVFADJW2OI72GHE.webp?auth=5cb95b48dcb57695ffebb47178a78142f7182f6458b08661f6a0e31267dc7e43&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -104,20 +104,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Muere hombre de 62 años tras caer de árbol mientras instalaba red eléctrica en Honduras",
+      "summary280": "Andrés Pérez Núñez, un trabajador de 62 años, falleció tras caer de un árbol mientras instalaba una red eléctrica en Ojojona, Honduras. A pesar de los intentos de sus compañeros por llevarlo al hospital, la falta de atención inmediata fue fatal.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/honduras/2026/03/11/muere-hombre-de-62-anos-tras-caer-de-arbol-mientras-instalaba-red-electrica-en-honduras/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/VOZHTBEXEBHPVFADJW2OI72GHE.webp?auth=5cb95b48dcb57695ffebb47178a78142f7182f6458b08661f6a0e31267dc7e43&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Santiago del Moro contó cuál es su vínculo con Carmiña, luego de que la jugadora de Gran Hermano confesara tener una relación",
       "summary280": "Santiago del Moro aclaró su relación con Carmiña Masi, participante de Gran Hermano, tras sus declaraciones sobre una amistad.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/teleshow/2026/03/11/santiago-del-moro-conto-cual-es-su-vinculo-con-carmina-luego-de-que-la-jugadora-de-gran-hermano-confesara-tener-una-relacion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/SDNTMA3PHVCE3DCTHPOT5YWTJE.jpg?auth=480d49ea598abdb9d2fb974ad20450e0ca988f2380c53fcdbeaf8653a3a2d906&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El Senado sesionará la semana que viene para dar ingreso a pliegos de militares, diplomáticos y jueces",
-      "summary280": "El Senado se reunirá el 18 de marzo para dar ingreso a pliegos de diplomáticos, jueces y ascensos militares. La sesión, que busca avanzar en estos temas y en tratados internacionales, fue postergada por ausencias de aliados. Se espera que se amplíen los pliegos a tratar.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/politica/2026/03/10/el-senado-sesionara-la-semana-que-viene-para-dar-ingreso-a-pliegos-de-militares-diplomaticos-y-jueces/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/5KLN76FT6JFZDHZIXRVAZI36KA.JPG?auth=d3b356369615738bb038911846f8c6bb35bbc399495c79d910cd6e639390a6d3&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
@@ -158,20 +158,20 @@
       "isNew": false
     },
     {
+      "titleOriginal": "El Senado sesionará la semana que viene para dar ingreso a pliegos de militares, diplomáticos y jueces",
+      "summary280": "El Senado se reunirá el 18 de marzo para dar ingreso a pliegos de diplomáticos, jueces y ascensos militares. La sesión, que busca avanzar en estos temas y en tratados internacionales, fue postergada por ausencias de aliados. Se espera que se amplíen los pliegos a tratar.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/10/el-senado-sesionara-la-semana-que-viene-para-dar-ingreso-a-pliegos-de-militares-diplomaticos-y-jueces/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/5KLN76FT6JFZDHZIXRVAZI36KA.JPG?auth=d3b356369615738bb038911846f8c6bb35bbc399495c79d910cd6e639390a6d3&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Claude Cowork llega a Copilot: Microsoft suma agentes de IA avanzados a su plataforma",
       "summary280": "Microsoft integra la herramienta Cowork de Anthropic en su asistente Copilot, permitiendo a los usuarios delegar tareas cotidianas y optimizar la gestión de su agenda en Microsoft 365.",
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/tecno/2026/03/10/claude-cowork-llega-a-copilot-microsoft-suma-agentes-de-ia-avanzados-a-su-plataforma/",
       "imageUrl": "https://www.infobae.com/resizer/v2/R7GR53TUYNH2XD7WD2YYD2NWUU.png?auth=e651696564ad00734ee93cc97f7f7285330e23fe88a8d5a1314fc2cb44143bcf&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Kallas anuncia la firma esta semana de nuevas asociaciones de seguridad con Australia, Islandia y Ghana",
-      "summary280": "Kaja Kallas anunció que la UE firmará nuevas asociaciones de seguridad con Australia, Islandia y Ghana, ampliando su red de cooperación en defensa.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/09/kallas-anuncia-la-firma-esta-semana-de-nuevas-asociaciones-de-seguridad-con-australia-islandia-y-ghana/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/H43RUBTDG5H5ZI2KXUVL6TL5NE.jpg?auth=57ba6f79c23f2e7d835346fee37bfa2519806eb72a0c24957d4c8f6c6261805d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     },
