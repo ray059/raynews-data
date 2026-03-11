@@ -1,9 +1,18 @@
 {
   "api_version": 3,
   "edition_date": "11 de marzo de 2026",
-  "generated_at": "2026-03-11T06:30:25.706536-05:00",
+  "generated_at": "2026-03-11T07:53:31.974619-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Hallaron el cuerpo sin vida de tatuador en Medellín: autoridades investigan su causa de muerte y la identidad de otros restos humanos en el inmueble",
+      "summary280": "El cuerpo sin vida de un tatuador fue hallado en Medellín tras el aviso de vecinos por un fuerte olor. Las autoridades investigan la causa de muerte y la identidad de otros restos humanos encontrados en el inmueble. Se están realizando indagaciones para esclarecer el caso.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/hallaron-el-cuerpo-sin-vida-de-tatuador-en-medellin-autoridades-investigan-su-causa-de-muerte-y-la-identidad-de-otros-restos-humanos-en-el-inmueble-3539224",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/11/69b15705bfdde.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Qué es el ciclo nasal que regula nuestra respiración y cómo cuidarlo para tener una buena salud",
       "summary280": "El ciclo nasal es un proceso natural que alterna la fosa nasal dominante cada dos horas, regulado por el hipotálamo. Este mecanismo protege el sistema respiratorio y permite la recuperación de las fosas nasales.",
@@ -11,7 +20,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cx2g4rj29y1o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0ade/live/b07946e0-1c77-11f1-a7bf-efb6e72f87e6.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Polonia abre investigación formal por trata de personas vinculada al caso Epstein",
@@ -19,24 +28,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/11/polonia-abre-investigacion-formal-por-trata-de-personas-vinculada-al-caso-epstein/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Video | Policía de civil protagoniza persecución de película tras robo en exclusivo sector de Medellín y logró capturar a dos presuntos fleteros",
-      "summary280": "Un policía de civil protagonizó una intensa persecución tras un robo en un exclusivo sector de Medellín, arriesgando su integridad al movilizarse en contravía. Gracias a su valentía, logró capturar a dos presuntos fleteros. El hurto en la ciudad ha disminuido un 7%.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/video-policia-de-civil-protagoniza-persecucion-de-pelicula-tras-robo-en-exclusivo-sector-de-medellin-y-logro-capturar-a-dos-presuntos-fleteros-3539113",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/10/69b085cfb79ba.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Tragedia en Amalfi: hermano del cantante Horacio Grisales fallece tras el ataque de una serpiente en zona rural de Antioquia",
-      "summary280": "El hermano del cantante Horacio Grisales falleció tras ser atacado por una serpiente en la zona rural de Amalfi, Antioquia. Las autoridades de salud están en alerta por el aumento de accidentes ofídicos en la región durante este año. La situación es preocupante.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/tragedia-en-amalfi-hermano-del-cantante-horacio-grisales-fallece-tras-el-ataque-de-una-serpiente-en-zona-rural-de-antioquia-3539015",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/10/69b0509fb154a.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -59,6 +50,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Video | Policía de civil protagoniza persecución de película tras robo en exclusivo sector de Medellín y logró capturar a dos presuntos fleteros",
+      "summary280": "Un policía de civil protagonizó una intensa persecución tras un robo en un exclusivo sector de Medellín, arriesgando su integridad al movilizarse en contravía. Gracias a su valentía, logró capturar a dos presuntos fleteros. El hurto en la ciudad ha disminuido un 7%.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/video-policia-de-civil-protagoniza-persecucion-de-pelicula-tras-robo-en-exclusivo-sector-de-medellin-y-logro-capturar-a-dos-presuntos-fleteros-3539113",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/10/69b085cfb79ba.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Tragedia en Amalfi: hermano del cantante Horacio Grisales fallece tras el ataque de una serpiente en zona rural de Antioquia",
+      "summary280": "El hermano del cantante Horacio Grisales falleció tras ser atacado por una serpiente en la zona rural de Amalfi, Antioquia. Las autoridades de salud están en alerta por el aumento de accidentes ofídicos en la región durante este año. La situación es preocupante.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/tragedia-en-amalfi-hermano-del-cantante-horacio-grisales-fallece-tras-el-ataque-de-una-serpiente-en-zona-rural-de-antioquia-3539015",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/10/69b0509fb154a.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Por qué la crisis energética desatada por la guerra en Irán puede convertirse en el \"mayor shock petrolero de la historia\"",
       "summary280": "La guerra en Irán ha desatado una crisis energética que ha elevado los precios del petróleo de US$60 a casi US$120 en un solo día, generando una volatilidad histórica en los mercados. Las consecuencias económicas son graves, especialmente para industrias dependientes del crudo.",
       "sourceName": "BBC News Mundo",
@@ -73,24 +82,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/11/reino-unido-confirma-que-dos-buques-mercantes-han-sido-atacados-en-el-estrecho-de-ormuz-y-uno-ha-sido-evacuado-por-un-incendio/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DO36KONEH5GMNNPZ6Z3FAF5AUU.jpg?auth=3fbb1ce19d9d2d5945184b38b4a9570fe28cc2fd4347f73ac810fd718ba05623&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Quién es Aida Quilcué, la fórmula vicepresidencial de Iván Cepeda y una de las lideresas más significativas en el suroccidente colombiano?",
-      "summary280": "Aida Quilcué, senadora y destacada lideresa del suroccidente colombiano, fue elegida como fórmula vicepresidencial de Iván Cepeda del Pacto Histórico para las elecciones del 31 de mayo. Su trayectoria la posiciona como una figura clave en la política del país.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/cali/quien-es-aida-quilcue-la-formula-vicepresidencial-de-ivan-cepeda-y-una-de-las-lideresas-mas-significativas-en-el-suroccidente-colombiano-3538937",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/10/69aff4d4427b9.r_d.309-481-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
-      "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
       "type": "explainer",
       "isNew": false
     },
@@ -113,6 +104,24 @@
       "isNew": false
     },
     {
+      "titleOriginal": "¿Quién es Aida Quilcué, la fórmula vicepresidencial de Iván Cepeda y una de las lideresas más significativas en el suroccidente colombiano?",
+      "summary280": "Aida Quilcué, senadora y destacada lideresa del suroccidente colombiano, fue elegida como fórmula vicepresidencial de Iván Cepeda del Pacto Histórico para las elecciones del 31 de mayo. Su trayectoria la posiciona como una figura clave en la política del país.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/cali/quien-es-aida-quilcue-la-formula-vicepresidencial-de-ivan-cepeda-y-una-de-las-lideresas-mas-significativas-en-el-suroccidente-colombiano-3538937",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/10/69aff4d4427b9.r_d.309-481-0.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "El expediente confidencial de drones en Antioquia: modelos, precios y características de los dispositivos terroristas utilizados por las disidencias",
+      "summary280": "El artículo de EL TIEMPO revela información sobre drones utilizados por disidencias en Antioquia, incluyendo modelos, precios y características. Altas fuentes de la fuerza pública y autoridades locales proporcionan detalles sobre estos dispositivos empleados en atentados.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-expediente-confidencial-de-drones-en-antioquia-modelos-precios-y-caracteristicas-de-los-dispositivos-terroristas-utilizados-por-las-disidencias-3537766",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69af8e3518f0b.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Cómo la guerra en Irán pone a prueba la estrategia global de China",
       "summary280": "La guerra en Irán plantea desafíos a la estrategia global de China, que, aunque tiene suficiente petróleo a corto plazo, enfrenta riesgos a largo plazo para sus inversiones y mercados.",
       "sourceName": "BBC News Mundo",
@@ -127,24 +136,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/11/senado-analiza-creacion-de-un-registro-nacional-de-enfermedades-renales-para-mejorar-atencion-a-pacientes/",
       "imageUrl": "https://www.infobae.com/resizer/v2/QCIF27AJ75C3ZBFMK6KGTZYJPE.jpg?auth=bc4982957dce50d38befa62d19d149b905e1d03ce67f12f09eced093c1e34fc5&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
-      "summary280": "El Pacto Histórico, con la inclusión de Orlando De La Hoz, aumentaría la representación del Atlántico en el Senado de siete a ocho senadores, consolidándose como una fuerza política en el departamento. Esto refleja un crecimiento significativo en su influencia.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
-      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
       "type": "explainer",
       "isNew": false
     },
@@ -167,20 +158,29 @@
       "isNew": false
     },
     {
+      "titleOriginal": "Con Orlando De La Hoz, el Atlántico pasaría de siete a ocho senadores: el Pacto Histórico se consolida como fuerza política en el departamento",
+      "summary280": "El Pacto Histórico, con la inclusión de Orlando De La Hoz, aumentaría la representación del Atlántico en el Senado de siete a ocho senadores, consolidándose como una fuerza política en el departamento. Esto refleja un crecimiento significativo en su influencia.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/con-orlando-de-la-hoz-el-atlantico-pasaria-de-siete-a-ocho-senadores-el-pacto-historico-se-consolida-como-fuerza-politica-en-el-departamento-3538702",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/09/69aef85b110b9.png",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
+      "titleOriginal": "Así quedó el mapa político en el Atlántico: Cambio Radical, Pacto Histórico y Partido Liberal se quedaron con las 7 curules a la Cámara",
+      "summary280": "El preconteo con el 98,04% de las mesas informadas muestra que Cambio Radical, Pacto Histórico y el Partido Liberal se adjudicaron las 7 curules a la Cámara en el Atlántico, consolidando su influencia en la región. El mapa político ha cambiado significativamente.",
+      "sourceName": "El Tiempo Colombia",
+      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/asi-quedo-el-mapa-politico-en-el-atlantico-cambio-radical-pacto-historico-y-partido-liberal-se-quedaron-con-las-7-curules-a-la-camara-3538617",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/08/69adb34a6f532.jpeg",
+      "type": "explainer",
+      "isNew": false
+    },
+    {
       "titleOriginal": "Qué son los \"cristales de memoria\" que desafían las leyes de la física y prometen solucionar el problema del almacenamiento masivo de datos",
       "summary280": "Los \"cristales de memoria\", descubiertos por Peter Kazansky, utilizan láseres para crear nanostructuras en vidrio, ofreciendo una solución innovadora para el almacenamiento masivo de datos.",
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/c875endde9yo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/a429/live/cc045bb0-11b0-11f1-9c3e-09b6f259d76e.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Muere hombre de 62 años tras caer de árbol mientras instalaba red eléctrica en Honduras",
-      "summary280": "Andrés Pérez Núñez, un trabajador de 62 años, falleció tras caer de un árbol mientras instalaba una red eléctrica en Ojojona, Honduras. A pesar de los intentos de sus compañeros por llevarlo al hospital, la falta de atención inmediata fue fatal.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/honduras/2026/03/11/muere-hombre-de-62-anos-tras-caer-de-arbol-mientras-instalaba-red-electrica-en-honduras/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/VOZHTBEXEBHPVFADJW2OI72GHE.webp?auth=5cb95b48dcb57695ffebb47178a78142f7182f6458b08661f6a0e31267dc7e43&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
