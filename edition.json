@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "13 de marzo de 2026",
-  "generated_at": "2026-03-13T00:45:55.499361-05:00",
+  "generated_at": "2026-03-13T01:47:45.949425-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "La compra de viviendas en España se anotó la mayor cifra desde la burbuja inmobiliaria",
+      "summary280": "La compraventa de viviendas en España alcanzó en 2025 un total de 752.098 operaciones, un aumento del 5% y la cifra más alta desde 2007. Las viviendas usadas lideraron el crecimiento, aunque el mercado enfrenta un déficit que eleva los precios y dificulta el acceso a la vivienda.",
+      "articleText": "13 Mar, 2026 Por Newsroom Infobae Madrid, 11 mar (EFE).- La compraventa de viviendas en España creció un 5 % en 2025, un ejercicio en el que se contabilizaron un total de 752.098 operaciones, la mayor cifra que se registra desde 2007, en plena burbuja inmobiliaria, según los datos que maneja el Ministerio de Vivienda y Agenda Urbana español. De esta forma, las compraventas de viviendas encadenan dos años consecutivos en positivo y por encima de las 70.000 unidades tras la caída cercana al 11 % que registraron en 2023 ante la subida de los tipos de interés para hacer frente a la escalada inflacionista y el consecuente encarecimiento de la financiación. Por régimen de vivienda libre, las compraventas de vivienda usada, las más numerosas del mercado, fueron las que más subieron en 2025, un 5,3 % interanual, hasta las 667.959. Por su parte, las compraventas de vivienda nueva crecieron el pasado año un 2,1 % y sumaron 62.758 unidades. En 2025 también se transaccionaron 21.381 viviendas protegidas, el 6,2 % más que un año antes. A lo largo de 2025, las compraventas de vivienda han ido moderando las subidas hasta acabar el cuarto trimestre con el menor crecimiento del ejercicio (0,57%) comparado con la subida del 14,7% del primer trimestre del año. En el último cuatrimestre, pese a crecer solo un 0,57%, la cifra de operaciones fue de 200.441. Hay que remontarse al segundo trimestre de 2007, hace 18 años, para encontrar un dato tan alto de operaciones (227.562). Desde que arranca la serie histórica de esta estadística en 2005, la mayor cifra de compraventas de vivienda se dio en 2006, en pleno 'boom' del sector inmobiliario, con 955.186 operaciones. Por el contrario, el mínimo se produjo en 2013 con 300.568 compraventas tras el pinchazo de la burbuja inmobiliaria. De esta forma, los datos de 2025 son superiores en más de 2,5 veces a los que se daban entonces, según el Ministerio de Vivienda, que los obtiene a partir de los que remite trimestralmente la Agencia Notarial de Certificación. Las subidas siguen en el contexto en el cual, pese a las mejores condiciones hipotecarias, el mercado continúa sufriendo un déficit de vivienda presionando al alza los precios y dificultando el acceso a buena parte de la población, especialmente jóvenes y aquellos con menos recursos.EFE csb/luc/vcg/cg",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/11/la-compra-de-viviendas-en-espana-se-anoto-la-mayor-cifra-desde-la-burbuja-inmobiliaria/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Las casas de Italia que se venden por 1 euro para combatir la despoblación",
       "summary280": "Italia enfrenta una disminución poblacional, especialmente en áreas rurales. Desde 2008, varios municipios venden casas por 1 euro para atraer residentes y revitalizar comunidades.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/espana/2026/03/13/las-casas-de-italia-que-se-venden-por-1-euro-para-combatir-la-despoblacion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/Y3W7ENLJHBHAHOEF5TVMT65X34.jpg?auth=fca7fbb0a025584819ae1d3eab14cab9834233cf5d2263d929f6c9f1b438055b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Revelan detalles del giro en caso de Freddy Rincón: abogado de la familia explicó las pruebas detrás de nueva decisión del Tribunal Superior de Cali",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/revelan-detalles-del-giro-en-caso-de-freddy-rincon-abogado-de-familia-hablo-de-las-pruebas-que-llevaron-a-la-nueva-decision-3539782",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2022/04/11/6254220218961.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Vive Latino 2026: cuánto podría costar la cerveza en el festival",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/10/sanchez-y-su-homologo-irlandes-acuerdan-impulsar-las-relaciones-bilaterales-y-la-cooperacion-en-la-transicion-energetica/",
       "imageUrl": "https://www.infobae.com/resizer/v2/K5WLZDJM3VF35D5353QVA5TFKY.jpg?auth=7dd506a4dec68822f2ef47548de8d55da06d01285afeb0a7144b4b6cbb44f3a1&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Los detalles del acuerdo histórico entre EPM e Hidroituango que convirtieron un pleito billonario en una conciliación gana-gana para Antioquia",
-      "summary280": "EPM e Hidroituango lograron un acuerdo histórico que resolvió un pleito millonario, beneficiando a Antioquia. Este pacto se alcanzó tras la condena a EPM de pagar 780.000 millones de pesos, marcando un hito en la relación entre ambas entidades.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Explicativo Exclusivo suscriptores Los gerentes de EPM e Hidroituango alcanzaron, en diciembre pasado, un acuerdo histórico al respecto del billonario pleito por la hidroeléctrica. Foto: EL TIEMPO. Nicolás Tamayo Escalante PERIODISTA DE MEDELLÍN12.03.2026 12:42 Actualizado: 12.03.2026 13:43 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Hidroituango puso en operación la primera turbina en diciembre del 2022 Foto:EPM LEA TAMBIÉN Nicolás Tamayo Escalante Así quedó la casa de máquinas de Hidroituango tras su inundación como medida de contingencia. Foto:EL TIEMPO. LEA TAMBIÉN Nicolás Tamayo Escalante Aparte del laudo arbitral donde se condena a EPM a pagar los 780.000 millones de pesos. Foto:EL TIEMPO. LEA TAMBIÉN Nicolás Tamayo Escalante Alejandro Arbeláez Arango, gerente de la Sociedad Hidroituango S.A.S. Foto:Cortesía. Fondo Horizontes se representó con una intervención a la obra del maestro Francisco Antonio Cano. Foto:Cortesía. Sergio Fajardo eligió a Edna Bonilla como fórmula. Foto: Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/los-detalles-del-acuerdo-historico-entre-epm-e-hidroituango-que-convirtieron-un-pleito-billonario-en-una-conciliacion-gana-gana-para-antioquia-3539607",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/12/69b2f8e67e8e0.png",
       "type": "explainer",
       "isNew": false
     }
