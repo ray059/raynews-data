@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "13 de marzo de 2026",
-  "generated_at": "2026-03-13T02:42:54.216462-05:00",
+  "generated_at": "2026-03-13T03:36:14.639814-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Hang Seng este 13 de marzo: perdió terreno tras el cierre de la jornada",
+      "summary280": "El Hang Seng de Hong Kong cerró el 13 de marzo con una caída del 0,98%, alcanzando los 25.465,60 puntos. Durante la jornada, el índice osciló entre 25.697,17 y 25.419,87 puntos. En la última semana, ha bajado un 1,13% y se encuentra un 8,95% por debajo de su máximo anual.",
+      "articleText": "13 Mar, 2026 Por Infobae Noticias Día negativo para el Hang Seng (Hong Kong), que acabó la sesión de mercado del viernes 13 de marzo con descensos del 0,98%, hasta los 25.465,60 puntos. El índice marcó la cifra máxima de 25.697,17 puntos y un volumen mínimo de 25.419,87 puntos. El rango de cotización para el Hang Seng (Hong Kong) entre su punto más alto y el más bajo (máximo-mínimo) durante este día se situó en el 1,08%. En la última semana, el Hang Seng (Hong Kong) anota una bajada del 1,13%. El Hang Seng (Hong Kong) se sitúa un 8,95% por debajo de su máximo del presente año (27.968,09 puntos) y un 0,86% por encima de su valoración mínima en lo que va de año (25.249,48 puntos).",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/13/hang-seng-este-13-de-marzo-perdio-terreno-tras-el-cierre-de-la-jornada/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Sebastián Ramírez, abogado: “Estas son las cinco causas más comunes por las que se pide una incapacidad permanente”",
       "summary280": "Sebastián Ramírez, abogado, destaca cinco causas comunes para solicitar una pensión por incapacidad permanente: enfermedades neurológicas, problemas reumatológicos, enfermedades cardiovasculares, enfermedades respiratorias y trastornos graves de ansiedad.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/espana/2026/03/13/sebastian-ramirez-abogado-estas-son-las-cinco-causas-mas-comunes-por-las-que-se-pide-una-incapacidad-permanente/",
       "imageUrl": "https://www.infobae.com/resizer/v2/PZP7SKY5YNH53IVMQVA6GHHJ2A.jpg?auth=91bf17b956998ab37ffcf7c9dca8a332ecd7787575f3bd11594979541ca2faf4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "¡Tenga cuidado, conductor! Pico y placa en Bucaramanga para el viernes 13 de marzo de 2026",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/tenga-cuidado-conductor-pico-y-placa-en-bucaramanga-para-el-viernes-13-de-marzo-de-3539862",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2023/10/18/652fd99a91bfe.r_d.600-360-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La compra de viviendas en España se anotó la mayor cifra desde la burbuja inmobiliaria",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/freddy-rincon-los-alcances-del-fallo-del-tribunal-superior-de-cali-sobre-muerte-del-jugador-en-accidente-bus-del-mio-no-seria-unico-responsable-3539665",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2022/09/19/6328d8d6357c3.r_d.832-273-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Crimson Desert, el nuevo juego de Pearl Abyss, presenta su tráiler de lanzamiento",
-      "summary280": "Crimson Desert, el nuevo juego de Pearl Abyss, presenta a Kliff como protagonista en su misión de reconstruir su clan tras la caída ante los Osos Negros.",
-      "articleText": "12 Mar, 2026 Por Lucas Rivarola Kliff, líder de los Melenas Grises, se convierte en el personaje principal de Crimson Desert, el nuevo juego de acción y rol desarrollado por Pearl Abyss, que estará disponible mundialmente a partir del 19 de marzo en PlayStation 5, Xbox Series y PC. Tras la trágica caída de su grupo a manos de los Osos Negros y la dispersión de sus compañeros, Kliff emprende una misión personal con el objetivo de reunir a los supervivientes, reconstruir su clan y enfrentar los peligros y enigmas del continente de Pywel, un mundo representado con una ambición gráfica y de diseño poco común. La historia comienza con una emboscada devastadora organizada por el grupo rival conocido como los Osos Negros. Durante el ataque, los Melenas Grises sufren pérdidas graves, entre ellas la separación de Kliff de sus aliados más cercanos: Oongka, Yann y Naira, quienes hasta ese momento habían sido como una familia para él en los campos de batalla. La frágil paz que existía en Pywel se quiebra y la vida de los supervivientes cambia radicalmente. El principal antagonista de Kliff, el líder de los Osos Negros, Myurdin, emerge como la figura central en una lucha donde la supervivencia y la búsqueda de justicia por los caídos impulsan la historia principal. La trama de Crimson Desert aborda no sólo la venganza, sino también la reconstrucción tanto personal como colectiva. Mientras Kliff mantiene presentes los nombres de sus compañeros muertos, se compromete a restablecer a los Melenas Grises y desafiar el orden establecido, enfrentándose no sólo a bandos enemigos sino también a una red de intereses y amenazas que buscan alterar el destino del continente. Pywel se presenta como una vasta región abierta, llena de peligros y oportunidades, desarrollada sobre el avanzado motor gráfico BlackSpace Engine, una tecnología propia de Pearl Abyss. Este sistema permite desplazarse por escenarios sin interrupciones de carga, recreando ciudades activas, paisajes extensos y ruinas en tiempo real, lo que incentiva la inmersión y la exploración durante toda la partida. El juego ofrece misiones principales y secundarias en las que cada solicitud o conversación puede desencadenar acontecimientos significativos o descubrimientos inesperados. Entre los desafíos más destacables se encuentran combates contra criaturas colosales y batallas en escenarios cambiantes, en algunas ocasiones encima de dragones. Así, el viaje de Kliff no sigue un camino fijo: cada acción y decisión influye en el desarrollo de la historia, planteando frecuentes dilemas morales y exigencias estratégicas al jugador. La variedad de facciones y la compleja red política del mundo facilitan encuentros y traiciones que moldean tanto la narrativa como las consecuencias de las decisiones de Kliff, ampliando las posibilidades de interacción para quienes exploran Pywel. Los detalles y la riqueza de las misiones contribuyen a presentar un entorno que reacciona y se transforma conforme a las acciones del protagonista. Crimson Desert se caracteriza por una jugabilidad centrada en la acción directa y combates intensos. Los enfrentamientos requieren reflejos ágiles, ya que el sistema de lucha permite el uso de una amplia variedad de armas como espadones, lanzas y arcos, además de poderes elementales cuya combinación estratégica es fundamental para superar a los distintos enemigos y jefes del continente. Además de ser visualmente impactantes, los combates varían según el estilo de lucha de cada personaje, lo que permite al jugador explorar distintos enfoques según sus preferencias. Características adicionales, como las batallas a caballo o la cooperación entre personajes jugables, enriquecen la dimensión táctica y refuerzan la sensación de peligro constante. El juego ya ha publicado sus requisitos técnicos para PC y detalles sobre el rendimiento en consolas, con opciones de alta resolución y velocidades de fotogramas variables. El despliegue tecnológico busca garantizar accesibilidad a un público",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/malditos-nerds/2026/03/12/crimson-desert-el-nuevo-juego-de-pearl-abyss-presenta-su-trailer-de-lanzamiento/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/KN34JX6MEZA7RBHPLJVQAOIMGU.jpg?auth=74d575ebbec2ddea422736ac22169f6c30821c545e9a55a07ac555849cd2991e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
