@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "13 de marzo de 2026",
-  "generated_at": "2026-03-13T06:28:32.705379-05:00",
+  "generated_at": "2026-03-13T07:52:06.859400-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Albares asegura que \"no hay que asustar a la gente\" pero Europa debe estar preparada \"para cualquier escenario\"",
+      "summary280": "El ministro de Asuntos Exteriores, José Manuel Albares, afirmó que Europa no debería temer represalias por la guerra en Irán, aunque debe estar lista para cualquier eventualidad.",
+      "articleText": "13 Mar, 2026 Por Newsroom Infobae El ministro de Asuntos Exteriores, José Manuel Albares, ha afirmado que Europa \"no debería\" ser objeto de \"posibles represalias\" por la guerra en Irán, pero ha añadido que \"nada es descartable\" y aunque \"no hay que asustar a la gente\", Europa debe estar preparada \"para cualquier escenario\". En una entrevista en ETB, el ministro ha asegurado que Europa es, tras los países del Golfo, la que \"sin duda\" podría verse más afectada por el conflicto bélico desatado en Irán. \"Europa es, sin duda, la más afectada económicamente. Lo estamos viendo porque el alza de los precios del petróleo del gas, o de otros componentes del sector agroalimentario impactan directamente sobre el bienestar de los europeos\", ha dicho. Además, ha afirmado que \"si esto se prolonga\" se puede producir \"una enorme crisis humanitaria\", como ocurrió hace años en Siria, con millones de personas \"andando hacia Europa\". El ministro ha insistido en que Europa es \"sin duda alguna la más amenazada en sus propios intereses\", pero también están \"en juego\" sus valores. \"Europa es un proyecto de paz, defensa del derecho del derecho internacional y estos son momentos en los que hay que escoger o el orden mundial y sus reglas o el desorden que lleva al caos; el derecho o la fuerza, o la paz o la guerra\", ha señalado. Preguntado por si existe una preocupación en Europa por posibles represalias de atentados con el objetivo de desestabilizar al continente, tal y como ha alertado Europool, ha afirmado que \"no debería\" ser así. Albares ha recordado que Europa \"no es parte en absoluto de esta guerra\" pero también ha destacado que hay \"un régimen que de manera irracional está enviando misiles y drones a todos los países de Oriente Medio de manera injustificada, porque tampoco son parte de esta guerra ni han participado en ella\". Por ello, ha asegurado que \"nada es descartable\" porque ya se han producido lanzamientos de misiles hacia Turquía, \"un aliado de la OTAN\" y también hubo un misil que se dirigió a Chipre. \"No hay que asustar a la gente, la situación ya es suficientemente compleja; pero desde luego hay que estar preparado para cualquier escenario\", precisado. (Habrá ampliación)",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/13/albares-asegura-que-no-hay-que-asustar-a-la-gente-pero-europa-debe-estar-preparada-para-cualquier-escenario/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/U7DATDWJMZH4NAF6ZUQ6ABTXSM.jpg?auth=ac421152969b0ddf58992371f57d6d76db05572fe68f69e70279449a35c99cf3&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Atentado en Michigan: lo que se sabe hasta ahora del ataque en la sinagoga Temple Israel",
       "summary280": "Un ataque en la sinagoga Temple Israel de Michigan dejó a 150 niños presentes en peligro cuando Ayman Mohamad Ghazali embistió el edificio. El agresor, abatido por seguridad, tenía antecedentes familiares relacionados con Hezbollah.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/13/atentado-en-michigan-lo-que-se-sabe-hasta-ahora-del-ataque-en-la-sinagoga-temple-israel/",
       "imageUrl": "https://www.infobae.com/resizer/v2/7SCWJB7Z6ZHHBA2WS6HEB4A5CE.jpg?auth=97835e9f367352be55e9f7f8e693f89012154084d87093f41ff3cb3f66bcb10e&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Oscar 2026: las predicciones de los críticos de la BBC sobre quién ganará (y quién debería ganar)",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cwyxzpq92v1o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/fa1f/live/1e95d970-1e50-11f1-801d-ed3cff6bf876.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Abaten a ‘Fabián’ en Maracaibo: murió el menor buscado por el crimen de las hermanas Hernández en Malambo; había huido de la justicia hacia Venezuela",
@@ -32,7 +42,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/abaten-a-fabian-en-maracaibo-murio-el-menor-buscado-por-el-crimen-de-las-hermanas-hernandez-en-malambo-habia-huido-de-la-justicia-hacia-venezuela-3539856",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/13/69b3a389b9bbb.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "En la primera sesión de ‘Torrente: presidente’: estos son todos los secretos de la última película de Santiago Segura",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/el-anuncio-del-restaurante-andres-carne-de-res-que-emociona-a-sus-seguidores-calenos-tendra-sede-en-un-reconocido-centro-comercial-de-cali-3539785",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/08/21/66c65a1fc8cbb.r_d.580-450-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Qué busca China al aprobar una ley de \"unidad étnica\" que impone la cultura Han",
-      "summary280": "China aprobó una ley de \"unidad étnica\" que busca integrar a las 56 minorías bajo la cultura Han, promoviendo la enseñanza del mandarín y matrimonios mixtos. Críticos advierten que esto erosiona derechos culturales y lingüísticos, afectando a grupos como tibetanos y uigures.",
-      "articleText": "Fuente de la imagen, Getty Images El gobierno chino ha sido acusado durante décadas de aplicar políticas represivas para someter a las minorías étnicas de China. Y este jueves, Pekín aprobó una nueva ley para promover la \"unidad étnica\" en el país que algunos temen que erosione aún más los derechos de esos grupos. Sobre el papel, la ley busca promover a través de la educación y la vivienda la integración entre los 56 grupos étnicos reconocidos oficialmente, dominados por los chinos Han. Pekín sostiene que la ley promoverá la \"modernización a través de una mayor unidad\". Lou Qinjiang, vocero del Partido Comunista de China, dijo que el objetivo es \"asegurar el liderazgo integral sobre los asuntos étnicos, mejorar los mecanismos institucionales para fortalecer un sentido de pertenencia a una comunidad para la nación china y apoyar a la regiones con minorías étnicas en la integración al desarrollo general del país\". Pero los detractores de la ley dicen que esta separará a las personas de su idioma y su cultura. La norma exige que todos los niños reciban enseñanza en mandarín desde temprana edad hasta el final de la escuela secundaria, en detrimento de las lenguas nativas de las minorías; incentiva los matrimonios de los integrantes de estas comunidades con los de la mayoría Han; requiere a los padres que \"eduquen y guíen a sus menores en el amor al Partido Comunista\"; y prohíbe todo acto que las autoridades consideren que va en contra de la \"unidad étnica\". Según analistas y organizaciones de derechos humanos, minorías como la tibetana, la uigur o la mongola pueden verse perjudicadas por la ley. La norma vio la luz verde el jueves cuando la sesión parlamentaria anual del Partido Comunista de China para aprobar sus normas llegaba a su fin. Final de Más leídas El Congreso Nacional del Pueblo nunca ha rechazado una ley que se le haya presentado. Fuente de la imagen, Getty Images El nuevo podcast de BBC Mundo sobre un amor que triunfó contra todo pronóstico Episodios Fin de Podcast El presidente chino, Xi Jinping, ha llamado repetidamente a una \"sinización de la religión\", reclamando que las prácticas religiosas se alineen con lo que el Partido Comunista considera son los valores y la cultura chinas, y los expertos ven esta ley como un paso más en esa dirección. \"La ley es coherente con un cambio de política reciente y dramático para suprimir la diversidad étnica formalmente reconocida desde 1949\", indicó en un informe Magnus Fiskesjö, profesor asociado de Antropología en la Universidad de Cornell, en Estados Unidos. \"Los niños de la siguiente generación quedan ahora aislados y brutalmente obligados a olvidar su propio idioma y cultura\", añadió. Sin embargo, Pekín argumenta que enseñar mandarín a la próxima generación ayudará a sus perspectivas laborales. También dice que la ley para \"Promover la Unidad y el Progreso Étnicos\" es crucial para fomentar la \"modernización a través de una mayor unidad\". La norma proporciona una base legal para procesar a padres o tutores que puedan inculcar en los niños lo que las autoridades consideren como puntos de vista \"perjudiciales\" para la armonía étnica. Además, pide \"entornos comunitarios mutuamente integrados\", lo que algunos analistas creen podría resultar en la disolución de vecindarios con alta presencia de minorías. El gobierno chino comenzó a impulsar lo que describe como la \"sinización\" de los grupos minoritarios a finales de la década de los 2000 en busca de una identidad nacional más unificada al asimilar grupos étnicos a la cultura han dominante. Los chinos Han representan más del 90% de los 1.400 millones de habitantes del país, pero en él hay también 55 minorías étnicas reconocidas oficialmente. Se estima que millones de chinos forman parte de alguna. Pekín ha sido acusado durante mucho tiempo de restringir los derechos de las minorías étnicas en regiones como Tíbet, Xinjiang y la Mongolia Interior. Los críticos dicen que a menudo se ha impulsado una asimilación forzosa en estos lugar",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c33jked8rpzo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5814/live/1927fc80-1df5-11f1-a719-d5d170d20a8c.jpg",
       "type": "explainer",
       "isNew": false
     }
