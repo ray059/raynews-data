@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "14 de marzo de 2026",
-  "generated_at": "2026-03-14T12:23:44.652907-05:00",
+  "generated_at": "2026-03-14T13:33:40.849107-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Juez desestima parte de una demanda contra Trump por fondos retenidos al proyecto Gateway",
+      "summary280": "Un juez federal desestimó parte de una demanda contra Trump por la retención de fondos para el proyecto Gateway, tras el pago y reanudación de la obra. Sin embargo, dos cargos contra la Administración Trump continuarán. La gobernadora de Nueva Jersey celebró la decisión judicial.",
+      "articleText": "14 Mar, 2026 Por Newsroom Infobae Nueva York, 12 mar (EFE).- Un juez federal desestimó este jueves parte de una demanda contra la Administración del presidente Donald Trump por haber retenido fondos para el proyecto ferroviario Gateway, que conectará Nueva York y Nueva Jersey, luego de que el Gobierno hiciera el pago y el trabajo de construcción continuara para completar una de las obras en desarrollo más importantes del país. El pasado octubre, el Departamento de Transporte de EE.UU. retuvo unos 205 millones de dólares destinados a la Comisión de Desarrollo de Gateway para revisar si se estaba cumpliendo con la nueva reglamentación del Gobierno de Trump que prohíbe las políticas que buscan favorecer la contratación basadas en raza y sexo (DEI). Debido a que los fondos seguían retenidos y la obra se había paralizado, las Fiscalías de Nueva York y Nueva Jersey y el consorcio encargado del proyecto, que emplea a unas mil personas, demandaron el pasado febrero en la corte federal para el Distrito Sur de Nueva York, que ordenó la entrega del dinero. Este jueves, el juez Richard Hertling del Tribunal de Reclamaciones Federales desestimó parte de otra demanda que presentó la Comisión en ese foro contra el Departamento de Transporte por incumplimiento de contrato porque ya se habían entregado fondos y reanudado el proyecto. \"La reclamación del demandante, tal como está ahora, es discutible\", señaló el juez Hertling, quien indicó además que la agencia federal había violado los acuerdos al incumplir con el pago de los 205 millones de dólares. No obstante, dos de los ocho cargos presentados contra la Administración Trump continuarán su curso. El que pide indemnización al Departamento de Transporte por los costos incurridos al tener que paralizar la obra y el que acusa a esa agencia de incumplir el \"deber implícito de buena fe y trato justo\" del contrato. Tras conocer la decisión del tribunal, la gobernadora de Nueva Jersey, la demócrata Mikie Sherrill, se mostró complacida de que otro tribunal haya fallado contra la Administración Trump en este caso. \"Hemos luchado repetidamente contra el corte ilegal de fondos de Donald Trump para el proyecto del Túnel Gateway y hemos ganado, para los trabajadores y para los 200.000 pasajeros diarios que necesitan el túnel Gateway\", dijo en un comunicado. \"Seguiremos luchando y seguiremos ganando si Donald Trump vuelve a intentar cortar ilegalmente la financiación\", aseguró. EFE",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/12/juez-desestima-parte-de-una-demanda-contra-trump-por-fondos-retenidos-al-proyecto-gateway/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "El hallazgo que conmociona a Córdoba: encuentran enterrada a una adolescente de 14 años dentro de una vivienda en Sahagún",
       "summary280": "El cuerpo de una adolescente de 14 años fue encontrado enterrado en una vivienda en Sahagún, Córdoba, tras alertas de vecinos sobre movimientos sospechosos. Las autoridades investigan el caso y han trasladado el cuerpo a Medicina Legal para determinar las causas de la muerte.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/el-hallazgo-que-conmociona-a-cordoba-encuentran-enterrada-a-una-adolescente-de-14-anos-dentro-de-una-vivienda-en-sahagun-3540194",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/14/69b5960f59420.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El ranking de los cruceros más limpios del mundo según inspecciones sanitarias de Estados Unidos",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/14/el-ranking-de-los-cruceros-mas-limpios-del-mundo-segun-inspecciones-sanitarias-de-estados-unidos/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GLR4KSGBJ5GTLLMZGJBGJAPCAQ.png?auth=3e02763a28fac19ee71e5c4cec3897b4f955fe42b42f90c44e628f077fad49d7&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El mexicano Obed Vargas debuta como titular con el Atlético de Madrid ante Getafe",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/14/karla-tarazona-responde-triste-tras-revelaciones-de-pamela-franco-sobre-christian-dominguez-hablaremos-por-interno/",
       "imageUrl": "https://www.infobae.com/resizer/v2/U72TOE2DFJHWDKTFSG7QEGZFDQ.jpg?auth=467bd57edb8157107612cc7d32298abafe509e66b9e26587fd2c7712569d5a80&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Temblor en México hoy: noticias de la actividad sísmica este sábado 14 de marzo de 2026",
-      "summary280": "México, ubicado sobre cinco placas tectónicas, enfrenta alta actividad sísmica. La subducción de la Placa de Cocos genera terremotos. Autoridades de Protección Civil destacan la importancia de un Plan Familiar de Protección Civil para reducir riesgos y proteger a la población.",
-      "articleText": "14 Mar, 2026 Por Jesús Tovar Sosa La República Mexicana es uno de los países con mayor actividad sísmica en el mundo debido a su ubicación geográfica. El territorio se asienta sobre cinco placas tectónicas: la de Norteamérica, Cocos, el Pacífico, Rivera y la del Caribe. La interacción constante entre estas masas, especialmente la subducción de la Placa de Cocos bajo la Norteamericana en la costa del Pacífico, libera enormes cantidades de energía que se manifiestan como terremotos. Ante esta realidad geológica, las autoridades de Protección Civil enfatizan la importancia de saber actuar antes, durante y después de un movimiento telúrico para salvaguardar la integridad física. De acuerdo con los protocolos internacionales, se recomienda seguir estas pautas: La prevención y el diseño de un Plan Familiar de Protección Civil son las herramientas más eficaces para reducir riesgos en un país que convive diariamente con la fuerza de la tierra.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/2026/03/14/temblor-en-mexico-hoy-noticias-de-la-actividad-sismica-este-sabado-14-de-marzo-de-2026/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/PKF2CQOHYFAOTEE5VAAWTVGHDM.jpg?auth=fef11007da9a7bec902a4d3df66238ac6269ea8613fb5d07c2e28ec7771fd1e4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
