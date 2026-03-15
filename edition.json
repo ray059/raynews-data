@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "15 de marzo de 2026",
-  "generated_at": "2026-03-15T00:02:56.725301-05:00",
+  "generated_at": "2026-03-15T01:52:33.498042-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "El PSOE, en vilo por varios escaños para \"salvar la honra\" ante la previsible mayoría de PP y Vox",
+      "summary280": "El PSOE enfrenta incertidumbre por el ascenso de Vox en Castilla y León, que podría erosionar su base tradicional. Las encuestas internas muestran un empate técnico con el PP, y la asignación de escaños será ajustada.",
+      "articleText": "15 Mar, 2026 Por Newsroom Infobae La posibilidad de que Vox supere el 20% de los votos en Castilla y León y erosione la base tradicional del PSOE en zonas obreras y mineras preocupa en sectores internos del partido, según fuentes citadas por Europa Press. En el análisis de estos cuadros socialistas, el ascenso de Vox no solo provocaría perjuicio al Partido Popular en el reparto de escaños, sino que, si ese crecimiento alcanza suficiente peso, también afectaría de manera directa al PSOE en áreas donde históricamente obtuvo resultados elevados. De acuerdo con Europa Press, el PSOE maneja encuestas internas que anticipan un escenario de empate técnico con el PP en las elecciones autonómicas previstas para el domingo 15 de marzo en Castilla y León. Los datos recogidos muestran que la asignación definitiva de escaños dependerá de márgenes mínimos, así como de los restos en varias provincias, donde se estima que las diferencias finales serán muy ajustadas. Estas proyecciones internas sitúan al PSOE en una horquilla de entre 26 y 30 parlamentarios, dependiendo de la cantidad de escaños que logren disputarse hasta el final del escrutinio. Actualmente el partido cuenta con 28 representantes en las Cortes autonómicas. Europa Press reportó que existe una gran atención sobre tres o cuatro escaños específicamente, los cuales pueden definirse entre PSOE, PP o incluso Vox. El peso de estos escaños oscilaría el balance final de la contienda, con la posibilidad de que el PSOE evite una nueva caída como las experimentadas en Extremadura y Aragón, o bien consiga mantener su presencia en una comunidad tradicionalmente adversa al partido, donde el PP ha gobernado de forma ininterrumpida durante los últimos 40 años. Fuentes consultadas por Europa Press subrayaron que una ligera mejoría respecto al resultado actual permitiría al núcleo de Ferraz interpretar el resultado como un éxito relativo, suficiente para “salvar la honra” del partido. No obstante, distintos sectores del PSOE piden moderación y descartan discursos triunfalistas, como el de la Chunta Aragonesista en las pasadas elecciones autonómicas de Aragón, que celebró la obtención de seis escaños pese a no impedir la formación de una mayoría conservadora. Insisten en que ninguno de los posibles escenarios prevé opciones reales de gobierno para el PSOE ante el previsible crecimiento de PP y Vox. El medio recogió también que el PSOE detectó este equilibrio técnico en la intención de voto desde el pasado otoño, sin observar variaciones significativas en los últimos meses. Los socialistas y el PP alternaron pequeñas ventajas, pero ambos mantienen posiciones cercanas. La campaña electoral se desarrolló bajo la influencia de la guerra en Irán, un factor que tampoco provocó cambios sustanciales en las perspectivas demoscópicas, aunque los sondeos internos registran una movilización importante del electorado socialista y un repunte leve de Vox básicamente a costa del PP. En el apartado de los liderazgos, Europa Press destacó que el candidato socialista Carlos Martínez incrementó su notoriedad entre el electorado y se ubicó al mismo nivel de valoración que el presidente Mañueco, aunque permanece por debajo de él en grado de conocimiento según los registros internos del partido. Esta pequeña mejora se situó en paralelo con la estrategia nacional del PSOE, que optó por reforzar mensajes vinculados al rechazo a la guerra y al patriotismo desde la gestión gubernamental. La agencia detalló que Pedro Sánchez eligió el mitin en Soria como primera aparición desde el inicio del conflicto tras los ataques de Estados Unidos e Israel. En esa ocasión, el secretario general utilizó una bandera española de grandes dimensiones como escenografía y dirigió su discurso hacia la defensa del “No a la guerra”, contraponiéndolo al “servilismo” que, en su opinión, atribuyó a PP y Vox respecto a las posiciones de Donald Trump. Sánchez argumentó que la guerra afecta negativamente a los trabajadores y conlleva consecuencias ec",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/14/el-psoe-en-vilo-por-varios-escanos-para-salvar-la-honra-ante-la-previsible-mayoria-de-pp-y-vox/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/Z63TUMS5VBEKXN3U57PCACOOQU.jpg?auth=63d9a9378e56a3ca14ae98aa4b6bd8737b6bf2210d52d32aa318be3cb15559a3&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Círculo rojo: el caso Adorni, del entusiasmo en Nueva York a la angustia en Buenos Aires",
       "summary280": "El artículo detalla la relación cercana entre Bettina Angeletti y Manuel Adorni, destacando su viaje a Nueva York con la comitiva presidencial.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/politica/2026/03/15/circulo-rojo-el-caso-adorni-del-entusiasmo-en-nueva-york-a-la-angustia-en-buenos-aires/",
       "imageUrl": "https://www.infobae.com/resizer/v2/VTMULYFHERAGVMI6KH2M7LQILY.jpg?auth=5380ca94ef3577ba44e7c77f21a85cc5b8876ed8e6ef41cc1995cc33c0aa8171&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Emergencia en Armenia: voraz incendio dejó 20 viviendas destruidas y varias personas damnificadas",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/emergencia-en-armenia-voraz-incendio-dejo-20-viviendas-destruidas-y-varias-personas-damnificadas-3540270",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/14/69b618c97f0ff.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Golazo de Aldair Salazar en Alianza Lima vs Deportivo Garcilaso: el furioso reclamo de Paolo Guerrero a sus compañeros en partido por Liga 1 2026",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/este-es-el-balance-de-la-emergencia-invernal-tras-agitada-semana-electoral-y-judicial-las-personas-damnificadas-son-mas-de-364-mil-3540176",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/02/09/698a114cc8dd0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "“Eres más fuerte que esta lesión”: Alexis Vega respalda a Marcel Ruiz tras confirmarse que se perderá el Mundial",
-      "summary280": "Marcel Ruiz se perderá el Mundial 2026 por una grave lesión de ligamento cruzado sufrida en un partido. Alexis Vega y la Selección Mexicana han expresado su apoyo y optimismo, destacando la fortaleza de Ruiz.",
-      "articleText": "14 Mar, 2026 Por Mariana Campos Las malas noticias continúan para el equipo de Javier Aguirre a pocos meses de dirigir su tercera Copa del Mundo. Y es que se reveló que Marcel Ruiz sufrió una grave lesión durante el partido de Toluca ante San Diego FC, lo que lo dejará fuera de la Selección Mexicana. La baja del mediocampista, confirmada tras el diagnóstico médico, llega en un momento crucial para el fútbol nacional. Ruiz, quien era una opción recurrente para el combinado nacional, no podrá disputar la Copa Mundial FIFA 2026. Sus compañeros, así como el entorno del Tri, manifestaron mensajes públicos de respaldo y ánimo ante la noticia. El futbolista Marcel Ruiz se perderá el Mundial 2026 debido a una rotura de ligamento cruzado. El incidente ocurrió durante la preparación hacia el torneo internacional más importante a nivel de selecciones. Según el club, que compartió el parte médico desde sus redes sociales, el tiempo estimado de recuperación para este tipo de lesiones ronda seis meses, aunque el regreso dependerá de la evolución de su proceso médico. En redes sociales, Alexis Vega, delantero y compañero de Ruiz en Toluca, compartió un mensaje con tono fraterno y optimista. “Lamento mucho que estés pasando por esto, estoy aquí para lo que necesites. Hermano, esta es sólo una pausa, no el final. Eres más fuerte que esta lesión y volverás mejor que nunca. Tu equipo y la selección te van a echar de menos, te estaremos esperando con los brazos abiertos. TQM Capitán”, publicó. Vega, quien también superó una cirugía de rodilla recientemente, mostró solidaridad y confianza en que Ruiz podrá sobreponerse a la adversidad. La reacción entre aficionados y otros futbolistas evidenció el impacto de la noticia dentro del fútbol mexicano. La Selección Mexicana difundió en sus canales oficiales palabras de aliento para Marcel Ruiz. La institución enfatizó el acompañamiento colectivo y expresó sus mejores deseos para su recuperación. “Marcel, cada persona en la Selección Nacional de México y cada Incondicional están contigo en estos momentos. Te deseamos la mejor de las recuperaciones y mucha fuerza. ¡Regresarás con todo!”, manifestaron. Por parte del club Toluca, se informó que la “recuperación dependerá de su evolución”, aunque en casos similares el periodo suele ser de seis meses antes de volver a la actividad oficial. Ruiz continuará bajo supervisión médica tanto de su club como de la Selección Nacional, con el respaldo de ambos entornos durante su proceso. A pesar del golpe anímico y deportivo para Marcel Ruiz, el mediocampista permanece rodeado de muestras de respaldo, con expectativas positivas de parte de sus allegados y el ambiente del fútbol mexicano sobre su eventual retorno a las canchas.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/14/eres-mas-fuerte-que-esta-lesion-alexis-vega-respalda-a-marcel-ruiz-tras-confirmarse-que-se-perdera-el-mundial/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/S4CLD7Y7WZCS3GPPNPYGWPEALY.jpg?auth=cc9b8885056e31dda1e83a8ef5839aa1a6bda18693f9d5db3a8472c7858b00bc&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
