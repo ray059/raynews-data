@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "15 de marzo de 2026",
-  "generated_at": "2026-03-15T13:34:02.628910-05:00",
+  "generated_at": "2026-03-15T14:25:50.379836-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Elecciones Castilla y León 2026: los primeros sondeos dan como ganador a Mañueco y Vox mejora sus resultados",
+      "summary280": "Los primeros sondeos indican que el PP, liderado por Mañueco, ganaría las elecciones en Castilla y León con un 33,7% de los votos. El PSOE quedaría segundo y Vox mejoraría sus resultados. La participación superó el 72%, con 1.917.546 votantes en la comunidad.",
+      "articleText": "15 Mar, 2026 Por Andrea de Lucas El PP ganaría las elecciones de este domingo, 15 de marzo, en Castilla y León, según los primeros sondeos de El Mundo/SigmaDos. Así, Alfonso Fernández Mañueco volvería a repetir como presidente de la Junta, con un 33,7% de los votos y entre 30-32 procuradores, igualando su resultado con respecto a 2022, aunque no contaría con la capacidad para gobernar en solitario. Como segunda fuerza quedaría el PSOE, liderado por Carlos Martínez, con un porcentaje de votación del 29,8% y entre 25-27 representantes, perdiendo procuradores con respecto a los 28 que consiguió hace cuatro años; y Vox quedaría en tercera posición, con el 21,1% del voto, lo que se traduciría en 17-19 procuradores, siendo el partido que más sube en representación, teniendo en cuenta que en los últimos comicios obtuvo 13 diputados. En cuanto a los partidos regionalistas, Unión del Pueblo Leonés (UPL) tendría entre 3-4 representantes, mientras que Soria Ya contaría con 2 procuradores, y Por Ávila solo conseguiría 1 diputado. La sorpresa llegaría con la coalición de Izquierda Unida-Sumar-Equo, que cuenta con posibilidades de tener un procurador en las Cortes de Castilla y León. Fuera de las Cortes se quedaría la formación de Ciudadanos, que hasta ahora cuenta con un procurador en el Parlamento autonómico. Tampoco tendrían representación en esta legislatura Podemos, que perdería también su único escaño. Los colegios electorales de toda la comunidad autónoma han cerrado a las ocho de la tarde, poniendo fin a la jornada de votación de estas elecciones autonómicas. Han sido un total de 2.910 centros habilitados los que han estado abiertos durante todo este domingo. En estos comicios, la participación ha superado el 72%. Esta cita con las urnas es una más del calendario electoral, tras los comicios celebrados en Extremadura y Aragón. En total, 1.917.546 castellanos y leoneses estaban llamados a votar en la comunidad, a los que se añaden otros 180.222 residentes en el extranjero inscritos en el censo electoral, una cifra que aumenta un 12,5% respecto a las anteriores elecciones autonómicas. Noticia en ampliación.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/15/elecciones-castilla-y-leon-2026-los-primeros-sondeos-dan-como-ganador-a-manueco-y-vox-mejora-sus-resultados/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/NF4GOL2HVVE4THYCLI7XZWSBKM.jpg?auth=4aedeab9f23a8acc38c979b6054d648fb4801d9bb02f4e03914c753cda8130b7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Las mejores series de Prime Video España para ver hoy mismo",
       "summary280": "Prime Video España ofrece una variedad de series destacadas, desde \"Scarpetta: Médico forense\" hasta \"La que se avecina\". Estas producciones han capturado la atención de los espectadores, convirtiéndose en temas de conversación.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/noticias/2026/03/15/las-mejores-series-de-prime-video-espana-para-ver-hoy-mismo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/5EUVCCYZPBHFPLRKDQWBFDWQGM.png?auth=86002674a1c19dd658c084377d5c82973d1b54c3cbe647f123949fda6e3d4af5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El Gaula Militar tendrá casa en Barranquilla: refuerzan la lucha contra la extorsión en la ciudad; Distrito invertirá más de $14.000 millones",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/el-gaula-militar-tendra-casa-en-barranquilla-refuerzan-la-lucha-contra-la-extorsion-en-la-ciudad-distrito-invertira-mas-de-14-000-millones-3540334",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/15/69b6f0da7fbc5.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Hijo del expresidente Álvaro Uribe reveló cómo votará en la primera vuelta presidencial: “Plena confianza”",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/14/el-psoe-en-vilo-por-varios-escanos-para-salvar-la-honra-ante-la-previsible-mayoria-de-pp-y-vox/",
       "imageUrl": "https://www.infobae.com/resizer/v2/Z63TUMS5VBEKXN3U57PCACOOQU.jpg?auth=63d9a9378e56a3ca14ae98aa4b6bd8737b6bf2210d52d32aa318be3cb15559a3&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Círculo rojo: el caso Adorni, del entusiasmo en Nueva York a la angustia en Buenos Aires",
-      "summary280": "El artículo detalla la relación cercana entre Bettina Angeletti y Manuel Adorni, destacando su viaje a Nueva York con la comitiva presidencial.",
-      "articleText": "15 Mar, 2026 Por Federico Mayol La enfocaron más de una vez, en un lugar privilegiado: los organizadores de la apertura de sesiones del 1 de marzo, supervisados por Karina Milei, ubicaron a Bettina Angeletti en el mismo palco de la Cámara baja desde el que siguieron el discurso presidencial, en el que se incorporó por primera vez a “la moral” como política de Estado, los padres de Javier Milei. Tiene lógica. La hermana presidencial hizo de Manuel Adorni un funcionario de extremísima cercanía, una relación de tal confianza que trabó con la pareja del jefe de Gabinete un vínculo casi familiar. “Karina tiene gestos con Manuel que no tiene con nadie, es su mimado”, reconoció una fuente oficial. Esa proximidad, que incluyó en los últimos tiempos salidas recreativas por fuera de las actividades oficiales, allanó el camino para que Angeletti -una coach ontológica que, según las fuentes, está fascinada con el poder que amasó su marido- se subiera al avión oficial junto a Adorni y la comitiva presidencial que viajó a Manhattan para participar de la “Argentina Week”, el mayor road show de inversiones reciente que Milei y Luis Caputo, “Toto”, encabezaron en Nueva York para atraer capitales y que terminó envuelto en una enorme polémica después de que el ministro coordinador confesara que su mujer viajó con la delegación para acompañarlo por el trajín de las actividades: “Vengo cinco días a deslomarme”, dijo el martes en A24. Cuarenta y ocho horas más tarde, pidió perdón. Impensado tiempo atrás. Antes de ese posteo, Karina Milei utilizó las redes de manera tajante: escribió su apoyo incondicional al funcionario, habló de “basura mediática” y dio por terminada cualquier tipo de especulación en torno a la posibilidad que se intentó instalar desde algunas usinas sobre la continuidad del ministro. Ninguna fuente pudo confirmar con certeza si la hermanísima visitó alguna vez a Adorni y Angeletti en la casa de fin de semana del country Indio Cua, en Exaltación de la Cruz, que el matrimonio alquiló en estos años de manera temporal. En los últimos meses, según los vecinos, las expensas del lote 380 empezaron a figurar en la administración a nombre de la coach ontológica. Pero es tan fuerte el vínculo entre “El Jefe” y la pareja, entre el presidente y su jefe de Gabinete, que el gabinete en pleno salió al mismo tiempo a blindar su figura mientras, por lo bajo, algunos ministros se mofaban del “amateurismo” del ex vocero. La secretaria General de la Presidencia es desconfiada. No está convencida, como algunos colaboradores buscaron instalar, que se haya tratado de una “operación” del kirchnerismo. Es más: cerca del propio Adorni notaron que, por ejemplo, la senadora Patricia Bullrich no le dedicó ningún posteo personal al escándalo y solo se limitó a repostear en X los mensajes de apoyo de los hermanos Milei. Sí lo hizo Santiago Caputo, el consultor estrella del presidente, que respaldó al ministro coordinador desde su cuenta oficial cuando desde algunos sectores se lo apuntaba como el autor intelectual de una supuesta vendetta por haber sido desplazado del control del ministerio de Justicia. El vínculo entre Bullrich y la Casa Rosada atraviesa, tal vez, su peor momento. La última conversación entre la jefa del bloque de senadores de La Libertad Avanza y la ministra Alejandra Monteoliva, que se alió a la hermana del presidente, terminó pésimo. Fue después de que la ministra de Seguridad le bajara el pulgar a Diego Valenzuela, que esperó durante meses, sin éxito, ser nombrado al frente de la agencia de migraciones. El senador bonaerense llegó a hablarlo con Milei, pero el mandatario se hizo el desentendido. Fue Karina Milei, de manera directa, la que avaló que Monteoliva obturara el desembarco del ex dirigente del PRO. La hermana del presidente acumuló reproches contra la ex ministra de Seguridad, agudizados en medio del tratamiento de la reforma laboral, durante el verano: le molestó especialmente que Bullrich se apropiara del anuncio del acuerdo co",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/politica/2026/03/15/circulo-rojo-el-caso-adorni-del-entusiasmo-en-nueva-york-a-la-angustia-en-buenos-aires/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/VTMULYFHERAGVMI6KH2M7LQILY.jpg?auth=5380ca94ef3577ba44e7c77f21a85cc5b8876ed8e6ef41cc1995cc33c0aa8171&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
