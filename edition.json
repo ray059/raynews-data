@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "15 de marzo de 2026",
-  "generated_at": "2026-03-15T02:42:48.571773-05:00",
+  "generated_at": "2026-03-15T03:32:56.804207-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "La Guardia Revolucionaria de Irán prometió “perseguir y matar” al primer ministro israelí Benjamin Netanyahu",
+      "summary280": "La Guardia Revolucionaria de Irán amenazó con \"perseguir y matar\" al primer ministro israelí Benjamin Netanyahu, en medio de una escalada de ataques contra Israel y fuerzas estadounidenses.",
+      "articleText": "15 Mar, 2026 La Guardia Revolucionaria iraní afirmó este domingo que “perseguirá sin descanso” al primer ministro israelí, Benjamin Netanyahu, con el objetivo de acabar con su vida. La amenaza surge en medio de “Seguiremos persiguiendo sin descanso y mataremos con fuerza al criminal primer ministro sionista, si es que sigue con vida”, indicó el ejército ideológico del régimen en un comunicado difundido por su oficina de relaciones públicas y publicado en la web Sepah News. La amenaza se produjo en paralelo al anuncio de la 52ª oleada de ataques iraníes contra sectores industriales en Israel y fuerzas estadounidenses en Medio Oriente, según la Guardia Revolucionaria, que no detalló el país atacado. El 28 de febrero, inicio del conflicto, murieron varios altos cargos iraníes, entre ellos el entonces líder supremo Ali Khamenei, el comandante en jefe de la Guardia Revolucionaria, general Mohamad Pakpur, y el jefe del Estado Mayor de las Fuerzas Armadas, general Abdorrahim Musavi. Desde entonces, Estados Unidos e Israel bombardearon diariamente territorio iraní, mientras que Teherán responde con ataques a instalaciones estadounidenses y energéticas en la región, además de mantener un supuesto bloqueo del Estrecho de Ormuz. Desde la capital iraní, el canciller iraní Abbas Araghchi negó el sábado que existan problemas de salud en el nuevo líder supremo, Mojtaba Khamenei, en un intento por disipar las dudas surgidas tras el ataque militar conjunto de EEUU e Israel, en el que murió Ali Khamenei y varios familiares directos en Teherán. “No hay ningún problema con el nuevo líder supremo. Envió su mensaje ayer y cumplirá con sus deberes”, afirmó Araghchi. Sin embargo, el presidente estadounidense, Donald Trump, generó incertidumbre al declarar que no está claro si el nuevo líder supremo sigue con vida. Durante una entrevista telefónica con NBC News, el mandatario afirmó: “No sé si siquiera está vivo. Hasta ahora, nadie ha podido demostrarlo”. Las palabras de Trump abrieron interrogantes sobre la situación y el paradero de Khamenei. En ese sentido, indicó que recibió versiones contradictorias sobre el estado del ayatollah. “He oído que no está vivo, y si lo está, debería hacer algo muy inteligente por su país, y eso es rendirse”, declaró, aunque reconoció que la noticia de su posible muerte circula como “un rumor”. Por su parte, el secretario de Guerra estadounidense, Pete Hegseth, sostuvo que Khamenei está “herido y probablemente desfigurado” tras los bombardeos iniciales contra el complejo donde residía en Teherán. Hegseth calificó de “débil” la reciente declaración escrita atribuida al líder iraní y añadió: “Sabemos que el nuevo líder, no tan supremo, está herido y probablemente desfigurado. Desesperado y escondido, se ocultó. Cobarde. Eso es lo que hacen las ratas”. El viernes, Estados Unidos ofreció una recompensa de hasta 10 millones de dólares por información sobre el paradero del nuevo líder supremo iraní, Mojtaba Khamenei, como parte del programa Recompensas por la Justicia del Departamento de Estado. La iniciativa solicita datos sobre “líderes terroristas iraníes”, con la posibilidad de reubicación para quienes aporten información relevante. El Departamento de Estado sostiene que estos individuos “comandan y dirigen diversos elementos del Cuerpo de la Guardia Revolucionaria Islámica de Irán (CGRI), que planifica, organiza y ejecuta actos terroristas en todo el mundo” Entre los funcionarios sobre los que se busca información figuran el ministro de Inteligencia, Esmail Khatib; el jefe adjunto del Estado Mayor, Ali Asghar Hejazi; el general de división Yahya Rahim Safavi; el general de brigada Eskandar Momeni; y el secretario del Consejo Supremo, Ali Larijani. Mientras tanto, en el contexto del ofrecimiento millonario de la administración del presidente estadounidense Donald Trump, Israel afirma que ataca puestos de control de seguridad de la Basij y del Cuerpo de la Guardia Revolucionaria Islámica (IRGC) en Teherán, y sostiene que ",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/15/la-guardia-revolucionaria-de-iran-prometio-perseguir-y-matar-al-primer-ministro-israeli-benjamin-netanyahu/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/ZOQASSCNQBAYDEJ4GY2BZBS7NA.jpg?auth=ee9e568f526306cd105b52246023a1efd5606a0749ec52caa618996059d14b8d&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Tras tres meses prófugo, capturaron al último preso que había escapado de una comisaría de Mendoza",
       "summary280": "La Policía de Mendoza recapturó a Emiliano Carlos Jofré, el último recluso fugado de la Comisaría 12, tras tres meses de búsqueda. Jofré, con antecedentes por violencia de género, escapó en diciembre de 2023. Su cómplice fue detenido poco después.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/sociedad/policiales/2026/03/15/tras-tres-meses-profugo-capturaron-al-ultimo-preso-que-habia-escapado-de-una-comisaria-de-mendoza/",
       "imageUrl": "https://www.infobae.com/resizer/v2/HN7N2CNV6RCA5EBWJ4IG642I4Q.jpg?auth=72b2353459839181476ae9dccd81dab4a5edb6c5bfd24ef85a999c5dcaf1bb20&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El PSOE, en vilo por varios escaños para \"salvar la honra\" ante la previsible mayoría de PP y Vox",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/14/el-ranking-de-los-cruceros-mas-limpios-del-mundo-segun-inspecciones-sanitarias-de-estados-unidos/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GLR4KSGBJ5GTLLMZGJBGJAPCAQ.png?auth=3e02763a28fac19ee71e5c4cec3897b4f955fe42b42f90c44e628f077fad49d7&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El mexicano Obed Vargas debuta como titular con el Atlético de Madrid ante Getafe",
-      "summary280": "Obed Vargas debutó como titular con el Atlético de Madrid en el partido contra Getafe CF, correspondiente a la Jornada 28 de LaLiga. El mediocampista mexicano, que llegó del Seattle Sounders, busca ayudar al equipo a recuperar la tercera posición en el campeonato.",
-      "articleText": "14 Mar, 2026 Por Alexander Ortiz El mexicano Obed Vargas apareció por primera vez en el once inicial del Atlético de Madrid para el partido de este sábado ante Getafe CF, correspondiente a la Jornada 28 de LaLiga, disputado en el Estadio Metropolitano. El mediocampista llegó al club rojiblanco el 2 de febrero procedente del Seattle Sounders FC, equipo de la Major League Soccer (MLS). El conjunto dirigido por Diego Simeone afronta el encuentro con 54 puntos y busca recuperar la tercera posición del campeonato, actualmente a un punto del Villarreal CF. La alineación del Atlético de Madrid es: Juan Musso; José María Giménez, Marc Pubill, Clément Lenglet, Nahuel Molina; Obed Vargas, Koke, Nicolás González, Thiago Almada; Alexander Sørloth y Álex Baena. El partido entre el Atlético de Madrid y el Getafe CF se disputará este sábado 14 de marzo de 2026. El encuentro comenzará a las 09:15 horas, tiempo del centro de México. El compromiso se llevará a cabo en el Estadio Metropolitano, ubicado en Madrid, España, como parte de la actividad de LaLiga. La transmisión del encuentro podrá seguirse en televisión a través de Sky Sports. Además, el partido estará disponible por internet mediante las plataformas Izzi Go y Sky+.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/14/el-mexicano-obed-vargas-debuta-como-titular-con-el-atletico-de-madrid-ante-getafe/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/UMUCSJXMSFGFZIMX2QX2G4Z5O4.jpg?auth=1bffe766886ad31fe5792c4fc09c272f79dfc05dc16b310d4b38811d9e219fe9&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
