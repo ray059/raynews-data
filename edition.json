@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "15 de marzo de 2026",
-  "generated_at": "2026-03-15T08:44:15.620984-05:00",
+  "generated_at": "2026-03-15T09:27:43.405658-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Fallece candidato presidencial Napoleón Becerra en un accidente de tránsito cuando se dirigía a Ayacucho",
+      "summary280": "El candidato presidencial Napoleón Becerra falleció en un accidente de tránsito en la carretera de Rumichaca mientras se dirigía a Ayacucho para su campaña. Además de su muerte, varios miembros de su comitiva resultaron heridos.",
+      "articleText": "15 Mar, 2026 Por Clara Giraldo El candidato presidencial del Partido de los Trabajadores y Emprendedores, Napoleón Becerra García, falleció en un accidente de tránsito en la carretera de Rumichaca, a aproximadamente dos horas de Ayacucho, cuando se trasladaba para cumplir actividades como parte de su campaña. El hecho ocurrió durante la noche, mientras el aspirante viajaba junto a miembros de su comitiva en un vehículo particular. De acuerdo con declaraciones recogidas por Ampliación de Noticias de RPP, la representante del partido, Emily Silva, confirmó el deceso tras recibir información de compañeros presentes en la zona del accidente. “Hemos sido informados hace unos minutos del accidente del compañero Napoleón Becerra por nuestros compañeros que se encuentran en la zona y que viajaban con él en la comitiva”, afirmó Silva, quien también expresó que la noticia fue recibida con consternación dentro del partido. El vehículo transportaba a Napoleón Becerra junto a varios integrantes del Partido de los Trabajadores y Emprendedores. La dirigente partidaria comunicó que, además de la muerte del candidato, existen otros miembros de la comitiva que resultaron heridos. Emily Silva solicitó apoyo inmediato a las autoridades para facilitar la evacuación y atención médica de los heridos, debido a que iban al menos con cuatro personas. “Lo que nosotros en este momento solicitamos al Gobierno es que tome cartas en el asunto y que nos ayude también con los compañeros que puedan estar heridos para que sean evacuados”, expresó la dirigente. Napoleón Becerra García fue candidato presidencial del Partido de los Trabajadores y Emprendedores (PTE-Perú) para las Elecciones Generales de 2026. Su postulación representó la primera participación nacional de esta organización política, fundada y liderada por él desde 2023. Becerra García nació el 11 de abril de 1964 en Cajamarca. Realizó estudios universitarios en la Universidad Inca Garcilaso de la Vega, donde obtuvo el grado de bachiller en Ciencias Administrativas y el título de licenciado en Administración en 2009. Durante más de cuarenta años, Becerra trabajó en la Municipalidad de Lima Metropolitana, donde desempeñó funciones administrativas y técnicas desde 1984 hasta 2025. El candidato presidencial César Acuña expresó su pesar por el fallecimiento de Napoleón Becerra, líder del Partido de los Trabajadores y Emprendedores, a través de sus redes sociales. “Mis condolencias a su familia, seres queridos, amigos y militantes. Deseo también la pronta recuperación de los heridos. En momentos así, el Perú debe unirse con respeto y solidaridad”, señaló Acuña. Alfonso López Chau también manifestó su pesar por el fallecimiento de Napoleón Becerra. En su mensaje, recordó la trayectoria de Becerra y su vocación de servicio. “Un amigo, a quien conocí en la militancia desde los tiempos de Alfonso Barrantes Lingan. Mi solidaridad con su familia, amigos y con todos quienes compartieron su compromiso con el Perú”, se lee.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/peru/2026/03/15/napoleon-becerra-fallece-candidato-presidencial-en-un-accidente-de-transito-cuando-se-dirigia-a-ayacucho/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/5SJC4UCONJGETIO4NASBRHNVXY.png?auth=1801ac3468d828091990b33d5ad1f59e8eb6a7ee73879441c8fc00c72a5cd236&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Rodrigo Londoño negó que ‘volverían a la guerra’ si la derecha gana las presidenciales: “La política del odio”",
       "summary280": "Rodrigo Londoño, excomandante de las Farc, negó rumores sobre un posible regreso a la guerra si la derecha gana las elecciones en Colombia, denunciando la desinformación y la política del odio.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/colombia/2026/03/15/rodrigo-londono-nego-que-volverian-a-la-guerra-si-la-derecha-gana-las-presidenciales-la-politica-del-odio/",
       "imageUrl": "https://www.infobae.com/resizer/v2/5C7LMW7NMZF4NAGLOSEAEZ3WNA.jpg?auth=e02fbf9c819862d2bf0ba57e9ad3eff7eced7b52e121c952c0f7ebd48effbcf6&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La millonaria multa que el gobierno le puso al megaproyecto portuario de Turbo ‘Pisisí’, construido en tierra de víctimas del conflicto",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/la-millonaria-multa-que-el-gobierno-le-puso-al-megaproyecto-portuario-de-turbo-pisisi-construido-en-tierra-de-victimas-del-conflicto-3540234",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2021/05/18/60a4548cd8c9d.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Igualdad convoca un nuevo comité de crisis para analizar los asesinatos machistas de febrero: ya son 11 en lo que va de año",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/deportes/2026/03/14/franco-colapinto-largara-desde-la-12-posicion-el-gran-premio-de-china-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
       "imageUrl": "https://www.infobae.com/resizer/v2/KNHZ3PF7DRANXBOOLJRKXNL5EY.JPG?auth=ba11f996b0c0bc2a4523aa9f1c2e42c9dd6050c57ca8ba5840cb222bc927dd4a&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Terror en Antioquia: disidencias de Calarcá graban a dos adolescentes secuestradas y en un video de 'prueba de supervivencia' las acusan de espionaje",
-      "summary280": "En Antioquia, disidencias de Calarcá secuestraron a dos adolescentes de 14 y 15 años, acusándolas de espionaje en un video. Este incidente refleja el aumento de la violencia y la criminalidad en el país, a pesar de los esfuerzos por la paz. La situación es alarmante.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Noticia Adolescentes secuestradas en Antioquia Foto: Gobernación de Antioquia David Alejandro Mercado PERIODISTA14.03.2026 15:20 Actualizado: 14.03.2026 15:20 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar El Bagre, Antioquia. Foto:Alcaldía de El Bagre. LEA TAMBIÉN David Mercado En El Bagre, Farc de Calarcá secuestró a dos niñas de 14 y 15 años y las expusieron en un video acusándolas de ser “informantes”.Este es el país que deja la “paz total” de @petrogustavo a meses de terminar su gobierno: criminales enriquecidos, más violencia, más minas… pic.twitter.com/m06VkYJRGc Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/terror-en-antioquia-disidencias-de-calarca-graban-a-dos-adolescentes-secuestradas-y-en-un-video-de-prueba-de-supervivencia-las-acusan-de-espionaje-3540220",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/14/69b5c19068e75.jpeg",
       "type": "explainer",
       "isNew": false
     }
