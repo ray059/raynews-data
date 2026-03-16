@@ -1,9 +1,19 @@
 {
   "api_version": 3,
-  "edition_date": "15 de marzo de 2026",
-  "generated_at": "2026-03-15T21:04:25.906366-05:00",
+  "edition_date": "16 de marzo de 2026",
+  "generated_at": "2026-03-16T00:12:34.750666-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Ring Royale en vivo Karely Ruiz vs Marcela Mistral: Alfredo Adame le gana la batalla a Carlos Trejo",
+      "summary280": "En el evento Ring Royale 2026, Karely Ruiz se enfrentó a Marcela Mistral, mientras Alfredo Adame venció a Carlos Trejo por knock out en el segundo asalto. Adame pidió más oportunidades para las mujeres en el boxeo y ambos rivales se reconciliaron tras la pelea.",
+      "articleText": "16 Mar, 2026 Por Luz CoelloyAnayeli Tapia Sandoval Con una pasarela rosa, Karely Ruiz hizo su entrada para la batalla estelar contra Marcela Mistral. “Hoy se gana, esto va por Madisson y mis fans”, dijo la influencer. Por Anayeli Tapia Sandoval El evento Ring Royale 2026 reunió en la Arena Monterrey a miles de aficionados para presenciar una de las peleas más esperadas del espectáculo de boxeo de celebridades: Alfredo Adame vs Carlos Trejo. Aczino y Azuky hacen batalla de rimas previo a la pelea de Karely Ruiz y Marcela Mistral. “Muchas gracias, al que quiera lo espero o le doy la revancha (a Trejo)”, dijo Adame tras la pelea. Carlos Trejo reconoció su derrota: “Me tumbó, me ganó. Pidió la revancha y la acepto”. Al final ambos se dieron un abrazo y dos besos. Alfredo Adame también pidió que le den más espacios a las mujeres para pelear, agradeció a sus entrenadores y a Julio César Chávez por enseñarle un par de movimientos que le dieron la victoria. Tras mandarlo a la lona y no poderse levantar a los 2 minutos con 52 segundos, Alfredo Adame le gana la batalla a Carlos Trejo por knock out. El cazafantasmas y el actor de telenovelas se tiran mutuamente a la lona. Al entrar, Alfredo Adame dijo sentirse “bien, al 100%, a dar todo por este maravilloso público, mi corazón con ustedes y a dar un buen espectáculo”. Al ser cuestionado sobre si su pleito con Carlos Trejo acabará tras terminar dicha batalla respondió que no. También aseguró que Trejo tiene miedo y por eso no quiso hacer declaraciones. Con la canción “Ameno” de ERA, Carlos Trejo hace su entrada para pelear con Alfredo Adame. Al ser cuestionado sobre el haber esperado 20 años para enfrentarse a su rival, éste no quiso hacer ningún comentario, lo que le valió el abucheo del público. Previo a una de las peleas más esperadas vino un segmento musical. En el inicio del segundo asalto, el cansancio fue un factor determinante para ambos peleadores, pues pese a su preparación la fatiga pesó arriba del ring. En un descuido de la defensa de Porcella, De Nigris conectó un golpe contundente que doblegó a su oponente y el réferi terminó la pelea, fue al minuto 2:17 del segundo asalto que acabó el encuentro. “El triunfo es para mí mismo, mi familia y el equipo de mis entrenadores de Los Panchos, gracias”, expresó.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/16/ring-royale-en-vivo-sigue-la-pelea-de-alfredo-adame-vs-carlos-trejo/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/5ODNSWHOXRFNJNR7XGBCEVXJ3Y.jpg?auth=89d5e358f73de623e8d3c55452f3298ca0ffa408704680212daf6f35bc1fac75&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Por qué Nacho Ambriz renunció al Club León y no terminará el Clausura 2026",
       "summary280": "Nacho Ambriz renunció como director técnico del Club León tras una mala racha en el Clausura 2026, donde el equipo ocupa el 15° lugar. En conferencia, pidió disculpas a la afición y explicó que su decisión fue reflexiva para no perjudicar más al club.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/16/por-que-nacho-ambriz-renuncio-al-club-leon-y-no-terminara-el-clausura-2026/",
       "imageUrl": "https://www.infobae.com/resizer/v2/7ABESG7EMNCMRP4U3D7QGP5QKQ.jpg?auth=1966f8d7417f61f8d8be025f97f1158ac0966726bbe8fcb50e78116bf1781645&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Fin al imperio de alias ‘Viejo’: el hombre que inundaba de droga el barrio La Sultana, en Cali",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/fin-al-imperio-de-alias-viejo-el-hombre-que-inundaba-de-droga-el-barrio-la-sultana-en-cali-3540369",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/15/69b74328d2d03.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Destaparon las millonarias compras que hace del Gobierno Petro en medio del momento del dólar y el peso colombiano",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/15/napoleon-becerra-fallece-candidato-presidencial-en-un-accidente-de-transito-cuando-se-dirigia-a-ayacucho/",
       "imageUrl": "https://www.infobae.com/resizer/v2/5SJC4UCONJGETIO4NASBRHNVXY.png?auth=1801ac3468d828091990b33d5ad1f59e8eb6a7ee73879441c8fc00c72a5cd236&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Rodrigo Londoño negó que ‘volverían a la guerra’ si la derecha gana las presidenciales: “La política del odio”",
-      "summary280": "Rodrigo Londoño, excomandante de las Farc, negó rumores sobre un posible regreso a la guerra si la derecha gana las elecciones en Colombia, denunciando la desinformación y la política del odio.",
-      "articleText": "15 Mar, 2026 Por Jhon Bernal Rodrigo Londoño, conocido como Timochenko durante su etapa como máximo comandante de las antiguas Farc, rechazó públicamente la difusión de publicaciones en redes sociales sobre un presunto retorno a las armas, en caso de un posible resultado adverso en las elecciones presidenciales en Colombia. En su cuenta de X, el hoy líder del partido Comunes, nacido del Acuerdo de Paz de 2016 entre el Gobierno colombiano y el extinto grupo armado, afirmó que dichas afirmaciones alimentan la polarización política y ponen en riesgo la integridad de aquellos que firmaron la paz y se reincorporaron a la vida civil. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel “Desafortunadamente, la política del odio mantiene sus agresiones, estigmatización y desinformación acerca de mi persona y de los y las firmantes del Acuerdo de Paz”, escribió el dirigente político en sus redes sociales. En la publicación, Londoño recopiló varios portales digitales en la que se mencionaba la siguiente frase: “Timochenko dice que si gana la derecha en Colombia está pensando seriamente volver al monte”. Ante esta situación, “Timochenko” informó que ha presentado denuncia ante la Fiscalía General de la Nación y la Policía Nacional de Colombia para que se indague al responsable de la difusión del mensaje considerado como calumnia. “Denuncio ante la @FiscaliaCol y @CaiVirtual la propagación de mentiras e injurias de distintos medios”, añadió. Así mismo, Rodrigo Londoño insistió en el compromiso con el proceso de reconciliación y en el cumplimiento del acuerdo por parte del antiguo grupo guerrillero. “La divulgación de noticias falsas y calumniosas atenta contra la integridad física y moral de los firmantes del Acuerdo de Paz y viola la Sentencia SU-020 de 2022 de la Corte Constitucional de Colombia. Los firmantes del Acuerdo de Paz estamos firmes en la brega por la paz”, concluyó. La tensión política se agrava tras la reciente pérdida de la personería jurídica de Comunes. En las elecciones al Congreos del 8 de marzo de 2026, la agrupación política encabezada por Londoño no solamente no pudo retener sus diez curules en el legislativo (5 en Senado y 5 en Cámara de Representantes), derechos garantizados específicamente por el Acuerdo de La Habana (Cuba), sino que dejara de contar con personería jurídica. En ese contexto, Sandra Ramírez, histórica dirigente y viuda de Manuel Marulanda (alias Tirofijo), intentó postularse a través de la lista de Fuerza Ciudadana. Sin embargo, recibió apenas 10.505 votos (0,05%), cifra que, sumada a los 114.722 votos totales de Fuerza Ciudadana, no superó el umbral necesario para obtener representación en el Congreso. En ese sentido, Rodrigo Londoño dirigió mensajes de serenidad a la militancia, la comunidad internacional y los observadores de procesos de paz tras no obtener los resultados requeridos para llegar al Congreso. “A los amigos y amigas de la paz de Colombia, a la comunidad internacional y a la militancia, mi mensaje de sosiego en esta coyuntura. Comunes sufrió un revés electoral, pero no perdimos la convicción de seguir luchando en democracia por la paz con justicia social. Venceremos”, escribió Londoño en una publicación en la red social X. Del mismo modo, Londoño recalcó que el resultado adverso no implica el abandono de la causa política ni de los compromisos suscritos en 2016. “No hemos perdido la credencial de firmante del acuerdo de paz ni de alta parte contratante y como tal seguiremos trabajando sin descanso porque se implemente el acuerdo en su espíritu y en su letra”, declaró “Timochenko” en un video publicado en la misma red social. Frente a los resultados de la contienda electoral, el líder de Comunes aseveró que la derrota en las urnas obedece a factores internos y externos, que, aseguró, merecen un análisis detenido. “Sí, como Comunes tuvimos un revés electoral. Hay causas endógenas y exógenas que habrá que analizar con detenimiento, pero no hemos perdido la convicción de tra",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/15/rodrigo-londono-nego-que-volverian-a-la-guerra-si-la-derecha-gana-las-presidenciales-la-politica-del-odio/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/5C7LMW7NMZF4NAGLOSEAEZ3WNA.jpg?auth=e02fbf9c819862d2bf0ba57e9ad3eff7eced7b52e121c952c0f7ebd48effbcf6&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
