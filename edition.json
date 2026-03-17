@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "17 de marzo de 2026",
-  "generated_at": "2026-03-17T05:47:40.404859-05:00",
+  "generated_at": "2026-03-17T06:41:30.898548-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Precio del dólar cayó en Perú: Así se cotiza el tipo de cambio hoy 17 de marzo",
+      "summary280": "El precio del dólar en Perú cayó a S/3,4200 el 17 de marzo, tras varias alzas. La economía peruana muestra estabilidad a pesar de la crisis política y presiones globales. Aunque se prevé un rango de S/3,34 a S/3,46 para fin de 2026, el sol se fortalece como moneda refugio.",
+      "articleText": "17 Mar, 2026 Por Edwin Montesinos Nolasco Precio del dólar hoy martes 17 de marzo en Perú. El tipo de cambio cerró ayer con gran baja a S/3,4200, según el Banco Central de Reserva del Perú. Esa mañana la divisa abrió con baja a S/3,4280, según los datos reportados en tiempo real por el portal Bloomberg. Así, tras varias alzas del dólar, ahora el valor cae. El pasado 2025 el valor del dólar sufrió una gran baja. Pero con el desempeño de la economía peruana a las luces de las presiones globales y la campaña electoral para este 2026 aún su proyección a futuro es incierta. Pero ya el conflicto en Medio Oriente claramente ha afectado su valor hacia la apreciación. En el mercado paralelo el tipo de cambio se encuentra hoy en estos valores para compra y venta: Como se sabe, el precio de compra es el valor al que la entidad compra tus dólares. Mientras, el precio de venta es al precio a que puedes comprar actualmente un dólar. ¿Cómo se cotiza el tipo de cambio según el portal de Sunat, el que se usa para las operaciones en la entidad? Así están los datos actuales: Como se sabe, este valor se actualiza cada día, ajustado a los cambios del mercado y el valor que reporta el BCRP. Luego de la caída sostenida de enero (solo hasta antes del aumento del precio el viernes 30 de enero), las expectativas del mercado, recogidas por el BCRP, cambiaron. “La expectativa de tipo de cambio para el cierre de 2026 se redujo a un rango de entre S/ 3,34 y S/ 3,46 por dólar”, aclaró elinforme del BCRP. Es decir, casi sin un alza tan alta como se esperaba en noviembre. Ahora, ¿a cuánto proyectan el tipo de cambio para fin de 2026? A pesar de la crisis política que actualmente vive Perú y contra todo pronóstico, la economía de este país presume de ser una de las más estables de la región Latinoamericana, pues mientras otras divisas han experimentado fluctuaciones, el sol peruano se ha fortalecido. De esta manera, la pandemia de coronavirus generó a nivel mundial una serie de efectos económicos negativos -como la inflación- que, combinada también con la invasión de Rusia a Ucrania y decisiones de la política monetaria local, han ido debilitando al dólar. No obstante, la moneda peruana ha mostrado resiliencia a estos acontecimientos y se ha fortalecido frente al billete verde y al euro. De continuar los factores positivos que han apoyado al sol en los últimos meses, la moneda podría seguir con su misma racha en los próximos meses e incluso años. Así, la resistencia del sol peruano ante otras adversidades que han logrado golpear a otras divisas ha hecho que se convierta en una “moneda refugio”, sobre todo en países en donde los dólares han escaseado, como es el caso de Bolivia. Sin embargo, analistas económicos han reducido sus expectativas de crecimiento del sol peruano para los dos años siguientes, no obstante, se espera que los balances macroeconómicos sigan dando soporte al sol.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/16/dolar-cotizacion-de-apertura-hoy-16-de-marzo-en-peru/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/DG6BMK2JHFHIRAPFK5LXJO6DS4.jpg?auth=5b6422242e07f784a0bf92dbd3a8707997e0a87409db41c44fd84e093662a1fe&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "El bebé arrojado a un contenedor en Mallorca tenía pulsaciones en el hospital, pero podían deberse a la reanimación",
       "summary280": "El bebé hallado en un contenedor en Mallorca mostró pulsaciones en el hospital, pero podrían ser resultado de la reanimación. Los médicos indicaron que su viabilidad era limitada y decidieron suspender el soporte vital. La madre y el tío enfrentan acusaciones de asesinato.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/17/el-bebe-arrojado-a-un-contenedor-en-mallorca-tenia-pulsaciones-en-el-hospital-pero-podian-deberse-a-la-reanimacion/",
       "imageUrl": "https://www.infobae.com/resizer/v2/QM6BMMQBJNFMRG6TTGREOJBXLI.jpg?auth=82c3ad7d102981d73db51ff85d85fab9b7f3ee307afdd060ae13815e7f6f0e2a&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El exDAO de la Policía Nacional llega “tranquilo” a los juzgados para declarar por la presunta agresión sexual a una subordinada",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/cali-recuerda-a-monsenor-isaias-duarte-cancino-hace-24-anos-ocurrio-el-magnicidio-del-entonces-arzobispo-de-cali-asi-fue-su-ultima-ceremonia-3540624",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/10/06/5f7d2dd6e21f8.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "VÍDEO: Trump elogia el \"buen trabajo\" de Rodríguez permitiendo sacar \"millones\" barriles de petróleo de Venezuela",
-      "summary280": "Donald Trump elogió a Delcy Rodríguez por su \"buen trabajo\" en la explotación petrolera de Venezuela, destacando que se están extrayendo \"millones\" de barriles.",
-      "articleText": "16 Mar, 2026 Por Newsroom Infobae El presidente de Estados Unidos, Donald Trump, ha asegurado este lunes que la presidenta encargada de Venezuela, Delcy Rodríguez, \"ha hecho un trabajo realmente bueno\" en lo que respecta a la explotación de sus recursos petrolíferos. \"Se están sacando millones, literalmente millones de barriles de petróleo\", ha celebrado. Trump ha afirmado que la relación con Venezuela está siendo \"genial\" y que está beneficiando a ambos países. \"Nos llevamos muy bien con ellos\", ha dicho en declaraciones a la prensa desde la Casa Blanca, a colación de la producción petrolera de Estados Unidos, en medio de la crisis energética provocada por el cierre a la navegación del estrecho de Ormuz por la guerra con Irán. \"La presidenta ha hecho un trabajo realmente bueno. Nos llevamos muy bien con ellos\", ha remarcado el presidente Trump, asegurando que han sido \"millones\" los barriles de petróleo que han enviado ya a Estados Unidos para su tratamiento. \"Tenemos refinerías creadas específicamente para eso\", ha contado. IMÁGENES DISPONIBLES EN EUROPA PRESS TELEVISIÓN URL DE DESCARGA: https://www.europapress.tv/internacional/1069713/1/trump-elogia-buen-trabajo-rodriguez-permitiendo-sacar-millones-barriles-petroleo TELÉFONO DE CONTACTO 91 345 44 06",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/16/video-trump-elogia-el-buen-trabajo-de-rodriguez-permitiendo-sacar-millones-barriles-de-petroleo-de-venezuela/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/CHGIYOLHMZHDTIRMODHQH4ZX7M.jpg?auth=3897adec80a597bd0b30ac8e78a3f4e89d86771299c6ea07d8bbbe1a561d7922&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
