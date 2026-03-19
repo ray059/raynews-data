@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "19 de marzo de 2026",
-  "generated_at": "2026-03-19T05:36:43.127010-05:00",
+  "generated_at": "2026-03-19T06:33:22.733376-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Fráncfort cae un 2,3 % tras el encarecimiento de la energía y a la espera del BCE",
+      "summary280": "Fráncfort cayó un 2,3 % debido al aumento del precio del petróleo y gas, y a la espera de la decisión del BCE sobre los tipos de interés. El DAX 40 se situó en 22.959,79 puntos, mientras los mercados globales también mostraron caídas significativas.",
+      "articleText": "19 Mar, 2026 Por Newsroom Infobae Fráncfort (Alemania), 19 mar (EFE).- Fráncfort bajó este jueves un 2,3 % después de que el precio del petróleo y del gas volvieran a subir con fuerza y a la espera de la decisión del Banco Central Europeo (BCE) sobre los tipos de interés. El DAX 40, el índice selectivo de la Bolsa de Fráncfort, caía a mediodía un 2,3 % hasta 22.959,79 puntos. El barril de petróleo brent para entrega en mayo superó los 114 dólares y el gas subió un 30 % después de que Irán atacara instalaciones de gas de Catar. Anteriormente Israel atacó el yacimiento iraní de South Pars, ataque del que el presidente estadounidense, Donald Trump, dijo que no tenía noticia, a pesar de que medios de su país aseguran que sí estaba al tanto. La renta variable alemana seguía la tendencia de la asiática, cuyas bolsas cerraron con abultadas caídas. Los mercados esperan a las decisiones del BCE, que previsiblemente mantendrá los tipos de interés en el 2 % y dirá cómo prevé que afecte la escalada de los precios de la energía a la inflación y el crecimiento de la región, El Banco Nacional Suizo (SNB) mantuvo este jueves sus tipos de interés en el 0 % y dijo que está más dispuesto a intervenir en el mercado de divisas debido al conflicto en Oriente Medio, que ha disparado la cotización del franco suizo porque es una divisa refugio en momentos de crisis. El Banco de Japón (BoJ) también dejó inalterados los suyos en el 0,75 %. EFE",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/19/francfort-cae-un-23-tras-el-encarecimiento-de-la-energia-y-a-la-espera-del-bce/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Ayuso asegura que a Miguel Ángel Rodríguez le persigue la izquierda y no la justicia",
       "summary280": "Isabel Díaz Ayuso defendió a su jefe de gabinete, Miguel Ángel Rodríguez, afirmando que es perseguido por la izquierda, no por la justicia.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/19/ayuso-asegura-que-a-miguel-angel-rodriguez-le-persigue-la-izquierda-y-no-la-justicia/",
       "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Junts considera que la retirada de los presupuestos es \"la guinda del fracaso\" de Illa",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-atraco-con-disparos-a-plena-luz-del-dia-en-restaurante-evidencia-escalada-de-inseguridad-en-la-ciudad-autoridades-anuncian-medidas-3541279",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/18/69bb0cd75d79f.r_d.476-275-0.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Tottenham - Atlético de Madrid, en directo: sigue el partido de octavos de final de la Champions en vivo",
-      "summary280": "El Tottenham se enfrenta al Atlético de Madrid en el partido de vuelta de los octavos de final de la Champions League, con el equipo español liderando 5-2 tras el encuentro de ida. El partido ya ha comenzado y se han registrado varias jugadas destacadas.",
-      "articleText": "18 Mar, 2026 Por Ana Pérez Navarro El Tottenham se mide este miércoles al Atlético de Madrid en el partido de vuelta de los octavos de final de la Champions League. La eliminatoria presenta una ventaja significativa para el conjunto español, que llega a Londres tras imponerse 5-2 en el Riyadh Air Metropolitano. Con este resultado favorable, el equipo dirigido por Diego Simeone buscará asegurar su clasificación a los cuartos de final, defendiendo o aumentando la diferencia obtenida en el encuentro de ida. 29′ GOOOOOOOOOOOOOOOOL!!!!!!!!!!!!!!!!!! Kolo Muani hace el primero para el Totthenham y recorta distancia 27′ Tarjeta amarilla para Ruggeri por una falta sobre el jugador del Tottenham 23′ Tel sube por banda y saca el dispar, pero lo rechaza Musso y manda el balón a córner 21′ Dragusin disparó contra la portería rojiblanca, pero atrapó sin problemas Musso 14′ Vaya ocasión del Atlético de Madrid!!!!!!!!! Marcos Llorente sube con el balón por banda y busca un compañero en el área pero no encuentra a nadie y pierde la posesión 5′ FUERA DE JUEGO! Lookman había mandado el balón al fondo de la red para adelantar al Atlético de Madrid, pero estaba en posición incorrecta Arranca el partido Suena el himno de la Champions Saltan los jugadores al terreno de juego Faltan solo 15 minutos para el comience el partido",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/espana/deportes/2026/03/18/tottenham-atletico-de-madrid-en-directo-sigue-el-partido-de-octavos-de-final-de-la-champions-en-vivo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/TO4XTZVZ2RGQPGC3YYQQ2RDHNQ.JPG?auth=72ab84edd8bab028cfdb20b8168b3999d2c07a5f5190929fb47d6a47996205ba&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
