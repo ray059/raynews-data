@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "19 de marzo de 2026",
-  "generated_at": "2026-03-19T02:45:53.963522-05:00",
+  "generated_at": "2026-03-19T03:38:05.560810-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Los discos de la semana: BTS paraliza el mundo con su álbum de retorno cuatro años después",
+      "summary280": "BTS regresa con su primer álbum en cuatro años, mientras Ana Torroja y Antonio Carmona también lanzan nuevos trabajos tras largos paréntesis.",
+      "articleText": "19 Mar, 2026 Por Newsroom Infobae Madrid, 19 mar (EFE).- La banda de K-Pop más exitosa de todos los tiempos y una de las \"boy bands\" con mayor pegada de la historia de la música global da otro paso más en su retorno con el lanzamiento de su primer álbum en cuatro años, en una semana que además trae de vuelta a Ana Torroja y Antonio Carmona tras dos largos paréntesis. El parón al que se vio forzado este septeto para que sus miembros cumplieran con el servicio militar obligatorio de su país ya es historia y, a las puertas de una gira igualmente muy esperada, lanzan un trabajo que en su título alude a una canción de Corea del Sur que está considerada un símbolo de identidad y unión nacional. Nunca antes la artista española se había implicado de una manera tan directa en la composición de todas las canciones de un álbum. El resultado es su trabajo \"más personal\" e introspectivo, con temas como 'La maleta', en la que habla sobre el final de Mecano. El Premio Nacional de Músicas Actuales 2023, conocido por su recuperación del folk nacional a lomos de formas y ritmos contemporáneos, completa la trilogía tras 'Manual de cortejo' (2019) y 'Manual de romería' (2023), aquí con curiosas colaboraciones como la que le une a Massiel en 'Un mundo feliz'. Aunque calificaron de \"tontirrock\" lo que hacían cuando publicaron hace cinco años su primer álbum, lo de Magüi, Sandra, Raquel y Juls se ha vuelto uno de los proyectos más sólidos de la actualidad. El cuarteto con base en Madrid lanza su tercer disco, con 10 canciones para reírse una vez más de la condición humana y la cotidianeidad. Primer disco en solitario en 9 años, un lapso en el que Ketama volvió a la actividad, él sufrió su mayor susto médico y, después, su reivindicación de la mano de C Tangana. Precisamente de allí saca la energía con la que ha creado este \"viaje\" que reivindica al pueblo gitano y reúne influencias de distintas tradiciones musicales (ritmos latinos, ecos africanos y destellos de jazz) con flamenco. Diez canciones que \"parten bastante del desconcierto y la rabia que genera vivir en un mundo que parece empujarnos justo hacia donde no queremos ir\". Así se presenta el séptimo disco del trío barcelonés, rebelándose contra esa sensación con canciones eufóricas, como un grito colectivo preñado de rock con su vibra \"vintage\". Conocido anteriormente como Oddliquor, este músico de Parla (Madrid) inicia nueva etapa tras haber colaborado con artistas como J Balvin, Judeline, Ca7riel, Maikel Delacalle. El cambio de denominación viene acompañado de un nuevo sonido muy actual, con canciones que abrazan influencias diversas como \"r&b\", hip hop, electrónica y folk. El exvocalista de DVicio continúa reafirmando su carrera en solitario con un segundo álbum, en el que considera uno de sus mejores momentos creativos y con canciones de pop raudo y directo como 'Mesita de noche', \"con la energía de un viernes por la noche\" y la producción de Pablo Cebrián. Tras su intento de llegar al altavoz de Benidorm Fest 2026 y después de casi una década lanzando música, este odontólogo leonés publica por fin su primer álbum de larga duración con canciones de pop optimistas y románticas, entre ellas el préstamo de Carlos Goñi del clásico 'El roce de tu piel'. La banda británica alcanza con su octavo álbum de estudio, con 16 temas y 73 minutos, una duración extensísima para los tiempos que corren. No solo es su disco más largo, también el más orientado al baile desde 'Light & Magic' (2002), pero en una versión \"más elegante, romántica, urgente y psíquica\", dice su oficina. Sexto disco de estudio para la estrella del 'country' estadounidense, que aquí profundiza aún más en su vida tras los focos e incluye canciones como 'Back in the saddle', que llegó al número 1 en la lista de este género en EE.UU. La banda aspira con este tercer trabajo de diez temas a consolidarse como abanderada del rock urbano nacional. Dentro, \"amor, heridas, decisiones, errores y victorias\" que construyen su historia personal, f",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/19/los-discos-de-la-semana-bts-paraliza-el-mundo-con-su-album-de-retorno-cuatro-anos-despues/",
+      "imageUrl": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Atraparon a un hombre por golpear y amenazar a una jubilada de 92 años en Remedios de Escalada para robarle",
       "summary280": "Un hombre de 27 años fue detenido por golpear y amenazar a una jubilada de 92 años en Remedios de Escalada durante un robo. La Policía lo identificó tras analizar cámaras de seguridad y localizarlo en el mismo vehículo usado en el asalto.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/sociedad/policiales/2026/03/19/atraparon-a-un-hombre-por-golpear-y-amenazar-a-una-jubilada-de-92-anos-en-remedios-de-escalada-para-robarle/",
       "imageUrl": "https://www.infobae.com/resizer/v2/RAR5R3LK7RFIHPI6Z3GUE324HE.jpeg?auth=741446eba30c1572918d31161e3fb3a39cda319ccbb8b8307f29f52fc0ca7a78&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Así será el pico y placa en Bucaramanga para el jueves 19 de marzo de 2026",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/asi-sera-el-pico-y-placa-en-bucaramanga-para-el-jueves-19-de-marzo-de-3541394",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2023/11/02/6543c2769e8de.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Prohibieron la concurrencia a las canchas a un hincha que provocó incidentes en un partido amateur",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/18/vance-garantiza-que-trump-no-involucrara-a-eeuu-en-una-guerra-interminable-en-iran/",
       "imageUrl": "https://www.infobae.com/resizer/v2/34IFPI6XHJDFDG5U7XPM33RHK4.jpg?auth=ba636c46ffc36ac0f1dcd7087ed816f5b6443ef5cf404ef4313bf7ad1760fa54&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Delcy Rodríguez destituye a Vladimir Padrino como ministro de Defensa de Venezuela",
-      "summary280": "Delcy Rodríguez destituyó a Vladimir Padrino como ministro de Defensa de Venezuela, nombrando en su lugar al general Gustavo González López.",
-      "articleText": "Fuente de la imagen, Getty Images Vladimir Padrino López, ministro de Defensa de Venezuela durante más de una década, fue destituido de su cargo este miércoles. La presidenta encargada, Delcy Rodríguez, anunció la designación como nuevo ministro de Defensa del general Gustavo González López. \"Agradecemos al G/J Vladimir Padrino López por su lealtad a la Patria y por haber sido, durante todos estos años, el primer soldado en la defensa de nuestro país. Seguros estamos de que asumirá con el mismo compromiso y honor las nuevas responsabilidades que le serán encomendadas\", escribió la gobernante en un mensaje publicado en X. Padrino fue nombrado por Nicolás Maduro como ministro de Defensa en octubre de 2014 y terminó convirtiéndose en uno de los ministros que más tiempo ha estado en funciones en toda la historia de Venezuela. Padrino fue una pieza importante durante el breve golpe de Estado contra Chávez en abril de 2002, pues en aquel entonces comandaba una unidad de blindados acantonada en Fuerte Tiuna (Caracas) que no aceptó unirse al levantamiento. A lo largo de la presidencia de Maduro, y con Padrino en el ministerio de Defensa, los militares en Venezuela se vieron cada vez más implicados en áreas distintas a la seguridad de la nación, ganando espacios dentro del gobierno, al punto que más de un tercio del gabinete llegó a estar integrado por militares activos o retirados. Padrino fue considerado durante todo este tiempo como una pieza clave para mantener la estabilidad y el apoyo de los militares al gobierno chavista, a pesar de las dudas y críticas que fueron aumentando con los años en torno a la legitimidad del gobierno. Su figura, sin embargo, quedó en entredicho tras la operación militar realizada el pasado 3 de enero durante la cual fuerzas especiales de EE.UU. lograron penetrar en Fuerte Tiuna -la principal instalación militar de Venezuela-, ingresar a la residencia de Maduro y llevárselo detenido junto a su esposa, Cilia Flores, sin que las fuerzas militares venezolanas pudieran reaccionar. Final de Más leídas Más información en breve. © 2026 BBC. La BBC no se hace responsable del contenido de sitios externos. Lee sobre nuestra postura acerca de enlaces externos.",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8egegkpl0ro?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/bfdb/live/20cb91e0-22f5-11f1-8620-17795c093e86.jpg",
       "type": "explainer",
       "isNew": false
     }
