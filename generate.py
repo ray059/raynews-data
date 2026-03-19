@@ -195,6 +195,8 @@ for line in lines:
         continue
 
     image = extract_image(url)
+    if not image or "fallback-promo-image" in image:
+        continue
 
     historical["news"][news_id] = {
         "titleOriginal": title,
