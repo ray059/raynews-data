@@ -185,17 +185,18 @@ for line in lines:
         continue
 
     article_text = extract_article_text(url)
-
+    
     if len(article_text) < 120:
         continue
-
-    summary = generate_summary(title, article_text)
-
-    if not summary:
-        continue
-
+    
     image = extract_image(url)
+    
     if not image or "fallback-promo-image" in image:
+        continue
+    
+    summary = generate_summary(title, article_text)
+    
+    if not summary:
         continue
 
     historical["news"][news_id] = {
