@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "20 de marzo de 2026",
-  "generated_at": "2026-03-20T02:43:39.108077-05:00",
+  "generated_at": "2026-03-20T03:36:36.535699-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Índice ATX este 20 de marzo: pierde terreno al inicio de operaciones",
+      "summary280": "El índice ATX inicia el 20 de marzo con una caída del 1,97%, situándose en 5.318,77 puntos, tras tres días de ganancias. En la última semana, ha disminuido un 0,56%, aunque en el último año acumula un aumento del 24,12%. Actualmente, está un 8,62% por debajo de su máximo anual.",
+      "articleText": "20 Mar, 2026 Por Infobae Noticias Sesión bajista para el ATX, que inaugura la jornada en los mercados del viernes 20 de marzo con grandes bajadas del 1,97%, hasta los 5.318,77 puntos, tras el inicio de la sesión de apertura. En relación a días pasados, el índice bursátil pone freno a tres jornadas consecutivas con tendencia positiva. Si consideramos los datos de los últimos siete días, el ATX registra una disminución 0,56%; por contra en términos interanuales acumula aún una subida del 24,12%. El ATX se sitúa un 8,62% por debajo de su máximo del presente año (5.820,55 puntos) y un 1,06% por encima de su valoración mínima del año en curso (5.263,07 puntos).",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/noticias/2026/03/20/indice-atx-este-20-de-marzo-pierde-terreno-al-inicio-de-operaciones/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/PC2N7ZTW3FD5HIFFBLHXTTGIMQ.jpg?auth=46c51572a83b21d2cc5da8ef25a08cdee52b23a5f8f0ed36d05f9859b0d61159&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Narcotest en el Estado: ¿un indicador de idoneidad pública?",
       "summary280": "El artículo aborda la implementación de narcotests en funcionarios públicos como medida para garantizar la idoneidad y prevenir la corrupción.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/opinion/2026/03/20/narcotest-en-el-estado-un-indicador-de-idoneidad-publica/",
       "imageUrl": "https://www.infobae.com/resizer/v2/KJYABJ6ZN5C45GET2MGBEPWODQ.jpg?auth=70f7d165541adc6eefda2c3ec4d346dede78cfff8fb9fd3c94ecc9afc9c4d1d4&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "¡Cuidado al conducir! Pico y placa en Bucaramanga para el viernes 20 de marzo de 2026",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/cuidado-al-conducir-pico-y-placa-en-bucaramanga-para-el-viernes-20-de-marzo-de-3541720",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/15/65f4a86d8afd5.r_d.602-225-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Más de 70.000 estadounidenses han abandonado Oriente Próximo desde el inicio de la ofensiva contra Irán",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-todo-listo-para-la-siembra-del-cesped-del-metropolitano-asi-avanza-la-renovacion-del-estadio-de-la-final-de-la-copa-suramericana-3541599",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/19/69bc6042ba384.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "El FBI admite que está comprando datos de localización para rastrear a ciudadanos estadounidenses",
-      "summary280": "El FBI ha admitido que compra datos de localización para rastrear a ciudadanos estadounidenses, lo que ha generado un debate sobre la necesidad de nuevas regulaciones.",
-      "articleText": "19 Mar, 2026 Por Newsroom Infobae Las declaraciones de legisladores estadounidenses han impulsado propuestas de nuevas normativas para reforzar los controles en la adquisición de datos privados por parte del gobierno, en medio de un creciente debate sobre el acceso de agencias federales a información de localización comercialmente disponible. Según detalló Politico, la controversia tomó impulso tras la reciente comparecencia del director del FBI, Kash Patel, ante el Comité de Inteligencia del Senado, donde confirmó que la agencia compra datos de localización que pueden servir para rastrear a ciudadanos en el marco de investigaciones oficiales. A lo largo de la audiencia, el director Patel indicó que el FBI adquiere información disponible en el mercado que se ajusta a los requisitos establecidos por la Constitución de Estados Unidos y la Ley de Privacidad de las Comunicaciones Electrónicas. De acuerdo con declaraciones recogidas por Politico, Patel defendió estas prácticas, señalando que la información obtenida ha resultado valiosa para el trabajo de la agencia. El medio consignó que este reconocimiento se suma a una admisión previa realizada en marzo de 2023 por el entonces director Christopher Wray, quien detalló que el FBI compró datos de localización de ciudadanos estadounidenses sin requerir una orden judicial, pese a que el Tribunal Supremo determinó en 2018 que este tipo de acceso requiere autorización judicial en el caso de los proveedores de telefonía móvil. Según publicó The Wall Street Journal en 2020, el vacío legal existente en la normativa estadounidense limita la obligación de orden judicial solo a la obtención de datos por parte de operadoras de telefonía móvil, dejando fuera a terceras empresas intermediarias. Esto ha permitido que diversas agencias federales, incluido el FBI, compren datos a través de empresas que recopilan información usando aplicaciones móviles como juegos, plataformas meteorológicas o comercios electrónicos, en las que los usuarios autorizan el acceso a su ubicación como parte de los términos de uso. Durante la audiencia en el Senado, Politico y Wired recogieron declaraciones en las que el exdirector Wray precisó que, aunque en el pasado sí se adquirieron datos de localización a través de bases comerciales, la agencia ha dejado de comprar actualmente información de bases de datos comerciales que contengan datos derivados de la publicidad digital. Wray afirmó: “Según tengo entendido, actualmente no adquirimos información de bases de datos comerciales que incluya datos de ubicación derivados de publicidad en internet”. Frente a estas prácticas, la respuesta legislativa no se hizo esperar. Según informó Politico, los senadores Ron Wyden, del Partido Demócrata por Oregón, y Mike Lee, republicano por Utah, presentaron el 13 de marzo la Ley de Reforma de la Vigilancia Gubernamental. Esta propuesta legislativa persigue obligar a agencias como el FBI a obtener una orden judicial antes de poder comprar información personal de ciudadanos estadounidenses a intermediarios privados, cerrando así el hueco normativo que actualmente permite la adquisición indirecta de datos de localización. Durante la discusión de la ley, Politico recogió la reacción del senador Wyden, quien calificó la compra de información privada sin orden judicial como una maniobra “escandalosa para eludir la Cuarta Enmienda”, la cual protege a la ciudadanía frente a registros y confiscaciones injustificados. Además, Wyden subrayó su preocupación ante el uso de inteligencia artificial en el procesamiento de grandes volúmenes de datos privados por parte de las agencias gubernamentales. En contraste, el debate en el Senado también incluyó voces a favor de que el FBI mantenga la capacidad de comprar datos personales. El senador Tom Cotton, representante republicano por Arkansas, defendió la adquisición señalando la utilidad potencial que esos datos tienen para la investigación de delitos graves. Según recogió Politico, Cotton argumentó: “",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/19/el-fbi-admite-que-esta-comprando-datos-de-localizacion-para-rastrear-a-ciudadanos-estadounidenses/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/FQTT55PQ6BHCLDUPVHLMO73BEI.jpg?auth=ee2ab8b0cb97c8674c2148f8e26464f158356f30e63e54de7127a4f2af53925d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
