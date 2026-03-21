@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "21 de marzo de 2026",
-  "generated_at": "2026-03-21T17:21:06.444606-05:00",
+  "generated_at": "2026-03-21T18:21:32.242404-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Monterrey vs Chivas EN VIVO: el rebaño sagrado busca mantener el liderato general de la Liga MX",
+      "summary280": "Monterrey y Chivas se enfrentarán el 21 de marzo a las 19:05 horas en el Gigante de Acero, en la jornada 12 de la Liga MX. El Guadalajara intentará mantener su liderato general y continuar su buena racha como visitante en un estadio que les ha favorecido.",
+      "articleText": "21 Mar, 2026 Por Santiago Gutiérrez Por Luis Mote Nava Monterrey y Chivas se enfrentan este sábado 21 de marzo en punto de las 19:05 horas (tiempo del centro de México) desde el Gigante de Acero en juego correspondiente a la jornada 12 de la Liga Mx, donde el Guadalajara buscará continuar con su buena racha de visitante en un recinto que suele dar buenos dividendos para el Rebaño Sagrado.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/21/monterrey-vs-chivas-en-vivo-el-rebano-sagrado-busca-mantener-el-liderato-general-de-la-liga-mx/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/XIWX2WC5ERGZJKWTYOKGNT57U4.jpg?auth=e14348552781f8b97d35f763d64df38267d9a77412ed4d875df9cf916d785897&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Niña de tres años muere tras huaico en Huánuco que arrasó viviendas y cultivos y dejó varias familias damnificadas",
       "summary280": "Un huaico en Huánuco, causado por intensas lluvias, dejó una niña de tres años muerta y graves daños materiales. El deslizamiento arrasó viviendas y cultivos, afectando a 197 familias que requieren ayuda urgente. La situación es crítica y se prevén más lluvias en la región.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/21/nina-de-tres-anos-muere-tras-huaico-en-huanuco-que-arraso-viviendas-y-cultivos-y-dejo-varias-familias-damnificadas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/XTE4SSLDMBD7PLZCDEFHMTQVSI.png?auth=8111a519da066df649d8501e8bcf3e62437a02fa7ce4b9b77d64d52cb96f40d6&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La dictadura de Ortega excarceló a la ex diputada indígena Nancy Henríquez tras más de dos años presa en Nicaragua",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/esta-es-la-temida-banda-de-17-personas-que-secuestraba-causando-desplazamientos-en-valle-de-aburra-rentas-ilicitas-eran-de-1-200-millones-al-mes-3542024",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/21/69be95a22e71b.r_d.779-292-0.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Benito Juárez, el admirado y denostado primer presidente indígena de México (y qué papel jugó en la modernización del país)",
-      "summary280": "Benito Juárez, primer presidente indígena de México, nació en Oaxaca y modernizó el país al establecer leyes e instituciones fundamentales. Aunque su legado es admirado, también enfrenta críticas por su separación de Iglesia y Estado y su estilo de liderazgo.",
-      "articleText": "Fuente de la imagen, Getty Images En un remoto pueblo indígena zapoteco, enclavado en las montañas del estado de Oaxaca, nació hace 220 años un hombre que dejó uno de los legados más importantes en la historia de México. Benito Juárez García es considerado como el presidente que instauró el marco de leyes e instituciones que son la base del país actual. Y es que antes de su mandato, México había transitado por numerosas pugnas por el poder, tenía instituciones endebles y pasó por guerras con Texas y Estados Unidos que desmembraron al país. \"La mayor aportación de Juárez y su grupo fue la modernización de México. La creación del Estado mexicano, pues hasta ese momento no había existido el país como nación\", dijo el historiador Raúl González, un investigador de la vida del expresidente mexicano, a BBC Mundo en una entrevista en 2022. Pero Juárez, quien fue el primer presidente indígena que ha tenido México, no estuvo exento de críticas, las cuales persisten hasta la actualidad. Muchas de ellas proceden de la separación de la Iglesia-Estado que Juárez instauró en un país profundamente católico. Pero otras persiguen la imagen del jurista y político por aspectos personales, como una supuesta búsqueda del poder a toda costa o hasta el hecho de haber sido masón. Frente a las acusaciones populares, González explicó qué hay alrededor de los mitos y verdades del hombre reconocido en la región latinoamericana como el Benemérito de las Américas. Juárez nació el 21 de marzo de 1806 —todavía en el Virreinato de la Nueva España— en el pueblo de Guelatao, en el seno de una familia zapoteca. Final de Más leídas El nuevo podcast de BBC Mundo sobre un amor que triunfó contra todo pronóstico Episodios Fin de Podcast A los 3 años quedó huérfano, por lo que pasó al cuidado de abuelos y tíos. \"Desde muy joven se dio cuenta de la necesidad de tener una educación. Su tío algo le enseñó de lectura y castellano, porque él hablaba zapoteco, pero él sabía que había que estudiar porque era la única manera de progresar\", explicó González, citando los documentos biográficos del expresidente. Se mudó a la ciudad de Oaxaca, la capital de ese estado, donde primero fue el protegido de un genovés, Antonio Maza —cuya hija Margarita a la postre sería la esposa de Juárez—, y después quedó bajo la crianza de un encuadernador, Antonio Salanueva, quien le dio estudios y trabajo desde su juventud. \"Juárez se destacó como estudiante. Era bastante dedicado y brillante\", explicó González. Tanto es así que el joven Juárez se volvió abogado y profesor de derecho. Ya siendo adulto, su carrera en la política y la jurisprudencia siguió un veloz ascenso: fue diputado y gobernador de Oaxaca, ministro de Justicia nacional, presidente de la Suprema Corte y presidente de México. En toda esa trayectoria es en la que Juárez se forja entre el liberalismo de la época y lleva al país a una gran proceso de transformación. Fuente de la imagen, INAH En un país con una histórica deuda con su población indígena, reducida y relegada durante siglos, el que hubiera un presidente de México zapoteco fue un hecho extraordinario para el país. Sin embargo, González advirtió que no hay evidencias históricas que indiquen que Juárez fue discriminado —o beneficiado— por su condición indígena. \"A pesar de que sea un tema que en la actualidad nos suene mucho, él nunca menciona haber sufrido discriminación. Lo cierto es que cuando entra a la escuela, ahí nota, eso sí, la distinción entre niños pobres y ricos, pero no por ser indígena. Él dice: 'Nosotros los pobres no teníamos toda la atención que sí los que tenían recursos'\", explicó González. El tener una estatura de 1,40 m tampoco fue un complejo en su vida de adulto. Una de las críticas que han perdurado a lo largo de los años sobre Juárez fue cómo ejercía el poder. Una es que presuntamente fue autoritario con los indígenas, como en una revuelta que se suscitó cuando él era gobernador de Oaxaca. En 1847, pobladores de la localidad zapoteca de Juchitán pr",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c7vq5edy881o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/efe2/live/ba057ec0-23ae-11f1-9a4e-e13728524fa3.jpg",
       "type": "explainer",
       "isNew": false
     }
