@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "22 de marzo de 2026",
-  "generated_at": "2026-03-22T08:41:48.563855-05:00",
+  "generated_at": "2026-03-22T09:25:16.754936-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Tu iPhone está en peligro: el aviso urgente para millones de usuarios por la llegada de ‘DarkSword’",
+      "summary280": "Un nuevo riesgo informático, DarkSword, amenaza a millones de usuarios de iPhone al permitir la ejecución de código malicioso solo con visitar sitios web comprometidos. Se estima que entre 220 y 270 millones de dispositivos están expuestos.",
+      "articleText": "22 Mar, 2026 Por Santiago Neira Un nuevo riesgo informático ha puesto en alerta a la comunidad global de usuarios de iPhone. DarkSword, un kit de ataque avanzado, fue detectado por equipos de Google junto a firmas especializadas en ciberseguridad como iVerify y Lookout. Esta amenaza destaca por su capacidad para ejecutar código malicioso con solo visitar una página web comprometida, sin requerir que el usuario realice ninguna acción adicional. El alcance de DarkSword es significativo: se estima que entre 220 y 270 millones de dispositivos iPhone podrían estar expuestos a esta vulnerabilidad en todo el mundo. La importancia de la advertencia reside en la facilidad con la que el ataque puede concretarse. Una simple visita a uno de los múltiples sitios web legítimos afectados, principalmente en Ucrania, basta para que DarkSword se active, comprometiendo la seguridad de los equipos y permitiendo el acceso a información altamente sensible. El caso subraya la necesidad de mantener los dispositivos actualizados y subraya la creciente sofisticación de las amenazas que enfrentan los usuarios de Apple. DarkSword aprovecha vulnerabilidades en versiones específicas de iOS 18, concretamente entre las versiones 18.4 y 18.6.2. El ataque no requiere interacción: basta con navegar a una web infectada para que el exploit se ejecute en segundo plano. Una vez en funcionamiento, los atacantes pueden acceder a contraseñas, mensajes de aplicaciones como iMessage, WhatsApp y Telegram, historial de navegación, datos de salud, notas personales, calendarios y billeteras de criptomonedas. Según reportes de las firmas de seguridad, cerca del 14% de los iPhone activos ejecutan una versión de iOS vulnerable. Aunque Apple ya corrigió estas fallas en versiones posteriores, la adopción de las actualizaciones ha sido más lenta de lo habitual, en parte por la recepción dividida del rediseño de la interfaz “Liquid Glass”, lo que ha llevado a algunos usuarios a retrasar la instalación de los parches. El funcionamiento de DarkSword es preocupante no solo por su nivel de automatización, también por la profundidad del acceso que obtiene el atacante. El kit encadena hasta seis vulnerabilidades, logrando escalar privilegios desde el navegador Safari hasta el núcleo del sistema operativo. Esta modalidad de ataque, conocida como “zero-click”, elimina la necesidad de interacción del usuario, haciendo su detección y prevención especialmente complejas. Un aspecto que ha llamado la atención de los especialistas es la falta de ofuscación del código de DarkSword. Los atacantes dejaron su funcionamiento completamente expuesto, incluyendo comentarios en inglés que detallan cada paso, lo que facilita la réplica del ataque por parte de cualquier persona con conocimientos técnicos. Este factor incrementa de manera considerable el riesgo de propagación global. Aunque inicialmente se detectaron campañas en Ucrania, las investigaciones de Google revelaron operaciones vinculadas a DarkSword en países como Arabia Saudí, Turquía y Malasia. Estos ataques habrían sido ejecutados por proveedores de vigilancia comercial y grupos relacionados con servicios de inteligencia. Frente al avance de DarkSword, Apple ha lanzado actualizaciones puntuales para iOS 18 y ha cerrado completamente las vulnerabilidades en las versiones más recientes del sistema operativo. Los especialistas insisten en la importancia de instalar la última actualización de iOS disponible. La actualización inmediata es la principal barrera para evitar que el dispositivo sea comprometido. Adicionalmente, se recomienda evitar hacer clic en enlaces desconocidos, prestar atención a posibles comportamientos extraños en el dispositivo y activar todas las funciones de seguridad que ofrece el sistema. Mantenerse informado sobre nuevas vulnerabilidades y parches es clave para reducir el riesgo. La velocidad con la que se propagan estos exploits obliga a los usuarios a mantener actualizados sus dispositivos y a no subestimar los riesgos",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/tecno/2026/03/22/tu-iphone-esta-en-peligro-el-aviso-urgente-para-millones-de-usuarios-por-la-llegada-de-darksword/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/3WJGUZYWSBC7HFH3R3THXTV2C4.jpg?auth=435078a9a19ad40cd5993a6917a5e6e33dfbfe01c99720dcb67001aa36848dc5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Más de 1.500 triatletas desafían el IRONMAN 70.3 Panamá",
       "summary280": "Más de 1.500 triatletas de 50 países compiten en el Ironman 70.3 Panamá, buscando clasificar al Mundial en Niza. La prueba incluye 1,9 km de natación, 90 km de ciclismo y 21,1 km de carrera. Este evento no solo destaca el deporte, sino que también impulsa la economía local.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/panama/2026/03/22/mas-de-1500-triatletas-desafian-el-ironman-703-panama/",
       "imageUrl": "https://www.infobae.com/resizer/v2/FSOVOA3KRBAMBFEWIYRMQYLXMI.JPG?auth=df704a6875572108a3099239ddcb804dea7d00e19045b1c0b0cb063b6240978d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Así, Cali gozó con concierto de J Balvin: ocupación hotelera y llegada de turistas dejaron ingresos por 5,4 millones de dólares en la ciudad",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/asi-cali-gozo-con-concierto-de-j-balvin-ocupacion-hotelera-y-llegada-de-turistas-dejaron-ingresos-por-5-4-millones-de-dolares-en-la-ciudad-3542148",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/22/69bfeec12fb93.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Cuál es la luz más antigua que hemos observado (y ¿será que alguna vez se apaga?)",
@@ -32,7 +42,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvgpl0z6w9go?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/0b8e/live/65b2c640-ed10-11f0-ad80-d7f736b055b6.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El circuito de 30 minutos que mide y mejora tu estado físico, según expertos",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/de-estar-desempleados-a-trabajar-juntos-en-la-misma-obra-la-historia-de-una-mama-y-su-hijo-quienes-levantan-el-futuro-de-la-ninez-en-san-cristobal-3541987",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/21/69bee424cb212.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Monterrey vs Chivas EN VIVO: el rebaño sagrado busca mantener el liderato general de la Liga MX",
-      "summary280": "Monterrey y Chivas se enfrentarán el 21 de marzo a las 19:05 horas en el Gigante de Acero, en la jornada 12 de la Liga MX. El Guadalajara intentará mantener su liderato general y continuar su buena racha como visitante en un estadio que les ha favorecido.",
-      "articleText": "21 Mar, 2026 Por Santiago Gutiérrez Por Luis Mote Nava Monterrey y Chivas se enfrentan este sábado 21 de marzo en punto de las 19:05 horas (tiempo del centro de México) desde el Gigante de Acero en juego correspondiente a la jornada 12 de la Liga Mx, donde el Guadalajara buscará continuar con su buena racha de visitante en un recinto que suele dar buenos dividendos para el Rebaño Sagrado.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/21/monterrey-vs-chivas-en-vivo-el-rebano-sagrado-busca-mantener-el-liderato-general-de-la-liga-mx/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/XIWX2WC5ERGZJKWTYOKGNT57U4.jpg?auth=e14348552781f8b97d35f763d64df38267d9a77412ed4d875df9cf916d785897&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
