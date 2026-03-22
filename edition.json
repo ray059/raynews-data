@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "22 de marzo de 2026",
-  "generated_at": "2026-03-22T06:20:54.325024-05:00",
+  "generated_at": "2026-03-22T07:43:00.155422-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "El circuito de 30 minutos que mide y mejora tu estado físico, según expertos",
+      "summary280": "Un nuevo circuito de entrenamiento de 30 minutos, diseñado por James Stirling y respaldado por el ACSM, mide y mejora la condición física con solo una mancuerna y una esterilla.",
+      "articleText": "22 Mar, 2026 Por Martina Cortés Moschetti ¿Quién puede afirmar con certeza que está en forma? La percepción personal no siempre coincide con la realidad física, y muchas veces las rutinas habituales no logran poner a prueba el verdadero nivel de condición. Frente a este desafío, surge una alternativa novedosa y accesible: un método de entrenamiento de cuerpo completo que promete medir y mejorar la capacidad física en menos de 30 minutos, usando solo una mancuerna y una esterilla. Diseñado para quienes buscan eficiencia y resultados medibles, este circuito —avalado por expertos y difundido por la revista GQ, con el respaldo de lineamientos del American College of Sports Medicine (ACSM), entidad referente en salud y actividad física— permite tanto a principiantes como a personas con experiencia evaluar su rendimiento real, sin necesidad de equipos complejos ni espacios especializados. En menos de media hora, es posible desafiar los propios límites y trabajar fuerza, resistencia y control postural desde casa. El circuito fue desarrollado por James Stirling, entrenador británico especializado en rutinas de alta intensidad para el hogar, y está pensado para adaptarse a una amplia variedad de condiciones físicas. La estructura consiste en seis ejercicios principales: clean burpees, skaters, flexiones tipo renegado, estocadas, salto con pausa y plancha lateral con elevación de pierna. Cada ejercicio se realiza en cuatro series de 40 segundos, salvo la plancha lateral, que se ejecuta en cuatro series de 20 segundos por lado. Entre ejercicios se establecen pausas de 20 segundos y, entre series, un minuto de descanso, según el método sugerido por Stirling y reproducido por GQ. Este método permite mantener una intensidad elevada durante toda la sesión y evita los descansos prolongados, lo que optimiza tanto la fuerza como la resistencia muscular. De acuerdo con los criterios del American College of Sports Medicine (ACSM), la combinación de fuerza y alta intensidad en bloques cortos favorece el desarrollo cardiovascular y muscular, especialmente en quienes disponen de poco tiempo para entrenar. La rutina, pensada para ser realizada en casa o en cualquier espacio disponible, resulta accesible para un amplio espectro de personas. Los ejercicios seleccionados trabajan grandes grupos musculares y requieren un control postural preciso. De este modo, se minimiza el riesgo de lesiones y se promueve una progresión segura. Para quienes ya tienen experiencia, la clave está en mantener el ritmo sugerido y priorizar la calidad técnica de cada repetición, incrementando así el desafío físico sin descuidar la seguridad. La gestión adecuada de los descansos —20 segundos entre ejercicios y un minuto entre series— es fundamental para sostener la intensidad y reducir la fatiga acumulada. Si un participante decide aumentar la velocidad o el volumen del entrenamiento, Stirling aconseja adaptar el nivel de dificultad y vigilar cualquier señal de sobreesfuerzo. La revista GQ enfatiza que la técnica nunca debe sacrificarse por velocidad o cantidad de repeticiones, ya que esto puede incrementar el riesgo de lesiones musculares o articulares. La versatilidad de este circuito lo hace apto para diferentes objetivos: quienes buscan iniciarse en el entrenamiento pueden ajustar la intensidad, mientras que quienes ya entrenan regularmente pueden aumentar la exigencia. Stirling destaca la importancia de escuchar las señales del cuerpo y adaptar el esfuerzo según la condición física individual. El método permite mejorar la fuerza, la resistencia y la coordinación sin invertir grandes cantidades de tiempo ni recursos, lo que lo convierte en una alternativa eficaz para quienes disponen de poco tiempo o prefieren entrenar en casa. La propuesta ha ganado popularidad por su practicidad y por la facilidad con la que se puede modificar el nivel de exigencia. Cada ejercicio puede adaptarse en función de la experiencia del usuario, permitiendo así una progresión segura y personali",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/tendencias/2026/03/22/el-circuito-de-30-minutos-que-mide-y-mejora-tu-estado-fisico-segun-expertos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/B34A32PQQFELBKWV3GOEWPYFXU.jpg?auth=47f3c1a17adee8f84fce1e83e8e9ef8af95778ee216fefb43ec83573359648a7&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "El PP confía en el apoyo de Junts para frenar la regulación de migrantes aunque teme que el PSOE maniobre para impedirlo",
       "summary280": "El PP espera el apoyo de Junts para frenar la regulación de migrantes, aunque teme maniobras del PSOE para bloquearlo.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/espana/agencias/2026/03/22/el-pp-confia-en-el-apoyo-de-junts-para-frenar-la-regulacion-de-migrantes-aunque-teme-que-el-psoe-maniobre-para-impedirlo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/EF2OY5UQIJGKJCGSZBBWU5C5WM.jpg?auth=e43470eaea812e4ab3e74caff560137ca50c98ee4bf7e42bd39fafe77f61037f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Temblor en Colombia en la madrugada de este domingo 22 de marzo: magnitud y epicentro",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/temblor-en-colombia-en-la-madrugada-de-este-domingo-22-de-marzo-magnitud-y-epicentro-3542145",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/22/69bfcf5515312.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Por qué los supermercados de Finlandia son fundamentales para la defensa del país",
@@ -32,7 +42,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cp84n7lyl88o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e0dc/live/89a6fa90-22b6-11f1-934f-036468834728.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Un ex sargento de la policía universitaria admite posesión de más de 600 archivos de pornografía infantil",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/corredores-seguros-con-drones-y-mas-de-200-policias-en-valle-vigilaran-ciclopaseo-este-domingo-en-via-cali-candelaria-donde-habra-cierres-y-desvios-3542084",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/21/69bf0000a0b32.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Clash Royale premiará a jugadores que ganen partidas con sus pantallas rotas",
-      "summary280": "Clash Royale lanzó en Brasil la campaña \"Cracked Royale\", que premia a jugadores que ganan con teléfonos de pantallas rotas. Los participantes deben compartir videos usando el hashtag #ClashModoHard.",
-      "articleText": "21 Mar, 2026 Por Renzo Gonzales Clash Royale lanzó una campaña en Brasil que recompensa a jugadores que logran victorias usando teléfonos con pantallas dañadas. La iniciativa, denominada Cracked Royale, convierte un obstáculo cotidiano en un símbolo de orgullo y compromiso dentro de la comunidad de este videojuego para móviles. La acción reconoce un fenómeno habitual entre usuarios que no se detienen ante la adversidad tecnológica para seguir compitiendo al máximo nivel. La propuesta de Supercell, desarrolladora de Clash Royale, se centra en la comunidad brasileña debido a su alto nivel de actividad y entusiasmo. La campaña invita a los jugadores a grabar y compartir videos en los que demuestran su habilidad al vencer en partidas pese a las dificultades que implican las pantallas agrietadas, rotas o con píxeles defectuosos. Para participar, los usuarios deben publicar sus logros en redes sociales utilizando el hashtag #ClashModoHard. Gabriel Caramelo, jefe de marketing de Clash Royale, explicó en un comunicado que este reconocimiento surge porque “los jugadores no solo juegan, sino que viven el juego. Algunos juegan con teléfonos rotos y pantallas con píxeles defectuosos, pero aun así logran ganar”. La campaña busca así homenajear la perseverancia y la destreza, valores muy presentes entre los aficionados del título. Los jugadores que superen el reto y compartan sus videos tienen la posibilidad de recibir recompensas exclusivas. Entre estos premios se encuentran una Legendary Wild Card y un banner especial de edición limitada denominado Cracked Royale, que solo estará disponible para quienes participen en la dinámica. Estos incentivos no solo reconocen el esfuerzo, sino que también contribuyen a fortalecer el sentido de pertenencia y la pasión por el juego. La campaña se lanzó con un video que muestra la acción característica de Clash Royale a través de una pantalla fracturada, alternando la perspectiva entre ambos lados del cristal roto. El film resalta tanto la dificultad añadida que representa jugar en esas condiciones como la emoción de superar retos que parecen insalvables. Además, varios de los principales influencers y creadores de contenido del universo del juego participan activamente, compartiendo sus propias experiencias y motivando a sus seguidores a sumarse al desafío. La campaña destaca por centrarse en un comportamiento muy específico de la comunidad, que a menudo pasa inadvertido fuera del entorno gamer. Este enfoque permite que los propios jugadores se conviertan en narradores de la acción a través del contenido generado por ellos mismos, lo que amplifica el alcance de la propuesta y refuerza la autenticidad de la marca. André Toledo, director creativo de DAVID New York, agencia que colaboró con el juego para esta campaña, señaló que “los jugadores de Clash Royale se encuentran entre los más competitivos y apasionados del mundo de los videojuegos para móviles. Pero verlos dominar la arena con pantallas rotas es prueba de que nada puede quebrar a un verdadero fan”. Estas declaraciones subrayan la intención de la campaña de visibilizar y celebrar la dedicación extrema de los usuarios. La acción de Supercell apuesta por potenciar la lealtad y el sentido de comunidad entre los jugadores, transformando una limitación técnica en un elemento de identidad y orgullo. El contenido generado por usuarios no solo enriquece la campaña, sino que favorece la interacción y la viralidad, creando una dinámica donde cada nuevo testimonio incentiva a otros a sumarse al reto. La iniciativa “pega dos tiros de un solo disparo”: por un lado, promueve la autenticidad al poner en primer plano una conducta única; por otro, convierte a los jugadores en protagonistas activos de la narrativa. Así, Clash Royale busca consolidar su posición como uno de los títulos de referencia en el segmento de videojuegos móviles, capaz de adaptarse a las prácticas y desafíos reales de su audiencia.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/tecno/2026/03/21/clash-royale-premiara-a-jugadores-que-ganen-partidas-con-sus-pantallas-rotas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/W6IVXGY4IFFBFBEXS32BEBYPJE.png?auth=e6d85dd3a232e33029e61233c296b9ebab1e84ca10cf1c93fb4bfef58cf172f3&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
