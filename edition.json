@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "22 de marzo de 2026",
-  "generated_at": "2026-03-22T15:22:49.728361-05:00",
+  "generated_at": "2026-03-22T16:23:00.890349-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Gobierno y ganaderos preparan medidas para frenar el alza de la carne bovina y aliviar el gasto de los hogares",
+      "summary280": "El Gobierno colombiano, junto al Ministerio de Agricultura y ganaderos, está implementando medidas para frenar el aumento de precios de la carne bovina, que ha subido un 14,59% en 2026.",
+      "articleText": "22 Mar, 2026 Por Johan Manuel Largo El Gobierno nacional, a través del Ministerio de Agricultura, intensificó el seguimiento técnico al comportamiento de los precios de los alimentos en Colombia, tras identificar incrementos sostenidos en la carne bovina durante 2026. La tendencia, detectada en los informes oficiales presentados por la cartera, motivó la adopción de medidas orientadas a contener las presiones inflacionarias y garantizar la seguridad alimentaria en el país. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel Según la entidad, el alza en el precio de la carne bovina obedece principalmente al incremento del valor del ganado en pie en subastas, que registró una variación anual de 14,59% a enero de 2026. El factor representa aproximadamente el 53% de los costos de producción, lo que significa que cualquier presión en este eslabón se transmite de manera directa al consumidor final. A lo anterior se suma una mayor participación de hembras en el sacrificio nacional, que en 2025 alcanzó el 40,9%, especialmente en animales entre dos y cinco años, situación que compromete la capacidad de reposición y la producción futura de carne. El análisis ministerial advierte que las exportaciones de bovinos en pie representaron el 7,9% de la producción nacional en 2025, con el 73% concentrado en machos entre uno y dos años. De estos animales, el 39% se destina a exportación, lo que reduce la oferta para el mercado interno. Además, la tasa de extracción de machos en este rango de edad se ubicó en 10,8% entre noviembre de 2024 y octubre de 2025, superando la capacidad natural de reposición y generando un desbalance estructural en la oferta. Ante este panorama, el Gobierno nacional inició diálogos con los diferentes eslabones de la cadena bovina y representantes del sector transformación. El objetivo es definir soluciones coyunturales y estructurales que permitan frenar la escalada de precios y proteger el abastecimiento interno. Entre las medidas que se encuentran en proceso de implementación destacan: Por su parte, el Ministerio de Agricultura enfatizó que las acciones son fruto del trabajo conjunto con el sector, buscando estabilizar los precios, proteger la producción nacional y garantizar la seguridad alimentaria. De acuerdo con los reportes diarios de Corabastos, el principal mercado mayorista de alimentos en Bogotá, el precio de la carne bovina ha permanecido estable entre el 18 y el 20 de marzo de 2026. Los valores para los cortes más representativos de la canasta familiar fueron los siguientes: Estos precios no presentaron variaciones en los tres días analizados, manteniéndose estables pese a las tensiones en la cadena de suministro. Al comparar los valores, el lomo se ubica como el corte más caro de la carne bovina, con un costo de $76.000 por kilo. En contraste, el corte más barato en la lista es la sobrebarriga, que se cotiza en $32.000 por kilo. Este balance evidencia que, aunque existen presiones en el sector, los precios de los principales cortes en Corabastos no han mostrado incrementos recientes, lo que sugiere que las medidas de vigilancia y los acuerdos sectoriales pueden estar contribuyendo a la estabilidad temporal del mercado.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/22/gobierno-y-ganaderos-preparan-medidas-para-frenar-el-alza-de-la-carne-bovina-y-aliviar-el-gasto-de-los-hogares/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/FYR4L5YONRAKJOJQS353MZ4SAY.JPG?auth=aede323ea61db5aee36ad8a7d33df3217ce4ca483867cde6e0d291cd61c06dab&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Comunidad denuncia que disidentes maniobran drones en cancha de fútbol de la ruralidad de Jamundí: 'Mientras impiden ingreso a ONU, ellos violan DIH'",
       "summary280": "La comunidad de Jamundí denuncia que el frente 'Jaime Martínez' utiliza drones en una cancha de fútbol y restringe el acceso a defensores de la ONU. Esto ocurre mientras se violan los principios del Derecho Internacional Humanitario, lo que genera preocupación en la zona.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/comunidad-denuncia-que-disidentes-maniobran-drones-en-cancha-de-futbol-de-la-ruralidad-de-jamundi-mientras-impiden-ingreso-a-onu-ellos-violan-dih-3542200",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/22/69c04c8aba01b.r_d.320-313-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El navegador de Perplexity llega al iPhone con IA para búsquedas inteligentes y tareas automatizadas",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.infobae.com/tecno/2026/03/22/el-navegador-de-perplexity-llega-al-iphone-con-ia-para-busquedas-inteligentes-y-tareas-automatizadas/",
       "imageUrl": "https://www.infobae.com/resizer/v2/GKMZSYEWFJEONIM43D76IXQN2M.png?auth=f7291c1b1a16ae016743a804e02f65779d804a4a92b848986728128b76c97f3a&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La sombra de Kukulkán en la primavera 2026: ¿Cuál es el simbolismo de esta deidad maya?",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/temblor-en-colombia-en-la-madrugada-de-este-domingo-22-de-marzo-magnitud-y-epicentro-3542145",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/22/69bfcf5515312.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Por qué los supermercados de Finlandia son fundamentales para la defensa del país",
-      "summary280": "Los supermercados de Finlandia, como el Grupo S y Kesko, son clave para la defensa del país ante posibles agresiones, garantizando el suministro de alimentos y colaborando con el gobierno en planes de contingencia.",
-      "articleText": "Fuente de la imagen, AFP via Getty Images Si alguna vez Finlandia se viera enfrentada a una agresión de Rusia, Janne Ahtoniemi sabría exactamente qué hacer. Entraría rápidamente en acción, pero tal vez no de la manera que uno podría esperar. Puede que imagines que Ahtoniemi es un soldado en el ejército finlandés, pero su preparación está más bien relacionada con su trabajo en la empresa de supermercados nacionales Grupo S. Y en caso de que Finlandia fuera invadida o atacada de alguna otra manera, como un amplio y significativo ciberataque, el Grupo S tiene un plan detallado de cómo ayudaría a la causa nacional. Tendría que garantizar que la nación de 5,6 millones de habitantes tuviera suficientes suministros de comida. Otras importantes empresas a través del país también consideradas como críticas, como las firmas de defensa, la compañías de transporte, y los grupos de ciberseguridad, tienen sus propios planes de contingencia detallados para seguir en el caso de una crisis, tanto por el resultado de conflictos con otros países como por desafíos presentados por desastres naturales. \"La fuerte seguridad de suministro de Finlandia está basada en décadas de constante preparación y capacitación\", expresa Ahtoniemi, director de manejo de riesgo del Grupo S. \"Las compañías entienden esta perspectiva y su propio rol en ella\". \"Por eso es que el público y las compañías están dispuestas a invertir en la seguridad de suministro\", agrega. La cuatro naciones nórdicas -Finlandia, Suecia, Noruega y Dinamarca- han seguido durante décadas una estrategia de \"defensa total\". Eso significa que tienen preparados planes para que los sectores militar y civil colaboren de cerca. Final de Más leídas Desde la invasión de Rusia a Ucrania en 2022, Finlandia ha tomado la delantera y ha fortalecido mucho este concepto, así como el nivel de intervención empresarial. Finlandia lo llama ahora \"seguridad integral\". Dado que el país comparte una frontera de 1.340 kilómetros con Rusia, esta medida no sorprende. Fuente de la imagen, Getty Images El nuevo podcast de BBC Mundo sobre un amor que triunfó contra todo pronóstico Episodios Fin de Podcast El gobierno finlandés delineó la nueva política el año pasado en un documento llamado \"La estrategia de seguridad para la sociedad\" y al que las autoridades describen como \"el documento más importante para la guía de la seguridad integral en Finlandia\". Empresas críticas se unen a \"comités de preparación\" con representantes de las autoridades locales y el gobierno central, y participan en ejercicios de capacitación nacionales. Las preparaciones y planeación continúan no sólo en caso de una guerra convencional, sino también de un ciberataque a nivel nacional, de interrupciones de suministros de comida y agua, o de un ataque al sistema financiero. Ahtoniemi afirma que \"la participación en los ejercicios es una inversión mayúscula para las organizaciones\". Su empresa también coopera con la Organización de Suministro de Emergencia Nacional. El grupo de supermercados rival Kesko está igualmente involucrado. \"Queremos poner de nuestra parte para asegurar que la sociedad finlandesa pueda funcionar todos los días, a pesar de las circunstancias\", comentó Jyrki Tomminen, ejecutivo de Kesko. \"Las compañías desarrollan un estado de preparación para diferentes escenarios de interrupción, usando planes de contingencia y ejercicios colaborativos\", agregó. Fuente de la imagen, Kesko Ambas compañías y otras empresas de alimentos tienen la obligación legal de mantener reservas estratégicas de artículos críticos, como harina, azúcar y aceites de cocina. Estos se guardan en bodegas especiales o búnkeres subterráneos que tienen generadores de electricidad de emergencia. De cada adulto en Finlandia se espera que pongan de su parte cuando se trata de la defensa nacional, señala Tom Woolmore, un experto en seguridad de las naciones europeas del norte. \"No es teoría, está muy puesto en práctica\". El profesor Frank Martela, es un buen ejemplo. É",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cp84n7lyl88o?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/e0dc/live/89a6fa90-22b6-11f1-934f-036468834728.jpg",
       "type": "explainer",
       "isNew": false
     }
