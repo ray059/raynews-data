@@ -1,9 +1,19 @@
 {
   "api_version": 3,
-  "edition_date": "22 de marzo de 2026",
-  "generated_at": "2026-03-22T23:30:34.406340-05:00",
+  "edition_date": "23 de marzo de 2026",
+  "generated_at": "2026-03-23T01:08:55.355769-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "La vida de Noelia Petti en el agua y más allá del podio: el rol de los veteranos en la alta competencia",
+      "summary280": "Noelia Petti, nadadora argentina, destaca por su trayectoria en aguas abiertas, construida desde la constancia y la experiencia.",
+      "articleText": "23 Mar, 2026 Por Juan Mascardi Noelia Petti no encaja en el molde clásico del alto rendimiento. No fue una promesa precoz ni una figura moldeada desde la infancia en la lógica del podio. Su recorrido se construyó desde otro lugar: el de quien llega más tarde, pero decide quedarse. Nació el 9 de noviembre de 1974 en Lomas de Zamora, en la provincia de Buenos Aires, y encontró en el agua un territorio donde desarrollar una carrera que, con los años, la convertiría en una de las referentes argentinas de la natación en aguas abiertas y en pileta. Su trayectoria combina constancia, resultados y una manera propia de entender la competencia. Entre sus hitos más relevantes se encuentran el cruce a nado del Río de la Plata en 2014, múltiples participaciones en competencias nacionales de larga distancia y su inserción en el circuito internacional, con un tercer puesto en una prueba de 15 kilómetros en Lac-Mégantic, Canadá, dentro del calendario de la Federación Internacional de Natación (FINA). También cuenta con una extensa participación en pruebas de aguas abiertas en Argentina y en el exterior, afianzando un perfil de nadadora de resistencia más asociada al recorrido que a la velocidad. Actualmente radicada en Adrogué, Petti combina su rol de deportista con el de entrenadora y formadora, acompañando a nadadores que participan en competencias de larga distancia como Santa Fe-Coronda o la Capri-Nápoles. Su vínculo con el deporte trasciende la competencia y se expresa también a través de la transmisión de experiencia y la construcción de una comunidad en torno al agua. El encuentro tiene lugar días después de su participación en el Desafío de la Ribera en San Nicolás de los Arroyos, una prueba de ocho kilómetros que tuvo su primera edición y reunió a nadadores de distintos niveles. Petti finalizó en el octavo lugar de la clasificación general, en una competencia que ganó Gonzalo Guidi y que tuvo como primera mujer en llegar a la meta a Mai Azul Roldán. Más allá del resultado, la carrera funcionó como punto de partida para una reflexión más amplia: cómo se transita el deporte cuando el cuerpo cambia, cuando la competencia ya no se mide en los mismos términos y cuando la exigencia se vuelve más interna que nunca. En ese clima, la entrevista abarca no solo su presente, sino también los momentos decisivos de su carrera: el inicio tardío, el salto al plano internacional, los costos del alto rendimiento y la necesidad de redefinir objetivos con el paso del tiempo. La conversación revela a una deportista que sigue compitiendo y también se observa a sí misma en ese proceso. —¿Qué lugar debería ocupar el deporte en personas que atraviesan los 50 años? —Es algo que me repito muchas veces a mí misma. Cuando uno hizo alto rendimiento durante tantos años, después cuesta correrse de esa lógica. Es difícil dejar de sentir que cada vez que uno compite está rindiendo examen. Pero hay algo que trato de sostener: cumplir conmigo misma. Cada persona que llega a una línea de largada hizo un esfuerzo para estar ahí. No importa el nivel. Todos, en mayor o menor medida, rompieron un límite, vencieron un miedo o dejaron algo de lado. Entonces, lo importante es salir de la carrera con la sensación de haber estado a la altura de ese esfuerzo. —¿Ese enfoque se puede trasladar a cualquier persona que compite, más allá del nivel? —Sí, completamente. A veces se piensa que esto es solo para el alto rendimiento, pero no. Incluso en competencias como la de San Nicolás, donde hay muchos nadadores amateurs, aparece algo muy fuerte que es el prejuicio. El miedo a lo que van a decir los demás. “¿Qué pasa si llego última?”, “¿qué van a pensar si soy lenta?”. Es algo que escucho mucho. Y es una barrera importante. —¿Vos también atravesaste ese proceso? —Sí. Yo empecé grande y desde muy abajo. Cuando me empezó a ir bien a nivel nacional, tuve que tomar una decisión. Podía quedarme ahí, siendo competitiva en ese ámbito, o dar un paso más y salir a competir internacionalmente, s",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/generacion-silver/2026/03/23/la-vida-de-noelia-petti-en-el-agua-y-mas-alla-del-podio-el-rol-de-los-veteranos-en-la-alta-competencia/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/BZO4RJ3IMZHP5PIA5QNAN2HYFM.jpg?auth=06f203b3ebd03462edcfb49fe49f72631778acac7370a3b8943c85ade48ca1b5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Fallece Cecilia Candelaria, fotoperiodista egresada de la UNAM: documentó levantamiento del EZLN",
       "summary280": "Cecilia Candelaria, fotoperiodista egresada de la UNAM, falleció el 21 de marzo a los 64 años. Documentó la realidad de México, incluyendo el levantamiento del EZLN, y colaboró con diversos medios. Su legado incluye la 'Colección Ojo de Venado' y numerosas exposiciones.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/23/fallece-cecilia-candelaria-fotoperiodista-egresada-de-la-unam-documento-levantamiento-del-ezln/",
       "imageUrl": "https://www.infobae.com/resizer/v2/QZ7OJDXI2ZGITNLAFFIOK4B3JA.jpg?auth=e5875ef7cf94db232922e9b94c7878427470b49e93e065701822d4e15cd22e6f&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Por qué Noruega, Canadá y Rusia son los grandes beneficiados de la guerra en Irán (y cuáles son los más perjudicados)",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cvg45zedm2po?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/5394/live/d432c9d0-2483-11f1-a673-e3b236a15253.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Nuevas imágenes revelan cómo Justin Timberlake interactuó con la policía tras su arresto: “Ustedes son salvajes”",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/2026/03/22/precision-suiza-exportadores-peruanos-multiplican-por-58-su-inversion-tras-pisar-el-viejo-continente-que-envian/",
       "imageUrl": "https://www.infobae.com/resizer/v2/B5VWAB6GHVDMLIYP2FPOHCLNWQ.jpg?auth=ee96458400bfa3611266f10bf75d732856acdd626765fc0eefd9cd637919af18&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Activaron artefacto explosivo cuando una patrulla de Policía estaba haciendo ronda en Chinácota, Norte de Santander: esto se sabe",
-      "summary280": "Un artefacto explosivo fue activado en Chinácota, Norte de Santander, mientras una patrulla de Policía realizaba su ronda. Este atentado generó preocupaciones sobre la seguridad en la región y afectará la movilidad en la capital. La situación sigue siendo monitoreada.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Noticia Atentado en Chinácota Foto: ARCHIVO PARTICULAR Melissa Múnera Zambrano PERIODISTA22.03.2026 11:08 Actualizado: 22.03.2026 11:08 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Afectaciones por atentado Foto:ARCHIVO PARTICULAR Atentado en Chinácota Foto:ARCHIVO PARTICULAR La capital tendrá importantes afectaciones en la movilidad Foto: Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/activaron-artefacto-explosivo-cuando-una-patrulla-de-policia-estaba-haciendo-ronda-en-chinacota-norte-de-santander-esto-se-sabe-3542170",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/22/69c012ee1d6f1.jpeg",
       "type": "explainer",
       "isNew": false
     }
