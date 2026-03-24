@@ -1,9 +1,19 @@
 {
   "api_version": 3,
-  "edition_date": "23 de marzo de 2026",
-  "generated_at": "2026-03-23T23:16:15.303776-05:00",
+  "edition_date": "24 de marzo de 2026",
+  "generated_at": "2026-03-24T00:57:48.696919-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Alba Guijarro, psicóloga: “Una relación tóxica se puede cambiar si se cumplen dos cosas”",
+      "summary280": "Alba Guijarro, psicóloga, explica que una relación tóxica puede cambiar si ambas partes reconocen el problema y tienen voluntad de mejorar. Ignorar el malestar solo intensifica las dinámicas negativas.",
+      "articleText": "24 Mar, 2026 Por Marta Sierra A veces, las relaciones no empiezan siendo problemáticas: surgen de manera natural, entre afinidades, momentos compartidos y cierta sensación de seguridad. Sin embargo, con el paso del tiempo, algunas dinámicas cambian casi sin que nos demos cuenta. Lo que antes parecía inofensivo empieza a generar incomodidad, desgaste o incluso malestar constante. En ese proceso, es habitual que aparezcan actitudes difíciles de identificar en un primer momento: reproches sutiles, falta de comunicación, dependencia emocional o dinámicas de control. No siempre se trata de grandes conflictos visibles, sino de pequeñas conductas repetidas que terminan configurando una relación desequilibrada. Muchas personas se preguntan entonces si ese tipo de relaciones pueden reconducirse o si, por el contrario, están condenadas al fracaso. La respuesta, lejos de ser simple, depende de varios factores. “Hoy te traigo la respuesta de si se puede solucionar una relación tóxica o no. Y la respuesta es que depende”, explica la psicóloga Alba Guijarro (@talcualtia en TikTok). Su planteamiento parte de una idea clave: no existe una solución universal válida para todos los casos. “Yo sé que esto no es lo que quieres escuchar, pero te lo voy a explicar bien”, añade. Según detalla la experta, hay dos condiciones imprescindibles para que una relación de este tipo pueda cambiar. “Una relación tóxica puede cambiar si se cumplen dos cosas. Una, que las dos personas reconozcan el problema, no solo tú, las dos. Y dos, que haya voluntad real de hacer algo diferente”. Es decir, no basta con que una de las partes sea consciente o quiera mejorar; el compromiso debe ser compartido. En este sentido, Guijarro insiste en diferenciar entre intención y acción. “No promesas, cambios reales”, subraya. Muchas relaciones se sostienen en expectativas de cambio que nunca llegan a materializarse, lo que prolonga el malestar y refuerza las dinámicas negativas. La psicóloga también apela a la evidencia científica para desmontar uno de los mitos más extendidos: el paso del tiempo como solución. “Que sepas que la investigación sobre cambios en patrones relacionales es bastante clara. Los patrones tóxicos no se van solos con el tiempo ni por amor”. Lejos de diluirse, estas conductas tienden a consolidarse si no se interviene de forma activa. De hecho, advierte de un efecto contrario al que muchas personas esperan. “Sin intervención activa tienden a intensificarse”, señala. Esto implica que ignorar el problema o confiar únicamente en el vínculo afectivo puede agravar la situación en lugar de resolverla. Aun así, la posibilidad de cambio no debe confundirse con una obligación de permanencia. Guijarro introduce aquí un matiz fundamental que a menudo se pasa por alto. “Ahora, hay algo que quiero que entiendas bien: que una relación tenga solución no significa que sí o sí tengas que quedarte en esa relación”. Esta afirmación abre la puerta a una reflexión más profunda sobre el bienestar individual. En algunos casos, incluso cuando existe potencial de mejora, la decisión más saludable puede ser poner fin a la relación. “Y muchas veces el cambio más sano es salir de ahí”, afirma. Para quienes dudan sobre su situación concreta, la psicóloga propone una pregunta clave como punto de partida. “Así que, ¿cómo sabes en cuál de los dos casos estás? Pues hazte esta pregunta: ¿la otra persona reconoce lo que pasa o siempre acaba siendo cosa tuya?”. La respuesta, según explica, es más reveladora de lo que parece a simple vista. “Que sepas que esta respuesta dice mucho más de lo que crees”. En ella se condensa, en gran medida, la posibilidad real de cambio o la confirmación de una dinámica que difícilmente se transformará.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/24/alba-guijarro-psicologa-una-relacion-toxica-se-puede-cambiar-si-se-cumplen-dos-cosas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/CUAVROVNHNAKDMK2G6C4HG6J2A.jpg?auth=7070df3c809c28a4399aa51b632863ea3fd11a0b9b9f727751540cac43cb5c0c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Mercados en modo cautela: por qué los activos argentinos subieron menos que los del resto de la región",
       "summary280": "Los activos argentinos subieron menos que los de la región debido a un contexto de cautela y la mejor evolución de mercados como el brasileño. A pesar de un aumento en bonos y acciones, el riesgo país se mantuvo alto y la incertidumbre global afectó la recuperación.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/economia/2026/03/24/mercados-en-modo-cautela-por-que-los-activos-argentinos-subieron-menos-que-los-del-resto-de-la-region/",
       "imageUrl": "https://www.infobae.com/resizer/v2/VZ5RZBRRYVCYNKBLQ34UCRQYLQ.JPG?auth=95f35aece0a1ed2ac0dcd6b6f58df6da5ae0fe55964785b4547ffc9b4004225c&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "¿Por qué los estados del Golfo no están tomando represalias contra Irán?",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/czex3y3er3ko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/7e46/live/3959a840-26b1-11f1-b13a-5bcd17b65474.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Luto en Santander: sacerdote que conoció al Papa Juan Pablo II murió en trágico accidente rumbo a la Costa Caribe",
@@ -32,7 +42,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/luto-en-santander-sacerdote-que-conocio-al-papa-juan-pablo-ii-murio-en-tragico-accidente-rumbo-a-la-costa-caribe-3542331",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/23/69c1f0cb7dbfc.r_d.768-353-0.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Se estima que el robo de lingotes de oro en la Costa Verde supera el millón de dólares: investigan posible circuito ilegal",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/avion-c-130h-hercules-de-la-fuerza-aerea-se-accidento-en-el-putumayo-siga-el-minuto-a-minuto-3542312",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/23/69c172b37c7f1.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "David Beckham celebró el éxito de su hijo Cruz tras un concierto en París",
-      "summary280": "David Beckham asistió al concierto de su hijo Cruz en París, donde el joven de 21 años brilló como vocalista de The Breakers. David y Victoria Beckham apoyan activamente a sus hijos en sus carreras, destacando la importancia de la unión familiar.",
-      "articleText": "23 Mar, 2026 Por Ismael Yasnikowski David Beckham acompañó a su hijo menor Cruz Beckham en un reciente concierto de la banda The Breakers en París. El joven, de 21, lidera el grupo como vocalista principal, y la ocasión congregó a familiares, amigos y seguidores en un local íntimo de la capital francesa. Durante el espectáculo, el exfutbolista británico mostró su apoyo, reafirmando el vínculo familiar y el interés en la carrera artística de Cruz. A través de sus redes sociales, David Beckham compartió imágenes y videos de la actuación dekl joven. Según la revista de espectáculos People, el exjugador describió la noche como “increíble” al responder a los fotógrafos al abandonar el lugar. Además, se remarcó la presencia activa en los logros personales de sus hijos: la familia Beckham suele participar en eventos claves, acompañando tanto en celebraciones como en hitos profesionales. Por su parte, Cruz Beckham celebró su cumpleaños número 21 en Londres el mes anterior. En el evento participaron la novia del músico, Jackie Apostel, su madre Victoria Beckham y otros allegados, quienes se sumaron a los homenajes públicos difundidos mediante mensajes y fotos en redes sociales, reafirmando el apoyo familiar. En una etapa de actividad para The Breakers, Cruz Beckham suma presentaciones en diversos escenarios y consolida su posición al frente del grupo. Tanto David como la exintegrante de Spice Girls Victoria Beckham siguen de cerca la trayectoria de sus hijos y su participación se hace notar en los conciertos y actos públicos del cantante. La familia, compuesta por cuatro hermanos —Brooklyn Peltz Beckham, Romeo James Beckham, Cruz Beckham y Harper Seven Beckham—, privilegia la unión y la asistencia constante en logros y celebraciones personales, según detalla la revista de espectáculos. Los medios presentes en el concierto en París destacaron que David Beckham se mantuvo sonriente y atento durante la función, acompañando a Cruz desde la platea. Las declaraciones públicas también jugaron un papel relevante. Desde su perfil digital, Victoria Beckham compartió mensajes de orgullo hacia su hijo enfatizando el ánimo de Cruz sobre el escenario. David Beckham, en paralelo, remarcó la importancia de brindar respaldo a sus hijos durante cada fase de su desarrollo. Durante los eventos recientes, se difundieron en redes sociales mensajes de aliento entre los miembros de la familia. Medios británicos señalaron que David Beckham elogió a Cruz de manera pública, destacando avances en su recorrido musical y compartiendo recuerdos familiares a través de fotografías y mensajes privados. Victoria Beckham hizo lo propio, expresando satisfacción por la dirección profesional elegida por Cruz. La celebración de cumpleaños de Cruz en Londres se realizó de forma privada, con la participación de amigos cercanos y Emma Bunton, excompañera de Victoria en Spice Girls. Los testimonios de los Beckham y círculos próximos evidenciaron el apoyo del núcleo familiar en cada evento relevante. Mientras tanto, la ausencia de Brooklyn Peltz Beckham en algunas celebraciones recientes originó especulaciones entre portales y usuarios en redes. Fuentes como la revista de espectáculos informaron que se registraron distanciamiento y discusiones dentro del entorno familiar, atribuibles a diferencias personales surgidas en los últimos meses. Sin embargo, David y Victoria Beckham reiteraron su intención de mantener el diálogo y la armonía con todos sus hijos, buscando preservar la cohesión familiar. La exposición pública de la familia Beckham genera repercusión internacional en cada aparición, ya sea en logros artísticos o reuniones personales. La asistencia de David Beckham a los espectáculos de Cruz subraya la importancia que otorgan al acompañamiento parental en el desarrollo de sus hijos, mientras los actos de afecto y los mensajes compartidos en redes consolidan la atención mediática sobre la familia.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/teleshow/2026/03/23/david-beckham-celebro-el-exito-de-su-hijo-cruz-tras-un-concierto-en-paris/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/VHCZUTUWQNDIDAZVEB56MEUQEI.jpg?auth=5f96b08c00592e194e81b8c30fcaf26a9cd589e71b3a1dec4d0dbbc608c014ed&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
