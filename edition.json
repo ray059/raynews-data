@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "24 de marzo de 2026",
-  "generated_at": "2026-03-24T03:48:41.397941-05:00",
+  "generated_at": "2026-03-24T04:53:37.839099-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Una pareja vegetariana es acusada de dejar morir de hambre a su hija de tres años: se alimentaba solamente de yogur, mantequilla y lentejas",
+      "summary280": "Una pareja vegetariana enfrenta cargos por la muerte de su hija de tres años, alimentada solo con yogur, mantequilla y lentejas. La niña sufrió desnutrición severa y cetoacidosis. Ambos padres, en prisión preventiva, niegan los cargos. El juicio comenzará en enero de 2027.",
+      "articleText": "24 Mar, 2026 Por Antonio Duro Una pareja vegetariana enfrenta cargos graves tras la muerte de su hija de tres años, a quien, según la acusación presentada ante el tribunal de Old Bailey (Londres), alimentaban únicamente contres alimentos. El caso ha causado conmoción en la capital inglesa, donde se investiga si la dieta suministrada por los padres fue la causa directa del fallecimiento de la niña, identificada como Penelope. Los padres, Manpreet Jatana, de 34 años, y Jaskiret Singh Uppal, de 36, ambos de origen indio, comparecieron ante el tribunal acusados de asesinato y otros delitos relacionados, según la información de Daily Mail. El cuerpo de la menor fue encontrado en su domicilio de Hayes, al oeste de Londres, el 17 de diciembre de 2023, después de que la madre llamara a una funeraria para notificar el fallecimiento. Según el fiscal Phillip McGhee, la pareja habría dejado morir de hambre deliberadamente a su hija, quien nació en 2019 y vivía en condiciones de aislamiento familiar y social. Los expertos médicos que analizaron el caso concluyeron que la muerte de Penelope se debió a desnutrición severa y cetoacidosis, un trastorno grave que se produce cuando el cuerpo, ante la falta de energía, empieza a descomponer grasas de forma anómala, generando sustancias tóxicas en la sangre. Este diagnóstico fue clave para los cargos presentados contra los padres, quienes han negado tanto el asesinato como el homicidio involuntario por negligencia grave y el maltrato infantil. La alimentación de la niña se limitaba a tres productos: mantequilla, lentejas y yogur. Esta dieta, aunque puede parecer suficiente por contener proteínas y grasas, resulta completamente inadecuada para un menor en crecimiento. Los niños pequeños requieren una variedad de nutrientes esenciales, incluyendo vitaminas, minerales, carbohidratos complejos y diferentes fuentes de proteínas que no pueden obtenerse solo de estos tres alimentos. El fiscal del caso subrayó ante el tribunal que Penelope no recibía todos los nutrientes necesarios para su desarrollo. Los especialistas apuntan que la combinación de mantequilla, lentejas y yogur no cubre las necesidades calóricas ni de micronutrientes de un niño. La ausencia de frutas, verduras variadas, cereales integrales y otras fuentes de proteínas animales o vegetales deja al organismo sin los elementos básicos para funcionar correctamente. El resultado fue una rápida degradación del estado de salud de la niña y el fallo multiorgánico que terminó con su vida. El caso se tramita en el tribunal de Old Bailey, uno de los juzgados más conocidos de Londres. Manpreet Jatana y Jaskiret Singh Uppal comparecieron por videoconferencia desde las prisiones de HMP Belmarsh y HMP Bronzefield, donde permanecen en prisión preventiva. Ambos negaron los cargos de asesinato, homicidio involuntario por negligencia grave, causar o permitir la muerte de un menor y maltrato infantil. El fiscal McGhee destacó que, en el momento de la muerte de Penelope, ninguno de los padres trabajaba y ambos estaban “esencialmente aislados no solo de su familia extensa, sino también del mundo exterior”. Esta situación de aislamiento pudo dificultar la detección precoz del problema por parte de servicios sociales u otras instituciones. La próxima audiencia de gestión del caso está prevista para el 17 de julio, mientras que el juicio principal comenzará el 11 de enero del próximo año y se espera que dure ocho semanas ante un juez del Tribunal Superior. La investigación sigue en curso y el desenlace legal dependerá de las pruebas y testimonios que se presenten durante el proceso.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/24/una-pareja-vegetariana-es-acusada-de-dejar-morir-de-hambre-a-su-hija-de-tres-anos-por-alimentarla-solamente-de-yogur-mantequilla-y-lentejas/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/CXB2G5UAV5B37GLKU4BAFKXQIQ.jpeg?auth=b8bd814e2dd3cc0aae9afa5f9889a57afa4777d97488fb8e20364e35fbe5797e&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Juanma Moreno precipita las elecciones andaluzas con todo a favor: sorpresa en el Gobierno y más problemas para Vox",
       "summary280": "Juanma Moreno adelanta las elecciones andaluzas al 17 de mayo, buscando revalidar su mayoría absoluta en un contexto de crisis en la sanidad pública. La oposición, especialmente Vox, enfrenta problemas internos, mientras la izquierda se fragmenta.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/espana/2026/03/24/juanma-moreno-precipita-las-elecciones-andaluzas-con-todo-a-favor-sorpresa-en-el-gobierno-y-mas-problemas-para-vox/",
       "imageUrl": "https://www.infobae.com/resizer/v2/2XXYY6VAOJDRBB2FBYR6IUQPE4.jpg?auth=f69f43357fcdc74998cb1ce971eb1e0208f9cafc2b1015d79953ffd137313b2d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "¡Cuidado, conductor! Pico y placa en Bucaramanga para el martes 24 de marzo de 2026",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/cuidado-conductor-pico-y-placa-en-bucaramanga-para-el-martes-24-de-marzo-de-3542407",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/01/23/6792489bb1514.r_d.585-180-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Junts propone una ley para que el DNI se renueve automáticamente: cómo funcionaría y excepciones",
@@ -191,16 +201,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/23/informacion-en-tiempo-real-estaciones-del-metrobus-sin-servicio-este-23-de-marzo/",
       "imageUrl": "https://www.infobae.com/resizer/v2/JPATSNL7JNFK3BWIRTQNLY773M.jpg?auth=91f8e4f473c7324c21186ffd313746fda80bf493549a2440cb44e504d303abac&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Los accidentes aéreos que han conmovido a Colombia en el 2026: Yeison Jiménez, Satena y el avión de la Fuerza Aérea",
-      "summary280": "En 2026, Colombia ha sido impactada por varios accidentes aéreos, incluyendo el de Yeison Jiménez, un avión de Satena y otro de la Fuerza Aérea. Estos incidentes han generado conmoción en el país, resaltando la importancia de la seguridad en la aviación.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Explicativo Los accidentes aéreos que han conmovido a Colombia en el 2026 Foto: Archivo EL TIEMPO Tania Alejandra Hernández Torres PERIODISTA23.03.2026 14:30 Actualizado: 23.03.2026 14:30 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar LEA TAMBIÉN Tania Hernández Torres Yeison Jiménez: accidente de avioneta Foto:Archivo particular Accidente de avión de Satena Foto:Aerocivil LEA TAMBIÉN Melissa Múnera Zambrano Accidente aéreo en Putumayo Foto:ARCHIVO PARTICULAR Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/los-accidentes-aereos-que-han-conmovido-a-colombia-en-el-2026-yeison-jimenez-satena-y-el-avion-de-la-fuerza-aerea-3542335",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/23/69c192d3c12d3.jpeg",
       "type": "explainer",
       "isNew": false
     }
