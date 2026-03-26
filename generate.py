@@ -26,6 +26,49 @@ HEADERS = {
 # UTILIDADES
 # -------------------------------------------------
 
+def generate_audio_blocks(headlines, fecha_legible):
+    from openai import OpenAI
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
+    audio_files = []
+
+    intro_text = f"Actualización de Ray News del {fecha_legible}."
+
+    with client.audio.speech.with_streaming_response.create(
+        model="gpt-4o-mini-tts",
+        voice="alloy",
+        input=intro_text,
+    ) as response:
+        response.stream_to_file("part_0.mp3")
+
+    audio_files.append("part_0.mp3")
+
+    for i, h in enumerate(headlines):
+        filename = f"part_{i+1}.mp3"
+
+        with client.audio.speech.with_streaming_response.create(
+            model="gpt-4o-mini-tts",
+            voice="nova",
+            input=h["titleOriginal"],
+        ) as response:
+            response.stream_to_file(filename)
+
+        audio_files.append(filename)
+
+    with open("files.txt", "w") as f:
+        for file in audio_files:
+            f.write(f"file '{file}'\n")
+
+    subprocess.run([
+        "ffmpeg",
+        "-y",
+        "-f", "concat",
+        "-safe", "0",
+        "-i", "files.txt",
+        "-c", "copy",
+        "edition_audio.mp3"
+    ])
+
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
@@ -247,6 +290,9 @@ with open("historical_tmp.json", "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
 os.replace("historical_tmp.json", HIST_FILE)
+
+if new_items:
+    generate_audio_blocks(new_items, fecha_legible)
 
 print("Noticias nuevas detectadas:", len(new_items))
 print("Noticias finales:", len(final_headlines))
