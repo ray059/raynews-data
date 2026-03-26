@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "26 de marzo de 2026",
-  "generated_at": "2026-03-26T00:03:12.743310-05:00",
+  "generated_at": "2026-03-26T02:17:19.832388-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "El auge de los misiles balísticos",
+      "summary280": "El aumento de ataques con misiles balísticos entre Irán, Israel y EE. UU. resalta su papel central en conflictos modernos. A pesar de esfuerzos diplomáticos como el HCOC y el MTCR, la falta de adhesión de países clave dificulta el control de estas tecnologías.",
+      "articleText": "26 Mar, 2026 Por Roberto García Moritán La escalada de ataques con misiles entre Irán, Israel y Estados Unidos ha mostrado que los misiles balísticos se han convertido en protagonistas centrales de los conflictos modernos. La variedad de este tipo de armamento ofensivo domina las estrategias militares al combinar alcance, precisión y bajo riesgo político además de su bajo costo comparados con aviación avanzada. Asimismo, la capacidad de proyectar poder estratégico a distancia sin despliegue terrestre masivo evidencia que las guerras del siglo XXI ya no dependen únicamente de tropas y tanques, sino de tecnología certera y vectores estratégicos. Frente a este escenario, la diplomacia ha intentado reducir el impacto que produce la proliferación de tecnología misilística. El Código Internacional de Conducta contra la Proliferación de Misiles Balísticos (HCOC) y el Régimen de Control de Tecnologías de Misiles (MTCR) son instrumentos internacionales clave en ese sentido. Mientras el HCOC busca promover transparencia y comunicación sobre pruebas de misiles y fomentar normas de conducta responsable, el MTCR coordina controles de exportación de tecnología crítica de misiles, intentando evitar que llegue a actores no confiables. Sin embargo, el carácter dual de la tecnología involucrada constituye uno de los retos para su control internacional. Los conocimientos, materiales y sistemas que permiten desarrollar vectores militares –capaces de transportar cargas convencionales o incluso asociadas a armas de destrucción masiva– son los mismos para actividades civiles legítimas, como el lanzamiento de satélites o la exploración espacial. En consecuencia, el control de estas tecnologías no solo depende de regulaciones formales, sino también de la confianza política, la transparencia y la cooperación entre Estados. Es por ello que, en general, los países que integran ambos regímenes pueden contribuir a limitar la proliferación misilística, desarrollar programas espaciales y, al mismo tiempo, generar una atmósfera que reduce suspicacias sobre el alcance de los respectivos programas de misiles balísticos. No obstante, la falta de universalidad de estos instrumentos voluntarios deja vacíos críticos que los conflictos recientes han expuesto. Ni Irán, Israel y varios otros países de Medio Oriente son integrantes del HCOC ni del MTCR. Consecuentemente, una de las derivaciones del conflicto actual sería incentivar la adhesión de todos los países de Medio Oriente a ambos regímenes. Este compromiso, si bien no elimina las tensiones ni la raíz de los conflictos, “representaría un avance para la promoción de la estabilidad regional”. También para iniciar un proceso de no proliferación en materia de misiles y drones que se encuentran expuestos a los acelerados avances tecnológicos, la mejora en los sistemas de guiado y la irrupción de nuevas capacidades, como los misiles hipersónicos o los drones estratégicos de largo alcance. El HCOC y el MTCR son pasos importantes, pero no constituyen aún un marco sólido de regulación comparable al de las armas nucleares o químicas, lo que complica su control. Tampoco resultan suficientes para prevenir que esas capacidades tecnológicas sean transferidas a grupos terroristas como Hezbollah, pese a que la resolución 1540 del Consejo de Seguridad de la ONU obliga a todos los Estados a establecer controles nacionales para evitar que actores no estatales adquieran armas de destrucción masiva o sus sistemas de transporte (misiles). Estas circunstancias ponen en evidencia la necesidad de avanzar en compromisos jurídicamente vinculantes para detener la proliferación de drones y misiles. La comunidad internacional enfrenta ahora el desafío urgente de ampliar la cobertura de los regímenes existentes y fomentar la incorporación de actores críticos, como serían los países del Medio Oriente y de otras regiones inestables, para evitar que los conflictos futuros se definan únicamente por la proliferación de misiles y la ausencia de nor",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/opinion/2026/03/26/el-auge-de-los-misiles-balisticos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/YHDHFQX5QNFODFMDXR7IBN4IQY.JPG?auth=0eee1a1bb4e029ebbe4776388c3a0f2486a59a0a38a7476bd8457d590866e744&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Delgadez extrema: el regreso de una amenaza para la salud mental de niñas y adolescentes",
       "summary280": "La presión estética afecta a niñas y adolescentes, quienes se sienten angustiadas por estándares de belleza inalcanzables promovidos por la industria y redes sociales. El uso de fármacos y cirugías se incrementa, mientras que la insatisfacción corporal crece.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/salud/2026/03/26/el-cuerpo-ideal-y-la-delgadez-extrema-el-regreso-de-una-amenaza-para-la-salud-mental-de-ninas-y-adolescentes/",
       "imageUrl": "https://www.infobae.com/resizer/v2/LEZEVUSD7FA3XPKS4I6FDNROCM.jpg?auth=4645e4950437fa21c2eff4aea529c79c5b81fad4b994cc8cda51cd56ab852cde&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Él era el piloto de la FAC que falleció en el accidente aéreo en Puerto Leguízamo, Putumayo: familiares se pronunciaron; 'Un vacío inmenso'",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/el-era-el-piloto-de-la-fac-que-fallecio-en-el-accidente-aereo-en-puerto-leguizamo-putumayo-familiares-se-pronunciaron-un-vacio-inmenso-3542962",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/25/69c44cf7127dd.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "La disputa sobre quién debe pagar la defensa de Maduro en EE.UU. (y qué ha pasado en otros casos contra expresidentes extranjeros)",
@@ -32,7 +42,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/ce352jv082no?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/36f5/live/24722380-280a-11f1-934f-036468834728.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Previo a Semana Santa, Rocío Nahle asegura que trabajan en playas afectadas por hidrocarburo en Veracruz",
@@ -191,16 +201,6 @@
       "sourceName": "BBC News Mundo",
       "sourceUrl": "https://www.bbc.com/mundo/articles/cnvr9e05lp1o?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/cec0/live/079e0570-2874-11f1-831a-89df8c4bf49f.jpg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Caso Santiago Uribe: Corte Suprema resolverá la impugnación contra la condena en segunda instancia contra el hermano del expresidente Álvaro Uribe",
-      "summary280": "La Corte Suprema de Justicia revisará la impugnación presentada por la defensa de Santiago Uribe Vélez, condenado a 28 años y 3 meses por su supuesta participación en el grupo paramilitar Los Doce Apóstoles. La decisión de segunda instancia revocó su absolución.",
-      "articleText": "25 Mar, 2026 Por Jhon Bernal La Sala de Casación Penal de la Corte Suprema de Justicia recibió la impugnación especial presentada por la defensa de Santiago Uribe Vélez, hermano del expresidente Álvaro Uribe Vélez, tras la sentencia que lo condenó a 28 años y 3 meses de prisión por su presunta participación como jefe del grupo paramilitar Los Doce Apóstoles. En el documento de cuatro páginas emitido por el Tribunal Administrativo de Antioquia, revelado por Caracol Radio W, dejó constancia del recurso presentado por el abogado defensor Jaime Granados a principios de marzo del 2026. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel “Teniendo en cuenta el informe secretarial que antecede, y en atención a que el señor defensor y su prohijado presentaron y sustentaron presentó y sustentó en tiempo oportuno Impugnación Especial frente a la decisión de segunda instancia, se ordena remitir la actuación por intermedio de la Secretaría de esta Sala, a la Corte Suprema de Justicia - Sala de Casación Penal, para lo de su competencia y con el fin de que se desate el recurso interpuesto”, se lee en el documento citado por el medio de comunicación. El recurso fue admitido formalmente luego de que, el 25 de noviembre de 2025, la segunda instancia del Tribunal antioqueño revocara la absolución de Uribe Vélez y dictara condena por los delitos de homicidio agravado, concierto para delinquir y concurso de delitos de lesa humanidad en el caso conocido como ‘los 12 apóstoles’, por hechos atribuidos durante el conflicto armado en el departamento colombiano.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/25/caso-santiago-uribe-corte-suprema-resolvera-la-impugnacion-contra-la-condena-en-segunda-instancia-contra-el-hermano-del-expresidente-alvaro-uribe/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/AOYZF6QKSJDO7PXHLMUEBRHGIA.jpg?auth=b70b67cb031ca6c7ed91d9e4b663d3e0257cb53c12c7c0db52153a3051ed4b4b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
