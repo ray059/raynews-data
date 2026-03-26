@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "26 de marzo de 2026",
-  "generated_at": "2026-03-26T11:44:35.583107-05:00",
+  "generated_at": "2026-03-26T11:54:10.661123-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "El vuelo de Adorni a Punta del Este: declara como testigo en Comodoro Py el broker que vendió el pasaje",
+      "summary280": "Agustín Issin, piloto y broker, declaró como testigo en Comodoro Py sobre el viaje a Punta del Este del jefe de Gabinete, Manuel Adorni. Emitió una factura por 3.000 dólares a nombre del periodista Marcelo Grandío, quien viajó con Adorni. La investigación sigue en curso.",
+      "articleText": "26 Mar, 2026 Agustín Issin, piloto y broker de vuelos, se presentó este jueves en Comodoro Py para declarar como testigo en la causa donde se investiga el viaje en avión privado a Punta del Este que hizo el jefe de Gabinete, Manuel Adorni. El testigo se encuentra en el Juzgado Federal Nro. 4 y comparecerá ante el juez federal Ariel Lijo. El piloto facturó los pasajes de Adorni y su familia para volver desde Punta del Este al aeropuerto de San Fernando, en la provincia de Buenos Aires. El testigo habría emitido la factura a nombre de Marcelo Grandío, periodista la TV Pública, quien pasó el fin de semana largo de carnaval con el jefe de Gabinete. Todos viajaron juntos a la ida, pero al regreso el comunicador lo hizo por su cuenta. Esa factura, que ya está en poder del fiscal Gerardo Pollicita, se emitió el 9 de marzo y fue por un valor de 3.000 dólares. Issin reconoció al diario La Nación que adquirió un paquete de 10 viajes por 42.250 dólares a la empresa Alpha Centauri. Esos papeles también fueron incorporados a la causa. En la noche del miércoles hubo un operativo en las oficinas que esa compañía tiene en el aeropuerto de San Fernando. El juez Lijo requirió también documentación de los viajes a los organismos públicos que operan en San Fernando, a pedido del fiscal Pollicita. Alpha Centauri vendió sin intermediarios el viaje de ida. Facturó el vuelo a la productora de Grandío, Imhouse, por 4.830 dólares que se transfirieron en su equivalente en pesos. Noticia en desarrollo",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/judiciales/2026/03/26/el-vuelo-de-adorni-a-punta-del-este-declara-como-testigo-en-comodoro-py-el-broker-que-vendio-el-pasaje/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/IQL63DT2VJHO7J2AJNBCBRBAW4.jpeg?auth=64eee34c3cd691a040b11cfe803f4918c7ec2e4ae4779d9793237c5293cf1a4c&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Repechajes para el Mundial 2026: cómo ver en vivo desde México los 10 partidos clasificatorios",
       "summary280": "Los repechajes para el Mundial 2026 comienzan el 26 de marzo, con 22 selecciones compitiendo por los últimos seis boletos. Los partidos incluyen enfrentamientos entre Dinamarca y Macedonia del Norte, así como Italia contra Irlanda del Norte.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/deportes/2026/03/26/repechajes-para-el-mundial-2026-como-ver-en-vivo-desde-mexico-los-10-partidos-clasificatorios/",
       "imageUrl": "https://www.infobae.com/resizer/v2/IM3GW2KNNJGNJPY2KLYOR5GDEM.jpg?auth=35141be00ca6b1a291f22e61689001e272b96310048d4795c16b9310cb656a95&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Barranquilla entregará 12.000 plántulas de palma de areca como alternativa sostenible de la tradicional palma de cera para el Domingo de Ramos",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-entregara-12-000-plantulas-de-palma-de-areca-como-alternativa-sostenible-de-la-tradicional-palma-de-cera-para-el-domingo-de-ramos-3543173",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2024/03/24/660046d99a1cb.r_d.475-237-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "El Gobierno y la UIA evalúan una nueva reunión para definir incentivos al sector: qué proponen los industriales",
@@ -191,16 +201,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/barcaza-caramanta-asi-funciona-la-solucion-fluvial-gratuita-y-sin-motor-que-conecta-a-tres-municipios-del-centro-del-valle-del-cauca-3543035",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/25/69c48dc4e0960.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Ministro de Educación arremetió contra alcaldes que aseguran que el Gobierno abandonó a las ciudades: “Palabrería barata”",
-      "summary280": "El ministro de Educación, Daniel Rojas, defendió al Gobierno de Gustavo Petro ante acusaciones de alcaldes sobre abandono a las ciudades.",
-      "articleText": "25 Mar, 2026 Por Carol Salazar El ministro de Educación, Daniel Rojas Medellín, reaccionó a las declaraciones del alcalde de Bogotá, Carlos Fernando Galán, en relación con el respaldo del Gobierno nacional a las ciudades. De acuerdo con el mandatario local, hay una sensación generalizada de abandono entre los alcaldes, que consideran que la administración del presidente Gustavo Petro no ha apoyado económicamente a las capitales. “Una primera conclusión unánime de esta asociación es que el Gobierno nacional le dio la espalda a las ciudades capitales. Esto no es un tema de una alcaldía, no es un tema de una discusión entre un gobierno local y la Nación, es un sentimiento generalizado”, indicó Galán en la asamblea general de Asociación Colombiana de Ciudades Capitales (Asocapitales), realizada en Medellín (Antioquia). Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel Según explicó, varios alcaldes expresaron su preocupación por lo que están viviendo en sus territorios y por la disminución de recursos de inversión proporcionados por la Nación. Esta situación estaría teniendo un importante impacto en ciudades como Pasto (Nariño), Popayán (Cauca), Ibagué (Tolima) y San José del Guaviare (Guaviare). En ese sentido, precisó que, desde el punto de vista de los mandatarios locales, el Gobierno nacional tenía una apuesta por los territorios que “no se ha reflejado en realidades”. Por eso, en esas ciudades carecerían de capacidades y herramientas para enfrentar las dificultades que se presentan. “Nosotros dejamos esa constancia como ciudades capitales de lo que ha ocurrido en estos años y cómo ha habido una ausencia de diálogo, de construcción colectiva entre la nación y las ciudades capitales en estos dos años que llevamos de Gobierno”, precisó el alcalde Galán. El ministro Daniel Rojas rechazó la postura que adoptaron los alcaldes en contra de la administración del primer mandatario, exponiendo cifras que evidencian el respaldo que ha dado el Gobierno en materia de recursos para impulsar la educación en las regiones. Las estadísticas que expuso muestran un incremento en los recursos de funcionamiento para instituciones de educación superior de Bogotá en 2026, que se situó en $4.684,7 (cifras en miles de millones de pesos constantes). La variación de los recursos de funcionamiento fue de 2.440,5 y la gratuidad fue de 1.353,8. En el caso de Valle del Cauca, los recursos de funcionamiento de 2026 se situaron en $1.233,3; la variación fue de 682,3 y la gratuidad 323,7. “Es el gobierno del presidente @petrogustavo el que ha aumentado considerablemente la inversión en educación en estas ciudades y abriendo las sedes universitarias que ellos jamás quisieron abrir; hoy se lleva educación superior en el oriente y en la ladera en Cali; la sede de Suba en Bogotá es un hecho, 100% financiada por el gobierno del cambio (…). Acá hablamos con datos, no con palabrería barata”, detalló el ministro. De igual manera, señaló a los alcaldes de Bogotá, Carlos Fernando Galán; de Medellín, Federico Gutiérrez; y de Cali, Alejandro Éder, de darle la espalda a la juventud en sus territorios, mientras que en otras ciudades se ha podido avanzar en materia de educación gracias a la administración Petro. Incluso, acusó al mandatario de Cali de haber engañado al Gobierno nacional con un lote que le fue solicitado hace casi dos años, ubicado en el oriente, por lo que, según indicó, la administración adquirirá ese espacio para poner en marcha una universidad pública. “No nos vamos a quedar esperándolo, si fuera por él jamás habría educación superior para los pobres de Cali (sic)”, aseveró. Añadió: “¿Serán estos espacios donde los alcaldes Éder de Cali y Galán de Bogotá se ponen de acuerdo para no entregar a tiempo los lotes donde el gobierno nacional financia en su totalidad nuevas sedes universitarias?”, cuestionó el jefe de la cartera.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/25/ministro-de-educacion-arremetio-contra-alcaldes-que-aseguran-que-el-gobierno-abandono-a-las-ciudades-palabreria-barata/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/QBFVY5GDXJGPFLJ4NBP2JWAJGY.jpg?auth=6bde4845c4d389d3118145e6edc70fa364991bf777f85d5e2507e6cf214b5f48&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
