@@ -1,9 +1,19 @@
 {
   "api_version": 3,
   "edition_date": "27 de marzo de 2026",
-  "generated_at": "2026-03-27T16:31:15.200768-05:00",
+  "generated_at": "2026-03-27T17:28:37.423322-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "titleOriginal": "Javier Milei celebró el fallo por YPF con críticas a Cristina Kirchner y Kicillof: “Fue una aventura suicida que nos podría haber costado todo”",
+      "summary280": "Javier Milei celebró un fallo favorable de Argentina en el litigio por YPF, criticando a Cristina Kirchner y Axel Kicillof por la nacionalización de 2012. Afirmó que expropiar es robar y que esa decisión llevó a una \"aventura suicida\".",
+      "articleText": "27 Mar, 2026 Javier Milei celebró por cadena nacional el fallo postivo que obtuvo la Argentina en Estados Unidos por el litigio con YPF. El Presidente lanzó duras críticas a Cristina Kirchner y Axel Kicillof, quienes impulsaron la nacionalización de la empresa petrolera en 2012: “Hay una verdad irrefutable: expropiar está mal porque robar está mal”. El mandatario buscó desterrar la idea de que este fallo le da razón a los argumentos jurídicos que defienden la ex presidenta y el gobernador bonaerense y lo dijo sin tapujos: “Hay quienes quieren leer esta noticia como un logro que expropió las empresas en un pimer lugar. Lo voy a decir con nombre y apellido: hablo de Cristina Kirchner y del inefable Axel Kicillof. Nada puede estar más lejos de la verdad. Es una afrenta a los argentinos que pretendan apropiarse de este resultado. Esos personajes de nuestro pasado nos sumieron en una aventura suicida que nos podría haber costado todo. Nos podría haber dejado sin YPF y con un país fundido”. Y agregó: “De pagarlos habria representado un enorme obstáculo en el camino de la recuperación económica. En términos de riesgo país, tasa de interés y menor crecimiento. Hay una verdad irrefutable: expropiar está mal, porque robar está mal. Quebrar este principio nos costó 12 años de inversiones, más pobreza, menos trabajo y más indigencia”. “El populismo aparenta ser a corto plazo y ante las cámaras, pero trae consecuencias a mediano y largo plazo. Para los que se llenan la boca hablando de soberanía y desarrollo, la mejor forma de defender los puntos estratégicos es defenderla”, sentenció el Presidente. En el comienzo del discurso, Milei dijo que el fallo “es un hecho de trascendencia histórica y sin precedentes para el país”. Aseguró que, de perderlo, hubiera “implicado pagar 18 mil millones de dólares, equivalente a 70 millones de jubilaciones mínimas”. “Era virtualmente imposible, pero gracias a la pericia jurídica, política y diplomatica del Gobierno se logró torcer el destino a nuestro favor. Ante la adversidad, triunfó la perseverancia. Ante la irresponsabilidad, triunfó la constancia”, expresó. Noticia en Desarrollo",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/politica/2026/03/27/javier-milei-celebro-el-fallo-por-ypf-con-criticas-a-cristina-kirchner-y-kicillof-expropiar-esta-mal-porque-robar-esta-mal/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/F3RY6QRADBHWVDPSTV75AYJ2IM.jpg?auth=86e27c03d5939d8717e86ed1e123a5d1424cfed9fe54f0d84c8966ef023efc20&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "titleOriginal": "Beca Rita Cetina y Beca Benito Juárez: ¿qué pasará con los pagos durante Semana Santa 2026?",
       "summary280": "Los pagos de las becas Rita Cetina y Benito Juárez se concentrarán en abril de 2026, con depósitos dobles para estudiantes de medio superior y superior. El calendario oficial se publicará a principios de abril, y los depósitos podrían comenzar la segunda semana del mes.",
@@ -12,7 +22,7 @@
       "sourceUrl": "https://www.infobae.com/mexico/2026/03/27/beca-rita-cetina-y-beca-benito-juarez-que-pasara-con-los-pagos-durante-semana-santa-2026/",
       "imageUrl": "https://www.infobae.com/resizer/v2/4YCOQO7KTND3TNXXF6LF3JCSQI.jpg?auth=e3a97f8c813ac6ba04ab2a1fb0e81d6774a1e281b167d5123174c66a4b751090&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "¡Cuidado con la comida de mar en Semana Santa! Así refuerza el Atlántico la vigilancia sanitaria en la temporada de mayor consumo del año",
@@ -22,7 +32,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/cuidado-con-la-comida-de-mar-en-semana-santa-asi-refuerza-el-atlantico-la-vigilancia-sanitaria-en-la-temporada-de-mayor-consumo-del-ano-3543568",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/20/69bda9cce95b1.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "titleOriginal": "Familia del profesor Neill Felipe Cubides pidió justicia contra capturados por su homicidio: “Tenemos temor de que queden en lbertad”",
@@ -192,16 +202,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/economia/2026/03/27/el-gobierno-permitira-agregarle-mas-bioetanol-a-las-naftas-para-frenar-la-suba-de-precios/",
       "imageUrl": "https://www.infobae.com/resizer/v2/G5DK2JKNCZFRXIK45IUJMTMMEI.png?auth=a1d6851135dc7097f39ed036f0f58b84da159ac45208e299b7349a69fd21ce11&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "¿Pico y placa para carros particulares en Barranquilla? Esta es la propuesta que plantea el Concejo para mejorar la movilidad en la ciudad",
-      "summary280": "El Concejo de Barranquilla propone implementar un sistema de pico y placa para vehículos particulares con el fin de mejorar la movilidad en la ciudad, que enfrenta una grave congestión vehicular.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Noticia La congestión vehicular en Barranquilla ha alcanzado niveles críticos. Foto: EL TIEMPO Camilo Andrés Álvarez Peñaloza 27.03.2026 06:01 Actualizado: 27.03.2026 06:01 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar LEA TAMBIÉN Camilo Álvarez Peñaloza Los taxistas quisieran estar excluidos de la medida. Foto:Agencia KRONOS El montaje de palcos obliga a restricciones temporales para vehículos particulares. Foto:Alcaldía Barranquilla. Colombia. Foto:Getty Images LEA TAMBIÉN Leonardo Herrera Delgans Sobrepeso, falla de los motores y factor humano. Foto: Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/pico-y-placa-para-carros-particulares-en-barranquilla-esta-es-la-propuesta-que-plantea-el-concejo-para-mejorar-la-movilidad-en-la-ciudad-3543341",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2020/05/26/5ecd8f24a03c8.jpeg",
       "type": "explainer",
       "isNew": false
     }
