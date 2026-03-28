@@ -1,9 +1,20 @@
 {
   "api_version": 3,
   "edition_date": "28 de marzo de 2026",
-  "generated_at": "2026-03-28T05:28:47.868412-05:00",
+  "generated_at": "2026-03-28T06:25:49.924703-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "d9d001daf474b62af3846070facdca65d4993eeb04f019e7131e15b343b7b4de",
+      "titleOriginal": "Racing debutará en la Copa Argentina ante San Martín de Formosa: hora, TV y formaciones",
+      "summary280": "Racing debutará en la Copa Argentina 2026 ante San Martín de Formosa el 28 de marzo a las 21:15 en el Estadio Florencio Sola, con transmisión por TyC Sports. El técnico Gustavo Costas alineará una mezcla de titulares y suplentes para preservar a los jugadores.",
+      "articleText": "28 Mar, 2026 Racing y San Martín de Formosa se medirán en el Estadio Florencio Sola, en Banfield, por los 32avos de final de la Copa Argentina 2026. El encuentro está programado para las 21:15. El arbitraje correrá por cuenta de Andrés Gariano y la televisación será de TyC Sports. La formación que el entrenador Gustavo Costas planea para el debut de Racing en el certamen nacional incluirá una combinación de habituales titulares y suplentes, con el objetivo de administrar cargas físicas y minimizar riesgos de lesiones en medio de una agenda deportiva exigente con partidos por el Torneo Apertura y la Copa Sudamericana. En el último ensayo táctico previo al encuentro, Costas alineó solo a tres de los futbolistas que usualmente integran el once inicial: Ezequiel Cannavo, Santiago Sosa y Maravilla Martínez. Este enfoque refleja la decisión del técnico de iniciar una rotación para preservar a los jugadores de cara a partidos venideros, entre los que se destaca el clásico frente a Independiente, programado para el sábado 4 de abril a las 17.30. Por distintos motivos, el entrenador no dispondrá de Duván Vergara, Gabriel Rojas ni Matías Zaracho. Vergara sigue en proceso de recuperación de un desgarro en el aductor derecho, lesión sufrida la víspera del partido contra Belgrano, con una proyección de tres semanas de ausencia. Rojas está afectado a la Selección nacional para amistosos frente a Mauritania y Zambia, ambos en La Bombonera. Zaracho, por su parte, no será arriesgado debido a una molestia muscular sufrida ante Estudiantes de Río Cuarto; se espera que reintegre la plantilla para el clásico con Independiente. El presente inmediato de San Martín de Formosa es auspicioso. El equipo inició su campaña en el Torneo Federal A con una victoria por 2 a 1 ante Defensores de Vilelas, en un debut oficial que sirvió como impulso anímico. Los goles de Lautaro Ceratto y Agustín Griego ratificaron la solidez e identidad de juego que propone el plantel dirigido por un cuerpo técnico que prioriza el orden, la intensidad y la efectividad, consciente de que la concentración y el aprovechamiento de cada oportunidad serán decisivos frente a la Academia. El historial entre la Academia y San Martín de Formosa registra una sola disputa previa, también válida por los 32avos de la Copa Argentina. En febrero de 2023, Racing remontó el tanto inicial en contra y se quedó con la victoria por 3-1, competencia en la que su recorrido finalizó en octavos tras ser eliminado por Huracán. El ganador de este cruce se medirá con el vencedor del duelo entre Defensa y Justicia y Chaco For Ever, que se jugará el miércoles 1° de abril a las 19. Posibles formaciones: Racing: Matías Tagliamonte; Ezequiel Cannavo, Franco Pardo, Nazareno Colombo, Ignacio Rodríguez; Alan Forneris, Santiago Sosa, Matko Miljevic; Tomás Conechny, Adrián Martínez y Adrián Fernández. DT: Gustavo Costas. San Martín de Formosa: Kevin Humeler; Blas Finardi, Oscar Piris, Dylan Leiva, Agustín Griego; Ricardo Tapia, Marcelo Bobadilla, Gervasio Núñez, Oscar Chiquichano; Lautaro Ceratto y Mauro Siegiejuk. DT: Marcelo Rubino.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/deportes/2026/03/28/racing-debutara-en-la-copa-argentina-ante-san-martin-de-formosa-hora-tv-y-formaciones/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/WD5QVAYLENEX3ORWAHOX6YO6LA.JPG?auth=31d98030e5637d8d88c0828ea9514318ccb0acce9a5af650e1620a3aedbb67c5&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "ac892764a8258fd3fbe81d2a88925dcd14aec1e171664c67050f8d414d81a30d",
       "titleOriginal": "Cuál es el peor aeropuerto de Estados Unidos",
@@ -13,7 +24,7 @@
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/28/cual-es-el-peor-aeropuerto-de-estados-unidos/",
       "imageUrl": "https://www.infobae.com/resizer/v2/RHPCZMEM65CBLEXB7674346WIA.JPG?auth=170318f74c0eeddc8b9e9b0c9cd58a4a47a001bb72e188719a53c1f35fa56bc0&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d42f5dd7c5deb124690ebc09ded0bc1a72e75127de89b6d3f795cc58511767ea",
@@ -205,16 +216,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/cuidado-con-la-comida-de-mar-en-semana-santa-asi-refuerza-el-atlantico-la-vigilancia-sanitaria-en-la-temporada-de-mayor-consumo-del-ano-3543568",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/20/69bda9cce95b1.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Familia del profesor Neill Felipe Cubides pidió justicia contra capturados por su homicidio: “Tenemos temor de que queden en lbertad”",
-      "summary280": "La familia de Neill Felipe Cubides, profesor asesinado, exige justicia y medidas de aseguramiento para los cuatro capturados. Agradecen a las autoridades por las detenciones, pero expresan temor de que los implicados queden en libertad. Piden a la justicia que actúe con firmeza.",
-      "articleText": "27 Mar, 2026 Por Licsa Gómez La familia de Neill Felipe Cubides Ariza, profesor de la Universidad Externado de Colombia y asesor de la Procuraduría General de la Nación, solicitó a las autoridades judiciales que se garantice justicia en el proceso que avanza por su homicidio, en medio de las audiencias contra cuatro personas capturadas por estos hechos. A través de un comunicado público, los allegados del docente expresaron su posición frente al desarrollo del caso y las decisiones que deberán adoptarse en las próximas horas. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel El pronunciamiento se conoce en el contexto de la reanudación de las audiencias de imputación de cargos y solicitud de medida de aseguramiento contra los detenidos, programadas para el viernes 27 de marzo de 2026. El proceso judicial ocurre luego de que un juez de control de garantías avalara las capturas realizadas por las autoridades en Bogotá. En el comunicado, la familia Cubides Alfaro agradeció a la Fiscalía General de la Nación, a la Policía Nacional y a la ciudadanía por las acciones que permitieron la captura de los presuntos responsables. Sin embargo, enfatizó su preocupación por el desarrollo del proceso judicial. “Pedimos a los jueces y a la Fiscalía que se haga justicia, lo que debe empezar con la imposición de una medida de aseguramiento intramural a todas estas personas”, señalaron en el documento. Noticia en desarrollo...",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/27/familia-del-profesor-neill-felipe-cubides-pidio-justicia-contra-capturados-por-su-homicidio-tenemos-temor-de-que-queden-en-lbertad/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/MLHXNELDZVCPJJBML6DUJFXYPI.jpg?auth=ba6764b5499c39e6b9f28e6cc73d91d186f84df3a145e9ded77135acdcd04c07&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
