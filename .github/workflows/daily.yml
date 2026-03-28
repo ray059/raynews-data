@@ -46,7 +46,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          git add edition.json links.txt historical_editions.json edition_audio.mp3
+          git add edition.json links.txt historical_editions.json historical_30d.json historical_12m.json edition_audio.mp3
 
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
