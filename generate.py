@@ -72,6 +72,23 @@ def generate_audio_blocks(headlines, fecha_legible):
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
+from datetime import timedelta
+
+def clean_old_news(hist_data, days_limit):
+    now = datetime.now(ZoneInfo("America/Bogota"))
+    new_news = {}
+
+    for nid, item in hist_data["news"].items():
+        try:
+            first_seen = datetime.fromisoformat(item["first_seen"])
+            if now - first_seen <= timedelta(days=days_limit):
+                new_news[nid] = item
+        except:
+            # si hay error, lo mantenemos por seguridad
+            new_news[nid] = item
+
+    return {"news": new_news}
+
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
 
@@ -303,10 +320,18 @@ with open("edition_tmp.json", "w", encoding="utf-8") as f:
 
 os.replace("edition_tmp.json", EDITION_FILE)
 
+# 🔥 LIMPIEZA AUTOMÁTICA
+hist_30 = clean_old_news(hist_30, 30)
+hist_12 = clean_old_news(hist_12, 365)
+
 with open("historical_tmp.json", "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
 os.replace("historical_tmp.json", HIST_FILE)
+
+
+
+
 
 # 🔥 GUARDAR históricos nuevos
 
