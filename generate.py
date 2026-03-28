@@ -213,6 +213,19 @@ fecha_legible = f"{now.day:02d} de {MESES_ES[now.month]} de {now.year}"
 new_items = []
 per_source_new_counter = {}
 
+# 🔥 NUEVOS HISTÓRICOS
+HIST_30_FILE = "historical_30d.json"
+HIST_12_FILE = "historical_12m.json"
+
+def load_hist(file):
+    if os.path.exists(file):
+        with open(file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"news": {}}
+
+hist_30 = load_hist(HIST_30_FILE)
+hist_12 = load_hist(HIST_12_FILE)
+
 for line in lines:
 
     parts = line.strip().split("||")
@@ -252,19 +265,6 @@ for line in lines:
         "first_seen": now.isoformat()
     }
 
-    # 🔥 NUEVOS HISTÓRICOS
-    HIST_30_FILE = "historical_30d.json"
-    HIST_12_FILE = "historical_12m.json"
-    
-    def load_hist(file):
-        if os.path.exists(file):
-            with open(file, "r", encoding="utf-8") as f:
-                return json.load(f)
-        return {"news": {}}
-    
-    hist_30 = load_hist(HIST_30_FILE)
-    hist_12 = load_hist(HIST_12_FILE)
-    
     hist_30["news"][news_id] = historical["news"][news_id]
     hist_12["news"][news_id] = historical["news"][news_id]
 
