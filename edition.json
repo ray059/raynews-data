@@ -1,9 +1,20 @@
 {
   "api_version": 3,
   "edition_date": "28 de marzo de 2026",
-  "generated_at": "2026-03-28T00:54:44.689483-05:00",
+  "generated_at": "2026-03-28T01:55:10.700081-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "06ee287ef1a05de86fb814ba09456d480b47e90eac60c5dd55b8f58528789158",
+      "titleOriginal": "El OIEA instó a la “moderación militar” para evitar cualquier riesgo de accidentes nucleares en plena escalada en Medio Oriente",
+      "summary280": "El OIEA, liderado por Rafael Grossi, instó a la \"moderación militar\" tras ataques israelíes a instalaciones nucleares en Irán, sin registrar aumento de radiación.",
+      "articleText": "28 Mar, 2026 El Organismo Internacional para la Energía Atómica (OIEA), dirigido por Rafael Grossi, informó este viernes que no se registró un aumento en los niveles de radiación tras la ofensiva de Israel contra la planta de producción de óxido de uranio concentrado, conocida como “torta amarilla”, ubicada en la provincia iraní de Yazd. “Irán informó al OIEA que la planta de producción de óxido de uranio concentrado Shahid Rezayee Nejad, ubicada en la provincia de Yazd (también conocida como Ardakan), ha sido atacada hoy. No se ha informado de un aumento en los niveles de radiación fuera de las instalaciones”, señaló el organismo en un mensaje en redes sociales. El director general, Rafael Grossi, reiteró su llamado a la “moderación militar” para evitar cualquier riesgo de accidente nuclear. El OIEA indicó que ya está investigando el incidente. El ataque contra la planta de óxido de uranio en Yazd ocurrió horas después de que el Ejército israelí bombardeó una planta de agua pesada en la provincia iraní de Arak y dos fábricas de acero en el suroeste del país. Poco después, la Organización de Energía Atómica del régimen iraní denunció la “inacción” del organismo presidido por Grossi ante estos ataques. “Resulta sorprendente la inacción de los organismos internacionales, en especial del Organismo Internacional para la Energía Atómica, ante estos ataques barbáricos”, criticó el organismo de la república islámica un comunicado difundido por la agencia iraní Tasnim. Teherán informó sobre otro bombardeo al complejo de procesamiento de agua pesada de Jondab, donde tampoco se detectó un aumento de la radiación fuera de las instalaciones. Por su parte, el Ejército de Israel comunicó que su fuerza aérea atacó una planta de extracción de uranio ubicada en la misma provincia, en el centro de Irán, aunque la descripción israelí no coincide con la de las instalaciones atacadas, según las autoridades del régimen iraní. “Como parte de la ofensiva contra el programa nuclear del régimen terrorista iraní: Las Fuerzas de Defensa de Israel (FDI) atacaron una instalación única en Irán utilizada para la producción de materias primas necesarias para el enriquecimiento de uranio”, señala el comunicado de las FDI. Las FDI afirmaron que se trata de la única instalación de este tipo en todo Irán y que, con este ataque, se priva al régimen de “la materia prima necesaria para estos procesos y debilita aún más su programa de armas nucleares”. El dirigente regional iraní, Hasan Qamari, consideró que estos ataques reflejan “la desesperación” de los adversarios ante los avances científicos e industriales de la república islámica y aseguró que no afectarán al desarrollo de las actividades nucleares e industriales de Irán. No es la primera vez que ataques israelí-estadounidenses alcanzan centros nucleares de Irán en el conflicto iniciado el 28 de febrero. La planta nuclear de Natanz ya fue golpeada en dos ocasiones durante la guerra, a lo que Irán respondió con el lanzamiento de misiles y drones contra la ciudad israelí de Dimona, muy cerca de instalaciones nucleares. En la madrugada del viernes, la aviación israelí bombardeó posiciones para la producción de misiles balísticos en Teherán y Yazd, así como lanzaderas y almacenes en el oeste de Irán, según un comunicado difundido este viernes por el Ejército israelí. “Las FDI atacaron lugares e infraestructuras utilizadas por el régimen terrorista iraní para producir armas, principalmente misiles balísticos”, señala el comunicado. En el oeste de Irán, la Fuerza Aérea israelí, actuando bajo inteligencia militar, atacó varios objetivos relacionados con la potencia de fuego del régimen iraní, entre ellos lanzaderas y lugares de almacenamiento de misiles. Además de los ataques en Teherán, el Ejército de Israel anunció haber atacado la “principal instalación para la producción de misiles y minas” operada por el régimen iraní en la ciudad de Yazd. (Con información de EFE)",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/mundo/2026/03/28/el-oiea-insto-a-la-moderacion-militar-para-evitar-cualquier-riesgo-de-accidentes-nucleares-en-plena-escalada-en-medio-oriente/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/G6YQDZ73IZFIVF57TJQCY3PBHQ.jpg?auth=94159b934437fbae88a2b419559f803c182c74b399865c2d08d3b51b42635510&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "c9e9e22145700651cdd5efc56df4b479416240514c390aa185b4374b33ec878d",
       "titleOriginal": "La alternativa natural a los suplementos proteicos: su presencia en la dieta, favorece el mantenimiento de la musculatura",
@@ -13,7 +24,7 @@
       "sourceUrl": "https://www.infobae.com/salud/ciencia/2026/03/28/la-alternativa-natural-a-los-suplementos-proteicos-su-presencia-en-la-dieta-favorece-el-mantenimiento-de-la-musculatura/",
       "imageUrl": "https://www.infobae.com/resizer/v2/ASTMQLPCY5DAPI3WUSWTFRIWC4.png?auth=64112ee8c343bd71087a4252da73d4d2948c0abab6a93173af1e4c196a242509&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7e9258094470da2556833fa4227d06699d3710df5798012a742f81dd9285de1c",
@@ -24,7 +35,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/de-rodillas-exmilitar-pidio-perdon-a-la-familia-de-john-dario-giraldo-quintero-y-asumio-su-responsabilidad-ante-la-jep-por-su-ejecucion-en-antioquia-3543662",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/27/69c75825ccad5.r_d.960-540-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b039bdfaee36bae17b8ce3785ebcec7445e123939751fbc0a3faf0cf7a486386",
@@ -200,16 +211,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/2026/03/27/acusan-a-kiko-rivera-de-utilizar-la-ia-para-crear-las-canciones-que-dedica-a-isabel-pantoja-y-su-novia-lola-su-voz-y-su-forma-de-cantar-no-es-esa/",
       "imageUrl": "https://www.infobae.com/resizer/v2/3Y7HEEUYIJG4JCSMMD6BYP2YSI.png?auth=d92d9c0bcd807a7845555835ca9c99a8a80560de74ecaa7c4e9b51b7b246f347&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "titleOriginal": "Cuatro niños de una familia murieron por padecer la enfermedad 'burbuja': mamá pide remisión para salvar la vida de su bebé y no repetir la historia",
-      "summary280": "Cuatro niños de una familia fallecieron por la enfermedad 'burbuja'. La madre solicita remisión médica urgente para su bebé, con la esperanza de evitar que se repita esta trágica historia. Su lucha refleja la necesidad de atención médica adecuada para estos casos.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Noticia Fachadas de puestos de atención de Nueva EPS en Bogotá. Foto: César Melgarejo/ El Tiempo @melgarejocesarnew Melissa Múnera Zambrano PERIODISTA27.03.2026 13:33 Actualizado: 27.03.2026 13:34 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Clínica Foscal Foto:Archivo particular La pequeña tenía siete meses. Foto:iStock Nueva EPS. Foto:Luis Lizarazo García La reunión de este viernes arrancó Foto: Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/santander/cuatro-ninos-de-una-familia-murieron-por-padecer-la-enfermedad-burbuja-mama-pide-remision-para-salvar-la-vida-de-su-bebe-y-no-repetir-la-historia-3543541",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/07/24/68826382eaaac.r_d.2572-494-0.jpeg",
       "type": "explainer",
       "isNew": false
     }
