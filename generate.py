@@ -252,6 +252,22 @@ for line in lines:
         "first_seen": now.isoformat()
     }
 
+    # 🔥 NUEVOS HISTÓRICOS
+    HIST_30_FILE = "historical_30d.json"
+    HIST_12_FILE = "historical_12m.json"
+    
+    def load_hist(file):
+        if os.path.exists(file):
+            with open(file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return {"news": {}}
+    
+    hist_30 = load_hist(HIST_30_FILE)
+    hist_12 = load_hist(HIST_12_FILE)
+    
+    hist_30["news"][news_id] = historical["news"][news_id]
+    hist_12["news"][news_id] = historical["news"][news_id]
+
     if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
         continue
 
@@ -291,6 +307,18 @@ with open("historical_tmp.json", "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
 os.replace("historical_tmp.json", HIST_FILE)
+
+# 🔥 GUARDAR históricos nuevos
+
+with open("historical_30_tmp.json", "w", encoding="utf-8") as f:
+    json.dump(hist_30, f, indent=2, ensure_ascii=False)
+
+os.replace("historical_30_tmp.json", "historical_30d.json")
+
+with open("historical_12_tmp.json", "w", encoding="utf-8") as f:
+    json.dump(hist_12, f, indent=2, ensure_ascii=False)
+
+os.replace("historical_12_tmp.json", "historical_12m.json")
 
 if new_items:
     generate_audio_blocks(new_items, fecha_legible)
