@@ -256,6 +256,7 @@ for line in lines:
         continue
 
     new_items.append({
+        "id": news_id,  # 👈 AGREGA ESTA LÍNEA
         "titleOriginal": title,
         "summary280": summary,
         "articleText": article_text,
