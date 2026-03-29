@@ -1,9 +1,20 @@
 {
   "api_version": 3,
   "edition_date": "29 de marzo de 2026",
-  "generated_at": "2026-03-29T05:29:33.456737-05:00",
+  "generated_at": "2026-03-29T06:26:00.950566-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "3106df85f894803625086d8d32f51acccf74c9346af44647b62799cd2a0f7303",
+      "titleOriginal": "¿Información sobre tu viaje? Revisa los vuelos cancelados y demorados en el AICM",
+      "summary280": "El AICM informa sobre el estado de los vuelos, incluyendo cancelaciones y demoras. Los pasajeros tienen derechos ante retrasos, como descuentos o indemnizaciones. La Profeco está disponible para ayudar con irregularidades.",
+      "articleText": "29 Mar, 2026 Por Infobae Noticias A tiempo, despegado, demorado y cancelado, son los estados de cada uno de los vuelos en el Aeropuerto Internacional Benito Juárez de la Ciudad de México (AICM). Al ser uno de los más grandes de Latinoamérica y el más importante del país, el aeropuerto da a conocer el estatus en en vivo de sus operaciones. Aquí están los vuelos que fueron cancelados y que se encuentran demorados en el aeropuerto capitalino al corte del 5:00 horas del 29 de marzo. Vuelo: UA1085 Destino: Houston Aerolínea: United Airlines Hora: 04:45 Estatus: Demorado Si quieres revisar el estado del resto de las operaciones del AICM, puedes hacerlo en tiempo real a la siguiente página oficial https://www.aicm.com.mx/vuelos y buscar por número de vuelo, aerolínea o ciudad de llegada o destino. Ante un caso de vuelo cancelado o demorado, los usuarios cuentan con una serie de derechos mínimos que deben ser respetados por todas las aerolíneas que operan en territorio nacional, así lo señala la Procuraduría Federal del Consumidor (Profeco). Si tu vuelo fue retrasado por más de una hora, pero menor a cuatro horas, la aerolínea debe proporcionar como mínimo descuentos para vuelos posteriores hacia el mismo destino y/o alimentos o bebidas. En el caso que el vuelo se haya demorado por más de dos horas, pero menos de cuatro horas, el descuento que te ofrezca la aerolínea no debe estar por debajo del 7.5% del valor del boleto. Sin embargo, si tu vuelo registra más de cuatro horas de retraso o fue cancelado, la aerolínea debe ofrecerte alguna de las siguientes opciones: El reintegro del precio del boleto, más una indemnización que no puede ser menor al 25% del valor del vuelo. Un lugar en el primer vuelo disponible, alimentos y, en su caso, alojamiento y transporte terrestre desde y hacia el aeropuerto. Un boleto para el mismo destino en una fecha posterior, más una indemnización que no puede ser inferior al 25% del precio del boleto. Cabe mencionar que estas son las obligaciones mínimas de las aerolíneas, sin embargo, cada una de estas tiene sus propias indemnizaciones que debes consultar según sea el caso. La Profeco se encuentra presente en cada aeropuerto, incluido en el AICM. Acércate a ellos en caso de que necesites información alguna irregularidad sobre tu vuelo y la aerolínea. Visita nuestra página en Google News",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/mexico/2026/03/29/informacion-sobre-tu-viaje-revisa-los-vuelos-cancelados-y-demorados-en-el-aicm/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/CMVDXZ7HBNDMZAW7GUGISD32D4.jpg?auth=fd780efd04da6bc6657766960a77be0fdc35bc06a966a2e995d067f0537c0450&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "14ec463426bde94ca13b85161ac80c3bcc50a4ae06fcdfcd976ec00228c7f80f",
       "titleOriginal": "Alerta por tormentas en la provincia de Buenos Aires: hasta cuándo durarán las lluvias",
@@ -13,7 +24,7 @@
       "sourceUrl": "https://www.infobae.com/sociedad/2026/03/29/alerta-por-fuertes-tormentas-en-la-provincia-de-buenos-aires-como-estara-el-tiempo-el-resto-de-la-semana-y-que-se-espera-para-semana-santa/",
       "imageUrl": "https://www.infobae.com/resizer/v2/ISLCTI6K25FW7GKR6N2W7PAZLA.png?auth=10c75eeef061fec065c5a7c5627f669f2e32997830a51ba24126ee4c8387d7b5&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "33cb17e19764f20c6ae7f3687355697db72fb871f8ea000b822bdaab238c6316",
@@ -24,7 +35,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cz0gd9lv9lyo?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/4305/live/4c54b210-0e69-11f1-9f23-b3f349b149c7.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ee3fe08f9286d2363b08f97acc4293b819a5cf4d4e1ea056cc4ccb598081a480",
@@ -210,17 +221,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/cali/captan-en-video-a-presuntos-militantes-de-las-disidencias-de-las-farc-con-lanzamisiles-en-jamundi-valle-del-cauca-estarian-realizando-entrenamientos-3543734",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/28/69c81ec9bb15f.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "id": "00649c0c3ae9b9bc5607537570810253642c883b49c784b777d6a907e39d5d9d",
-      "titleOriginal": "Revelan nuevos videos de ataques con piedras de presuntos colados a vigilantes en estación de Transmilenio",
-      "summary280": "Un grupo de presuntos colados agredió a vigilantes en la estación Calle 22 de Transmilenio, Bogotá, al intentar evadir el pago del pasaje, dejando un herido y un capturado.",
-      "articleText": "28 Mar, 2026 Por Santiago Cifuentes Quintero Un nuevo episodio de violencia e intolerancia sacudió la estación Calle 22 de Transmilenio, en el centro de Bogotá, el pasado 28 de marzo de 2026. Según los reportes de la empresa y de la Policía Metropolitana, un grupo de presuntos colados agredió al personal de vigilancia con piedras y objetos contundentes al intentar evadir el pago del pasaje. El incidente quedó registrado en varios videos, que se difundieron rápidamente en redes sociales, generando indignación y preocupación por la seguridad en el sistema de transporte público. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel En el ataque, uno de los vigilantes resultó herido, mientras que uno de los agresores fue capturado por la policía y trasladado a una Unidad de Reacción Inmediata (URI). Transmilenio S.A. confirmó que se trató de un hecho que hace parte de un patrón de agresiones que, en los primeros tres meses de 2026, ya había dejado un registro de 77 ataques a personal de vigilancia. La entidad calificó el episodio como “un acto de violencia que no puede normalizarse” y reiteró su compromiso de fortalecer los protocolos de seguridad para proteger tanto a los trabajadores como a los pasajeros. El video del ataque muestra cómo los presuntos colados recogen piedras y hostigan a los vigilantes mientras intentan ingresar al sistema sin pagar. Los disturbios ocurrieron en la troncal de la avenida Caracas, una de las zonas con mayor complejidad en materia de seguridad en Bogotá, según señalan autoridades y medios de comunicación. El material audiovisual ha generado un debate sobre la tolerancia de los usuarios frente a las normas de pago y sobre la capacidad de las autoridades para garantizar el orden dentro del sistema. Más allá de la violencia física, la evasión del pasaje representa un grave problema económico para Transmilenio. Durante 2025, se estimó que el 13 % de los viajes se realizaron sin pago, lo que implica que más de uno de cada diez usuarios no contribuyó a la financiación del sistema. Las pérdidas económicas de ese año superaron los COP 265.000 millones, una cifra que refleja un incremento frente a los COP 262.000 millones reportados en 2024, cuando la evasión diaria alcanzaba un promedio de COP 719 millones. Las cifras muestran que, diariamente, hasta 262.000 personas intentan ingresar a Transmilenio sin pagar, lo que compromete tanto la sostenibilidad financiera del sistema como la calidad del servicio para quienes cumplen con sus obligaciones. Según voceros ante el Concejo de Bogotá, la evasión también genera un impacto indirecto en la seguridad, ya que incrementa las tensiones entre usuarios y personal operativo, contribuyendo a la proliferación de episodios violentos. Frente a estos hechos, Transmilenio S.A. repudió el ataque y reafirmó su compromiso de proteger a los más de cuatro millones de pasajeros y empleados que diariamente utilizan el sistema. En un comunicado citado por Pulzo, la empresa enfatizó: “Nuestro personal operativo cumple un rol esencial para el funcionamiento del transporte público en Bogotá” y llamó a la ciudadanía a respetar las normas y a evitar conductas violentas. La institución también señaló que trabaja de manera conjunta con la Policía Metropolitana de Bogotá para esclarecer los hechos y aplicar todas las medidas legales necesarias contra los responsables. Entre las estrategias implementadas se incluyen controles más estrictos en puntos críticos, acompañamiento policial durante los turnos de mayor congestión y campañas de concientización sobre el respeto al pago de pasajes y la convivencia ciudadana. Este episodio se suma a una serie de casos recientes que evidencian un aumento de la violencia y la intolerancia en el sistema de buses de Bogotá. En semanas anteriores, se registraron ataques similares, tanto contra vigilantes como entre usuarios, lo que ha generado un debate sobre la necesidad de reforzar la seguridad y de promover la cultura del pago dentro de uno de",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/28/revelan-nuevos-videos-de-ataques-con-piedras-de-presuntos-colados-a-vigilantes-en-estacion-de-transmilenio/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/74TEK43IOZHCZM7LUXWWSFBPP4.png?auth=cdd48c72c448bba0541ba9450861b820ed8c379e9105f4b009244da5e7ffea5b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
