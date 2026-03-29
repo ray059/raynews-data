@@ -1,9 +1,20 @@
 {
   "api_version": 3,
   "edition_date": "29 de marzo de 2026",
-  "generated_at": "2026-03-29T00:08:29.837806-05:00",
+  "generated_at": "2026-03-29T01:59:19.728693-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "0ee5c0eeb6e3e60b0f88e064fd53782af07606dabb83f30480b81b07ddbfa11e",
+      "titleOriginal": "La Embajada de Israel en Japón rechaza documento de supervivientes de la bomba atómica contra los ataques a Irán",
+      "summary280": "La Embajada de Israel en Japón devolvió sin abrir un documento de supervivientes de la bomba atómica que pedía el cese de hostilidades en Oriente Próximo.",
+      "articleText": "29 Mar, 2026 Por Newsroom Infobae El presidente del Consejo de Supervivientes de la Bomba Atómica en Nagasaki, Shigemitsu Tanaka, de 85 años, expresó su rechazo ante el hecho de que la Embajada de Israel en Japón haya devuelto, sin abrir, una declaración en la que varios grupos de afectados exigían el cese inmediato de las hostilidades en Oriente Próximo. Según detalló la agencia japonesa de noticias Kyodo, los colectivos firmantes del documento buscaban comunicar una postura crítica hacia los recientes ataques israelíes y estadounidenses sobre territorio iraní. De acuerdo con Kyodo, la devolución del escrito se produjo a través de la oficina postal, que informó a los remitentes que la legación diplomática israelí “se niega a aceptarlo”. El Consejo de Supervivientes de la Bomba Atómica en Nagasaki remarcó que la declaración ni siquiera fue leída por los representantes de la Embajada antes de ser rechazada. “El documento ha sido devuelto sin siquiera ser leído. Creo que se están volviendo intolerantes”, declaró Tanaka, quien lidera la organización que aglutina a los afectados por la detonación nuclear estadounidense sobre Nagasaki en 1945. Diversos grupos de supervivientes de la bomba atómica de Hiroshima y Nagasaki, entre ellos el citado consejo y otras tres agrupaciones, habían hecho pública a comienzo de marzo una declaración conjunta en la que pedían el cese de los ataques en territorio iraní por parte de Estados Unidos e Israel. Tal como consignó Kyodo, después de la difusión pública del comunicado, los grupos remitieron el documento formal a las embajadas de los países involucrados en el conflicto, con la intención de registrar su oposición a la escalada militar y el incremento de la violencia en Oriente Próximo. El comunicado elaborado por estos colectivos exige un “alto el fuego inmediato” en la región, subrayando, según publicó la agencia Kyodo, la preocupación histórica de los afectados por armas nucleares ante cualquier despliegue militar que pueda derivar en nuevas tragedias humanitarias. Los supervivientes, conocidos en Japón como hibakusha, han mantenido históricamente una postura activa en el rechazo a la guerra y en la defensa del desarme global. A la iniciativa se sumó la asociación Nihon Hidankyo, organización que en 2024 fue galardonada con el Premio Nobel de la Paz. Según mencionó Kyodo, ese colectivo también hizo llegar una petición formal solicitando el cese de las hostilidades en Oriente Próximo. Nihon Hidankyo argumentó que tanto las acciones estadounidenses como israelíes “ignoran el Derecho Internacional”, posicionándose así en favor de la necesidad de diálogo diplomático y el respeto a las leyes internacionales humanitarias. Los supervivientes de los ataques de Hiroshima y Nagasaki han tenido un rol preponderante en la concienciación sobre las secuelas del uso de armamento de destrucción masiva, por lo que hechos como el rechazo diplomático a sus mensajes adquieren relevancia en el contexto de su tradicional papel como activistas por la paz. El caso reportado por Kyodo implica no solo la devolución de un documento sin ser revisado, sino también una señal respecto de la apertura –o ausencia de ella– por parte de algunas representaciones oficiales a la participación ciudadana y la crítica internacional en el actual escenario de tensiones militares en la región. El episodio plantea adicionalmente el alcance de la participación de los hibakusha en los debates contemporáneos sobre conflictos y la vigencia de su testimonio en foros internacionales, especialmente cuando sus iniciativas se encuentran con respuestas oficiales que limitan el acceso a interlocución directa con las partes responsables de las acciones armadas.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/29/la-embajada-de-israel-en-japon-rechaza-documento-de-supervivientes-de-la-bomba-atomica-contra-los-ataques-a-iran/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/ZNSCENLTWRE2FNC7U4DDJYVWSM.jpg?auth=c3c196a4acc7ee2cd2b69c2ba8c27579acffdae213b8804c5ff979e5ba5c092d&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "04f4d82ea9af7fd6006a59fbaceba0e86f425494cca49f8cc4d77bd3a8377e06",
       "titleOriginal": "El caso de la nena de dos años hallada en Córdoba: la Justicia investiga los teléfonos de la familia",
@@ -13,7 +24,7 @@
       "sourceUrl": "https://www.infobae.com/sociedad/policiales/2026/03/29/el-caso-de-la-nena-de-dos-anos-hallada-en-cordoba-la-justicia-investiga-los-telefonos-de-la-familia/",
       "imageUrl": "https://www.infobae.com/resizer/v2/JREUZYFPY5AVBP4YJORJVH7XLA.jpg?auth=fdcec93c38141dc9562a002f01e041826d40798c1a2554abe7484dba7f752c70&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "67a9a7f57a9934ff12a384543fd3cfe3dec2d8079600ab71c0aee089ca6acb1c",
@@ -24,7 +35,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/cr71ev7xe0do?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/6303/live/7e9a28e0-29f3-11f1-b297-95b0a0a8331e.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "97995803dc9b58001f36a86fcb700ea98c7b147efb0e3bb490e69438102088b6",
@@ -35,7 +46,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/bandido-camuflado-de-derechos-humanos-dura-respuesta-de-alvaro-uribe-a-ivan-cepeda-tras-senalamientos-en-discurso-en-antioquia-3543798",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/28/69c884528900c.r_d.600-337-0.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0d2f7e2bdb1bb99ddb38199a9b1c756f827cb1087d5d8f45364f87ddae55da6e",
@@ -210,17 +221,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/28/eddie-fleischman-lanzo-dura-critica-a-defensa-de-peru-tras-golazo-de-senegal-alfonso-barco-y-marcos-lopez-superados/",
       "imageUrl": "https://www.infobae.com/resizer/v2/SIEIIL24LRDC3IEFXS62QBSCXE.jpg?auth=fa3c617cf65976431a158879354764ff386a48fb584fa6e10a0694846dcdaa9a&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "id": "8424b124477a09a3d0d757446243fd6090b3fd1cada58a9bc15ccea55ba01074",
-      "titleOriginal": "Autoridades confirman el hallazgo del auxiliar de American Airlines desaparecido en Medellín: el cuerpo fue encontrado en Jericó tras días de búsqueda",
-      "summary280": "Las autoridades confirmaron el hallazgo del cuerpo de Eric Fernando Gutiérrez Molina, auxiliar de American Airlines, desaparecido en Medellín. Su cuerpo fue encontrado en Jericó tras varios días de búsqueda y ahora se encuentra en Medicina Legal en Medellín.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Noticia Eric Fernando Gutiérrez Molina desapareció en Medellín. Foto: Tomadas de redes sociales. Nicolás Tamayo Escalante PERIODISTA DE MEDELLÍN28.03.2026 12:01 Actualizado: 28.03.2026 12:24 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar LEA TAMBIÉN Nicolás Tamayo Escalante Eric Fernando Gutiérrez Molina Foto:Eric Fernando Gutiérrez Molina El cuerpo de Gutiérrez fue hallado en la cañada del Río Piedras en jurisdicción de Puente Iglesias. Foto:Oriente Antioqueño. El cuerpo de Gutiérrez permanece en la sede de Medicina Legal en Medellín. Foto:Medicina Legal. LEA TAMBIÉN Nicolás Tamayo Escalante Eric Fernando Gutiérrez Molina. Foto:Redes sociales MinJusticia pidió perdón por caso Jineth Bedoya. Foto: Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/medellin/autoridades-confirmaron-que-el-cuerpo-encontrado-en-jerico-corresponde-al-del-auxiliar-de-vuelo-de-american-airlines-desaparecido-en-medellin-3543722",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/27/69c6e030d55af.r_d.983-82-0.png",
       "type": "explainer",
       "isNew": false
     }
