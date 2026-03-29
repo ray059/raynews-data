@@ -1,9 +1,20 @@
 {
   "api_version": 3,
   "edition_date": "29 de marzo de 2026",
-  "generated_at": "2026-03-29T01:59:19.728693-05:00",
+  "generated_at": "2026-03-29T02:54:46.565109-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "001716f8e96cadc22fea682bae8aa4584e8af435a4fe97ba65a14364dd4e7b1a",
+      "titleOriginal": "La ONU constata 1.300 muertos en ejecuciones sumarias durante los últimos cinco meses de conflictos en RDC",
+      "summary280": "La ONU reporta 1.300 muertos en ejecuciones sumarias en los últimos cinco meses en el este de República del Congo, donde el conflicto entre el Ejército y el M23 ha dejado miles de desaparecidos y víctimas de violencia sexual. La represión contra opositores también ha aumentado.",
+      "articleText": "29 Mar, 2026 Por Newsroom Infobae Naciones Unidas ha descrito esta semana un panorama desolador sobre los varios conflictos que azotan el este de República del Congo, donde el principal enfrentamiento entre el Ejército y las milicias del M23 en la región de Kivu ensombrece la actuación de otros grupos armados en provincias vecinas como Ituri, y que dejan saldos como 1.300 muertos en ejecuciones sumarias o casi 1.500 desaparecidos en los últimos cinco meses. La Alta Comisionada Adjunta para los Derechos Humanos de la ONU, Nada Al Nashif, ha informado de que su oficina ha documentado en los últimos cinco meses unos 600 episodios de ejecuciones sumarias en grupo y otros 1.200 casos de violencia física, \"incluyendo tortura, violación y otros tratos inhumanos\". El uso de la violación como arma de guerra va en aumento: durante el periodo estudiado, la ONU tiene constancia de 450 víctimas de violencia sexual y de género, en plena \"escalada de la violencia sexual contra la infancia\". En lo que a culpables se refiere, la ONU apunta a tres principales: el M23, las milicias gubernamentales conocidas como los wazalendos que se enfrentan a ellos, y las Fuerzas Democráticas Aliadas (ADF), vinculadas a Estado Islámico. Este grupo armado, que durante años ha aterrorizado a la población de Ituri, ha consolidado desde finales de año la expansión de sus operaciones a Kivu Norte o Tshopo, dejando a su paso un saldo de más de 260 asesinatos, miles de desplazados y la creación de una red de esclavismo sexual, con las menores como víctimas preferentes. Sin embargo, Naciones Unidas también señala a las fuerzas de seguridad del Gobierno congoleño, a las que atribuye más de una cuarta parte de las violaciones de los Derechos Humanos que ha documentado, y uno de cada tres casos de violencia sexual. Las huellas del conflicto entre el M23 y el Ejército congoleño se ven cada vez que los bandos en conflicto cambian posiciones. Tras la retirada a principios de año del M23 de la estratégica ciudad de Uvira, en Kivu Sur, los equipos de la ONU han encontrado varias fosas comunes en la zona que podrían albergar más de 200 cadáveres. REDUCCIÓN DEL ESPACIO CÍVICO Todos los esfuerzos internacionales para detener el conflicto y el espacio cívico en el país se está reduciendo cada vez más conforme el presidente congoleño, Félix Tshishekedi, aumenta la presión contra activistas y opositores. \"Periodistas, defensores de los derechos humanos y miembros de la oposición política se enfrentan a la intimidación, el acoso y la detención arbitraria\", ha lamentado la Alta Comisionada Adjunta. \"Entre octubre y febrero del año pasado, 42 miembros de la oposición fueron arrestados por expresar sus opiniones. Se desconoce el paradero de algunos, lo que podría constituir una desaparición forzada\", ha indicado. Además, desde octubre, el Consejo Nacional de Ciberdefensa \"ha detenido arbitrariamente a 82 personas, principalmente opositores políticos, profesionales de los medios de comunicación y defensores de los derechos humanos\", de los cuales \"muchos permanecen incomunicados en lugares no oficiales, incluyendo domicilios particulares, y se les niega el acceso a asistencia legal, en medio de casos documentados de tortura y otros malos tratos\".",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/29/la-onu-constata-1300-muertos-en-ejecuciones-sumarias-durante-los-ultimos-cinco-meses-de-conflictos-en-rdc/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/2X5SFCAYLRAGZEFRCP74AEFZDI.jpg?auth=af2d15f7278d8b5aac058689adc6a56b9e6186dcc989fab9d9dcecdd8c0bb4cf&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "0ee5c0eeb6e3e60b0f88e064fd53782af07606dabb83f30480b81b07ddbfa11e",
       "titleOriginal": "La Embajada de Israel en Japón rechaza documento de supervivientes de la bomba atómica contra los ataques a Irán",
@@ -13,7 +24,7 @@
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/29/la-embajada-de-israel-en-japon-rechaza-documento-de-supervivientes-de-la-bomba-atomica-contra-los-ataques-a-iran/",
       "imageUrl": "https://www.infobae.com/resizer/v2/ZNSCENLTWRE2FNC7U4DDJYVWSM.jpg?auth=c3c196a4acc7ee2cd2b69c2ba8c27579acffdae213b8804c5ff979e5ba5c092d&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "04f4d82ea9af7fd6006a59fbaceba0e86f425494cca49f8cc4d77bd3a8377e06",
@@ -210,17 +221,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/economia/2026/03/28/carne-los-productores-ganaderos-disfrutan-su-mejor-momento-en-los-ultimos-15-anos/",
       "imageUrl": "https://www.infobae.com/resizer/v2/TV3D5PTAMFAFLP3CYIQUB4UBSE.jpg?auth=c2ce3c4d94ab85607288298f22daf37996afdcfb02840967bfe4be4239c8e028&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "id": "f276afd524b7d5f96ed28cea76b006fe79c6fc38b1905ec66af5649560e1424b",
-      "titleOriginal": "Eddie Fleischman lanzó dura crítica a defensa de Perú tras golazo de Senegal: “Alfonso Barco y Marcos López superados”",
-      "summary280": "Eddie Fleischman criticó la defensa de Perú tras el gol de Senegal en un amistoso, destacando la superioridad del equipo africano y la falta de efectividad de la 'blanquirroja'. Perú solo logró dos disparos al arco y se prepara para enfrentar a Honduras en su próximo partido.",
-      "articleText": "28 Mar, 2026 Por Grace Nole Alcántara La ‘Era Menezes’ arrancó en la selección peruana tras enfrentar a Senegal en París por la fecha FIFA. A pesar de que la ‘blanquirroja’ intentó adueñarse del partido no pudo sacar ventaja y un error en la defensa terminó en golazo de Ibrahim Mbaye para el 1-0. El delantero senegalés aprovechó su velocidad y batió el arco de Pedro Gallese. Eddie Fleischman analizó el primer tiempo de la ‘bicolor’ y puntualizó la equivocación que tuvo la primera línea. El periodista deportivo reconoció superioridad del campeón africano y apuntó que el combinado nacional solo tuvo dos disparos al arco en la primera mitad del amistoso. “PT SEN 1 PER 0: Superior Senegal también en el juego. Desborde veloz de Mbaye, superados Alfonso Barco y Marcos López, centro paralelo al gol y Jackson anotó en 42’. Perú tuvo orden defensivo, intentó jugar, no pudo más que un par de asociaciones y remates de Jairo Vélez y Erick Noriega. Por ahora: intenciones”, apuntó el comunicador en sus redes sociales. El segundo encuentro de Mano Menezes al frente de la selección será ante Honduras este martes 31 de marzo, con el estadio Municipal de Butarque en Madrid como escenario. La programación contempla el inicio del partido a las 13:00 horas en Perú, Colombia y Ecuador, mientras que en Bolivia el pitazo inicial será a las 14:00. Para los seguidores en Argentina, Brasil, Uruguay, Paraguay y Chile, la transmisión comenzará a las 15:00 horas, adaptando el horario para facilitar la audiencia en Sudamérica. Esta decisión apunta a que la mayor parte de los aficionados pueda acompañar en directo lo que será el primer gran examen del equipo renovado bajo el mando del técnico brasileño.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/peru/deportes/2026/03/28/eddie-fleischman-lanzo-dura-critica-a-defensa-de-peru-tras-golazo-de-senegal-alfonso-barco-y-marcos-lopez-superados/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/SIEIIL24LRDC3IEFXS62QBSCXE.jpg?auth=fa3c617cf65976431a158879354764ff386a48fb584fa6e10a0694846dcdaa9a&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
