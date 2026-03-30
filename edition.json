@@ -1,9 +1,20 @@
 {
   "api_version": 3,
   "edition_date": "30 de marzo de 2026",
-  "generated_at": "2026-03-30T17:31:55.498824-05:00",
+  "generated_at": "2026-03-30T18:31:59.903679-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "eb98ad2143a0b4a42f739b07a5ed18f1c584c7bcdf782a42155d1f1db11a6615",
+      "titleOriginal": "El vallenato despide a uno de sus referentes: reconocido acordeonero murió de un infarto en Bolívar",
+      "summary280": "El acordeonero José Luis Zuluaga de León, conocido como Joche Zuluaga, falleció de un infarto en Mompox, Bolívar. Reconocido por su éxito en el vallenato y su labor como maestro, dejó un legado en la enseñanza musical y en la cultura local.",
+      "articleText": "30 Mar, 2026 Por Jenny Alejandra Bustos Granados El acordeonero José Luis Zuluaga de León, conocido entre los amantes del género vallenato como Joche Zuluaga, murió durante la jornada del lunes 30 de marzo de 2026 en Mompox, Bolívar, a causa de un infarto, según confirmaron sus familiares a las autoridades de su pueblo. Su trayectoria estuvo marcada por el éxito del tema La dueña de mi suerte, grabado junto al cantante Ramiro Padilla y compuesto por Tico Mercado, reconocido por sus versos: “Y ella me da el alma solo con un beso, con una mirada me gobierna el cuerpo, me toma en sus brazos y en solo un abrazo hace que hasta se me olvide el mundo. Le digo te quiero, y ella lo repite, le digo te amo, y me da un pechiche. Tan enamorado, me tiene en sus manos con las cosas linda que me dice”. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel La Alcaldía Municipal de Santa Cruz de Mompox lamentó el fallecimiento mediante un comunicado, en el que reconoció el aporte de Zuluaga al preservar y difundir las tradiciones vallenatas en el distrito. En el mensaje, la entidad resaltó: “Su pasión por el vallenato y compromiso con la formación de nuevas generaciones dejan una huella imborrable en la cultura de nuestro distrito. Joche no solo fue un artista, sino también un maestro que sembró amor por el acordeón en muchos jóvenes de Mompox en el programa que se promovió desde la Secretaría de Turismo y Cultura de esta administración”. Durante los últimos años, Zuluaga se dedicó a la enseñanza del acordeón para niños en su municipio natal, consolidándose como referente en la formación artística local, lo que fue ampliamente valorado por la comunidad, teniendo en cuenta que buscaba preservar entre los más jóvenes el amor por el arte y por las raíces de su tierra, por lo que no solo los mayores recuerdan su trayectoria, sino los más pequeños que aún escuchan a su acordeón resonar en las emisoras locales y plataformas digitales de los locales. Además de su colaboración con Padilla, el músico es recordado porque grabó junto a Berna Escobar temas de renombre como Vivo contento y El hombre con dos mujeres, canciones que aún se escuchan en el territorio nacional y que demuestran que tuvo una amplia carrera vinculada al folclor vallenato desde la juventud. Fanáticos y colegas demostraron su tristeza en redes sociales tras la noticia, entre ellos el acordeonero Gónzalo Arturo Molina, conocido como El Cocha, que destacó la calidad humana de Zuluaga y su cercanía con la comunidad de Mompox. Entre los comentarios de despedida se encuentran algunos como: “No lo puedo creer nos quedó pendiente la visita a Mompox ver tu escuela de música. Gracias por haber sido ese ser humano grandioso, amigo de sus amigos” y “Es lamentable que un acordeonero de nombre y mención de la región haya fallecido. Parece que lo conocí cuando dictó clases en la Casa de la Cultura de San Sebastián de Buenavista, Magdalena. Lo encomiendo a nuestros Dioses”. Los mensajes recordaban su trabajo enseñando y animando a los jóvenes a demostrar el amor por la música de su tierra natal: “Que Dios lo acoja en su santo reino. A la promoción de bachilleres pinillista 1976 nos que en la memoria la noche de cierre de los 46 años de graduados que nos animó Joche. Fue un todo terreno en la música vallenato. Paz en su tumba y voz de solidaridad con su familia” y “El Dios del cielo dador de la vida fortalezca la familia de este gran ser humano lleno de un talento maravilloso, el señor consuele los corazones de su esposa e hijos, el legado no muere aunque el cuerpo vaya al sepulcro”.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/colombia/2026/03/30/el-vallenato-despide-a-uno-de-sus-referentes-reconocido-acordeonero-murio-de-un-infarto-en-bolivar/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/V5IRT3QDQNCCFJVMWMLH2SY4BA.png?auth=7e08b0e63e806b8101c688cf8ecd81041dc71571a5894ad2d442775c60b5e31a&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "9c6250d1d4fd2f29aacef406124b62302ad3b09dfbd71a63f2079f89191f93fe",
       "titleOriginal": "Un hombre fallece tras tiroteo en zona residencial de Hialeah",
@@ -13,7 +24,7 @@
       "sourceUrl": "https://www.infobae.com/estados-unidos/2026/03/30/un-hombre-fallece-tras-tiroteo-en-zona-residencial-de-hialeah/",
       "imageUrl": "https://www.infobae.com/resizer/v2/G3MNOFWAFJDGHOHMQLGOB2LNMM.png?auth=d25abe983e836853e1138518362565788741aaa11368a635481a7305012311a2&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "761dfd7c985fd4517fb0c38245edf993125276708f4f5d3225abbb2b281548ed",
@@ -24,7 +35,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/el-otro-chiquito-malo-que-fue-dejado-asesinado-en-la-zona-rural-de-galeras-sucre-en-principio-se-penso-que-era-el-cabecilla-del-clan-del-golfo-3544164",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/30/69caf2e1a154b.png",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3c13a76a19b261a23adb27026cf5588e75a7a4c7fdade4f98fd85d7f358f33b2",
@@ -210,17 +221,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/inundaciones-en-melgar-tras-desbordamiento-de-la-quebrada-la-melgara-genero-panico-en-los-turistas-esta-semana-santa-3543967",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/30/69ca66ff32813.jpeg",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "id": "92fc0f98deca404e5e2a2cf5a2b2b002faf1d2408c8140216ae6c9fd70ad33a0",
-      "titleOriginal": "“Calarcá” ordenaba crímenes contra excombatientes mientras negociaba con el Gobierno Petro, estos son los chats: “Todavía me nombra a mií, mátenlo”",
-      "summary280": "Alias \"Calarcá\", líder de las disidencias de las Farc, ordenó crímenes como asesinatos y reclutamiento de menores mientras negociaba con el Gobierno. Chats revelan instrucciones para matar a un excombatiente durante un cese al fuego.",
-      "articleText": "30 Mar, 2026 Por Jhon Bernal Continúa la polémica por el operativo en la que fueron detenidos varios miembros del Estado Mayor de Bloques y Frentes (Embf) de las disidencias de las Farc, liderados por Alexander Díaz, conocido como alias Calarcá, mientras se movilizaban por las vías del departamento de Antioquia. Según información revelada por Noticias Caracol, el líder disidente habría ordenado asesinatos y coordinado el reclutamiento de menores mientras participaba en diálogos con el Gobierno nacional. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel Los nuevos mensajes, hoy parte central de una investigación reabierta por la Fiscalía General de la Nación, muestran indicios de crímenes cometidos en paralelo al proceso formal de negociación, que incluyen el asesinato de un firmante de paz y el ingreso forzado de una niña de 14 años a la guerrilla. Entre los archivos interceptados por las autoridades se encuentran chats que documentan los crímenes ordenados por el líder guerrillero. En una de las conversaciones fechadas el 6 de enero de 2024 —cuando regía un cese al fuego pactado con el Gobierno—, alias ‘Calarcá’ habría instruido a alias Chalá, identificado como el posible sicario, a ejecutar a un excombatiente y firmante del acuerdo de paz, bajo la acusación de hablar en su contra. “¿Y todavía me nombra a mí? Ese hp nunca lo he visto. ¿Y tiene más familia por ahí? (...) un tío, pero dice que no sabe por qué ese tipo está por acá (...) Maten a ese tipo. ¿No tiene mujer e hijo en la casa? (...) Mujer sí, pero hijos no. Pero no se dieron cuenta a qué hora nos lo trajimos (...) Jmmm, mátenlo y lo dejan por ahí, que lo recojan\", se lee en la conversación revelada por Noticias Caracol. El hombre al que ‘Calarcá’ hace referencia es Juan Gabriel Hurtado Betancour, que posteriormente aparece en imágenes —presentadas en la investigación aunque no publicadas por respeto a la víctima— minutos antes de ser asesinado. El 23 de julio de 2024, una caravana compuesta por siete jefes de las disidencias, que viajaban bajo custodia de la Unidad Nacional de Protección, fue detenida en un retén militar en Anorí. Durante la requisa, integrantes del Ejército decomisaron dispositivos que contenían información sobre presuntos delitos cometidos por el grupo armado, de acuerdo con lo revelado por el noticiero nacional. No obstante, la Fiscalía General de la Nación ordenó la inmediata liberación de los capturados al considerarlos “gestores de paz” y, por tanto, no sujetos a detención según la argumentación oficial.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/30/calarca-ordenaba-crimenes-contra-excombatientes-mientras-negociaba-con-el-gobierno-petro-estos-son-los-chats-todavia-me-nombra-a-mii-matenlo/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/DSP3OH47DBB4ZFJBNY7DO5ACIA.jpg?auth=3f41f2ef220fbcf34fa50809c645a788ee38d5e6b73cfc11f3e661f4a6a77e69&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
