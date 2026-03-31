@@ -229,7 +229,10 @@ now = datetime.now(ZoneInfo("America/Bogota"))
 fecha_legible = f"{now.day:02d} de {MESES_ES[now.month]} de {now.year}"
 
 new_items = []
+new_per_category = {}
+MAX_NEW_PER_CATEGORY = 2
 per_source_new_counter = {}
+
 
 # 🔥 NUEVOS HISTÓRICOS
 HIST_30_FILE = "historical_30d.json"
@@ -289,6 +292,13 @@ for line in lines:
     if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
         continue
 
+    category = news.get("category", "general")
+    
+    count = new_per_category.get(category, 0)
+    
+    if count >= MAX_NEW_PER_CATEGORY:
+        continue
+
     new_items.append({
         "id": news_id,  # 👈 AGREGA ESTA LÍNEA
         "titleOriginal": title,
@@ -301,6 +311,8 @@ for line in lines:
         "isNew": True,
         "category": "general"  # 👈 NUEVO
     })
+
+    new_per_category[category] = count + 1
 
     per_source_new_counter[source_name] = (
         per_source_new_counter.get(source_name, 0) + 1
@@ -316,6 +328,8 @@ edition = {
     "country": "Internacional",
     "headlines": final_headlines
 }
+
+print(new_per_category)
 
 with open("edition_tmp.json", "w", encoding="utf-8") as f:
     json.dump(edition, f, indent=2, ensure_ascii=False)
