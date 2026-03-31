@@ -297,7 +297,8 @@ for line in lines:
         "sourceUrl": url,
         "imageUrl": image,
         "type": "explainer",
-        "isNew": True
+        "isNew": True,
+        "category": "general"  # 👈 NUEVO
     })
 
     per_source_new_counter[source_name] = (
