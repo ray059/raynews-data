@@ -332,19 +332,39 @@ for item in combined:
 # LIMITAR A 20 POR CATEGORÍA
 # -------------------------------------------------
 
-MAX_PER_CATEGORY = 20
+# -------------------------------------------------
+# ORDENAR Y LIMITAR POR CATEGORÍA
+# -------------------------------------------------
 
-final_headlines = []
+MAX_PER_CATEGORY = 20
 
 for cat, items in by_category.items():
 
-    # ordenar: nuevos primero
+    # nuevas primero
     items.sort(key=lambda x: x["isNew"], reverse=True)
 
+    # limitar a 20
     if len(items) > MAX_PER_CATEGORY:
-        items = items[:MAX_PER_CATEGORY]
+        by_category[cat] = items[:MAX_PER_CATEGORY]
 
-    final_headlines.extend(items)
+final_headlines = []
+
+# convertir cada categoría en cola (queue)
+category_queues = {
+    cat: list(items) for cat, items in by_category.items()
+}
+
+while True:
+
+    added = False
+
+    for cat in category_queues:
+        if category_queues[cat]:
+            final_headlines.append(category_queues[cat].pop(0))
+            added = True
+
+    if not added:
+        break
 
 edition = {
     "api_version": 3,
@@ -369,9 +389,6 @@ with open("historical_tmp.json", "w", encoding="utf-8") as f:
     json.dump(historical, f, indent=2, ensure_ascii=False)
 
 os.replace("historical_tmp.json", HIST_FILE)
-
-
-
 
 
 # 🔥 GUARDAR históricos nuevos
