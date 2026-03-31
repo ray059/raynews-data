@@ -215,7 +215,7 @@ print("Noticias finales seleccionadas:", len(balanced_news))
 with open("links.txt", "w", encoding="utf-8") as f:
     for news in balanced_news:
         f.write(
-            f"{news['title']}||{news['url']}||{news['sourceName']}||{news['description']}\n"
+            f"{news['title']}||{news['url']}||{news['sourceName']}||{news['description']}||{news.get('category','general')}\n"
         )
 
 print("Noticias guardadas en links.txt:", len(balanced_news))
