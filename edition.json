@@ -1,7 +1,7 @@
 {
   "api_version": 3,
   "edition_date": "31 de marzo de 2026",
-  "generated_at": "2026-03-31T11:17:07.524781-05:00",
+  "generated_at": "2026-03-31T11:20:33.956976-05:00",
   "country": "Internacional",
   "headlines": [
     {
@@ -13,7 +13,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/desempleo-baja-en-barranquilla-y-marca-tendencia-cae-a-8-5-segun-el-dane-confirma-buen-momento-laboral-dice-alejandro-char-3544344",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/31/69cbeeaf5a54a.jpeg",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
@@ -25,7 +25,7 @@
       "sourceUrl": "https://www.eltiempo.com/deportes/futbol-internacional/video-camara-de-seguimiento-capta-el-enojo-y-la-impotencia-de-luis-diaz-durante-la-derrota-de-colombia-contra-francia-3544336",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/31/69cbed8509a89.r_d.1109-196-0.jpeg",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
