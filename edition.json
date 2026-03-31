@@ -1,9 +1,21 @@
 {
   "api_version": 3,
   "edition_date": "31 de marzo de 2026",
-  "generated_at": "2026-03-31T15:35:36.188964-05:00",
+  "generated_at": "2026-03-31T15:40:20.996937-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "6937e24d76b408e1e7fb04f8b9637cb49073da1811ccfe4475901717d9dc13e9",
+      "titleOriginal": "MaraTANA 2026, la carrera que une a italianos y argentinos en Costanera Sur: fecha, recorrido y cómo inscribirse",
+      "summary280": "La MaraTANA 2026, organizada por el Consulado General de Italia en Buenos Aires, se llevará a cabo el 26 de abril en Costanera Sur y Puerto Madero. Las inscripciones ya están abiertas, con distancias de 15 km, 10 km y 3 km.",
+      "articleText": "31 Mar, 2026 Por Cecilia Castro A poco menos de un mes para la largada, ya se encuentra abierta la inscripción para la cuarta edición de la MaraTANA, la tradicional carrera que convoca a miles de integrantes de la comunidad italiana y a corredores de toda la ciudad. El evento, organizado por el Consulado General de Italia en Buenos Aires, se realizará el domingo 26 de abril y propone un circuito renovado por Costanera Sur y Puerto Madero, con largada y llegada sobre la Avenida de los Italianos. La MaraTANA es una de las competencias más representativas del vínculo entre Italia y Argentina, y cada año suma nuevos participantes. Según informó el Consulado General de Italia en Buenos Aires, el proceso de inscripción ya está habilitado en la web oficial del Club de Corredores, y los cupos son limitados. Quienes se registren podrán elegir entre las distancias de 15 km, 10 km y 3 km, en recorridos pensados para todos los niveles y edades. Habrá descuentos especiales para quienes cuenten con pasaporte italiano, adultos mayores de 65 años, familias de estudiantes de escuelas italianas e integrantes de asociaciones y grupos de corredores. Además, todos los inscriptos recibirán un kit con la remera oficial de la edición 2026 —cuyo diseño será revelado próximamente— y una medalla finisher con la imagen grabada de un monumento emblemático de la italianidad en Buenos Aires. La MaraTANA no solo es una competencia deportiva, sino un espacio de encuentro y afirmación de la identidad. Según destacaron desde el Consulado General de Italia en Buenos Aires, el evento busca celebrar los lazos históricos y la herencia cultural de la colectividad italiana, considerada la más grande fuera de Italia. Durante la edición pasada, la carrera reunió a más de 4.000 corredores y un gran número de familias y espectadores en un clima festivo. Este año, el circuito se traslada por primera vez a Costanera Sur y Puerto Madero, sectores emblemáticos de la ciudad, con largada en la Avenida de los Italianos, entre las calles Macacha Güemes y Marta Lynch. El evento incluye el ya consolidado Espacio Italia junto a la línea de largada, con stands gastronómicos, actividades para toda la familia, food trucks, sorteos y música en vivo. Se trata de una propuesta integral que combina deporte, cultura y entretenimiento, y que busca fortalecer el sentido de pertenencia entre italianos y argentinos. Parte de lo recaudado con las inscripciones será destinado a la Casa de la Amistad de la Comunità di Sant’Egidio en la Ciudad de Buenos Aires, una organización que brinda apoyo social. De acuerdo con el Consulado General de Italia en Buenos Aires, esta acción reafirma el compromiso del evento con los valores de la solidaridad y la cooperación, sumando un objetivo social a la jornada deportiva. La MaraTANA 2026 se correrá el domingo 26 de abril. Las distancias de 15 km y 10 km largarán a las 08:00, mientras que la prueba de 3 km comenzará a las 10:00. El punto de partida y llegada será la Avenida de los Italianos, sobre el sector comprendido entre Macacha Güemes y Marta Lynch. Los recorridos atraviesan paisajes característicos de Costanera Sur y Puerto Madero. La organización, a cargo del Club de Corredores, recomienda asegurar el lugar con anticipación debido a la alta demanda de cupos. La carrera se realiza con el apoyo de empresas y entidades que año tras año colaboran para consolidar este evento como una de las fiestas deportivas y culturales más importantes de la comunidad italiana en la región. Las inscripciones ya están habilitadas y pueden realizarse desde el sitio oficial del Club de Corredores, donde se encuentran disponibles los detalles sobre los circuitos, los valores y los requisitos para cada una de las distancias.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/tendencias/2026/03/31/maratana-2026-la-carrera-que-une-a-italianos-y-argentinos-en-costanera-sur-fecha-recorrido-y-como-inscribirse/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/T6C5UPLQWJFQXBBCEJQHRNOVG4.jpeg?auth=8b57246fb9ccefdd7b71ff9606e293ca8e4220bc0f0548496dd9b99ef8360813&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true,
+      "category": "general"
+    },
     {
       "id": "02391cb747eefb1e2a43111087be5c92255236a3797fa4c3951e7a16ee34821e",
       "titleOriginal": "Al Shara asegura que Siria permanecerá al margen de la guerra a condición de que no sea blanco de ataques",
@@ -13,7 +25,7 @@
       "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/31/al-shara-asegura-que-siria-permanecera-al-margen-de-la-guerra-a-condicion-de-que-no-sea-blanco-de-ataques/",
       "imageUrl": "https://www.infobae.com/resizer/v2/V4WJKSBXH5CVFF3ERL7XRA255A.jpg?auth=e9c598058d2cd4bd50e20e1e5b940f327d0823e39e4ef821fa626856be927597&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
@@ -25,7 +37,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/el-drama-de-las-especies-que-terminan-en-el-plato-o-en-cautiverio-durante-semana-santa-en-antioquia-autoridades-fortalecen-operativos-3544454",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/31/69cc289057407.jpeg",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
@@ -197,6 +209,18 @@
       "category": "general"
     },
     {
+      "id": "f7c41c1caf150a8a14261da5fe8ed1ae34ab2ded8f7154d080eb048e567b82f3",
+      "titleOriginal": "Gobierno Nacional expidió nuevas reglas para próximas subastas de energías renovables en Colombia",
+      "summary280": "El Gobierno Nacional de Colombia ha establecido nuevas regulaciones para las próximas subastas de energías renovables, buscando optimizar el proceso y fomentar la inversión en este sector. Estas medidas buscan impulsar el desarrollo sostenible del país.",
+      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Noticia Foto: Grupo Argos Lina Quiroga Rubio PERIODISTA ECONÓMICA31.03.2026 15:32 Actualizado: 31.03.2026 15:32 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar LEA TAMBIÉN Lina Quiroga Rubio Foto:MinEnergía. LEA TAMBIÉN Lina Quiroga Rubio Foto:EPM LEA TAMBIÉN Lina Quiroga Rubio Foto:Cortesía Enel Colombia Sigue toda la información de Economía en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
+      "sourceName": "El Tiempo",
+      "sourceUrl": "https://www.eltiempo.com/economia/sectores/gobierno-nacional-expidio-nuevas-reglas-para-proximas-subastas-de-energias-renovables-en-colombia-3544465",
+      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/02/26/67bf9e90c8768.r_d.800-449-0.jpeg",
+      "type": "explainer",
+      "isNew": true,
+      "category": "economia"
+    },
+    {
       "id": "3f2034220ae76e6522c98acca5d59fad1e05a625c0c5e04a1c032c2c099f2fea",
       "titleOriginal": "Wall Street sube y el petróleo cae ante la disposición de Irán de negociar el fin del conflicto",
       "summary280": "Wall Street avanza con el Dow Jones subiendo un 2,5% y el petróleo cae por la disposición de Irán a negociar el fin del conflicto. La caída del crudo beneficia a sectores como transporte y consumo, mientras que el sector energético retrocede.",
@@ -205,7 +229,7 @@
       "sourceUrl": "https://elpais.com/economia/2026-03-31/wall-street-sube-y-el-petroleo-cae-ante-la-disposicion-de-iran-de-negociar-el-fin-del-conflicto.html",
       "imageUrl": "https://imagenes.elpais.com/resizer/v2/OIHTGTPLNJPZFFP32I57ZJPWXU.jpg?auth=8b9c1bc499610f718b558cd839fec42f946765657739e2e5353381abd54b8a9c&width=1200",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "economia"
     },
     {
@@ -217,7 +241,7 @@
       "sourceUrl": "https://www.lafm.com.co/economia/reforma-pensional-colombia-2026-traslado-fondo-privado-a-publico-395009",
       "imageUrl": "https://files.lafm.com.co/media/news-images/2026/03/31/195722/pension-1200x675.jpg?w=1280",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "economia"
     },
     {
@@ -301,7 +325,7 @@
       "sourceUrl": "https://www.eltiempo.com/deportes/futbol-internacional/revelan-fuerte-regano-de-nestor-lorenzo-a-los-jugadores-de-la-seleccion-colombia-tras-derrota-contra-francia-3544439",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/26/69c5f2d32b6fc.r_d.707-375-0.jpeg",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "deportes"
     }
   ]
