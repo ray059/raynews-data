@@ -1,9 +1,21 @@
 {
   "api_version": 3,
   "edition_date": "31 de marzo de 2026",
-  "generated_at": "2026-03-31T11:28:22.046734-05:00",
+  "generated_at": "2026-03-31T11:34:26.553698-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "aa24317c838183d246a026e2567fe22639a8bf4d6eed35f9252bd5a0fb957a00",
+      "titleOriginal": "Militares españoles permanecen en el Líbano \"extremando las precauciones\" frente al \"deterioro\" de la seguridad",
+      "summary280": "El contingente español de 650 militares en Líbano, parte de UNIFIL, ha intensificado sus medidas de protección debido al deterioro de la seguridad en la región.",
+      "articleText": "31 Mar, 2026 Por Newsroom Infobae El contingente español de la Brigada Líbano XLIV, encuadrado en la Fuerza Provisional de Naciones Unidas en el Líbano (UNIFIL, por sus siglas en inglés), formado por 650 militares, permanece en el territorio del Líbano \"habiendo extremado sus medidas de protección\" pese al \"deterioro de la situación de seguridad en la zona\". Según ha informado este martes el Ministerio de Defensa a través de un comunicado, tras la muerte de tres 'cascos azules' indonesios de la Fuerza Provisional de Naciones Unidas en el Líbano (FINUL), el contingente español \"se encuentra en un área distinta a la que está sufriendo el grueso de los ataques\". En la actualidad, el despliegue español cuenta con aproximadamente 650 militares dedicados a \"velar por el cumplimiento de la Resolución 1701 del Consejo de Seguridad de la ONU\", ha esgrimido el Ministerio que dirige Margarita Robles. No obstante, han destacado que los militares españoles operan en un \"escenario complejo marcado por la inestabilidad, pese al acuerdo de paz entre Israel y Líbano\". La ministra de Defensa, Margarita Robles, en declaraciones a los medios ha incidido este martes en su \"admiración y reconocimiento\" por la labor que están realizando los militares españoles, no solo en el mantenimiento de la paz, sino también en \"circunstancias complicadas y difíciles\" como las vividas este mismo día por los fallecidos indonesios. Dos militares indonesios murieron el lunes por el impacto de un proyectil contra el vehículo en el que se desplazaban cerca de Bahi Hayan, en el distrito de Marjayún, en el sur de Líbano. El domingo murió otro 'casco azul' de nacionalidad indonesia en otro ataque de origen desconocido.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/america/agencias/2026/03/31/militares-espanoles-permanecen-en-el-libano-extremando-las-precauciones-frente-al-deterioro-de-la-seguridad/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/FTAFLGTUMJGFXHRHDHBLUTJGEQ.jpg?auth=13e9284daf455c9be579f483efe9d4f0599ff55c68074e48c6f5e7214687ecf0&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true,
+      "category": "general"
+    },
     {
       "id": "5184b00e0c681a75340b9e30c0ca3d22aa6c1c45160fc5145737741bb8903072",
       "titleOriginal": "Balean por la espalda y a sangre fría a vigilante que apenas tenía cuatro días trabajando en SMP",
@@ -13,7 +25,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/31/balean-por-la-espalda-y-a-sangre-fria-a-vigilante-que-apenas-tenia-cuatro-dias-trabajando-en-smp/",
       "imageUrl": "https://www.infobae.com/resizer/v2/VGGEBRYCNFCSVJGI5VF6KHM2VE.jpg?auth=39f4c5f07ae6beaea7fc535f7b0e3eceff8fcf16fa998b142359d945e59db1b1&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
@@ -25,7 +37,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/hipotesis-de-ataque-y-asesinato-de-pareja-en-el-espinal-tolima-que-dejo-herido-a-bebe-de-4-meses-policia-habla-de-situacion-derivada-de-bujeria-3544351",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/31/69cbf2fb47e59.png",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
@@ -37,7 +49,7 @@
       "sourceUrl": "https://elpais.com/economia/2026-03-31/el-precio-del-galon-de-gasolina-en-estados-unidos-supera-los-cuatro-dolares-por-primera-vez-desde-2022-y-desata-las-criticas-a-trump.html",
       "imageUrl": "https://imagenes.elpais.com/resizer/v2/6R5LJYVUSJICXOZ4XACR3DKTSY.jpg?auth=68e3f2cf4c808e5bd12df6cdc8dc52b8d0b94d5baef5f1ae7e782315f488f63f&width=1200",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
@@ -49,7 +61,7 @@
       "sourceUrl": "https://www.lafm.com.co/deportes/liverpool-premier-league-2026-xabi-alonso-rumores-394936",
       "imageUrl": "https://files.lafm.com.co/media/news-images/2026/03/31/162341/liverpool-premier-league-2026-xabi-alonso-1200x675.jpg?w=1280",
       "type": "explainer",
-      "isNew": true,
+      "isNew": false,
       "category": "general"
     },
     {
@@ -228,18 +240,6 @@
       "sourceName": "El País",
       "sourceUrl": "https://elpais.com/economia/2026-03-31/el-gobierno-aprueba-el-indulto-a-las-seis-de-la-suiza.html",
       "imageUrl": "https://imagenes.elpais.com/resizer/v2/BPY5KWXLV5DRNCL7HRHQHHARKM.jpg?auth=e97fd1f9b0afe54b7c26fd26a7927bb1e85d156549ca808e0004027b2fd00c07&width=1200",
-      "type": "explainer",
-      "isNew": false,
-      "category": "general"
-    },
-    {
-      "id": "f56f258a73ff2aa3a7075e30602ca28baf65d0869fbff4f35c500c9ea5f69baf",
-      "titleOriginal": "Así funcionará el fondo ‘No es hora de callar’. reglamentado por el Gobierno para proteger a periodistas y comunicadoras frente a la violencia de género",
-      "summary280": "El Ministerio de Igualdad de Colombia lanzará el fondo ‘No es hora de callar’ para proteger a periodistas y comunicadoras de la violencia de género, con un presupuesto anual de 500.000 dólares.",
-      "articleText": "31 Mar, 2026 Por Daniel Mauricio Rodríguez Sevilla El Ministerio de Igualdad de Colombia ha establecido el fondo ‘No es hora de callar’, destinado a prevenir la violencia de género y a reforzar la protección de periodistas y comunicadoras en el país. Según informó la cartera, esta iniciativa responde a una orden de la Corte Interamericana de Derechos Humanos (Corte IDH) dirigida al Estado colombiano tras el fallo por el caso de la periodista Jineth Bedoya. Ahora puede seguirnos en Facebook y en nuestro WhatsApp Channel El fondo tiene como propósito ofrecer respaldo económico, medidas de protección y recursos que permitan a las mujeres del sector ejercer su labor con seguridad y sin temor a agresiones o represalias. La periodista indicó que su objetivo no consistía en obtener una compensación económica, sino en impulsar la creación de una medida estructural en Colombia. Expresó que “un cheque no es capaz de reparar lo que queda roto de por vida”. La mujer afirmó que su objetivo era aportar a Colombia “una herramienta que proteja a las mujeres que comunican”, en referencia a la situación actual de los medios de comunicación tras las denuncias de presunto acoso sexual, a las que describió como “una de las peores crisis de su historia”. Desde el 20 de marzo de 2026, en Colombia han salido investigaciones y denuncias públicas de presunto acoso sexual, que han derivado en despidos e investigaciones internas, así como de pronunciamientos institucionales. El fondo ‘No es hora de callar’, previsto para iniciar el 27 de abril DE 2026, estará bajo la administración del Ministerio de Igualdad y tendrá una asignación anual de 500.000 dólares. Estos recursos serán utilizados para financiar iniciativas, medidas y estudios enfocados en prevenir y atender la violencia de género que afecta a mujeres periodistas en Colombia. Tamara Ospina, viceministra de las Mujeres, señaló que la violencia de género ha servido como “un arma de represión y silenciamiento contra las mujeres”. Destacó que este fondo constituye el primer mecanismo de su tipo en todo el hemisferio, lo que marca un precedente mundial para la protección de mujeres dedicadas al periodismo. Por su parte, Alfredo Acosta, ministro de Igualdad y Equidad, subrayó la necesidad de dignificar la labor de las periodistas en un entorno adverso y reconoció el papel de Jineth Bedoya en la visibilización de estas problemáticas. El ministro agradeció el trabajo de Bedoya, quien ha impulsado la denuncia y el reconocimiento de la violencia de género en el ámbito periodístico. En relación a recientes denuncias dentro del propio ministerio, Acosta informó que Axcan Duque, exviceministro de Igualdad, fue separado del cargo tras ser acusado por una subordinada de haberle enviado contenido íntimo sin consentimiento. La medida busca proteger a la denunciante y facilitar una investigación interna. “No permitimos la agresión, no se puede callar. Respaldamos a la víctima, no al victimario. Debemos denunciar toda acción que vulnere los derechos de las mujeres”, afirmó Acosta.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/colombia/2026/03/31/asi-funcionara-el-fondo-no-es-hora-de-callar-reglamentado-por-el-gobierno-para-proteger-a-periodistas-y-comunicadoras-frente-a-la-violencia-de-genero/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/2K5FCAPY2BCKXG3KMGYZEV5BBU.jpg?auth=4da0ad30957fc8a0a635d6ed0f296e71a844cee9036ade2245b130586f8dface&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false,
       "category": "general"
