@@ -308,7 +308,7 @@ for line in lines:
         "imageUrl": image,
         "type": "explainer",
         "isNew": True,
-        "category": "general"  # 👈 NUEVO
+        "category": category
     })
 
     new_per_category[category] = count + 1
