@@ -19,10 +19,26 @@ HEADERS = {
 }
 
 RSS_SOURCES = {
-    "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
-    "El Tiempo Colombia": "https://www.eltiempo.com/rss/colombia.xml",
-    "Infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
-    "DW Español": "https://rss.dw.com/rdf/rss-sp-all"
+    # 🔹 FEEDS GENERALES (los que ya tenías)
+    "general": {
+        "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
+        "El Tiempo Colombia": "https://www.eltiempo.com/rss/colombia.xml",
+        "Infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
+        "DW Español": "https://rss.dw.com/rdf/rss-sp-all"
+    },
+
+    # 🔹 NUEVO: ECONOMÍA
+    "economia": {
+        "El Tiempo": "https://www.eltiempo.com/rss/economia.xml",
+        "El País": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada",
+        "La FM": "https://www.lafm.com.co/rss/economia.xml"
+    },
+
+    # 🔹 NUEVO: FÚTBOL / DEPORTES
+    "futbol": {
+        "El Tiempo": "https://www.eltiempo.com/rss/deportes_futbol-internacional.xml",
+        "La FM": "https://www.lafm.com.co/rss/deportes.xml"
+    }
 }
 
 HIST_FILE = "historical_editions.json"
