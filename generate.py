@@ -14,7 +14,6 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 HIST_FILE = "historical_editions.json"
 EDITION_FILE = "edition.json"
 
-MAX_TOTAL = 20
 MAX_NEW_PER_EDITION = 1
 MAX_NEW_PER_SOURCE = 1
 
@@ -317,8 +316,35 @@ for line in lines:
         per_source_new_counter.get(source_name, 0) + 1
     )
 
+# -------------------------------------------------
+# NUEVO: AGRUPAR POR CATEGORÍA
+# -------------------------------------------------
+
 combined = new_items + normalized_base
-final_headlines = combined[:MAX_TOTAL]
+
+by_category = {}
+
+for item in combined:
+    cat = item.get("category", "general")
+    by_category.setdefault(cat, []).append(item)
+
+# -------------------------------------------------
+# LIMITAR A 20 POR CATEGORÍA
+# -------------------------------------------------
+
+MAX_PER_CATEGORY = 20
+
+final_headlines = []
+
+for cat, items in by_category.items():
+
+    # ordenar: nuevos primero
+    items.sort(key=lambda x: x["isNew"], reverse=True)
+
+    if len(items) > MAX_PER_CATEGORY:
+        items = items[:MAX_PER_CATEGORY]
+
+    final_headlines.extend(items)
 
 edition = {
     "api_version": 3,
