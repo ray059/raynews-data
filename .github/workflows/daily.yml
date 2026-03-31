@@ -52,7 +52,8 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             git commit -m "Auto update"
-            git push
+            git pull --rebase origin main
+            git push origin main
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
