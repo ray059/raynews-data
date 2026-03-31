@@ -108,9 +108,9 @@ else:
 # -------------------------------------------------
 
 all_news = []
-source_counts = {s: 0 for s in RSS_SOURCES}
+source_counts = {}
 
-    for category, sources in RSS_SOURCES.items():
+for category, sources in RSS_SOURCES.items():
     
         for source_name, rss_url in sources.items():
     
