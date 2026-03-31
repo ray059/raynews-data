@@ -250,11 +250,12 @@ hist_12 = load_hist(HIST_12_FILE)
 for line in lines:
 
     parts = line.strip().split("||")
-
-    if len(parts) != 4:
+    
+    if len(parts) < 4:
         continue
-
-    title, url, source_name, description = parts
+    
+    title, url, source_name, description = parts[:4]
+    category = parts[4] if len(parts) > 4 else "general"
 
     news_id = make_id(url)
 
@@ -292,8 +293,6 @@ for line in lines:
     if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
         continue
 
-    category = "general"
-    
     count = new_per_category.get(category, 0)
     
     if count >= MAX_NEW_PER_CATEGORY:
