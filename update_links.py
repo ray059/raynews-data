@@ -35,7 +35,7 @@ RSS_SOURCES = {
     },
 
     # 🔹 NUEVO: FÚTBOL / DEPORTES
-    "futbol": {
+    "deportes": {
         "El Tiempo": "https://www.eltiempo.com/rss/deportes_futbol-internacional.xml",
         "La FM": "https://www.lafm.com.co/rss/deportes.xml"
     }
