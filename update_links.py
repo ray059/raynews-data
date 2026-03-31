@@ -109,6 +109,8 @@ else:
 
 all_news = []
 source_counts = {}
+new_per_category = {}
+MAX_NEW_PER_CATEGORY = 2
 
 for category, sources in RSS_SOURCES.items():
     
@@ -155,6 +157,11 @@ for category, sources in RSS_SOURCES.items():
     
                     if news_id in historical["news"]:
                         continue
+
+                    count = new_per_category.get(category, 0)
+                    
+                    if count >= MAX_NEW_PER_CATEGORY:
+                        continue
     
                     all_news.append({
                         "id": news_id,
@@ -165,10 +172,13 @@ for category, sources in RSS_SOURCES.items():
                         "description": description,
                         "category": category  # 👈 CLAVE
                     })
+
+                    new_per_category[category] = count + 1
     
             except Exception as e:
                 print(f"Error en {source_name}: {e}")
 
+print(new_per_category)
 print("\nCandidatos antes de ordenar:", len(all_news))
 
 # -------------------------------------------------
