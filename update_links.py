@@ -123,48 +123,67 @@ for source_name, rss_url in RSS_SOURCES.items():
 
         print("Items encontrados:", len(items))
 
-        for item in items:
-
-            title = item.title.text if item.title else ""
-            link = item.link.text if item.link else ""
-            pub_date_str = item.pubDate.text if item.pubDate else ""
-            description = item.description.text if item.description else ""
-
-            title = clean_text(title)
-            description = clean_text(description)
-
-            if not title or not link:
-                continue
-
-            pub_date = parse_date(pub_date_str)
-
-            if not pub_date:
-                continue
-
-            if not is_last_24h(pub_date):
-                continue
-
-            # Solo exigir explainers a BBC
-            if source_name == "BBC News Mundo":
-                if not is_explainer(title):
-                    continue
-
-            news_id = make_id(link)
-
-            if news_id in historical["news"]:
-                continue
-
-            all_news.append({
-                "id": news_id,
-                "title": title,
-                "url": link,
-                "sourceName": source_name,
-                "pubDate": pub_date,
-                "description": description
-            })
-
-    except Exception as e:
-        print(f"Error en {source_name}: {e}")
+        all_news = []
+        source_counts = {s: 0 for s in RSS_SOURCES}
+        
+        for category, sources in RSS_SOURCES.items():
+        
+            for source_name, rss_url in sources.items():
+        
+                try:
+                    print(f"\nRevisando {source_name} ({category})")
+        
+                    response = requests.get(rss_url, headers=HEADERS, timeout=10)
+                    response.raise_for_status()
+        
+                    soup = BeautifulSoup(response.content, "xml")
+                    items = soup.find_all("item")
+        
+                    print("Items encontrados:", len(items))
+        
+                    for item in items:
+        
+                        title = item.title.text if item.title else ""
+                        link = item.link.text if item.link else ""
+                        pub_date_str = item.pubDate.text if item.pubDate else ""
+                        description = item.description.text if item.description else ""
+        
+                        title = clean_text(title)
+                        description = clean_text(description)
+        
+                        if not title or not link:
+                            continue
+        
+                        pub_date = parse_date(pub_date_str)
+        
+                        if not pub_date:
+                            continue
+        
+                        if not is_last_24h(pub_date):
+                            continue
+        
+                        # Solo exigir explainers a BBC (solo si es general)
+                        if category == "general" and source_name == "BBC News Mundo":
+                            if not is_explainer(title):
+                                continue
+        
+                        news_id = make_id(link)
+        
+                        if news_id in historical["news"]:
+                            continue
+        
+                        all_news.append({
+                            "id": news_id,
+                            "title": title,
+                            "url": link,
+                            "sourceName": source_name,
+                            "pubDate": pub_date,
+                            "description": description,
+                            "category": category  # 👈 CLAVE
+                        })
+        
+                except Exception as e:
+                    print(f"Error en {source_name}: {e}")
 
 print("\nCandidatos antes de ordenar:", len(all_news))
 
