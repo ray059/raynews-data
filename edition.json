@@ -1,9 +1,21 @@
 {
   "api_version": 3,
   "edition_date": "31 de marzo de 2026",
-  "generated_at": "2026-03-31T11:20:33.956976-05:00",
+  "generated_at": "2026-03-31T11:24:25.855212-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "e598a5103a847984395b993858f12904b047a29004e7721edb6d0701ab8955ba",
+      "titleOriginal": "La guerra en Irán impacta en la bolsa española: el Ibex cierra marzo con la mayor caída mensual en cuatro años y pierde 76.000 millones de euros",
+      "summary280": "El Ibex 35 cerró marzo con su mayor caída mensual en cuatro años, perdiendo 76.000 millones de euros debido al conflicto en Irán.",
+      "articleText": "31 Mar, 2026 Por Andrea de Lucas El cierre de marzo ha impactado en la bolsa española, con el Ibex 35 registrando su mayor retroceso mensual en los últimos cuatro años. La escalada del conflicto en Oriente Medio ha repercutido de forma inmediata en los mercados, arrastrando al selectivo nacional a una pérdida de 76.000 millones de euros en capitalización bursátil. A pesar de experimentar este martes un ligero avance en la última sesión del mes, donde el Ibex ha sumado un 0,47% y ha cerrado en 17.049,6 puntos, el balance mensual es negativo. El índice acumula una caída del 7,3% en marzo, que supone el descenso más pronunciado desde junio de 2022, periodo marcado entonces por la invasión rusa en Ucrania. Este retroceso ha borrado parte de las ganancias cosechadas en el arranque del año, situando la variación anual en un descenso del 1,49%. Las empresas más afectadas han sido aquellas con mayor exposición a los costes energéticos, lo que ha determinado gran parte de las pérdidas registradas. Por compañías, Indra ha encabezado las caídas, con una depreciación del 26% desde el inicio del conflicto en Irán. Detrás, ArcelorMittal ha registrado un descenso del 17%. A este grupo se suma Grifols, que ha cedido un 11%, afectada también por la inestabilidad general del mercado. En el lado opuesto, Repsol ha liderado las subidas dentro del Ibex 35, con una revalorización del 22% durante marzo. El alza del precio del crudo ha mejorado sus perspectivas de ingresos y ha traído capital hacia sus acciones. Junto a esta, Solaria ha incrementado su valor en un 20% y Enagás en un 17,5%. *Noticia en ampliación.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/31/la-guerra-en-iran-impacta-en-la-bolsa-espanola-el-ibex-cierra-marzo-con-la-mayor-caida-mensual-en-cuatro-anos-y-pierde-76000-millones-de-euros/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/I3XT75J3CVCKXIL6NEQVADUWIY.jpg?auth=516795a2ebf3fe54135c22088f150a9b0fc6ef3c3e467168f53488e0af67b3fb&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true,
+      "category": "general"
+    },
     {
       "id": "3e2ae3295c70efccf17934128943c92bd57abe47a4fe10e09fb7d633df610b68",
       "titleOriginal": "Desempleo baja en Barranquilla y marca tendencia: cae a 8,5% según el Dane; 'confirma buen momento laboral', dice Alejandro Char",
@@ -228,18 +240,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/rescataron-a-los-cinco-ninos-que-estaban-desaparecidos-tras-secuestro-de-sus-padres-en-caqueta-esto-se-sabe-3544255",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/04/69a843f67cb55.r_d.272-241-0.jpeg",
-      "type": "explainer",
-      "isNew": false,
-      "category": "general"
-    },
-    {
-      "id": "215d9ff7f74ce4684777193c6aba3e8c80ef38732b48fbfbf1012aba7a2a80b4",
-      "titleOriginal": "Sabor a mar y fe: Los cinco platillos esenciales de la Semana Santa en la mesa salvadoreña",
-      "summary280": "En Semana Santa, la mesa salvadoreña se llena de sabores con platillos esenciales como las torrejas en miel y los rellenos de pescado. Estos manjares son tradición en los hogares, reflejando la conexión entre la gastronomía y la fe en esta época del año.",
-      "articleText": "31 Mar, 2026 Elizabeth Minero Desde San Salvador, El Salvador Desde las clásicas torrejas en miel hasta los emblemáticos rellenos de pescado; te presentamos la lista definitiva de los manjares que no faltan en los hogares salvadoreños en Semana Santa.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/el-salvador/fotos/2026/03/31/sabor-a-mar-y-fe-los-cinco-platillos-esenciales-de-la-semana-santa-en-la-mesa-salvadorena/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/G4SU3BFEJJG5NPKSZICDWG4L2A.png?auth=980026c969d0d11cf24fb73bccdc16a19c191b66fe653819b911294c90f30208&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false,
       "category": "general"
