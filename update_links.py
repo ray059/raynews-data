@@ -190,11 +190,11 @@ for news in all_news:
 
     source = news["sourceName"]
 
-    if source_counts[source] >= MAX_PER_SOURCE:
+    if source_counts.get(source, 0) >= MAX_PER_SOURCE:
         continue
 
     balanced_news.append(news)
-    source_counts[source] += 1
+    source_counts[source] = source_counts.get(source, 0) + 1
 
 print("Noticias finales seleccionadas:", len(balanced_news))
 
