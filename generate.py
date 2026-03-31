@@ -292,7 +292,7 @@ for line in lines:
     if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
         continue
 
-    category = news.get("category", "general")
+    category = "general"
     
     count = new_per_category.get(category, 0)
     
