@@ -1,9 +1,31 @@
 {
   "api_version": 3,
   "edition_date": "31 de marzo de 2026",
-  "generated_at": "2026-03-31T05:03:20.459817-05:00",
+  "generated_at": "2026-03-31T06:45:03.816772-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "215d9ff7f74ce4684777193c6aba3e8c80ef38732b48fbfbf1012aba7a2a80b4",
+      "titleOriginal": "Sabor a mar y fe: Los cinco platillos esenciales de la Semana Santa en la mesa salvadoreña",
+      "summary280": "En Semana Santa, la mesa salvadoreña se llena de sabores con platillos esenciales como las torrejas en miel y los rellenos de pescado. Estos manjares son tradición en los hogares, reflejando la conexión entre la gastronomía y la fe en esta época del año.",
+      "articleText": "31 Mar, 2026 Elizabeth Minero Desde San Salvador, El Salvador Desde las clásicas torrejas en miel hasta los emblemáticos rellenos de pescado; te presentamos la lista definitiva de los manjares que no faltan en los hogares salvadoreños en Semana Santa.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/el-salvador/fotos/2026/03/31/sabor-a-mar-y-fe-los-cinco-platillos-esenciales-de-la-semana-santa-en-la-mesa-salvadorena/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/G4SU3BFEJJG5NPKSZICDWG4L2A.png?auth=980026c969d0d11cf24fb73bccdc16a19c191b66fe653819b911294c90f30208&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
+    {
+      "id": "b2ce1cfffbf524af8e800592f40caf08ce5583114a96d1b08a08d6a7dedb09a4",
+      "titleOriginal": "Cómo Santa Cruz se convirtió en un centro logístico para el narco uruguayo Sebastián Marset y el crimen transnacional desde Bolivia",
+      "summary280": "Santa Cruz de la Sierra se ha convertido en un centro logístico para el narcotráfico, especialmente para el uruguayo Sebastián Marset, capturado recientemente.",
+      "articleText": "Fuente de la imagen, Getty Images La mañana del 13 de marzo, Santa Cruz de la Sierra amaneció movilizada por la caída de uno de los narcos más buscados de América Latina. El líder del llamado Primer Cartel Uruguayo, Sebastián Marset, había sido capturado mientras dormía en su casa en la capital de Santa Cruz, el departamento más rico de Bolivia. Extraditado ese mismo día a Estados Unidos, donde es investigado por tráfico de drogas y lavado de dinero, Marset había dejado Montevideo en 2018 y, luego de pasar por Paraguay y Dubái, se había fugado a Bolivia. Unos días después de su captura, el gobierno de Rodrigo Paz informó que, además de Marset, habían detenido a cinco colombianos y dos ecuatorianos en la capital cruceña como parte de un operativo para desarticular su organización criminal. Esta no era la primera vez que se vinculaba al departamento boliviano con el crimen organizado. Ya el año pasado, las autoridades brasileñas señalaron que Santa Cruz se ha convertido en un refugio para los grandes narcotraficantes de su país. Según investigadores de la Policía Federal de Brasil, el Primer Comando de la Capital, una de las organizaciones criminales más grandes de ese país, ha venido operando desde el oriente boliviano. Fuente de la imagen, Reuters En mayo pasado el narcotraficante brasileño Marcos Roberto de Almeida fue arrestado por agentes de la Fuerza Especial de Lucha contra el Crimen Organizado en Santa Cruz de la Sierra mientras buscaba un documento de identidad falso. Almeida era uno de los principales coordinadores de un esquema internacional de lavado de dinero vinculado a su organización criminal y estaba en la lista de las notificaciones rojas de Interpol, solicitudes que la agencia hace a las fuerzas del orden a nivel global para detener provisionalmente a personas en espera de extradición. Final de Más leídas El nuevo podcast de BBC Mundo sobre un amor que triunfó contra todo pronóstico Episodios Fin de Podcast \"Santa Cruz se ha convertido en un hub logístico y financiero para el narcotráfico\", le dice a BBC Mundo Gabriela Reyes Rodas, experta boliviana en tráfico de drogas y comercio ilícito. El viceministro de Sustancias Controladas de Bolivia, Ernesto Justiniano, reconoce que este departamento ocupa un lugar clave en la ruta de la droga, pero aclara que no es un problema exclusivo de Bolivia, sino que se trata de una \"red criminal que opera en diferentes países\". El incómodo lugar que ocupa este país y, en especial, Santa Cruz en el tráfico de sustancias ilícitas es lo que el nuevo gobierno del presidente de Bolivia, Rodrigo Paz, busca desactivar con operativos como el que terminó con la captura de Marset. \"Si llegan a Bolivia, ya no se van a topar con un país aislado, sino con un país que está inserto en el mundo y que no va a permitir que (las organizaciones del narcotráfico) se instalen en nuestro territorio\", dice el viceministro a BBC Mundo. Lejos de la postal del altiplano, con su estrecha franja de bosque a lo largo de la ladera oriental de la cordillera de los Andes, Santa Cruz se caracteriza por sus tierras llanas que favorecen el cultivo de granos como la soja y el trigo. Esta parte del país no se destaca por la siembra de coca, al tener un clima más seco que las dos principales regiones productoras, que son las Yungas de La Paz y el Chapare en Cochabamba. Sin embargo, sí se da en una limitada zona en la ciudad de Yapacaní, provincia de Ichilo, en la frontera con Cochabamba, de acuerdo al informe \"Territorios de la coca y la cocaína\", publicado en octubre por la Universidad Internacional de Florida (FIU). Y mientras la hoja de coca de las Yungas se usa —según el gobierno— principalmente para el \"acullico\", un consumo cultural típico en diversas regiones y legal, la proveniente del Chapare y de Ichilo, más dura, suele acabar en la cadena de producción de drogas que alimenta el narcotráfico. La relevancia que tiene el cultivo de la hoja de coca en Bolivia explica que Evo Morales, quien hoy sigue lideran",
+      "sourceName": "BBC News Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cn78lr877djo?at_medium=RSS&at_campaign=rss",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/ef2e/live/ddbbbdb0-23b4-11f1-92e7-e70d0571c9f1.jpg",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "18b7a987d669f51ad77c6ae1670526b4acfafe8f5785fc039992bca7495beb57",
       "titleOriginal": "Magaly Medina aplaude que Alejandra Baigorria no celebrara el cumpleaños de Said Palao: “Él se lo ganó, ni la familia le hizo nada”",
@@ -13,7 +35,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/31/magaly-medina-aplaude-que-alejandra-baigorria-no-celebrara-el-cumpleanos-de-said-palao-el-se-lo-gano-ni-la-familia-le-hizo-nada/",
       "imageUrl": "https://www.infobae.com/resizer/v2/RTGTOLR23NGBFLEMR6L6T35VZQ.jpg?auth=418c01ee646e4ad701ec187092a261269c93e6512771b91868d4d4df5cccbd2b&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0cb76ebe24c2ee95985360f76aa8d71a630caca54b9e3eccc95b8e5e9058a972",
@@ -24,7 +46,7 @@
       "sourceUrl": "https://www.bbc.com/mundo/articles/c9wq8dg0zxko?at_medium=RSS&at_campaign=rss",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/66fd/live/acfe1270-2c94-11f1-8f37-dddc9e381c86.jpg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d06f65c36ecd15621196a233d36a853aa314d401ef33e7059df6d8ca771d9174",
@@ -35,7 +57,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/santander/temblor-hoy-en-colombia-reportan-sismo-en-la-noche-del-30-de-marzo-epicentro-magnitud-y-profundidad-3544241",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/31/69cb8efa8762b.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7bf336fc747fe73e5c9944401dd5433703bcc1070dabe9e6ed5b12654faffa71",
@@ -199,28 +221,6 @@
       "sourceName": "Infobae",
       "sourceUrl": "https://www.infobae.com/espana/deportes/2026/03/30/marc-marquez-sigue-buscando-su-mejor-version-todavia-no-esta-en-plena-forma/",
       "imageUrl": "https://www.infobae.com/resizer/v2/55OP7ZO6E5DCHM4SIVWC2F632U.JPG?auth=533d46d364def6602ac2d1887a2b7b8406733e17abd710c66a86bcb716371f7d&smart=true&width=1200&height=630&quality=85",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "id": "f01e694bc7bb484fa22cf5d8538185885a9ed0858b6370cd7934c8e7621ee047",
-      "titleOriginal": "Atlántico | Masacre en Soledad ya deja cuatro muertos: fallece adulto mayor que había quedado herido tras nueve días del ataque",
-      "summary280": "La masacre en Soledad, Atlántico, ha dejado un saldo de cuatro muertos tras el fallecimiento de un adulto mayor que resultó herido en el ataque. La Alcaldía ofrece una recompensa de hasta 10 millones de pesos por información que ayude a identificar a los responsables.",
-      "articleText": "En este portal utilizamos datos de navegación / cookies propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. Si continúa navegando, usted estará aceptando esta utilización. Puede conocer cómo deshabilitarlas u obtener más información aquí Temas del día EMPLEOS MI CUENTA ¡Hola !, Tu correo ha sido verficado. Ahora puedes elegir los Boletines que quieras recibir con la mejor información. Bienvenido , has creado tu cuenta en EL TIEMPO. Conoce y personaliza tu perfil. Hola Clementine el correo baxulaft@gmai.com no ha sido verificado. Verificar Correo El correo electrónico de verificación se enviará a clementine@ejemplo.com Revisa tu bandeja de entrada y si no, en tu carpeta de correo no deseado. Ya tienes una cuenta vinculada a EL TIEMPO, por favor inicia sesión con ella y no te pierdas de todos los beneficios que tenemos para tí. Iniciar sesión Chat noti IA Hola, bienvenido Noticia La Alcaldía de Soledad mantiene vigente una recompensa de hasta 10 millones de pesos para quienes entreguen información que permita identificar a los responsables. Foto: Redes sociales Camilo Andrés Álvarez Peñaloza 30.03.2026 14:13 Actualizado: 30.03.2026 14:13 Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar LEA TAMBIÉN Camilo Álvarez Peñaloza escena del crimen Foto:Archivo particular Motocarros en el minucipio de Soledad (Atlántico). Foto:Kronos Óscar Miguel Buelvas, cuarta víctima de la masacre. Foto:Redes sociales LEA TAMBIÉN John Montaño 60 kilos de marihuana en el aeropuerto El Dorado. Foto: Sigue toda la información de Colombia en Facebook y Twitter, o en nuestra newsletter semanal. Compartir Guardar Ingrese o regístrese acá para guardar los artículos en su zona de usuario y leerlos cuando quiera Reportar Resumen Escuchar Comentar Conforme a los criterios de BOLETINES EL TIEMPO Regístrate en nuestros boletines y recibe noticias en tu correo según tus intereses. Mantente informado con lo que realmente te importa. Registrate EL TIEMPO GOOGLE NEWS Síguenos en GOOGLE NEWS. Mantente siempre actualizado con las últimas noticias coberturas historias y análisis directamente en Google News. quiero recibirlo EL TIEMPO WHATSAPP Únete al canal de El Tiempo en WhatsApp para estar al día con las noticias más relevantes al momento. EL TIEMPO APP Mantente informado con la app de EL TIEMPO. Recibe las últimas noticias coberturas historias y análisis directamente en tu dispositivo. app store google play appgallery SUSCRÍBETE AL DIGITAL Información confiable para ti. Suscríbete a EL TIEMPO y consulta de forma ilimitada nuestros contenidos periodísticos. suscríbete COPYRIGHT © 2026 EL TIEMPO Casa Editorial NIT. 860.001.022-7. Prohibida su reproducción total o parcial, o su uso para el desarrollo de programas de inteligencia artificial o aprendizaje automático, asícomo su traducción a cualquier idioma, sin autorización escrita de su titular. ELTIEMPO.com todas las noticias de Colombia y el Mundo. . CORPORATIVO MIEMBRO DE Grupo de diarios de América Interactive Advertisement Bureau World Association of News Publishers The Trust Project International News Media Association Asociación Colombiana de Medios de Información VIGILADO POR Superintendencia de Industria y Comercio",
-      "sourceName": "El Tiempo Colombia",
-      "sourceUrl": "https://www.eltiempo.com/colombia/barranquilla/atlantico-masacre-en-soledad-ya-deja-cuatro-muertos-fallece-adulto-mayor-que-habia-quedado-herido-tras-nueve-dias-del-ataque-3544106",
-      "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/30/69cacb3dde1fa.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "id": "fa2fbe6c9e7985efddd1d36281726eac29f5d0eda6b9a4d9a723552c1960440d",
-      "titleOriginal": "El Senado realiza un homenaje a los héroes de Malvinas",
-      "summary280": "El Senado de la Nación homenajea a los héroes de Malvinas con una exposición de modelos a escala de navíos argentinos y actividades que incluyen paneles, proyecciones y la presentación de un libro sobre la guerra. Este homenaje busca rescatar historias poco conocidas de la gesta.",
-      "articleText": "30 Mar, 2026 En el inicio de la Semana de Malvinas, el Senado de la Nación realiza un homenaje en el que se expondrán modelos a escala de los navíos argentinos que participaron de la guerra contra Gran Bretaña en 1982. La exposición tiene lugar en el Salón Azul del Palacio Legislativos y tendrá la presencia de ex combatientes y autoridades nacionales. El acto se realiza a dos días del 2 abril, fecha en la que se conmemora la recuperación de las Islas Malvinas por parte del ejército argentino, en el marco del conflicto que tuvo lugar en el atlántico sur en 1982. En ese contexto, el Club Argentino de Modelismo Naval a Escala lleva adelante la exhibición de los navíos, en un homenaje denominado “Héroes de la Gesta”. La vicepresidenta Victoria Villarruel comentó que será parte de la ceremonia e hizo extensiva la invitación a través de sus redes sociales. “Los invito a seguir hoy a las 16 horas por Senado TV el acto central de la “Semana de Malvinas”, un sentido homenaje a nuestros héroes que estamos realizando en el Senado en el marco de la conmemoración del Día del Veterano y de los Caídos en la Guerra de Malvinas\", escribió en su cuenta de X. El Senado argentino lanzó un programa de eventos dedicados a la Gesta de Malvinas, con una agenda que se desplegará en diversos escenarios de la Ciudad de Buenos Aires y que incluye homenajes, debates y presentaciones inéditas. La propuesta articula paneles con protagonistas directos, exhibiciones documentales únicas y el lanzamiento de un libro que rescata un episodio poco difundido de la guerra. Las actividades comenzaron el viernes 27 de marzo en el Salón Azul del Palacio Legislativo con un panel titulado “Combate de comandos en el Puente Murrell”. Este espacio de diálogo reunió testimonios de quienes tuvieron un rol central en uno de los enfrentamientos decisivos del conflicto, apuntando a rescatar miradas personales que no suelen emerger en las efemérides oficiales. El lunes 30 de marzo a las 16, el mismo Salón Azul continuó siendo sede con la ceremonia “Malvinas, epopeya nacional”. Este acto busca renovar el homenaje a los caídos y a los veteranos, y se instala como el punto de mayor visibilidad institucional en la agenda propuesta por la Dirección Gesta de Malvinas. Uno de los datos exclusivos del programa aparece el lunes 6 de abril a las 18, con la presentación del libro “Malvinas, los ojos del Cóndor”, escrito por el brigadier retirado VGM Eduardo J. Daghero. Esta publicación explora “la odisea de los tres soldados que no se rindieron en la Batalla de Darwin”, episodio apenas documentado en la historia oficial. Con un enfoque centrado en la resistencia y la experiencia humana del combate, la obra aporta material documental propio, desplazando el eje de la conmemoración hacia narrativas menos exploradas hasta ahora. La programación suma otra perla informativa: el jueves 2 de abril desde las 15 en el Cine Gaumont (Avenida Rivadavia 1635), tendrá lugar la proyección de los cortometrajes documentales “Héroes nuestros de tierra, mar y aire: Estévez, Arca y San Miguel”, con dirección de Maximiliano Gerscovich. El ciclo exhibirá también una muestra del Club Argentino de Modelismo Naval a Escala, que expondrá maquetas y reconstrucciones de los navíos argentinos que participaron en la guerra. Se trata de materiales originales que raras veces integran el circuito expositivo y que “construyen memoria desde lo tangible”, en palabras de los organizadores.",
-      "sourceName": "Infobae",
-      "sourceUrl": "https://www.infobae.com/sociedad/2026/03/30/el-senado-realiza-un-homenaje-a-los-heroes-de-malvinas/",
-      "imageUrl": "https://www.infobae.com/resizer/v2/5XCYRZIQTRHGPMJW5I3PJKXQHA.jpeg?auth=6bbe111a63e1a3230d73b9e8e78a90c937465829ed4b822a3591760c6a0f81c0&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
       "isNew": false
     }
