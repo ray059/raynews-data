@@ -158,11 +158,6 @@ for category, sources in RSS_SOURCES.items():
                     if news_id in historical["news"]:
                         continue
 
-                    count = new_per_category.get(category, 0)
-                    
-                    if count >= MAX_NEW_PER_CATEGORY:
-                        continue
-    
                     all_news.append({
                         "id": news_id,
                         "title": title,
@@ -173,8 +168,6 @@ for category, sources in RSS_SOURCES.items():
                         "category": category  # 👈 CLAVE
                     })
 
-                    new_per_category[category] = count + 1
-    
             except Exception as e:
                 print(f"Error en {source_name}: {e}")
 
