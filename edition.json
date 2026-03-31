@@ -1,9 +1,20 @@
 {
   "api_version": 3,
   "edition_date": "31 de marzo de 2026",
-  "generated_at": "2026-03-31T00:06:29.504089-05:00",
+  "generated_at": "2026-03-31T02:08:32.658370-05:00",
   "country": "Internacional",
   "headlines": [
+    {
+      "id": "d90c3b98b2eabd95c12fa438ee00e1becc87fb9f5f21c9ff613841847f553243",
+      "titleOriginal": "Un policía nacional jubilado consigue el derecho a percibir el complemento por brecha de género en su pensión y recibirá 15.000 euros en atrasos",
+      "summary280": "Un policía nacional jubilado ha logrado que el Tribunal Supremo le reconozca el derecho al complemento por brecha de género en su pensión, recibiendo 15.000 euros en atrasos.",
+      "articleText": "31 Mar, 2026 Por Marcos García Quesada Un agente de la Policía Nacional ya jubilado ha conseguido que el Tribunal Supremo le conceda el derecho a percibir el complemento por brecha de género en su pensión, lo que significa que también va a recibir cerca de 15.000 euros en atrasos, según ha informado el sindicato Jupol, representantes del afectado. La resolución judicial, respaldada por la reciente doctrina del Tribunal Supremo, reconoce el derecho del agente a percibir este complemento económico con carácter retroactivo, “lo que ha supuesto una importante compensación económica tras la denegación inicial por parte de la Administración”, destacan desde el sindicato. La sentencia, dictada por la Sala de lo Contencioso-Administrativo del Alto Tribunal, fija doctrina sobre el derecho de ambos progenitores a acceder a este complemento en determinados supuestos, corrigiendo interpretaciones restrictivas que “durante años han perjudicado especialmente a miles de hombres pensionistas, entre ellos numerosos miembros de la Policía Nacional”. “Desde Jupol recordamos que esta cuestión ha sido objeto de numerosas reclamaciones por parte de agentes jubilados que, cumpliendo todos los requisitos legales, vieron denegado este derecho únicamente por razón de sexo, una circunstancia que tanto el Tribunal de Justicia de la Unión Europea como ahora el Tribunal Supremo han venido corrigiendo”, denuncian. Añaden que “gracias al trabajo de los servicios jurídicos de Jupol, el compañero ha logrado recuperar una cantidad cercana a los 15.000 euros, correspondientes a atrasos e intereses derivados del tiempo en que este derecho le fue indebidamente negado”. “Esta sentencia supone una victoria para la igualdad y para la justicia social. Durante años muchos compañeros jubilados han sido discriminados en el acceso a un complemento económico que sí se reconocía automáticamente a otras personas en idénticas circunstancias“, señalan. El complemento por brecha de género es un incremento económico que se añade a determinadas pensiones contributivas con el objetivo de compensar el perjuicio que la trayectoria profesional de muchas personas ha sufrido tras el nacimiento o adopción de hijos. Este impacto, históricamente más acusado en las mujeres, se traduce en carreras laborales más cortas o con menores cotizaciones, lo que repercute directamente en la cuantía de la pensión. La normativa actual establece que este complemento puede ser reconocido tanto a mujeres como a hombres, siempre que se cumplan una serie de requisitos vinculados a la existencia de hijos y a la afectación que la paternidad o maternidad haya tenido en la vida laboral. En el caso de los hombres, además, se exige acreditar determinadas circunstancias adicionales, como haber visto interrumpida o perjudicada su carrera profesional tras el nacimiento de los hijos o que su pensión sea inferior a la de la madre. El complemento se aplica a pensiones contributivas de jubilación, incapacidad permanente o viudedad, y su cuantía se fija en función del número de hijos, con un importe determinado por cada uno de ellos. Se abona de forma mensual junto con la pensión y tiene carácter indefinido, si bien su reconocimiento no es automático en todos los casos, lo que ha dado lugar a numerosas reclamaciones en los últimos años.",
+      "sourceName": "Infobae",
+      "sourceUrl": "https://www.infobae.com/espana/2026/03/31/un-policia-nacional-jubilado-consigue-el-derecho-a-percibir-el-complemento-por-brecha-de-genero-en-su-pension-y-recibira-15000-euros-en-atrasos/",
+      "imageUrl": "https://www.infobae.com/resizer/v2/S2QZ566FO5CZNDEQROJNKWQ7NE.jpg?auth=a505ff6f0ee46afde1e1c7db837acbde711b263f28844f81f0d496ac5542f078&smart=true&width=1200&height=630&quality=85",
+      "type": "explainer",
+      "isNew": true
+    },
     {
       "id": "029dde51f71e0bbef33e40e21a12c03d2c8cfd89d4f4238a0ced749065fb5835",
       "titleOriginal": "Qué se celebra el 31 de marzo en el Perú: entre la tragedia, la resiliencia y la afirmación de la identidad",
@@ -13,7 +24,7 @@
       "sourceUrl": "https://www.infobae.com/peru/2026/03/31/que-se-celebra-el-31-de-marzo-en-el-peru-entre-la-tragedia-la-resiliencia-y-la-afirmacion-de-la-identidad/",
       "imageUrl": "https://www.infobae.com/resizer/v2/DVU2L6JVQJH27C2JTUVOOZZPCU.jpg?auth=0c1b8582c59ff5f4b3bbac9bd06b322794c598246e7a4d9596dba856d34f0473&smart=true&width=1200&height=630&quality=85",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "691e1073903f89094f771fb3dcfc5438177934643141c9b8fc3a6964b1ace67d",
@@ -24,7 +35,7 @@
       "sourceUrl": "https://www.eltiempo.com/colombia/medellin/familia-de-maria-camila-diaz-colombiana-desaparecida-en-mexico-desmintio-que-habria-sido-hallada-muerta-dicha-informacion-es-completamente-falsa-3544233",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/03/30/69cb39bca6c83.r_d.372-350-0.jpeg",
       "type": "explainer",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "60b61bdc42f802aba63292c83b1b3bedd9eaf31aab0b05a7486cdd6870f59dd9",
@@ -210,17 +221,6 @@
       "sourceName": "El Tiempo Colombia",
       "sourceUrl": "https://www.eltiempo.com/colombia/otras-ciudades/comienza-la-obra-de-acceso-al-hospital-de-alta-complejidad-en-el-eje-cafetero-800-metros-en-construccion-3544021",
       "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/03/30/69caa2ab1d660.png",
-      "type": "explainer",
-      "isNew": false
-    },
-    {
-      "id": "c4e3ac2e0848895291c7a16fc7bff27c477a28e698a8e9a4eddfaa8694dc796d",
-      "titleOriginal": "\"O te matan o te matas\": qué se sabe del Rancho Izaguirre un año después del hallazgo en México del lugar de \"reclutamiento y exterminio\" del cartel CJNG",
-      "summary280": "Un año después del hallazgo en el Rancho Izaguirre, se reveló que era un sitio de reclutamiento y exterminio del CJNG, donde desaparecieron y asesinaron a muchos jóvenes. Testimonios de sobrevivientes describen el lugar como un \"supermercado\" de mano de obra para el cartel.",
-      "articleText": "Fuente de la imagen, Getty Images Las fotos y videos de una gran pila de zapatos, ropa y objetos personales acumulados durante mucho tiempo dieron la vuelta al mundo hace algo más de un año. Eran el indicio más evidente de que por el Rancho Izaguirre habían pasado decenas y decenas de personas. Fueron encontrados por el colectivo Guerreros Buscadores de Jalisco (GBJ), una organización de padres y madres de desaparecidos en ese estado del oeste de México. La transmisión en vivo que hicieron en Facebook el 5 de marzo de 2025 también dio cuenta de que en ese lugar posiblemente había sido usado para quitarle la vida a muchas personas en una región dominada por el Cartel Jalisco Nueva Generación (CJNG). Raúl Servín, uno de los padres de GBJ, contó entonces a BBC Mundo que encontraron casquillos de balas y cargadores, así como fosas clandestinas y rastros del uso de fuego. El hallazgo del Rancho Izaguirre conmocionó a México y trascendió a nivel internacional porque parecía ser un sitio de reclutamiento del CJNG en el que también se habían cometido asesinatos de manera masiva o sistemática. La Fiscalía General de la República (FGR) asumió las investigaciones, pero desde entonces ha rechazado categóricamente que hubiese evidencias de \"hornos crematorios\" o algún tipo de desaparición masiva de restos humanos. \"Las investigaciones han determinado de manera clara y contundente que el lugar era utilizado como un sitio de adiestramiento\", dijo la FGR el pasado 5 de marzo. Desde entonces hubo algunos avances en la investigación: Final de Más leídas Los testimonios de hombres y mujeres que aseguran que estuvieron en el Rancho Izaguirre no dudan en afirmar que ahí se dio el asesinato y desaparición de cuerpos de muchos jóvenes que fueron llevados ahí con engaños de un empleo formal. La periodista de investigación Sandra Romandía obtuvo el testimonio de algunos de esos sobrevivientes y, luego de meses de trabajo, publicó el libro \"Testigos de horror: la verdad que se quiso ocultar en el Rancho Izaguirre\". Más de un año después del descubrimiento, Romandía conversó con BBC Mundo sobre qué se sabe de lo ocurrido ahí y las dudas que persisten en la investigación. BBC Mundo solicitó hablar con la Fiscalía General de la República sobre el caso, pero no obtuvo respuesta antes de la publicación de este artículo. Fuente de la imagen, GBJ El nuevo podcast de BBC Mundo sobre un amor que triunfó contra todo pronóstico Episodios Fin de Podcast Hay un testimonio clave en el libro, el de María, porque ella estuvo en el rancho, vio lo que ocurría ahí. Un testimonio que llega por su contacto con los Guerreros Buscadores de Jalisco (GBJ). Es un testimonio de varias horas de grabación con Indira Navarro (GBJ) y es uno de los más importantes porque tiene una continuidad y lo que busca es desahogarse. Algo que yo noto en las víctimas, en las personas que sobrevivieron, es que buscan desahogarse, que buscan de alguna manera contar su historia. Probablemente para que no se vuelva a repetir, probablemente para que atiendan a más personas que puedan estar encerradas, pero que con todo y el riesgo tuvieron la valentía de contar lo que les pasó. En un momento ella y otros testigos hablan de que este rancho es como \"un supermercado del CJNG\". ¿Por qué lo describen así? Lo que señalan los sobrevivientes es que es como si fuera una base de mano de obra barata para el cartel. Es como si este y otros ranchos se convirtieran en centros de manos que disparen, de ojos que vigilen, de mujeres que cocinen en campamentos donde están combatiendo, de médicos -porque también hay indicios de que secuestraron médicos- que los atiendan. Entonces el Rancho Izaguirre, y otros campamentos y ranchos donde estaban adiestrando a las personas reclutadas de manera forzada, no es que fuera solo como un supermercado, sino como que se convirtió, según los propios testimonios, en centros de abastecimiento de mano de obra para el Cártel Jalisco Nueva Generación. Fuente de la imagen, Grijalbo María",
-      "sourceName": "BBC News Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c0mgjngk3ygo?at_medium=RSS&at_campaign=rss",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_mundo/8157/live/bf94f2f0-18d0-11f1-a081-4d348790fac7.jpg",
       "type": "explainer",
       "isNew": false
     }
