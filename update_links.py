@@ -38,8 +38,9 @@ RSS_SOURCES = {
     "deportes": {
         "El Tiempo": "https://www.eltiempo.com/rss/deportes_futbol-internacional.xml",
         "La FM": "https://www.lafm.com.co/rss/deportes.xml"
-    }
+    },
 
+    # 🔹 NUEVO: CIENCIA Y TECNOLOGIA
     "ciencia y tecnología": {
         "DW.COM": "https://rss.dw.com/rdf/rss-sp-cyt"
     }
