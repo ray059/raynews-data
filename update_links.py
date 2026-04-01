@@ -22,7 +22,7 @@ RSS_SOURCES = {
     # 🔹 FEEDS GENERALES (los que ya tenías)
     "general": {
         "BBC News Mundo": "https://feeds.bbci.co.uk/mundo/rss.xml",
-        "El Tiempo Colombia": "https://www.eltiempo.com/rss/colombia.xml",
+        "El Tiempo": "https://www.eltiempo.com/rss/colombia.xml",
         "Infobae": "https://www.infobae.com/arc/outboundfeeds/rss/",
         "DW Español": "https://rss.dw.com/rdf/rss-sp-all"
     },
