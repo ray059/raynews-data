@@ -42,7 +42,7 @@ RSS_SOURCES = {
 
     # 🔹 NUEVO: CIENCIA Y TECNOLOGIA
     "ciencia y tecnología": {
-        "DW.COM": "https://rss.dw.com/rdf/rss-sp-cyt",
+        "DW Español": "https://rss.dw.com/rdf/rss-sp-cyt",
         "El Tiempo": "https://www.eltiempo.com/rss/vida_ciencia.xml",
         "El Tiempo": "https://www.eltiempo.com/rss/tecnosfera.xml"
     }
