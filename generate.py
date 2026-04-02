@@ -452,10 +452,13 @@ for cat in all_categories:
         # 🔥 llenar sin límite de nuevas
         needed = MAX_PER_CATEGORY - current_existing
 
+        # 🔥 meter TODAS las nuevas primero
         take_new = new_items_cat[:needed]
-        # combinar nuevas + existentes
-        combined = take_new + existing_items_cat
-        selected.extend(combined[:MAX_PER_CATEGORY])
+        selected.extend(take_new)
+        
+        # 🔥 luego completar con existentes
+        remaining_slots = MAX_PER_CATEGORY - len(selected)
+        selected.extend(existing_items_cat[:remaining_slots])
 
     else:
         # 🔒 categoría llena → máximo 2 nuevas
