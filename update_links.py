@@ -227,10 +227,6 @@ while len(balanced_news) < TARGET_NEWS:
         news = category_queues[cat][0]
         source = news["sourceName"]
 
-        if source_counts.get(source, 0) >= MAX_PER_SOURCE:
-            category_queues[cat].pop(0)
-            continue
-
         balanced_news.append(news)
         source_counts[source] = source_counts.get(source, 0) + 1
         category_queues[cat].pop(0)
@@ -241,7 +237,27 @@ while len(balanced_news) < TARGET_NEWS:
     if not added:
         break
 
-print("Noticias finales seleccionadas:", len(balanced_news))
+print("Noticias finales seleccionadas (antes de limitar fuente):", len(balanced_news))
+
+# -------------------------------------------------
+# 🔥 NUEVO: LIMITAR POR FUENTE (DESPUÉS DEL BALANCE)
+# -------------------------------------------------
+
+final_news = []
+source_counts = {}
+
+for news in balanced_news:
+    source = news["sourceName"]
+
+    if source_counts.get(source, 0) >= MAX_PER_SOURCE:
+        continue
+
+    final_news.append(news)
+    source_counts[source] = source_counts.get(source, 0) + 1
+
+balanced_news = final_news
+
+print("Noticias finales seleccionadas (después de limitar fuente):", len(balanced_news))
 
 # -------------------------------------------------
 # GUARDAR LINKS
