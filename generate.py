@@ -295,9 +295,20 @@ for line in lines:
 
 
     news_id = make_id(url)
+    if source_name in ["Mongabay", "DW Español"]:
+        print(f"[ID][NEW] {title[:60]} → {news_id}")
 
     # evitar duplicados dentro de la edición actual
-    if any(n.get("id") == news_id for n in normalized_base):
+    existing_match = next((n for n in normalized_base if n.get("id") == news_id), None)
+    
+    if existing_match:
+        if source_name in ["Mongabay", "DW Español"]:
+            print(f"[DROP][DUPLICATE]")
+            print(f"  NEW : {title[:60]}")
+            print(f"  NEW_ID: {news_id}")
+            print(f"  EXISTING: {existing_match.get('titleOriginal','')[:60]}")
+            print(f"  EXISTING_ID: {existing_match.get('id')}")
+            print(f"  EXISTING_SOURCE: {existing_match.get('sourceName')}")
         continue
 
     article_text = extract_article_text(url)
