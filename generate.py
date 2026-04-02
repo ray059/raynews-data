@@ -322,15 +322,10 @@ for line in lines:
         stats["passed_image"] += 1
 
     
-    summary = generate_summary(title, article_text)
+    summary = None  # 🔥 se genera después
     
-    if not summary:
-        stats["drop_summary"] += 1
-        stats_by_category[category]["drop_summary"] += 1
-        print("[TRACE][DROP SUMMARY]", title[:50])
-        continue
-    else:
-        stats["passed_summary"] += 1
+    # 🔥 no filtrar por summary aún
+    stats["passed_summary"] += 1
 
 
     existing_count = len(existing_by_category_initial.get(category, []))
@@ -349,6 +344,8 @@ for line in lines:
 
     stats["final_new_items"] += 1
     stats_by_category[category]["final"] += 1
+    # 🔥 GENERAR SUMMARY SOLO PARA LOS SELECCIONADOS
+    summary = generate_summary(title, article_text)
     new_items.append({
         "id": news_id,  # 👈 AGREGA ESTA LÍNEA
         "titleOriginal": title,
