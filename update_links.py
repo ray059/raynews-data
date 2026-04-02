@@ -123,65 +123,98 @@ MAX_NEW_PER_CATEGORY = 2
 
 for category, sources in RSS_SOURCES.items():
     
-        for source_name, rss_url in sources.items():
-    
-            try:
-                print(f"\nRevisando {source_name} ({category})")
-    
-                response = requests.get(rss_url, headers=HEADERS, timeout=10)
-                response.raise_for_status()
-    
-                soup = BeautifulSoup(response.content, "xml")
-                items = soup.find_all("item")
-    
-                print("Items encontrados:", len(items))
-    
-                for item in items:
-    
-                    title = item.title.text if item.title else ""
-                    link = item.link.text if item.link else ""
-                    pub_date_str = item.pubDate.text if item.pubDate else ""
-                    description = item.description.text if item.description else ""
-    
-                    title = clean_text(title)
-                    description = clean_text(description)
-    
-                    if not title or not link:
-                        continue
-    
-                    pub_date = parse_date(pub_date_str)
-    
-                    if not pub_date:
-                        continue
-    
-                    if not is_last_24h(pub_date):
-                        continue
-    
-                    # Solo exigir explainers a BBC (solo si es general)
-                    if category == "general" and source_name == "BBC News Mundo":
-                        if not is_explainer(title):
-                            continue
-    
-                    news_id = make_id(link)
-    
-                    if news_id in historical["news"]:
+    for source_name, rss_url in sources.items():
+
+        raw_count = 0
+        valid_date_count = 0
+        last24_count = 0
+        added_count = 0
+
+        try:
+            print(f"\nRevisando {source_name} ({category})")
+
+            response = requests.get(rss_url, headers=HEADERS, timeout=10)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.content, "xml")
+            items = soup.find_all("item")
+
+            print("Items encontrados:", len(items))
+
+            for item in items:
+
+                raw_count += 1
+
+                title = item.title.text if item.title else ""
+                link = item.link.text if item.link else ""
+                pub_date_str = item.pubDate.text if item.pubDate else ""
+                description = item.description.text if item.description else ""
+
+                title = clean_text(title)
+                description = clean_text(description)
+
+                if not title or not link:
+                    continue
+
+                pub_date = parse_date(pub_date_str)
+
+                # ✅ fecha válida
+                if pub_date:
+                    valid_date_count += 1
+
+                if not pub_date:
+                    continue
+
+                # ✅ dentro de 24h
+                if is_last_24h(pub_date):
+                    last24_count += 1
+                else:
+                    continue
+
+                # Solo exigir explainers a BBC (solo si es general)
+                if category == "general" and source_name == "BBC News Mundo":
+                    if not is_explainer(title):
                         continue
 
-                    all_news.append({
-                        "id": news_id,
-                        "title": title,
-                        "url": link,
-                        "sourceName": source_name,
-                        "pubDate": pub_date,
-                        "description": description,
-                        "category": category  # 👈 CLAVE
-                    })
+                news_id = make_id(link)
 
-            except Exception as e:
-                print(f"Error en {source_name}: {e}")
+                if news_id in historical["news"]:
+                    continue
 
-print(new_per_category)
+                all_news.append({
+                    "id": news_id,
+                    "title": title,
+                    "url": link,
+                    "sourceName": source_name,
+                    "pubDate": pub_date,
+                    "description": description,
+                    "category": category
+                })
+
+                added_count += 1
+
+        except Exception as e:
+            print(f"Error en {source_name}: {e}")
+
+        # 🔥 LOG CLAVE POR SOURCE
+        print(f"[DEBUG][{category}][{source_name}] "
+              f"raw={raw_count} valid_date={valid_date_count} "
+              f"last24h={last24_count} added={added_count}")
+
+
+# -------------------------------------------------
+# DEBUG GLOBAL
+# -------------------------------------------------
+
 print("\nCandidatos antes de ordenar:", len(all_news))
+
+from collections import Counter
+
+cat_counter = Counter([n["category"] for n in all_news])
+print("[DEBUG] Distribución por categoría (antes de ordenar):")
+for cat, count in cat_counter.items():
+    print(f"  {cat}: {count}")
+
 
 # -------------------------------------------------
 # ORDENAR POR MÁS RECIENTES
@@ -189,33 +222,34 @@ print("\nCandidatos antes de ordenar:", len(all_news))
 
 all_news.sort(key=lambda x: x["pubDate"], reverse=True)
 
+
 # -------------------------------------------------
-# BALANCE ENTRE FUENTES
+# BALANCE ENTRE CATEGORÍAS
 # -------------------------------------------------
 
 from collections import defaultdict
 
-# agrupar por categoría
 by_category = defaultdict(list)
 
 for news in all_news:
     by_category[news["category"]].append(news)
 
-# mantener orden por fecha dentro de cada categoría
+# DEBUG
+print("\n[DEBUG] Tamaño por categoría en by_category:")
+for cat, items in by_category.items():
+    print(f"  {cat}: {len(items)}")
+
+# ordenar dentro de cada categoría
 for cat in by_category:
     by_category[cat].sort(key=lambda x: x["pubDate"], reverse=True)
 
 balanced_news = []
 
-
-# crear colas
 category_queues = {cat: list(items) for cat, items in by_category.items()}
-
 category_counts = {}
 
 while True:
 
-    # ordenar categorías por menor cantidad actual
     cat_order = sorted(
         category_queues.keys(),
         key=lambda c: category_counts.get(c, 0)
@@ -225,7 +259,6 @@ while True:
 
     for cat in cat_order:
 
-        # 🚨 límite por categoría (POOL)
         if category_counts.get(cat, 0) >= MAX_PER_CATEGORY_POOL:
             continue
 
@@ -240,13 +273,30 @@ while True:
         added = True
         break
 
+    # DEBUG cada 10
+    if len(balanced_news) % 10 == 0:
+        print("[DEBUG] Progreso balance:")
+        for c in category_counts:
+            print(f"  {c}: {category_counts[c]}")
+
     if not added:
         break
 
-print("Noticias finales seleccionadas (antes de limitar fuente):", len(balanced_news))
 
 # -------------------------------------------------
-# 🔥 NUEVO: LIMITAR POR FUENTE (DESPUÉS DEL BALANCE)
+# DEBUG ANTES DE FUENTE
+# -------------------------------------------------
+
+print("Noticias finales seleccionadas (antes de limitar fuente):", len(balanced_news))
+
+cat_counter_balanced = Counter([n["category"] for n in balanced_news])
+print("[DEBUG] Distribución antes de limitar fuente:")
+for cat, count in cat_counter_balanced.items():
+    print(f"  {cat}: {count}")
+
+
+# -------------------------------------------------
+# LIMITAR POR FUENTE
 # -------------------------------------------------
 
 final_news = []
@@ -263,7 +313,18 @@ for news in balanced_news:
 
 balanced_news = final_news
 
+
+# -------------------------------------------------
+# DEBUG FINAL
+# -------------------------------------------------
+
 print("Noticias finales seleccionadas (después de limitar fuente):", len(balanced_news))
+
+cat_counter_final = Counter([n["category"] for n in balanced_news])
+print("[DEBUG] Distribución FINAL:")
+for cat, count in cat_counter_final.items():
+    print(f"  {cat}: {count}")
+
 
 # -------------------------------------------------
 # GUARDAR LINKS
