@@ -199,11 +199,17 @@ for category, sources in RSS_SOURCES.items():
 
                 if not pub_date:
                     continue
-
+                
+                # 🔥 TRACE CIENCIA (fecha válida)
+                if category == "ciencia y tecnología":
+                    print(f"[TRACE][DATE OK] {title[:60]}")
+                
                 # ✅ dentro de 24h
                 if is_last_24h(pub_date):
                     last24_count += 1
                 else:
+                    if category == "ciencia y tecnología":
+                        print(f"[TRACE][DROP 24H] {title[:60]}")
                     continue
 
                 # Solo exigir explainers a BBC (solo si es general)
@@ -212,19 +218,22 @@ for category, sources in RSS_SOURCES.items():
                         continue
 
                 news_id = make_id(link)
-
+                
+                # 🔥 TRACE HISTÓRICO
                 if news_id in historical["news"]:
-                    continue
-
-                all_news.append({
-                    "id": news_id,
-                    "title": title,
-                    "url": link,
-                    "sourceName": source_name,
-                    "pubDate": pub_date,
-                    "description": description,
-                    "category": category
-                })
+                    # 🔥 TRACE ADD
+                    if category == "ciencia y tecnología":
+                        print(f"[TRACE][ADD] {title[:60]}")
+                    
+                    all_news.append({
+                        "id": news_id,
+                        "title": title,
+                        "url": link,
+                        "sourceName": source_name,
+                        "pubDate": pub_date,
+                        "description": description,
+                        "category": category
+                    })
 
                 added_count += 1
 
@@ -242,6 +251,11 @@ for category, sources in RSS_SOURCES.items():
 # -------------------------------------------------
 
 print("\nCandidatos antes de ordenar:", len(all_news))
+print("[TRACE] Distribución REAL en all_news:")
+from collections import Counter
+cat_counter = Counter([n["category"] for n in all_news])
+for k, v in cat_counter.items():
+    print(f"  {k}: {v}")
 
 from collections import Counter
 
@@ -303,6 +317,11 @@ while True:
         news = category_queues[cat].pop(0)
 
         balanced_news.append(news)
+        
+        # 🔥 TRACE BALANCE
+        if news["category"] == "ciencia y tecnología":
+            count = len([x for x in balanced_news if x["category"] == "ciencia y tecnología"])
+            print(f"[TRACE][BALANCE] ciencia ahora: {count}")
         category_counts[cat] = category_counts.get(cat, 0) + 1
 
         added = True
@@ -323,6 +342,11 @@ while True:
 # -------------------------------------------------
 
 print("Noticias finales seleccionadas (antes de limitar fuente):", len(balanced_news))
+print("[TRACE] Antes de limitar fuente:")
+from collections import Counter
+cat_counter = Counter([n["category"] for n in balanced_news])
+for k, v in cat_counter.items():
+    print(f"  {k}: {v}")
 
 cat_counter_balanced = Counter([n["category"] for n in balanced_news])
 print("[DEBUG] Distribución antes de limitar fuente:")
