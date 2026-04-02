@@ -147,7 +147,12 @@ for category, sources in RSS_SOURCES.items():
 
                 title = item.title.text if item.title else ""
                 link = item.link.text if item.link else ""
-                pub_date_str = item.pubDate.text if item.pubDate else ""
+                pub_date_str = ""
+                
+                if item.pubDate:
+                    pub_date_str = item.pubDate.text
+                elif item.find("dc:date"):
+                    pub_date_str = item.find("dc:date").text
                 description = item.description.text if item.description else ""
 
                 title = clean_text(title)
