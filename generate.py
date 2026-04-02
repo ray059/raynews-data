@@ -273,15 +273,28 @@ for line in lines:
 
     stats["total"] += 1
 
+    # -------------------------
+    # PARSE SEGURO + DEBUG
+    # -------------------------
     parts = line.strip().split("||")
-    
+
     if len(parts) < 4:
+        print("\n[DROP][FORMAT]")
+        print(f"LINE: {line}")
+        print(f"PARTS LEN: {len(parts)}")
         continue
-    
-    title, url, source_name, description = parts[:4]
+
+    title = parts[0]
+    url = parts[1]
+    source_name = parts[2]
+    description = parts[3]
     category = parts[4] if len(parts) > 4 else "general"
 
-    # 🔥 AHORA SÍ usar category
+    print(f"[INPUT] {source_name} | {category} | {title[:60]}")
+
+    # -------------------------
+    # STATS INIT
+    # -------------------------
     stats_by_category.setdefault(category, {
         "total": 0,
         "drop_text": 0,
@@ -291,74 +304,83 @@ for line in lines:
     })
 
     stats_by_category[category]["total"] += 1
-    
 
-
+    # -------------------------
+    # ID
+    # -------------------------
     news_id = make_id(url)
-    if source_name in ["Mongabay", "DW Español"]:
-        print(f"[ID][NEW] {title[:60]} → {news_id}")
+    print(f"[ID] {news_id[:10]}...")
 
-    # evitar duplicados dentro de la edición actual
+    # -------------------------
+    # DUPLICADOS
+    # -------------------------
     existing_match = next((n for n in normalized_base if n.get("id") == news_id), None)
-    
-    if existing_match:
-        if source_name in ["Mongabay", "DW Español"]:
-            print(f"[DROP][DUPLICATE]")
-            print(f"  NEW : {title[:60]}")
-            print(f"  NEW_ID: {news_id}")
-            print(f"  EXISTING: {existing_match.get('titleOriginal','')[:60]}")
-            print(f"  EXISTING_ID: {existing_match.get('id')}")
-            print(f"  EXISTING_SOURCE: {existing_match.get('sourceName')}")
-        continue
 
+    if existing_match:
+        print("[DROP][DUPLICATE]")
+        print(f"  NEW: {title[:60]}")
+        print(f"  EXISTING: {existing_match.get('titleOriginal','')[:60]}")
+        print(f"  SOURCE: {existing_match.get('sourceName')}")
+        continue
+    else:
+        print("[PASS][UNIQUE]")
+
+    # -------------------------
+    # TEXTO
+    # -------------------------
     article_text = extract_article_text(url)
-    
+
     if len(article_text) < 120:
         stats["drop_text"] += 1
         stats_by_category[category]["drop_text"] += 1
-        print("[TRACE][DROP TEXT]", title[:50])
+        print(f"[DROP][TEXT] len={len(article_text)}")
         continue
     else:
         stats["passed_text"] += 1
+        print(f"[PASS][TEXT] len={len(article_text)}")
 
-    
+    # -------------------------
+    # IMAGEN
+    # -------------------------
     image = extract_image(url)
-    
+
     if not image or "fallback-promo-image" in image:
         stats["drop_image"] += 1
         stats_by_category[category]["drop_image"] += 1
-        print("[TRACE][DROP IMAGE]", title[:50])
+        print("[DROP][IMAGE]")
         continue
     else:
         stats["passed_image"] += 1
+        print("[PASS][IMAGE]")
 
-    
-    summary = None  # 🔥 se genera después
-    
-    # 🔥 no filtrar por summary aún
-    stats["passed_summary"] += 1
-
-
+    # -------------------------
+    # LÓGICA DE LÍMITES
+    # -------------------------
     existing_count = len(existing_by_category_initial.get(category, []))
     count = new_per_category.get(category, 0)
-    
-    # 🔥 SOLO limitar si ya está llena
+
     if existing_count >= 20:
-    
+
         if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
+            print("[DROP][SOURCE LIMIT]")
             continue
-    
-        count = new_per_category.get(category, 0)
-        
+
         if count >= MAX_NEW_PER_CATEGORY:
+            print("[DROP][CATEGORY LIMIT]")
             continue
+
+    # -------------------------
+    # FINAL SELECCIONADO
+    # -------------------------
+    print("[PASS][FINAL NEW]")
 
     stats["final_new_items"] += 1
     stats_by_category[category]["final"] += 1
-    # 🔥 GENERAR SUMMARY SOLO PARA LOS SELECCIONADOS
+
     summary = generate_summary(title, article_text)
-    new_items.append({
-        "id": news_id,  # 👈 AGREGA ESTA LÍNEA
+
+    item = {
+        "id": news_id,
         "titleOriginal": title,
         "summary280": summary,
         "articleText": article_text,
@@ -368,8 +390,13 @@ for line in lines:
         "type": "explainer",
         "isNew": True,
         "category": category
-    })
+    }
 
+    new_items.append(item)
+
+    # -------------------------
+    # HISTÓRICO
+    # -------------------------
     historical["news"][news_id] = {
         "titleOriginal": title,
         "summary280": summary,
@@ -379,7 +406,7 @@ for line in lines:
         "imageUrl": image,
         "first_seen": now.isoformat()
     }
-    
+
     hist_30["news"][news_id] = historical["news"][news_id]
     hist_12["news"][news_id] = historical["news"][news_id]
 
@@ -388,7 +415,6 @@ for line in lines:
     per_source_new_counter[source_name] = (
         per_source_new_counter.get(source_name, 0) + 1
     )
-
 # -------------------------------------------------
 # SEPARAR NUEVAS Y EXISTENTES POR CATEGORÍA
 # -------------------------------------------------
