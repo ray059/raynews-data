@@ -192,7 +192,21 @@ for category, sources in RSS_SOURCES.items():
                 if not title or not link:
                     continue
 
+                # 🔥 FIX MONGABAY (meses en español → inglés)
+                MESES = {
+                    "Ene": "Jan", "Feb": "Feb", "Mar": "Mar", "Abr": "Apr",
+                    "May": "May", "Jun": "Jun", "Jul": "Jul", "Ago": "Aug",
+                    "Sep": "Sep", "Oct": "Oct", "Nov": "Nov", "Dic": "Dec"
+                }
+                
+                for es, en in MESES.items():
+                    if es in pub_date_str:
+                        pub_date_str = pub_date_str.replace(es, en)
+                
                 pub_date = parse_date(pub_date_str)
+
+                if category == "ciencia y tecnología":
+                    print(f"[TRACE][DATE PARSED] {title[:50]} → {pub_date}")
 
                 # ✅ fecha válida
                 if pub_date:
