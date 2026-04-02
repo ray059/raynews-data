@@ -79,6 +79,10 @@ def parse_date(pub_date_str):
 
     # 2️⃣ ISO 8601 (El Tiempo)
     try:
+        # arreglar formato Z
+        if pub_date_str.endswith("Z"):
+            pub_date_str = pub_date_str.replace("Z", "+00:00")
+        
         dt = datetime.fromisoformat(pub_date_str)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=COLOMBIA_TZ)
