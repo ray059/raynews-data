@@ -230,6 +230,13 @@ now = datetime.now(ZoneInfo("America/Bogota"))
 fecha_legible = f"{now.day:02d} de {MESES_ES[now.month]} de {now.year}"
 
 new_items = []
+
+# 🔥 EXISTENTES POR CATEGORÍA (ANTES DEL LOOP)
+existing_by_category_initial = {}
+
+for item in normalized_base:
+    cat = item.get("category", "general")
+    existing_by_category_initial.setdefault(cat, []).append(item)
 # -------------------------------------------------
 # STATS DEBUG
 # -------------------------------------------------
@@ -326,26 +333,19 @@ for line in lines:
         stats["passed_summary"] += 1
 
 
-    historical["news"][news_id] = {
-        "titleOriginal": title,
-        "summary280": summary,
-        "articleText": article_text,
-        "sourceName": source_name,
-        "sourceUrl": url,
-        "imageUrl": image,
-        "first_seen": now.isoformat()
-    }
-
-    hist_30["news"][news_id] = historical["news"][news_id]
-    hist_12["news"][news_id] = historical["news"][news_id]
-
-    if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
-        continue
-
+    existing_count = len(existing_by_category_initial.get(category, []))
     count = new_per_category.get(category, 0)
     
-    if count >= MAX_NEW_PER_CATEGORY:
-        continue
+    # 🔥 SOLO limitar si ya está llena
+    if existing_count >= 20:
+    
+        if per_source_new_counter.get(source_name, 0) >= MAX_NEW_PER_SOURCE:
+            continue
+    
+        count = new_per_category.get(category, 0)
+        
+        if count >= MAX_NEW_PER_CATEGORY:
+            continue
 
     stats["final_new_items"] += 1
     stats_by_category[category]["final"] += 1
@@ -362,7 +362,20 @@ for line in lines:
         "category": category
     })
 
-    new_per_category[category] = count + 1
+    historical["news"][news_id] = {
+        "titleOriginal": title,
+        "summary280": summary,
+        "articleText": article_text,
+        "sourceName": source_name,
+        "sourceUrl": url,
+        "imageUrl": image,
+        "first_seen": now.isoformat()
+    }
+    
+    hist_30["news"][news_id] = historical["news"][news_id]
+    hist_12["news"][news_id] = historical["news"][news_id]
+
+    new_per_category[category] = new_per_category.get(category, 0) + 1
 
     per_source_new_counter[source_name] = (
         per_source_new_counter.get(source_name, 0) + 1
