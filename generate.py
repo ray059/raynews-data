@@ -224,10 +224,26 @@ if not os.path.exists("links.txt"):
 with open("links.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
+print("[TRACE] Total lines:", len(lines))
+
 now = datetime.now(ZoneInfo("America/Bogota"))
 fecha_legible = f"{now.day:02d} de {MESES_ES[now.month]} de {now.year}"
 
 new_items = []
+# -------------------------------------------------
+# STATS DEBUG
+# -------------------------------------------------
+stats = {
+    "total": 0,
+    "passed_text": 0,
+    "passed_image": 0,
+    "passed_summary": 0,
+    "final_new_items": 0,
+    "drop_text": 0,
+    "drop_image": 0,
+    "drop_summary": 0
+}
+stats_by_category = {}
 new_per_category = {}
 MAX_NEW_PER_CATEGORY = 2
 per_source_new_counter = {}
@@ -248,6 +264,8 @@ hist_12 = load_hist(HIST_12_FILE)
 
 for line in lines:
 
+    stats["total"] += 1
+
     parts = line.strip().split("||")
     
     if len(parts) < 4:
@@ -256,25 +274,57 @@ for line in lines:
     title, url, source_name, description = parts[:4]
     category = parts[4] if len(parts) > 4 else "general"
 
+    # 🔥 AHORA SÍ usar category
+    stats_by_category.setdefault(category, {
+        "total": 0,
+        "drop_text": 0,
+        "drop_image": 0,
+        "drop_summary": 0,
+        "final": 0
+    })
+
+    stats_by_category[category]["total"] += 1
+    
+
+
     news_id = make_id(url)
 
-    if news_id in historical["news"]:
+    # evitar duplicados dentro de la edición actual
+    if any(n.get("id") == news_id for n in normalized_base):
         continue
 
     article_text = extract_article_text(url)
     
     if len(article_text) < 120:
+        stats["drop_text"] += 1
+        stats_by_category[category]["drop_text"] += 1
+        print("[TRACE][DROP TEXT]", title[:50])
         continue
+    else:
+        stats["passed_text"] += 1
+
     
     image = extract_image(url)
     
     if not image or "fallback-promo-image" in image:
+        stats["drop_image"] += 1
+        stats_by_category[category]["drop_image"] += 1
+        print("[TRACE][DROP IMAGE]", title[:50])
         continue
+    else:
+        stats["passed_image"] += 1
+
     
     summary = generate_summary(title, article_text)
     
     if not summary:
+        stats["drop_summary"] += 1
+        stats_by_category[category]["drop_summary"] += 1
+        print("[TRACE][DROP SUMMARY]", title[:50])
         continue
+    else:
+        stats["passed_summary"] += 1
+
 
     historical["news"][news_id] = {
         "titleOriginal": title,
@@ -297,6 +347,8 @@ for line in lines:
     if count >= MAX_NEW_PER_CATEGORY:
         continue
 
+    stats["final_new_items"] += 1
+    stats_by_category[category]["final"] += 1
     new_items.append({
         "id": news_id,  # 👈 AGREGA ESTA LÍNEA
         "titleOriginal": title,
@@ -454,5 +506,13 @@ if new_items:
     generate_audio_blocks(new_items, fecha_legible)
 
 print("Noticias nuevas detectadas:", len(new_items))
+print("\n[STATS]")
+print("\n[STATS BY CATEGORY]")
+for cat, data in stats_by_category.items():
+    print(f"\n{cat}:")
+    for k, v in data.items():
+        print(f"  {k}: {v}")
+for k, v in stats.items():
+    print(f"{k}: {v}")
 print("Noticias finales:", len(final_headlines))
 print("===== FIN GENERATE.PY =====")
