@@ -144,7 +144,6 @@ for category, sources in RSS_SOURCES.items():
             for item in items:
 
                 raw_count += 1
-
                 title = item.title.text if item.title else ""
                 link = item.link.text if item.link else ""
                 pub_date_str = ""
@@ -153,12 +152,33 @@ for category, sources in RSS_SOURCES.items():
                 if item.pubDate:
                     pub_date_str = item.pubDate.text
                 
-                # 2. buscar dc:date correctamente
+                # 2. buscar cualquier tag que contenga "date" (DW y otros)
                 else:
+                
+                    if source_name == "DW Español" and raw_count <= 3:
+                        print("\n--- DEBUG DW ITEM ---")
+                
                     for tag in item.find_all():
-                        if "date" in tag.name.lower():
+                
+                        name = str(tag.name).lower()
+                
+                        # 🔬 imprimir todos los tags
+                        if source_name == "DW Español" and raw_count <= 3:
+                            print("TAG:", repr(tag.name))
+                
+                        if "date" in name:
                             pub_date_str = tag.text
+                
+                            if source_name == "DW Español" and raw_count <= 3:
+                                print("👉 MATCH DATE:", tag.text)
+                
                             break
+                
+                    # 🔬 resultado final
+                    if source_name == "DW Español" and raw_count <= 3:
+                        print("pub_date_str detectado:", pub_date_str)
+                        print("--- FIN DEBUG ---\n")
+                
                 description = item.description.text if item.description else ""
 
                 title = clean_text(title)
