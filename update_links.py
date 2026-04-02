@@ -236,20 +236,24 @@ for category, sources in RSS_SOURCES.items():
                 
                 # 🔥 TRACE HISTÓRICO
                 if news_id in historical["news"]:
-                    # 🔥 TRACE ADD
                     if category == "ciencia y tecnología":
-                        print(f"[TRACE][ADD] {title[:60]}")
-                    
-                    all_news.append({
-                        "id": news_id,
-                        "title": title,
-                        "url": link,
-                        "sourceName": source_name,
-                        "pubDate": pub_date,
-                        "description": description,
-                        "category": category
-                    })
-
+                        print(f"[TRACE][SKIP EXISTING] {title[:60]}")
+                    continue
+                
+                # 🔥 TRACE ADD
+                if category == "ciencia y tecnología":
+                    print(f"[TRACE][ADD] {title[:60]}")
+                
+                all_news.append({
+                    "id": news_id,
+                    "title": title,
+                    "url": link,
+                    "sourceName": source_name,
+                    "pubDate": pub_date,
+                    "description": description,
+                    "category": category
+                })
+                
                 added_count += 1
 
         except Exception as e:
