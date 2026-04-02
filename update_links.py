@@ -149,12 +149,16 @@ for category, sources in RSS_SOURCES.items():
                 link = item.link.text if item.link else ""
                 pub_date_str = ""
                 
+                # 1. pubDate normal
                 if item.pubDate:
                     pub_date_str = item.pubDate.text
+                
+                # 2. buscar dc:date correctamente
                 else:
-                    date_tag = item.find("dc:date") or item.find("{*}date")
-                    if date_tag:
-                        pub_date_str = date_tag.text
+                    for tag in item.find_all():
+                        if "date" in tag.name.lower():
+                            pub_date_str = tag.text
+                            break
                 description = item.description.text if item.description else ""
 
                 title = clean_text(title)
