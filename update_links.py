@@ -45,7 +45,8 @@ RSS_SOURCES = {
     "ciencia y tecnología": {
         "DW Español": "https://rss.dw.com/rdf/rss-sp-cyt",
         "El Tiempo": "https://www.eltiempo.com/rss/vida_ciencia.xml",
-        "El Tiempo": "https://www.eltiempo.com/rss/tecnosfera.xml"
+        "El Tiempo": "https://www.eltiempo.com/rss/tecnosfera.xml",
+        "Mongabay": "https://es.mongabay.com/feed/"
     }
     
 }
