@@ -322,6 +322,29 @@ for line in lines:
 
 combined = new_items + normalized_base
 
+# -------------------------------------------------
+# SEPARAR NUEVAS Y EXISTENTES POR CATEGORÍA
+# -------------------------------------------------
+
+new_by_category = {}
+existing_by_category = {}
+
+for item in new_items:
+    cat = item.get("category", "general")
+    new_by_category.setdefault(cat, []).append(item)
+
+for item in normalized_base:
+    cat = item.get("category", "general")
+    existing_by_category.setdefault(cat, []).append(item)
+
+print("\n[DEBUG] Nuevas por categoría:")
+for cat, items in new_by_category.items():
+    print(f"  {cat}: {len(items)}")
+
+print("\n[DEBUG] Existentes por categoría:")
+for cat, items in existing_by_category.items():
+    print(f"  {cat}: {len(items)}")
+
 by_category = {}
 
 for item in combined:
