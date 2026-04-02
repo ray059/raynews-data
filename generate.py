@@ -341,10 +341,6 @@ for cat, items in existing_by_category.items():
 
 by_category = {}
 
-for item in combined:
-    cat = item.get("category", "general")
-    by_category.setdefault(cat, []).append(item)
-
 # -------------------------------------------------
 # LIMITAR A 20 POR CATEGORÍA
 # -------------------------------------------------
