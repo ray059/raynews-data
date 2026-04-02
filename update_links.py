@@ -11,6 +11,7 @@ print("===== INICIO UPDATE_LINKS.PY PRO =====")
 
 TARGET_NEWS = 100
 MAX_PER_SOURCE = 25
+MAX_PER_CATEGORY_POOL = 30
 
 COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
@@ -205,31 +206,36 @@ for cat in by_category:
     by_category[cat].sort(key=lambda x: x["pubDate"], reverse=True)
 
 balanced_news = []
-source_counts = {}
+
 
 # crear colas
 category_queues = {cat: list(items) for cat, items in by_category.items()}
 
-while len(balanced_news) < TARGET_NEWS:
+category_counts = {}
 
-    # ordenar categorías por menor cantidad ya seleccionada
+while True:
+
+    # ordenar categorías por menor cantidad actual
     cat_order = sorted(
         category_queues.keys(),
-        key=lambda c: sum(1 for n in balanced_news if n["category"] == c)
+        key=lambda c: category_counts.get(c, 0)
     )
 
     added = False
 
     for cat in cat_order:
+
+        # 🚨 límite por categoría (POOL)
+        if category_counts.get(cat, 0) >= MAX_PER_CATEGORY_POOL:
+            continue
+
         if not category_queues[cat]:
             continue
 
-        news = category_queues[cat][0]
-        source = news["sourceName"]
+        news = category_queues[cat].pop(0)
 
         balanced_news.append(news)
-        source_counts[source] = source_counts.get(source, 0) + 1
-        category_queues[cat].pop(0)
+        category_counts[cat] = category_counts.get(cat, 0) + 1
 
         added = True
         break
