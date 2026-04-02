@@ -361,20 +361,50 @@ for item in combined:
 
 MAX_PER_CATEGORY = 20
 
-for cat, items in by_category.items():
+# -------------------------------------------------
+# LÓGICA INTELIGENTE POR CATEGORÍA
+# -------------------------------------------------
 
-    # nuevas primero
-    items.sort(key=lambda x: x["isNew"], reverse=True)
+MAX_PER_CATEGORY = 20
+final_by_category = {}
 
-    # limitar a 20
-    if len(items) > MAX_PER_CATEGORY:
-        by_category[cat] = items[:MAX_PER_CATEGORY]
+all_categories = set(list(new_by_category.keys()) + list(existing_by_category.keys()))
+
+for cat in all_categories:
+
+    new_items_cat = new_by_category.get(cat, [])
+    existing_items_cat = existing_by_category.get(cat, [])
+
+    current_existing = len(existing_items_cat)
+
+    selected = []
+
+    if current_existing < MAX_PER_CATEGORY:
+        # 🔥 llenar sin límite de nuevas
+        needed = MAX_PER_CATEGORY - current_existing
+
+        take_new = new_items_cat[:needed]
+        selected.extend(take_new)
+
+        # completar con existentes
+        remaining_slots = MAX_PER_CATEGORY - len(selected)
+        selected.extend(existing_items_cat[:remaining_slots])
+
+    else:
+        # 🔒 categoría llena → máximo 2 nuevas
+        take_new = new_items_cat[:MAX_NEW_PER_CATEGORY]
+        selected.extend(take_new)
+
+        remaining_slots = MAX_PER_CATEGORY - len(selected)
+        selected.extend(existing_items_cat[:remaining_slots])
+
+    final_by_category[cat] = selected
 
 final_headlines = []
 
 # convertir cada categoría en cola (queue)
 category_queues = {
-    cat: list(items) for cat, items in by_category.items()
+    cat: list(items) for cat, items in final_by_category.items()
 }
 
 while True:
