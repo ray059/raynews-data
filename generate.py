@@ -317,12 +317,6 @@ for line in lines:
     )
 
 # -------------------------------------------------
-# NUEVO: AGRUPAR POR CATEGORÍA
-# -------------------------------------------------
-
-combined = new_items + normalized_base
-
-# -------------------------------------------------
 # SEPARAR NUEVAS Y EXISTENTES POR CATEGORÍA
 # -------------------------------------------------
 
@@ -374,6 +368,12 @@ for cat in all_categories:
 
     new_items_cat = new_by_category.get(cat, [])
     existing_items_cat = existing_by_category.get(cat, [])
+    
+    existing_items_cat = sorted(
+        existing_items_cat,
+        key=lambda x: x.get("first_seen", ""),
+        reverse=True
+    )
 
     current_existing = len(existing_items_cat)
 
@@ -384,11 +384,9 @@ for cat in all_categories:
         needed = MAX_PER_CATEGORY - current_existing
 
         take_new = new_items_cat[:needed]
-        selected.extend(take_new)
-
-        # completar con existentes
-        remaining_slots = MAX_PER_CATEGORY - len(selected)
-        selected.extend(existing_items_cat[:remaining_slots])
+        # combinar nuevas + existentes
+        combined = take_new + existing_items_cat
+        selected.extend(combined[:MAX_PER_CATEGORY])
 
     else:
         # 🔒 categoría llena → máximo 2 nuevas
