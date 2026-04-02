@@ -192,20 +192,54 @@ all_news.sort(key=lambda x: x["pubDate"], reverse=True)
 # BALANCE ENTRE FUENTES
 # -------------------------------------------------
 
-balanced_news = []
+from collections import defaultdict
+
+# agrupar por categoría
+by_category = defaultdict(list)
 
 for news in all_news:
+    by_category[news["category"]].append(news)
 
-    if len(balanced_news) >= TARGET_NEWS:
+# mantener orden por fecha dentro de cada categoría
+for cat in by_category:
+    by_category[cat].sort(key=lambda x: x["pubDate"], reverse=True)
+
+balanced_news = []
+source_counts = {}
+
+# crear colas
+category_queues = {cat: list(items) for cat, items in by_category.items()}
+
+while len(balanced_news) < TARGET_NEWS:
+
+    # ordenar categorías por menor cantidad ya seleccionada
+    cat_order = sorted(
+        category_queues.keys(),
+        key=lambda c: sum(1 for n in balanced_news if n["category"] == c)
+    )
+
+    added = False
+
+    for cat in cat_order:
+        if not category_queues[cat]:
+            continue
+
+        news = category_queues[cat][0]
+        source = news["sourceName"]
+
+        if source_counts.get(source, 0) >= MAX_PER_SOURCE:
+            category_queues[cat].pop(0)
+            continue
+
+        balanced_news.append(news)
+        source_counts[source] = source_counts.get(source, 0) + 1
+        category_queues[cat].pop(0)
+
+        added = True
         break
 
-    source = news["sourceName"]
-
-    if source_counts.get(source, 0) >= MAX_PER_SOURCE:
-        continue
-
-    balanced_news.append(news)
-    source_counts[source] = source_counts.get(source, 0) + 1
+    if not added:
+        break
 
 print("Noticias finales seleccionadas:", len(balanced_news))
 
