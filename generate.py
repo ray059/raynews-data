@@ -277,6 +277,7 @@ for line in lines:
     # PARSE SEGURO + DEBUG
     # -------------------------
     parts = line.strip().split("||")
+    published_at = parts[5] if len(parts) > 5 else None
 
     if len(parts) < 4:
         print("\n[DROP][FORMAT]")
@@ -389,7 +390,8 @@ for line in lines:
         "imageUrl": image,
         "type": "explainer",
         "isNew": True,
-        "category": category
+        "category": category,
+        "publishedAt": published_at  # 🔥 AÑADIR
     }
 
     new_items.append(item)
