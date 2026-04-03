@@ -57,6 +57,8 @@ HIST_FILE = "historical_editions.json"
 # UTILIDADES
 # -------------------------------------------------
 
+
+
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
@@ -243,15 +245,18 @@ for category, sources in RSS_SOURCES.items():
                 # 🔥 TRACE ADD
                 if category == "ciencia y tecnología":
                     print(f"[TRACE][ADD] {title[:60]}")
+
+                published_at = pub_date
                 
                 all_news.append({
                     "id": news_id,
                     "title": title,
                     "url": link,
                     "sourceName": source_name,
-                    "pubDate": pub_date,
                     "description": description,
-                    "category": category
+                    "category": category,
+                    "publishedAt": pub_date.isoformat(),  # 👈 para JSON
+                    "_dt": pub_date                       # 👈 para ordenar
                 })
                 
                 added_count += 1
@@ -288,7 +293,7 @@ for cat, count in cat_counter.items():
 # ORDENAR POR MÁS RECIENTES
 # -------------------------------------------------
 
-all_news.sort(key=lambda x: x["pubDate"], reverse=True)
+all_news.sort(key=lambda x: x["_dt"], reverse=True)
 
 
 # -------------------------------------------------
@@ -309,7 +314,7 @@ for cat, items in by_category.items():
 
 # ordenar dentro de cada categoría
 for cat in by_category:
-    by_category[cat].sort(key=lambda x: x["pubDate"], reverse=True)
+    by_category[cat].sort(key=lambda x: x["_dt"], reverse=True)
 
 balanced_news = []
 
