@@ -279,6 +279,10 @@ for line in lines:
     parts = line.strip().split("||")
     published_at = parts[5] if len(parts) > 5 else None
 
+    # 🔥 FIX: asegurar fecha siempre
+    if not published_at:
+        published_at = now.isoformat()
+
     if len(parts) < 4:
         print("\n[DROP][FORMAT]")
         print(f"LINE: {line}")
