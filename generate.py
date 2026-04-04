@@ -120,6 +120,7 @@ if os.path.exists(EDITION_FILE):
         base_edition = current_data.get("headlines", [])
 
 edition_exists = len(base_edition) > 0
+now = datetime.now(ZoneInfo("America/Bogota"))
 
 normalized_base = []
 for h in base_edition:
