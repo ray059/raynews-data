@@ -476,11 +476,21 @@ for cat in all_categories:
     new_items_cat = new_by_category.get(cat, [])
     existing_items_cat = existing_by_category.get(cat, [])
     
+
+    from datetime import datetime
+    
+    def safe_date(x):
+        try:
+            return datetime.fromisoformat(x.get("publishedAt", ""))
+        except:
+            return datetime.min
+    
     existing_items_cat = sorted(
         existing_items_cat,
-        key=lambda x: x.get("first_seen", ""),
+        key=safe_date,
         reverse=True
     )
+
 
     current_existing = len(existing_items_cat)
 
