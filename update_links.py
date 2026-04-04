@@ -215,7 +215,7 @@ for category, sources in RSS_SOURCES.items():
                     valid_date_count += 1
 
                 if not pub_date:
-                    continue
+                    pub_date = datetime.now(COLOMBIA_TZ)
                 
                 # 🔥 TRACE CIENCIA (fecha válida)
                 if category == "ciencia y tecnología":
