@@ -125,7 +125,12 @@ normalized_base = []
 for h in base_edition:
     h_copy = h.copy()
     h_copy["isNew"] = False
-    h_copy["category"] = h_copy.get("category", "general") # 👈 NUEVO
+    h_copy["category"] = h_copy.get("category", "general")
+
+    # 🔥 FIX FECHA PARA EXISTENTES
+    if not h_copy.get("publishedAt"):
+        h_copy["publishedAt"] = now.isoformat()
+
     normalized_base.append(h_copy)
 
 # -------------------------------------------------
