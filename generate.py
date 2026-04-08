@@ -11,6 +11,7 @@ import subprocess
 print("===== INICIO GENERATE.PY =====")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+AI_ENABLED = os.getenv("AI_ENABLED", "true") == "true"
 HIST_FILE = "historical_editions.json"
 EDITION_FILE = "edition.json"
 
@@ -166,7 +167,7 @@ def generate_summary(title, article_text, description=""):
         return description[:280]
 
     # 🔴 si no hay API key → fallback gratis
-    if not OPENAI_API_KEY:
+    if not OPENAI_API_KEY or not AI_ENABLED:
         return (article_text[:280] + "...") if article_text else title
 
     from openai import OpenAI
