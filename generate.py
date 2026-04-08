@@ -159,10 +159,15 @@ def extract_article_text(url):
 # RESUMEN IA
 # -------------------------------------------------
 
-def generate_summary(title, article_text):
+def generate_summary(title, article_text, description=""):
 
+    # 🟢 PRIORIDAD 1: usar descripción (gratis)
+    if description and len(description) > 80:
+        return description[:280]
+
+    # 🔴 si no hay API key → fallback gratis
     if not OPENAI_API_KEY:
-        return None
+        return (article_text[:280] + "...") if article_text else title
 
     from openai import OpenAI
     client = OpenAI(api_key=OPENAI_API_KEY)
@@ -170,7 +175,6 @@ def generate_summary(title, article_text):
     prompt = f"""
 Resume el artículo en máximo 280 caracteres.
 Debe terminar en una frase completa.
-No usar puntos suspensivos.
 No inventar información.
 
 Titular: {title}
@@ -180,7 +184,6 @@ Artículo:
 """
 
     try:
-
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
@@ -196,7 +199,7 @@ Artículo:
         return summary
 
     except:
-        return None
+        return (article_text[:280] + "...") if article_text else title
 
 # -------------------------------------------------
 # IMAGEN
@@ -388,7 +391,7 @@ for line in lines:
     stats["final_new_items"] += 1
     stats_by_category[category]["final"] += 1
 
-    summary = generate_summary(title, article_text)
+    summary = generate_summary(title, article_text, description)
 
     item = {
         "id": news_id,
