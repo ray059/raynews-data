@@ -38,6 +38,7 @@ jobs:
       - name: Generate edition
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AI_ENABLED: "false"
         run: python generate.py
 
       - name: Commit changes
