@@ -574,8 +574,9 @@ with open("historical_12_tmp.json", "w", encoding="utf-8") as f:
 
 os.replace("historical_12_tmp.json", "historical_12m.json")
 
-if new_items:
-    generate_audio_blocks(new_items, fecha_legible)
+# 🔒 AUDIO DESACTIVADO PARA AHORRO
+# if new_items:
+#     generate_audio_blocks(new_items, fecha_legible)
 
 print("Noticias nuevas detectadas:", len(new_items))
 print("\n[STATS]")
